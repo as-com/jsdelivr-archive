@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-21) 13 : 34 : 06 UTC
+  , issueUpdatedAt = 2016 (-01) (-21) 13 : 34 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9255/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9255")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9255
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project searchkit to v0.3.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9255")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9255.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9255.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9255"
+  , issueCreatedAt = 2016 (-01) (-21) 13 : 33 : 59 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project searchkit to v0.3.5.\n\n@searchkit\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"searchkit\",\n    \"repo\": \"searchkit/searchkit\",\n    \"files\": {\n      \"basePath\": \"release/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/searchkit\",\n    \"localVersions\": [\"0.1.8\", \"0.1.11\", \"0.1.12\", \"0.1.13\", \"0.2.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\"],\n    \"remoteVersions\": [\"0.1.8\", \"v0.1.11\", \"v0.1.12\", \"v0.1.13\", \"v0.2.0\", \"v0.3.0\", \"0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.3.4\", \"v0.3.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/searchkit/update.json\",\n  \"versions\": [\"v0.3.5\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.3.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/searchkit/0.3.5\",\n  \"branch\": \"searchkit/v0.3.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127925516
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

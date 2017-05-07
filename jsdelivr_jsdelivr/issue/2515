@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-21) 20 : 35 : 15 UTC
+  , issueUpdatedAt = 2015 (-03) (-21) 20 : 35 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2515/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2515")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2515
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15990
+        , simpleUserLogin = N "diwakergupta"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/15990?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/diwakergupta"
+        }
+  , issueTitle = "Add auto-updater for bootswatch."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2515")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2515.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2515.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2515"
+  , issueCreatedAt = 2014 (-11) (-26) 22 : 49 : 32 UTC
+  , issueBody =
+      Just "jsDelivr is missing the latest releases (3.3.1 onwards)\n"
+  , issueState = StateClosed
+  , issueId = Id 50235577
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-22) 17 : 33 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6295761
+        , simpleUserLogin = N "vousk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6295761?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vousk"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/104722100"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4915#issuecomment-104722100"
+  , issueCommentCreatedAt = 2015 (-05) (-22) 17 : 33 : 26 UTC
+  , issueCommentBody =
+      "I can't put the file currently on the repo because it has not been tested enough yet (in the last weeks we're in the process of adding webworkers compatility, leading to potential bugs and bigger file size). The version I'm uploading to jsdelivr is 100 Ko less than current one and it has been tested in production environnement for some weeks now (release date of this file is 25/04/2014, I don't remember the exact related commit but I can find it)\n"
+  , issueCommentId = 104722100
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-06) 20 : 57 : 16 UTC
+  , issueUpdatedAt = 2017 (-03) (-06) 20 : 57 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16707/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16707")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16707
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2006839
+        , simpleUserLogin = N "DiegoRBaquero"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2006839?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DiegoRBaquero"
+        }
+  , issueTitle = "V: Rename upload.json to update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16707")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16707.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16707.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16707"
+  , issueCreatedAt = 2017 (-03) (-04) 20 : 07 : 28 UTC
+  , issueBody =
+      Just "Was wondering why it wouldn't update.\r\n\r\nMea culpa."
+  , issueState = StateClosed
+  , issueId = Id 211903609
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

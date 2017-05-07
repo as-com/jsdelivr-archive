@@ -1,0 +1,44 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-12) 18 : 12 : 53 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 18 : 12 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/941/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/941")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 941
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1920405
+        , simpleUserLogin = N "moderndeveloperllc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1920405?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/moderndeveloperllc"
+        }
+  , issueTitle =
+      "Add bootstrap integration plugin for jquery.datatables"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/941")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/941.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/941.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/941"
+  , issueCreatedAt = 2014 (-06) (-12) 18 : 03 : 53 UTC
+  , issueBody =
+      Just
+        "Downloaded from: https://github.com/DataTables/Plugins/tree/master/integration/bootstrap\nIt is referenced in the main documentation here: http://datatables.net/manual/styling/bootstrap\n"
+  , issueState = StateClosed
+  , issueId = Id 35608486
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

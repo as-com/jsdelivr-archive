@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-12) 14 : 57 : 20 UTC
+  , issueUpdatedAt = 2014 (-04) (-17) 17 : 46 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/635/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/635")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 635
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4295266
+        , simpleUserLogin = N "medimatrix"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4295266?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/medimatrix"
+        }
+  , issueTitle = "Alameda"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/635")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/635.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/635.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/635"
+  , issueCreatedAt = 2014 (-04) (-12) 14 : 39 : 02 UTC
+  , issueBody =
+      Just
+        "Added the alternative to requirejs for modern browsers, alameda.\n\nAll changes needed from previous pull requests have been done.\n"
+  , issueState = StateClosed
+  , issueId = Id 31384081
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

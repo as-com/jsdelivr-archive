@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-08) 01 : 15 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/138401027"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6758#issuecomment-138401027"
+  , issueCommentCreatedAt = 2015 (-09) (-08) 01 : 15 : 34 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @chrissimpkins, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _font-hack_ between _2.010_ and _2.013_ there was a change in file structure  \n  \n  ``` diff\n  + fonts/eot/hack-bolditalic-webfont.eot\n  + fonts/eot/hack-italic-webfont.eot\n  + fonts/eot/latin/hack-bolditalic-latin-webfont.eot\n  + fonts/eot/latin/hack-italic-latin-webfont.eot\n  + fonts/svg/hack-bolditalic-webfont.svg\n  + fonts/svg/hack-italic-webfont.svg\n  + fonts/svg/latin/hack-bolditalic-latin-webfont.svg\n  + fonts/svg/latin/hack-italic-latin-webfont.svg\n  + fonts/web-ttf/hack-bold-webfont.ttf\n  + fonts/web-ttf/hack-bolditalic-webfont.ttf\n  + fonts/web-ttf/hack-italic-webfont.ttf\n  + fonts/web-ttf/hack-regular-webfont.ttf\n  + fonts/web-ttf/latin/hack-bold-latin-webfont.ttf\n  + fonts/web-ttf/latin/hack-bolditalic-latin-webfont.ttf\n  + fonts/web-ttf/latin/hack-italic-latin-webfont.ttf\n  + fonts/web-ttf/latin/hack-regular-latin-webfont.ttf\n  + fonts/woff/hack-bolditalic-webfont.woff\n  + fonts/woff/hack-italic-webfont.woff\n  + fonts/woff/latin/hack-bolditalic-latin-webfont.woff\n  + fonts/woff/latin/hack-italic-latin-webfont.woff\n  + fonts/woff2/hack-bolditalic-webfont.woff2\n  + fonts/woff2/hack-italic-webfont.woff2\n  + fonts/woff2/latin/hack-bolditalic-latin-webfont.woff2\n  + fonts/woff2/latin/hack-italic-latin-webfont.woff2\n  - fonts/eot/hack-boldoblique-webfont.eot\n  - fonts/eot/hack-regularoblique-webfont.eot\n  - fonts/eot/latin/hack-boldoblique-latin-webfont.eot\n  - fonts/eot/latin/hack-regularoblique-latin-webfont.eot\n  - fonts/svg/hack-boldoblique-webfont.svg\n  - fonts/svg/hack-regularoblique-webfont.svg\n  - fonts/svg/latin/hack-boldoblique-latin-webfont.svg\n  - fonts/svg/latin/hack-regularoblique-latin-webfont.svg\n  - fonts/ttf/hack-bold-webfont.ttf\n  - fonts/ttf/hack-boldoblique-webfont.ttf\n  - fonts/ttf/hack-regular-webfont.ttf\n  - fonts/ttf/hack-regularoblique-webfont.ttf\n  - fonts/ttf/latin/hack-bold-latin-webfont.ttf\n  - fonts/ttf/latin/hack-boldoblique-latin-webfont.ttf\n  - fonts/ttf/latin/hack-regular-latin-webfont.ttf\n  - fonts/ttf/latin/hack-regularoblique-latin-webfont.ttf\n  - fonts/woff/hack-boldoblique-webfont.woff\n  - fonts/woff/hack-regularoblique-webfont.woff\n  - fonts/woff/latin/hack-boldoblique-latin-webfont.woff\n  - fonts/woff/latin/hack-regularoblique-latin-webfont.woff\n  - fonts/woff2/hack-boldoblique-webfont.woff2\n  - fonts/woff2/hack-regularoblique-webfont.woff2\n  - fonts/woff2/latin/hack-boldoblique-latin-webfont.woff2\n  - fonts/woff2/latin/hack-regularoblique-latin-webfont.woff2\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Keep it logically awesome._\n"
+  , issueCommentId = 138401027
+  }

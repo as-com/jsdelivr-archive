@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-19) 12 : 01 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/83524007"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3922#issuecomment-83524007"
+  , issueCommentCreatedAt = 2015 (-03) (-19) 12 : 01 : 34 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @spektom, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- There are some fundamental issues with your PR :no_good:  \n  - You appear to be changing the file contents of _adapters/standalone-framework.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _adapters/standalone-framework.src.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _highcharts-3d.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _highcharts-3d.src.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _highcharts-more.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _highcharts-more.src.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _highcharts.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _highcharts.src.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/broken-axis.src.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/canvas-tools.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/canvas-tools.src.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/data.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/data.src.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/drilldown.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/drilldown.src.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/exporting.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/exporting.src.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/heatmap.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/heatmap.src.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/no-data-to-display.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/no-data-to-display.src.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/solid-gauge.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/solid-gauge.src.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/treemap.js_ in _4.1.4_!\n  - You appear to be changing the file contents of _modules/treemap.src.js_ in _4.1.4_!\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Approachable is better than simple._\n"
+  , issueCommentId = 83524007
+  }

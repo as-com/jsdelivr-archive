@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-04) 08 : 38 : 08 UTC
+  , issueUpdatedAt = 2015 (-06) (-04) 08 : 38 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5102/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5102")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5102
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3640740
+        , simpleUserLogin = N "jacobscarter"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3640740?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jacobscarter"
+        }
+  , issueTitle = "added angular wizard version 0.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5102")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5102.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5102.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5102"
+  , issueCreatedAt = 2015 (-06) (-03) 01 : 42 : 29 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 84302562
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

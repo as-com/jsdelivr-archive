@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-16) 18 : 18 : 35 UTC
+  , issueUpdatedAt = 2014 (-10) (-16) 18 : 18 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1633/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1633")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1633
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle =
+      "Suggestion: only attempt to send version alias if exists"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1633"
+  , issueCreatedAt = 2014 (-09) (-06) 06 : 45 : 12 UTC
+  , issueBody =
+      Just
+        "(Still trying to brainstorm how to work around new file structure changes.)\nI'm assuming that currently jsDelivr first looks for a new version (folder) if there is an alias, then blindly attempts to fetch said file.\nInstead, it would be better if it fell back to the latest version for that particular file that exists.  Eg if there is an `project/1.3.0/filename.AMD.min.js` but not in `project/2.0.0`, then `/latest/filename.AMD.min.js` would serve the v1.3.0 & not \"404\" the `/2.0.0/filename.AMD.min.js` attempt.\n"
+  , issueState = StateClosed
+  , issueId = Id 42110507
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

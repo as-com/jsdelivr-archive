@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-03) 11 : 53 : 42 UTC
+  , issueUpdatedAt = 2016 (-01) (-03) 19 : 38 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8750/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/8750")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8750
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1537162
+        , simpleUserLogin = N "wanasit"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1537162?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wanasit"
+        }
+  , issueTitle =
+      "jsdelivr doesn't pull the later versions of the library (chrono)"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8750"
+  , issueCreatedAt = 2016 (-01) (-03) 09 : 26 : 05 UTC
+  , issueBody =
+      Just
+        "I have followed the contributing guild and submitted my library to jsdelivr. \n- https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md\n- https://github.com/jsdelivr/jsdelivr/pull/8319\n\nHowever, only Chrono version 0.1.11 is available in jsdelivr. I have released a few updated after that and the latest version is 1.1.2.\n\nWhy doesn't jsdelivr detect the new version? Did I forget to do something?\n"
+  , issueState = StateClosed
+  , issueId = Id 124639478
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

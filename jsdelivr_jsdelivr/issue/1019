@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-26) 05 : 37 : 32 UTC
+  , issueUpdatedAt = 2014 (-06) (-26) 05 : 37 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1019/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1019")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1019
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueTitle = "Add update.json for fontawesome"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1019")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1019.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1019.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1019"
+  , issueCreatedAt = 2014 (-06) (-25) 23 : 21 : 22 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 36531880
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

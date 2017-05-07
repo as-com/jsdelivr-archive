@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-06) 19 : 08 : 27 UTC
+  , issueUpdatedAt = 2016 (-10) (-06) 19 : 08 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14243/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14243")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14243
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10575562
+        , simpleUserLogin = N "seanlip"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/10575562?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/seanlip"
+        }
+  , issueTitle = "Update project oppia to 0.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14243")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14243.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14243.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14243"
+  , issueCreatedAt = 2016 (-10) (-06) 08 : 07 : 56 UTC
+  , issueBody =
+      Just
+        "Adding version 0.0.2 of oppia.\n\nSource of the file: https://github.com/oppia/oppia/blob/develop/assets/scripts/oppia-player-0.0.2.min.js\n"
+  , issueState = StateClosed
+  , issueId = Id 181349216
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

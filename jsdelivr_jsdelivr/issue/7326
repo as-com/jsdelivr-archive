@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-11) 19 : 05 : 13 UTC
+  , issueUpdatedAt = 2015 (-10) (-11) 19 : 05 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7326/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7326")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7326
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ramda to 0.18.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7326")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7326.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7326.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7326"
+  , issueCreatedAt = 2015 (-10) (-11) 19 : 05 : 09 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ramda to 0.18.0.\n\n@ramda\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"repo\": \"ramda\",\n    \"name\": \"ramda\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"ramda.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/ramda\",\n    \"localVersions\": [\"0.2.3\", \"0.2.4\", \"0.3.0\", \"0.4.0\", \"0.4.1\", \"0.4.3\", \"0.5.0\", \"0.6.0\", \"0.7.1\", \"0.7.2\", \"0.8.0\", \"0.9.0\", \"0.9.1\", \"0.10.0\", \"0.11.0\", \"0.12.0\", \"0.13.0\", \"0.14.0\", \"0.15.0\", \"0.15.1\", \"0.16.0\", \"0.17.0\", \"0.17.1\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.4\", \"0.1.5\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.3.0\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.4.3\", \"0.5.0\", \"0.6.0\", \"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.8.0\", \"0.9.0\", \"0.9.1\", \"0.10.0\", \"0.11.0\", \"0.12.0\", \"0.13.0\", \"0.14.0\", \"0.15.0\", \"0.15.1\", \"0.16.0\", \"0.17.0\", \"0.17.1\", \"0.18.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/ramda/update.json\",\n  \"version\": \"0.18.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/ramda/0.18.0\",\n  \"branch\": \"ramda/0.18.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 110877010
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

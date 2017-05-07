@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-22) 16 : 00 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/71043530"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3156#issuecomment-71043530"
+  , issueCommentCreatedAt = 2015 (-01) (-22) 16 : 00 : 34 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @isaackwan, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help ammending your PR...\n- Looks like the `info.ini` has a few problems\n  - Where is the reveal.js's mainfile (_js/reveal.min.js_) in v-_2.2_\n  - Where is the reveal.js's mainfile (_js/reveal.min.js_) in v-_2.3_\n- Might be nothing but I have some concerns about the files in your submission...  \n  - Unescaped unicode characters in _plugin/highlight/highlight.js_ (at pos 129336)\n  - _.html_ (on _plugin/markdown/example.html_) seems odd to want to host?\n  - _.md_ (on _plugin/markdown/example.md_) seems odd to want to host?\n  - _.html_ (on _plugin/notes-server/notes.html_) seems odd to want to host?\n  - _.html_ (on _plugin/notes/notes.html_) seems odd to want to host?\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _reveal.js_ between _2.6.2_ and _3.0.0_ there was a change in file structure  \n  \n  ``` diff\n  + css/theme/black.css\n  + css/theme/league.css\n  + css/theme/reveal.min.css\n  + css/theme/white.css\n  + lib/font/league-gothic/league-gothic.css\n  + lib/font/league-gothic/league-gothic.eot\n  + lib/font/league-gothic/league-gothic.ttf\n  + lib/font/league-gothic/league-gothic.woff\n  + lib/font/source-sans-pro/source-sans-pro-italic.eot\n  + lib/font/source-sans-pro/source-sans-pro-italic.ttf\n  + lib/font/source-sans-pro/source-sans-pro-italic.woff\n  + lib/font/source-sans-pro/source-sans-pro-regular.eot\n  + lib/font/source-sans-pro/source-sans-pro-regular.ttf\n  + lib/font/source-sans-pro/source-sans-pro-regular.woff\n  + lib/font/source-sans-pro/source-sans-pro-semibold.eot\n  + lib/font/source-sans-pro/source-sans-pro-semibold.ttf\n  + lib/font/source-sans-pro/source-sans-pro-semibold.woff\n  + lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot\n  + lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf\n  + lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff\n  + lib/font/source-sans-pro/source-sans-pro.css\n  - css/theme/default.css\n  - lib/font/league_gothic-webfont.eot\n  - lib/font/league_gothic-webfont.svg\n  - lib/font/league_gothic-webfont.ttf\n  - lib/font/league_gothic-webfont.woff\n  - lib/font/league_gothic_license\n  - plugin/postmessage/example.html\n  - plugin/postmessage/postmessage.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Speak like a human._\n"
+  , issueCommentId = 71043530
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-11) 04 : 15 : 07 UTC
+  , issueUpdatedAt = 2017 (-03) (-11) 04 : 15 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16845/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16845")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16845
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7425468
+        , simpleUserLogin = N "devendrant"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7425468?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/devendrant"
+        }
+  , issueTitle = "Adding angular version 1.4.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16845")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16845.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16845.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16845"
+  , issueCreatedAt = 2017 (-03) (-11) 03 : 33 : 51 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 213502186
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

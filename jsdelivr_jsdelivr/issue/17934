@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-03) 17 : 36 : 19 UTC
+  , issueUpdatedAt = 2017 (-05) (-03) 17 : 36 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17934/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17934")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17934
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project keyrune to 3.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17934")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17934.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17934.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17934"
+  , issueCreatedAt = 2017 (-05) (-03) 17 : 36 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project keyrune to 3.0.1.\n\n@andrewgioia\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"keyrune\",\n    \"repo\": \"andrewgioia/Keyrune\",\n    \"files\": {\n      \"include\": [\"./css/keyrune.css\", \"./css/keyrune.min.css\", \"./fonts/keyrune.eot\", \"./fonts/keyrune.svg\", \"./fonts/keyrune.ttf\", \"./fonts/keyrune.woff\", \"./fonts/keyrune.woff2\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/keyrune\",\n    \"localVersions\": [\"2.2.0\", \"2.2.2\", \"2.2.3\", \"2.3.0\", \"3.0.0\"],\n    \"remoteVersions\": [\"2.2.0\", \"2.2.2\", \"2.2.3\", \"2.3.0\", \"3.0.0\", \"3.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/keyrune/update.json\",\n  \"versions\": [\"3.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"3.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/keyrune/3.0.1\",\n  \"branch\": \"keyrune/3.0.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 226060706
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

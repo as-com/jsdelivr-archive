@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-15) 17 : 44 : 02 UTC
+  , issueUpdatedAt = 2014 (-07) (-09) 23 : 36 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/810/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/810")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 810
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6960243
+        , simpleUserLogin = N "djprmf"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6960243?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/djprmf"
+        }
+  , issueTitle = "jquery.scrollbox update"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/810")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/810.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/810.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/810"
+  , issueCreatedAt = 2014 (-05) (-15) 17 : 19 : 12 UTC
+  , issueBody = Just "jquery.scrollbox update\n"
+  , issueState = StateClosed
+  , issueId = Id 33606121
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

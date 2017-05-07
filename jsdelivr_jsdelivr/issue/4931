@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-23) 07 : 15 : 22 UTC
+  , issueUpdatedAt = 2015 (-05) (-23) 07 : 15 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4931/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4931")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4931
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project webtorrent to 0.44.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4931")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4931.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4931.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4931"
+  , issueCreatedAt = 2015 (-05) (-23) 07 : 15 : 16 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project webtorrent to 0.44.0.\n\n@feross\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"webtorrent\",\n    \"repo\": \"feross/webtorrent\",\n    \"files\": {\n      \"include\": [\"webtorrent.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/webtorrent\",\n    \"localVersions\": [\"0.19.1\", \"0.20.0\", \"0.21.0\", \"0.22.0\", \"0.22.1\", \"0.23.0\", \"0.24.0\", \"0.25.0\", \"0.26.0\", \"0.27.0\", \"0.27.1\", \"0.27.2\", \"0.27.3\", \"0.28.0\", \"0.29.0\", \"0.29.1\", \"0.29.2\", \"0.29.3\", \"0.29.4\", \"0.30.0\", \"0.31.0\", \"0.32.0\", \"0.33.0\", \"0.34.0\", \"0.35.0\", \"0.36.0\", \"0.37.0\", \"0.37.1\", \"0.37.2\", \"0.38.0\", \"0.39.0\", \"0.40.0\", \"0.40.1\", \"0.40.2\", \"0.41.0\", \"0.42.0\", \"0.43.0\", \"0.43.1\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.1.1\", \"0.1.2\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.2.8\", \"0.2.9\", \"0.2.10\", \"0.2.11\", \"0.2.12\", \"0.2.13\", \"0.2.14\", \"0.2.15\", \"0.2.16\", \"0.2.17\", \"0.2.18\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.4.0\", \"0.5.0\", \"0.5.1\", \"0.5.2\", \"0.5.3\", \"0.5.4\", \"0.6.0\", \"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"0.8.0\", \"0.8.1\", \"0.8.2\", \"0.9.0\", \"0.10.0\", \"0.10.1\", \"0.10.2\", \"0.10.3\", \"0.11.0\", \"0.11.1\", \"0.11.2\", \"0.11.3\", \"0.12.0\", \"0.12.1\", \"0.13.0\", \"0.13.1\", \"0.14.0\", \"0.15.0\", \"0.16.0\", \"0.17.0\", \"0.17.1\", \"0.18.0\", \"0.19.0\", \"0.19.1\", \"0.20.0\", \"0.21.0\", \"0.22.0\", \"0.22.1\", \"0.23.0\", \"0.24.0\", \"0.25.0\", \"0.26.0\", \"0.27.0\", \"0.27.1\", \"0.27.2\", \"0.27.3\", \"0.28.0\", \"0.29.0\", \"0.29.1\", \"0.29.2\", \"0.29.3\", \"0.29.4\", \"0.30.0\", \"0.31.0\", \"0.32.0\", \"0.33.0\", \"0.34.0\", \"0.35.0\", \"0.36.0\", \"0.37.0\", \"0.37.1\", \"0.37.2\", \"0.38.0\", \"0.39.0\", \"0.40.0\", \"0.40.1\", \"0.40.2\", \"0.41.0\", \"0.42.0\", \"0.43.0\", \"0.43.1\", \"0.44.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.44.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/webtorrent/0.44.0\",\n  \"branch\": \"webtorrent/0.44.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 79761447
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

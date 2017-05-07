@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-06) (-20) 14 : 15 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9272/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/9272")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9272
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "POPs tracker 2016-01"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9272"
+  , issueCreatedAt = 2016 (-01) (-22) 12 : 24 : 35 UTC
+  , issueBody =
+      Just
+        "CloudFlare\n- [ ] [Oslo, Norway](https://blog.cloudflare.com/cloudflare-launches-new-data-centers-in-oslo-and-minneapolis/)\n- [ ] Minneapolis, MN, USA\n- [ ] [Perth Australia](https://blog.cloudflare.com/perth/)\n- [ ] [Bangkok, Thailand: CloudFlare](https://blog.cloudflare.com/bangkok/)\n- [ ] [Denver, CO, USA](https://blog.cloudflare.com/denver/) \n- [ ] [Denver, CO, USA](https://blog.cloudflare.com/denver/)\n- [ ] [Moscow, Russia](https://blog.cloudflare.com/moscow/)\n\nKeyCDN\n- [ ] [Montreal, Canada](https://www.keycdn.com/blog/pop-in-canada/)\n\nFix:\n- [ ]  [KeyCDN](https://www.keycdn.com/network) is in Syndey Australia, not Melbourne\n"
+  , issueState = StateOpen
+  , issueId = Id 128146233
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

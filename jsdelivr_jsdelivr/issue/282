@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-22) 22 : 13 : 46 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 12 : 31 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/282/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/282")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 282
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1126819
+        , simpleUserLogin = N "meenie"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1126819?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/meenie"
+        }
+  , issueTitle = "Adding AngularJS 1.2.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/282")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/282.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/282.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/282"
+  , issueCreatedAt = 2014 (-01) (-22) 21 : 49 : 05 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 26125985
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

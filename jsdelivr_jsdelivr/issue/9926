@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-23) 11 : 02 : 35 UTC
+  , issueUpdatedAt = 2016 (-02) (-23) 11 : 02 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9926/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9926")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9926
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project botify-sdk to 1.0.0-beta4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9926")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9926.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9926.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9926"
+  , issueCreatedAt = 2016 (-02) (-23) 11 : 02 : 29 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project botify-sdk to 1.0.0-beta4.\n\n@botify-labs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"botify-sdk\",\n    \"repo\": \"botify-labs/botify-sdk-js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/botify\",\n    \"localVersions\": [\"1.0.0-beta3\"],\n    \"remoteVersions\": [\"1.0.0-beta1\", \"1.0.0-beta2\", \"1.0.0-beta2.1\", \"1.0.0-beta3\", \"1.0.0-beta4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/botify/update.json\",\n  \"versions\": [\"1.0.0-beta4\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.0-beta4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/botify/1.0.0-beta4\",\n  \"branch\": \"botify-sdk/1.0.0-beta4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 135705305
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-15) 01 : 12 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/80789273"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3860#issuecomment-80789273"
+  , issueCommentCreatedAt = 2015 (-03) (-15) 01 : 12 : 33 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` has a few problems\n  - Where is the select2's mainfile (_select2.min.js_) in v-_4.0.0-rc.2_\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _select2_ between _3.5.2_ and _4.0.0-rc.2_ there was a change in file structure  \n  \n  ``` diff\n  + css/select2.css\n  + css/select2.min.css\n  + js/i18n/az.js\n  + js/i18n/bg.js\n  + js/i18n/ca.js\n  + js/i18n/cs.js\n  + js/i18n/da.js\n  + js/i18n/de.js\n  + js/i18n/en.js\n  + js/i18n/es.js\n  + js/i18n/et.js\n  + js/i18n/eu.js\n  + js/i18n/fa.js\n  + js/i18n/fi.js\n  + js/i18n/fr.js\n  + js/i18n/gl.js\n  + js/i18n/hi.js\n  + js/i18n/hr.js\n  + js/i18n/hu.js\n  + js/i18n/id.js\n  + js/i18n/is.js\n  + js/i18n/it.js\n  + js/i18n/ko.js\n  + js/i18n/lt.js\n  + js/i18n/lv.js\n  + js/i18n/mk.js\n  + js/i18n/nb.js\n  + js/i18n/nl.js\n  + js/i18n/pl.js\n  + js/i18n/pt-BR.js\n  + js/i18n/pt.js\n  + js/i18n/ro.js\n  + js/i18n/ru.js\n  + js/i18n/sk.js\n  + js/i18n/sr.js\n  + js/i18n/sv.js\n  + js/i18n/th.js\n  + js/i18n/tr.js\n  + js/i18n/uk.js\n  + js/i18n/vi.js\n  + js/i18n/zh-CN.js\n  + js/i18n/zh-TW.js\n  + js/select2.full.js\n  + js/select2.full.min.js\n  + js/select2.js\n  + js/select2.min.js\n  - select2-bootstrap.css\n  - select2-spinner.gif\n  - select2.css\n  - select2.js\n  - select2.min.js\n  - select2.png\n  - select2_locale_ar.js\n  - select2_locale_az.js\n  - select2_locale_bg.js\n  - select2_locale_ca.js\n  - select2_locale_cs.js\n  - select2_locale_da.js\n  - select2_locale_de.js\n  - select2_locale_el.js\n  - select2_locale_es.js\n  - select2_locale_et.js\n  - select2_locale_eu.js\n  - select2_locale_fa.js\n  - select2_locale_fi.js\n  - select2_locale_fr.js\n  - select2_locale_gl.js\n  - select2_locale_he.js\n  - select2_locale_hr.js\n  - select2_locale_hu.js\n  - select2_locale_id.js\n  - select2_locale_is.js\n  - select2_locale_it.js\n  - select2_locale_ja.js\n  - select2_locale_ka.js\n  - select2_locale_ko.js\n  - select2_locale_lt.js\n  - select2_locale_lv.js\n  - select2_locale_mk.js\n  - select2_locale_ms.js\n  - select2_locale_nb.js\n  - select2_locale_nl.js\n  - select2_locale_pl.js\n  - select2_locale_pt-BR.js\n  - select2_locale_pt-PT.js\n  - select2_locale_ro.js\n  - select2_locale_rs.js\n  - select2_locale_ru.js\n  - select2_locale_sk.js\n  - select2_locale_sv.js\n  - select2_locale_th.js\n  - select2_locale_tr.js\n  - select2_locale_ug-CN.js\n  - select2_locale_uk.js\n  - select2_locale_vi.js\n  - select2_locale_zh-CN.js\n  - select2_locale_zh-TW.js\n  - select2x2.png\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Practicality beats purity._\n"
+  , issueCommentId = 80789273
+  }

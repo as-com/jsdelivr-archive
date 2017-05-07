@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-18) 20 : 05 : 00 UTC
+  , issueUpdatedAt = 2014 (-11) (-18) 20 : 05 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2416/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2416")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2416
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project highlight.js to 8.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2416")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2416.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2416.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2416"
+  , issueCreatedAt = 2014 (-11) (-18) 20 : 04 : 16 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project highlight.js to 8.4.\n\n@highlightjs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"highlight.js\",\n    \"repo\": \"highlightjs/cdn-release\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"highlight.min.js\", \"./languages/*.min.js\", \"./styles/*.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/highlight.js\",\n    \"localVersions\": [\"7.3.0-b\", \"7.3.0\", \"7.5.0\", \"8.0.0\", \"8.2.0\", \"8.3.0\"],\n    \"remoteVersions\": [\"8.2\", \"8.3\", \"8.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"8.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/highlight.js/8.4.0\",\n  \"branch\": \"highlight.js/8.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 49286642
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

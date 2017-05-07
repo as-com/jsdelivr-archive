@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-02) 21 : 01 : 16 UTC
+  , issueUpdatedAt = 2016 (-12) (-02) 21 : 01 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15174/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15174")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15174
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4513721
+        , simpleUserLogin = N "henzhou23"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4513721?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/henzhou23"
+        }
+  , issueTitle = "Initial upload of Regulations.gov comment widget"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15174")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15174.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15174.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15174"
+  , issueCreatedAt = 2016 (-12) (-02) 20 : 56 : 56 UTC
+  , issueBody =
+      Just
+        "No changes - initial commit. \r\n\r\nSource: https://github.com/regulationsgov/comment-widget. "
+  , issueState = StateClosed
+  , issueId = Id 193215964
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

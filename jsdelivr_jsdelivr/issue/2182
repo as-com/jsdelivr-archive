@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-01) 11 : 38 : 52 UTC
+  , issueUpdatedAt = 2014 (-11) (-01) 11 : 38 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2182/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2182")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2182
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 483469
+        , simpleUserLogin = N "Khadgar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/483469?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Khadgar"
+        }
+  , issueTitle = "My new files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2182")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2182.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2182.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2182"
+  , issueCreatedAt = 2014 (-11) (-01) 11 : 37 : 54 UTC
+  , issueBody =
+      Just "Hello these two files are a part of my MSC thesis.\n"
+  , issueState = StateClosed
+  , issueId = Id 47503862
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

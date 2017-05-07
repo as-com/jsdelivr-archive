@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-16) 17 : 31 : 19 UTC
+  , issueUpdatedAt = 2014 (-07) (-02) 06 : 07 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/116/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/116")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 116
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1676054
+        , simpleUserLogin = N "danialfarid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1676054?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/danialfarid"
+        }
+  , issueTitle =
+      "Added fileFormDataName to config to be able to set the Content-Disposition formData name for the uploaded fi"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/116")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/116.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/116.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/116"
+  , issueCreatedAt = 2013 (-10) (-16) 16 : 05 : 44 UTC
+  , issueBody =
+      Just
+        "Added fileFormDataName to config to be able to set the Content-Disposition formData name for the uploaded fi\n"
+  , issueState = StateClosed
+  , issueId = Id 21090670
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

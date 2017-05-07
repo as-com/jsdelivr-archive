@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-11) 22 : 35 : 32 UTC
+  , issueUpdatedAt = 2016 (-02) (-11) 22 : 35 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9700/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9700")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9700
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 301798
+        , simpleUserLogin = N "telic"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/301798?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/telic"
+        }
+  , issueTitle = "update project annotator to 1.2.10"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9700")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9700.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9700.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9700"
+  , issueCreatedAt = 2016 (-02) (-11) 01 : 07 : 24 UTC
+  , issueBody = Just "Latest stable maintenance release.\n"
+  , issueState = StateClosed
+  , issueId = Id 132864983
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

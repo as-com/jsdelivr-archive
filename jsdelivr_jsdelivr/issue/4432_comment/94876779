@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-21) 17 : 14 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/94876779"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4432#issuecomment-94876779"
+  , issueCommentCreatedAt = 2015 (-04) (-21) 17 : 14 : 18 UTC
+  , issueCommentBody =
+      "@hubdotcom navigation-nav doesnt include the min file in the latest version https://github.com/viljamis/responsive-nav.js/tree/v1.12\n\nSo the update.json wont work, the bot already failed https://github.com/jsdelivr/jsdelivr/pull/4434\n"
+  , issueCommentId = 94876779
+  }

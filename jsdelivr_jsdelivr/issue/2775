@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-18) 18 : 27 : 32 UTC
+  , issueUpdatedAt = 2014 (-12) (-18) 18 : 27 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2775/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2775")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2775
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6120222
+        , simpleUserLogin = N "realitydesign"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6120222?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/realitydesign"
+        }
+  , issueTitle = "Fixed dataTrack.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2775")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2775.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2775.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2775"
+  , issueCreatedAt = 2014 (-12) (-18) 17 : 24 : 03 UTC
+  , issueBody =
+      Just
+        "Filename fixes for the previous pull request.  Sorry about that.\n"
+  , issueState = StateClosed
+  , issueId = Id 52392175
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

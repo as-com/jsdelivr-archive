@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-09) 11 : 33 : 09 UTC
+  , issueUpdatedAt = 2016 (-02) (-09) 11 : 33 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9658/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9658")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9658
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project issuemd to 0.1.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9658")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9658.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9658.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9658"
+  , issueCreatedAt = 2016 (-02) (-09) 11 : 32 : 37 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project issuemd to 0.1.4.\n\n@issuemd\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"issuemd\",\n    \"repo\": \"issuemd/issuemd\",\n    \"files\": {\n      \"include\": [\"issuemd.min.js\", \"issuemd-parser.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/issuemd\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.0.0-alpha1\", \"0.0.0-alpha2\", \"0.0.0-alpha3\", \"0.0.1-alpha\", \"0.1.1\", \"0.1.3\", \"0.1.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/issuemd/update.json\",\n  \"versions\": [\"0.1.4\"],\n  \"updateRemote\": true,\n  \"version\": \"0.1.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/issuemd/0.1.4\",\n  \"branch\": \"issuemd/0.1.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 132396547
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

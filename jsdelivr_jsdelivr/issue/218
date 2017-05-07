@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-17) 14 : 16 : 09 UTC
+  , issueUpdatedAt = 2013 (-12) (-17) 14 : 53 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/218/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/218")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 218
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5640466
+        , simpleUserLogin = N "Exacore"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5640466?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Exacore"
+        }
+  , issueTitle = "Add Chardin.js 0.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/218")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/218.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/218.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/218"
+  , issueCreatedAt = 2013 (-12) (-17) 12 : 44 : 11 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 24417959
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

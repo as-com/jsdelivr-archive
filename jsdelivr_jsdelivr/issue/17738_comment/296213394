@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-04) (-21) 14 : 54 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/296213394"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17738#issuecomment-296213394"
+  , issueCommentCreatedAt = 2017 (-04) (-21) 14 : 54 : 12 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @subhransusekharswar, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- There are some fundamental issues with your PR :no_good:  \n    - File *files/fusioncharts.charts.js* should exist under `files/<project>/files/fusioncharts.charts.js`!\n    - File *files/fusioncharts.gantt.js* should exist under `files/<project>/files/fusioncharts.gantt.js`!\n    - File *files/fusioncharts.js* should exist under `files/<project>/files/fusioncharts.js`!\n    - File *files/fusioncharts.maps.js* should exist under `files/<project>/files/fusioncharts.maps.js`!\n    - File *files/fusioncharts.powercharts.js* should exist under `files/<project>/files/fusioncharts.powercharts.js`!\n    - File *files/fusioncharts.treemap.js* should exist under `files/<project>/files/fusioncharts.treemap.js`!\n    - File *files/fusioncharts.widgets.js* should exist under `files/<project>/files/fusioncharts.widgets.js`!\n    - File *files/fusioncharts.zoomscatter.js* should exist under `files/<project>/files/fusioncharts.zoomscatter.js`!\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Keep it logically awesome.*\n"
+  , issueCommentId = 296213394
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-29) 21 : 01 : 46 UTC
+  , issueUpdatedAt = 2015 (-12) (-29) 21 : 01 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8701/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8701")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8701
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ga-lite to 1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8701")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8701.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8701.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8701"
+  , issueCreatedAt = 2015 (-12) (-29) 21 : 01 : 43 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ga-lite to 1.0.1.\n\n@jehna\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ga-lite\",\n    \"repo\": \"jehna/ga-lite\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"ga-lite.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/ga-lite\",\n    \"localVersions\": [\"1.0.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/ga-lite/update.json\",\n  \"version\": \"1.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/ga-lite/1.0.1\",\n  \"branch\": \"ga-lite/1.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 124267676
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

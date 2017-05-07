@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-31) 21 : 15 : 01 UTC
+  , issueUpdatedAt = 2014 (-01) (-31) 21 : 15 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/325/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/325")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 325
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueTitle = "Add blank favicon"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/325")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/325.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/325.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/325"
+  , issueCreatedAt = 2014 (-01) (-31) 21 : 13 : 04 UTC
+  , issueBody =
+      Just
+        "This might reduce load on the origin (by getting rid of 404s for the favicon) for those curious people who look at the files with a web browser.\n"
+  , issueState = StateClosed
+  , issueId = Id 26715928
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

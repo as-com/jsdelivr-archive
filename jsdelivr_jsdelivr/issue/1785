@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-20) 16 : 18 : 12 UTC
+  , issueUpdatedAt = 2014 (-09) (-20) 16 : 18 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1785/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1785")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1785
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project stickynavbar.js to 1.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1785")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1785.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1785.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1785"
+  , issueCreatedAt = 2014 (-09) (-20) 15 : 06 : 38 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project stickynavbar.js to 1.1.3.\n\n@jbutko\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"stickynavbar.js\",\n    \"repo\": \"jbutko/stickyNavbar.js\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"jquery.stickyNavbar.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/stickynavbar.js\",\n    \"localVersions\": [\"1.0.5\", \"1.1.1\", \"1.1.2\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.1.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/stickynavbar.js/1.1.3\",\n  \"branch\": \"stickynavbar.js/1.1.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 43312096
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-03) 15 : 46 : 17 UTC
+  , issueUpdatedAt = 2014 (-09) (-03) 15 : 46 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1603/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1603")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1603
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 515142
+        , simpleUserLogin = N "bruth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/515142?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bruth"
+        }
+  , issueTitle = "Cilantro 2.2.36"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1603")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1603.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1603.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1603"
+  , issueCreatedAt = 2014 (-09) (-03) 15 : 45 : 33 UTC
+  , issueBody = Just "Signed-off-by: Byron Ruth b@devel.io\n"
+  , issueState = StateClosed
+  , issueId = Id 41831160
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

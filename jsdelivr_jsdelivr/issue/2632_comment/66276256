@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-09) 12 : 36 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66276256"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-66276256"
+  , issueCommentCreatedAt = 2014 (-12) (-09) 12 : 36 : 00 UTC
+  , issueCommentBody =
+      "> Dont forget the theme files, images, other crap they add\n\nYes, thus my \"don't host the entire theme on a CDN\" caution.  You're right, when it comes to WP, usually not a worry; Orig Hostname HTTPs are usually saturated.\n\n> our CDN and parallelization across multiple hostnames\n\nThat was the point of my lightning talk at [Pivotal Labs](http://pivotallabs.com/).  :)\n\nThough hosting an essential JS or CSS might be faster on Orig Host vs CDN; really it is a last-minute test & tweak.\n"
+  , issueCommentId = 66276256
+  }

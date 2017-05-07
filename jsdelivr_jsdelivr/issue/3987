@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-24) 23 : 43 : 08 UTC
+  , issueUpdatedAt = 2015 (-04) (-03) 09 : 58 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3987/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3987")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3987
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project thymol.js to 2.0.0-beta5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3987")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3987.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3987.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3987"
+  , issueCreatedAt = 2015 (-03) (-24) 23 : 42 : 56 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project thymol.js to 2.0.0-beta5.\n\n@thymol\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"thymol.js\",\n    \"repo\": \"thymol/thymol.js\",\n    \"files\": {\n      \"basePath\": \"jsdelivr/\",\n      \"include\": [\"thymol.min.js\", \"thymol-lite.min.js\", \"thymol-full.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/thymol\",\n    \"localVersions\": [\"2.0.0-beta2\", \"2.0.0-beta3\", \"2.0.0-beta4\"],\n    \"remoteVersions\": [\"2.0.0-alpha1\", \"2.0.0-alpha2\", \"2.0.0-alpha3\", \"2.0.0-alpha4\", \"2.0.0-alpha5\", \"2.0.0-alpha6\", \"2.0.0-alpha7\", \"2.0.0-beta1\", \"2.0.0-beta2\", \"2.0.0-beta3\", \"2.0.0-beta4\", \"2.0.0-beta5\"],\n    \"branchVersions\": [\"2.0.0-beta4\"]\n  },\n  \"version\": \"2.0.0-beta5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/thymol/2.0.0-beta5\",\n  \"branch\": \"thymol.js/2.0.0-beta5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 64128435
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

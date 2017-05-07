@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-05) 17 : 22 : 16 UTC
+  , issueUpdatedAt = 2013 (-12) (-05) 17 : 22 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/177/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/177")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 177
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5640466
+        , simpleUserLogin = N "Exacore"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5640466?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Exacore"
+        }
+  , issueTitle = "Add Modernizr 2.7.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/177")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/177.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/177.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/177"
+  , issueCreatedAt = 2013 (-12) (-05) 17 : 20 : 48 UTC
+  , issueBody =
+      Just
+        "Build: http://modernizr.com/download/#-fontface-backgroundsize-borderimage-borderradius-boxshadow-flexbox-hsla-multiplebgs-opacity-rgba-textshadow-cssanimations-csscolumns-generatedcontent-cssgradients-cssreflections-csstransforms-csstransforms3d-csstransitions-applicationcache-canvas-canvastext-draganddrop-hashchange-history-audio-video-indexeddb-input-inputtypes-localstorage-postmessage-sessionstorage-websockets-websqldatabase-webworkers-geolocation-inlinesvg-smil-svg-svgclippaths-touch-webgl-shiv-cssclasses-addtest-prefixed-teststyles-testprop-testallprops-hasevent-prefixes-domprefixes-load\n"
+  , issueState = StateClosed
+  , issueId = Id 23802359
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

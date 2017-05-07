@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-20) 16 : 53 : 46 UTC
+  , issueUpdatedAt = 2015 (-06) (-24) 20 : 04 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5359/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5359")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5359
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1639302
+        , simpleUserLogin = N "abishekrsrikaanth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1639302?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/abishekrsrikaanth"
+        }
+  , issueTitle = "Adding Library Classie v1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5359")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5359.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5359.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5359"
+  , issueCreatedAt = 2015 (-06) (-18) 18 : 20 : 12 UTC
+  , issueBody =
+      Just
+        "Repo: https://github.com/desandro/classie\nDescription: Class Helper Functions\n"
+  , issueState = StateClosed
+  , issueId = Id 89361904
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

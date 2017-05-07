@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-20) 08 : 13 : 34 UTC
+  , issueUpdatedAt = 2015 (-11) (-20) 08 : 13 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7959/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7959")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7959
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 12096477
+        , simpleUserLogin = N "unpete"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/12096477?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/unpete"
+        }
+  , issueTitle = "Update update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7959")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7959.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7959.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7959"
+  , issueCreatedAt = 2015 (-11) (-16) 18 : 54 : 32 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 117193458
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

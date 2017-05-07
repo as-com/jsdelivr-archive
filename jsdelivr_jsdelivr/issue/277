@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-22) 08 : 39 : 13 UTC
+  , issueUpdatedAt = 2014 (-07) (-05) 21 : 34 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/277/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/277")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 277
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1126819
+        , simpleUserLogin = N "meenie"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1126819?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/meenie"
+        }
+  , issueTitle = "Adding in angular-cache"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/277")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/277.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/277.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/277"
+  , issueCreatedAt = 2014 (-01) (-22) 06 : 37 : 43 UTC
+  , issueBody =
+      Just
+        "I would like to add in angular-cache to jsdelivr.  The origin author of the library is @jmdobry.\n"
+  , issueState = StateClosed
+  , issueId = Id 26069885
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

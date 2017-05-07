@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-06) 09 : 28 : 04 UTC
+  , issueUpdatedAt = 2016 (-05) (-06) 09 : 28 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11467/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11467")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11467
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 530988
+        , simpleUserLogin = N "letmaik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/530988?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/letmaik"
+        }
+  , issueTitle = "Add xndarray"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11467")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11467.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11467.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11467"
+  , issueCreatedAt = 2016 (-05) (-06) 08 : 16 : 00 UTC
+  , issueBody =
+      Just "This adds the xndarray library with npm auto update.\n"
+  , issueState = StateClosed
+  , issueId = Id 153401007
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

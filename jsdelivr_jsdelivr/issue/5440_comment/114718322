@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-24) 03 : 38 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/114718322"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5440#issuecomment-114718322"
+  , issueCommentCreatedAt = 2015 (-06) (-24) 03 : 38 : 13 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` has a few problems\n  - Where is the jquery.jstree's mainfile (_jquery.jstree.min.js_) in v-_3.1.1_\n  - Where is the jquery.jstree's mainfile (_jquery.jstree.min.js_) in v-_2.0.0a_\n  - Where is the jquery.jstree's mainfile (_jquery.jstree.min.js_) in v-_3.0.0-beta10_\n  - Where is the jquery.jstree's mainfile (_jquery.jstree.min.js_) in v-_3.0.0-beta3_\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _jquery.jstree_ between _pre1.0_ and _3.1.1_ there was a change in file structure  \n  \n  ``` diff\n  + jstree.js\n  + jstree.min.js\n  + themes/default-dark/32px.png\n  + themes/default-dark/40px.png\n  + themes/default-dark/style.css\n  + themes/default-dark/style.min.css\n  + themes/default-dark/throbber.gif\n  + themes/default/32px.png\n  + themes/default/40px.png\n  + themes/default/style.min.css\n  - jquery.jstree.js\n  - jquery.jstree.min.js\n  - themes/apple/bg.jpg\n  - themes/apple/d.png\n  - themes/apple/dot_for_ie.gif\n  - themes/apple/style.css\n  - themes/apple/throbber.gif\n  - themes/classic/d.gif\n  - themes/classic/d.png\n  - themes/classic/dot_for_ie.gif\n  - themes/classic/style.css\n  - themes/classic/throbber.gif\n  - themes/default-rtl/d.gif\n  - themes/default-rtl/d.png\n  - themes/default-rtl/dots.gif\n  - themes/default-rtl/style.css\n  - themes/default-rtl/throbber.gif\n  - themes/default/d.gif\n  - themes/default/d.png\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Anything added dilutes everything else._\n"
+  , issueCommentId = 114718322
+  }

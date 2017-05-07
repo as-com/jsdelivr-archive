@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-01) 16 : 37 : 16 UTC
+  , issueUpdatedAt = 2015 (-07) (-01) 16 : 37 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5564/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5564")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5564
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 12726595
+        , simpleUserLogin = N "cappsool"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/12726595?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/cappsool"
+        }
+  , issueTitle = "New Submission - take 3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5564")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5564.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5564.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5564"
+  , issueCreatedAt = 2015 (-07) (-01) 15 : 07 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 92409110
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

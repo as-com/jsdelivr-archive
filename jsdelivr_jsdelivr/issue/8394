@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-08) 21 : 02 : 57 UTC
+  , issueUpdatedAt = 2015 (-12) (-08) 21 : 02 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8394/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8394")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8394
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 187963
+        , simpleUserLogin = N "Craga89"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/187963?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Craga89"
+        }
+  , issueTitle = "qTip2 v3.0.0 - Update info files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8394")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8394.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8394.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8394"
+  , issueCreatedAt = 2015 (-12) (-08) 19 : 39 : 51 UTC
+  , issueBody =
+      Just
+        "The `info.ini` and `update.json` files are now pointing to the wrong place, since the `qTip2/Bower` repository is gone in favour of a unified `qTip/qTip2 repository for both NPM and Bower packages.\n"
+  , issueState = StateClosed
+  , issueId = Id 121082724
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-21) 06 : 37 : 54 UTC
+  , issueUpdatedAt = 2016 (-11) (-21) 06 : 37 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14885/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14885")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14885
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project riot to v2.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14885")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14885.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14885.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14885"
+  , issueCreatedAt = 2016 (-11) (-21) 06 : 37 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project riot to v2.5.0.\n\n@riot\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"riot\",\n    \"repo\": \"riot/route\",\n    \"files\": {\n      \"include\": [\"dist/route.js\", \"dist/route.min.js\", \"dist/amd.route.js\", \"dist/amd.route.min.js\", \"dist/es6.route.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/riot-route\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v2.0.0-beta\", \"2.3.0\", \"v2.3.11\", \"v2.3.12\", \"v2.3.13\", \"v2.3.14\", \"v2.3.15\", \"v2.3.16\", \"v2.4.0\", \"v2.5.0\"],\n    \"branchVersions\": [\"v2.6.3\", \"v3.0.0-alpha.1\", \"v3.0.0-alpha.3\", \"v3.0.0-alpha.4\", \"v3.0.0-alpha.10\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/riot-route/update.json\",\n  \"versions\": [\"v2.5.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.5.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/riot-route/2.5.0\",\n  \"branch\": \"riot/v2.5.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 190631472
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

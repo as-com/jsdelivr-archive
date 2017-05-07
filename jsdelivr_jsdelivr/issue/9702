@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-21) 14 : 57 : 26 UTC
+  , issueUpdatedAt = 2016 (-02) (-23) 05 : 54 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9702/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9702")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9702
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 738533
+        , simpleUserLogin = N "adrien-be"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/738533?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/adrien-be"
+        }
+  , issueTitle = "Add prettyCheckable version 2.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9702")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9702.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9702.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9702"
+  , issueCreatedAt = 2016 (-02) (-11) 07 : 31 : 02 UTC
+  , issueBody = Just "This version adds the SASS code too.\n"
+  , issueState = StateClosed
+  , issueId = Id 132907751
+  , issueComments = 12
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-11) 21 : 42 : 23 UTC
+  , issueUpdatedAt = 2014 (-08) (-11) 21 : 42 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1404/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1404")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1404
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1055782
+        , simpleUserLogin = N "ppavlov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1055782?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ppavlov"
+        }
+  , issueTitle = "Adding the shepherd js library."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1404")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1404.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1404.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1404"
+  , issueCreatedAt = 2014 (-08) (-11) 21 : 38 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 40003554
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

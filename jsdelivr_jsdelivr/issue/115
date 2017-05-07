@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-16) 14 : 22 : 57 UTC
+  , issueUpdatedAt = 2014 (-06) (-15) 07 : 00 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/115/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/115")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 115
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1495196
+        , simpleUserLogin = N "mramato"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1495196?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mramato"
+        }
+  , issueTitle = "Add Cesium b20 and b21"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/115")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/115.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/115.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/115"
+  , issueCreatedAt = 2013 (-10) (-16) 13 : 56 : 41 UTC
+  , issueBody = Just "Thanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 21081595
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

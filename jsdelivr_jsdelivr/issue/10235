@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-02) 12 : 09 : 04 UTC
+  , issueUpdatedAt = 2016 (-03) (-02) 12 : 09 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10235/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10235")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10235
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project watch-element-resize.js to 1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10235")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10235.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10235.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10235"
+  , issueCreatedAt = 2016 (-03) (-02) 12 : 06 : 06 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project watch-element-resize.js to 1.0.1.\n\n@jonataswalker\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"watch-element-resize.js\",\n    \"repo\": \"jonataswalker/watch-element-resize.js\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"watch-element-resize.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/watch-element-resize.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/watch-element-resize.js/update.json\",\n  \"versions\": [\"1.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/watch-element-resize.js/1.0.1\",\n  \"branch\": \"watch-element-resize.js/1.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 137856765
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

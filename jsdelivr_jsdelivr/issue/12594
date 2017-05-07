@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-07) 02 : 34 : 03 UTC
+  , issueUpdatedAt = 2016 (-07) (-07) 02 : 34 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12594/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12594")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12594
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project typed.js to v1.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12594")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12594.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12594.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12594"
+  , issueCreatedAt = 2016 (-07) (-07) 02 : 33 : 59 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project typed.js to v1.1.3.\n\n@mattboldt\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"typed.js\",\n    \"repo\": \"mattboldt/typed.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.typed.js\",\n    \"localVersions\": [\"1.1.1\"],\n    \"remoteVersions\": [\"v1.0\", \"v1.1\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.typed.js/update.json\",\n  \"versions\": [\"v1.1.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.typed.js/1.1.3\",\n  \"branch\": \"typed.js/v1.1.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 164216948
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

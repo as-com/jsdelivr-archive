@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-08) 21 : 58 : 14 UTC
+  , issueUpdatedAt = 2014 (-12) (-08) 21 : 58 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2656/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2656")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2656
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 831389
+        , simpleUserLogin = N "lewisgoddard"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/831389?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lewisgoddard"
+        }
+  , issueTitle =
+      "Anything using relative URLs doesn't work with the file combiner."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2656"
+  , issueCreatedAt = 2014 (-12) (-08) 21 : 48 : 46 UTC
+  , issueBody =
+      Just
+        "I noticed when I try to use foundation-icons in the file combiner, that it creates a load of 404s. This is because of the use of relative URLs. I don't know how this could be fixed without parsing CSS to have full URLs.\n"
+  , issueState = StateClosed
+  , issueId = Id 51356914
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

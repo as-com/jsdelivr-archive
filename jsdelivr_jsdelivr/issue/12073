@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-10) 17 : 36 : 18 UTC
+  , issueUpdatedAt = 2016 (-06) (-10) 17 : 36 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12073/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12073")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12073
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.terminal to 0.10.11"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12073")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12073.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12073.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12073"
+  , issueCreatedAt = 2016 (-06) (-08) 20 : 03 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.terminal to 0.10.11.\n\n@jcubic\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.terminal\",\n    \"repo\": \"jcubic/jquery.terminal\",\n    \"files\": {\n      \"include\": [\"js/jquery.terminal.js\", \"js/jquery.terminal.min.js\", \"css/jquery.terminal.css\", \"css/jquery.terminal.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.terminal\",\n    \"localVersions\": [\"0.7.8\", \"0.8.8\"],\n    \"remoteVersions\": [\"0.4.23\", \"0.5\", \"0.5.1\", \"0.5.2\", \"0.5.3\", \"0.5.4\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.6.3\", \"0.6.4\", \"0.6.5\", \"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"0.7.4\", \"0.7.5\", \"0.7.7\", \"0.7.8\", \"0.7.9\", \"0.7.10\", \"0.7.12\", \"0.8.0\", \"0.8.1\", \"0.8.2\", \"0.8.3\", \"0.8.4\", \"0.8.5\", \"0.8.6\", \"0.8.7\", \"0.8.8\", \"0.9.0\", \"0.9.1\", \"0.9.2\", \"0.9.3\", \"0.10.0\", \"0.10.1\", \"0.10.2\", \"0.10.3\", \"0.10.4\", \"0.10.5\", \"0.10.6\", \"0.10.7\", \"0.10.8\", \"0.10.9\", \"0.10.10\", \"0.10.11\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.terminal/update.json\",\n  \"versions\": [\"0.10.11\"],\n  \"updateRemote\": true,\n  \"version\": \"0.10.11\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.terminal/0.10.11\",\n  \"branch\": \"jquery.terminal/0.10.11\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 159258182
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

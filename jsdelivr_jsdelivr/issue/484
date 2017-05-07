@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-20) 12 : 27 : 20 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 23 : 56 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/484/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/484")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 484
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 211033
+        , simpleUserLogin = N "jfmoy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/211033?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jfmoy"
+        }
+  , issueTitle = "Update backbone-relational to 0.8.6."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/484")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/484.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/484.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/484"
+  , issueCreatedAt = 2014 (-03) (-20) 11 : 02 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 29809637
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

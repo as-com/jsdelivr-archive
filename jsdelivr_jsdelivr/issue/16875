@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-13) 04 : 09 : 07 UTC
+  , issueUpdatedAt = 2017 (-03) (-13) 04 : 09 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16875/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16875")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16875
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project search-client to 0.7.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16875")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16875.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16875.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16875"
+  , issueCreatedAt = 2017 (-03) (-13) 04 : 09 : 02 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project search-client to 0.7.0.\n\n@IntelliSearch\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"search-client\",\n    \"repo\": \"intellisearch/search-client\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"SearchClient.bundle.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/search-client\",\n    \"localVersions\": [\"0.6.3\"],\n    \"remoteVersions\": [\"0.3.0\", \"0.3.1\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.4.3\", \"0.4.4\", \"0.4.5\", \"0.4.6\", \"0.4.7\", \"0.4.8\", \"0.5.0\", \"0.5.1\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.6.3\", \"0.7.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/search-client/update.json\",\n  \"versions\": [\"0.7.0\"],\n  \"updateRemote\": true,\n  \"version\": \"0.7.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/search-client/0.7.0\",\n  \"branch\": \"search-client/0.7.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 213669410
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-05) 19 : 22 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/73108862"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3180#issuecomment-73108862"
+  , issueCommentCreatedAt = 2015 (-02) (-05) 19 : 22 : 36 UTC
+  , issueCommentBody =
+      "Sorry I was traveling and didnt had time to respond.\nMost of the bot complains can be ignored and are there to help the work of moderators.\n\nI understand that its not easy thats why you can always open an issue asking for someone else to update a project for you. \n\nIt is also why we added the auto-update feature, all you have to do is add an update.json file using the web ui and our bot will upload the latest version automatically. No need to fork or download anything.\n\nIf you still want to finish this PR then you will need to squash your commits before I can review them. Here are the instructions https://github.com/ginatrapani/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit\n"
+  , issueCommentId = 73108862
+  }

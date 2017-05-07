@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-12) (-30) 02 : 06 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 13684891
+        , simpleUserLogin = N "Dog2puppy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/13684891?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Dog2puppy"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/269722114"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15513#issuecomment-269722114"
+  , issueCommentCreatedAt = 2016 (-12) (-30) 02 : 06 : 49 UTC
+  , issueCommentBody =
+      "@megawac Fixed. I guess when I was fixing there being no tags, I overlooked the issue with it being upper-case."
+  , issueCommentId = 269722114
+  }

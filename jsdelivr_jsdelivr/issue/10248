@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-02) 23 : 18 : 54 UTC
+  , issueUpdatedAt = 2016 (-03) (-02) 23 : 18 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10248/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10248")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10248
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 777155
+        , simpleUserLogin = N "shshaw"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/777155?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/shshaw"
+        }
+  , issueTitle = "update.json for cash"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10248")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10248.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10248.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10248"
+  , issueCreatedAt = 2016 (-03) (-02) 23 : 00 : 22 UTC
+  , issueBody = Just "https://github.com/kenwheeler/cash/\n"
+  , issueState = StateClosed
+  , issueId = Id 138019663
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-04) 09 : 49 : 55 UTC
+  , issueUpdatedAt = 2015 (-12) (-04) 09 : 49 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8295/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8295")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8295
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5023909
+        , simpleUserLogin = N "nickpolet"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5023909?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nickpolet"
+        }
+  , issueTitle = "Update info.ini mainfile"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8295")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8295.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8295.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8295"
+  , issueCreatedAt = 2015 (-12) (-03) 22 : 48 : 16 UTC
+  , issueBody =
+      Just
+        "Fix the mainfile error with https://github.com/jsdelivr/jsdelivr/pull/8294.\n"
+  , issueState = StateClosed
+  , issueId = Id 120289383
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

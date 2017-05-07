@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-02) 08 : 57 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/68514405"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2833#issuecomment-68514405"
+  , issueCommentCreatedAt = 2015 (-01) (-02) 08 : 57 : 22 UTC
+  , issueCommentBody =
+      "We can do that after a major version update. 1.1.2>1.1.3 cant introduce any breaking changes.\nMaybe we can change the format when 1.2 comes out.\n"
+  , issueCommentId = 68514405
+  }

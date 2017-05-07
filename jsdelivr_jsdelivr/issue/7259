@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-07) 20 : 21 : 00 UTC
+  , issueUpdatedAt = 2015 (-10) (-07) 20 : 27 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7259/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7259")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7259
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 565460
+        , simpleUserLogin = N "Golmote"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/565460?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Golmote"
+        }
+  , issueTitle = "Enable auto-update for Prism"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7259")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7259.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7259.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7259"
+  , issueCreatedAt = 2015 (-10) (-06) 20 : 53 : 18 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 110098579
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

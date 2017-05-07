@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-20) 20 : 20 : 24 UTC
+  , issueUpdatedAt = 2014 (-03) (-20) 20 : 20 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/486/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/486")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 486
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 170002
+        , simpleUserLogin = N "ericbuckley"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/170002?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ericbuckley"
+        }
+  , issueTitle = "adding bootstrap-editable version 1.5.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/486")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/486.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/486.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/486"
+  , issueCreatedAt = 2014 (-03) (-20) 19 : 56 : 39 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 29852478
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

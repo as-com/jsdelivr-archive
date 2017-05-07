@@ -1,0 +1,50 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-22) 13 : 41 : 43 UTC
+  , issueUpdatedAt = 2015 (-09) (-22) 13 : 41 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5449/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5449")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5449
+  , issueAssignees =
+      [ SimpleUser
+          { simpleUserId = Id 3475472
+          , simpleUserLogin = N "megawac"
+          , simpleUserAvatarUrl =
+              URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+          , simpleUserUrl = URL "https://api.github.com/users/megawac"
+          }
+      ]
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 14615
+        , simpleUserLogin = N "edrex"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/14615?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/edrex"
+        }
+  , issueTitle = "Update project reveal.js to v3.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5449")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5449.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5449.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5449"
+  , issueCreatedAt = 2015 (-06) (-24) 18 : 57 : 33 UTC
+  , issueBody =
+      Just
+        "referencing #3156\n\n```\n% cd jsdelivr/files/reveal.js/\n% curl https://github.com/hakimel/reveal.js/archive/3.1.0.tar.gz | tar -xzv\n% mv reveal.js-3.1.0 3.1.0\n% cd 3.1.0\n% npm install\n% grunt\n% git add css js lib plugin\n% git rm --cached --ignore-unmatch **/LICENSE **/*.md **/*.scss\nrm 'files/reveal.js/3.1.0/css/reveal.scss'\nrm 'files/reveal.js/3.1.0/css/theme/README.md'\nrm 'files/reveal.js/3.1.0/css/theme/source/beige.scss'\nrm 'files/reveal.js/3.1.0/css/theme/source/black.scss'\nrm 'files/reveal.js/3.1.0/css/theme/source/blood.scss'\nrm 'files/reveal.js/3.1.0/css/theme/source/league.scss'\nrm 'files/reveal.js/3.1.0/css/theme/source/moon.scss'\nrm 'files/reveal.js/3.1.0/css/theme/source/night.scss'\nrm 'files/reveal.js/3.1.0/css/theme/source/serif.scss'\nrm 'files/reveal.js/3.1.0/css/theme/source/simple.scss'\nrm 'files/reveal.js/3.1.0/css/theme/source/sky.scss'\nrm 'files/reveal.js/3.1.0/css/theme/source/solarized.scss'\nrm 'files/reveal.js/3.1.0/css/theme/source/white.scss'\nrm 'files/reveal.js/3.1.0/css/theme/template/mixins.scss'\nrm 'files/reveal.js/3.1.0/css/theme/template/settings.scss'\nrm 'files/reveal.js/3.1.0/css/theme/template/theme.scss'\nrm 'files/reveal.js/3.1.0/lib/font/league-gothic/LICENSE'\nrm 'files/reveal.js/3.1.0/lib/font/source-sans-pro/LICENSE'\nrm 'files/reveal.js/3.1.0/plugin/markdown/example.md'\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 90759013
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-12) 13 : 04 : 03 UTC
+  , issueUpdatedAt = 2016 (-08) (-12) 13 : 04 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13201/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13201")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13201
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project material-design-lite to v1.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13201")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13201.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13201.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13201"
+  , issueCreatedAt = 2016 (-08) (-12) 13 : 03 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project material-design-lite to v1.2.0.\n\n@google\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"material-design-lite\",\n    \"repo\": \"google/material-design-lite\",\n    \"files\": {\n      \"include\": [\"*.js*\", \"*.css*\"],\n      \"exclude\": [\"*.json\", \"gulpfile.js\", \"gulpfile.babel.js\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/material-design-lite\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\"],\n    \"remoteVersions\": [\"v0.1.0-beta\", \"v0.2.0-beta\", \"v0.3.0\", \"v0.3.1\", \"v0.4.0\", \"v0.5.0\", \"v0.5.1\", \"v0.5.2\", \"v0.5.3\", \"v0.5.9\", \"v0.6.0\", \"v1.0.0-rc.1\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\", \"v1.2.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/material-design-lite/update.json\",\n  \"versions\": [\"v1.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/material-design-lite/1.2.0\",\n  \"branch\": \"material-design-lite/v1.2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 170866675
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

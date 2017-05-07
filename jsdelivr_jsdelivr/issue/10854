@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-06) 08 : 54 : 43 UTC
+  , issueUpdatedAt = 2016 (-04) (-06) 08 : 54 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10854/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10854")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10854
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project web-animations to 2.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10854")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10854.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10854.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10854"
+  , issueCreatedAt = 2016 (-04) (-06) 04 : 35 : 03 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project web-animations to 2.2.0.\n\n@web-animations\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"web-animations\",\n    \"repo\": \"web-animations/web-animations-js\",\n    \"files\": {\n      \"include\": [\"*.min.js\", \"*.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/web-animations\",\n    \"localVersions\": [\"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"2.0.0\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.1.3\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"2.0.0\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.1.3\", \"2.1.4\", \"2.2.0\"],\n    \"branchVersions\": [\"2.1.4\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/web-animations/update.json\",\n  \"versions\": [\"2.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"2.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/web-animations/2.2.0\",\n  \"branch\": \"web-animations/2.2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 146184392
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

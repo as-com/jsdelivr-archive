@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-23) 09 : 58 : 01 UTC
+  , issueUpdatedAt = 2016 (-01) (-23) 09 : 58 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9285/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9285")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9285
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ngn-components to 0.0.14"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9285")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9285.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9285.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9285"
+  , issueCreatedAt = 2016 (-01) (-22) 22 : 33 : 30 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ngn-components to 0.0.14.\n\n@ngnjs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ngn-components\",\n    \"repo\": \"ngnjs/chassis-components\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\", \"*.html\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/ngn-components\",\n    \"localVersions\": [\"0.0.12\", \"0.0.13\"],\n    \"remoteVersions\": [\"0.0.11\", \"0.0.12\", \"0.0.13\", \"0.0.14\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/ngn-components/update.json\",\n  \"versions\": [\"0.0.14\"],\n  \"updateRemote\": true,\n  \"version\": \"0.0.14\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/ngn-components/0.0.14\",\n  \"branch\": \"ngn-components/0.0.14\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 128262288
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

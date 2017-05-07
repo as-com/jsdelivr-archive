@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2017 (-02) (-27) 12 : 33 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16579/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/16579")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16579
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 249117
+        , simpleUserLogin = N "OlegKi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/249117?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/OlegKi"
+        }
+  , issueTitle = "Update project free-jqgrid to v4.14.0"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16579"
+  , issueCreatedAt = 2017 (-02) (-26) 21 : 44 : 43 UTC
+  , issueBody =
+      Just
+        "Please commit free-jqgrid v4.14.0 manually, because the jsdelivrbot stopped the pull requets https://github.com/jsdelivr/jsdelivr/pull/16578.\r\n\r\nI described the same problem with the previous version in the issue https://github.com/jsdelivr/jsdelivr/issues/15498. The corresponding pull request  https://github.com/jsdelivr/jsdelivr/pull/15497 was applied manually.\r\n\r\nThank you in advance."
+  , issueState = StateOpen
+  , issueId = Id 210351350
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

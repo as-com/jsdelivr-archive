@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-06) 13 : 03 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5038030
+        , simpleUserLogin = N "tunnckoCore"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5038030?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tunnckoCore"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/128355519"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6270#issuecomment-128355519"
+  , issueCommentCreatedAt = 2015 (-08) (-06) 13 : 03 : 48 UTC
+  , issueCommentBody =
+      "@jimaek no one using it and it cant be used cuz it is with old dist from `1.0.0`. I just released it and after 1min realize that i forgot to run `npm run build` to build the new `dist`\n"
+  , issueCommentId = 128355519
+  }

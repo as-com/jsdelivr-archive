@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-06) 13 : 35 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65897146"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2629#issuecomment-65897146"
+  , issueCommentCreatedAt = 2014 (-12) (-06) 13 : 35 : 48 UTC
+  , issueCommentBody =
+      "> Plus remove files such as *.db and *.scss\n\nI'm still not convinced the *.less files need to be there either.\n"
+  , issueCommentId = 65897146
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-16) 05 : 33 : 22 UTC
+  , issueUpdatedAt = 2014 (-09) (-16) 14 : 57 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1721/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1721")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1721
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1573141
+        , simpleUserLogin = N "coderaiser"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1573141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coderaiser"
+        }
+  , issueTitle = "Ace v1.1.6: min -> min-noconflict"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1721")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1721.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1721.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1721"
+  , issueCreatedAt = 2014 (-09) (-15) 07 : 42 : 21 UTC
+  , issueBody =
+      Just
+        "Chaned `Ace` [min](https://github.com/ajaxorg/ace-builds/tree/d6da1f204327cdebb02a6330ea7a3fa7ba989824/src-min) to [min-noconfilict](https://github.com/ajaxorg/ace-builds/tree/d6da1f204327cdebb02a6330ea7a3fa7ba989824/src-min-noconflict).\n\nMain difference is `min` uses `define` and `min-noconflict` uses:  `ace.define`.\nBecause of this ace `v1.1.6` not working properly if there is no function `define`.\nAll previous versions of `Ace` was from `min-noconflict` so they works good.\n"
+  , issueState = StateClosed
+  , issueId = Id 42747796
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

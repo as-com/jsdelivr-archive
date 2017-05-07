@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-07) 09 : 17 : 40 UTC
+  , issueUpdatedAt = 2015 (-04) (-07) 09 : 17 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4201/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4201")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4201
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project WOW to 1.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4201")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4201.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4201.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4201"
+  , issueCreatedAt = 2015 (-04) (-07) 09 : 17 : 37 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project WOW to 1.1.2.\n\n@matthieua\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"WOW\",\n    \"repo\": \"matthieua/WOW\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"wow.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/wow\",\n    \"localVersions\": [\"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.1.0\", \"1.1.1\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"0.0.8\", \"0.0.9\", \"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.8\", \"0.1.9\", \"0.1.10\", \"0.1.11\", \"0.1.12\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.1.0\", \"1.1.1\", \"1.1.2\"],\n    \"branchVersions\": [\"1.1.0\"]\n  },\n  \"version\": \"1.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/wow/1.1.2\",\n  \"branch\": \"WOW/1.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 66833650
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

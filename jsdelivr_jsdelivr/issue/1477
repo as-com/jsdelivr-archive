@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-20) 21 : 35 : 54 UTC
+  , issueUpdatedAt = 2014 (-08) (-20) 21 : 38 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1477/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1477")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1477
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1295829
+        , simpleUserLogin = N "thgreasi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1295829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thgreasi"
+        }
+  , issueTitle = "feat: add localForage repo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1477")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1477.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1477.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1477"
+  , issueCreatedAt = 2014 (-08) (-20) 21 : 15 : 02 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 40745673
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

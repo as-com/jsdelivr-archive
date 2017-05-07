@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-17) 14 : 29 : 02 UTC
+  , issueUpdatedAt = 2016 (-01) (-17) 14 : 29 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9050/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9050")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9050
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project buttons to v1.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9050")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9050.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9050.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9050"
+  , issueCreatedAt = 2016 (-01) (-17) 14 : 23 : 31 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project buttons to v1.1.1.\n\n@alexwolfe\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"buttons\",\n    \"repo\": \"alexwolfe/Buttons\",\n    \"files\": {\n      \"include\": [\"./css/*\", \"./js/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/buttons\",\n    \"localVersions\": [\"2.0.0\"],\n    \"remoteVersions\": [\"v1.0\", \"v1.1.1\", \"v2.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/buttons/update.json\",\n  \"versions\": [\"v1.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/buttons/1.1.1\",\n  \"branch\": \"buttons/v1.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127097871
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

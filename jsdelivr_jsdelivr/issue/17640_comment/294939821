@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-04) (-18) 18 : 34 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/294939821"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17640#issuecomment-294939821"
+  , issueCommentCreatedAt = 2017 (-04) (-18) 18 : 34 : 45 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *formstone* between *1.3.2* and *1.3.3* there was a change in file structure  \n    ```diff\n    + css/themes/light/carousel.css\n    + css/themes/light/checkbox.css\n    + css/themes/light/dropdown.css\n    + css/themes/light/lightbox.css\n    + css/themes/light/navigation.css\n    + css/themes/light/pagination.css\n    + css/themes/light/range.css\n    + css/themes/light/scrollbar.css\n    + css/themes/light/tabs.css\n    + css/themes/light/tooltip.css\n    + css/themes/light/upload.css\n    + css/themes/light/viewer.css\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Encourage flow.*\n"
+  , issueCommentId = 294939821
+  }

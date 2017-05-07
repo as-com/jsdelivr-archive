@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-28) 11 : 41 : 41 UTC
+  , issueUpdatedAt = 2016 (-01) (-28) 11 : 41 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9402/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9402")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9402
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 946315
+        , simpleUserLogin = N "Aymkdn"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/946315?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Aymkdn"
+        }
+  , issueTitle = "jsDelivr auto-update for SharepointPlus"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9402")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9402.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9402.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9402"
+  , issueCreatedAt = 2016 (-01) (-27) 21 : 05 : 17 UTC
+  , issueBody =
+      Just "Hi,\n\nI want to try the auto-update process.\n\nThanks\n"
+  , issueState = StateClosed
+  , issueId = Id 129267879
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

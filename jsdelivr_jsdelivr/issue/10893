@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-07) 14 : 34 : 29 UTC
+  , issueUpdatedAt = 2016 (-04) (-07) 14 : 34 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10893/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10893")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10893
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project places.js to 0.0.11"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10893")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10893.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10893.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10893"
+  , issueCreatedAt = 2016 (-04) (-07) 14 : 34 : 22 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project places.js to 0.0.11.\n\n@algolia\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"places.js\",\n    \"repo\": \"algolia/places.js\",\n    \"files\": {\n      \"basePath\": \"dist/cdn/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/places.js\",\n    \"localVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"0.0.8\", \"0.0.9\", \"0.0.10\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"0.0.8\", \"0.0.9\", \"0.0.10\", \"0.0.11\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/places.js/update.json\",\n  \"versions\": [\"0.0.11\"],\n  \"updateRemote\": true,\n  \"version\": \"0.0.11\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/places.js/0.0.11\",\n  \"branch\": \"places.js/0.0.11\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 146644679
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

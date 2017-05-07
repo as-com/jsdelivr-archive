@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-11) 10 : 26 : 55 UTC
+  , issueUpdatedAt = 2016 (-10) (-11) 10 : 26 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14289/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14289")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14289
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17800145
+        , simpleUserLogin = N "RoteMinecraftIL"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/17800145?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/RoteMinecraftIL"
+        }
+  , issueTitle =
+      "Update update.json and info.ini for project \"Headstart-CSS\""
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14289")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14289.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14289.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14289"
+  , issueCreatedAt = 2016 (-10) (-08) 07 : 16 : 52 UTC
+  , issueBody = Just "Anything more to explain?\n"
+  , issueState = StateClosed
+  , issueId = Id 181810097
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

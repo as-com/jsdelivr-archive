@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-28) 16 : 15 : 33 UTC
+  , issueUpdatedAt = 2014 (-04) (-28) 16 : 15 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/715/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/715")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 715
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 456426
+        , simpleUserLogin = N "webpro"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/456426?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/webpro"
+        }
+  , issueTitle = "DOMtastic v0.6.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/715")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/715.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/715.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/715"
+  , issueCreatedAt = 2014 (-04) (-28) 15 : 18 : 39 UTC
+  , issueBody = Just "First version with source maps.\n"
+  , issueState = StateClosed
+  , issueId = Id 32368543
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

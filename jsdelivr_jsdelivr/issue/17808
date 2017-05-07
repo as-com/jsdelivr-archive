@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2017 (-04) (-26) 08 : 58 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17808/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/17808")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17808
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11210348
+        , simpleUserLogin = N "akashta"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/11210348?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/akashta"
+        }
+  , issueTitle = "jsdelivr serves a broken file"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17808"
+  , issueCreatedAt = 2017 (-04) (-26) 08 : 58 : 44 UTC
+  , issueBody =
+      Just
+        "Hi,\r\n\r\nSometimes jsdelivr serves a broken file cdn.jsdelivr.net/hola_player/1.0.30/hola_player.js.\r\nThe file ends with `{if(!(a instanceof b))throw new TypeError(\"Cannot call a` that causes a syntax error.\r\nIt seems that broken file comes from Fastly CDN.\r\n\r\nI have saved HAR files for a bad request and a good one:\r\n- bad: https://drive.google.com/open?id=0B4dQYL-OgjGbRFkxNkQzV1dRRHc\r\n- good: https://drive.google.com/open?id=0B4dQYL-OgjGbaXp4eXNXV0NRelE\r\n\r\nYou can open HAR files with https://toolbox.googleapps.com/apps/har_analyzer/ \r\nScreenshot:\r\n![screenshot](https://cloud.githubusercontent.com/assets/11210348/25426212/14cd8d92-2a77-11e7-8e43-8576df21b91e.png)\r\n\r\nThanks!"
+  , issueState = StateOpen
+  , issueId = Id 224393423
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

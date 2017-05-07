@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-24) 23 : 55 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 378557
+        , simpleUserLogin = N "patrickarlt"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/378557?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/patrickarlt"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/124770495"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6101#issuecomment-124770495"
+  , issueCommentCreatedAt = 2015 (-07) (-24) 23 : 55 : 30 UTC
+  , issueCommentBody =
+      "@jimaek this PR is for esri-leaflet which has no css or image deps. The link you have is for esri-leaflet-geocoder and they are included properly https://github.com/jsdelivr/jsdelivr/pull/6107/files.\n"
+  , issueCommentId = 124770495
+  }

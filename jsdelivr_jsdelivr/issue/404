@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-03) 13 : 11 : 39 UTC
+  , issueUpdatedAt = 2014 (-03) (-03) 13 : 11 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/404/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/404")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 404
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 810995
+        , simpleUserLogin = N "csainty"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/810995?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/csainty"
+        }
+  , issueTitle = "Added marked"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/404")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/404.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/404.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/404"
+  , issueCreatedAt = 2014 (-03) (-02) 12 : 02 : 55 UTC
+  , issueBody = Just "https://github.com/chjj/marked\n"
+  , issueState = StateClosed
+  , issueId = Id 28578233
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

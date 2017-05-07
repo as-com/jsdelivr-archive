@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-24) 08 : 54 : 25 UTC
+  , issueUpdatedAt = 2015 (-12) (-24) 08 : 54 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8639/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8639")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8639
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project flag-icon-css to 0.8.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8639")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8639.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8639.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8639"
+  , issueCreatedAt = 2015 (-12) (-23) 21 : 01 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project flag-icon-css to 0.8.6.\n\n@lipis\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"flag-icon-css\",\n    \"repo\": \"lipis/flag-icon-css\",\n    \"files\": {\n      \"include\": [\"./css/**/*\", \"./flags/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/flag-icon-css\",\n    \"localVersions\": [\"0.6.0\", \"0.7.1\", \"0.8.0\", \"0.8.2\", \"0.8.3\", \"0.8.4\", \"0.8.5\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.2.0\", \"0.3.0\", \"0.4.0\", \"0.5.0\", \"0.5.1\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.6.3\", \"0.6.4\", \"0.6.5\", \"0.7.0\", \"0.7.1\", \"0.8.0\", \"0.8.1\", \"v0.8.1\", \"0.8.2\", \"0.8.3\", \"0.8.4\", \"0.8.5\", \"0.8.6\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/flag-icon-css/update.json\",\n  \"version\": \"0.8.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/flag-icon-css/0.8.6\",\n  \"branch\": \"flag-icon-css/0.8.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 123722182
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

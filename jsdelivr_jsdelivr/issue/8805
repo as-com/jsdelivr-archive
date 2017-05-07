@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-06) 15 : 18 : 18 UTC
+  , issueUpdatedAt = 2016 (-01) (-06) 15 : 18 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8805/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8805")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8805
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6803264
+        , simpleUserLogin = N "JohnnyTheTank"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6803264?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/JohnnyTheTank"
+        }
+  , issueTitle = "Add bootstrap-block-grid"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8805")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8805.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8805.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8805"
+  , issueCreatedAt = 2016 (-01) (-06) 00 : 29 : 46 UTC
+  , issueBody =
+      Just
+        "added https://github.com/JohnnyTheTank/bootstrap-block-grid/\n"
+  , issueState = StateClosed
+  , issueId = Id 125083582
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-25) 22 : 47 : 26 UTC
+  , issueUpdatedAt = 2017 (-01) (-25) 22 : 47 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15932/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15932")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15932
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11398001
+        , simpleUserLogin = N "Henry263"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11398001?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Henry263"
+        }
+  , issueTitle = "New version added"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15932")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15932.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15932.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15932"
+  , issueCreatedAt = 2017 (-01) (-23) 21 : 56 : 23 UTC
+  , issueBody = Just "New version added.\r\n@megawac "
+  , issueState = StateClosed
+  , issueId = Id 202662425
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

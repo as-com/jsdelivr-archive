@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-25) 16 : 23 : 07 UTC
+  , issueUpdatedAt = 2015 (-10) (-25) 16 : 23 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7537/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7537")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7537
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6960243
+        , simpleUserLogin = N "djprmf"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6960243?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/djprmf"
+        }
+  , issueTitle = "Added project \"jssocials\""
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7537")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7537.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7537.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7537"
+  , issueCreatedAt = 2015 (-10) (-25) 15 : 43 : 09 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 113233104
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

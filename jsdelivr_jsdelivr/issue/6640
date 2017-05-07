@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-31) 18 : 04 : 19 UTC
+  , issueUpdatedAt = 2015 (-08) (-31) 18 : 04 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6640/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6640")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6640
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project jquery.validation.unobtrusive to v3.2.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6640")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6640.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6640.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6640"
+  , issueCreatedAt = 2015 (-08) (-31) 18 : 04 : 15 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.validation.unobtrusive to v3.2.3.\n\n@aspnet\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.validation.unobtrusive\",\n    \"repo\": \"aspnet/jquery-validation-unobtrusive\",\n    \"files\": {\n      \"include\": [\"jquery.validate.unobtrusive.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.validation.unobtrusive\",\n    \"localVersions\": [\"3.2.2\"],\n    \"remoteVersions\": [\"v3.2.2\", \"v3.2.3\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/jquery.validation.unobtrusive/update.json\",\n  \"version\": \"v3.2.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.validation.unobtrusive/3.2.3\",\n  \"branch\": \"jquery.validation.unobtrusive/v3.2.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 104102835
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

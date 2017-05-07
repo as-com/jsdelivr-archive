@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-18) 05 : 26 : 02 UTC
+  , issueUpdatedAt = 2016 (-08) (-18) 05 : 26 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13303/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13303")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13303
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 20928941
+        , simpleUserLogin = N "RiNsCS"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/20928941?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/RiNsCS"
+        }
+  , issueTitle = "Edit Some wrong file link"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13303")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13303.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13303.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13303"
+  , issueCreatedAt = 2016 (-08) (-18) 05 : 12 : 29 UTC
+  , issueBody = Just "Edit Some wrong file link\n"
+  , issueState = StateClosed
+  , issueId = Id 171819173
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

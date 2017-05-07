@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-24) 19 : 05 : 14 UTC
+  , issueUpdatedAt = 2015 (-04) (-24) 19 : 05 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1711/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1711")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/Needs%20attention/help"
+          , labelName = N "Needs attention/help"
+          }
+      ]
+  , issueNumber = 1711
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "New logo"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1711"
+  , issueCreatedAt = 2014 (-09) (-13) 12 : 50 : 16 UTC
+  , issueBody =
+      Just
+        "We need a new logo. So this topic will serve as info place for people that want to help.\n\nInspiration:\n\n![banner2-772x250](https://cloud.githubusercontent.com/assets/1834071/4064417/68379afa-2e11-11e4-9062-0dd03632bd7b.png)\n![banner-772x250](https://cloud.githubusercontent.com/assets/1834071/4064419/686f067a-2e11-11e4-8b16-95a00c2011a8.png)\n![](http://www.cedexis.com/images/icons/36-multi-cdn.png?1409157664)\n![](http://www.cedexis.com/images/products/radar-heat-map.png?1409157664)\n![](http://www.cedexis.com/images/products/openmix-diagram.png?1409157664)\n![](http://www.cedexis.com/images/products/globe-dots.png?1409157664)\n"
+  , issueState = StateClosed
+  , issueId = Id 42695189
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

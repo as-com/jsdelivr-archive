@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-17) 20 : 34 : 31 UTC
+  , issueUpdatedAt = 2015 (-08) (-17) 21 : 20 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6459/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6459")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6459
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3850064
+        , simpleUserLogin = N "WesCossick"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3850064?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/WesCossick"
+        }
+  , issueTitle = "Update CodeMirror Spell Checker file locations"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6459")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6459.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6459.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6459"
+  , issueCreatedAt = 2015 (-08) (-17) 20 : 14 : 43 UTC
+  , issueBody = Just "Moved to `/dist/` folder\n"
+  , issueState = StateClosed
+  , issueId = Id 101500790
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

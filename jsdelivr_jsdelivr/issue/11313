@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-27) 09 : 33 : 42 UTC
+  , issueUpdatedAt = 2016 (-04) (-27) 09 : 33 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11313/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11313")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11313
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project email-addresses to v2.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11313")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11313.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11313.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11313"
+  , issueCreatedAt = 2016 (-04) (-27) 09 : 33 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project email-addresses to v2.0.2.\n\n@jackbowman\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"email-addresses\",\n    \"repo\": \"jackbowman/email-addresses\",\n    \"files\": {\n      \"include\": [\"lib/email-addresses.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/email-addresses\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v2.0.1\", \"v2.0.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/email-addresses/update.json\",\n  \"versions\": [\"v2.0.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/email-addresses/2.0.2\",\n  \"branch\": \"email-addresses/v2.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 151340914
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

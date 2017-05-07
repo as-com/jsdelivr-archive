@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-26) 04 : 02 : 45 UTC
+  , issueUpdatedAt = 2016 (-02) (-26) 04 : 02 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10131/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10131")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10131
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project fingerprintjs2 to 1.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10131")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10131.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10131.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10131"
+  , issueCreatedAt = 2016 (-02) (-26) 04 : 02 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project fingerprintjs2 to 1.1.1.\n\n@Valve\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"fingerprintjs2\",\n    \"repo\": \"Valve/fingerprintjs2\",\n    \"files\": {\n      \"include\": [\"dist/fingerprint2.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/fingerprintjs2\",\n    \"localVersions\": [\"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"0.7.4\", \"0.7.5\", \"0.8.0\", \"0.9.0\", \"1.0.0-rc1\", \"1.0.0-rc2\", \"1.0.0-rc3\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.1.0\"],\n    \"remoteVersions\": [\"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.2.0\", \"0.2.1\", \"0.3.0\", \"0.4.0\", \"0.5.0\", \"0.5.1\", \"0.6.0\", \"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"0.7.4\", \"0.7.5\", \"0.8.0\", \"0.9.0\", \"1.0.0-rc1\", \"1.0.0-rc2\", \"1.0.0-rc3\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.1.0\", \"1.1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/fingerprintjs2/update.json\",\n  \"versions\": [\"1.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"1.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/fingerprintjs2/1.1.1\",\n  \"branch\": \"fingerprintjs2/1.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 136590214
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-18) 16 : 06 : 50 UTC
+  , issueUpdatedAt = 2014 (-12) (-18) 16 : 06 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2772/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2772")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2772
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ink to 3.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2772")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2772.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2772.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2772"
+  , issueCreatedAt = 2014 (-12) (-18) 16 : 04 : 59 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ink to 3.1.2.\n\n@sapo\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ink\",\n    \"repo\": \"sapo/Ink\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"./css/**/*\", \"./js/**/*\", \"./fonts/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/ink\",\n    \"localVersions\": [\"2.2.1\", \"2.3.0\", \"2.3.1\", \"2.3.2\", \"2.3.3\", \"3.0.0\", \"3.0.1\", \"3.0.3\", \"3.0.4\", \"3.1.0\", \"3.1.1\"],\n    \"remoteVersions\": [\"0.1.0\", \"1.1.0\", \"2.0.0\", \"2.1.0\", \"2.1.1\", \"2.2.0\", \"2.2.1\", \"2.3.0\", \"2.3.1\", \"2.3.2\", \"2.3.3\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.1.0\", \"3.1.1\", \"3.1.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"3.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/ink/3.1.2\",\n  \"branch\": \"ink/3.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 52381224
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

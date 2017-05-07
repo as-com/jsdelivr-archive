@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-04) 20 : 06 : 43 UTC
+  , issueUpdatedAt = 2014 (-09) (-04) 20 : 06 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1612/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1612")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1612
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project chart.js to v1.0.1-beta.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1612")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1612.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1612.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1612"
+  , issueCreatedAt = 2014 (-09) (-04) 20 : 06 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project chart.js to v1.0.1-beta.4.\n\n@nnnick\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"chart.js\",\n    \"repo\": \"nnnick/Chart.js\",\n    \"files\": {\n      \"include\": [\"Chart.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/chart.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.2.0\", \"v1.0.0-beta\", \"v1.0.1-beta\", \"v1.0.1-beta.2\", \"v1.0.1-beta.3\", \"v1.0.1-beta.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.0.1-beta.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/chart.js/1.0.1-beta.4\",\n  \"branch\": \"chart.js/v1.0.1-beta.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 41979176
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

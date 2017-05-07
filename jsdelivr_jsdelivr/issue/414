@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-05) 15 : 09 : 23 UTC
+  , issueUpdatedAt = 2014 (-03) (-05) 15 : 09 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/414/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/414")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 414
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1920405
+        , simpleUserLogin = N "moderndeveloperllc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1920405?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/moderndeveloperllc"
+        }
+  , issueTitle = "Update KineticJS to 5.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/414")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/414.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/414.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/414"
+  , issueCreatedAt = 2014 (-03) (-05) 15 : 08 : 40 UTC
+  , issueBody = Just "Downloaded from http://kineticjs.com/ today.\n"
+  , issueState = StateClosed
+  , issueId = Id 28796158
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

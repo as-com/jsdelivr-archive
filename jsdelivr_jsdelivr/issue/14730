@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-10) 04 : 04 : 18 UTC
+  , issueUpdatedAt = 2016 (-11) (-10) 04 : 04 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14730/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14730")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14730
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project platform to 1.3.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14730")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14730.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14730.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14730"
+  , issueCreatedAt = 2016 (-11) (-10) 04 : 04 : 15 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project platform to 1.3.3.\n\n@bestiejs\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"platform\",\n    \"files\": {\n      \"include\": [\"platform.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/platform.js\",\n    \"localVersions\": [\"1.0.0\", \"1.2.0\", \"1.3.0\", \"1.3.1\", \"1.3.2\"],\n    \"remoteVersions\": [\"0.1.337\", \"0.2.0\", \"0.3.0\", \"0.3.1\", \"0.4.0\", \"1.0.0\", \"1.1.0\", \"1.2.0\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/platform.js/update.json\",\n  \"versions\": [\"1.3.3\"],\n  \"updateRemote\": true,\n  \"version\": \"1.3.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/platform.js/1.3.3\",\n  \"branch\": \"platform/1.3.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 188415545
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

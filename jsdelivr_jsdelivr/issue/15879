@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-21) 01 : 17 : 24 UTC
+  , issueUpdatedAt = 2017 (-01) (-21) 01 : 17 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15879/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15879")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15879
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11398001
+        , simpleUserLogin = N "Henry263"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11398001?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Henry263"
+        }
+  , issueTitle =
+      "I have created new pull request as per recommendation."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15879")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15879.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15879.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15879"
+  , issueCreatedAt = 2017 (-01) (-20) 18 : 57 : 52 UTC
+  , issueBody =
+      Just
+        "@jsdelivrbot @megawac : Please review my changes. I have created new PR with only 4 files those are for my project. Please approve or let me know the changes. Thanks."
+  , issueState = StateClosed
+  , issueId = Id 202215811
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

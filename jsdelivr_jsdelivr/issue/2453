@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-21) 14 : 34 : 46 UTC
+  , issueUpdatedAt = 2014 (-11) (-21) 14 : 34 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2453/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2453")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2453
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project vivus to v0.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2453")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2453.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2453.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2453"
+  , issueCreatedAt = 2014 (-11) (-21) 14 : 10 : 39 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vivus to v0.1.2.\n\n@maxwellito\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vivus\",\n    \"repo\": \"maxwellito/vivus\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"vivus.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/vivus\",\n    \"localVersions\": [\"0.1.1\"],\n    \"remoteVersions\": [\"v0.1.1\", \"v0.1.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/vivus/0.1.2\",\n  \"branch\": \"vivus/v0.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 49700012
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

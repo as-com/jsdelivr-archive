@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-29) 11 : 52 : 49 UTC
+  , issueUpdatedAt = 2014 (-06) (-22) 17 : 39 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/865/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/865")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 865
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add foundation v5.2.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/865")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/865.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/865.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/865"
+  , issueCreatedAt = 2014 (-05) (-29) 01 : 51 : 51 UTC
+  , issueBody =
+      Just
+        "source:http://foundation.zurb.com/cdn/releases/foundation_v5.2.3.zip\n"
+  , issueState = StateClosed
+  , issueId = Id 34522764
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

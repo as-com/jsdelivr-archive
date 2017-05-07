@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-30) 16 : 01 : 05 UTC
+  , issueUpdatedAt = 2015 (-01) (-30) 16 : 02 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3105/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3105")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3105
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "new wavesufer.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3105")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3105.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3105.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3105"
+  , issueCreatedAt = 2015 (-01) (-17) 14 : 58 : 22 UTC
+  , issueBody = Just "I should really automate this someday...\n"
+  , issueState = StateClosed
+  , issueId = Id 54663977
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

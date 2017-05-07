@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-16) 19 : 54 : 51 UTC
+  , issueUpdatedAt = 2016 (-09) (-16) 20 : 04 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13837/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13837")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13837
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2160046
+        , simpleUserLogin = N "marcusmolchany"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2160046?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/marcusmolchany"
+        }
+  , issueTitle = "Add jquery.sortjitsu plugin to jsdelivr files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13837")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13837.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13837.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13837"
+  , issueCreatedAt = 2016 (-09) (-16) 17 : 47 : 51 UTC
+  , issueBody =
+      Just
+        "This PR adds `info.ini` and `update.json` for jquery.sortjitsu\n"
+  , issueState = StateClosed
+  , issueId = Id 177482353
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

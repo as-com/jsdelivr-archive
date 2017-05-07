@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-15) 07 : 10 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/148300615"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/7375#issuecomment-148300615"
+  , issueCommentCreatedAt = 2015 (-10) (-15) 07 : 10 : 32 UTC
+  , issueCommentBody =
+      "the babel package is for running es6 code processed by babel in a script tag. It should mostly be used for debugging and may be good for things like jsbin/fiddles. See documentation. A minified file does not exist for babel-browser as its mostly just a quick hack for demos\n\nhttp://babeljs.io/docs/usage/browser/\n"
+  , issueCommentId = 148300615
+  }

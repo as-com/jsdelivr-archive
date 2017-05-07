@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-16) 19 : 32 : 52 UTC
+  , issueUpdatedAt = 2017 (-03) (-16) 19 : 32 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16969/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16969")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16969
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular.timer to v1.3.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16969")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16969.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16969.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16969"
+  , issueCreatedAt = 2017 (-03) (-16) 19 : 32 : 46 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.timer to v1.3.5.\n\n@siddii\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.timer\",\n    \"repo\": \"siddii/angular-timer\",\n    \"files\": {\n      \"include\": [\"dist/angular-timer.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.timer\",\n    \"localVersions\": [\"1.3.1\", \"1.3.3\", \"1.3.4\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.0.8\", \"v1.0.9\", \"v1.0.10\", \"v1.0.11\", \"v1.0.12\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\", \"v1.1.4\", \"v1.1.5\", \"v1.1.6\", \"v1.1.7\", \"v1.1.8\", \"v1.1.9\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.3.0\", \"v1.3.1\", \"v1.3.3\", \"v1.3.4\", \"v1.3.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.timer/update.json\",\n  \"versions\": [\"v1.3.5\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.3.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.timer/1.3.5\",\n  \"branch\": \"angular.timer/v1.3.5\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 214814731
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

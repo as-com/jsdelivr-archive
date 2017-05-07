@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-22) 16 : 05 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123772423"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6052#issuecomment-123772423"
+  , issueCommentCreatedAt = 2015 (-07) (-22) 16 : 05 : 10 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` or `update.json` has some problems\n  - Where is the semantic-ui's mainfile (_semantic.min.js_) in v-_0.15.1_\n  - Where is the semantic-ui's mainfile (_semantic.min.js_) in v-_0.15.2_\n  - Where is the semantic-ui's mainfile (_semantic.min.js_) in v-_0.16.1_\n  - Where is the semantic-ui's mainfile (_semantic.min.js_) in v-_0.17.0_\n  - Where is the semantic-ui's mainfile (_semantic.min.js_) in v-_0.18.0_\n  - Where is the semantic-ui's mainfile (_semantic.min.js_) in v-_0.19.0_\n  - Where is the semantic-ui's mainfile (_semantic.min.js_) in v-_0.19.1_\n  - Where is the semantic-ui's mainfile (_semantic.min.js_) in v-_0.19.2_\n  - Where is the semantic-ui's mainfile (_semantic.min.js_) in v-_0.19.3_\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Encourage flow._\n"
+  , issueCommentId = 123772423
+  }

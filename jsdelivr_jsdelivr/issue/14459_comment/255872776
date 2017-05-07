@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-24) 21 : 34 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 4303
+        , simpleUserLogin = N "jdalton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4303?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jdalton"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/255872776"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/14459#issuecomment-255872776"
+  , issueCommentCreatedAt = 2016 (-10) (-24) 21 : 33 : 37 UTC
+  , issueCommentBody =
+      "The combined build is of libs at specific versions so shouldn't be dynamic, shouldn't fluctuate per reference.\n"
+  , issueCommentId = 255872776
+  }

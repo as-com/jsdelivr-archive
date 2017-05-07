@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-09) 13 : 37 : 20 UTC
+  , issueUpdatedAt = 2014 (-04) (-09) 13 : 38 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/613/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/613")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 613
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 796194
+        , simpleUserLogin = N "Marsup"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/796194?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Marsup"
+        }
+  , issueTitle = "Multiple files API and versioning format"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/613"
+  , issueCreatedAt = 2014 (-04) (-09) 09 : 47 : 32 UTC
+  , issueBody =
+      Just
+        "Hello,\n\nI'm trying to use the package `angularjs.nvd3-directives` with the multiple files API.\nIt's not working very well and my guess is that because it defines its versions as `vx.x.x`.\n\nWhat's the correct way to deal with this situation ? Submit a PR which duplicates releases without the v ?\n\nI have not seen any mention of what the version format should be by the way, only characters limitations.\n"
+  , issueState = StateClosed
+  , issueId = Id 31143263
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-11) 13 : 10 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/139541458"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6820#issuecomment-139541458"
+  , issueCommentCreatedAt = 2015 (-09) (-11) 13 : 10 : 00 UTC
+  , issueCommentBody =
+      "The files specified here https://github.com/jsdelivr/jsdelivr/blob/master/files/tsumegumi/update.json dont exist here https://github.com/allianceport/tsumegumi.js/tree/0.0.1\nThats why the bot fails\n"
+  , issueCommentId = 139541458
+  }

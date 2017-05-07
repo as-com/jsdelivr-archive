@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-23) 11 : 34 : 54 UTC
+  , issueUpdatedAt = 2016 (-08) (-23) 11 : 34 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13393/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13393")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13393
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project sharepointplus to v3.13"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13393")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13393.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13393.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13393"
+  , issueCreatedAt = 2016 (-08) (-23) 11 : 34 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project sharepointplus to v3.13.\n\n@aymkdn\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"sharepointplus\",\n    \"repo\": \"aymkdn/sharepointplus\",\n    \"files\": {\n      \"basePath\": \"jsdelivr/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/sharepointplus\",\n    \"localVersions\": [\"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.0.7\", \"3.0.8\", \"3.0.9\", \"3.0.10\", \"3.0.11\", \"3.12.0\"],\n    \"remoteVersions\": [\"v3.0.5\", \"v3.0.6\", \"v3.0.7\", \"v3.0.8\", \"v3.0.9\", \"3.0.10\", \"v3.0.10\", \"3.0.11\", \"v3.12\", \"v3.13\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/sharepointplus/update.json\",\n  \"versions\": [\"v3.13\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.13\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/sharepointplus/3.13\",\n  \"branch\": \"sharepointplus/v3.13\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 172676321
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-25) 09 : 39 : 27 UTC
+  , issueUpdatedAt = 2015 (-12) (-25) 09 : 39 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8653/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8653")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8653
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 14110
+        , simpleUserLogin = N "apeckham"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/14110?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/apeckham"
+        }
+  , issueTitle = "Update snowplow.js to 2.5.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8653")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8653.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8653.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8653"
+  , issueCreatedAt = 2015 (-12) (-25) 08 : 00 : 08 UTC
+  , issueBody =
+      Just
+        "Added snowplow 2.5.3 from https://github.com/snowplow/snowplow/wiki/Hosted-assets\n\n(Unfortunately I can't find a published minified version so I can't enable jsdelivr auto updates)\n"
+  , issueState = StateClosed
+  , issueId = Id 123863097
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

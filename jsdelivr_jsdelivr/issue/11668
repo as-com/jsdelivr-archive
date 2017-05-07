@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-18) 14 : 35 : 33 UTC
+  , issueUpdatedAt = 2016 (-05) (-18) 14 : 35 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11668/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11668")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11668
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1402524
+        , simpleUserLogin = N "AlessandroMenti"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1402524?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/AlessandroMenti"
+        }
+  , issueTitle = "Add Genetic.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11668")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11668.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11668.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11668"
+  , issueCreatedAt = 2016 (-05) (-17) 22 : 25 : 04 UTC
+  , issueBody =
+      Just
+        "This pull request adds [Genetic.js](http://subprotocol.com/system/genetic-js.html), an advanced evolutionary and genetic algorithm library.\n"
+  , issueState = StateClosed
+  , issueId = Id 155376813
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

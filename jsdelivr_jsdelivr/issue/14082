@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-01) 22 : 03 : 40 UTC
+  , issueUpdatedAt = 2016 (-10) (-01) 22 : 03 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14082/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14082")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14082
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project headstart-css to v0.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14082")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14082.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14082.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14082"
+  , issueCreatedAt = 2016 (-10) (-01) 22 : 03 : 37 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project headstart-css to v0.2.0.\n\n@RotemDev\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"headstart-css\",\n    \"repo\": \"RotemDev/Headstart\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"css/rotem.min.css\", \"css/rotem.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/headstart-css\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.2.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/headstart-css/update.json\",\n  \"versions\": [\"v0.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/headstart-css/0.2.0\",\n  \"branch\": \"headstart-css/v0.2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 180482784
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

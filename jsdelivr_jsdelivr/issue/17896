@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-03) 18 : 09 : 18 UTC
+  , issueUpdatedAt = 2017 (-05) (-03) 18 : 09 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17896/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17896")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17896
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 22839320
+        , simpleUserLogin = N "futurecodesmith"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/22839320?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/futurecodesmith"
+        }
+  , issueTitle = "create line.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17896")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17896.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17896.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17896"
+  , issueCreatedAt = 2017 (-05) (-01) 23 : 21 : 49 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 225552369
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

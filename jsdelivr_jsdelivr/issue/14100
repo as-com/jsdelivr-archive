@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 28 : 42 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 28 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14100/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14100")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14100
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-icons to v1.0.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14100")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14100.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14100.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14100"
+  , issueCreatedAt = 2016 (-10) (-03) 14 : 32 : 48 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-icons to v1.0.7.\n\n@base-apps\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular-icons\",\n    \"repo\": \"base-apps/angular-icons\",\n    \"files\": {\n      \"basePath\": \"./dist\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular-icons\",\n    \"localVersions\": [\"1.0.4\", \"1.0.5\"],\n    \"remoteVersions\": [\"v0.1.2\", \"v0.1.3\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular-icons/update.json\",\n  \"versions\": [\"v1.0.7\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular-icons/1.0.7\",\n  \"branch\": \"angular-icons/v1.0.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 180655907
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

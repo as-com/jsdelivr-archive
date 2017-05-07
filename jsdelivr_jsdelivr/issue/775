@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-09) 08 : 41 : 20 UTC
+  , issueUpdatedAt = 2014 (-05) (-09) 08 : 41 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/775/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/775")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 775
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "add jquery.hammerjs v 1.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/775")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/775.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/775.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/775"
+  , issueCreatedAt = 2014 (-05) (-09) 08 : 39 : 36 UTC
+  , issueBody =
+      Just
+        "add v 1.1.2 from https://github.com/EightMedia/jquery.hammer.js/archive/1.1.2.tar.gz \n"
+  , issueState = StateClosed
+  , issueId = Id 33154619
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

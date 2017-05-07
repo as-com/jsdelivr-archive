@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-26) 17 : 19 : 50 UTC
+  , issueUpdatedAt = 2016 (-05) (-26) 17 : 19 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11806/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11806")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11806
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4902746
+        , simpleUserLogin = N "goessner"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4902746?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/goessner"
+        }
+  , issueTitle = "Master"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11806")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11806.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11806.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11806"
+  , issueCreatedAt = 2016 (-05) (-24) 23 : 33 : 21 UTC
+  , issueBody = Nothing
+  , issueState = StateClosed
+  , issueId = Id 156632449
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-17) 18 : 09 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/70377343"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3101#issuecomment-70377343"
+  , issueCommentCreatedAt = 2015 (-01) (-17) 18 : 09 : 24 UTC
+  , issueCommentBody =
+      "We have auto-updates enabled for this project, this file would break the structure because they dont have it in their repo\n"
+  , issueCommentId = 70377343
+  }

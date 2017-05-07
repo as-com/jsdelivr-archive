@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-16) 09 : 15 : 29 UTC
+  , issueUpdatedAt = 2015 (-12) (-16) 16 : 56 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8511/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8511")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8511
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2044842
+        , simpleUserLogin = N "jlmakes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2044842?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jlmakes"
+        }
+  , issueTitle = "Update project scrollreveal.js to v3.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8511")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8511.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8511.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8511"
+  , issueCreatedAt = 2015 (-12) (-16) 05 : 50 : 38 UTC
+  , issueBody =
+      Just
+        "Everything looks nice and tidy for the new release. I also removed an ancient version of ScrollReveal that hasn\8217t been supported for over a year.\n"
+  , issueState = StateClosed
+  , issueId = Id 122434226
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

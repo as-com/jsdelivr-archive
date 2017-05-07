@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-07) 21 : 07 : 09 UTC
+  , issueUpdatedAt = 2017 (-02) (-07) 21 : 07 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16230/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16230")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16230
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11300323
+        , simpleUserLogin = N "TheLegendaryMarc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11300323?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/TheLegendaryMarc"
+        }
+  , issueTitle = "Include Simple Line Icons"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16230")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16230.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16230.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16230"
+  , issueCreatedAt = 2017 (-02) (-07) 21 : 05 : 21 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 206014155
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

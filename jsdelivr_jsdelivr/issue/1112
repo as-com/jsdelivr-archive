@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-04) 14 : 28 : 30 UTC
+  , issueUpdatedAt = 2014 (-07) (-04) 14 : 40 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1112/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1112")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1112
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2232981
+        , simpleUserLogin = N "meddle0x53"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2232981?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/meddle0x53"
+        }
+  , issueTitle = "Pro.js updated to version 0.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1112")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1112.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1112.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1112"
+  , issueCreatedAt = 2014 (-07) (-04) 13 : 32 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 37168021
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

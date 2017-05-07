@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-29) 04 : 44 : 59 UTC
+  , issueUpdatedAt = 2015 (-04) (-29) 04 : 45 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4539/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4539")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4539
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ua-parser.js to 0.7.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4539")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4539.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4539.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4539"
+  , issueCreatedAt = 2015 (-04) (-29) 04 : 44 : 51 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ua-parser.js to 0.7.7.\n\n@faisalman\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ua-parser.js\",\n    \"repo\": \"faisalman/ua-parser-js\",\n    \"files\": {\n      \"include\": [\"src/ua-parser.js\", \"dist/ua-parser.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/ua-parser.js\",\n    \"localVersions\": [\"0.5.11\", \"0.6.0\", \"0.7.0\", \"0.7.1\", \"0.7.3\"],\n    \"remoteVersions\": [\"v0.1\", \"v0.1.2\", \"v0.2.0\", \"v0.2.1\", \"v0.3.0\", \"v0.3.2\", \"v0.3.4\", \"v0.4.0\", \"v0.4.3\", \"v0.4.6\", \"v0.4.8\", \"v0.4.15\", \"v0.5.1\", \"v0.5.11\", \"v0.5.15\", \"v0.5.25\", \"v0.5.27\", \"v0.6.0\", \"v0.6.2\", \"v0.7.0\", \"v0.7.1\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"0.7.7\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.7.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/ua-parser.js/0.7.7\",\n  \"branch\": \"ua-parser.js/0.7.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 71776888
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

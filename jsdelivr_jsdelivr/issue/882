@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-11) 00 : 35 : 57 UTC
+  , issueUpdatedAt = 2014 (-06) (-11) 00 : 35 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/882/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/882")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 882
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4039372
+        , simpleUserLogin = N "mzf"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4039372?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mzf"
+        }
+  , issueTitle = "Minification and uglifying option"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/882"
+  , issueCreatedAt = 2014 (-06) (-03) 05 : 14 : 20 UTC
+  , issueBody =
+      Just
+        "Not all projects have minified version, example http://cdn.jsdelivr.net/g/jquery@2.1,tuktuk@0.7. \nIt would be fine to have an option for minification an uglifying after concatination\nSomething like this url\nhttp://cdn.jsdelivr.net/g/jquery@2.1,tuktuk@0.7/min\n"
+  , issueState = StateClosed
+  , issueId = Id 34832790
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

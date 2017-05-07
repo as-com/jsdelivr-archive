@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-30) 17 : 28 : 56 UTC
+  , issueUpdatedAt = 2014 (-12) (-30) 17 : 32 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2869/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2869")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2869
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 829734
+        , simpleUserLogin = N "petkaantonov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/829734?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/petkaantonov"
+        }
+  , issueTitle = "Add update.json for bluebird"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2869")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2869.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2869.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2869"
+  , issueCreatedAt = 2014 (-12) (-30) 17 : 02 : 36 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 53129752
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

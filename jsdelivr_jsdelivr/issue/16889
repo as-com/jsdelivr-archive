@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-15) 17 : 35 : 36 UTC
+  , issueUpdatedAt = 2017 (-03) (-15) 17 : 35 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16889/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16889")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16889
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 24605648
+        , simpleUserLogin = N "ecmwf-sdo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/24605648?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ecmwf-sdo"
+        }
+  , issueTitle = "Please add ecmwf-static-charts"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16889")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16889.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16889.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16889"
+  , issueCreatedAt = 2017 (-03) (-13) 17 : 07 : 09 UTC
+  , issueBody = Just "Many thanks"
+  , issueState = StateClosed
+  , issueId = Id 213834000
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-06) 12 : 18 : 47 UTC
+  , issueUpdatedAt = 2014 (-09) (-06) 12 : 18 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1637/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1637")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1637
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "create update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1637")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1637.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1637.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1637"
+  , issueCreatedAt = 2014 (-09) (-06) 12 : 17 : 04 UTC
+  , issueBody =
+      Just
+        "\"components/handlebars.js\" seems to be official build repo; see http://github.com/wycats/handlebars.js#installing\n"
+  , issueState = StateClosed
+  , issueId = Id 42115412
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

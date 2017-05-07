@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-16) 18 : 35 : 44 UTC
+  , issueUpdatedAt = 2014 (-02) (-16) 18 : 35 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/363/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/363")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 363
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 831389
+        , simpleUserLogin = N "lewisgoddard"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/831389?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lewisgoddard"
+        }
+  , issueTitle = "Chrome (32) does not cache all-in-one files."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/363"
+  , issueCreatedAt = 2014 (-02) (-16) 13 : 27 : 39 UTC
+  , issueBody =
+      Just
+        "This seems to be an issue with chrome, which is setting the `Cache-Control` to `max-age=0` and ignoring the response. I'm not entirely sure how you would go about fixing this, maybe by appending `script.js` to the end of the URLs so it expects JavaScript (it seems unsure about what to expect).\n### Request\n\n```\nRequest URL: http://cdn.jsdelivr.net/g/modernizr,selectivizr,jquery,jquery.equalize\nRequest Method: GET\nStatus Code: 200 OK\n```\n### Request Headers\n\n```\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\nAccept-Encoding: gzip,deflate,sdch\nAccept-Language: en-GB,en;q=0.8,en-US;q=0.6\nCache-Control: max-age=0\nConnection: keep-alive\nHost: cdn.jsdelivr.net\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36\n```\n### Response Headers\n\n```\nAccess-Control-Allow-Origin: *\nCache-Control: public, max-age=315360\nConnection: keep-alive\nContent-Encoding: gzip\nContent-Type: application/javascript\nDate: Sun, 16 Feb 2014 13:23:29 GMT\nServer: nginx\nTransfer-Encoding: chunked\nVary: Accept-Encoding\nX-Age: 2199\nX-Cache: HIT\nX-Cache: HIT\nX-Edge-IP: 185.2.138.117\nX-Edge-Location: London, GB\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 27672749
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

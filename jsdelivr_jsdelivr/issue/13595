@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-04) 17 : 47 : 36 UTC
+  , issueUpdatedAt = 2016 (-09) (-04) 17 : 47 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13595/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13595")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13595
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1183816
+        , simpleUserLogin = N "frncesc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1183816?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/frncesc"
+        }
+  , issueTitle = "\"latest\" version tag not working as expected "
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13595"
+  , issueCreatedAt = 2016 (-09) (-04) 11 : 49 : 19 UTC
+  , issueBody =
+      Just
+        "Project \"jclic.js\" was updated two days ago from **v0.1.33** to **v0.1.34** in GitHub.\nEverything seems to be OK in JSDelivr:\n- API and project page indicate that 0.1.34 is the latest version, as expected:\n  http://www.jsdelivr.com/projects/jclic.js\n  https://api.jsdelivr.com/v1/jsdelivr/libraries?name=jclic.js\n- Direct calls with full version tag work properly, returning 0.1.34:\n  https://cdn.jsdelivr.net/jclic.js/0.1.34/jclic.min.js \n- Also calls with lower branch version digits are returning 0.1.34:\n  https://cdn.jsdelivr.net/jclic.js/0.1/jclic.min.js\n  https://cdn.jsdelivr.net/jclic.js/0/jclic.min.js\n- And it also works fine using the \"merge\" mode:\n  https://cdn.jsdelivr.net/g/jclic.js\n\n... but calling jsdelivr with `latest` (our favorite method!) erroneusly returns the previous version (0.1.33):\nhttps://cdn.jsdelivr.net/jclic.js/latest/jclic.min.js\n\nPlease, can you check it?\n\nThanks!!\n"
+  , issueState = StateClosed
+  , issueId = Id 174945020
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

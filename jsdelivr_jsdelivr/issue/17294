@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-31) 16 : 59 : 30 UTC
+  , issueUpdatedAt = 2017 (-03) (-31) 16 : 59 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17294/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/17294")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17294
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 910829
+        , simpleUserLogin = N "rafa8626"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/910829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rafa8626"
+        }
+  , issueTitle = "MediaElement latest version now showing up"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17294"
+  , issueCreatedAt = 2017 (-03) (-30) 03 : 14 : 57 UTC
+  , issueBody =
+      Just
+        "@megawac I adjusted my info.ini files to reflect a new URL for the MediaElement and MediaElement Plugins projects. But none of them are pointing to the right versions on the jsDelivr website. They must point now to 4.0.2 and 2.0.0, respectively"
+  , issueState = StateClosed
+  , issueId = Id 218069302
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

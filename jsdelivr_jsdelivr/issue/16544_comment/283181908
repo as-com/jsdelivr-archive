@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-02) (-28) 22 : 29 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6192491
+        , simpleUserLogin = N "MartinKolarik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6192491?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MartinKolarik"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/283181908"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16544#issuecomment-283181908"
+  , issueCommentCreatedAt = 2017 (-02) (-28) 22 : 29 : 04 UTC
+  , issueCommentBody =
+      "It should take about two minutes but I also noticed it took much longer several times before. Not sure why.\r\n@jimaek do we store any logs from [jsdelivr/www.jsdelivr.com](https://github.com/jsdelivr/www.jsdelivr.com) right now?"
+  , issueCommentId = 283181908
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-06) 12 : 02 : 10 UTC
+  , issueUpdatedAt = 2014 (-07) (-06) 12 : 02 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1130/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1130")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1130
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "Manually update WebFontLoader 1.5.3 please"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1130"
+  , issueCreatedAt = 2014 (-07) (-06) 08 : 04 : 43 UTC
+  , issueBody =
+      Just
+        "http://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js\nToo many folders to use web interface.  :baby_bottle: \n"
+  , issueState = StateClosed
+  , issueId = Id 37213894
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

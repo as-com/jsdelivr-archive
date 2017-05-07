@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-17) 15 : 55 : 32 UTC
+  , issueUpdatedAt = 2016 (-01) (-18) 20 : 31 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9130/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9130")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9130
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 41597
+        , simpleUserLogin = N "mistic100"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/41597?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mistic100"
+        }
+  , issueTitle = "Update jQuery-QueryBuilder 1.4.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9130")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9130.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9130.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9130"
+  , issueCreatedAt = 2016 (-01) (-17) 15 : 51 : 27 UTC
+  , issueBody = Just "As discussed here #9090\n"
+  , issueState = StateClosed
+  , issueId = Id 127103730
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

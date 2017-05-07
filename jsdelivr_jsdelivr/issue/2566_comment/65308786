@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-02) 21 : 33 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5691215
+        , simpleUserLogin = N "nicksay"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5691215?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nicksay"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65308786"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2566#issuecomment-65308786"
+  , issueCommentCreatedAt = 2014 (-12) (-02) 21 : 33 : 41 UTC
+  , issueCommentBody =
+      "We can, though we consider them \"production\" files since we have found that when debugging live issues, it's helpful to be able to switch between the standard & debug files that directly correspond with the release that you're using.  I would expect CDN users with anything beyond trivial pages to find the same.  The files included in this pull request were downloaded from the release distribution zip at https://github.com/youtube/spfjs/releases/tag/v2.0.0 (tree view at https://github.com/youtube/spfjs/tree/v2.0.0/dist) and it would be nice to have the distribution files match across the release and CDNs.\n"
+  , issueCommentId = 65308786
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-14) 00 : 38 : 33 UTC
+  , issueUpdatedAt = 2014 (-08) (-14) 00 : 38 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1430/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1430")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1430
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.payment to v1.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1430")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1430.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1430.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1430"
+  , issueCreatedAt = 2014 (-08) (-14) 00 : 38 : 04 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.payment to v1.1.1.\n\n@stripe\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.payment\",\n    \"repo\": \"stripe/jquery.payment\",\n    \"files\": {\n      \"basePath\": \"lib/\",\n      \"include\": [\"jquery.payment.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.payment\",\n    \"localVersions\": [\"1.0.1\", \"1.0.3\", \"1.1.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.1.0\", \"v1.1.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.payment/1.1.1\",\n  \"branch\": \"jquery.payment/v1.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 40213464
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-07) 04 : 46 : 19 UTC
+  , issueUpdatedAt = 2016 (-11) (-07) 04 : 46 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14675/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14675")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14675
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 22026957
+        , simpleUserLogin = N "eugpoloz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/22026957?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/eugpoloz"
+        }
+  , issueTitle = "Add font-deutsch-gothic"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14675")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14675.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14675.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14675"
+  , issueCreatedAt = 2016 (-11) (-06) 12 : 11 : 13 UTC
+  , issueBody =
+      Just
+        "Add Deutsch Gothic font files made with Font Squirrel generator to CDN."
+  , issueState = StateClosed
+  , issueId = Id 187557833
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

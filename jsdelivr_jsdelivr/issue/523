@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-28) 12 : 57 : 32 UTC
+  , issueUpdatedAt = 2014 (-07) (-07) 14 : 30 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/523/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/523")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 523
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1607088
+        , simpleUserLogin = N "zbindenren"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1607088?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zbindenren"
+        }
+  , issueTitle = "Add ng-table version 0.3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/523")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/523.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/523.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/523"
+  , issueCreatedAt = 2014 (-03) (-28) 12 : 39 : 12 UTC
+  , issueBody =
+      Just
+        "Added older ng-table version. Also included ng-table.map which is also necessary.\n"
+  , issueState = StateClosed
+  , issueId = Id 30383588
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

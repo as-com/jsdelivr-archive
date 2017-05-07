@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-22) 16 : 28 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6295761
+        , simpleUserLogin = N "vousk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6295761?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vousk"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/104704763"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4915#issuecomment-104704763"
+  , issueCommentCreatedAt = 2015 (-05) (-22) 16 : 28 : 36 UTC
+  , issueCommentBody =
+      "We already have a CDN for the stable version (http://cdn.babylonjs.com/2-0/babylon.js), but it has not SSL access. The purpose of putting the file on jsDelivr is to provide, through an SSL CDN, a beta version not released as final stable but significantly tested (that's why it's not the latest beta) to be considered stable enough for some production projects.\n"
+  , issueCommentId = 104704763
+  }

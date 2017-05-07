@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 18 : 12 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 18 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13977/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13977")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13977
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19428767
+        , simpleUserLogin = N "netanelwebzi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/19428767?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/netanelwebzi"
+        }
+  , issueTitle =
+      "Rename files/info.ini to files/md-buttons-toggle/info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13977")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13977.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13977.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13977"
+  , issueCreatedAt = 2016 (-09) (-24) 22 : 09 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 179054852
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

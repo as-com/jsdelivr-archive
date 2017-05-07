@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-16) 07 : 39 : 33 UTC
+  , issueUpdatedAt = 2015 (-07) (-16) 07 : 39 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5893/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5893")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5893
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project laroux.js to v2.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5893")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5893.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5893.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5893"
+  , issueCreatedAt = 2015 (-07) (-15) 21 : 36 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project laroux.js to v2.1.0.\n\n@larukedi\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"laroux.js\",\n    \"repo\": \"larukedi/laroux.js\",\n    \"files\": {\n      \"basePath\": \"build/dist/web/\",\n      \"include\": [\"laroux.min.js\", \"laroux.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/laroux.js\",\n    \"localVersions\": [\"1.4.0\", \"1.5.0-a\", \"1.5.2\"],\n    \"remoteVersions\": [\"0.9\", \"v1.0\", \"v1.1\", \"v1.2\", \"v1.3b\", \"v1.4c\", \"v1.5.2\", \"v2.0.0\", \"v2.1.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/laroux.js/update.json\",\n  \"version\": \"v2.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/laroux.js/2.1.0\",\n  \"branch\": \"laroux.js/v2.1.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 95296195
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

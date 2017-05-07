@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-09) 15 : 59 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66305454"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2674#issuecomment-66305454"
+  , issueCommentCreatedAt = 2014 (-12) (-09) 15 : 59 : 18 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help ammending your PR...\n- Might be nothing but I have some concerns about the files in your submission...  \n  - Unescaped unicode characters in _additional-methods.js_ (at pos 101)\n  - Unescaped unicode characters in _additional-methods.min.js_ (at pos 107)\n  - Unescaped unicode characters in _jquery.validate.js_ (at pos 101)\n  - Unescaped unicode characters in _jquery.validate.min.js_ (at pos 107)\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _jquery.validation_ between _1.13.0_ and _1.13.1_ there was a change in file structure  \n  \n  ``` diff\n  - localization/messages_ar.js\n  - localization/messages_bg.js\n  - localization/messages_ca.js\n  - localization/messages_cs.js\n  - localization/messages_da.js\n  - localization/messages_de.js\n  - localization/messages_el.js\n  - localization/messages_es.js\n  - localization/messages_es_AR.js\n  - localization/messages_et.js\n  - localization/messages_eu.js\n  - localization/messages_fa.js\n  - localization/messages_fi.js\n  - localization/messages_fr.js\n  - localization/messages_gl.js\n  - localization/messages_he.js\n  - localization/messages_hr.js\n  - localization/messages_hu.js\n  - localization/messages_id.js\n  - localization/messages_is.js\n  - localization/messages_it.js\n  - localization/messages_ja.js\n  - localization/messages_ka.js\n  - localization/messages_kk.js\n  - localization/messages_ko.js\n  - localization/messages_lt.js\n  - localization/messages_lv.js\n  - localization/messages_my.js\n  - localization/messages_nl.js\n  - localization/messages_no.js\n  - localization/messages_pl.js\n  - localization/messages_pt_BR.js\n  - localization/messages_pt_PT.js\n  - localization/messages_ro.js\n  - localization/messages_ru.js\n  - localization/messages_si.js\n  - localization/messages_sk.js\n  - localization/messages_sl.js\n  - localization/messages_sr.js\n  - localization/messages_sr_lat.js\n  - localization/messages_sv.js\n  - localization/messages_th.js\n  - localization/messages_tj.js\n  - localization/messages_tr.js\n  - localization/messages_uk.js\n  - localization/messages_vi.js\n  - localization/messages_zh.js\n  - localization/messages_zh_TW.js\n  - localization/methods_de.js\n  - localization/methods_es_CL.js\n  - localization/methods_fi.js\n  - localization/methods_nl.js\n  - localization/methods_pt.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Keep it logically awesome._\n"
+  , issueCommentId = 66305454
+  }

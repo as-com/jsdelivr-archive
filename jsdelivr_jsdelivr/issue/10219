@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-01) 20 : 17 : 16 UTC
+  , issueUpdatedAt = 2016 (-03) (-01) 20 : 17 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10219/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10219")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10219
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8866895
+        , simpleUserLogin = N "MTco"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8866895?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MTco"
+        }
+  , issueTitle = "Inclusion of Zsocial"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10219")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10219.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10219.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10219"
+  , issueCreatedAt = 2016 (-03) (-01) 20 : 16 : 43 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 137675420
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

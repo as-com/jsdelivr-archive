@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-07) 04 : 51 : 10 UTC
+  , issueUpdatedAt = 2016 (-10) (-07) 04 : 51 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14258/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14258")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14258
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 22614574
+        , simpleUserLogin = N "sharad-iise"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/22614574?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sharad-iise"
+        }
+  , issueTitle = "Add files via upload"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14258")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14258.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14258.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14258"
+  , issueCreatedAt = 2016 (-10) (-07) 04 : 49 : 11 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 181584754
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

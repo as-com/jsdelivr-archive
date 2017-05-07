@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-02) 20 : 30 : 41 UTC
+  , issueUpdatedAt = 2014 (-01) (-02) 20 : 30 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/243/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/243")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 243
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 509790
+        , simpleUserLogin = N "pid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/509790?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pid"
+        }
+  , issueTitle = "update speakingurl v0.8.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/243")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/243.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/243.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/243"
+  , issueCreatedAt = 2014 (-01) (-02) 20 : 29 : 35 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 24985320
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

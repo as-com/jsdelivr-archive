@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-24) 20 : 55 : 25 UTC
+  , issueUpdatedAt = 2016 (-11) (-24) 20 : 55 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14950/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14950")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14950
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 23700646
+        , simpleUserLogin = N "MadhavBitra"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/23700646?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MadhavBitra"
+        }
+  , issueTitle = "Some Common Functions for my site"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14950")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14950.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14950.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14950"
+  , issueCreatedAt = 2016 (-11) (-24) 18 : 36 : 25 UTC
+  , issueBody =
+      Just "Some Common Functions for my site please approve"
+  , issueState = StateClosed
+  , issueId = Id 191577021
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

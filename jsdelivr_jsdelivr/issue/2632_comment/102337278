@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-15) 09 : 17 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5274747
+        , simpleUserLogin = N "hubdotcom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5274747?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hubdotcom"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/102337278"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-102337278"
+  , issueCommentCreatedAt = 2015 (-05) (-15) 09 : 17 : 41 UTC
+  , issueCommentBody =
+      "Setting as trunk would cause some issues with non updated installs. Let's say you introduce new code in wp-slimstat.min.js that is not backwards compatible - it will break any installs running on previous versions of the plugin (since the plugin always requests the latest js file). \n"
+  , issueCommentId = 102337278
+  }

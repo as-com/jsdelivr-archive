@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-11) 21 : 53 : 24 UTC
+  , issueUpdatedAt = 2014 (-10) (-11) 21 : 53 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1981/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1981")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1981
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueTitle = "Add sweetalert"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1981")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1981.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1981.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1981"
+  , issueCreatedAt = 2014 (-10) (-11) 20 : 30 : 59 UTC
+  , issueBody =
+      Just
+        "On behalf of #1941. \n\nNo update.json, because developer did not minify the CSS in his repo.\n"
+  , issueState = StateClosed
+  , issueId = Id 45561379
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

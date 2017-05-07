@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-24) 15 : 09 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/134240483"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6550#issuecomment-134240483"
+  , issueCommentCreatedAt = 2015 (-08) (-24) 15 : 09 : 47 UTC
+  , issueCommentBody =
+      "When the PR came our bot was having issues and I had to close the PR. Unfortunately I didnt delete the branch so the bot didnt send any new PRs for the same version. I am sorry for that.\nIts fixed now https://github.com/jsdelivr/jsdelivr/pull/6555\n"
+  , issueCommentId = 134240483
+  }

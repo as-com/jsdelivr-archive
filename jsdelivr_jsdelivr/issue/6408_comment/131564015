@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-16) 14 : 43 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1658876
+        , simpleUserLogin = N "nmihajlovski"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1658876?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nmihajlovski"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/131564015"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6408#issuecomment-131564015"
+  , issueCommentCreatedAt = 2015 (-08) (-16) 14 : 43 : 02 UTC
+  , issueCommentBody =
+      "Yes, all of the JavaScript libraries from the pack are used in the browser, not on the server side. The pack includes some JQuery plugins, some Angular plugins, some other libraries like Underscore, Sweetalert, Select2, Dropzone, Typeahead.js, etc. Also, some framework-specific extra JavaScript utils are included in the pack. So, the CDN would be very useful for production use, because all the JavaScript + CSS dependencies for a web page would be provided as single JS and CSS files.\n"
+  , issueCommentId = 131564015
+  }

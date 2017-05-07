@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-12) 14 : 21 : 35 UTC
+  , issueUpdatedAt = 2017 (-01) (-12) 14 : 21 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15700/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15700")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15700
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 164476
+        , simpleUserLogin = N "photonstorm"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/164476?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/photonstorm"
+        }
+  , issueTitle = "Add Phaser CE library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15700")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15700.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15700.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15700"
+  , issueCreatedAt = 2017 (-01) (-09) 14 : 17 : 16 UTC
+  , issueBody = Just "Thanks :)"
+  , issueState = StateClosed
+  , issueId = Id 199562481
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

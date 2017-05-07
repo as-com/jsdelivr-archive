@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-26) 18 : 35 : 11 UTC
+  , issueUpdatedAt = 2016 (-09) (-26) 18 : 35 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13993/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13993")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13993
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 12477449
+        , simpleUserLogin = N "park-brian"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/12477449?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/park-brian"
+        }
+  , issueTitle = "Create info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13993")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13993.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13993.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13993"
+  , issueCreatedAt = 2016 (-09) (-26) 18 : 34 : 34 UTC
+  , issueBody = Just "adding bootstrap-tabcollapse\n"
+  , issueState = StateClosed
+  , issueId = Id 179304228
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

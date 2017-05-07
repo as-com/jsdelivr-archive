@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-08) 08 : 07 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/138468839"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6694#issuecomment-138468839"
+  , issueCommentCreatedAt = 2015 (-09) (-08) 08 : 07 : 35 UTC
+  , issueCommentBody =
+      "Is there a reason why this is not being merged? It looks like jsdelivrbot's validation check failed because of jsdelivr/bot#47.\n"
+  , issueCommentId = 138468839
+  }

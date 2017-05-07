@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-19) 19 : 41 : 40 UTC
+  , issueUpdatedAt = 2014 (-03) (-19) 19 : 41 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/479/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/479")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 479
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1503991
+        , simpleUserLogin = N "tomfuertes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1503991?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomfuertes"
+        }
+  , issueTitle = "adding 1.11.0 version to gas [maintainer]"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/479")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/479.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/479.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/479"
+  , issueCreatedAt = 2014 (-03) (-19) 19 : 33 : 44 UTC
+  , issueBody =
+      Just "https://github.com/CardinalPath/gas/tree/1.11.0\n"
+  , issueState = StateClosed
+  , issueId = Id 29765077
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

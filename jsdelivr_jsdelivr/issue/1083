@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-01) 13 : 54 : 59 UTC
+  , issueUpdatedAt = 2014 (-07) (-04) 00 : 39 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1083/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1083")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1083
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 164058
+        , simpleUserLogin = N "kijin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/164058?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kijin"
+        }
+  , issueTitle = "Add jQuery.postcodify"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1083")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1083.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1083.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1083"
+  , issueCreatedAt = 2014 (-07) (-01) 12 : 49 : 03 UTC
+  , issueBody =
+      Just
+        "This is the jQuery plugin component of Postcodify, an API for searching South Korean street addresses and postal codes.\n\nThe Korean government lets you download a dataset of over 6 million street addresses and associated information as a bunch of zip files. The server-side API of Postcodify makes it easy to convert this information into a MySQL database and search it in various ways.\n\nThe jQuery plugin helps you integrate this search engine into any web page, such as the checkout page of an e-commerce website where the customer must enter their shipping and billing addresses.\n\nThe jQuery plugin can be used either with the free public API that the author operates, or with a search engine installed on your own machine. About one hundred Korean websites are already using Postcodify.\n\nPostcodify is free software, released under LGPLv3.\n"
+  , issueState = StateClosed
+  , issueId = Id 36889017
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

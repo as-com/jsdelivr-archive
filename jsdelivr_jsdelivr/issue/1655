@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-07) 19 : 19 : 21 UTC
+  , issueUpdatedAt = 2014 (-09) (-07) 19 : 19 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1655/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1655")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1655
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jssavior to v1.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1655")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1655.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1655.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1655"
+  , issueCreatedAt = 2014 (-09) (-07) 18 : 05 : 22 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jssavior to v1.2.0.\n\n@AlexBeauchemin\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jssavior\",\n    \"repo\": \"AlexBeauchemin/jssavior\",\n    \"files\": {\n      \"include\": [\"jssavior.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jssavior\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\", \"v1.2.0\"],\n    \"branchVersions\": [\"1.1.0\"]\n  },\n  \"version\": \"v1.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jssavior/1.2.0\",\n  \"branch\": \"jssavior/v1.2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 42147914
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

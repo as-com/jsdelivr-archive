@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-03) 14 : 40 : 53 UTC
+  , issueUpdatedAt = 2016 (-08) (-03) 14 : 40 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13033/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13033")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13033
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10346004
+        , simpleUserLogin = N "etsms"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10346004?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/etsms"
+        }
+  , issueTitle = "Updates to 3.5.8!"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13033")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13033.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13033.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13033"
+  , issueCreatedAt = 2016 (-08) (-02) 14 : 36 : 28 UTC
+  , issueBody =
+      Just
+        "- Updates ws:// stability\n- Error's clear out previous field\n"
+  , issueState = StateClosed
+  , issueId = Id 168901691
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-23) 20 : 03 : 07 UTC
+  , issueUpdatedAt = 2016 (-06) (-23) 21 : 02 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12279/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12279")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12279
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6803264
+        , simpleUserLogin = N "JohnnyTheTank"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6803264?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/JohnnyTheTank"
+        }
+  , issueTitle = "Added apiNG plugin for wikipedia"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12279")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12279.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12279.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12279"
+  , issueCreatedAt = 2016 (-06) (-20) 11 : 00 : 03 UTC
+  , issueBody =
+      Just
+        "Added https://github.com/JohnnyTheTank/apiNG-plugin-wikipedia\n"
+  , issueState = StateClosed
+  , issueId = Id 161169399
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

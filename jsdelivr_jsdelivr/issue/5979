@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-19) 21 : 01 : 11 UTC
+  , issueUpdatedAt = 2015 (-07) (-19) 21 : 01 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5979/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5979")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5979
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project sly to v1.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5979")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5979.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5979.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5979"
+  , issueCreatedAt = 2015 (-07) (-19) 19 : 05 : 43 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project sly to v1.6.0.\n\n@darsain\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"sly\",\n    \"repo\": \"darsain/sly\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"sly.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/sly\",\n    \"localVersions\": [\"1.2.3\", \"1.4.3\", \"1.4.4\", \"1.5.0\", \"1.5.1\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.1.0\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.3\", \"v1.2.4\", \"v1.2.5\", \"v1.2.6\", \"v1.2.7\", \"v1.3.0\", \"v1.4.0\", \"v1.4.1\", \"v1.4.2\", \"v1.4.3\", \"v1.4.4\", \"v1.5.0\", \"v1.5.1\", \"v1.6.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/sly/update.json\",\n  \"version\": \"v1.6.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/sly/1.6.0\",\n  \"branch\": \"sly/v1.6.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 95940516
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-09) 11 : 39 : 02 UTC
+  , issueUpdatedAt = 2016 (-01) (-09) 13 : 31 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8852/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8852")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8852
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8710334
+        , simpleUserLogin = N "cyrilkyburz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/8710334?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/cyrilkyburz"
+        }
+  , issueTitle = "add bhwi"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8852")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8852.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8852.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8852"
+  , issueCreatedAt = 2016 (-01) (-08) 23 : 27 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 125715794
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

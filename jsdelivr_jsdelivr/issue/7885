@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-12) 02 : 05 : 09 UTC
+  , issueUpdatedAt = 2015 (-11) (-12) 02 : 05 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7885/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7885")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7885
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project engine2d to v1.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7885")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7885.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7885.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7885"
+  , issueCreatedAt = 2015 (-11) (-12) 02 : 05 : 04 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project engine2d to v1.0.2.\n\n@jackdalton\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"engine2d\",\n    \"repo\": \"jackdalton/engine2d\",\n    \"files\": {\n      \"include\": [\"prod/engine2d.min.js\", \"src/engine2d.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/engine2d\",\n    \"localVersions\": [\"0.0.2\", \"0.0.3\", \"0.0.4\", \"1.0.1\"],\n    \"remoteVersions\": [\"v0.0.1\", \"v0.0.2\", \"v0.0.3\", \"v0.0.4\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/engine2d/update.json\",\n  \"version\": \"v1.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/engine2d/1.0.2\",\n  \"branch\": \"engine2d/v1.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 116463772
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

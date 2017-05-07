@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2015 (-10) (-15) 08 : 52 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7400/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/7400")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7400
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1082083
+        , simpleUserLogin = N "finom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1082083?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/finom"
+        }
+  , issueTitle = "Usage statistics"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7400"
+  , issueCreatedAt = 2015 (-10) (-15) 08 : 40 : 08 UTC
+  , issueBody =
+      Just
+        "Hi guys. I'd like to get usage statistics of libraries I pushed to jsdelivr. I guess it could be helpful for tracking popularity of libraries. What kinds of statistics theoretically can be retrieved?\n-  Number of downloads of latest version. \"Downloads\" mean how many times a webpage with given script is opened. Script must be returned with code 200.\n- Number of usages of latest version. \"Usage\" means script is attached on pages on single domain (example.com/index.html and example.com/blah.html is a single \"usage\").\n- Number of downloads of all versions.\n- Number of usages of all versions.\n\nIs it possible? \n\nThanks\n"
+  , issueState = StateOpen
+  , issueId = Id 111569902
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

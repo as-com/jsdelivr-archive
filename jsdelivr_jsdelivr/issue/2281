@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-08) 18 : 24 : 02 UTC
+  , issueUpdatedAt = 2014 (-11) (-08) 18 : 24 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2281/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2281")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2281
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1519888
+        , simpleUserLogin = N "hufyhang"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1519888?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hufyhang"
+        }
+  , issueTitle = "ChopJS-layout 0.3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2281")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2281.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2281.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2281"
+  , issueCreatedAt = 2014 (-11) (-08) 17 : 57 : 24 UTC
+  , issueBody =
+      Just
+        "ChopJS-layout 0.3.1\n- Incorporated new ChopJS module loading engine\n"
+  , issueState = StateClosed
+  , issueId = Id 48173818
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

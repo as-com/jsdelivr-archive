@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-19) 12 : 01 : 13 UTC
+  , issueUpdatedAt = 2014 (-10) (-19) 12 : 01 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2036/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2036")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2036
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "+ open-iconic/update.json, needs opinion"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2036")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2036.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2036.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2036"
+  , issueCreatedAt = 2014 (-10) (-16) 11 : 01 : 27 UTC
+  , issueBody =
+      Just
+        "So seems the [WebP](https://github.com/jsdelivr/jsdelivr/tree/master/files/open-iconic/1.1.0/webp) images were uploaded, but not the far more browser-supported [PNG](https://github.com/iconic/open-iconic/tree/master/png)s.  1300 images is quite a few but 1300_2_new version every 3-4 months is alot.\n\nMaybe drop both until people ask for them?  Really the thrust of Iconic is individual SVG images.  The fonts & raster images are provided as a backup.  No one complained that the PNGs were missing, even though they're required by IE8.  (& IMHO SVG should be THE format for icons).\n\n@somerandomdude this file is for automated uploads to the CDN.\n"
+  , issueState = StateClosed
+  , issueId = Id 45973118
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

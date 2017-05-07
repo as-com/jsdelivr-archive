@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-05) 01 : 34 : 07 UTC
+  , issueUpdatedAt = 2017 (-02) (-05) 01 : 34 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16156/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16156")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16156
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6551569
+        , simpleUserLogin = N "GoToLoop"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6551569?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GoToLoop"
+        }
+  , issueTitle = "processing.js adding update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16156")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16156.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16156.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16156"
+  , issueCreatedAt = 2017 (-02) (-04) 23 : 58 : 50 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 205387912
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

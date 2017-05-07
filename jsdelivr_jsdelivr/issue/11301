@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-26) 17 : 59 : 51 UTC
+  , issueUpdatedAt = 2016 (-04) (-26) 17 : 59 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11301/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11301")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11301
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1256175
+        , simpleUserLogin = N "GedLawrenson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1256175?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GedLawrenson"
+        }
+  , issueTitle = "PR to add jQueryRotate Library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11301")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11301.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11301.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11301"
+  , issueCreatedAt = 2016 (-04) (-26) 17 : 57 : 17 UTC
+  , issueBody =
+      Just
+        "Originally from https://github.com/wilq32/jqueryrotate.\nHomepage: http://jqueryrotate.com\n"
+  , issueState = StateClosed
+  , issueId = Id 151199100
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

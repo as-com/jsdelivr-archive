@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-02) 18 : 09 : 55 UTC
+  , issueUpdatedAt = 2016 (-05) (-02) 18 : 10 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11403/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11403")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11403
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 128952
+        , simpleUserLogin = N "desmondgc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/128952?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/desmondgc"
+        }
+  , issueTitle = "angular.bootstrap version 1.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11403")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11403.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11403.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11403"
+  , issueCreatedAt = 2016 (-05) (-02) 18 : 09 : 25 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 152609236
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

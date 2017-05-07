@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-19) 16 : 34 : 27 UTC
+  , issueUpdatedAt = 2014 (-02) (-03) 09 : 35 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/225/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/225")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 225
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5640466
+        , simpleUserLogin = N "Exacore"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5640466?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Exacore"
+        }
+  , issueTitle = "Add jQuery UI Timepicker Addon 1.4.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/225")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/225.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/225.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/225"
+  , issueCreatedAt = 2013 (-12) (-19) 16 : 12 : 49 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 24565951
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

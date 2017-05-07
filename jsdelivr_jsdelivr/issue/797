@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-12) 14 : 53 : 35 UTC
+  , issueUpdatedAt = 2014 (-07) (-27) 02 : 36 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/797/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/797")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 797
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 537127
+        , simpleUserLogin = N "englishextra"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/537127?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/englishextra"
+        }
+  , issueTitle = "Adding typeboost.css2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/797")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/797.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/797.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/797"
+  , issueCreatedAt = 2014 (-05) (-12) 13 : 59 : 46 UTC
+  , issueBody = Just "Hope this works\n"
+  , issueState = StateClosed
+  , issueId = Id 33309925
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

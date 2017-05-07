@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-14) 14 : 29 : 47 UTC
+  , issueUpdatedAt = 2014 (-07) (-01) 09 : 20 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/796/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/796")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 796
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 52673
+        , simpleUserLogin = N "mmikulicic"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/52673?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mmikulicic"
+        }
+  , issueTitle = "add angular-classy v 0.4.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/796")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/796.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/796.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/796"
+  , issueCreatedAt = 2014 (-05) (-12) 13 : 54 : 11 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 33309419
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

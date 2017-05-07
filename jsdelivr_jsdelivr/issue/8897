@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-12) 17 : 13 : 39 UTC
+  , issueUpdatedAt = 2016 (-01) (-12) 17 : 13 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8897/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/8897")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8897
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3000936
+        , simpleUserLogin = N "Kcchouette"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3000936?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Kcchouette"
+        }
+  , issueTitle = "Question about leaflet.search"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8897"
+  , issueCreatedAt = 2016 (-01) (-12) 11 : 46 : 45 UTC
+  , issueBody =
+      Just
+        "Why leaflet.search is not yet available on jsdelivr website?\n\nI add it on jsdelivr 9 days ago (#8757).\nIs there a problem with my update.json?\n\nThanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 126161612
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

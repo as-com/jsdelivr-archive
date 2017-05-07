@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-09) 07 : 00 : 58 UTC
+  , issueUpdatedAt = 2014 (-12) (-09) 10 : 19 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2662/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2662")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2662
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle = "Update video.js to 4.11.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2662")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2662.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2662.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2662"
+  , issueCreatedAt = 2014 (-12) (-09) 06 : 03 : 54 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 51391104
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

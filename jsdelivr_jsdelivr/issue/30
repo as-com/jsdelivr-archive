@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-06) (-10) 19 : 15 : 00 UTC
+  , issueUpdatedAt = 2013 (-06) (-18) 17 : 45 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/30/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/30")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 30
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 44679
+        , simpleUserLogin = N "seanthegeek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/44679?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/seanthegeek"
+        }
+  , issueTitle = " Update jPlayer and jQuery Mobile "
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/30")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/30.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/30.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/30"
+  , issueCreatedAt = 2013 (-06) (-10) 19 : 08 : 27 UTC
+  , issueBody =
+      Just
+        "jPlayer 2.4.0 - **includes some XSS security updates**\n\njQuery Mobile 1.3.1 - Includes some CSS files and images that were missing from previous releases on the CDN\n"
+  , issueState = StateClosed
+  , issueId = Id 15363308
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

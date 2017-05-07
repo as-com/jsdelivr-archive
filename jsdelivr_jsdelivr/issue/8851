@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-06) 11 : 03 : 22 UTC
+  , issueUpdatedAt = 2016 (-09) (-06) 11 : 03 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8851/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/8851")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8851
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2801252
+        , simpleUserLogin = N "franciscop"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2801252?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/franciscop"
+        }
+  , issueTitle = "Huge navbar"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8851"
+  , issueCreatedAt = 2016 (-01) (-08) 22 : 52 : 09 UTC
+  , issueBody =
+      Just
+        "The navbar for 1920x1080px screens is huge in height. Right now it occupies a 29% of my screen, almost one third. A screenshot:\n\n![huge bar](https://cloud.githubusercontent.com/assets/2801252/12211588/949753e4-b662-11e5-803f-c188a3b0fe5e.png)\n\nThat screenshot is without any zoom active, in _level 0_ (ctrl+0). However, if I zoom out (ctrl -) then it shows properly. I propose to fix it so it doesn't overflow into two bars so soon, as there's no real state for the content of the page itself.\n"
+  , issueState = StateClosed
+  , issueId = Id 125711002
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

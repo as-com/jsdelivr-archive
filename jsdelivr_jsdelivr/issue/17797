@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-25) 16 : 08 : 24 UTC
+  , issueUpdatedAt = 2017 (-04) (-25) 16 : 08 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17797/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17797")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17797
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project three to 0.85.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17797")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17797.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17797.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17797"
+  , issueCreatedAt = 2017 (-04) (-25) 16 : 08 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project three to 0.85.2.\n\n@mrdoob\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"three\",\n    \"repo\": \"mrdoob/three.js\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"three.js\", \"three.min.js\", \"three.module.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/threejs\",\n    \"localVersions\": [\"r2\", \"r3\", \"r4\", \"r5\", \"r6\", \"r7\", \"r8\", \"r10\", \"r11\", \"r12\", \"r13\", \"r41\", \"r43\", \"r44\", \"r45\", \"r46\", \"r47\", \"r48\", \"r49\", \"r50\", \"r51\", \"r52\", \"r53\", \"r54\", \"r55\", \"r56\", \"r57\", \"r58\", \"r59\", \"r60\", \"r61\", \"r62\", \"r63\", \"r64\", \"r65\", \"r66\", \"r67\", \"r68\", \"r69\", \"r70\", \"r71\", \"r72\", \"r73\", \"r74\", \"r75\", \"r76\", \"r77\", \"r78\", \"r79\", \"r80\", \"r81\", \"r82\", \"0.0.0-r9\", \"0.0.0-r69\", \"0.0.0-r70\", \"0.0.0-r71\", \"0.0.0-r72\", \"0.0.0-r73\", \"0.0.0-r74\", \"0.84.0\", \"0.85.0\", \"0.85.1\"],\n    \"remoteVersions\": [\"0.54.0-dev\", \"0.54.0\", \"0.54.1-dev\", \"0.54.2-dev\", \"0.54.3-dev\", \"0.54.4-dev\", \"0.54.5-dev\", \"0.54.6-dev\", \"0.54.7-dev\", \"0.54.8-dev\", \"0.54.9-dev\", \"0.54.10-dev\", \"0.54.11-dev\", \"0.54.12-dev\", \"0.55.0\", \"0.56.0\", \"0.56.1\", \"0.56.2\", \"0.56.3\", \"0.56.4\", \"0.56.7\", \"0.58.1\", \"0.58.2\", \"0.58.3\", \"0.58.4\", \"0.58.5\", \"0.58.6\", \"0.58.7\", \"0.58.8\", \"0.58.9\", \"0.58.10\", \"0.66.0\", \"0.66.1\", \"0.66.2\", \"0.66.6\", \"0.66.7\", \"0.66.8\", \"0.66.9\", \"0.66.10\", \"0.66.11\", \"0.66.12\", \"0.66.13\", \"0.66.14\", \"0.66.15\", \"0.66.16\", \"0.66.17\", \"0.66.18\", \"0.66.19\", \"0.66.20\", \"0.66.21\", \"0.66.22\", \"0.66.23\", \"0.66.24\", \"0.66.25\", \"0.66.26\", \"0.66.27\", \"0.66.28\", \"0.66.29\", \"0.66.30\", \"0.66.31\", \"0.66.32-dev\", \"0.66.35\", \"0.66.36\", \"0.66.37\", \"0.66.38\", \"0.66.39\", \"0.66.40\", \"0.66.41\", \"0.66.42\", \"0.66.43\", \"0.66.45\", \"0.66.46\", \"0.66.47\", \"0.66.48\", \"0.66.49\", \"0.66.50\", \"0.66.51\", \"0.66.52\", \"0.66.53\", \"0.66.54\", \"0.66.55\", \"0.66.56\", \"0.66.57\", \"0.66.58\", \"0.66.59\", \"0.66.60\", \"0.66.61\", \"0.66.62\", \"0.66.63\", \"0.66.64\", \"0.66.65\", \"0.66.66\", \"0.66.67\", \"0.66.68\", \"0.66.69\", \"0.66.70\", \"0.66.71\", \"0.66.72\", \"0.66.73\", \"0.66.74\", \"0.66.75\", \"0.66.76\", \"0.66.77\", \"0.66.78\", \"0.66.79\", \"0.66.80\", \"0.66.81\", \"0.66.82\", \"0.66.83\", \"0.66.84\", \"0.66.85\", \"0.66.86\", \"0.66.87\", \"0.66.88\", \"0.66.89\", \"0.66.90\", \"0.66.91\", \"0.66.92\", \"0.66.93\", \"0.66.94\", \"0.66.95\", \"0.66.96\", \"0.66.97\", \"0.67.0\", \"0.68.0\", \"0.68.86\", \"0.68.87\", \"0.69.0\", \"0.70.0\", \"0.70.1\", \"0.71.0\", \"0.71.1\", \"0.72.0\", \"0.73.0\", \"0.73.1\", \"0.73.2\", \"0.74.0\", \"0.75.0\", \"0.76.1\", \"0.77.0\", \"0.77.1\", \"0.78.0\", \"0.79.0\", \"0.80.0\", \"0.80.1\", \"0.81.0\", \"0.81.1\", \"0.81.2\", \"0.82.0\", \"0.82.1\", \"0.83.0\", \"0.84.0\", \"0.85.0\", \"0.85.1\", \"0.85.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/threejs/update.json\",\n  \"versions\": [\"0.85.2\"],\n  \"updateRemote\": true,\n  \"version\": \"0.85.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/threejs/0.85.2\",\n  \"branch\": \"three/0.85.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 224191779
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

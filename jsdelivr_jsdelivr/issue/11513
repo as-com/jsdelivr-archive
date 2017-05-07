@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-10) 13 : 12 : 33 UTC
+  , issueUpdatedAt = 2016 (-05) (-10) 13 : 12 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11513/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11513")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11513
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 763805
+        , simpleUserLogin = N "victoriafrench"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/763805?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/victoriafrench"
+        }
+  , issueTitle =
+      "[update] [owner] adding missing versions that did not participate in \8230"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11513")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11513.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11513.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11513"
+  , issueCreatedAt = 2016 (-05) (-09) 00 : 31 : 54 UTC
+  , issueBody =
+      Just
+        "[update] [owner] adding missing versions that did not participate in autoupdate.\n"
+  , issueState = StateClosed
+  , issueId = Id 153686064
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

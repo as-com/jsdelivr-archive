@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-06) 18 : 41 : 50 UTC
+  , issueUpdatedAt = 2016 (-10) (-06) 18 : 41 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14242/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14242")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14242
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 22654324
+        , simpleUserLogin = N "TREEDOGNIGHT"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/22654324?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/TREEDOGNIGHT"
+        }
+  , issueTitle = "Create fuktenhub"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14242")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14242.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14242.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14242"
+  , issueCreatedAt = 2016 (-10) (-06) 07 : 07 : 33 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 181339317
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

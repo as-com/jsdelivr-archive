@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-21) 20 : 32 : 34 UTC
+  , issueUpdatedAt = 2016 (-07) (-21) 22 : 53 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12852/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12852")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12852
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2160046
+        , simpleUserLogin = N "marcusmolchany"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2160046?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/marcusmolchany"
+        }
+  , issueTitle = "Add jquery.filterjitsu plugin to jsdelivr files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12852")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12852.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12852.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12852"
+  , issueCreatedAt = 2016 (-07) (-21) 18 : 48 : 28 UTC
+  , issueBody =
+      Just
+        "This PR adds `info.ini` and `update.json` for jquery.filterjitsu\n"
+  , issueState = StateClosed
+  , issueId = Id 166890838
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-08) 18 : 34 : 11 UTC
+  , issueUpdatedAt = 2016 (-04) (-08) 18 : 34 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10918/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10918")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10918
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project 3Dmol.js to 1.02"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10918")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10918.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10918.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10918"
+  , issueCreatedAt = 2016 (-04) (-08) 18 : 32 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project 3Dmol.js to 1.02.\n\n@3dmol\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"3Dmol.js\",\n    \"repo\": \"3dmol/3Dmol.js\",\n    \"files\": {\n      \"basePath\": \"release/\",\n      \"include\": [\"3Dmol-min.js\", \"3Dmol-nojquery-min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/3dmol.js\",\n    \"localVersions\": [\"1.0\", \"1.0.2\", \"1.0.3\", \"1.0.4\"],\n    \"remoteVersions\": [\"v1.0\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"v1.01\", \"1.02\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/3dmol.js/update.json\",\n  \"versions\": [\"1.02\"],\n  \"updateRemote\": true,\n  \"version\": \"1.02\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/3dmol.js/1.02\",\n  \"branch\": \"3Dmol.js/1.02\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 147003765
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

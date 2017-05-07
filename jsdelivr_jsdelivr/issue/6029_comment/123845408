@@ -1,0 +1,22 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-22) 19 : 57 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 338988
+        , simpleUserLogin = N "jonathanKingston"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/338988?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/jonathanKingston"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123845408"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123845408"
+  , issueCommentCreatedAt = 2015 (-07) (-22) 19 : 57 : 11 UTC
+  , issueCommentBody =
+      "@jimaek \n\n> Hacking jsDelivr is not such a minor issue as you describe \"unlucky during the period\". If that happens he WILL notice it. The easiest way will be to use SRI on our website. If the CDN gets hacked then our website breaks completely and nobody can generate new SRI. \n> This way nobody gets bad hashes and the old good hashes stop working. Everything works.\n\nHacking jsDelivr could happen more than just your site getting compromised, CDNs get distributed onto many many servers any could misbehave. This is something cloudflare has written about etc.\nSee:\n- https://blog.cloudflare.com/an-introduction-to-javascript-based-ddos/\n- http://googleonlinesecurity.blogspot.co.uk/2015/04/a-javascript-based-ddos-attack-as-seen.html\n\nNot protecting all the sites that use your content is essentially allowing the possibility of the above to happen. We need to be good web citizens by promoting the prevention all known attacks.\n\n> But like you said this is mostly for Wi-Fi snooping and other problems between the user and the CDN.\n\nYeah that too... your site itself is vulnerable to any network based attack as it is over http. (I suggest not allowing developers to use http would be a good thing too)\n"
+  , issueCommentId = 123845408
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-31) 15 : 29 : 11 UTC
+  , issueUpdatedAt = 2015 (-04) (-02) 20 : 39 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4086/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4086")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4086
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "update normalize.css to 3.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4086")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4086.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4086.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4086"
+  , issueCreatedAt = 2015 (-03) (-31) 07 : 38 : 08 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 65388464
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

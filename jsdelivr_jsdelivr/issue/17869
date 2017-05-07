@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-30) 05 : 19 : 41 UTC
+  , issueUpdatedAt = 2017 (-04) (-30) 05 : 19 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17869/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17869")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17869
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 187350
+        , simpleUserLogin = N "sutara79"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/187350?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sutara79"
+        }
+  , issueTitle = "Create info.ini of jquery.random-fade-in"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17869")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17869.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17869.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17869"
+  , issueCreatedAt = 2017 (-04) (-29) 12 : 15 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 225253279
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

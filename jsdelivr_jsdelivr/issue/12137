@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-11) 16 : 33 : 40 UTC
+  , issueUpdatedAt = 2016 (-06) (-11) 16 : 33 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12137/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12137")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12137
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery-once to 2.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12137")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12137.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12137.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12137"
+  , issueCreatedAt = 2016 (-06) (-11) 16 : 33 : 35 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery-once to 2.1.2.\n\n@RobLoach\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery-once\",\n    \"repo\": \"RobLoach/jquery-once\",\n    \"files\": {\n      \"include\": [\"jquery.once.min.js\", \"jquery.once.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.once\",\n    \"localVersions\": [\"1.2.6\", \"2.0.2\", \"2.1.1\"],\n    \"remoteVersions\": [\"1.2.0\", \"1.2.1\", \"1.2.3\", \"1.2.4\", \"1.2.5\", \"1.2.6\", \"2.0.0-alpha.1\", \"2.0.0-alpha.2\", \"2.0.0-alpha.3\", \"2.0.0-alpha.4\", \"2.0.0-alpha.5\", \"2.0.0-alpha.6\", \"2.0.0-alpha.8\", \"2.0.0-alpha.9\", \"2.0.0-beta.1\", \"2.0.0-beta.2\", \"2.0.0-beta.3\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0\", \"2.1.1\", \"2.1.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.once/update.json\",\n  \"versions\": [\"2.1.2\"],\n  \"updateRemote\": true,\n  \"version\": \"2.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.once/2.1.2\",\n  \"branch\": \"jquery-once/2.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 159781446
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-22) 00 : 04 : 56 UTC
+  , issueUpdatedAt = 2017 (-03) (-22) 00 : 04 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17119/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17119")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17119
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project materialize-css to 0.98.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17119")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17119.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17119.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17119"
+  , issueCreatedAt = 2017 (-03) (-22) 00 : 04 : 51 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project materialize-css to 0.98.1.\n\n@Dogfalo\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"materialize-css\",\n    \"repo\": \"Dogfalo/materialize\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/materialize\",\n    \"localVersions\": [\"0.97.0\", \"0.97.1\", \"0.97.2\", \"0.97.3\", \"0.97.4\", \"0.97.5\", \"0.97.6\", \"0.97.7\", \"0.97.8\", \"0.98.0\"],\n    \"remoteVersions\": [\"0.95.3\", \"0.96.1\", \"0.97.1\", \"0.97.2\", \"0.97.3\", \"0.97.4\", \"0.97.5\", \"0.97.6\", \"0.97.7\", \"0.97.8\", \"0.98.0\", \"0.98.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/materialize/update.json\",\n  \"versions\": [\"0.98.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.98.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/materialize/0.98.1\",\n  \"branch\": \"materialize-css/0.98.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215915362
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

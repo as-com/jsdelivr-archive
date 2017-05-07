@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-16) 16 : 33 : 45 UTC
+  , issueUpdatedAt = 2016 (-04) (-16) 16 : 33 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11098/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11098")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11098
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project pavilion to v1.0.16"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11098")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11098.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11098.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11098"
+  , issueCreatedAt = 2016 (-04) (-16) 16 : 33 : 40 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project pavilion to v1.0.16.\n\n@getpavilion\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"pavilion\",\n    \"repo\": \"getpavilion/pavilion\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"pavilion.min.css\", \"pavilion.min.css.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/pavilion\",\n    \"localVersions\": [\"1.0.15\"],\n    \"remoteVersions\": [\"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.0.8\", \"v1.0.9\", \"v1.0.10\", \"v1.0.11\", \"v1.0.12\", \"v1.0.13\", \"v1.0.14\", \"v1.0.15\", \"v1.0.16\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/pavilion/update.json\",\n  \"versions\": [\"v1.0.16\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.16\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/pavilion/1.0.16\",\n  \"branch\": \"pavilion/v1.0.16\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 148868168
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

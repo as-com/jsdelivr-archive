@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-04) 15 : 51 : 21 UTC
+  , issueUpdatedAt = 2014 (-12) (-04) 15 : 51 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2205/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2205")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2205
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4066092
+        , simpleUserLogin = N "navenduagarwal"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4066092?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/navenduagarwal"
+        }
+  , issueTitle = "JS files for Audience73 Project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2205")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2205.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2205.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2205"
+  , issueCreatedAt = 2014 (-11) (-04) 11 : 16 : 53 UTC
+  , issueBody =
+      Just "Adding JS files, info.ini and update.json for cdn\n"
+  , issueState = StateClosed
+  , issueId = Id 47702205
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

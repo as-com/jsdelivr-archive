@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-22) 23 : 23 : 14 UTC
+  , issueUpdatedAt = 2014 (-03) (-23) 17 : 06 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/496/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/496")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 496
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6681948
+        , simpleUserLogin = N "gm-ah"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6681948?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gm-ah"
+        }
+  , issueTitle = "Add phpmyfaq"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/496")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/496.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/496.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/496"
+  , issueCreatedAt = 2014 (-03) (-22) 23 : 14 : 37 UTC
+  , issueBody = Just "Please add phpmyfaq to jsdelivr\n"
+  , issueState = StateClosed
+  , issueId = Id 29975049
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

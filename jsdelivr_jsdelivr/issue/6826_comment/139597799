@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-11) 16 : 53 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 323761
+        , simpleUserLogin = N "tlvince"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/323761?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tlvince"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/139597799"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6826#issuecomment-139597799"
+  , issueCommentCreatedAt = 2015 (-09) (-11) 16 : 53 : 16 UTC
+  , issueCommentBody =
+      "Since you can't rename directories via GitHub's UI and cloning the repo would've taken too long, it was quicker to open a new PR: https://github.com/jsdelivr/jsdelivr/pull/6828\n"
+  , issueCommentId = 139597799
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-17) 17 : 33 : 41 UTC
+  , issueUpdatedAt = 2014 (-07) (-07) 01 : 49 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/364/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/364")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 364
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 305721
+        , simpleUserLogin = N "rdeavila"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/305721?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rdeavila"
+        }
+  , issueTitle = "Copying files from ace/1.1.01/min/ to ace/1.1.01/"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/364")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/364.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/364.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/364"
+  , issueCreatedAt = 2014 (-02) (-16) 15 : 09 : 08 UTC
+  , issueBody =
+      Just
+        "Copying files from ace/1.1.01/min/ to ace/1.1.01/, as directed by @jimaek on jsdelivr/jsdelivr#357\n"
+  , issueState = StateClosed
+  , issueId = Id 27674375
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

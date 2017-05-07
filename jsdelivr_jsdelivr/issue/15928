@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-24) 05 : 51 : 29 UTC
+  , issueUpdatedAt = 2017 (-01) (-24) 05 : 51 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15928/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15928")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15928
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 150952
+        , simpleUserLogin = N "quinns"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/150952?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/quinns"
+        }
+  , issueTitle = "Create jquery.are-you-sure.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15928")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15928.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15928.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15928"
+  , issueCreatedAt = 2017 (-01) (-23) 19 : 20 : 43 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 202625565
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

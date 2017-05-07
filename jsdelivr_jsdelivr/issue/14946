@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-24) 02 : 02 : 53 UTC
+  , issueUpdatedAt = 2016 (-11) (-24) 02 : 02 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14946/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14946")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14946
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project Buttons.css to 1.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14946")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14946.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14946.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14946"
+  , issueCreatedAt = 2016 (-11) (-24) 02 : 02 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project Buttons.css to 1.1.2.\n\n@Dog2puppy\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"Buttons.css\",\n    \"repo\": \"Dog2puppy/Buttons.css\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"buttons.css\", \"buttons.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/buttons.css\",\n    \"localVersions\": [\"1.0.1\", \"1.1.0\", \"1.1.1\"],\n    \"remoteVersions\": [\"0.1\", \"1.0\", \"v1.0.1\", \"v1.1.0\", \"1.1.1\", \"1.1.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/buttons.css/update.json\",\n  \"versions\": [\"1.1.2\"],\n  \"updateRemote\": true,\n  \"version\": \"1.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/buttons.css/1.1.2\",\n  \"branch\": \"Buttons.css/1.1.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 191417846
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

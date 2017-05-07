@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-15) 10 : 14 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/93303215"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4296#issuecomment-93303215"
+  , issueCommentCreatedAt = 2015 (-04) (-15) 10 : 14 : 49 UTC
+  , issueCommentBody =
+      "We need to add this file manually until they release a major update. For example 3.2.x\nBecause people that use this file with version aliasing will end up with broken websites otherwise\n"
+  , issueCommentId = 93303215
+  }

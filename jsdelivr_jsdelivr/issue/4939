@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-23) 18 : 10 : 54 UTC
+  , issueUpdatedAt = 2015 (-05) (-23) 18 : 10 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4939/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4939")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4939
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 632938
+        , simpleUserLogin = N "calvinfroedge"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/632938?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/calvinfroedge"
+        }
+  , issueTitle =
+      "Add OctoBadge - Github badge for displaying Github user and contribution info"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4939")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4939.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4939.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4939"
+  , issueCreatedAt = 2015 (-05) (-23) 17 : 18 : 20 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nThanks for making jsDelivr available for projects! I've included a project I've been working on in the attached pull requests. Please let me know if there are any issues preventing a merge.\n\nThanks again!\n"
+  , issueState = StateClosed
+  , issueId = Id 79902782
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

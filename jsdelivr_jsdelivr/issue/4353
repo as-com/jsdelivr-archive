@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-17) 09 : 33 : 12 UTC
+  , issueUpdatedAt = 2015 (-04) (-17) 09 : 33 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4353/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/4353")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4353
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 316801
+        , simpleUserLogin = N "gottaloveit"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/316801?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gottaloveit"
+        }
+  , issueTitle = "font-awesome web fonts 404"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4353"
+  , issueCreatedAt = 2015 (-04) (-16) 23 : 04 : 37 UTC
+  , issueBody =
+      Just
+        "here is script we load:\n\n[//cdn.jsdelivr.net/g/fontawesome@4.1.0(css/font-awesome.min.css),select2@3.5.2(select2.css),chosen@1.1.0(chosen.min.css)](//cdn.jsdelivr.net/g/fontawesome@4.1.0%28css/font-awesome.min.css%29,select2@3.5.2%28select2.css%29,chosen@1.1.0%28chosen.min.css%29)\n\nwe get these requests as 404 not found:\nhttp://cdn.jsdelivr.net/g/fonts/fontawesome-webfont.woff?v=4.1.0\nhttp://cdn.jsdelivr.net/g/fonts/fontawesome-webfont.ttf?v=4.1.0\n\nCan the /fonts folder of fontawesome be included? \n"
+  , issueState = StateClosed
+  , issueId = Id 69026369
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

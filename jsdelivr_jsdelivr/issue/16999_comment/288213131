@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-03) (-21) 21 : 18 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6182099
+        , simpleUserLogin = N "felixsanz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6182099?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/felixsanz"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/288213131"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16999#issuecomment-288213131"
+  , issueCommentCreatedAt = 2017 (-03) (-21) 20 : 46 : 24 UTC
+  , issueCommentBody =
+      "@megawac You closed this but it's a different repo :/\r\n\r\nProbably you thought that it was a duplicate of https://github.com/jsdelivr/jsdelivr/pull/17002, but it's not! :weary: \r\n\r\nThe other are the themes, and this one is the library itself. Since i use 2 different github repos (the themes are not part of this library since i have more libraries) i think is not  possible to commit a single PR here, so i've created 2.\r\n\r\nCan you please merge this one? Thanks"
+  , issueCommentId = 288213131
+  }

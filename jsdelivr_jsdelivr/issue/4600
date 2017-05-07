@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-03) 04 : 36 : 48 UTC
+  , issueUpdatedAt = 2015 (-05) (-03) 04 : 36 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4600/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4600")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4600
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project holder to v2.6.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4600")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4600.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4600.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4600"
+  , issueCreatedAt = 2015 (-05) (-03) 04 : 36 : 38 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project holder to v2.6.1.\n\n@imsky\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"holder\",\n    \"repo\": \"imsky/holder\",\n    \"files\": {\n      \"include\": [\"holder.js\", \"holder.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/holder\",\n    \"localVersions\": [\"1.9.0\", \"2.0.0\", \"2.3.2\", \"2.4.0\", \"2.5.0\", \"2.5.2\", \"2.6.0\"],\n    \"remoteVersions\": [\"v1.0\", \"v1.1\", \"v1.2\", \"v1.3\", \"v1.4\", \"v1.5\", \"v1.6\", \"v1.7\", \"v1.8\", \"1.9.0\", \"v1.9\", \"v2.0\", \"v2.1.0\", \"v2.2.0\", \"v2.3.0\", \"v2.3.1\", \"v2.3.2\", \"v2.4.0\", \"v2.4.1\", \"v2.5.0\", \"v2.5.2\", \"v2.6.0\", \"v2.6.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v2.6.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/holder/2.6.1\",\n  \"branch\": \"holder/v2.6.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 72747038
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

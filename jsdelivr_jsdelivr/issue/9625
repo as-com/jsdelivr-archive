@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 13 : 57 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 13 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9625/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9625")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9625
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16284520
+        , simpleUserLogin = N "gtaasaan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16284520?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gtaasaan"
+        }
+  , issueTitle = "Create jquery.loadTemplate.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9625")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9625.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9625.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9625"
+  , issueCreatedAt = 2016 (-02) (-07) 08 : 07 : 48 UTC
+  , issueBody =
+      Just "Version 1.5.0 (latest) was missing from the CDN\n"
+  , issueState = StateClosed
+  , issueId = Id 131948117
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

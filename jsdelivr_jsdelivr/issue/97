@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-09) (-10) 10 : 30 : 39 UTC
+  , issueUpdatedAt = 2013 (-10) (-10) 15 : 51 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/97/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/97")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 97
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49051
+        , simpleUserLogin = N "mattpodwysocki"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/49051?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mattpodwysocki"
+        }
+  , issueTitle = "Updating RxJS to version 2.1.15"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/97")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/97.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/97.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/97"
+  , issueCreatedAt = 2013 (-09) (-10) 04 : 45 : 54 UTC
+  , issueBody =
+      Just
+        "Updating to version 2.1.15 as per:\nhttps://github.com/Reactive-Extensions/RxJS/releases/tag/v2.1.15\n"
+  , issueState = StateClosed
+  , issueId = Id 19237712
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

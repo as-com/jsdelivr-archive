@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-18) 19 : 58 : 10 UTC
+  , issueUpdatedAt = 2016 (-04) (-18) 19 : 58 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11126/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11126")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11126
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project vk-api to 0.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11126")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11126.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11126.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11126"
+  , issueCreatedAt = 2016 (-04) (-18) 19 : 04 : 55 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vk-api to 0.1.1.\n\n@vk-x\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vk-api\",\n    \"repo\": \"vk-x/vk-api\",\n    \"files\": {\n      \"include\": [\"dist/*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/vk-api\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/vk-api/update.json\",\n  \"versions\": [\"0.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/vk-api/0.1.1\",\n  \"branch\": \"vk-api/0.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 149242758
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-08) 11 : 27 : 04 UTC
+  , issueUpdatedAt = 2016 (-02) (-08) 11 : 27 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9631/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/9631")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9631
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7549136
+        , simpleUserLogin = N "lenovouser"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7549136?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lenovouser"
+        }
+  , issueTitle = "Re-enable SRI for all files"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9631"
+  , issueCreatedAt = 2016 (-02) (-07) 21 : 56 : 27 UTC
+  , issueBody =
+      Just
+        "In your [blog post](http://blog.jsdelivr.com/2015/10/new-website-and-sri-support.html) you stated:\n\n> If you noticed one file doesn't have an SRI. Thats because Chrome has a buggy implementation that breaks files containing UTF-8 characters. This bug is not present in Firefox Developer Edition which also supports SRI, but to ensure a smooth experience for all users we decided to temporary stop generating hashes for those files.\n\nmaybe SRI can be re-enabled for all files since you stated it is going to be temporary and as the the issue seems to have been resolved in **Chrome 46** according to [chromium/issues/#527286](https://code.google.com/p/chromium/issues/detail?id=527286) in December 2015.\n"
+  , issueState = StateClosed
+  , issueId = Id 132018401
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

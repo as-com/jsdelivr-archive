@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-11) 00 : 40 : 31 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 13 : 16 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/807/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/807")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 807
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 705574
+        , simpleUserLogin = N "millionbonus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/705574?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/millionbonus"
+        }
+  , issueTitle = "The javascript library \"dropzone\" was added."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/807")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/807.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/807.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/807"
+  , issueCreatedAt = 2014 (-05) (-15) 14 : 26 : 50 UTC
+  , issueBody =
+      Just "The javascript library \"dropzone\" was added.\n"
+  , issueState = StateClosed
+  , issueId = Id 33590223
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

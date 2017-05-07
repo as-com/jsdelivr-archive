@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-05) 17 : 15 : 47 UTC
+  , issueUpdatedAt = 2014 (-02) (-05) 17 : 15 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/335/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/335")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 335
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1044204
+        , simpleUserLogin = N "aedonid7378"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1044204?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aedonid7378"
+        }
+  , issueTitle = "add bullframe.css boilerplate"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/335")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/335.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/335.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/335"
+  , issueCreatedAt = 2014 (-02) (-05) 11 : 46 : 41 UTC
+  , issueBody =
+      Just
+        "I would like to add my bullframe.css boilerplate. This is a live demo http://bullframecss.com.\nbullframe.css is a flexible, IE7+ CSS-only boilerplate to be used as an alternative to Bootstrap or Normalize.\n\nI included this boilerplate with success in many small and big websites since 2012.\n\nThe main focus of this project is to provide backward compatibility to IE7 without losing mobile-first responsive design settings (e.g. flexible grid system, responsive table and video helpers).\nIn my country (Italy) Internet Explorer 7 is still required by many web agencies and companies.\nI hate this browser (probably like you!) but business is business ;-)\n\nActually I use my google drive account to quickly grab a path like this one https://googledrive.com/host/0B4LqH9uqRDqQd2NFaUlxTlBSSWM/bullframe-1-6-3.min.css.\nCool, but I can't use it in production!\n"
+  , issueState = StateClosed
+  , issueId = Id 26953827
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

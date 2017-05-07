@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-28) 15 : 57 : 24 UTC
+  , issueUpdatedAt = 2014 (-12) (-28) 15 : 57 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2851/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2851")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2851
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 693180
+        , simpleUserLogin = N "biswajitpaul01"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/693180?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/biswajitpaul01"
+        }
+  , issueTitle = "bootstrap.min.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2851")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2851.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2851.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2851"
+  , issueCreatedAt = 2014 (-12) (-28) 15 : 27 : 31 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 52983545
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

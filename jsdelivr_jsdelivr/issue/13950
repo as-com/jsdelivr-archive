@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-23) 13 : 32 : 53 UTC
+  , issueUpdatedAt = 2016 (-09) (-23) 13 : 32 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13950/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13950")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13950
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular.file-upload to 12.2.11"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13950")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13950.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13950.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13950"
+  , issueCreatedAt = 2016 (-09) (-23) 13 : 32 : 44 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.file-upload to 12.2.11.\n\n@danialfarid\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.file-upload\",\n    \"repo\": \"danialfarid/ng-file-upload-bower\",\n    \"files\": {\n      \"include\": [\"ng-file-upload.js\", \"ng-file-upload.min.js\", \"ng-file-upload-shim.js\", \"ng-file-upload-shim.min.js\", \"ng-file-upload-all.js\", \"ng-file-upload-all.min.js\", \"FileAPI.js\", \"FileAPI.min.js\", \"FileAPI.flash.swf\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.file-upload\",\n    \"localVersions\": [\"0.1\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.1.11\", \"4.2.1\", \"5.2.0\", \"6.2.1\", \"7.3.9\", \"8.0.6\", \"9.1.2\", \"10.1.9\", \"10.1.11\", \"10.1.14\", \"11.0.0\", \"11.0.1\", \"11.0.2\", \"11.1.0\", \"11.1.1\", \"11.2.0\", \"11.2.1\", \"11.2.2\", \"11.2.3\", \"12.0.1\", \"12.0.3\", \"12.0.4\", \"12.1.0\", \"12.2.3\", \"12.2.4\", \"12.2.5\", \"12.2.6\", \"12.2.7\", \"12.2.8\", \"12.2.9\", \"12.2.10\"],\n    \"remoteVersions\": [\"fixed\", \"7.0.6\", \"7.0.7\", \"7.0.8\", \"7.0.9\", \"7.0.10\", \"7.0.11\", \"7.0.12\", \"7.0.13\", \"7.0.14\", \"7.0.15\", \"7.0.16\", \"7.0.17\", \"7.1.0\", \"7.2.0\", \"7.2.1\", \"7.2.2\", \"7.3.0\", \"7.3.1\", \"7.3.2\", \"7.3.3\", \"7.3.4\", \"7.3.5\", \"7.3.6\", \"7.3.7\", \"7.3.8\", \"7.3.9\", \"8.0.0\", \"8.0.1\", \"8.0.2\", \"8.0.3\", \"8.0.4\", \"8.0.5\", \"8.0.6\", \"9.0.0\", \"9.0.1\", \"9.0.2\", \"9.0.3\", \"9.0.4\", \"9.0.5\", \"9.0.6\", \"9.0.7\", \"9.0.8\", \"9.0.9\", \"9.0.10\", \"9.0.11\", \"9.0.12\", \"9.0.13\", \"9.0.14\", \"9.0.15\", \"9.0.16\", \"9.0.17\", \"9.0.18\", \"9.0.19\", \"9.1.0\", \"9.1.1\", \"9.1.2\", \"10.0.0\", \"10.0.1\", \"10.0.2\", \"10.0.3\", \"10.0.4\", \"10.1.0\", \"10.1.1\", \"10.1.2\", \"10.1.4\", \"10.1.5\", \"10.1.6\", \"10.1.7\", \"10.1.8\", \"10.1.9\", \"10.1.11\", \"10.1.12\", \"10.1.13\", \"10.1.14\", \"11.0.0\", \"11.0.1\", \"11.0.2\", \"11.1.0\", \"11.1.1\", \"11.2.0\", \"11.2.1\", \"11.2.2\", \"11.2.3\", \"12.0.0\", \"12.0.1\", \"12.0.2\", \"12.0.3\", \"12.0.4\", \"12.1.0\", \"12.2.2\", \"12.2.3\", \"12.2.4\", \"12.2.5\", \"12.2.6\", \"12.2.7\", \"12.2.8\", \"12.2.9\", \"12.2.10\", \"12.2.11\"],\n    \"branchVersions\": [\"fixed\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.file-upload/update.json\",\n  \"versions\": [\"12.2.11\"],\n  \"updateRemote\": true,\n  \"version\": \"12.2.11\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.file-upload/12.2.11\",\n  \"branch\": \"angular.file-upload/12.2.11\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 178878797
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

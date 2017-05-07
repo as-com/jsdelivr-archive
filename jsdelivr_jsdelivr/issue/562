@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-03) 12 : 16 : 09 UTC
+  , issueUpdatedAt = 2014 (-07) (-03) 09 : 10 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/562/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/562")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 562
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7112345
+        , simpleUserLogin = N "codingfriend1"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7112345?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/codingfriend1"
+        }
+  , issueTitle = "Flexgrid"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/562")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/562.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/562.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/562"
+  , issueCreatedAt = 2014 (-04) (-03) 02 : 17 : 43 UTC
+  , issueBody =
+      Just
+        "CSS and jQuery files for a simple yet powerful responsive, fluid grid\nsystem.\n"
+  , issueState = StateClosed
+  , issueId = Id 30741826
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

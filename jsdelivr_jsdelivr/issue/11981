@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-08) 16 : 57 : 44 UTC
+  , issueUpdatedAt = 2016 (-06) (-12) 12 : 18 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11981/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11981")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11981
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 513903
+        , simpleUserLogin = N "propertunist"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/513903?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/propertunist"
+        }
+  , issueTitle = "create info.ini for my project: ureka_theme"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11981")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11981.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11981.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11981"
+  , issueCreatedAt = 2016 (-06) (-04) 14 : 13 : 19 UTC
+  , issueBody =
+      Just
+        "this is a theme for my own website ureka.org - based on the open source PHP project 'elgg'. elgg plugins will be added soon.\n"
+  , issueState = StateClosed
+  , issueId = Id 158506520
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-17) 18 : 41 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/122370211"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/5953#issuecomment-122370211"
+  , issueCommentCreatedAt = 2015 (-07) (-17) 18 : 41 : 39 UTC
+  , issueCommentBody =
+      "there is no update process, its a proxy. The file just got cached. They will expire eventually but if you want I can force a cache purge. I will need a list of the URLs to purge for that\n"
+  , issueCommentId = 122370211
+  }

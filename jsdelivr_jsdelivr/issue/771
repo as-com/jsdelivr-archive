@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-09) 00 : 37 : 22 UTC
+  , issueUpdatedAt = 2014 (-07) (-03) 18 : 20 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/771/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/771")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 771
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 744538
+        , simpleUserLogin = N "gavinhungry"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/744538?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gavinhungry"
+        }
+  , issueTitle = "Add GorillaScript 0.9.10"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/771")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/771.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/771.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/771"
+  , issueCreatedAt = 2014 (-05) (-09) 00 : 30 : 32 UTC
+  , issueBody =
+      Just
+        "Version number comes from NPM: https://www.npmjs.org/package/gorillascript\n"
+  , issueState = StateClosed
+  , issueId = Id 33137061
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

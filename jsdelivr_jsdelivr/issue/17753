@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-26) 15 : 22 : 15 UTC
+  , issueUpdatedAt = 2017 (-04) (-26) 15 : 22 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17753/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17753")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17753
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7529723
+        , simpleUserLogin = N "nb1987"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/7529723?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nb1987"
+        }
+  , issueTitle = "Add braintree-validation library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17753")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17753.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17753.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17753"
+  , issueCreatedAt = 2017 (-04) (-22) 19 : 24 : 15 UTC
+  , issueBody = Just "Add braintree-validation library to jsdelivr."
+  , issueState = StateClosed
+  , issueId = Id 223586813
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

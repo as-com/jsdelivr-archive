@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-06) 16 : 01 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 41597
+        , simpleUserLogin = N "mistic100"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/41597?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mistic100"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/138095222"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6699#issuecomment-138095222"
+  , issueCommentCreatedAt = 2015 (-09) (-06) 16 : 01 : 02 UTC
+  , issueCommentBody =
+      "got it, waiting for new website\n\nI have a feedback though, (let me know if there is a better place) :\nthe \"second header\" (red) should not be always displayed, because it duplicates buttons on the screen.\n\nIt would be better to display it, on top, after we scrolled about 200px (enough to hide the top header)\n"
+  , issueCommentId = 138095222
+  }

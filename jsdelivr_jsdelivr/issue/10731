@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-31) 13 : 05 : 06 UTC
+  , issueUpdatedAt = 2016 (-03) (-31) 13 : 05 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10731/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10731")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10731
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project popper.js to v0.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10731")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10731.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10731.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10731"
+  , issueCreatedAt = 2016 (-03) (-31) 13 : 05 : 00 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project popper.js to v0.2.1.\n\n@FezVrasta\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"popper.js\",\n    \"repo\": \"FezVrasta/popper.js\",\n    \"files\": {\n      \"include\": [\"build/popper.js\", \"build/popper.min.js\", \"popper.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/popper.js\",\n    \"localVersions\": [\"0.2.0\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.2.0\", \"v0.2.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/popper.js/update.json\",\n  \"versions\": [\"v0.2.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/popper.js/0.2.1\",\n  \"branch\": \"popper.js/v0.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 144895535
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

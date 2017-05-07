@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-30) 19 : 45 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10674240
+        , simpleUserLogin = N "TheTannerRyan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/10674240?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/TheTannerRyan"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/87803943"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4082#issuecomment-87803943"
+  , issueCommentCreatedAt = 2015 (-03) (-30) 19 : 45 : 22 UTC
+  , issueCommentBody =
+      "Request:\nHost: cdn.jsdelivr.net\nUser-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0\nAccept: application/font-woff2;q=1.0,application/font-woff;q=0.9,_/_;q=0.8\nAccept-Language: en-US,en;q=0.5\nAccept-Encoding: identity\nReferer: https://cdn.jsdelivr.net/cyber-font/3.0.0/cyber-font.min.css\nOrigin: https://www.hamiltonweather.ca\nConnection: keep-alive\nPragma: no-cache\nCache-Control: no-cache\n\nResponse:\nAccess-Control-Allow-Origin: *\nCache-Control: public, max-age=31536000\nContent-Encoding: gzip\nContent-Type: application/octet-stream\nDate: Mon, 30 Mar 2015 19:43:42 GMT\nEtag: W/\"55193bd9-677c\"\nLast-Modified: Mon, 30 Mar 2015 12:04:41 GMT\nServer: NetDNA-cache/2.2\nTiming-Allow-Origin: *\nX-Cache: HIT\nX-Firefox-Spdy: 3.1\n\nI tried with chrome and I also get the same issue.\n"
+  , issueCommentId = 87803943
+  }

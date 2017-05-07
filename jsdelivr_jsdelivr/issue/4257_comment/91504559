@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-10) 10 : 07 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/91504559"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4257#issuecomment-91504559"
+  , issueCommentCreatedAt = 2015 (-04) (-10) 10 : 07 : 28 UTC
+  , issueCommentBody =
+      "You need to add the files to a version dir not to root of the project\n"
+  , issueCommentId = 91504559
+  }

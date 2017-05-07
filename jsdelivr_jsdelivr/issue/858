@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-28) 01 : 28 : 16 UTC
+  , issueUpdatedAt = 2014 (-06) (-20) 17 : 38 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/858/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/858")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 858
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 134009
+        , simpleUserLogin = N "ekashida"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/134009?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ekashida"
+        }
+  , issueTitle = "pure v0.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/858")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/858.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/858.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/858"
+  , issueCreatedAt = 2014 (-05) (-28) 01 : 15 : 15 UTC
+  , issueBody =
+      Just "https://github.com/yui/pure/releases/tag/v0.5.0\n"
+  , issueState = StateClosed
+  , issueId = Id 34427503
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

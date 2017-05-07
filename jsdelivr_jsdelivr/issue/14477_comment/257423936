@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-31) 21 : 20 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/257423936"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/14477#issuecomment-257423936"
+  , issueCommentCreatedAt = 2016 (-10) (-31) 21 : 20 : 02 UTC
+  , issueCommentBody =
+      "@MartinKolarik libgrabber has this error for lodash\n\nerror: uncaughtException: Cannot read property 'length' of null date=Mon Oct 31 2016 22:18:44 GMT+0100 (CET), pid=20528, uid=0, gid=0, cwd=/home/libgrabber/jsdelivr, execPath=/usr/bin/node, version=v4.5.0, argv=[/usr/bin/node, /usr/bin/libgrabber, --jsdelivr-path, /home/libgrabber/jsdelivr, --config, /home/libgrabber/libgrabber.config.json], rss=138113024, heapTotal=111599200, heapUsed=76415624, loadavg=[0.17822265625, 0.3154296875, 0.3125], uptime=3911146, trace=[column=8, file=/usr/lib/node_modules/libgrabber/lib/compare-versions.js, function=module.exports, line=33, method=exports, native=false, column=null, file=null, function=Array.sort, line=null, method=sort, native=true, column=23, file=/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js, function=null, line=15955, method=null, native=false, column=7, file=/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js, function=Function.tap, line=7797, method=tap, native=false, column=28, file=/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js, function=null, line=3899, method=null, native=false, column=21, file=/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js, function=arrayReduce, line=664, method=null, native=false, column=14, file=/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js, function=baseWrapperValue, line=3898, method=null, native=false, column=14, file=/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js, function=LodashWrapper.wrapperValue, line=8084, method=wrapperValue, native=false, column=36, file=/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js, function=LazyWrapper.lazyValue [as value], line=1768, method=lazyValue [as value], native=false, column=25, file=/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js, function=baseWrapperValue, line=3896, method=null, native=false, column=14, file=/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js, function=LodashWrapper.wrapperValue, line=8084, method=wrapperValue, native=false], stack=[TypeError: Cannot read property 'length' of null,     at module.exports (/usr/lib/node_modules/libgrabber/lib/compare-versions.js:33:8),     at Array.sort (native),     at /usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js:15955:23,     at Function.tap (/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js:7797:7),     at /usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js:3899:28,     at arrayReduce (/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js:664:21),     at baseWrapperValue (/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js:3898:14),     at LodashWrapper.wrapperValue (/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js:8084:14),     at LazyWrapper.lazyValue [as value](/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js:1768:36),     at baseWrapperValue (/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js:3896:25),     at LodashWrapper.wrapperValue (/usr/lib/node_modules/libgrabber/node_modules/lodash/lodash.js:8084:14)]\n"
+  , issueCommentId = 257423936
+  }

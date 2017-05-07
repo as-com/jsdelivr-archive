@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-28) 17 : 43 : 41 UTC
+  , issueUpdatedAt = 2016 (-02) (-28) 17 : 45 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10168/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10168")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10168
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10571881
+        , simpleUserLogin = N "jonataswalker"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/10571881?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jonataswalker"
+        }
+  , issueTitle = "Add Timepicker.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10168")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10168.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10168.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10168"
+  , issueCreatedAt = 2016 (-02) (-28) 17 : 13 : 24 UTC
+  , issueBody =
+      Just
+        "Would you please add **[Timepicker.js](https://github.com/jonataswalker/timepicker.js)** to your CDN?\n\nMany thanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 137073777
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

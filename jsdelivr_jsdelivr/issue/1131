@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-07) 01 : 14 : 50 UTC
+  , issueUpdatedAt = 2014 (-07) (-07) 01 : 14 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1131/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1131")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1131
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "split out fonts into seperate sub-repo?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1131"
+  , issueCreatedAt = 2014 (-07) (-06) 08 : 07 : 32 UTC
+  , issueBody =
+      Just
+        "Just for management purposes (they can all be in jsdelivr.com still, though someday I'd like to have a separate font-previewer), could the font-only repos be split out please?  Not only https://github.com/jsdelivr/jsdelivr is over the folder limit now, but fonts are alot of HD/bandwidth to keep in the main repo.\njsdelivr/jsdelivr-fonts works fine.\n"
+  , issueState = StateClosed
+  , issueId = Id 37213926
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

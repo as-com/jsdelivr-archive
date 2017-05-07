@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-09) 01 : 34 : 20 UTC
+  , issueUpdatedAt = 2015 (-09) (-09) 01 : 34 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6777/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6777")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6777
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project vue.router to v0.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6777")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6777.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6777.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6777"
+  , issueCreatedAt = 2015 (-09) (-09) 01 : 34 : 14 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vue.router to v0.6.0.\n\n@vuejs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vue.router\",\n    \"repo\": \"vuejs/vue-router\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"vue-router.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/vue.router\",\n    \"localVersions\": [\"0.5.1\", \"0.5.2\"],\n    \"remoteVersions\": [\"v0.4.0\", \"v0.5.0\", \"v0.5.1\", \"v0.5.2\", \"v0.6.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/vue.router/update.json\",\n  \"version\": \"v0.6.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/vue.router/0.6.0\",\n  \"branch\": \"vue.router/v0.6.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 105500184
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

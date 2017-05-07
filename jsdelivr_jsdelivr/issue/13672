@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-09) 19 : 08 : 40 UTC
+  , issueUpdatedAt = 2016 (-09) (-09) 19 : 08 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13672/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13672")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13672
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7111053
+        , simpleUserLogin = N "swcheon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/7111053?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/swcheon"
+        }
+  , issueTitle = "Update css files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13672")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13672.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13672.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13672"
+  , issueCreatedAt = 2016 (-09) (-08) 12 : 03 : 21 UTC
+  , issueBody = Just "Fix wrong urls\n"
+  , issueState = StateClosed
+  , issueId = Id 175735964
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

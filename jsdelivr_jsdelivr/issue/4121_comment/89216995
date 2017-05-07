@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-03) 08 : 22 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 123822
+        , simpleUserLogin = N "vvo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/123822?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vvo"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/89216995"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4121#issuecomment-89216995"
+  , issueCommentCreatedAt = 2015 (-04) (-03) 08 : 22 : 29 UTC
+  , issueCommentBody =
+      "> But your PR wont be auto-merged, is that ok or its extremely important to have instant merge?\n\nIn this particular case it will be ok if it takes a couple hours?\n\nSo how does jQuery 1.x 2.x handles it? Do they also update manually the V1? Only curious here.\n"
+  , issueCommentId = 89216995
+  }

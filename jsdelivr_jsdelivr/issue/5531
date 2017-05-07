@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-29) 11 : 34 : 58 UTC
+  , issueUpdatedAt = 2015 (-06) (-29) 11 : 34 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5531/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5531")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5531
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 160618
+        , simpleUserLogin = N "ntd"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/160618?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ntd"
+        }
+  , issueTitle = "Include missing images in jquery.fotorama"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5531")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5531.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5531.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5531"
+  , issueCreatedAt = 2015 (-06) (-29) 07 : 02 : 54 UTC
+  , issueBody =
+      Just
+        "My apologies, I noticed the images were missing only the first time I used fotorama from jsdelivr.net.\n\nAlso these images have been picked up from the last [zip release](https://github.com/artpolikarpov/fotorama/releases/download/4.6.4/fotorama-4.6.4.zip). Apart the example file, everything contained by that zip is now under jsdelivr.\n"
+  , issueState = StateClosed
+  , issueId = Id 91718199
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

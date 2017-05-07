@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-13) 20 : 09 : 56 UTC
+  , issueUpdatedAt = 2015 (-07) (-13) 20 : 09 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5844/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5844")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5844
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8698364
+        , simpleUserLogin = N "jacob-israel-turner"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/8698364?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/jacob-israel-turner"
+        }
+  , issueTitle = "merge cs-widget"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5844")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5844.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5844.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5844"
+  , issueCreatedAt = 2015 (-07) (-13) 17 : 34 : 59 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 94771694
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

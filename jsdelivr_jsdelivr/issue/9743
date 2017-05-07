@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-14) 13 : 27 : 26 UTC
+  , issueUpdatedAt = 2016 (-02) (-14) 13 : 27 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9743/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9743")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9743
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6859057
+        , simpleUserLogin = N "jaszhix"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6859057?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jaszhix"
+        }
+  , issueTitle = "Add vquery"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9743")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9743.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9743.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9743"
+  , issueCreatedAt = 2016 (-02) (-13) 05 : 50 : 57 UTC
+  , issueBody =
+      Just
+        "Added info.ini, update.json, and v.min.js.\n\nhttps://github.com/jaszhix/jsdelivr/blob/master/files/vquery/info.ini\nhttps://github.com/jaszhix/jsdelivr/blob/master/files/vquery/update.json\nhttps://github.com/jaszhix/jsdelivr/blob/master/files/vquery/4.1.0/v.min.js\nhttps://github.com/jaszhix/vquery/blob/master/v.min.js\n"
+  , issueState = StateClosed
+  , issueId = Id 133402745
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

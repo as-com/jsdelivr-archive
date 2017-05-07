@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-30) 13 : 49 : 30 UTC
+  , issueUpdatedAt = 2016 (-06) (-30) 13 : 49 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12449/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12449")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12449
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15644571
+        , simpleUserLogin = N "KingPixil"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/15644571?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/KingPixil"
+        }
+  , issueTitle = "Add Wing.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12449")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12449.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12449.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12449"
+  , issueCreatedAt = 2016 (-06) (-28) 21 : 57 : 22 UTC
+  , issueBody =
+      Just
+        "Wing is a CSS Framework. \n\n[Homepage](http://usewing.ml)\n[Github Repo](https://github.com/KingPixil/wing)\n\n**Stats**\n- 100+ Stars on Github\n- 4.5kb Minified\n"
+  , issueState = StateClosed
+  , issueId = Id 162797249
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

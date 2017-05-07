@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-12) 09 : 12 : 57 UTC
+  , issueUpdatedAt = 2015 (-07) (-12) 09 : 12 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5812/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5812")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5812
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5534178
+        , simpleUserLogin = N "Aquei"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5534178?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Aquei"
+        }
+  , issueTitle = "Create update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5812")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5812.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5812.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5812"
+  , issueCreatedAt = 2015 (-07) (-12) 09 : 06 : 28 UTC
+  , issueBody = Just "auto-update for es6-promise.\n"
+  , issueState = StateClosed
+  , issueId = Id 94549169
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

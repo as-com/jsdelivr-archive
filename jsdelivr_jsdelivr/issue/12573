@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-06) 00 : 06 : 44 UTC
+  , issueUpdatedAt = 2016 (-07) (-06) 00 : 06 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12573/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12573")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12573
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9922067
+        , simpleUserLogin = N "korusdipl"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9922067?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/korusdipl"
+        }
+  , issueTitle =
+      "Custom Pull [Korean-Webfonts] : Patched Noto Sans KR Webfonts"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12573")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12573.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12573.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12573"
+  , issueCreatedAt = 2016 (-07) (-06) 00 : 05 : 35 UTC
+  , issueBody =
+      Just
+        "Due to the rendering error (baseline floating) on some browsers, \nit gave different experience across browsers. Patched.\n\nHope to merge this commit. Thank you.\n"
+  , issueState = StateClosed
+  , issueId = Id 163972658
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

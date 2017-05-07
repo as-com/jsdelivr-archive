@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-23) 08 : 05 : 46 UTC
+  , issueUpdatedAt = 2016 (-05) (-23) 08 : 05 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11767/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11767")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11767
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16922883
+        , simpleUserLogin = N "smartclash"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16922883?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/smartclash"
+        }
+  , issueTitle = "Added SmartUIKit"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11767")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11767.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11767.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11767"
+  , issueCreatedAt = 2016 (-05) (-23) 08 : 04 : 51 UTC
+  , issueBody =
+      Just
+        "Request to add smartuikit themes to jsdelivr to establish them across the CDN servers\n"
+  , issueState = StateClosed
+  , issueId = Id 156221522
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-07) 01 : 50 : 35 UTC
+  , issueUpdatedAt = 2014 (-08) (-07) 01 : 50 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1367/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1367")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1367
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "Cleaning up after my messy commits. Version 3.6.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1367")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1367.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1367.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1367"
+  , issueCreatedAt = 2014 (-08) (-07) 01 : 38 : 43 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 39683609
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-25) 22 : 46 : 58 UTC
+  , issueUpdatedAt = 2017 (-01) (-25) 22 : 46 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15981/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15981")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15981
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17277382
+        , simpleUserLogin = N "balzss"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/17277382?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/balzss"
+        }
+  , issueTitle = "added luxbar"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15981")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15981.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15981.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15981"
+  , issueCreatedAt = 2017 (-01) (-25) 16 : 44 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 203156073
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

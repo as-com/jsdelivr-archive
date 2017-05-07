@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2017 (-04) (-20) 18 : 13 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16860/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/16860")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16860
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 345483
+        , simpleUserLogin = N "whs"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/345483?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/whs"
+        }
+  , issueTitle = "Chart.js is not updated"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16860"
+  , issueCreatedAt = 2017 (-03) (-12) 06 : 47 : 44 UTC
+  , issueBody =
+      Just
+        "Even though it have an [update.json](https://github.com/jsdelivr/jsdelivr/blob/master/files/chart.js/update.json) and latest release on [GitHub release](https://github.com/chartjs/Chart.js/releases). Chart.js in JSDelivr seems to be very outdated.\r\n\r\nIs there anything wrong with the auto update process?"
+  , issueState = StateOpen
+  , issueId = Id 213586691
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

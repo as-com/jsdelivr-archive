@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-27) 16 : 49 : 13 UTC
+  , issueUpdatedAt = 2017 (-02) (-27) 16 : 49 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16598/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16598")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16598
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 22114845
+        , simpleUserLogin = N "dimitrigq"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/22114845?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dimitrigq"
+        }
+  , issueTitle = "Added Tumult3.5 JS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16598")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16598.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16598.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16598"
+  , issueCreatedAt = 2017 (-02) (-27) 15 : 32 : 32 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 210517881
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

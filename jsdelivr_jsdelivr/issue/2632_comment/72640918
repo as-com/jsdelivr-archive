@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-03) 12 : 17 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/72640918"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-72640918"
+  , issueCommentCreatedAt = 2015 (-02) (-03) 12 : 17 : 29 UTC
+  , issueCommentBody =
+      "Yes, dont use trunk because it will always show older versions. You can use some wordpress variable with the plugin's version to automate the process.\n"
+  , issueCommentId = 72640918
+  }

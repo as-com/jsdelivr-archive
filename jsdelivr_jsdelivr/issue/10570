@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-21) 20 : 14 : 16 UTC
+  , issueUpdatedAt = 2016 (-03) (-21) 20 : 14 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10570/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10570")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10570
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 89953
+        , simpleUserLogin = N "triskweline"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/89953?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/triskweline"
+        }
+  , issueTitle = "Add project unpoly"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10570")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10570.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10570.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10570"
+  , issueCreatedAt = 2016 (-03) (-21) 08 : 54 : 52 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 142288971
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

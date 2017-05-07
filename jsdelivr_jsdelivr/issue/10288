@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-04) 17 : 34 : 37 UTC
+  , issueUpdatedAt = 2016 (-03) (-04) 17 : 34 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10288/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10288")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10288
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project puppetjs to 1.3.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10288")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10288.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10288.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10288"
+  , issueCreatedAt = 2016 (-03) (-04) 17 : 34 : 31 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project puppetjs to 1.3.8.\n\n@puppetjs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"puppetjs\",\n    \"repo\": \"puppetjs/puppetjs\",\n    \"files\": {\n      \"include\": [\"puppet.min.js\", \"puppet.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/puppetjs\",\n    \"localVersions\": [\"0.1.12\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.4.0\", \"0.4.1\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.1.0\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.3.4\", \"1.3.5\", \"1.3.7\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.8\", \"0.1.9\", \"0.1.10\", \"0.1.11\", \"0.1.12\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.4.0\", \"0.4.1\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.1.0\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.3.4\", \"1.3.5\", \"1.3.6\", \"1.3.7\", \"1.3.8\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/puppetjs/update.json\",\n  \"versions\": [\"1.3.8\"],\n  \"updateRemote\": true,\n  \"version\": \"1.3.8\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/puppetjs/1.3.8\",\n  \"branch\": \"puppetjs/1.3.8\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 138535232
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

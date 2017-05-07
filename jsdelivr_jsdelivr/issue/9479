@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-31) 20 : 33 : 32 UTC
+  , issueUpdatedAt = 2016 (-01) (-31) 20 : 33 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9479/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9479")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9479
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project openwebicons to 1.3.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9479")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9479.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9479.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9479"
+  , issueCreatedAt = 2016 (-01) (-31) 20 : 33 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project openwebicons to 1.3.3.\n\n@pfefferle\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"openwebicons\",\n    \"repo\": \"pfefferle/openwebicons\",\n    \"files\": {\n      \"include\": [\"./css/openwebicons.min.css\", \"./css/openwebicons.css\", \"./font/openwebicons.eot\", \"./font/openwebicons.svg\", \"./font/openwebicons.ttf\", \"./font/openwebicons.woff\", \"./font/openwebicons.woff2\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/openwebicons\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.2\", \"1.1.0\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/openwebicons/update.json\",\n  \"versions\": [\"1.3.3\"],\n  \"updateRemote\": true,\n  \"version\": \"1.3.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/openwebicons/1.3.3\",\n  \"branch\": \"openwebicons/1.3.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 130177942
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

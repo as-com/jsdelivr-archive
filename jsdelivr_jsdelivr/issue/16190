@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-06) 07 : 36 : 03 UTC
+  , issueUpdatedAt = 2017 (-02) (-06) 07 : 36 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16190/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16190")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16190
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 361942
+        , simpleUserLogin = N "iropke"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/361942?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/iropke"
+        }
+  , issueTitle = "Add font-iropke-batang"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16190")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16190.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16190.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16190"
+  , issueCreatedAt = 2017 (-02) (-06) 07 : 35 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 205506822
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

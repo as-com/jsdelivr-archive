@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-31) 16 : 55 : 47 UTC
+  , issueUpdatedAt = 2017 (-03) (-31) 16 : 55 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17293/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17293")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17293
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 20237371
+        , simpleUserLogin = N "kenneth-igaw"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/20237371?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kenneth-igaw"
+        }
+  , issueTitle = "Patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17293")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17293.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17293.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17293"
+  , issueCreatedAt = 2017 (-03) (-30) 02 : 38 : 54 UTC
+  , issueBody =
+      Just
+        "I want to add the `homeworks` package on jsdelivr.\r\n\r\nYou can see the project in [here](https://github.com/IGAWorksDev/homeworks)\r\n\r\nThank you"
+  , issueState = StateClosed
+  , issueId = Id 218064533
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-26) 15 : 29 : 51 UTC
+  , issueUpdatedAt = 2017 (-04) (-26) 15 : 29 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17713/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17713")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17713
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project lds-glyphs to v1.6.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17713")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17713.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17713.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17713"
+  , issueCreatedAt = 2017 (-04) (-20) 15 : 06 : 20 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project lds-glyphs to v1.6.1.\n\n@idefy\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"lds-glyphs\",\n    \"repo\": \"idefy/lds-glyphs\",\n    \"files\": {\n      \"basePath\": \"dist/glyphs/\",\n      \"include\": [\"lds-glyphs.css\", \"lds-glyphs.eot\", \"lds-glyphs.svg\", \"lds-glyphs.svg\", \"lds-glyphs.ttf\", \"lds-glyphs.woff\", \"lds-glyphs.woff2\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/lds-glyphs\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.3.0\", \"v1.4.0\", \"v1.5.0\", \"v1.5.1\", \"v1.6.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/lds-glyphs/update.json\",\n  \"versions\": [\"v1.6.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.6.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/lds-glyphs/1.6.1\",\n  \"branch\": \"lds-glyphs/v1.6.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 223099409
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

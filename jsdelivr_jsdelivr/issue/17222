@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 17 : 30 : 26 UTC
+  , issueUpdatedAt = 2017 (-03) (-29) 17 : 30 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17222/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17222")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17222
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 78122
+        , simpleUserLogin = N "aadsm"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/78122?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aadsm"
+        }
+  , issueTitle = "New library: jschardet"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17222")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17222.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17222.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17222"
+  , issueCreatedAt = 2017 (-03) (-26) 23 : 37 : 22 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 217101802
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

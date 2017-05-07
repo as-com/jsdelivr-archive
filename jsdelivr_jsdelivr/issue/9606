@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-06) 08 : 08 : 10 UTC
+  , issueUpdatedAt = 2016 (-02) (-06) 08 : 08 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9606/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/9606")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9606
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1573141
+        , simpleUserLogin = N "coderaiser"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1573141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coderaiser"
+        }
+  , issueTitle = "Menu-io v1.0.0 file not found"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9606"
+  , issueCreatedAt = 2016 (-02) (-05) 19 : 05 : 03 UTC
+  , issueBody =
+      Just
+        "[menu-io](http://github.com/coderaiser/menu-io) [was added](https://github.com/jsdelivr/jsdelivr/pull/9600) to [jsdelivr repo](https://github.com/jsdelivr/jsdelivr/tree/master/files/menu-io/1.0.0) today but when I try to open links from https://www.jsdelivr.com/projects/menu-io:\n\n```\nhttps://cdn.jsdelivr.net/menu-io/1.0.0/menu-io.min.js\nhttps://cdn.jsdelivr.net/menu-io/1.0.0/menu-io.min.css\n```\n\nIt returns `404 file not found`.\n"
+  , issueState = StateClosed
+  , issueId = Id 131727301
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

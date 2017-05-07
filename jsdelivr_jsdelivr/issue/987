@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-22) 14 : 36 : 42 UTC
+  , issueUpdatedAt = 2014 (-06) (-22) 14 : 43 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/987/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/987")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 987
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1423566
+        , simpleUserLogin = N "johngeorgewright"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1423566?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/johngeorgewright"
+        }
+  , issueTitle = "Adding the angular-ie7-support module"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/987")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/987.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/987.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/987"
+  , issueCreatedAt = 2014 (-06) (-20) 12 : 04 : 47 UTC
+  , issueBody =
+      Just
+        "Please accept the new angular-ie7-support module for your CDN.\n\nMany thanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 36161833
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

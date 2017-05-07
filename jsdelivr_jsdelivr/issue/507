@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-25) 13 : 02 : 51 UTC
+  , issueUpdatedAt = 2014 (-03) (-25) 13 : 12 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/507/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/507")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 507
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5306636
+        , simpleUserLogin = N "lithiumjake"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5306636?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lithiumjake"
+        }
+  , issueTitle = "Please add Vue.js to the CDN"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/507")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/507.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/507.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/507"
+  , issueCreatedAt = 2014 (-03) (-25) 13 : 01 : 20 UTC
+  , issueBody =
+      Just
+        "HI!  So excited to hear about jsdelivr.  You can find that the Vue's maintainer, Evan You, has given me permission to maintain Vue.js on jsdelivr here: https://github.com/yyx990803/vue/issues/199\n\nThank you so much for jsdelivr!\n"
+  , issueState = StateClosed
+  , issueId = Id 30120773
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

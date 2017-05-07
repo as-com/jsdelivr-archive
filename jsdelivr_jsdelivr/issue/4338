@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-16) 13 : 34 : 26 UTC
+  , issueUpdatedAt = 2015 (-04) (-16) 13 : 34 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4338/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4338")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4338
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1775792
+        , simpleUserLogin = N "geoperez"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1775792?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/geoperez"
+        }
+  , issueTitle = "Add Tubular"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4338")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4338.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4338.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4338"
+  , issueCreatedAt = 2015 (-04) (-15) 21 : 37 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 68792645
+  , issueComments = 15
+  , issueMilestone = Nothing
+  }

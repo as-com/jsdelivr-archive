@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-02) 11 : 36 : 26 UTC
+  , issueUpdatedAt = 2016 (-03) (-02) 11 : 36 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10234/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10234")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10234
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project vuex to v0.4.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10234")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10234.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10234.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10234"
+  , issueCreatedAt = 2016 (-03) (-02) 11 : 36 : 00 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vuex to v0.4.1.\n\n@vuejs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vuex\",\n    \"repo\": \"vuejs/vuex\",\n    \"files\": {\n      \"basePath\": \"dist\",\n      \"include\": [\"vuex.js\", \"vuex.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/vuex\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.3.0\", \"v0.4.0\", \"v0.4.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/vuex/update.json\",\n  \"versions\": [\"v0.4.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.4.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/vuex/0.4.1\",\n  \"branch\": \"vuex/v0.4.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 137848931
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

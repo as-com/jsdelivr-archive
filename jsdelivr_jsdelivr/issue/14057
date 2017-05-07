@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-30) 21 : 58 : 14 UTC
+  , issueUpdatedAt = 2016 (-09) (-30) 21 : 58 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14057/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14057")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14057
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15719096
+        , simpleUserLogin = N "sudheerkaku"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/15719096?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sudheerkaku"
+        }
+  , issueTitle = "Update BasePath with '/' in update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14057")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14057.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14057.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14057"
+  , issueCreatedAt = 2016 (-09) (-30) 03 : 51 : 08 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 180214149
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

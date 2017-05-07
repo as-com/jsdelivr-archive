@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 16 : 52 : 07 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 16 : 52 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15007/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15007")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15007
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4413176
+        , simpleUserLogin = N "sgoblin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4413176?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sgoblin"
+        }
+  , issueTitle = "Added cookieconsent3 from silktide/insites"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15007")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15007.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15007.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15007"
+  , issueCreatedAt = 2016 (-11) (-28) 20 : 49 : 46 UTC
+  , issueBody =
+      Just
+        "The current latest version of the cookie consent library available on jsDelivr is 1.0.9.\r\nThis adds the latest versions, up to 3.0.4 at the current time."
+  , issueState = StateClosed
+  , issueId = Id 192113407
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-31) 05 : 30 : 22 UTC
+  , issueUpdatedAt = 2014 (-08) (-31) 05 : 30 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1569/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1569")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1569
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 534802
+        , simpleUserLogin = N "maestr0"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/534802?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/maestr0"
+        }
+  , issueTitle = "v.3.1.23 with three aditional files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1569")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1569.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1569.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1569"
+  , issueCreatedAt = 2014 (-08) (-30) 18 : 12 : 54 UTC
+  , issueBody =
+      Just
+        "Please add the following files to the CDN\n\nliminator-slajdow.jquery.widget.js \nes.css\nes.standalone.js\nes_logo.svg\n"
+  , issueState = StateClosed
+  , issueId = Id 41568579
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

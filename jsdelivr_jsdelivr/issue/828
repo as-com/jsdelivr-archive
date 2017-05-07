@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-20) 18 : 12 : 48 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 23 : 00 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/828/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/828")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 828
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 178641
+        , simpleUserLogin = N "ellisonleao"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/178641?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ellisonleao"
+        }
+  , issueTitle = "Add handjs and babylonjs projects"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/828")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/828.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/828.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/828"
+  , issueCreatedAt = 2014 (-05) (-20) 14 : 14 : 04 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 33891989
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

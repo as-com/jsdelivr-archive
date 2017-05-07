@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-02) 23 : 29 : 50 UTC
+  , issueUpdatedAt = 2014 (-03) (-02) 23 : 29 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/405/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/405")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 405
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueTitle = "Proofread and correct style and grammar of readme"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/405")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/405.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/405.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/405"
+  , issueCreatedAt = 2014 (-03) (-02) 15 : 59 : 52 UTC
+  , issueBody =
+      Just
+        "I made a lot of changes. Please tell me if I did something wrong. :smile: \n"
+  , issueState = StateClosed
+  , issueId = Id 28582069
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-28) 04 : 44 : 18 UTC
+  , issueUpdatedAt = 2014 (-04) (-28) 04 : 44 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/711/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/711")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 711
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 512317
+        , simpleUserLogin = N "loganrosen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/512317?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/loganrosen"
+        }
+  , issueTitle = "jquery.timepicker 1.3.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/711")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/711.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/711.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/711"
+  , issueCreatedAt = 2014 (-04) (-28) 03 : 20 : 00 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 32328985
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

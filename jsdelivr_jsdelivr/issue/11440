@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-04) 18 : 51 : 16 UTC
+  , issueUpdatedAt = 2016 (-05) (-04) 18 : 51 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11440/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11440")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11440
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3459542
+        , simpleUserLogin = N "gswalden"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3459542?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gswalden"
+        }
+  , issueTitle = "add auto-updating for swiper"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11440")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11440.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11440.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11440"
+  , issueCreatedAt = 2016 (-05) (-04) 14 : 24 : 36 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 153024877
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

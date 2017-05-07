@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-07) 19 : 32 : 20 UTC
+  , issueUpdatedAt = 2016 (-09) (-07) 19 : 32 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13654/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13654")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13654
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project web-streams-polyfill to v1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13654")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13654.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13654.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13654"
+  , issueCreatedAt = 2016 (-09) (-07) 17 : 35 : 26 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project web-streams-polyfill to v1.1.0.\n\n@creatorrr\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"web-streams-polyfill\",\n    \"repo\": \"creatorrr/web-streams-polyfill\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"polyfill.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/web-streams-polyfill\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/web-streams-polyfill/update.json\",\n  \"versions\": [\"v1.1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/web-streams-polyfill/1.1.0\",\n  \"branch\": \"web-streams-polyfill/v1.1.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 175562514
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

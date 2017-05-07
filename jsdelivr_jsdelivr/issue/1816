@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-24) 21 : 34 : 54 UTC
+  , issueUpdatedAt = 2014 (-09) (-24) 23 : 21 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1816/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1816")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1816
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91501
+        , simpleUserLogin = N "daviddelikat"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/91501?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/daviddelikat"
+        }
+  , issueTitle = "Create update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1816")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1816.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1816.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1816"
+  , issueCreatedAt = 2014 (-09) (-24) 20 : 37 : 20 UTC
+  , issueBody = Just "hope this gives a single commit to pull....\n"
+  , issueState = StateClosed
+  , issueId = Id 43812119
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

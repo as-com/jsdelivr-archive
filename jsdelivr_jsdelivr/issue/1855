@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-28) 01 : 23 : 59 UTC
+  , issueUpdatedAt = 2014 (-09) (-28) 21 : 29 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1855/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1855")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1855
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "+ jquery.midnight 1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1855")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1855.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1855.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1855"
+  , issueCreatedAt = 2014 (-09) (-28) 00 : 44 : 06 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 44199377
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

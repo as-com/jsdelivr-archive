@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-23) 23 : 32 : 35 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 08 : 27 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/160/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/160")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 160
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 291060
+        , simpleUserLogin = N "Stolz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/291060?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Stolz"
+        }
+  , issueTitle = "Added Zurb Foundation latest version (5.0.2)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/160")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/160.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/160.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/160"
+  , issueCreatedAt = 2013 (-11) (-23) 23 : 31 : 23 UTC
+  , issueBody =
+      Just "Changelog: http://foundation.zurb.com/docs/changelog.html\n"
+  , issueState = StateClosed
+  , issueId = Id 23196392
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

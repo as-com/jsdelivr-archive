@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-09) 12 : 42 : 21 UTC
+  , issueUpdatedAt = 2013 (-10) (-09) 12 : 42 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/110/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/110")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 110
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1526000
+        , simpleUserLogin = N "platan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1526000?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/platan"
+        }
+  , issueTitle = "CHContext version 1.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/110")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/110.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/110.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/110"
+  , issueCreatedAt = 2013 (-10) (-09) 11 : 44 : 37 UTC
+  , issueBody = Just "New version (1.2.0) of the CHContext. \n"
+  , issueState = StateClosed
+  , issueId = Id 20736970
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

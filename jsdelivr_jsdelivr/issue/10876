@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-07) 04 : 33 : 24 UTC
+  , issueUpdatedAt = 2016 (-04) (-07) 04 : 33 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10876/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10876")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10876
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.photoswipe to 1.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10876")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10876.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10876.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10876"
+  , issueCreatedAt = 2016 (-04) (-07) 04 : 33 : 20 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.photoswipe to 1.0.5.\n\n@yaquawa\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"jquery.photoswipe\",\n    \"files\": {\n      \"basePath\": \"dist/min/\",\n      \"include\": [\"jquery.photoswipe.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.photoswipe\",\n    \"localVersions\": [\"1.0.4\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.photoswipe/update.json\",\n  \"versions\": [\"1.0.5\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.photoswipe/1.0.5\",\n  \"branch\": \"jquery.photoswipe/1.0.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 146507237
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

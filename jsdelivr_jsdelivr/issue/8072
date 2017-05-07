@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-23) 15 : 07 : 23 UTC
+  , issueUpdatedAt = 2015 (-11) (-23) 15 : 07 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8072/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8072")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8072
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project SpinKit to 1.2.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8072")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8072.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8072.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8072"
+  , issueCreatedAt = 2015 (-11) (-23) 15 : 07 : 18 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project SpinKit to 1.2.5.\n\n@tobiasahlin\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"SpinKit\",\n    \"repo\": \"tobiasahlin/SpinKit\",\n    \"files\": {\n      \"include\": [\"css/spinkit.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/spinkit\",\n    \"localVersions\": [\"1.0.1\", \"1.1.0\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.2.4\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.1.0\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.2.4\", \"1.2.5\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/spinkit/update.json\",\n  \"version\": \"1.2.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/spinkit/1.2.5\",\n  \"branch\": \"SpinKit/1.2.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 118400568
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

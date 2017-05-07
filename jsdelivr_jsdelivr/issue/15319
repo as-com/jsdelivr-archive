@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-16) 05 : 58 : 44 UTC
+  , issueUpdatedAt = 2017 (-01) (-10) 17 : 42 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15319/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/15319")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15319
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 453840
+        , simpleUserLogin = N "oblogic7"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/453840?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/oblogic7"
+        }
+  , issueTitle =
+      "Could not find file specified in mainfile for project"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15319"
+  , issueCreatedAt = 2016 (-12) (-12) 21 : 12 : 21 UTC
+  , issueBody =
+      Just
+        "Getting the following error on some connections.\r\n\r\n![image](https://cloud.githubusercontent.com/assets/453840/21116951/5c892844-c07d-11e6-9210-dada6ddd9c12.png)\r\n"
+  , issueState = StateClosed
+  , issueId = Id 195086928
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

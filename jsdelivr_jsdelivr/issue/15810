@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-17) 02 : 30 : 29 UTC
+  , issueUpdatedAt = 2017 (-01) (-17) 02 : 30 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15810/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15810")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15810
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8162992
+        , simpleUserLogin = N "herohamp"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8162992?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/herohamp"
+        }
+  , issueTitle = "Add w3schools css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15810")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15810.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15810.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15810"
+  , issueCreatedAt = 2017 (-01) (-17) 00 : 04 : 06 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 201144796
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

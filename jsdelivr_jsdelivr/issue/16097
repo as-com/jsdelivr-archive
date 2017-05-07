@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-01) 19 : 26 : 14 UTC
+  , issueUpdatedAt = 2017 (-02) (-01) 19 : 26 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16097/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16097")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16097
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1521971
+        , simpleUserLogin = N "jojo5716"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1521971?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jojo5716"
+        }
+  , issueTitle = "New version of Foozlejs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16097")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16097.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16097.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16097"
+  , issueCreatedAt = 2017 (-02) (-01) 17 : 14 : 05 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 204646020
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

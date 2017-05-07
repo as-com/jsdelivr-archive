@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-14) 12 : 33 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/253787218"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14360#issuecomment-253787218"
+  , issueCommentCreatedAt = 2016 (-10) (-14) 12 : 33 : 41 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _angular.ui-router_ between _1.0.0-alpha0_ and _1.0.0-beta.3_ there was a change in file structure  \n  \n  ``` diff\n  + angular-ui-router.js.map\n  + angular-ui-router.min.js.map\n  + common/common.d.ts\n  + common/coreservices.d.ts\n  + common/glob.d.ts\n  + common/hof.d.ts\n  + common/interface.d.ts\n  + common/module.d.ts\n  + common/predicates.d.ts\n  + common/queue.d.ts\n  + common/strings.d.ts\n  + common/trace.d.ts\n  + core.d.ts\n  + globals.d.ts\n  + hooks/lazyLoadStates.d.ts\n  + hooks/onEnterExitRetain.d.ts\n  + hooks/redirectTo.d.ts\n  + hooks/resolve.d.ts\n  + hooks/url.d.ts\n  + hooks/views.d.ts\n  + ng1.d.ts\n  + ng1/directives/stateDirectives.d.ts\n  + ng1/directives/viewDirective.d.ts\n  + ng1/interface.d.ts\n  + ng1/legacy/resolveService.d.ts\n  + ng1/legacy/stateEvents.d.ts\n  + ng1/services.d.ts\n  + ng1/stateFilters.d.ts\n  + ng1/stateProvider.d.ts\n  + ng1/statebuilders/onEnterExitRetain.d.ts\n  + ng1/statebuilders/views.d.ts\n  + ng1/templateFactory.d.ts\n  + ng1/viewScroll.d.ts\n  + params/interface.d.ts\n  + params/module.d.ts\n  + params/param.d.ts\n  + params/paramTypes.d.ts\n  + params/stateParams.d.ts\n  + params/type.d.ts\n  + path/module.d.ts\n  + path/node.d.ts\n  + path/pathFactory.d.ts\n  + resolve/interface.d.ts\n  + resolve/module.d.ts\n  + resolve/resolvable.d.ts\n  + resolve/resolveContext.d.ts\n  + router.d.ts\n  + state/interface.d.ts\n  + state/module.d.ts\n  + state/stateBuilder.d.ts\n  + state/stateMatcher.d.ts\n  + state/stateObject.d.ts\n  + state/stateQueueManager.d.ts\n  + state/stateRegistry.d.ts\n  + state/stateService.d.ts\n  + state/targetState.d.ts\n  + stateEvents.js\n  + stateEvents.js.map\n  + stateEvents.min.js\n  + stateEvents.min.js.map\n  + transition/hookBuilder.d.ts\n  + transition/hookRegistry.d.ts\n  + transition/interface.d.ts\n  + transition/module.d.ts\n  + transition/rejectFactory.d.ts\n  + transition/transition.d.ts\n  + transition/transitionHook.d.ts\n  + transition/transitionService.d.ts\n  + url/module.d.ts\n  + url/urlMatcher.d.ts\n  + url/urlMatcherConfig.d.ts\n  + url/urlMatcherFactory.d.ts\n  + url/urlRouter.d.ts\n  + view/interface.d.ts\n  + view/module.d.ts\n  + view/view.d.ts\n  - ng1/stateEvents.js\n  - ng1/stateEvents.js.map\n  - ng1/stateEvents.min.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Speak like a human._\n"
+  , issueCommentId = 253787218
+  }

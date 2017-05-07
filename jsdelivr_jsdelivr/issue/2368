@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-17) 15 : 04 : 20 UTC
+  , issueUpdatedAt = 2014 (-11) (-17) 15 : 04 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2368/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2368")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2368
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9609925
+        , simpleUserLogin = N "juergenweb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9609925?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/juergenweb"
+        }
+  , issueTitle = "Adding Bootstrap 3 calendar"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2368")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2368.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2368.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2368"
+  , issueCreatedAt = 2014 (-11) (-14) 12 : 34 : 49 UTC
+  , issueBody = Just "Added Bootstrap 3 calendar\n"
+  , issueState = StateClosed
+  , issueId = Id 48783042
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

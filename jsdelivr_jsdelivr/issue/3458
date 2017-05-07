@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-15) 14 : 03 : 58 UTC
+  , issueUpdatedAt = 2015 (-02) (-15) 18 : 49 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3458/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3458")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3458
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1639302
+        , simpleUserLogin = N "abishekrsrikaanth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1639302?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/abishekrsrikaanth"
+        }
+  , issueTitle = "Adding Library jQuery Scrollbar v0.2.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3458")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3458.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3458.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3458"
+  , issueCreatedAt = 2015 (-02) (-15) 13 : 36 : 05 UTC
+  , issueBody =
+      Just
+        "Repo: https://github.com/gromo/jquery.scrollbar\nURL: http://gromo.github.io/jquery.scrollbar/\n"
+  , issueState = StateClosed
+  , issueId = Id 57730517
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

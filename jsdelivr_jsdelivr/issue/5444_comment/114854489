@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-24) 12 : 43 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/114854489"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5444#issuecomment-114854489"
+  , issueCommentCreatedAt = 2015 (-06) (-24) 12 : 43 : 25 UTC
+  , issueCommentBody =
+      "You will also need to add a mainfile overide to pre1.0 where the old format is located. Example https://github.com/jsdelivr/jsdelivr/blob/master/files/sweetalert/0.1.2/mainfile\n"
+  , issueCommentId = 114854489
+  }

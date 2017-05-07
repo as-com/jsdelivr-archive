@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-02) 19 : 18 : 47 UTC
+  , issueUpdatedAt = 2016 (-06) (-03) 18 : 36 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11862/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11862")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11862
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8310677
+        , simpleUserLogin = N "julmot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8310677?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/julmot"
+        }
+  , issueTitle = "Added mark.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11862")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11862.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11862.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11862"
+  , issueCreatedAt = 2016 (-05) (-27) 14 : 00 : 34 UTC
+  , issueBody =
+      Just
+        "Btw: I'd suggest to implement mark.js as a keyword highlighter for the [search](http://www.jsdelivr.com/?query=tes).\n"
+  , issueState = StateClosed
+  , issueId = Id 157213285
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

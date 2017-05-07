@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-08) (-23) 09 : 00 : 07 UTC
+  , issueUpdatedAt = 2013 (-10) (-10) 15 : 51 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/81/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/81")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 81
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49051
+        , simpleUserLogin = N "mattpodwysocki"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/49051?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mattpodwysocki"
+        }
+  , issueTitle = "Adding RxJS v2.1.10"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/81")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/81.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/81.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/81"
+  , issueCreatedAt = 2013 (-08) (-23) 04 : 17 : 07 UTC
+  , issueBody =
+      Just
+        "Added RxJS version 2.1.10 from here: https://github.com/Reactive-Extensions/RxJS/releases\n"
+  , issueState = StateClosed
+  , issueId = Id 18453243
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

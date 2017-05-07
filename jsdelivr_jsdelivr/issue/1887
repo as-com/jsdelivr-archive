@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-01) 12 : 21 : 44 UTC
+  , issueUpdatedAt = 2014 (-10) (-01) 12 : 21 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1887/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1887")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1887
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project anijs to v0.8.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1887")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1887.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1887.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1887"
+  , issueCreatedAt = 2014 (-10) (-01) 05 : 04 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project anijs to v0.8.0.\n\n@anijs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"anijs\",\n    \"repo\": \"anijs/anijs\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/anijs\",\n    \"localVersions\": [\"0.4.0\", \"0.5.0\", \"0.6.0\", \"0.7.0\", \"0.7.1\", \"0.7.2\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.2.0\", \"v0.3.0\", \"v0.4.0\", \"v0.5.0\", \"v0.6.0\", \"v0.7.0\", \"v0.7.1\", \"v0.7.2\", \"v0.8.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.8.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/anijs/0.8.0\",\n  \"branch\": \"anijs/v0.8.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 44528510
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

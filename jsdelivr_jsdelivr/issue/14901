@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-22) 04 : 32 : 35 UTC
+  , issueUpdatedAt = 2016 (-11) (-22) 04 : 32 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14901/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14901")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14901
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5199021
+        , simpleUserLogin = N "yangar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5199021?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/yangar"
+        }
+  , issueTitle = "Patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14901")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14901.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14901.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14901"
+  , issueCreatedAt = 2016 (-11) (-22) 02 : 28 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 190891385
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-15) 01 : 51 : 42 UTC
+  , issueUpdatedAt = 2015 (-01) (-29) 19 : 55 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1437/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1437")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1437
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueTitle = "Add knockout punches"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1437")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1437.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1437.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1437"
+  , issueCreatedAt = 2014 (-08) (-15) 01 : 05 : 49 UTC
+  , issueBody =
+      Just "https://github.com/mbest/knockout.punches/tree/v0.4.0\n"
+  , issueState = StateClosed
+  , issueId = Id 40315279
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

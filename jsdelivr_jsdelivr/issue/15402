@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-18) 07 : 02 : 40 UTC
+  , issueUpdatedAt = 2016 (-12) (-18) 07 : 02 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15402/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15402")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15402
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project 525icons to v3.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15402")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15402.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15402.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15402"
+  , issueCreatedAt = 2016 (-12) (-18) 07 : 02 : 34 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project 525icons to v3.2.0.\n\n@runestro\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"525icons\",\n    \"repo\": \"runestro/525icons\",\n    \"files\": {\n      \"basePath\": \"fonts/\",\n      \"include\": [\"525icons.css\", \"525icons.min.css\", \"525icons.eot\", \"525icons.svg\", \"525icons.ttf\", \"525icons.woff\", \"525icons.woff2\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/525icons\",\n    \"localVersions\": [\"1.6.0\", \"1.7\", \"1.7.1\", \"1.8.0\", \"1.9.0\", \"2.0\", \"2.1.0\", \"2.2.0\", \"2.3.0\", \"2.4.0\", \"2.5.0\", \"2.6.0\", \"3.0\", \"3.1.0\"],\n    \"remoteVersions\": [\"v1.6\", \"v1.7\", \"v1.7.1\", \"v1.8.0\", \"v1.9.0\", \"v2.0\", \"v2.1.0\", \"v2.2.0\", \"v2.3.0\", \"v2.4.0\", \"v2.5.0\", \"v2.6.0\", \"v3.0\", \"v3.1.0\", \"v3.2.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/525icons/update.json\",\n  \"versions\": [\"v3.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/525icons/3.2.0\",\n  \"branch\": \"525icons/v3.2.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 196261825
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

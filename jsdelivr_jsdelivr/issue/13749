@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-09) (-12) 18 : 33 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13749/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13749")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13749
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 44454
+        , simpleUserLogin = N "indolering"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/44454?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/indolering"
+        }
+  , issueTitle = "Make Subresource Integrity attr visible by default"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13749"
+  , issueCreatedAt = 2016 (-09) (-12) 18 : 33 : 54 UTC
+  , issueBody =
+      Just
+        "I would like to advocate for switching to displaying the entire `<script src=\"https://...\" integrity=\"sha256-SAex...\" crossorigin=\"anonymous\">` tag by default.\n\nI took me a while to find the SRI tag in the UI and this would encourage people to use the SRI attribute.  People who only need the raw URL can easily select it from within the larger display.\n"
+  , issueState = StateOpen
+  , issueId = Id 176450093
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

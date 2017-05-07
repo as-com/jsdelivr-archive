@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-18) 12 : 41 : 19 UTC
+  , issueUpdatedAt = 2016 (-04) (-19) 11 : 09 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11046/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11046")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11046
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2964543
+        , simpleUserLogin = N "LukaszWiktor"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2964543?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/LukaszWiktor"
+        }
+  , issueTitle = "Add voucherify.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11046")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11046.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11046.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11046"
+  , issueCreatedAt = 2016 (-04) (-14) 12 : 42 : 45 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 148348796
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

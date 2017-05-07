@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-13) 13 : 36 : 04 UTC
+  , issueUpdatedAt = 2016 (-07) (-13) 13 : 36 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12706/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12706")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12706
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project uikit to 2.26.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12706")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12706.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12706.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12706"
+  , issueCreatedAt = 2016 (-07) (-13) 13 : 34 : 51 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project uikit to 2.26.4.\n\n@uikit\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"uikit\",\n    \"repo\": \"uikit/bower-uikit\",\n    \"files\": {\n      \"include\": [\"./css/**/*.min.css\", \"./fonts/**/*\", \"./js/**/*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/uikit\",\n    \"localVersions\": [\"2.3.0\", \"2.3.1\", \"2.4.0\", \"2.5.0\", \"2.6.0\", \"2.7.1\", \"2.8.0\", \"2.9.0\", \"2.10.0\", \"2.12.0\", \"2.13.0\", \"2.13.1\", \"2.14.0\", \"2.15.0\", \"2.16.0\", \"2.16.1\", \"2.16.2\", \"2.17.0\", \"2.18.0\", \"2.19.0\", \"2.20.0\", \"2.20.1\", \"2.20.2\", \"2.20.3\", \"2.21.0\", \"2.22.0\", \"2.23.0\", \"2.24.0\", \"2.24.1\", \"2.24.2\", \"2.24.3\", \"2.25.0\", \"2.26.0\", \"2.26.1\", \"2.26.2\", \"2.26.3\"],\n    \"remoteVersions\": [\"2.11.0\", \"2.11.1\", \"2.12.0\", \"2.13.0\", \"2.13.1\", \"2.14.0\", \"2.15.0\", \"2.16.0\", \"2.16.1\", \"2.16.2\", \"2.17.0\", \"2.18.0\", \"2.19.0\", \"2.20.0\", \"2.20.1\", \"2.20.2\", \"2.20.3\", \"2.21.0\", \"2.22.0\", \"2.23.0\", \"2.24.0\", \"2.24.1\", \"2.24.2\", \"2.24.3\", \"2.25.0\", \"2.26.0\", \"2.26.1\", \"2.26.2\", \"2.26.3\", \"2.26.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/uikit/update.json\",\n  \"versions\": [\"2.26.4\"],\n  \"updateRemote\": true,\n  \"version\": \"2.26.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/uikit/2.26.4\",\n  \"branch\": \"uikit/2.26.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 165322059
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

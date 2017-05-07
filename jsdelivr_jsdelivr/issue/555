@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-02) 17 : 07 : 08 UTC
+  , issueUpdatedAt = 2014 (-04) (-02) 18 : 06 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/555/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/555")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 555
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle =
+      "fix permission of 2.3.1/font/FontAwesome.otf, no need to execute"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/555")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/555.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/555.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/555"
+  , issueCreatedAt = 2014 (-04) (-02) 17 : 01 : 39 UTC
+  , issueBody = Just "Sorry, that's my fault.\n"
+  , issueState = StateClosed
+  , issueId = Id 30705942
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

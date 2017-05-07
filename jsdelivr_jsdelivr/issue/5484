@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-26) 12 : 09 : 11 UTC
+  , issueUpdatedAt = 2015 (-06) (-26) 12 : 09 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5484/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5484")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5484
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project highmaps to v1.1.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5484")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5484.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5484.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5484"
+  , issueCreatedAt = 2015 (-06) (-26) 12 : 09 : 04 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project highmaps to v1.1.7.\n\n@highslide-software\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"highmaps\",\n    \"repo\": \"highslide-software/highmaps-release\",\n    \"files\": {\n      \"include\": [\"highmaps.js\", \"./modules/exporting.js\", \"./modules/heatmap.js\", \"./modules/map.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/highmaps\",\n    \"localVersions\": [\"1.0.4\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.1.5\", \"1.1.6\"],\n    \"remoteVersions\": [\"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\", \"v1.1.4\", \"v1.1.5\", \"v1.1.6\", \"v1.1.7\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.1.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/highmaps/1.1.7\",\n  \"branch\": \"highmaps/v1.1.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 91234513
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

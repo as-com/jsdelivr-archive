@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-18) 14 : 32 : 14 UTC
+  , issueUpdatedAt = 2014 (-09) (-18) 14 : 35 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1765/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1765")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1765
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1573141
+        , simpleUserLogin = N "coderaiser"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1573141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coderaiser"
+        }
+  , issueTitle = "util.io v1.3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1765")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1765.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1765.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1765"
+  , issueCreatedAt = 2014 (-09) (-18) 14 : 15 : 09 UTC
+  , issueBody = Just "Add `util.io v1.3.0`\n"
+  , issueState = StateClosed
+  , issueId = Id 43137431
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

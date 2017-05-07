@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-03) 19 : 49 : 34 UTC
+  , issueUpdatedAt = 2015 (-05) (-03) 19 : 49 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4595/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4595")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4595
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 12181529
+        , simpleUserLogin = N "joeey1984ad"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/12181529?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/joeey1984ad"
+        }
+  , issueTitle = "Added file uploader minified"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4595")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4595.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4595.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4595"
+  , issueCreatedAt = 2015 (-05) (-02) 11 : 21 : 40 UTC
+  , issueBody = Just "Multiple file upload plugin for HTML\n"
+  , issueState = StateClosed
+  , issueId = Id 72632152
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

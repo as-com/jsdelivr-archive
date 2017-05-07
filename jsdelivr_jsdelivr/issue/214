@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-16) 21 : 42 : 22 UTC
+  , issueUpdatedAt = 2013 (-12) (-16) 21 : 44 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/214/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/214")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 214
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5640466
+        , simpleUserLogin = N "Exacore"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5640466?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Exacore"
+        }
+  , issueTitle = "Add Chardin.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/214")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/214.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/214.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/214"
+  , issueCreatedAt = 2013 (-12) (-16) 21 : 39 : 57 UTC
+  , issueBody =
+      Just
+        "A jQuery plugin that creates a simple overlay to display instructions on\nexistent elements.\n"
+  , issueState = StateClosed
+  , issueId = Id 24380830
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

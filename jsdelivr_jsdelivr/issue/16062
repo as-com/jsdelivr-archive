@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-29) 21 : 48 : 36 UTC
+  , issueUpdatedAt = 2017 (-01) (-29) 21 : 48 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16062/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16062")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16062
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 25410647
+        , simpleUserLogin = N "Alecgcast"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/25410647?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Alecgcast"
+        }
+  , issueTitle = "Create info.ini and update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16062")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16062.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16062.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16062"
+  , issueCreatedAt = 2017 (-01) (-29) 19 : 24 : 43 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 203889721
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

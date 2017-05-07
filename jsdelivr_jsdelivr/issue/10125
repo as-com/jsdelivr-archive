@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-03) 17 : 20 : 14 UTC
+  , issueUpdatedAt = 2016 (-03) (-03) 17 : 20 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10125/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10125")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10125
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1775449
+        , simpleUserLogin = N "minznerjosh"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1775449?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/minznerjosh"
+        }
+  , issueTitle = "Add Vast-Player Project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10125")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10125.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10125.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10125"
+  , issueCreatedAt = 2016 (-02) (-25) 20 : 41 : 38 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 136505280
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

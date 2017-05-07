@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 12 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12365/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12365")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12365
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1440134
+        , simpleUserLogin = N "ashlinallen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1440134?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ashlinallen"
+        }
+  , issueTitle = "Merge videogular-controls"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12365")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12365.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12365.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12365"
+  , issueCreatedAt = 2016 (-06) (-24) 00 : 29 : 27 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 162052259
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-03) 14 : 23 : 50 UTC
+  , issueUpdatedAt = 2014 (-04) (-03) 14 : 23 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/566/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/566")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 566
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3757971
+        , simpleUserLogin = N "ymatuhin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3757971?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ymatuhin"
+        }
+  , issueTitle = "new version fixed bugs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/566")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/566.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/566.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/566"
+  , issueCreatedAt = 2014 (-04) (-03) 14 : 23 : 09 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 30779328
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

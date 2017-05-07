@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-25) 20 : 26 : 22 UTC
+  , issueUpdatedAt = 2014 (-07) (-26) 09 : 40 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1287/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1287")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1287
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1573141
+        , simpleUserLogin = N "coderaiser"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1573141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coderaiser"
+        }
+  , issueTitle = "Ace v1.1.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1287")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1287.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1287.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1287"
+  , issueCreatedAt = 2014 (-07) (-24) 11 : 41 : 45 UTC
+  , issueBody = Just "Added `Ace v1.1.5`.\n"
+  , issueState = StateClosed
+  , issueId = Id 38620471
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

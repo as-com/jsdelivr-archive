@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-22) 20 : 21 : 29 UTC
+  , issueUpdatedAt = 2014 (-03) (-22) 21 : 25 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/493/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/493")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 493
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "+ angularjs 1.2.15"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/493")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/493.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/493.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/493"
+  , issueCreatedAt = 2014 (-03) (-22) 15 : 43 : 41 UTC
+  , issueBody =
+      Just
+        "There is no CHANGELOG for 1.2.15, but it is hosted on [GCDN](https://developers.google.com/speed/libraries/devguide#angularjs) & on their front page d/l.\n\nI left out 2 files that aren't on GCDN: [angular-mocks.js](http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-mocks.js) & [angular-scenario.js](http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-scenario.js) (1.03MB); the CDN zip file doesn't have `.min` files & they seem like they're for testing.\n\nEdit: If people complain about them missing, then I have no problem adding them in.\n"
+  , issueState = StateClosed
+  , issueId = Id 29963527
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

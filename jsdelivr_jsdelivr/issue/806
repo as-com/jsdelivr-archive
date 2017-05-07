@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-15) 14 : 32 : 01 UTC
+  , issueUpdatedAt = 2014 (-06) (-30) 12 : 04 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/806/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/806")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 806
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1005813
+        , simpleUserLogin = N "isaackwan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1005813?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaackwan"
+        }
+  , issueTitle = "added headjs v1.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/806")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/806.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/806.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/806"
+  , issueCreatedAt = 2014 (-05) (-15) 02 : 06 : 18 UTC
+  , issueBody =
+      Just
+        "(According to the changelog, only the asset loader part (head.load.js) is updated, therefore other js files still show v1.0.2.)\n"
+  , issueState = StateClosed
+  , issueId = Id 33549619
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

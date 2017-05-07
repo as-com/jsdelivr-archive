@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 25 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 23 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11202/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11202")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11202
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1263856
+        , simpleUserLogin = N "ricardopolo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1263856?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ricardopolo"
+        }
+  , issueTitle = "Jquery in view fork"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11202")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11202.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11202.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11202"
+  , issueCreatedAt = 2016 (-04) (-22) 01 : 26 : 39 UTC
+  , issueBody =
+      Just "This fork is more popular than the original project\n"
+  , issueState = StateClosed
+  , issueId = Id 150238206
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-04) 12 : 59 : 09 UTC
+  , issueUpdatedAt = 2014 (-10) (-04) 12 : 59 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1920/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1920")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1920
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ractive-adaptors-backbone to v0.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1920")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1920.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1920.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1920"
+  , issueCreatedAt = 2014 (-10) (-04) 06 : 03 : 40 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ractive-adaptors-backbone to v0.2.0.\n\n@ractivejs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ractive-adaptors-backbone\",\n    \"repo\": \"ractivejs/ractive-adaptors-backbone\",\n    \"files\": {\n      \"include\": [\"ractive-adaptors-backbone.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/ractive.adaptors-backbone\",\n    \"localVersions\": [\"0.1.1\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.2.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/ractive.adaptors-backbone/0.2.0\",\n  \"branch\": \"ractive-adaptors-backbone/v0.2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 44873632
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

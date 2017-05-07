@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-26) 13 : 19 : 47 UTC
+  , issueUpdatedAt = 2014 (-09) (-26) 13 : 49 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1838/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1838")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1838
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8928347
+        , simpleUserLogin = N "williamgurumayum"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8928347?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/williamgurumayum"
+        }
+  , issueTitle = "Create layout.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1838")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1838.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1838.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1838"
+  , issueCreatedAt = 2014 (-09) (-26) 12 : 47 : 06 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 44057177
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

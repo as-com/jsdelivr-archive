@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-02) 16 : 44 : 36 UTC
+  , issueUpdatedAt = 2015 (-01) (-02) 16 : 44 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2834/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2834")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2834
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6981523
+        , simpleUserLogin = N "jjbenson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/6981523?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jjbenson"
+        }
+  , issueTitle =
+      "Add thymol.js \"JavaScript emulation of Thymeleaf, the popular java templating system\""
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2834")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2834.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2834.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2834"
+  , issueCreatedAt = 2014 (-12) (-24) 01 : 14 : 34 UTC
+  , issueBody = Just "First attempt!\n"
+  , issueState = StateClosed
+  , issueId = Id 52788360
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-02) 18 : 53 : 09 UTC
+  , issueUpdatedAt = 2014 (-12) (-03) 22 : 13 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2584/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2584")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2584
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 620141
+        , simpleUserLogin = N "dustbort"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/620141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dustbort"
+        }
+  , issueTitle = "integration popup - wrong version, bad paths"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2584"
+  , issueCreatedAt = 2014 (-12) (-02) 18 : 26 : 07 UTC
+  , issueBody =
+      Just
+        "Two problems with the Integration button.\n1. Do a search, e.g. for semantic-ui. The search result shows the current version (1.0.1) in the version selection dropdown but clicking the Integration button shows paths for the first version (0.1).  So it seems that the Integration paths are not initialized to match how the version selector dropdown is initialized.\n2. Once I make a selection from the version dropdown, the paths listed in the Integration popup are updated to match the version, but are not correct.  For example, the path listed is\n   //cdn.jsdelivr.net/semantic-ui/1.0.1/css/semantic.min.css\n   but when I navigate to this URL, I get \"File Not Found\".  If I click \"Show More\" on the CDN Files list and scan through _all 78_ files for the _2_ I want, the paths are different, e.g., \n   //cdn.jsdelivr.net/semantic-ui/1.0.1/semantic.min.css\n   which returns the file correctly.\n"
+  , issueState = StateClosed
+  , issueId = Id 50695504
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-25) 17 : 23 : 36 UTC
+  , issueUpdatedAt = 2014 (-06) (-24) 16 : 16 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/701/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/701")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 701
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 59401
+        , simpleUserLogin = N "Robertof"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/59401?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Robertof"
+        }
+  , issueTitle = "Add At.js and Caret.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/701")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/701.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/701.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/701"
+  , issueCreatedAt = 2014 (-04) (-25) 16 : 54 : 54 UTC
+  , issueBody =
+      Just
+        "This adds [At.js](https://github.com/ichord/At.js) and [Caret.js](https://github.com/ichord/Caret.js), both from the same developer. Also `At.js` depends on `Caret.js`.\n\nLet me know if something is wrong and thanks for your great service!\n"
+  , issueState = StateClosed
+  , issueId = Id 32248661
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

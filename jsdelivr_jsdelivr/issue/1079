@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-30) 14 : 22 : 17 UTC
+  , issueUpdatedAt = 2014 (-06) (-30) 14 : 22 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1079/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1079")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1079
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5065163
+        , simpleUserLogin = N "Dennis14e"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5065163?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Dennis14e"
+        }
+  , issueTitle = "updated nprogress 0.1.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1079")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1079.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1079.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1079"
+  , issueCreatedAt = 2014 (-06) (-30) 13 : 30 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 36797255
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

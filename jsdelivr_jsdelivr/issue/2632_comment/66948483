@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-15) 05 : 45 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66948483"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-66948483"
+  , issueCommentCreatedAt = 2014 (-12) (-15) 04 : 22 : 52 UTC
+  , issueCommentBody =
+      "what do you think of changing dir name to `wordpress-plugins` or `wordpress-plugins-mirror`?\nnobody will guess it's wordpress-plugin-cdn-url with dir name `'wp'`. and i think it's too general naming.\n"
+  , issueCommentId = 66948483
+  }

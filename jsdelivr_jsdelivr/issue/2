@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-03) (-28) 14 : 46 : 28 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 15 : 39 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "SlimStat JavaScript 3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2"
+  , issueCreatedAt = 2013 (-03) (-28) 14 : 43 : 59 UTC
+  , issueBody =
+      Just
+        "Hi there,\n\nI've updated the javascript to the latest version.\n"
+  , issueState = StateClosed
+  , issueId = Id 12567301
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

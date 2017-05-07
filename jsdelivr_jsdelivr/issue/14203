@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-04) 22 : 09 : 10 UTC
+  , issueUpdatedAt = 2016 (-10) (-04) 22 : 09 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14203/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14203")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14203
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 993318
+        , simpleUserLogin = N "douglasdeodato"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/993318?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/douglasdeodato"
+        }
+  , issueTitle = "fancy-sidebar added"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14203")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14203.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14203.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14203"
+  , issueCreatedAt = 2016 (-10) (-04) 11 : 18 : 08 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 180866088
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

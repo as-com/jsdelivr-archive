@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-21) 11 : 42 : 25 UTC
+  , issueUpdatedAt = 2014 (-07) (-21) 11 : 42 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1258/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1258")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1258
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 68322
+        , simpleUserLogin = N "EragonJ"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/68322?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/EragonJ"
+        }
+  , issueTitle = "Add auto-update mechanism for Trip.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1258")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1258.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1258.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1258"
+  , issueCreatedAt = 2014 (-07) (-21) 08 : 44 : 38 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 38285041
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

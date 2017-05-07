@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-03) 21 : 40 : 45 UTC
+  , issueUpdatedAt = 2017 (-04) (-03) 22 : 14 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17373/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17373")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17373
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 168338
+        , simpleUserLogin = N "blacktrash"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/168338?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/blacktrash"
+        }
+  , issueTitle = "hls.js: migrate from dailymotion to video-dev"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17373")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17373.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17373.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17373"
+  , issueCreatedAt = 2017 (-04) (-03) 08 : 22 : 20 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 218860844
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

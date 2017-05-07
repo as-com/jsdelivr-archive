@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2014 (-08) (-24) 20 : 05 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1465/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1465")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/Needs%20attention/help"
+          , labelName = N "Needs attention/help"
+          }
+      ]
+  , issueNumber = 1465
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Create a wiki"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1465"
+  , issueCreatedAt = 2014 (-08) (-18) 22 : 21 : 16 UTC
+  , issueBody =
+      Just
+        "We should document everything we have and how it works.\nTo make it easier for dev and new contributors to understand the insides of jsDelivr and other advanced uses.\nEvery component and project we have should be in there, explained in detail and interlinked with other articles. \n\nAll help is appreciated. I suck at documentation.\n"
+  , issueState = StateOpen
+  , issueId = Id 40539024
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

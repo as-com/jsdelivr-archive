@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 27 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10812/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10812")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10812
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8706239
+        , simpleUserLogin = N "kirava"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/8706239?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kirava"
+        }
+  , issueTitle = "Addition of a new project, typescript-collections"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10812")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10812.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10812.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10812"
+  , issueCreatedAt = 2016 (-04) (-04) 13 : 37 : 29 UTC
+  , issueBody =
+      Just
+        "Multiple data structure available and easy to use:\n- Linked List\n- Dictionary\n- Multi Dictionary\n- Linked Dictionary\n- Binary Search Tree\n- Stack\n- Queue\n- Set\n- Bag\n- Binary Heap\n- Priority Queue\n"
+  , issueState = StateClosed
+  , issueId = Id 145685732
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

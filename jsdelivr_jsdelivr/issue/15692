@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-09) 04 : 38 : 22 UTC
+  , issueUpdatedAt = 2017 (-01) (-09) 04 : 38 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15692/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15692")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15692
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project utf8.js to v2.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15692")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15692.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15692.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15692"
+  , issueCreatedAt = 2017 (-01) (-09) 04 : 38 : 20 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project utf8.js to v2.1.2.\n\n@mathiasbynens\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"utf8.js\",\n    \"repo\": \"mathiasbynens/utf8.js\",\n    \"files\": {\n      \"include\": [\"utf8.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/utf8\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v2.0.0\", \"v2.1.0\", \"v2.1.1\", \"v2.1.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/utf8/update.json\",\n  \"versions\": [\"v2.1.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/utf8/2.1.2\",\n  \"branch\": \"utf8.js/v2.1.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 199476608
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

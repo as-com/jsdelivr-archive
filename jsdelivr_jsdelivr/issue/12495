@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-01) 10 : 50 : 36 UTC
+  , issueUpdatedAt = 2016 (-07) (-01) 10 : 50 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12495/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12495")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12495
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10346004
+        , simpleUserLogin = N "etsms"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10346004?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/etsms"
+        }
+  , issueTitle = "Updated jquery.hosted-payments to 3.3.30"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12495")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12495.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12495.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12495"
+  , issueCreatedAt = 2016 (-06) (-30) 22 : 50 : 22 UTC
+  , issueBody =
+      Just
+        "Adds billing address, entry mode descriptors, and new properties on the response\n"
+  , issueState = StateClosed
+  , issueId = Id 163283724
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

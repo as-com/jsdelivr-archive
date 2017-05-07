@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-27) 00 : 02 : 34 UTC
+  , issueUpdatedAt = 2014 (-06) (-18) 13 : 42 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/167/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/167")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 167
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4303
+        , simpleUserLogin = N "jdalton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4303?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jdalton"
+        }
+  , issueTitle = "Add other Lo-Dash v2.4.0 files."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/167")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/167.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/167.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/167"
+  , issueCreatedAt = 2013 (-11) (-27) 00 : 02 : 05 UTC
+  , issueBody = Just "Added files to complete the release.\n"
+  , issueState = StateClosed
+  , issueId = Id 23358096
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

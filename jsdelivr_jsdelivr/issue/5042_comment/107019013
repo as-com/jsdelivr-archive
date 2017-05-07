@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-30) 10 : 20 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/107019013"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5042#issuecomment-107019013"
+  , issueCommentCreatedAt = 2015 (-05) (-30) 10 : 20 : 31 UTC
+  , issueCommentBody =
+      "Since this is an Angular plugin please add `angular.` in front of your addon's name. Example http://www.jsdelivr.com/#!angular.angular-cache\n"
+  , issueCommentId = 107019013
+  }

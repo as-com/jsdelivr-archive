@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-26) 14 : 10 : 17 UTC
+  , issueUpdatedAt = 2016 (-01) (-26) 14 : 10 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9353/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9353")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9353
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8677283
+        , simpleUserLogin = N "ireade"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8677283?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ireade"
+        }
+  , issueTitle = "Added caniuse-embed"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9353")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9353.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9353.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9353"
+  , issueCreatedAt = 2016 (-01) (-26) 07 : 02 : 19 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 128741661
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

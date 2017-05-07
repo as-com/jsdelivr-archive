@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-14) 14 : 08 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/102047252"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-102047252"
+  , issueCommentCreatedAt = 2015 (-05) (-14) 14 : 08 : 42 UTC
+  , issueCommentBody =
+      "Hi jimaek, \n\nthank you for your prompt response. The reason why I'm using trunk is that many of our users use caching plugins for WordPress. Which means that the source code of the page is \"frozen\" for days. When we release a new update, the URL in the cached version of the page will still point to the previous one, thus breaking the functionality for all those users. We've tried to warn our users by displaying messages that invite them to clear their WP cache, but many times people end up submitting a support request anyway, lamenting that the tracker is not working. Our goal was to minimize those requests to our support team, by finding a way to keep the URL always the same. \n\nWhat solution could be implemented to address this issue? (other than telling our users to clear their cache every time they upgrade).\n\nThank you again!\n"
+  , issueCommentId = 102047252
+  }

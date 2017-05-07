@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 17 : 40 : 58 UTC
+  , issueUpdatedAt = 2017 (-03) (-29) 17 : 40 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17250/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17250")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17250
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 221473
+        , simpleUserLogin = N "andrewgioia"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/221473?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/andrewgioia"
+        }
+  , issueTitle = "Request to add Keyrune project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17250")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17250.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17250.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17250"
+  , issueCreatedAt = 2017 (-03) (-28) 15 : 49 : 53 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 217606475
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

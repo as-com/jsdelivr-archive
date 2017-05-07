@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-23) 15 : 41 : 07 UTC
+  , issueUpdatedAt = 2017 (-02) (-23) 15 : 41 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16395/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/16395")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16395
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16397136
+        , simpleUserLogin = N "Syncfusion-JavaScript"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16397136?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/Syncfusion-JavaScript"
+        }
+  , issueTitle = "New version not updated"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16395"
+  , issueCreatedAt = 2017 (-02) (-16) 12 : 35 : 13 UTC
+  , issueBody =
+      Just
+        "New version (v15.1.0.34) released for https://www.jsdelivr.com/projects/syncfusion-ej-global. But still not updated in the registry."
+  , issueState = StateClosed
+  , issueId = Id 208109114
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

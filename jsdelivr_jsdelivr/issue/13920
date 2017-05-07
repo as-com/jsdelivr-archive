@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-01) 21 : 31 : 38 UTC
+  , issueUpdatedAt = 2016 (-10) (-01) 21 : 31 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13920/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13920")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13920
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2725611
+        , simpleUserLogin = N "zdroid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2725611?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zdroid"
+        }
+  , issueTitle = "Replace sanitize.css with codify.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13920")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13920.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13920.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13920"
+  , issueCreatedAt = 2016 (-09) (-22) 07 : 23 : 30 UTC
+  , issueBody =
+      Just
+        "There has been a name dispute between my project and the other sanitize.css. I've decided to completely rebrand my project to codify.css and start from v1.0.0 so there are no such issues in future. Previous PR got ignored by bot.\n\nI hope you understand the decision and implement this change. Thanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 178540120
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

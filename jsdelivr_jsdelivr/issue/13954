@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-23) 17 : 33 : 53 UTC
+  , issueUpdatedAt = 2016 (-09) (-23) 17 : 33 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13954/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13954")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13954
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ImageRotatorJS to v1.0.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13954")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13954.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13954.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13954"
+  , issueCreatedAt = 2016 (-09) (-23) 17 : 33 : 50 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ImageRotatorJS to v1.0.7.\n\n@mjza\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ImageRotatorJS\",\n    \"repo\": \"mjza/ImageRotatorJS\",\n    \"files\": {\n      \"include\": [\"ImageRotator-min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/imagerotatorjs\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.7\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/imagerotatorjs/update.json\",\n  \"versions\": [\"v1.0.7\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/imagerotatorjs/1.0.7\",\n  \"branch\": \"ImageRotatorJS/v1.0.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 178932425
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

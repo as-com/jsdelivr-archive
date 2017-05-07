@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-07) 17 : 00 : 35 UTC
+  , issueUpdatedAt = 2014 (-08) (-07) 17 : 00 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1376/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1376")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1376
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 90210
+        , simpleUserLogin = N "Stavrakakis"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/90210?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Stavrakakis"
+        }
+  , issueTitle = "Include InsightJS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1376")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1376.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1376.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1376"
+  , issueCreatedAt = 2014 (-08) (-07) 14 : 18 : 53 UTC
+  , issueBody =
+      Just
+        "This pull request is to add the InsightJS visualization library to jsdelivr.\n"
+  , issueState = StateClosed
+  , issueId = Id 39729730
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

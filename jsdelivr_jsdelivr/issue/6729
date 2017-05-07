@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-05) 10 : 10 : 26 UTC
+  , issueUpdatedAt = 2015 (-09) (-05) 10 : 12 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6729/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6729")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6729
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 125676
+        , simpleUserLogin = N "lipis"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/125676?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lipis"
+        }
+  , issueTitle = "Added update.json for bootstrap-social"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6729")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6729.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6729.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6729"
+  , issueCreatedAt = 2015 (-09) (-05) 09 : 32 : 35 UTC
+  , issueBody =
+      Just "Fixes https://github.com/jsdelivr/bot/issues/48\n"
+  , issueState = StateClosed
+  , issueId = Id 105016820
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

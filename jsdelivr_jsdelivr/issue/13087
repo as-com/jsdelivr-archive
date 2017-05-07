@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-11) (-07) 13 : 24 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13087/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13087")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13087
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 36092
+        , simpleUserLogin = N "hocine"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/36092?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hocine"
+        }
+  , issueTitle = "please update open-iconic and fullpage.js?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13087"
+  , issueCreatedAt = 2016 (-08) (-05) 04 : 57 : 45 UTC
+  , issueBody =
+      Just
+        "[https://github.com/iconic/open-iconic](https://github.com/iconic/open-iconic) is now at 1.1.1 (jsdelivr is at 1.1.0)\n\n[https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js) is now at 2.8,2 (jsdelivr is at 2.5.9)\n\nthanks!\n"
+  , issueState = StateOpen
+  , issueId = Id 169528733
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-18) 09 : 18 : 25 UTC
+  , issueUpdatedAt = 2014 (-11) (-18) 09 : 18 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2409/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2409")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2409
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tauCharts to 0.1.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2409")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2409.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2409.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2409"
+  , issueCreatedAt = 2014 (-11) (-18) 09 : 09 : 06 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tauCharts to 0.1.9.\n\n@TargetProcess\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"tauCharts\",\n    \"repo\": \"TargetProcess/tauCharts\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"tauCharts.min.js\", \"color-brewer.min.js\", \"css/graphic-elements.min.css\", \"css/colorbrewer.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/taucharts\",\n    \"localVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.9\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.1.9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/taucharts/0.1.9\",\n  \"branch\": \"tauCharts/0.1.9\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 49197319
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

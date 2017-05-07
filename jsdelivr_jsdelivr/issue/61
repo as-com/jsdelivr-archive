@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-07) (-25) 22 : 33 : 06 UTC
+  , issueUpdatedAt = 2014 (-06) (-18) 10 : 59 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/61/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/61")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 61
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2124755
+        , simpleUserLogin = N "isaumya"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2124755?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaumya"
+        }
+  , issueTitle = "Adding jQuery Shuffel Letters"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/61")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/61.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/61.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/61"
+  , issueCreatedAt = 2013 (-07) (-25) 19 : 46 : 08 UTC
+  , issueBody = Just "Added jquery sheffel letters plugin properly\n"
+  , issueState = StateClosed
+  , issueId = Id 17231287
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

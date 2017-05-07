@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-21) 17 : 41 : 46 UTC
+  , issueUpdatedAt = 2014 (-06) (-30) 01 : 47 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/834/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/834")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 834
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 456426
+        , simpleUserLogin = N "webpro"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/456426?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/webpro"
+        }
+  , issueTitle = "DOMtastic v0.7.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/834")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/834.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/834.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/834"
+  , issueCreatedAt = 2014 (-05) (-21) 17 : 39 : 21 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 34006382
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

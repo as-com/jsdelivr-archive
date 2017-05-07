@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-07) 17 : 03 : 37 UTC
+  , issueUpdatedAt = 2016 (-06) (-07) 17 : 03 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12042/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12042")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12042
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.ajaxify to 6.2.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12042")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12042.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12042.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12042"
+  , issueCreatedAt = 2016 (-06) (-07) 17 : 03 : 31 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.ajaxify to 6.2.2.\n\n@arvgta\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.ajaxify\",\n    \"repo\": \"arvgta/ajaxify\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"ajaxify.js\", \"ajaxify.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.ajaxify\",\n    \"localVersions\": [\"3.6.3\", \"4.2.8\", \"4.3.0\", \"4.4.2\", \"4.7.4\", \"4.7.5\", \"4.8.0\", \"4.9.0\", \"5.0.0\", \"5.0.1\", \"5.0.2\", \"5.1.0\", \"5.2.0\", \"5.2.1\", \"5.3.0\", \"5.3.2\", \"5.3.3\", \"5.3.4\", \"5.3.5\", \"5.4.0\", \"5.5.0\", \"5.6.0\", \"5.7.0\", \"5.7.5\", \"5.8.0\", \"5.8.5\", \"5.8.6\", \"5.8.7\", \"5.8.8\", \"5.9.0\", \"5.9.1\", \"5.9.5\", \"5.9.6\", \"6.0.0\", \"6.1.0\", \"6.2.0\", \"6.2.1\"],\n    \"remoteVersions\": [\"3.0.4\", \"3.1.0\", \"3.1.5\", \"3.2.0\", \"3.2.5\", \"3.2.6\", \"3.3.0\", \"3.4.0\", \"3.4.1\", \"3.4.2\", \"3.4.3\", \"3.5.0\", \"3.5.1\", \"3.5.2\", \"3.5.3\", \"3.5.4\", \"3.5.5\", \"3.5.6\", \"3.5.7\", \"3.6.0\", \"3.6.1\", \"3.6.2\", \"3.6.3\", \"4.0.0\", \"4.1.0\", \"4.2.0\", \"4.2.1\", \"4.2.2\", \"4.2.3\", \"4.2.4\", \"4.2.5\", \"4.2.6\", \"4.2.7\", \"4.2.8\", \"4.2.9\", \"4.3.0\", \"4.3.5\", \"4.3.6\", \"4.4.0\", \"4.4.1\", \"4.4.2\", \"4.4.3\", \"4.4.4\", \"4.4.5\", \"4.4.6\", \"4.4.8\", \"4.4.9\", \"4.5.0\", \"4.5.1\", \"4.5.2\", \"4.5.3\", \"4.5.4\", \"4.6.0\", \"4.6.1\", \"4.6.2\", \"4.6.3\", \"4.6.4\", \"4.6.5\", \"4.6.6\", \"4.6.7\", \"4.6.8\", \"4.6.9\", \"4.7.0\", \"4.7.1\", \"4.7.2\", \"4.7.3\", \"4.7.4\", \"4.7.5\", \"4.8.0\", \"4.9.0\", \"5.0.0\", \"5.0.1\", \"5.0.2\", \"5.1.0\", \"5.2.0\", \"5.2.1\", \"5.3.0\", \"5.3.2\", \"5.3.3\", \"5.3.4\", \"5.3.5\", \"5.4.0\", \"5.5.0\", \"5.6.0\", \"5.7.0\", \"5.7.5\", \"5.8.0\", \"5.8.5\", \"5.8.6\", \"5.8.7\", \"5.8.8\", \"5.9.0\", \"5.9.1\", \"5.9.5\", \"5.9.6\", \"6.0.0\", \"6.1.0\", \"6.2.0\", \"6.2.1\", \"6.2.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.ajaxify/update.json\",\n  \"versions\": [\"6.2.2\"],\n  \"updateRemote\": true,\n  \"version\": \"6.2.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.ajaxify/6.2.2\",\n  \"branch\": \"jquery.ajaxify/6.2.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 158974688
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

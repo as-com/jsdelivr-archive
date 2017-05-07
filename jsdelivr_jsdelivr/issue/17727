@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-26) 15 : 28 : 12 UTC
+  , issueUpdatedAt = 2017 (-04) (-26) 15 : 28 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17727/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17727")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17727
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19159553
+        , simpleUserLogin = N "lhcgoncalves"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/19159553?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lhcgoncalves"
+        }
+  , issueTitle = "Bootstrap Modallery"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17727")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17727.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17727.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17727"
+  , issueCreatedAt = 2017 (-04) (-20) 23 : 27 : 10 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 223230628
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

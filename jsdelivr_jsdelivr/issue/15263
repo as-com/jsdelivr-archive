@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-09) 17 : 02 : 50 UTC
+  , issueUpdatedAt = 2016 (-12) (-09) 17 : 02 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15263/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15263")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15263
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4441638
+        , simpleUserLogin = N "pdroll"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4441638?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pdroll"
+        }
+  , issueTitle = "Add WindowEvents.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15263")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15263.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15263.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15263"
+  , issueCreatedAt = 2016 (-12) (-09) 06 : 47 : 07 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 194525743
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

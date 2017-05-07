@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-26) 20 : 39 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/115874476"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5498#issuecomment-115874476"
+  , issueCommentCreatedAt = 2015 (-06) (-26) 20 : 39 : 16 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _jquery.fancytree_ between _2.9.0_ and _2.10.0_ there was a change in file structure  \n  \n  ``` diff\n  + src/skin-awesome/ui.fancytree.min.css\n  + src/skin-bootstrap-n/ui.fancytree.min.css\n  + src/skin-bootstrap/ui.fancytree.min.css\n  + src/skin-lion/icons.gif\n  + src/skin-lion/loading.gif\n  + src/skin-lion/ui.fancytree.min.css\n  + src/skin-themeroller/icons.gif\n  + src/skin-themeroller/loading.gif\n  + src/skin-themeroller/ui.fancytree.min.css\n  + src/skin-vista/icons.gif\n  + src/skin-vista/loading.gif\n  + src/skin-vista/ui.fancytree.min.css\n  + src/skin-win7/icons.gif\n  + src/skin-win7/loading.gif\n  + src/skin-win7/ui.fancytree.min.css\n  + src/skin-win8-n/icons.gif\n  + src/skin-win8-n/loading.gif\n  + src/skin-win8-n/ui.fancytree.min.css\n  + src/skin-win8-xxl/icons.gif\n  + src/skin-win8-xxl/loading.gif\n  + src/skin-win8-xxl/ui.fancytree.min.css\n  + src/skin-win8/icons.gif\n  + src/skin-win8/loading.gif\n  + src/skin-win8/ui.fancytree.min.css\n  + src/skin-xp/icons-rtl.gif\n  + src/skin-xp/icons.gif\n  + src/skin-xp/loading.gif\n  + src/skin-xp/ui.fancytree.min.css\n  + src/skin-xp/vline-rtl.gif\n  + src/skin-xp/vline.gif\n  - skin-awesome/ui.fancytree.min.css\n  - skin-bootstrap-n/ui.fancytree.min.css\n  - skin-bootstrap/ui.fancytree.min.css\n  - skin-lion/icons.gif\n  - skin-lion/loading.gif\n  - skin-lion/ui.fancytree.min.css\n  - skin-themeroller/icons.gif\n  - skin-themeroller/loading.gif\n  - skin-themeroller/ui.fancytree.min.css\n  - skin-vista/icons.gif\n  - skin-vista/loading.gif\n  - skin-vista/ui.fancytree.min.css\n  - skin-win7/icons.gif\n  - skin-win7/loading.gif\n  - skin-win7/ui.fancytree.min.css\n  - skin-win8-n/icons.gif\n  - skin-win8-n/loading.gif\n  - skin-win8-n/ui.fancytree.min.css\n  - skin-win8-xxl/icons.gif\n  - skin-win8-xxl/loading.gif\n  - skin-win8-xxl/ui.fancytree.min.css\n  - skin-win8/icons.gif\n  - skin-win8/loading.gif\n  - skin-win8/ui.fancytree.min.css\n  - skin-xp/icons-rtl.gif\n  - skin-xp/icons.gif\n  - skin-xp/loading.gif\n  - skin-xp/ui.fancytree.min.css\n  - skin-xp/vline-rtl.gif\n  - skin-xp/vline.gif\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Design for failure._\n"
+  , issueCommentId = 115874476
+  }

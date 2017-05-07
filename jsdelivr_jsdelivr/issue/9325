@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-27) 07 : 17 : 03 UTC
+  , issueUpdatedAt = 2016 (-01) (-27) 07 : 17 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9325/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/9325")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9325
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle = "Support rawgit-like cdn ability"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9325"
+  , issueCreatedAt = 2016 (-01) (-25) 09 : 49 : 14 UTC
+  , issueBody =
+      Just
+        "I don't know if it's possible, but will you consider adding [rawgit](https://rawgit.com/)-like cdn capabilities to jsDelivr?\n\nIt's a very useful and powerful feature in my opinion, where you can support repos without the hassle of PRs, updates, etc.\n\nrawgit right now uses only MaxCDN so jsDelivr will be a better proposition with multiple providers.\n"
+  , issueState = StateClosed
+  , issueId = Id 128498673
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-07) 22 : 34 : 09 UTC
+  , issueUpdatedAt = 2016 (-12) (-07) 22 : 34 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15210/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15210")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15210
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19570590
+        , simpleUserLogin = N "ezekutor"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/19570590?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ezekutor"
+        }
+  , issueTitle = "new file iscroll"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15210")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15210.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15210.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15210"
+  , issueCreatedAt = 2016 (-12) (-05) 19 : 58 : 12 UTC
+  , issueBody = Just "new file iscroll.lite.min.js"
+  , issueState = StateClosed
+  , issueId = Id 193595081
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-14) 17 : 01 : 40 UTC
+  , issueUpdatedAt = 2017 (-04) (-14) 17 : 01 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17519/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17519")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17519
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jaxon-js to v1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17519")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17519.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17519.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17519"
+  , issueCreatedAt = 2017 (-04) (-11) 15 : 35 : 28 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jaxon-js to v1.1.0.\n\n@jaxon-php\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jaxon-js\",\n    \"repo\": \"jaxon-php/jaxon-js\",\n    \"files\": {\n      \"include\": [\"jaxon.core.min.js\", \"jaxon.debug.min.js\", \"jaxon.verbose.min.js\", \"jaxon.ready.min.js\", \"./lang/jaxon.en.min.js\", \"./lang/jaxon.fr.min.js\", \"./lang/jaxon.de.min.js\", \"./lang/jaxon.nl.min.js\", \"./lang/jaxon.es.min.js\", \"./lang/jaxon.bg.min.js\", \"./lang/jaxon.tr.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jaxon\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jaxon/update.json\",\n  \"versions\": [\"v1.1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jaxon/1.1.0\",\n  \"branch\": \"jaxon-js/v1.1.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 220992828
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

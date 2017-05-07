@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-02) (-25) 14 : 12 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1613163
+        , simpleUserLogin = N "dlueth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1613163?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dlueth"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/282486381"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16557#issuecomment-282486381"
+  , issueCommentCreatedAt = 2017 (-02) (-25) 14 : 12 : 26 UTC
+  , issueCommentBody =
+      "@jimaek task.worker.js has been a long time left over and was never required and function/unique/uuid.js was moved out of Qoopido.nucleus into Qoopido.demand which is mandatory anyway...\r\n\r\n... and therefore this is a new major release ;)"
+  , issueCommentId = 282486381
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-09) (-19) 22 : 03 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/248141578"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/13884#issuecomment-248141578"
+  , issueCommentCreatedAt = 2016 (-09) (-19) 22 : 03 : 38 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _blazecss_ between _2.13.0_ and _3.0.0-alpha.3_ there was a change in file structure  \n  \n  ``` diff\n  + blaze.colors.min.css\n  + components.avatars.min.css\n  + components.breadcrumbs.min.css\n  + components.input-groups.min.css\n  + components.progress.min.css\n  + generics.global.min.css\n  + objects.drawers.min.css\n  + objects.forms.min.css\n  + objects.media.min.css\n  + objects.modals.min.css\n  + utilities.elevation.min.css\n  + utilities.sizes.min.css\n  - components.drawers.min.css\n  - components.menus.min.css\n  - components.modals.min.css\n  - components.toasts.min.css\n  - generic.global.min.css\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Encourage flow._\n"
+  , issueCommentId = 248141578
+  }

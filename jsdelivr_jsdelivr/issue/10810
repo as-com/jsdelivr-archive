@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-04) 11 : 46 : 05 UTC
+  , issueUpdatedAt = 2016 (-04) (-04) 11 : 46 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10810/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10810")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10810
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8029346
+        , simpleUserLogin = N "Jeiwan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8029346?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Jeiwan"
+        }
+  , issueTitle = "Add twemoji"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10810")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10810.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10810.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10810"
+  , issueCreatedAt = 2016 (-04) (-04) 10 : 40 : 10 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 145646670
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

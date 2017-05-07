@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-28) 22 : 21 : 48 UTC
+  , issueUpdatedAt = 2014 (-01) (-28) 22 : 21 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/311/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/311")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 311
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 705574
+        , simpleUserLogin = N "millionbonus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/705574?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/millionbonus"
+        }
+  , issueTitle = "Update SoundManager 2 to  V2.97a.20131201"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/311")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/311.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/311.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/311"
+  , issueCreatedAt = 2014 (-01) (-28) 22 : 20 : 53 UTC
+  , issueBody = Just "Update SoundManager 2 to  V2.97a.20131201\n"
+  , issueState = StateClosed
+  , issueId = Id 26481733
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

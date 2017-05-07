@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-28) 16 : 49 : 06 UTC
+  , issueUpdatedAt = 2016 (-04) (-28) 16 : 49 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11343/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11343")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11343
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 18712025
+        , simpleUserLogin = N "naeserikawa"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/18712025?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/naeserikawa"
+        }
+  , issueTitle = "Add iiwii files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11343")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11343.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11343.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11343"
+  , issueCreatedAt = 2016 (-04) (-28) 16 : 42 : 25 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 151689942
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-20) 17 : 18 : 36 UTC
+  , issueUpdatedAt = 2016 (-01) (-20) 17 : 18 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9230/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/9230")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9230
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 178641
+        , simpleUserLogin = N "ellisonleao"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/178641?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ellisonleao"
+        }
+  , issueTitle = " /latest/ different from /{latestVersion}/ file"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9230"
+  , issueCreatedAt = 2016 (-01) (-20) 15 : 16 : 46 UTC
+  , issueBody =
+      Just
+        "Not sure if this a cache issue, but right now:\n\nhttps://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js\n\n!=\n\nhttps://cdn.jsdelivr.net/sharer.js/0.2.7/sharer.min.js  (latest version)\n\nAny thoughts?\n"
+  , issueState = StateClosed
+  , issueId = Id 127704444
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

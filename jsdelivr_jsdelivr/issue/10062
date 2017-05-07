@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-31) 19 : 23 : 09 UTC
+  , issueUpdatedAt = 2016 (-07) (-31) 19 : 23 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10062/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10062")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10062
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project threejs to r65"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10062")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10062.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10062.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10062"
+  , issueCreatedAt = 2016 (-02) (-23) 16 : 39 : 30 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project threejs to r65.\n\n@mrdoob\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"threejs\",\n    \"repo\": \"mrdoob/three.js\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/threejs\",\n    \"localVersions\": [\"r41\", \"r56\", \"r58\", \"r61\", \"r62\", \"r67\", \"0.0.0-r9\", \"0.0.0-r69\", \"0.0.0-r70\", \"0.0.0-r71\", \"0.0.0-r72\", \"0.0.0-r73\", \"0.0.0-r74\"],\n    \"remoteVersions\": [\"r1\", \"r2\", \"r3\", \"r4\", \"r5\", \"r6\", \"r7\", \"r8\", \"r9\", \"r10\", \"r11\", \"r12\", \"r13\", \"r14\", \"r15\", \"r16\", \"r17\", \"r18\", \"r25\", \"r28\", \"r29\", \"r30\", \"r31\", \"r32\", \"r33\", \"r34\", \"r35\", \"r36\", \"r37\", \"r38\", \"r39\", \"r40\", \"r41/ROME\", \"r42\", \"r43\", \"r44\", \"r45\", \"r46\", \"r47\", \"r48\", \"r49\", \"r50\", \"r51\", \"r52\", \"r53\", \"r54\", \"r55\", \"r56\", \"r57\", \"r58\", \"r59\", \"r60\", \"r61\", \"r62\", \"r63\", \"r64\", \"r65\", \"r66\", \"r67\", \"r68\", \"r69\", \"r70\", \"r71\", \"r72\", \"r73\", \"r74\"],\n    \"branchVersions\": [\"r2\", \"r3\", \"r4\", \"r5\", \"r6\", \"r7\", \"r8\", \"r9\", \"r10\", \"r11\", \"r12\", \"r13\", \"r14\", \"r15\", \"r16\", \"r17\", \"r18\", \"r25\", \"r28\", \"r29\", \"r30\", \"r31\", \"r32\", \"r33\", \"r34\", \"r35\", \"r36\", \"r37\", \"r38\", \"r39\", \"r40\", \"r42\", \"r43\", \"r44\", \"r45\", \"r46\", \"r47\", \"r48\", \"r49\", \"r50\", \"r51\", \"r52\", \"r53\", \"r54\", \"r55\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/threejs/update.json\",\n  \"versions\": [\"r1\", \"r41/ROME\", \"r57\", \"r59\", \"r60\", \"r63\", \"r64\", \"r65\", \"r66\", \"r68\", \"r69\", \"r70\", \"r71\", \"r72\", \"r73\", \"r74\"],\n  \"updateRemote\": true,\n  \"version\": \"r65\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/threejs/r65\",\n  \"branch\": \"threejs/r65\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 135790648
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

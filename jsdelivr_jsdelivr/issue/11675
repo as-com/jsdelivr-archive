@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-18) 14 : 36 : 15 UTC
+  , issueUpdatedAt = 2016 (-05) (-18) 14 : 36 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11675/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11675")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11675
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1658876
+        , simpleUserLogin = N "nmihajlovski"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1658876?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nmihajlovski"
+        }
+  , issueTitle = "Updated the path to the Rapidoid files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11675")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11675.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11675.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11675"
+  , issueCreatedAt = 2016 (-05) (-18) 10 : 40 : 44 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 155469831
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

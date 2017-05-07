@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-12) 17 : 25 : 04 UTC
+  , issueUpdatedAt = 2016 (-01) (-12) 17 : 25 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8841/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/8841")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8841
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 123822
+        , simpleUserLogin = N "vvo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/123822?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vvo"
+        }
+  , issueTitle = "instantsearch.js 1.1.1 and 1.1.2 are not available"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8841"
+  , issueCreatedAt = 2016 (-01) (-08) 10 : 38 : 46 UTC
+  , issueBody =
+      Just
+        "They were published to npmjs: https://www.npmjs.com/package/instantsearch.js\n"
+  , issueState = StateClosed
+  , issueId = Id 125585003
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-22) 15 : 28 : 26 UTC
+  , issueUpdatedAt = 2015 (-06) (-22) 15 : 28 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5308/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/5308")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5308
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5274747
+        , simpleUserLogin = N "hubdotcom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5274747?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hubdotcom"
+        }
+  , issueTitle = "Proxy of GA js?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5308"
+  , issueCreatedAt = 2015 (-06) (-15) 10 : 53 : 28 UTC
+  , issueBody =
+      Just
+        "Leverage browser caching\nSetting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network.\nLeverage browser caching for the following cacheable resources:\nhttps://www.google-analytics.com/analytics.js (2 hours)\n\nIs it possible to have this in jsdelivr?\n"
+  , issueState = StateClosed
+  , issueId = Id 88389126
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-27) 16 : 17 : 23 UTC
+  , issueUpdatedAt = 2014 (-06) (-16) 22 : 19 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/307/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/307")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 307
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1650075
+        , simpleUserLogin = N "jchulce"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1650075?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jchulce"
+        }
+  , issueTitle = "Add shushjax"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/307")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/307.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/307.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/307"
+  , issueCreatedAt = 2014 (-01) (-27) 08 : 57 : 38 UTC
+  , issueBody =
+      Just
+        "I would like to add the [shushjax library](https://github.com/Team-Pr0xy/shushjax) to jsdelivr\n"
+  , issueState = StateClosed
+  , issueId = Id 26338628
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

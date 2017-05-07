@@ -1,0 +1,48 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-17) 09 : 23 : 34 UTC
+  , issueUpdatedAt = 2014 (-08) (-17) 09 : 23 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1455/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1455")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              URL "https://api.github.com/repos/jsdelivr/jsdelivr/labels/bug"
+          , labelName = N "bug"
+          }
+      ]
+  , issueNumber = 1455
+  , issueAssignees =
+      [ SimpleUser
+          { simpleUserId = Id 1834071
+          , simpleUserLogin = N "jimaek"
+          , simpleUserAvatarUrl =
+              URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+          , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+          }
+      ]
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "404 file not found error"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1455"
+  , issueCreatedAt = 2014 (-08) (-17) 05 : 53 : 10 UTC
+  , issueBody =
+      Just
+        "URL https://cdn.jsdelivr.net/ua-parser.js/0.7.0/ua-parser.min.js and\nhttps://cdn.jsdelivr.net/ua-parser.js/0.7.0/ua-parser.min.js\nis 404 erorr. could you check this issue?\n( i checked cloudflare ICN SJC EWR, LHR edge and NetDNA)\n"
+  , issueState = StateClosed
+  , issueId = Id 40427625
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

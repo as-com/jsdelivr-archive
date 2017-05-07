@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-24) 10 : 01 : 54 UTC
+  , issueUpdatedAt = 2016 (-01) (-24) 10 : 01 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9306/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9306")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9306
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project apiNG-plugin-codebird to v0.7.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9306")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9306.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9306.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9306"
+  , issueCreatedAt = 2016 (-01) (-24) 10 : 01 : 50 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project apiNG-plugin-codebird to v0.7.7.\n\n@JohnnyTheTank\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"apiNG-plugin-codebird\",\n    \"repo\": \"JohnnyTheTank/apiNG-plugin-codebird\",\n    \"files\": {\n      \"include\": [\"dist/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/aping.plugin-codebird\",\n    \"localVersions\": [\"0.7.6\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\", \"v0.1.6\", \"v0.1.7\", \"v0.1.8\", \"v0.1.9\", \"v0.1.10\", \"v0.1.11\", \"v0.1.12\", \"v0.1.13\", \"v0.2.0\", \"v0.6.0\", \"v0.7.0\", \"v0.7.5\", \"v0.7.6\", \"v0.7.7\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/aping.plugin-codebird/update.json\",\n  \"versions\": [\"v0.7.7\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.7.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/aping.plugin-codebird/0.7.7\",\n  \"branch\": \"apiNG-plugin-codebird/v0.7.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 128385294
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

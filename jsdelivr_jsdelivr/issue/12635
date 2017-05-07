@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-08) 20 : 04 : 28 UTC
+  , issueUpdatedAt = 2016 (-07) (-09) 00 : 56 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12635/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12635")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12635
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project leaflet.esri.webmap to v0.3.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12635")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12635.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12635.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12635"
+  , issueCreatedAt = 2016 (-07) (-08) 20 : 03 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project leaflet.esri.webmap to v0.3.3.\n\n@ynunokawa\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"leaflet.esri.webmap\",\n    \"repo\": \"ynunokawa/L.esri.WebMap\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"esri-leaflet-webmap.js\", \"esri-leaflet-webmap.js.map\"],\n      \"exclude\": [\"README.md\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/leaflet.esri.webmap\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.1\", \"0.1.1\", \"0.2\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/leaflet.esri.webmap/update.json\",\n  \"versions\": [\"v0.3.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.3.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/leaflet.esri.webmap/0.3.3\",\n  \"branch\": \"leaflet.esri.webmap/v0.3.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 164605914
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

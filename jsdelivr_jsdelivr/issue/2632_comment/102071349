@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-14) 15 : 26 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/102071349"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-102071349"
+  , issueCommentCreatedAt = 2015 (-05) (-14) 15 : 26 : 12 UTC
+  , issueCommentBody =
+      "Interesting link, thank you for sharing. Unfortunately not everybody uses W3. Some of our users use SuperCache, others use HyperCache, etc. I wish it was that easy :( How much work would it be to have trunk purged let's say once every 2 hours. If that doesn't work, I'm okay with purging it through the API. Let me know what works best for you :)\n"
+  , issueCommentId = 102071349
+  }

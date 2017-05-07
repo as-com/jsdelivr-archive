@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-11) 00 : 48 : 13 UTC
+  , issueUpdatedAt = 2014 (-03) (-11) 00 : 49 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/443/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/443")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 443
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1915268
+        , simpleUserLogin = N "irazasyed"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1915268?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/irazasyed"
+        }
+  , issueTitle = "Add Zepto Modules"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/443")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/443.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/443.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/443"
+  , issueCreatedAt = 2014 (-03) (-11) 00 : 47 : 25 UTC
+  , issueBody =
+      Just
+        "Added for all 3 versions.\n\nNote: I didn't add the modules which are already there within the zepto.js files (pre-built with those modules already in it) for each version. So added only the missing ones.\n"
+  , issueState = StateClosed
+  , issueId = Id 29145823
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-06) 18 : 36 : 25 UTC
+  , issueUpdatedAt = 2016 (-06) (-06) 18 : 36 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11996/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11996")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11996
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1938082
+        , simpleUserLogin = N "vsaravind007"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1938082?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vsaravind007"
+        }
+  , issueTitle = "IOStash included"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11996")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11996.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11996.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11996"
+  , issueCreatedAt = 2016 (-06) (-05) 12 : 15 : 19 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 158551612
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-22) 12 : 35 : 44 UTC
+  , issueUpdatedAt = 2016 (-09) (-22) 12 : 35 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13933/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13933")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13933
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project yasgui-yasqe to 2.11.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13933")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13933.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13933.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13933"
+  , issueCreatedAt = 2016 (-09) (-22) 12 : 35 : 37 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project yasgui-yasqe to 2.11.1.\n\n@YASGUI\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"yasgui-yasqe\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\", \"*.min.js.map\", \"*.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/yasqe\",\n    \"localVersions\": [\"1.5.4\", \"2.0.1\", \"2.1.0\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"2.2.3\", \"2.2.4\", \"2.2.5\", \"2.2.6\", \"2.3.0\", \"2.3.1\", \"2.3.2\", \"2.3.3\", \"2.3.4\", \"2.3.5\", \"2.3.6\", \"2.3.7\", \"2.3.8\", \"2.3.9\", \"2.4.0\", \"2.4.1\", \"2.5.0\", \"2.5.1\", \"2.5.2\", \"2.6.0\", \"2.6.1\", \"2.6.2\", \"2.6.3\", \"2.7.0\", \"2.7.1\", \"2.7.2\", \"2.8.2\", \"2.8.3\", \"2.8.4\", \"2.9.0\", \"2.9.1\", \"2.10.0\", \"2.10.1\", \"2.10.2\", \"2.10.3\", \"2.10.4\", \"2.10.5\", \"2.11.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\", \"1.2.1\", \"1.2.2\", \"1.2.4\", \"1.2.5\", \"1.2.7\", \"1.3.0\", \"1.3.2\", \"1.4.0\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.4\", \"2.0.0\", \"2.0.1\", \"2.1.0\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"2.2.3\", \"2.2.4\", \"2.2.5\", \"2.2.6\", \"2.3.0\", \"2.3.1\", \"2.3.2\", \"2.3.3\", \"2.3.4\", \"2.3.5\", \"2.3.6\", \"2.3.7\", \"2.3.8\", \"2.3.9\", \"2.4.0\", \"2.4.1\", \"2.5.0\", \"2.5.1\", \"2.5.2\", \"2.6.0\", \"2.6.1\", \"2.6.2\", \"2.6.3\", \"2.7.0\", \"2.7.1\", \"2.7.2\", \"2.8.2\", \"2.8.3\", \"2.8.4\", \"2.9.0\", \"2.9.1\", \"2.10.0\", \"2.10.1\", \"2.10.2\", \"2.10.3\", \"2.10.4\", \"2.10.5\", \"2.11.0\", \"2.11.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/yasqe/update.json\",\n  \"versions\": [\"2.11.1\"],\n  \"updateRemote\": true,\n  \"version\": \"2.11.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/yasqe/2.11.1\",\n  \"branch\": \"yasgui-yasqe/2.11.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 178598220
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-25) 15 : 05 : 46 UTC
+  , issueUpdatedAt = 2014 (-08) (-25) 15 : 05 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1521/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1521")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1521
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project paperjs to v0.9.20"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1521")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1521.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1521.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1521"
+  , issueCreatedAt = 2014 (-08) (-25) 13 : 06 : 15 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project paperjs to v0.9.20.\n\n@paperjs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"paperjs\",\n    \"repo\": \"paperjs/paper.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/paperjs\",\n    \"localVersions\": [\"0.9.7\", \"0.9.11\", \"0.9.15\", \"0.9.18\", \"0.9.19\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.8.0\", \"v0.8.1\", \"v0.8.2\", \"v0.8.3\", \"v0.9.0\", \"v0.9.1\", \"v0.9.2\", \"v0.9.3\", \"v0.9.4\", \"v0.9.5\", \"v0.9.6\", \"v0.9.7\", \"v0.9.8\", \"v0.9.9\", \"v0.9.10\", \"v0.9.11\", \"v0.9.12\", \"v0.9.13\", \"v0.9.14\", \"v0.9.15\", \"v0.9.16\", \"v0.9.17\", \"v0.9.18\", \"v0.9.19\", \"v0.9.20\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.9.20\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/paperjs/0.9.20\",\n  \"branch\": \"paperjs/v0.9.20\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 41059162
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

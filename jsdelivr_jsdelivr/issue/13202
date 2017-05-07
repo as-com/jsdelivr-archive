@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-12) 13 : 33 : 57 UTC
+  , issueUpdatedAt = 2016 (-08) (-12) 13 : 33 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13202/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13202")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13202
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project leaflet-search to 2.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13202")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13202.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13202.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13202"
+  , issueCreatedAt = 2016 (-08) (-12) 13 : 33 : 52 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project leaflet-search to 2.0.0.\n\n@stefanocudini\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"leaflet-search\",\n    \"repo\": \"stefanocudini/leaflet-search\",\n    \"files\": {\n      \"include\": [\"dist/*.min.js\", \"dist/*.min.css\", \"./images/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/leaflet.search\",\n    \"localVersions\": [\"1.8.4\", \"1.8.5\", \"1.9.0\", \"1.9.1\", \"1.9.2\", \"1.9.3\", \"1.9.5\", \"1.9.6\", \"1.9.7\", \"1.9.8\", \"1.9.9\"],\n    \"remoteVersions\": [\"1.4.6\", \"1.4.7\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.5\", \"1.5.6\", \"1.5.7\", \"1.5.8\", \"1.5.9\", \"1.6.0\", \"1.6.1\", \"1.7.0\", \"1.7.1\", \"1.7.2\", \"1.7.3\", \"1.7.4\", \"1.7.5\", \"1.7.6\", \"1.7.7\", \"1.7.8\", \"1.7.9\", \"1.8.0\", \"1.8.1\", \"1.8.2\", \"1.8.3\", \"1.8.4\", \"1.8.5\", \"1.9.0\", \"1.9.1\", \"1.9.2\", \"1.9.3\", \"1.9.4\", \"1.9.5\", \"1.9.6\", \"1.9.7\", \"1.9.8\", \"1.9.9\", \"2.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/leaflet.search/update.json\",\n  \"versions\": [\"2.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"2.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/leaflet.search/2.0.0\",\n  \"branch\": \"leaflet-search/2.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 170872306
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-02) 15 : 06 : 21 UTC
+  , issueUpdatedAt = 2017 (-02) (-02) 15 : 06 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16112/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16112")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16112
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project vue.table to v1.5.12"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16112")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16112.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16112.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16112"
+  , issueCreatedAt = 2017 (-02) (-02) 15 : 06 : 14 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vue.table to v1.5.12.\n\n@ratiw\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vue.table\",\n    \"repo\": \"ratiw/vue-table\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/vue.table\",\n    \"localVersions\": [\"1.5.0\", \"1.5.3\", \"1.5.4\", \"1.5.5\", \"1.5.6\", \"1.5.7\", \"1.5.8\", \"1.5.9\", \"1.5.10\", \"1.5.11\"],\n    \"remoteVersions\": [\"v1.0.1\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.0.8\", \"v1.0.9\", \"v1.0.10\", \"v1.0.11\", \"v1.0.12\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.2.0\", \"v1.2.1\", \"v1.3.0\", \"v1.3.1\", \"v1.4.0\", \"v1.4.1\", \"v1.5.0\", \"v1.5.1\", \"v1.5.2\", \"v1.5.3\", \"v1.5.4\", \"v1.5.5\", \"v1.5.6\", \"v1.5.7\", \"v1.5.8\", \"v1.5.9\", \"v1.5.10\", \"v1.5.11\", \"v1.5.12\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/vue.table/update.json\",\n  \"versions\": [\"v1.5.12\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.5.12\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/vue.table/1.5.12\",\n  \"branch\": \"vue.table/v1.5.12\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 204899597
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

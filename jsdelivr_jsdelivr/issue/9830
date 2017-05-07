@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-17) 20 : 47 : 32 UTC
+  , issueUpdatedAt = 2016 (-02) (-17) 20 : 47 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9830/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9830")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9830
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6295761
+        , simpleUserLogin = N "vousk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6295761?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vousk"
+        }
+  , issueTitle =
+      "Update project babylon.js 2.3 with core version (lighter)."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9830")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9830.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9830.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9830"
+  , issueCreatedAt = 2016 (-02) (-17) 20 : 28 : 33 UTC
+  , issueBody =
+      Just
+        "Origin source file is : https://github.com/BabylonJS/Babylon.js/blob/master/dist/babylon.2.3.core.js\n"
+  , issueState = StateClosed
+  , issueId = Id 134391249
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

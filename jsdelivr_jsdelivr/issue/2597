@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-03) 20 : 26 : 08 UTC
+  , issueUpdatedAt = 2014 (-12) (-03) 20 : 38 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2597/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2597")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2597
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 41663
+        , simpleUserLogin = N "mar10"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/41663?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mar10"
+        }
+  , issueTitle = "Update update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2597")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2597.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2597.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2597"
+  , issueCreatedAt = 2014 (-12) (-03) 19 : 55 : 42 UTC
+  , issueBody =
+      Just
+        "The next release will include a map file, so I guess I have to add it here too...\n"
+  , issueState = StateClosed
+  , issueId = Id 50884317
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

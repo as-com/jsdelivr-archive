@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-25) 03 : 52 : 38 UTC
+  , issueUpdatedAt = 2014 (-04) (-25) 03 : 52 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/698/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/698")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 698
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 656699
+        , simpleUserLogin = N "ryancdotorg"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/656699?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ryancdotorg"
+        }
+  , issueTitle = "add bitcoinjs 0.2.0-1 to match cdnjs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/698")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/698.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/698.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/698"
+  , issueCreatedAt = 2014 (-04) (-25) 03 : 39 : 05 UTC
+  , issueBody =
+      Just "See jsdelivr/jsdelivr#693 and cdnjs/cdnjs#3039\n"
+  , issueState = StateClosed
+  , issueId = Id 32203937
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

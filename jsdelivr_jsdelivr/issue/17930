@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-03) 15 : 38 : 33 UTC
+  , issueUpdatedAt = 2017 (-05) (-03) 15 : 38 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17930/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17930")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17930
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project turbolinks to 5.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17930")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17930.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17930.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17930"
+  , issueCreatedAt = 2017 (-05) (-03) 15 : 38 : 19 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project turbolinks to 5.0.2.\n\n@turbolinks\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"turbolinks\",\n    \"repo\": \"turbolinks/turbolinks\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/turbolinks\",\n    \"localVersions\": [\"5.0.0\", \"5.0.1\"],\n    \"remoteVersions\": [\"5.0.0-beta3\", \"5.0.0-beta4\", \"5.0.0-beta5\", \"5.0.0\", \"5.0.1\", \"5.0.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/turbolinks/update.json\",\n  \"versions\": [\"5.0.2\"],\n  \"updateRemote\": true,\n  \"version\": \"5.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/turbolinks/5.0.2\",\n  \"branch\": \"turbolinks/5.0.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 226028397
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

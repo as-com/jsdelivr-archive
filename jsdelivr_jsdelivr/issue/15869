@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-20) 18 : 47 : 06 UTC
+  , issueUpdatedAt = 2017 (-01) (-20) 18 : 47 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15869/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15869")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15869
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11398001
+        , simpleUserLogin = N "Henry263"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11398001?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Henry263"
+        }
+  , issueTitle = "New repo to create CDN."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15869")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15869.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15869.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15869"
+  , issueCreatedAt = 2017 (-01) (-20) 08 : 36 : 27 UTC
+  , issueBody =
+      Just
+        "Please refer this git repo for detail description.\r\n\r\nhttps://github.com/Henry263/showError_n_IconJs\r\n\r\nshowError_n_iconJs\r\n\r\nThis repo is containing JS library where you can call function or attach method to element to appear the border around the element and icon next to the element. \r\n\r\nPurpose of showError_n_iconJs\r\n\r\nFor an example you have some HTML element that is showing an icon and border around the element for validation purpose or for any other purpose you can call the function or method that will apply automatically border and display icon for that element."
+  , issueState = StateClosed
+  , issueId = Id 202082376
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

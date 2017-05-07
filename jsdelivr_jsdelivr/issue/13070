@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-04) 10 : 30 : 11 UTC
+  , issueUpdatedAt = 2016 (-08) (-04) 10 : 30 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13070/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13070")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13070
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10346004
+        , simpleUserLogin = N "etsms"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10346004?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/etsms"
+        }
+  , issueTitle = "Updates to 3.5.11!"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13070")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13070.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13070.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13070"
+  , issueCreatedAt = 2016 (-08) (-04) 00 : 16 : 52 UTC
+  , issueBody =
+      Just "Upgrades signalR proxies, adds sessionStorage support.\n"
+  , issueState = StateClosed
+  , issueId = Id 169263709
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-21) 20 : 33 : 59 UTC
+  , issueUpdatedAt = 2015 (-03) (-21) 20 : 33 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3946/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3946")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3946
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8496217
+        , simpleUserLogin = N "umanskiy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8496217?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/umanskiy"
+        }
+  , issueTitle = "Create SideGlaciersBg"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3946")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3946.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3946.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3946"
+  , issueCreatedAt = 2015 (-03) (-21) 16 : 40 : 02 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 63425831
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

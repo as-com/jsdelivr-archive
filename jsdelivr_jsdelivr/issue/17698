@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-20) 14 : 36 : 48 UTC
+  , issueUpdatedAt = 2017 (-04) (-20) 16 : 00 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17698/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17698")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17698
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1633939
+        , simpleUserLogin = N "idefy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1633939?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/idefy"
+        }
+  , issueTitle = "Patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17698")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17698.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17698.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17698"
+  , issueCreatedAt = 2017 (-04) (-19) 19 : 55 : 55 UTC
+  , issueBody = Just "Submission for LDS-glyphs"
+  , issueState = StateClosed
+  , issueId = Id 222852815
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

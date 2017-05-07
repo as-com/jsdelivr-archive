@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-19) 16 : 54 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/83660504"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3929#issuecomment-83660504"
+  , issueCommentCreatedAt = 2015 (-03) (-19) 16 : 54 : 02 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @ntd, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` has a few problems\n  - HTTPConnectionPool(host='formvalidation.io', port=80): Max retries exceeded with url: / (Caused by <class 'socket.error'>: [Errno 104] Connection reset by peer)\n  - Where is the jquery.formvalidation's mainfile (_js/formValidation.min.js_) in v-_0.5.3_\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _jquery.formvalidation_ between _0.5.3_ and _0.6.1_ there was a change in file structure  \n  \n  ``` diff\n  + css/formValidation.min.css\n  + js/formValidation.min.js\n  + js/framework/bootstrap.min.js\n  + js/framework/foundation.min.js\n  + js/framework/pure.min.js\n  + js/framework/semantic.min.js\n  + js/framework/uikit.min.js\n  + js/language/ar_MA.js\n  + js/language/be_FR.js\n  + js/language/be_NL.js\n  + js/language/bg_BG.js\n  + js/language/ca_ES.js\n  + js/language/cs_CZ.js\n  + js/language/da_DK.js\n  + js/language/de_DE.js\n  + js/language/en_US.js\n  + js/language/es_CL.js\n  + js/language/es_ES.js\n  + js/language/eu_ES.js\n  + js/language/fa_IR.js\n  + js/language/fi_FI.js\n  + js/language/fr_FR.js\n  + js/language/gr_EL.js\n  + js/language/he_IL.js\n  + js/language/hi_IN.js\n  + js/language/hu_HU.js\n  + js/language/id_ID.js\n  + js/language/it_IT.js\n  + js/language/ja_JP.js\n  + js/language/nl_NL.js\n  + js/language/no_NO.js\n  + js/language/pl_PL.js\n  + js/language/pt_BR.js\n  + js/language/pt_PT.js\n  + js/language/ro_RO.js\n  + js/language/ru_RU.js\n  + js/language/sk_SK.js\n  + js/language/sq_AL.js\n  + js/language/sr_RS.js\n  + js/language/sv_SE.js\n  + js/language/th_TH.js\n  + js/language/tr_TR.js\n  + js/language/ua_UA.js\n  + js/language/vi_VN.js\n  + js/language/zh_CN.js\n  + js/language/zh_TW.js\n  - css/bootstrapValidator.min.css\n  - js/bootstrapValidator.min.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Speak like a human._\n"
+  , issueCommentId = 83660504
+  }

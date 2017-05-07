@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 14 : 02 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 14 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8763/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8763")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8763
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16510798
+        , simpleUserLogin = N "icanget"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/16510798?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/icanget"
+        }
+  , issueTitle = "Patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8763")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8763.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8763.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8763"
+  , issueCreatedAt = 2016 (-01) (-03) 21 : 30 : 10 UTC
+  , issueBody =
+      Just "Released version 1.1 of javascript styles composer.\n"
+  , issueState = StateClosed
+  , issueId = Id 124672076
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

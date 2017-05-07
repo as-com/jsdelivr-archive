@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-28) 12 : 28 : 26 UTC
+  , issueUpdatedAt = 2016 (-03) (-28) 12 : 28 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10666/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10666")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10666
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 123822
+        , simpleUserLogin = N "vvo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/123822?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vvo"
+        }
+  , issueTitle = "Add places.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10666")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10666.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10666.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10666"
+  , issueCreatedAt = 2016 (-03) (-28) 12 : 20 : 41 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 143963214
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

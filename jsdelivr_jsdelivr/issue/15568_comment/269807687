@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-12) (-30) 18 : 49 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6192491
+        , simpleUserLogin = N "MartinKolarik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6192491?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MartinKolarik"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/269807687"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/15568#issuecomment-269807687"
+  , issueCommentCreatedAt = 2016 (-12) (-30) 18 : 49 : 27 UTC
+  , issueCommentBody =
+      "It's just a guess but try to send a PR to change `repo` in update.json from `mbostock/d3` to `d3/d3`"
+  , issueCommentId = 269807687
+  }

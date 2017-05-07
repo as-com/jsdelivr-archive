@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-03) 13 : 53 : 27 UTC
+  , issueUpdatedAt = 2016 (-10) (-03) 13 : 53 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14090/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14090")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14090
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project picnicss to 6.2.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14090")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14090.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14090.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14090"
+  , issueCreatedAt = 2016 (-10) (-02) 15 : 04 : 27 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project picnicss to 6.2.4.\n\n@picnicss\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"picnicss\",\n    \"repo\": \"picnicss/picnic\",\n    \"files\": {\n      \"include\": [\"picnic.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/picnicss\",\n    \"localVersions\": [\"3.3.2\", \"3.4.0\", \"3.4.1\", \"3.4.2\", \"4.0.0\", \"4.0.1\", \"4.1.1\", \"4.1.2\", \"4.1.3\", \"5.0.0\", \"5.0.1\", \"5.0.2\", \"5.1.0\", \"6.0.0\", \"6.1.0\", \"6.1.1\", \"6.1.2\", \"6.1.4\", \"6.1.6\", \"6.2.1\", \"6.2.3\"],\n    \"remoteVersions\": [\"v3.0\", \"3.1.0\", \"3.1.1\", \"3.3.0\", \"3.3.1\", \"3.3.2\", \"3.4.0\", \"3.4.1\", \"3.4.2\", \"4.0.0\", \"4.0.1\", \"4.1\", \"4.1.1\", \"4.1.2\", \"4.1.3\", \"5.0.0\", \"5.0.1\", \"5.0.2\", \"5.1.0\", \"5.1.1\", \"5.1.2\", \"5.1.3\", \"5.1.4\", \"5.2.0\", \"6.0.0\", \"6.1.0\", \"6.1.1\", \"6.1.2\", \"6.1.3\", \"6.1.4\", \"6.1.5\", \"6.1.6\", \"6.1.7\", \"6.2.0\", \"6.2.1\", \"6.2.2\", \"6.2.3\", \"6.2.4\"],\n    \"branchVersions\": [\"5.1.1\", \"5.2.0\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/picnicss/update.json\",\n  \"versions\": [\"6.2.4\"],\n  \"updateRemote\": true,\n  \"version\": \"6.2.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/picnicss/6.2.4\",\n  \"branch\": \"picnicss/6.2.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 180516510
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

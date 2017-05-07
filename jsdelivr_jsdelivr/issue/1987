@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-12) 21 : 46 : 45 UTC
+  , issueUpdatedAt = 2014 (-10) (-12) 21 : 46 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1987/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1987")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1987
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project sweep to 1.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1987")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1987.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1987.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1987"
+  , issueCreatedAt = 2014 (-10) (-12) 04 : 04 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project sweep to 1.2.0.\n\n@rileyjshaw\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"sweep\",\n    \"repo\": \"rileyjshaw/sweep\",\n    \"files\": {\n      \"basePath\": \"bin/\",\n      \"include\": [\"sweep.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/sweep\",\n    \"localVersions\": [\"1.1.0\"],\n    \"remoteVersions\": [\"1.1.0\", \"1.2.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/sweep/1.2.0\",\n  \"branch\": \"sweep/1.2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 45569312
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

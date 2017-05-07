@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 22 : 16 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 22 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13363/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13363")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13363
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 20294526
+        , simpleUserLogin = N "fly-light"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/20294526?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/fly-light"
+        }
+  , issueTitle =
+      "URL \44221\47196 \48120\49828 \47928\51228 \54644\44208"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13363")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13363.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13363.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13363"
+  , issueCreatedAt = 2016 (-08) (-22) 04 : 30 : 26 UTC
+  , issueBody = Just "\51228\44263\45236\n"
+  , issueState = StateClosed
+  , issueId = Id 172367806
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

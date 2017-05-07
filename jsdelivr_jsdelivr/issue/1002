@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-25) 04 : 49 : 58 UTC
+  , issueUpdatedAt = 2014 (-06) (-25) 08 : 04 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1002/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1002")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1002
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 946315
+        , simpleUserLogin = N "Aymkdn"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/946315?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Aymkdn"
+        }
+  , issueTitle = "Fix SharepointPlus project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1002")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1002.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1002.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1002"
+  , issueCreatedAt = 2014 (-06) (-23) 13 : 49 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 36292152
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

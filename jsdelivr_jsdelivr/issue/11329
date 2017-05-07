@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-31) 19 : 21 : 09 UTC
+  , issueUpdatedAt = 2016 (-07) (-31) 19 : 21 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11329/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11329")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11329
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project angular.material to v1.1.0-rc4-master-f0e6de9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11329")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11329.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11329.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11329"
+  , issueCreatedAt = 2016 (-04) (-27) 21 : 32 : 18 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.material to v1.1.0-rc4-master-f0e6de9.\n\n@angular\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.material\",\n    \"repo\": \"angular/bower-material\",\n    \"files\": {\n      \"include\": [\"angular-material.min.js\", \"angular-material.min.css\", \"angular-material.layouts.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.material\",\n    \"localVersions\": [\"0.8.3\", \"0.11.2\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.1.0-rc1\"],\n    \"remoteVersions\": [\"v1.0.6-master-aa49451\", \"v1.0.6-master-b4b7040\", \"v1.0.6-master-b8c2d51\", \"v1.0.6-master-b58343c\", \"v1.0.6-master-ba130f2\", \"v1.0.6-master-be5a57a\", \"v1.0.6-master-c3b498f\", \"v1.0.6-master-c3085ee\", \"v1.0.6-master-c68869e\", \"v1.0.6-master-cb864d5\", \"v1.0.6-master-d2b02c8\", \"v1.0.6-master-d11d92a\", \"v1.0.6-master-d67389c\", \"v1.0.6-master-e0abeb4\", \"v1.0.6-master-e3b0cd8\", \"v1.0.6-master-e4c65e2\", \"v1.0.6-master-e50dd9b\", \"v1.0.6-master-e85e328\", \"v1.0.6-master-e0423ce\", \"v1.0.6-master-e126977\", \"v1.0.6-master-e592012\", \"v1.0.6-master-fae559c\", \"v1.0.6-master-faf5845\", \"v1.0.6\", \"v1.0.7-master-0a33ee2\", \"v1.0.7-master-0c659c2\", \"v1.0.7-master-8ba034c\", \"v1.0.7-master-8fe22d1\", \"v1.0.7-master-59dfce6\", \"v1.0.7-master-77dc3a0\", \"v1.0.7-master-96d5df6\", \"v1.0.7-master-317c1c8\", \"v1.0.7-master-901c3fc\", \"v1.0.7-master-65239b7\", \"v1.0.7-master-b3cb84d\", \"v1.0.7-master-bbaa5b8\", \"v1.0.7-master-c562190\", \"v1.0.7-master-cb69404\", \"v1.0.7-master-d86efaf\", \"v1.0.7-master-db1792d\", \"v1.0.7-master-f0425ed\", \"v1.0.7\", \"v1.1.0-rc1\", \"v1.1.0-rc2\", \"v1.1.0-rc2-master-0fc0f3e\", \"v1.1.0-rc2-master-36ddf2c\", \"v1.1.0-rc2-master-79eba38\", \"v1.1.0-rc2-master-9245f54\", \"v1.1.0-rc2-master-15424ba\", \"v1.1.0-rc2-master-c48df16\", \"v1.1.0-rc2-master-ced4e0c\", \"v1.1.0-rc2-master-e7f866d\", \"v1.1.0-rc2-master-f6cf82d\", \"v1.1.0-rc2-master-f91891e\", \"v1.1.0-rc2-master-fb4670f\", \"v1.1.0-rc3\", \"v1.1.0-rc3-master-05b8c1e\", \"v1.1.0-rc3-master-5d38b43\", \"v1.1.0-rc3-master-7b05f5f\", \"v1.1.0-rc3-master-9f66352\", \"v1.1.0-rc3-master-19aef26\", \"v1.1.0-rc3-master-30e6657\", \"v1.1.0-rc3-master-61b742e\", \"v1.1.0-rc3-master-246ae54\", \"v1.1.0-rc3-master-01952ec\", \"v1.1.0-rc3-master-6275424\", \"v1.1.0-rc3-master-fbf17db\", \"v1.1.0-rc4\", \"v1.1.0-rc4-master-1ccf727\", \"v1.1.0-rc4-master-3e15998\", \"v1.1.0-rc4-master-4aa15e4\", \"v1.1.0-rc4-master-4b29ddf\", \"v1.1.0-rc4-master-5b67817\", \"v1.1.0-rc4-master-5bc7d24\", \"v1.1.0-rc4-master-7c6ff36\", \"v1.1.0-rc4-master-8c79f32\", \"v1.1.0-rc4-master-72ff8a1\", \"v1.1.0-rc4-master-135cf64\", \"v1.1.0-rc4-master-562d7c1\", \"v1.1.0-rc4-master-800f9ab\", \"v1.1.0-rc4-master-945e1b9\", \"v1.1.0-rc4-master-2510f69\", \"v1.1.0-rc4-master-9679be3\", \"v1.1.0-rc4-master-59112e4\", \"v1.1.0-rc4-master-86552b7\", \"v1.1.0-rc4-master-93921f8\", \"v1.1.0-rc4-master-2248851\", \"v1.1.0-rc4-master-4010169\", \"v1.1.0-rc4-master-a7ae12c\", \"v1.1.0-rc4-master-a8f43b8\", \"v1.1.0-rc4-master-af990ed\", \"v1.1.0-rc4-master-afeb736\", \"v1.1.0-rc4-master-b1c1bde\", \"v1.1.0-rc4-master-c845314\", \"v1.1.0-rc4-master-cd82275\", \"v1.1.0-rc4-master-d7f5a9d\", \"v1.1.0-rc4-master-e4e7179\", \"v1.1.0-rc4-master-e081b9e\", \"v1.1.0-rc4-master-e638c51\", \"v1.1.0-rc4-master-f0e6de9\"],\n    \"branchVersions\": [\"v1.1.0-rc2-master-36ddf2c\", \"v1.1.0-rc2-master-f6cf82d\", \"v1.1.0-rc2-master-fb4670f\", \"v1.1.0-rc3\", \"v1.1.0-rc3-master-19aef26\", \"v1.1.0-rc3-master-30e6657\", \"v1.1.0-rc3-master-fbf17db\", \"v1.1.0-rc4\", \"v1.1.0-rc4-master-86552b7\", \"v1.1.0-rc4-master-4010169\", \"v1.1.0-rc4-master-e4e7179\", \"v1.1.0-rc4-master-e638c51\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.material/update.json\",\n  \"versions\": [\"v1.1.0-rc4-master-f0e6de9\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.0-rc4-master-f0e6de9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.material/1.1.0-rc4-master-f0e6de9\",\n  \"branch\": \"angular.material/v1.1.0-rc4-master-f0e6de9\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 151496180
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

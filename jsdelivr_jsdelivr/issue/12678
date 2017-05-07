@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-12) 13 : 54 : 42 UTC
+  , issueUpdatedAt = 2016 (-07) (-12) 13 : 54 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12678/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12678")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12678
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2908209
+        , simpleUserLogin = N "delmicio"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2908209?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/delmicio"
+        }
+  , issueTitle = "Add hello.js proyect"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12678")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12678.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12678.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12678"
+  , issueCreatedAt = 2016 (-07) (-11) 22 : 39 : 41 UTC
+  , issueBody = Just "Hopefully the files/basePath is correct...\n"
+  , issueState = StateClosed
+  , issueId = Id 164955803
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

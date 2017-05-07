@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-14) 11 : 10 : 58 UTC
+  , issueUpdatedAt = 2014 (-10) (-14) 11 : 11 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2013/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2013")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2013
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 609693
+        , simpleUserLogin = N "DamonOehlman"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/609693?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DamonOehlman"
+        }
+  , issueTitle = "Added rtc library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2013")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2013.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2013.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2013"
+  , issueCreatedAt = 2014 (-10) (-14) 03 : 12 : 11 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 45707947
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

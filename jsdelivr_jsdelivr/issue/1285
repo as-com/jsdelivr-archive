@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-24) 16 : 01 : 12 UTC
+  , issueUpdatedAt = 2014 (-07) (-24) 16 : 01 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1285/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1285")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1285
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4448836
+        , simpleUserLogin = N "jbutko"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4448836?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jbutko"
+        }
+  , issueTitle = "update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1285")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1285.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1285.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1285"
+  , issueCreatedAt = 2014 (-07) (-24) 07 : 33 : 58 UTC
+  , issueBody = Just "stickyNavbar.js: added update.json\n"
+  , issueState = StateClosed
+  , issueId = Id 38604050
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

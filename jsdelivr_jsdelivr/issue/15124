@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-30) 01 : 36 : 58 UTC
+  , issueUpdatedAt = 2016 (-11) (-30) 01 : 36 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15124/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15124")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15124
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tracker-js to 1.0.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15124")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15124.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15124.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15124"
+  , issueCreatedAt = 2016 (-11) (-30) 01 : 36 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tracker-js to 1.0.4.\n\n@Starchup\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"tracker-js\",\n    \"repo\": \"Starchup/tracker-js\",\n    \"files\": {\n      \"include\": [\"tracker.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/tracker-js\",\n    \"localVersions\": [\"1.0.1\", \"1.0.2\", \"1.0.3\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"1.0.1\", \"1.0.2\", \"1.0.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/tracker-js/update.json\",\n  \"versions\": [\"1.0.4\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/tracker-js/1.0.4\",\n  \"branch\": \"tracker-js/1.0.4\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 192451744
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

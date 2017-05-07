@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-05) 17 : 53 : 04 UTC
+  , issueUpdatedAt = 2016 (-10) (-05) 17 : 53 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14219/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14219")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14219
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 993318
+        , simpleUserLogin = N "douglasdeodato"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/993318?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/douglasdeodato"
+        }
+  , issueTitle = "fancy-sidebar update"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14219")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14219.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14219.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14219"
+  , issueCreatedAt = 2016 (-10) (-05) 10 : 03 : 22 UTC
+  , issueBody =
+      Just "fancy-sidebar update\n\n@megawac  Cheers man.\n"
+  , issueState = StateClosed
+  , issueId = Id 181112319
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

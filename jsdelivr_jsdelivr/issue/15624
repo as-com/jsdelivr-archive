@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-04) 17 : 02 : 52 UTC
+  , issueUpdatedAt = 2017 (-01) (-04) 17 : 02 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15624/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15624")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15624
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project algoliasearch to v3.20.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15624")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15624.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15624.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15624"
+  , issueCreatedAt = 2017 (-01) (-04) 17 : 02 : 42 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project algoliasearch to v3.20.3.\n\n@algolia\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"algoliasearch\",\n    \"repo\": \"algolia/algoliasearch-client-javascript\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/algoliasearch\",\n    \"localVersions\": [\"2.4.4\", \"2.4.6\", \"2.4.7\", \"2.5.1\", \"2.5.2\", \"2.5.3\", \"2.6.0\", \"2.6.1\", \"2.6.2\", \"2.6.3\", \"2.6.4\", \"2.6.5\", \"2.6.6\", \"2.7.0\", \"2.7.1\", \"2.7.2\", \"2.7.3\", \"2.7.4\", \"2.7.5\", \"2.8.0\", \"2.8.1\", \"2.8.2\", \"2.8.3\", \"2.8.4\", \"2.8.5\", \"2.8.6\", \"2.9.0\", \"2.9.1\", \"2.9.2\", \"2.9.3\", \"2.9.4\", \"2.9.5\", \"2.9.6\", \"2.9.7\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.0.7\", \"3.1.0\", \"3.2.0\", \"3.2.1\", \"3.2.2\", \"3.2.3\", \"3.2.4\", \"3.3.0\", \"3.3.1\", \"3.3.2\", \"3.4.0\", \"3.5.0\", \"3.6.0\", \"3.6.1\", \"3.6.2\", \"3.6.3\", \"3.7.0\", \"3.7.1\", \"3.7.2\", \"3.7.3\", \"3.7.4\", \"3.7.5\", \"3.7.6\", \"3.7.7\", \"3.7.8\", \"3.8.0\", \"3.8.1\", \"3.9.0\", \"3.9.1\", \"3.9.2\", \"3.9.3\", \"3.9.4\", \"3.10.0\", \"3.10.1\", \"3.10.2\", \"3.11.0\", \"3.12.0\", \"3.13.0\", \"3.13.1\", \"3.14.0\", \"3.14.1\", \"3.14.2\", \"3.14.3\", \"3.14.4\", \"3.14.5\", \"3.14.6\", \"3.15.0\", \"3.15.1\", \"3.16.0\", \"3.17.0\", \"3.18.0\", \"3.18.1\", \"3.19.0\", \"3.19.1\", \"3.19.2\", \"3.20.0\", \"3.20.1\", \"3.20.2\"],\n    \"remoteVersions\": [\"legacy\", \"2.4.7\", \"2.5.0\", \"2.5.1\", \"2.5.2\", \"2.5.3\", \"2.6.0\", \"2.6.1\", \"2.6.2\", \"2.6.3\", \"2.6.4\", \"2.6.5\", \"2.6.6\", \"2.7.0\", \"2.7.1\", \"2.7.2\", \"2.7.3\", \"2.7.4\", \"2.7.5\", \"2.8.0\", \"2.8.1\", \"2.8.2\", \"2.8.3\", \"2.8.4\", \"2.8.5\", \"2.8.6\", \"2.9.0\", \"2.9.1\", \"2.9.2\", \"2.9.3\", \"2.9.4\", \"2.9.5\", \"2.9.6\", \"2.9.7\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.0.7\", \"3.1.0\", \"3.2.0\", \"3.2.1\", \"3.2.2\", \"3.2.3\", \"3.2.4\", \"3.3.0\", \"3.3.1\", \"3.3.2\", \"3.4.0\", \"3.5.0\", \"3.6.0\", \"3.6.1\", \"3.6.2\", \"3.6.3\", \"3.7.0\", \"3.7.1\", \"3.7.2\", \"3.7.3\", \"3.7.4\", \"3.7.5\", \"3.7.6\", \"3.7.7\", \"3.7.8\", \"3.8.0\", \"3.8.1\", \"3.9.0\", \"3.9.1\", \"3.9.2\", \"3.9.3\", \"3.9.4\", \"3.10.0\", \"3.10.1\", \"3.10.2\", \"3.11.0\", \"3.12.0\", \"3.13.0\", \"3.13.1\", \"3.14.0\", \"3.14.1\", \"3.14.2\", \"3.14.3\", \"3.14.4\", \"3.14.5\", \"3.14.6\", \"3.15.0\", \"3.15.1\", \"3.16.0\", \"3.17.0\", \"3.18.0\", \"3.18.1\", \"3.19.0\", \"3.19.1\", \"3.19.2\", \"3.20.0\", \"3.20.1\", \"3.20.2\", \"v3.20.3\"],\n    \"branchVersions\": [\"legacy\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/algoliasearch/update.json\",\n  \"versions\": [\"v3.20.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.20.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/algoliasearch/3.20.3\",\n  \"branch\": \"algoliasearch/v3.20.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 198758226
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

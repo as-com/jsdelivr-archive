@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-03) 20 : 04 : 46 UTC
+  , issueUpdatedAt = 2016 (-10) (-03) 20 : 04 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14194/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14194")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14194
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3000936
+        , simpleUserLogin = N "Kcchouette"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3000936?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Kcchouette"
+        }
+  , issueTitle = "build wingcss using npm (not github)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14194")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14194.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14194.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14194"
+  , issueCreatedAt = 2016 (-10) (-03) 16 : 23 : 43 UTC
+  , issueBody =
+      Just
+        "I update this because the repo is at version 0.1.7; but wingcss on jsdelivr is 0.1.5 (see https://cdn.jsdelivr.net/wing/0.1.7/wing.min.css )\n\nThank you!\n"
+  , issueState = StateClosed
+  , issueId = Id 180683954
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

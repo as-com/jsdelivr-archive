@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-02) 21 : 10 : 37 UTC
+  , issueUpdatedAt = 2017 (-03) (-02) 21 : 10 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16682/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16682")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16682
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9327071
+        , simpleUserLogin = N "Chaoste"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9327071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Chaoste"
+        }
+  , issueTitle = "Create info.ini for jquery.product-slider plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16682")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16682.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16682.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16682"
+  , issueCreatedAt = 2017 (-03) (-02) 21 : 08 : 32 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 211518204
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

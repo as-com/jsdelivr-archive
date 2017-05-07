@@ -1,0 +1,35 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-10) (-25) 06 : 04 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14460/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/14460")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14460
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16397136
+        , simpleUserLogin = N "Syncfusion-JavaScript"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16397136?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/Syncfusion-JavaScript"
+        }
+  , issueTitle =
+      "Merge id- cd52681 not yet shown in jsDelivr CDN links"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14460"
+  , issueCreatedAt = 2016 (-10) (-25) 06 : 04 : 54 UTC
+  , issueBody =
+      Just
+        "We have added some new files in released version 14.3.49. It seems its moved to jsDelivr:master. But the CDN links are not shown for newly committed(Merge id- cd52681) files in the below link.\n\nhttps://www.jsdelivr.com/projects/syncfusion-javascript \n\nWe need to show the CDN links to this newly committed files too. Is it possible to show the CDN links for newly committed files in latest version 14.3.49 ?\n"
+  , issueState = StateOpen
+  , issueId = Id 185026478
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

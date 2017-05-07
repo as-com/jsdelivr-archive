@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-22) 15 : 56 : 36 UTC
+  , issueUpdatedAt = 2016 (-04) (-22) 15 : 56 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11201/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/11201")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11201
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1263856
+        , simpleUserLogin = N "ricardopolo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1263856?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ricardopolo"
+        }
+  , issueTitle =
+      "Should we include Cedexis RUM if we have the  Cedexis tag?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11201"
+  , issueCreatedAt = 2016 (-04) (-21) 23 : 06 : 28 UTC
+  , issueBody =
+      Just
+        "We want to contribute to routing decisions of JsDelivr, and I read that we do it using https://www.jsdelivr.com/projects/jsdelivr-rum \n\nIf we already have the Cedexis Radar Tag, including the jsdeliver are we already improving JSDelivr, or we should include your RUM tag too? \n"
+  , issueState = StateClosed
+  , issueId = Id 150215360
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

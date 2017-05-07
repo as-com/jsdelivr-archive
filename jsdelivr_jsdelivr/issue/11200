@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-21) 22 : 02 : 58 UTC
+  , issueUpdatedAt = 2016 (-04) (-21) 22 : 02 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11200/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11200")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11200
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project hammerjs to v2.0.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11200")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11200.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11200.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11200"
+  , issueCreatedAt = 2016 (-04) (-21) 22 : 02 : 53 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project hammerjs to v2.0.7.\n\n@hammerjs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"hammerjs\",\n    \"repo\": \"hammerjs/hammer.js\",\n    \"files\": {\n      \"include\": [\"hammer.js\", \"hammer.min.js\", \"hammer.min.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/hammerjs\",\n    \"localVersions\": [\"0.6.4\", \"1.0.3\", \"1.0.5\", \"1.0.7\", \"1.1.2\", \"1.1.3\", \"2.0.2\", \"2.0.3\", \"2.0.4\", \"2.0.5\", \"2.0.6\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"1.0.6\", \"1.0.7\", \"1.0.8\", \"1.0.9\", \"1.0.10\", \"1.0.11\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.0.4\", \"v2.0.5\", \"v2.0.6\", \"v2.0.7\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/hammerjs/update.json\",\n  \"versions\": [\"v2.0.7\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.0.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/hammerjs/2.0.7\",\n  \"branch\": \"hammerjs/v2.0.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 150202402
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

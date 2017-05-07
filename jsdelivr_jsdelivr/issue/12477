@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-30) 11 : 32 : 55 UTC
+  , issueUpdatedAt = 2016 (-06) (-30) 11 : 32 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12477/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12477")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12477
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ui-grid to v3.2.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12477")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12477.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12477.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12477"
+  , issueCreatedAt = 2016 (-06) (-30) 11 : 32 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ui-grid to v3.2.4.\n\n@angular-ui\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ui-grid\",\n    \"repo\": \"angular-ui/ui-grid.info/\",\n    \"files\": {\n      \"basePath\": \"release/\",\n      \"include\": [\"ui-grid-unstable.min.js\", \"ui-grid-unstable.min.css\", \"ui-grid.min.css\", \"ui-grid.min.js\", \"ui-grid.eot\", \"ui-grid.woff\", \"ui-grid.svg\", \"ui-grid.ttf\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.ui-grid\",\n    \"localVersions\": [\"3.0.0-rc.2-gf598dc3\", \"3.0.0-rc.7\", \"3.0.0-rc.19\", \"3.0.0-rc.20\", \"3.0.0-rc.21\", \"3.0.0-rc.22\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.0.7\", \"3.1.0\", \"3.1.1\", \"3.2.1\", \"3.2.2\", \"3.2.3\"],\n    \"remoteVersions\": [\"vv3.0.0-rc.3\", \"vv3.0.0-rc.7\", \"v3.0.0-rc.2-ge32fd8a\", \"v3.0.0-rc.2-gec2e962\", \"v3.0.0-rc.2-gf598dc3\", \"v3.0.0-rc.8\", \"v3.0.0-rc.10\", \"v3.0.0-rc.11\", \"v3.0.0-rc.12\", \"v3.0.0-rc.13\", \"v3.0.0-rc.14\", \"v3.0.0-rc.15\", \"v3.0.0-rc.16\", \"v3.0.0-RC.18\", \"v3.0.0-rc.19\", \"v3.0.0-rc.20\", \"v3.0.0-rc.21\", \"v3.0.0-rc.22\", \"v3.0.1\", \"v3.0.2\", \"v3.0.3\", \"v3.0.4\", \"v3.0.5\", \"v3.0.6\", \"v3.0.7\", \"v3.1.0\", \"v3.1.1\", \"v3.2.1\", \"v3.2.2\", \"v3.2.3\", \"v3.2.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.ui-grid/update.json\",\n  \"versions\": [\"v3.2.4\", \"vv3.0.0-rc.7\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.2.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.ui-grid/3.2.4\",\n  \"branch\": \"ui-grid/v3.2.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 163143568
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-23) 16 : 23 : 56 UTC
+  , issueUpdatedAt = 2014 (-11) (-23) 16 : 23 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2468/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2468")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2468
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4958185
+        , simpleUserLogin = N "dorami"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4958185?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dorami"
+        }
+  , issueTitle = "improving readability of code"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2468")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2468.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2468.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2468"
+  , issueCreatedAt = 2014 (-11) (-23) 16 : 22 : 29 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 49830011
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-21) 22 : 46 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123501091"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123501091"
+  , issueCommentCreatedAt = 2015 (-07) (-21) 22 : 46 : 27 UTC
+  , issueCommentBody =
+      "@megawac No way, cloning is slow and bad, I was trying specifically to move away from that. Plus api-sync is hosted on appfog that cant even do such things.\n\n@jonathanKingston Doing it on the frontend could guarantee that the file is the same one as the day you first saw it on the site, instead of the date it was scanned by the script. I think it could work, what do you think? \n"
+  , issueCommentId = 123501091
+  }

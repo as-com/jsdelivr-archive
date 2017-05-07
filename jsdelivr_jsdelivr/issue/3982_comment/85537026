@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-24) 14 : 47 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/85537026"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3982#issuecomment-85537026"
+  , issueCommentCreatedAt = 2015 (-03) (-24) 14 : 47 : 31 UTC
+  , issueCommentBody =
+      "Please squash your commits, and also the non minified file is not necessary for production use. Thanks. \n"
+  , issueCommentId = 85537026
+  }

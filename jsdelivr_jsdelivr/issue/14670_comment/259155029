@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-11) (-08) 14 : 45 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/259155029"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14670#issuecomment-259155029"
+  , issueCommentCreatedAt = 2016 (-11) (-08) 14 : 45 : 51 UTC
+  , issueCommentBody =
+      "gss4tilda.min.js doesn't exist in the root directory. You should add basePath `src/js`\n"
+  , issueCommentId = 259155029
+  }

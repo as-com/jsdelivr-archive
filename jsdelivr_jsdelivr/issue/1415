@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-11) 23 : 55 : 07 UTC
+  , issueUpdatedAt = 2014 (-08) (-12) 00 : 06 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1415/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1415")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1415
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1005091
+        , simpleUserLogin = N "jhare"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1005091?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jhare"
+        }
+  , issueTitle =
+      "Waffles release 1.0.0. Minified with proper info.ini and version directo..."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1415")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1415.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1415.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1415"
+  , issueCreatedAt = 2014 (-08) (-11) 23 : 48 : 52 UTC
+  , issueBody =
+      Just
+        "...ry set up.\n\nAdded update.json to auto-update. Removed existing minified file.\n\nAdding format changes; named project correctly\n\nAdding format changes; named project correctly\n\nRemoved slash for absolute path\n\nAdding slash to dist path\n"
+  , issueState = StateClosed
+  , issueId = Id 40012401
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

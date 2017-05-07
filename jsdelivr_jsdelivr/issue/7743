@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-04) 14 : 12 : 22 UTC
+  , issueUpdatedAt = 2015 (-11) (-04) 14 : 12 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7743/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7743")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7743
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 123822
+        , simpleUserLogin = N "vvo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/123822?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vvo"
+        }
+  , issueTitle =
+      "fix(algolia/instantsearch.js): npm module no more built in dist/"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7743")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7743.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7743.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7743"
+  , issueCreatedAt = 2015 (-11) (-04) 14 : 09 : 55 UTC
+  , issueBody = Just "Will now be built in dist-es5-module/\n"
+  , issueState = StateClosed
+  , issueId = Id 115058825
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

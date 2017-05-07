@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-20) 19 : 24 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 982752
+        , simpleUserLogin = N "perosb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/982752?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/perosb"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/75302582"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3520#issuecomment-75302582"
+  , issueCommentCreatedAt = 2015 (-02) (-20) 19 : 24 : 24 UTC
+  , issueCommentBody =
+      "Thanks. Need to look at that later. The documentation only describes when the files are part of the dist tarball.\nIn this case it is not, only as separate download.\n"
+  , issueCommentId = 75302582
+  }

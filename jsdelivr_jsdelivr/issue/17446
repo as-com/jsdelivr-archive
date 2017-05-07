@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-06) 19 : 04 : 33 UTC
+  , issueUpdatedAt = 2017 (-04) (-06) 19 : 04 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17446/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17446")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17446
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project font-frino to 0.8.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17446")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17446.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17446.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17446"
+  , issueCreatedAt = 2017 (-04) (-06) 19 : 04 : 26 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project font-frino to 0.8.5.\n\n@arbati6\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"font-frino\",\n    \"repo\": \"arbati6/Frino\",\n    \"files\": {\n      \"include\": [\"frino.ttf\", \"frino.woff\", \"frino.woff2\", \"frinostyle.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/font-frino\",\n    \"localVersions\": [\"0.7.0\", \"0.7.5\", \"0.7.6\", \"0.7.50\", \"0.8.0\"],\n    \"remoteVersions\": [\"0.7.0\", \"0.7.7\", \"0.7.8\", \"0.7.9\", \"0.8.0\", \"0.8.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/font-frino/update.json\",\n  \"versions\": [\"0.8.5\"],\n  \"updateRemote\": true,\n  \"version\": \"0.8.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/font-frino/0.8.5\",\n  \"branch\": \"font-frino/0.8.5\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 220000297
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-22) 14 : 29 : 18 UTC
+  , issueUpdatedAt = 2017 (-03) (-22) 14 : 29 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17118/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17118")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17118
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 13473521
+        , simpleUserLogin = N "PaulaoDeveloper"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/13473521?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/PaulaoDeveloper"
+        }
+  , issueTitle = "New Pull Request"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17118")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17118.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17118.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17118"
+  , issueCreatedAt = 2017 (-03) (-21) 23 : 59 : 45 UTC
+  , issueBody = Just "novo pull"
+  , issueState = StateClosed
+  , issueId = Id 215914616
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-03) 09 : 52 : 57 UTC
+  , issueUpdatedAt = 2014 (-12) (-03) 09 : 53 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2559/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2559")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2559
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 14110
+        , simpleUserLogin = N "apeckham"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/14110?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/apeckham"
+        }
+  , issueTitle = "Update snowplow.js to 2.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2559")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2559.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2559.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2559"
+  , issueCreatedAt = 2014 (-12) (-01) 05 : 37 : 05 UTC
+  , issueBody =
+      Just
+        "Fetched update with 'curl --compressed http://d1fc8wv8zag5ca.cloudfront.net/2.1.1/sp.js'\n\n[Release announcement](http://snowplowanalytics.com/blog/2014/11/06/snowplow-javascript-tracker-2.1.1-released/)\n\nI'd love to use auto-updates with libgrabber but it looks like the [source repo](https://github.com/snowplow/snowplow-javascript-tracker) doesn't include the minified files.\n"
+  , issueState = StateClosed
+  , issueId = Id 50489467
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 15 : 21 : 48 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 15 : 21 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/974/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/974")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 974
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "updated xe-core version 1.7.5.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/974")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/974.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/974.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/974"
+  , issueCreatedAt = 2014 (-06) (-18) 18 : 08 : 35 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 36011994
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

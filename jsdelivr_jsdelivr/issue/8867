@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-12) 15 : 13 : 27 UTC
+  , issueUpdatedAt = 2016 (-01) (-12) 15 : 13 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8867/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8867")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8867
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16633271
+        , simpleUserLogin = N "navinachettri"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/16633271?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/navinachettri"
+        }
+  , issueTitle = "Create plupload.full.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8867")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8867.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8867.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8867"
+  , issueCreatedAt = 2016 (-01) (-10) 12 : 18 : 44 UTC
+  , issueBody = Just "v 2.1.8\n"
+  , issueState = StateClosed
+  , issueId = Id 125816532
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

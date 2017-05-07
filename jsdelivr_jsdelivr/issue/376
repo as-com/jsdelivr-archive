@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-20) 12 : 59 : 55 UTC
+  , issueUpdatedAt = 2014 (-07) (-16) 11 : 41 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/376/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/376")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 376
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueTitle = "Update underscorejs to 1.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/376")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/376.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/376.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/376"
+  , issueCreatedAt = 2014 (-02) (-20) 03 : 51 : 46 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 27935458
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

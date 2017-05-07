@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-06) 20 : 53 : 07 UTC
+  , issueUpdatedAt = 2013 (-12) (-06) 20 : 53 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/156/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/156")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/enhancement"
+          , labelName = N "enhancement"
+          }
+      ]
+  , issueNumber = 156
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1676054
+        , simpleUserLogin = N "danialfarid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1676054?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/danialfarid"
+        }
+  , issueTitle = "Automatic update from github releases"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/156"
+  , issueCreatedAt = 2013 (-11) (-19) 01 : 30 : 55 UTC
+  , issueBody =
+      Just
+        "This could be a convenient feature to enable automatic update the projects with the new version from github releases like the way bower does it.\n\nSo for example I have this project https://github.com/danialfarid/angular-file-upload and to maintain it in bower  registry I have https://github.com/danialfarid/angular-file-upload-bower which is basically the same thing but only with the necessary files for production. Whenever I do a release on angular-file-upload-bower project the bower will automatically pull it from the github releases if someone trying to install and use that specific version.\n\nIf you could do the same thing here and just add all those file to the root it makes it much easier for me without having to create a pull request each time. I have kind of stopped updating the CDN since it's a hassle to create a pull request each time I release a new version.\n"
+  , issueState = StateClosed
+  , issueId = Id 22882043
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

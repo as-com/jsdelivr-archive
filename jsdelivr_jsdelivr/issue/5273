@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-11) 18 : 14 : 27 UTC
+  , issueUpdatedAt = 2015 (-06) (-11) 18 : 14 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5273/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5273")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5273
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project t3 to v1.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5273")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5273.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5273.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5273"
+  , issueCreatedAt = 2015 (-06) (-11) 18 : 14 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project t3 to v1.4.0.\n\n@box\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"t3\",\n    \"repo\": \"box/t3js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"t3.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/t3\",\n    \"localVersions\": [\"1.1.1\", \"1.2.0\", \"1.3.0\"],\n    \"remoteVersions\": [\"0.2.1\", \"0.3.0\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"v1.1.0\", \"v1.1.1\", \"v1.2.0\", \"v1.3.0\", \"v1.4.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.4.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/t3/1.4.0\",\n  \"branch\": \"t3/v1.4.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 87435714
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

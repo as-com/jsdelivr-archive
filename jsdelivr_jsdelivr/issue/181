@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-02) 01 : 05 : 59 UTC
+  , issueUpdatedAt = 2014 (-02) (-02) 01 : 05 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/181/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/181")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/enhancement"
+          , labelName = N "enhancement"
+          }
+      ]
+  , issueNumber = 181
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Automatically get new versions from Github tags"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/181"
+  , issueCreatedAt = 2013 (-12) (-06) 20 : 53 : 00 UTC
+  , issueBody =
+      Just
+        "Create an automated system that will be able to keep selected/most projects updated.\n\n**Idea:**\nCreate jsdelivr.json and fallback bower.json. Download tag, remove useless files based on rules and sync with CDN.\n"
+  , issueState = StateClosed
+  , issueId = Id 23884534
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

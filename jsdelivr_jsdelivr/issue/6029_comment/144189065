@@ -1,0 +1,22 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-29) 20 : 56 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 338988
+        , simpleUserLogin = N "jonathanKingston"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/338988?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/jonathanKingston"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/144189065"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-144189065"
+  , issueCommentCreatedAt = 2015 (-09) (-29) 20 : 56 : 49 UTC
+  , issueCommentBody =
+      "@jimaek in the UI I checked I had to toggle the SRI to be on; does this extra step have to be there?\n\nNope, just checked however I think they are somewhat looking at changing their SRI solution somewhat from what I can see. I will update you when I know more however right now the best solution is to disable offending SRI checks.\n"
+  , issueCommentId = 144189065
+  }

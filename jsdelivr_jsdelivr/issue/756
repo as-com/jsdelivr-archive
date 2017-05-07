@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-11) 00 : 42 : 34 UTC
+  , issueUpdatedAt = 2014 (-06) (-11) 00 : 42 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/756/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/756")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 756
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2406
+        , simpleUserLogin = N "jamesarosen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/2406?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jamesarosen"
+        }
+  , issueTitle = "Idea: support self-updating scripts"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/756"
+  , issueCreatedAt = 2014 (-05) (-07) 02 : 22 : 35 UTC
+  , issueBody =
+      Just
+        "cf http://www.stevesouders.com/blog/2012/05/22/self-updating-scripts/\n\nThe idea would be to ask for an asset like `//cdn.jsdelivr.net/jquery/1.x+selfupdate/jquery.min.js`, which would return the latest 1.x version of jQuery, with a small suffix and with a 1-year cache header. The suffix would call back to `cdn.jsdelivr.net` and compare its jQuery version with the latest 1.x version. If they differ, it would open an `<iframe>` that contains only a reference to the same `script(//cdn.jsdelivr.net/jquery/1.x+selfupdate/jquery.min.js`) and a `location.reload(true)` call to clear the browser's cache of that script.\n\nThe effect is that browsers will eventually catch up to the latest versions of all libraries.\n\nDo you think this is a reasonable fit for this project?\n"
+  , issueState = StateClosed
+  , issueId = Id 32950482
+  , issueComments = 23
+  , issueMilestone = Nothing
+  }

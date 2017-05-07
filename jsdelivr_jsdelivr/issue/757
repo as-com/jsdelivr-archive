@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-07) 19 : 27 : 38 UTC
+  , issueUpdatedAt = 2014 (-05) (-07) 19 : 50 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/757/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/757")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 757
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 953140
+        , simpleUserLogin = N "eruizdechavez"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/953140?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/eruizdechavez"
+        }
+  , issueTitle = "Add angular-strap v2.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/757")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/757.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/757.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/757"
+  , issueCreatedAt = 2014 (-05) (-07) 18 : 03 : 15 UTC
+  , issueBody =
+      Just
+        "Adding latest available version of angular-strap. Files are as provided by owner, downloaded from https://github.com/mgcrea/angular-strap/releases.\n"
+  , issueState = StateClosed
+  , issueId = Id 33009385
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

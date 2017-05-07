@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-21) 08 : 54 : 22 UTC
+  , issueUpdatedAt = 2017 (-04) (-21) 08 : 54 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17731/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/17731")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17731
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11210348
+        , simpleUserLogin = N "akashta"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/11210348?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/akashta"
+        }
+  , issueTitle = "New versions are not updated on cdn.jsdelivr.net"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17731"
+  , issueCreatedAt = 2017 (-04) (-21) 08 : 49 : 00 UTC
+  , issueBody =
+      Just
+        "There is an issue with downloading new version of `hola_player` from cdn.jsdelivr.net.\r\n\r\napi says that the last version is `1.0.27`:\r\nhttp://api.jsdelivr.com/v1/jsdelivr/libraries?name=hola_player&fields=lastversion\r\nall files are successfully updated:\r\nhttps://github.com/jsdelivr/jsdelivr/tree/master/files/hola_player/1.0.27\r\nbut cdn.jsdelivr.net returns \"File not found\":\r\nhttps://cdn.jsdelivr.net/hola_player/1.0.27/hola_player.js\r\n\r\nIt seems that the problem affects not only the hola_player, but all other library updates after a certain point. E.g:\r\n`aws-sdk`:\r\nhttp://api.jsdelivr.com/v1/jsdelivr/libraries?name=aws-sdk&fields=lastversion - returns 2.44.0\r\nhttps://cdn.jsdelivr.net/aws-sdk/2.44.0/aws-sdk.min.js - returns 404\r\n\r\n`card`:\r\nhttp://api.jsdelivr.com/v1/jsdelivr/libraries?name=card&fields=lastversion - returns 2.3.0\r\nhttps://cdn.jsdelivr.net/card/2.3.0/card.js - returns 404"
+  , issueState = StateClosed
+  , issueId = Id 223319250
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

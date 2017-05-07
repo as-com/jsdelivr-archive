@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-09) (-10) 06 : 45 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13711/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13711")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13711
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10340462
+        , simpleUserLogin = N "krishnanandreddy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/10340462?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/krishnanandreddy"
+        }
+  , issueTitle = "Unable to clear link's in collection"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13711"
+  , issueCreatedAt = 2016 (-09) (-10) 06 : 43 : 59 UTC
+  , issueBody =
+      Just
+        "Links added to **collection** sticks forever at [jsdelivr](http://www.jsdelivr.com) . The collection is getting clumsy after a while.\n"
+  , issueState = StateOpen
+  , issueId = Id 176163044
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

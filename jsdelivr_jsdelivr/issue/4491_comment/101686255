@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-13) 14 : 28 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5274747
+        , simpleUserLogin = N "hubdotcom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5274747?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hubdotcom"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/101686255"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4491#issuecomment-101686255"
+  , issueCommentCreatedAt = 2015 (-05) (-13) 14 : 28 : 19 UTC
+  , issueCommentBody =
+      "I did - see thread above. Author says the non packaged file is useless without the dependencies so a min file would not be suitable for a production environment\n"
+  , issueCommentId = 101686255
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-21) 15 : 57 : 43 UTC
+  , issueUpdatedAt = 2014 (-05) (-09) 17 : 27 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/684/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/684")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 684
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 349621
+        , simpleUserLogin = N "XhmikosR"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/349621?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/XhmikosR"
+        }
+  , issueTitle = "Update html5shiv to 3.7.1"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/684"
+  , issueCreatedAt = 2014 (-04) (-21) 15 : 42 : 18 UTC
+  , issueBody =
+      Just
+        "https://github.com/aFarkas/html5shiv/releases/tag/3.7.1\n\nBTW @jimaek does OSSCDN use the same database as jsdelivr? I mean, if 3.7.1 is added here, will be available in OSSCDN too?\n"
+  , issueState = StateClosed
+  , issueId = Id 31902603
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

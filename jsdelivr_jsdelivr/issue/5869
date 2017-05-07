@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-15) 15 : 39 : 09 UTC
+  , issueUpdatedAt = 2015 (-07) (-15) 15 : 39 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5869/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/5869")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5869
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3011734
+        , simpleUserLogin = N "jgravois"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3011734?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jgravois"
+        }
+  , issueTitle = "corrupted CDN cache for esri-leaflet 1.0.0"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5869"
+  , issueCreatedAt = 2015 (-07) (-14) 21 : 56 : 30 UTC
+  , issueBody =
+      Just
+        "prior to the successful publication of leaflet.esri version 1.0.0 on the cdn, i made a request for the version which wasn't available yet and the CDN responded by returning an earlier release.\n\nhttp://cdn.jsdelivr.net/leaflet.esri/1.0.0/esri-leaflet.js\n\n> returned\n\nhttp://cdn.jsdelivr.net/leaflet.esri/1.0.0-rc.8/esri-leaflet.js?foo\n\nim noticing now that the inappropriately cached content on the particular server im talking to makes it impossible to fetch the actual latest release.  is it possible to selectively clear the cache for the IP address 190.93.247.228? if not, can you do something more nuclear?\n\n![screenshot 2015-07-14 14 54 47](https://cloud.githubusercontent.com/assets/3011734/8686139/76c6b17c-2a38-11e5-8f4f-757c6e288838.png)\n\nive received confirmation that the CDN is already returning the appropriate results for folks in PDX and NYC.\n\ncc @patrickarlt \n"
+  , issueState = StateClosed
+  , issueId = Id 95051326
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

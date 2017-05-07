@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-31) 19 : 18 : 55 UTC
+  , issueUpdatedAt = 2016 (-07) (-31) 19 : 18 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12071/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12071")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12071
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project isotope to v3.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12071")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12071.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12071.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12071"
+  , issueCreatedAt = 2016 (-06) (-08) 17 : 33 : 21 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project isotope to v3.0.1.\n\n@metafizzy\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"isotope\",\n    \"repo\": \"metafizzy/isotope\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/isotope\",\n    \"localVersions\": [\"1.5.19\", \"1.5.21\", \"1.5.22\", \"1.5.24\", \"1.5.25\", \"2.0.0\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"3.0.0\"],\n    \"remoteVersions\": [\"v1.0\", \"v1.1\", \"v1.2\", \"v1.3\", \"v1.4\", \"v1.5.0\", \"v1.5.01\", \"v1.5.02\", \"v1.5.03\", \"v1.5.04\", \"v1.5.05\", \"v1.5.06\", \"v1.5.07\", \"v1.5.08\", \"v1.5.09\", \"v1.5.10\", \"v1.5.11\", \"v1.5.12\", \"v1.5.14\", \"v1.5.15\", \"v1.5.16\", \"v1.5.17\", \"v1.5.18\", \"v1.5.21\", \"v1.5.22\", \"v1.5.23\", \"v1.5.24\", \"v1.5.25\", \"v1.5.26\", \"v2.0.0-beta.1\", \"v2.0.0-beta.2\", \"v2.0.0-beta.3\", \"v2.0.0-beta.4\", \"v2.0.0-beta.5\", \"v2.0.0-beta.6\", \"v2.0.0-beta.7\", \"v2.0.0-beta.8\", \"v2.0.0-beta.9\", \"v2.0.0-beta.10\", \"v2.0.0\", \"v2.0.1\", \"v2.1.0-beta.1\", \"v2.1.0\", \"v2.1.1\", \"v2.2.0\", \"v2.2.1\", \"v2.2.2\", \"v3.0.0\", \"v3.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/isotope/update.json\",\n  \"versions\": [\"v1.5.26\", \"v3.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/isotope/3.0.1\",\n  \"branch\": \"isotope/v3.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 159227268
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

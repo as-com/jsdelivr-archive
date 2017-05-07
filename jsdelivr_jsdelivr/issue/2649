@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-08) 19 : 32 : 35 UTC
+  , issueUpdatedAt = 2014 (-12) (-08) 19 : 32 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2649/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2649")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2649
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle =
+      "add vary accpet-encoding in latest version on MaxCDN"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2649"
+  , issueCreatedAt = 2014 (-12) (-08) 18 : 45 : 35 UTC
+  , issueBody =
+      Just
+        "![image](https://cloud.githubusercontent.com/assets/7894760/5344716/211aa87a-7f55-11e4-82b8-3cfb8c299d50.png)\n\nseems no vary: accept-encoding\n"
+  , issueState = StateClosed
+  , issueId = Id 51336613
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

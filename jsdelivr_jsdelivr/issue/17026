@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 27 : 08 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 27 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17026/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17026")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17026
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 813042
+        , simpleUserLogin = N "erickpintor"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/813042?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/erickpintor"
+        }
+  , issueTitle = "Add faunadb-js driver"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17026")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17026.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17026.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17026"
+  , issueCreatedAt = 2017 (-03) (-20) 20 : 32 : 40 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 215546527
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-18) 17 : 51 : 03 UTC
+  , issueUpdatedAt = 2014 (-07) (-08) 00 : 49 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/369/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/369")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 369
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add pure version 0.4.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/369")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/369.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/369.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/369"
+  , issueCreatedAt = 2014 (-02) (-18) 16 : 45 : 02 UTC
+  , issueBody =
+      Just
+        "I found that pure had released new version 0.4.1 & 0.4.2, and 0.4.2 is a bug fix of prev version, so I added 0.4.2 in it, thanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 27807769
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

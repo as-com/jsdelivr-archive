@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-02) 14 : 05 : 52 UTC
+  , issueUpdatedAt = 2014 (-07) (-01) 09 : 30 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/327/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/327")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 327
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 495709
+        , simpleUserLogin = N "wa0x6e"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/495709?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wa0x6e"
+        }
+  , issueTitle = "Add lastest cal-heatmap versions"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/327")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/327.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/327.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/327"
+  , issueCreatedAt = 2014 (-02) (-02) 11 : 46 : 50 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 26759531
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

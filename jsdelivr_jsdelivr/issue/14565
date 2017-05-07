@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-31) 23 : 44 : 52 UTC
+  , issueUpdatedAt = 2016 (-10) (-31) 23 : 44 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14565/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14565")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14565
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project mindb to v0.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14565")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14565.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14565.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14565"
+  , issueCreatedAt = 2016 (-10) (-31) 23 : 44 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project mindb to v0.1.0.\n\n@iwillwen\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"mindb\",\n    \"repo\": \"iwillwen/mindb\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"min.js\", \"min.js.map\", \"min.debug.js\", \"min.debug.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/mindb\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.0.3\", \"0.0.4\", \"v0.1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/mindb/update.json\",\n  \"versions\": [\"v0.1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/mindb/0.1.0\",\n  \"branch\": \"mindb/v0.1.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 186430166
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

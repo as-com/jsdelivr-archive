@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-22) 10 : 29 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/84583434"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3936#issuecomment-84583434"
+  , issueCommentCreatedAt = 2015 (-03) (-22) 10 : 29 : 20 UTC
+  , issueCommentBody =
+      "/latest/ takes 7 days to purge the cache to make sure users see performance benefits from using jsDelivr.\n\nI purged the /latest/ file manually for you. If this is important for you then send me an email and I will give you the instructions how to purge the cache of jsDelivr yourself. (just make sure you dont make it public to avoid abuse)\n"
+  , issueCommentId = 84583434
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-22) 19 : 51 : 14 UTC
+  , issueUpdatedAt = 2014 (-12) (-23) 16 : 41 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2816/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2816")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2816
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project lazysizes to 0.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2816")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2816.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2816.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2816"
+  , issueCreatedAt = 2014 (-12) (-22) 19 : 46 : 50 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project lazysizes to 0.6.0.\n\n@aFarkas\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"lazysizes\",\n    \"repo\": \"aFarkas/lazysizes\",\n    \"files\": {\n      \"include\": [\"*.min.js\", \"./plugins/**/*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/lazysizes\",\n    \"localVersions\": [\"0.0.0-plugins\"],\n    \"remoteVersions\": [\"0.4.0\", \"0.5.0\", \"0.5.1\", \"0.5.2\", \"0.5.3\", \"0.6.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.6.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/lazysizes/0.6.0\",\n  \"branch\": \"lazysizes/0.6.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 52681839
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

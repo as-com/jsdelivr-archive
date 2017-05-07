@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-09) 12 : 17 : 41 UTC
+  , issueUpdatedAt = 2014 (-08) (-09) 12 : 17 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1392/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1392")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1392
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1044204
+        , simpleUserLogin = N "aedonid7378"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1044204?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aedonid7378"
+        }
+  , issueTitle = "add bullframe.min.css v2.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1392")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1392.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1392.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1392"
+  , issueCreatedAt = 2014 (-08) (-09) 10 : 43 : 41 UTC
+  , issueBody = Just "just bug fixing\n"
+  , issueState = StateClosed
+  , issueId = Id 39882988
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

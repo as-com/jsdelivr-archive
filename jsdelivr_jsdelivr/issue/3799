@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-10) 10 : 08 : 51 UTC
+  , issueUpdatedAt = 2015 (-03) (-10) 10 : 08 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3799/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3799")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3799
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project web-animations to 1.0.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3799")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3799.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3799.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3799"
+  , issueCreatedAt = 2015 (-03) (-10) 05 : 12 : 34 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project web-animations to 1.0.7.\n\n@web-animations\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"web-animations\",\n    \"repo\": \"web-animations/web-animations-js\",\n    \"files\": {\n      \"include\": [\"web-animations.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/web-animations\",\n    \"localVersions\": [\"1.0.4\", \"1.0.5\", \"1.0.6\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.0.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/web-animations/1.0.7\",\n  \"branch\": \"web-animations/1.0.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 60452048
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

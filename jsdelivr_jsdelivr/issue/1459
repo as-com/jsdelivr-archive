@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-18) 12 : 34 : 28 UTC
+  , issueUpdatedAt = 2014 (-08) (-18) 12 : 34 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1459/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1459")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1459
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 274044
+        , simpleUserLogin = N "chemerisuk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/274044?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/chemerisuk"
+        }
+  , issueTitle = "Update config for upcoming better-dom 2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1459")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1459.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1459.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1459"
+  , issueCreatedAt = 2014 (-08) (-18) 12 : 11 : 22 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 40481443
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

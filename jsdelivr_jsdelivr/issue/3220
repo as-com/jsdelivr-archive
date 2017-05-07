@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-27) 18 : 18 : 05 UTC
+  , issueUpdatedAt = 2015 (-01) (-27) 18 : 18 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3220/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3220")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3220
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 221166
+        , simpleUserLogin = N "outpunk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/221166?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/outpunk"
+        }
+  , issueTitle = "Add Evil Icons"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3220")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3220.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3220.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3220"
+  , issueCreatedAt = 2015 (-01) (-27) 18 : 01 : 54 UTC
+  , issueBody = Just "This PR adds Evil Icons http://evil-icons.io\n"
+  , issueState = StateClosed
+  , issueId = Id 55652295
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

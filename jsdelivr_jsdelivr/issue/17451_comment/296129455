@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-04) (-21) 08 : 40 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 426686
+        , simpleUserLogin = N "pkra"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/426686?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pkra"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/296129455"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17451#issuecomment-296129455"
+  , issueCommentCreatedAt = 2017 (-04) (-21) 08 : 40 : 05 UTC
+  , issueCommentBody =
+      "Sorry, I should have closed this after emailing with Dmitriy.\r\n\r\nFWIW, the image fonts can be excluded if that helps. A quick fix might be to switch to npm as provider (we exclude them from the NPM package already)."
+  , issueCommentId = 296129455
+  }

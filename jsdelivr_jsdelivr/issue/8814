@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-06) 14 : 31 : 56 UTC
+  , issueUpdatedAt = 2016 (-01) (-06) 14 : 31 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8814/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8814")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8814
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project awesome-links to 1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8814")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8814.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8814.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8814"
+  , issueCreatedAt = 2016 (-01) (-06) 14 : 31 : 52 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project awesome-links to 1.0.1.\n\n@kernc\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"awesome-links\",\n    \"repo\": \"kernc/awesome-links.css\",\n    \"files\": {\n      \"include\": [\"awesome-links.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/awesome-links\",\n    \"localVersions\": [\"1.0.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\"],\n    \"branchVersions\": [\"1.0.0\"]\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/awesome-links/update.json\",\n  \"version\": \"1.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/awesome-links/1.0.1\",\n  \"branch\": \"awesome-links/1.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 125186443
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

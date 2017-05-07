@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-14) 20 : 28 : 37 UTC
+  , issueUpdatedAt = 2014 (-03) (-14) 20 : 28 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/457/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/457")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 457
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1920405
+        , simpleUserLogin = N "moderndeveloperllc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1920405?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/moderndeveloperllc"
+        }
+  , issueTitle = "respond: being served out, but not searchable"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/457"
+  , issueCreatedAt = 2014 (-03) (-14) 20 : 26 : 40 UTC
+  , issueBody =
+      Just
+        "http://cdn.jsdelivr.net/respond/1.4.2/respond.min.js is available, but I can't search for it on http://www.jsdelivr.com/\n"
+  , issueState = StateClosed
+  , issueId = Id 29467464
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

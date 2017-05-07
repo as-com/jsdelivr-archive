@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-17) 11 : 40 : 52 UTC
+  , issueUpdatedAt = 2016 (-03) (-17) 11 : 40 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10481/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10481")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10481
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5345836
+        , simpleUserLogin = N "YoungCatChen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5345836?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/YoungCatChen"
+        }
+  , issueTitle = "Enables auto-update for the amcharts library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10481")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10481.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10481.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10481"
+  , issueCreatedAt = 2016 (-03) (-16) 22 : 12 : 44 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 141418037
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

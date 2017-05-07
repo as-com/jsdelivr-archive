@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-26) 16 : 36 : 34 UTC
+  , issueUpdatedAt = 2016 (-04) (-26) 16 : 36 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11192/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/11192")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11192
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3978762
+        , simpleUserLogin = N "IanSzot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3978762?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/IanSzot"
+        }
+  , issueTitle = "Huge pings for South America"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11192"
+  , issueCreatedAt = 2016 (-04) (-21) 13 : 37 : 16 UTC
+  , issueBody =
+      Just
+        "Hi, recently users from South America (especially Brazil) have been getting abnormal ping results from jsdelivr. What used to be around 20~40 is now at 140~200.\n\nDebug tool results: http://goo.gl/JM1LEB\n\nYou can also see on the Statistics page how big the load times are.\n"
+  , issueState = StateClosed
+  , issueId = Id 150076823
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

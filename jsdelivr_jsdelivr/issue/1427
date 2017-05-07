@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-13) 12 : 33 : 02 UTC
+  , issueUpdatedAt = 2014 (-08) (-13) 12 : 33 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1427/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1427")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1427
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle =
+      "Path to minified fontawesome.css serving non-minified version"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1427"
+  , issueCreatedAt = 2014 (-08) (-13) 12 : 10 : 33 UTC
+  , issueBody =
+      Just
+        "Here are the headers. You can see that the response etags / content-length are the same for the minified and full versions.\n\n```\n$ curl -I http://cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.min.css\nHTTP/1.1 200 OK\nServer: nginx/1.6.1\nDate: Wed, 13 Aug 2014 12:04:20 GMT\nContent-Type: text/css\nContent-Length: 25197\nConnection: keep-alive\nLast-Modified: Wed, 14 May 2014 20:30:08 GMT\nETag: \"5373d250-626d\"\nAccess-Control-Allow-Origin: *\nCache-Control: public, max-age=31536000\nVary: Accept-Encoding\nX-Cache: HIT\nPOP: exvm-sg\nAccept-Ranges: bytes\n\n$ curl -I http://cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.css\nHTTP/1.1 200 OK\nServer: nginx/1.6.1\nDate: Wed, 13 Aug 2014 12:05:29 GMT\nContent-Type: text/css\nContent-Length: 25197\nConnection: keep-alive\nLast-Modified: Wed, 14 May 2014 20:30:08 GMT\nETag: \"5373d250-626d\"\nAccess-Control-Allow-Origin: *\nCache-Control: public, max-age=31536000\nVary: Accept-Encoding\nX-Cache: HIT\nPOP: exvm-sg\nAccept-Ranges: bytes\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 40148158
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

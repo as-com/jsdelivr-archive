@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-10) 21 : 09 : 14 UTC
+  , issueUpdatedAt = 2014 (-04) (-10) 21 : 09 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/624/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/624")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 624
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 134009
+        , simpleUserLogin = N "ekashida"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/134009?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ekashida"
+        }
+  , issueTitle =
+      "cdn-ssl build of https://github.com/yui/yui3/tree/v3.16.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/624")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/624.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/624.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/624"
+  , issueCreatedAt = 2014 (-04) (-10) 20 : 56 : 53 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 31280956
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

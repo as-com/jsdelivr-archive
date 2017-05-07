@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-21) 10 : 32 : 38 UTC
+  , issueUpdatedAt = 2016 (-04) (-23) 10 : 20 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11185/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/11185")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11185
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1263856
+        , simpleUserLogin = N "ricardopolo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1263856?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ricardopolo"
+        }
+  , issueTitle = "Can we host Google Fonts Here?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11185"
+  , issueCreatedAt = 2016 (-04) (-21) 10 : 25 : 42 UTC
+  , issueBody =
+      Just
+        "Because HTTP2 and sharing the same HTTP connection I would love to host all of our external dependencies in one CDN.\n\nSo would you think that may be possible host a resource that is available in Google Fonts CDN? I think they dont publish the fonts in NPM or Bower.\n"
+  , issueState = StateClosed
+  , issueId = Id 150031595
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

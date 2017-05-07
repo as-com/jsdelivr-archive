@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-09) 22 : 58 : 45 UTC
+  , issueUpdatedAt = 2016 (-09) (-10) 00 : 08 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13586/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13586")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13586
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6261322
+        , simpleUserLogin = N "logaretm"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6261322?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/logaretm"
+        }
+  , issueTitle = "Add vee-validate"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13586")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13586.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13586.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13586"
+  , issueCreatedAt = 2016 (-09) (-03) 15 : 22 : 00 UTC
+  , issueBody =
+      Just "Adds vee-validate VueJS plugin update.json and info.ini\n"
+  , issueState = StateClosed
+  , issueId = Id 174901612
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

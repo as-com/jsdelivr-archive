@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-05) 21 : 30 : 53 UTC
+  , issueUpdatedAt = 2014 (-11) (-05) 21 : 32 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2234/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2234")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2234
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 336433
+        , simpleUserLogin = N "kevinoid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/336433?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kevinoid"
+        }
+  , issueTitle = "Add momentjs.timezone"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2234")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2234.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2234.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2234"
+  , issueCreatedAt = 2014 (-11) (-05) 20 : 48 : 08 UTC
+  , issueBody =
+      Just
+        "This pull request adds the moment-timezone library with the name momentjs.timezone (to match the naming convention for the momentjs library for which it is an addon).  It adds both the current version and previously released versions for users still using them in production.  If this is not desired, I can resubmit without them.\n\nThe `update.json` file uses GitHub for update checking, although npm and bower are also supported by the library (it was unclear if any should be preferred).\n\nI attempted to test the `update.json` file with libgrabber but couldn't make it work for reasons which appeared to be unrelated to `update.json`.  So this may need some additional review to make sure I have written it correctly.\n\nI hope you find it useful,\nKevin\n"
+  , issueState = StateClosed
+  , issueId = Id 47886054
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-21) 22 : 34 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123499348"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123499348"
+  , issueCommentCreatedAt = 2015 (-07) (-21) 22 : 34 : 51 UTC
+  , issueCommentBody =
+      "Probably should add that to a task, would avoid well over 1500 (or however many projects we're at) requests per sync\n"
+  , issueCommentId = 123499348
+  }

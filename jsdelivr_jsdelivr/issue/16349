@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-14) 21 : 24 : 47 UTC
+  , issueUpdatedAt = 2017 (-02) (-14) 21 : 24 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16349/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16349")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16349
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 13964463
+        , simpleUserLogin = N "kevguy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/13964463?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kevguy"
+        }
+  , issueTitle = "Update update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16349")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16349.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16349.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16349"
+  , issueCreatedAt = 2017 (-02) (-14) 05 : 49 : 03 UTC
+  , issueBody = Just "Fix typo"
+  , issueState = StateClosed
+  , issueId = Id 207424413
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

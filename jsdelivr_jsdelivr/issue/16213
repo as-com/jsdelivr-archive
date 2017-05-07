@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-07) 02 : 11 : 20 UTC
+  , issueUpdatedAt = 2017 (-02) (-07) 02 : 11 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16213/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16213")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16213
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 13684891
+        , simpleUserLogin = N "Dog2puppy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/13684891?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Dog2puppy"
+        }
+  , issueTitle = "Update where repo is located"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16213")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16213.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16213.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16213"
+  , issueCreatedAt = 2017 (-02) (-07) 00 : 00 : 26 UTC
+  , issueBody =
+      Just "The repo moved so this PR will fix auto-updating."
+  , issueState = StateClosed
+  , issueId = Id 205744865
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

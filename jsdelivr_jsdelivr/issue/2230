@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-05) 16 : 54 : 38 UTC
+  , issueUpdatedAt = 2014 (-11) (-05) 16 : 57 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2230/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2230")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2230
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 645758
+        , simpleUserLogin = N "bzmw"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/645758?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bzmw"
+        }
+  , issueTitle = "Add in walkway js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2230")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2230.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2230.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2230"
+  , issueCreatedAt = 2014 (-11) (-05) 16 : 52 : 33 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 47859321
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

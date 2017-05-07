@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-24) 18 : 10 : 35 UTC
+  , issueUpdatedAt = 2016 (-05) (-24) 18 : 10 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11795/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11795")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11795
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7224675
+        , simpleUserLogin = N "andreamariotti83"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7224675?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/andreamariotti83"
+        }
+  , issueTitle = "Candy grid system v1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11795")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11795.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11795.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11795"
+  , issueCreatedAt = 2016 (-05) (-24) 13 : 05 : 20 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 156502066
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

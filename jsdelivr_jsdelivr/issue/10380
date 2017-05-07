@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-10) 17 : 32 : 49 UTC
+  , issueUpdatedAt = 2016 (-03) (-10) 17 : 32 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10380/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10380")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10380
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project dash-shaka-playback to 1.0.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10380")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10380.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10380.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10380"
+  , issueCreatedAt = 2016 (-03) (-10) 17 : 32 : 44 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project dash-shaka-playback to 1.0.9.\n\n@clappr\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"dash-shaka-playback\",\n    \"repo\": \"clappr/dash-shaka-playback\",\n    \"files\": {\n      \"include\": [\"dash-shaka-playback.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/clappr.dash-shaka-playback\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.0.8\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.0.8\", \"1.0.9\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/clappr.dash-shaka-playback/update.json\",\n  \"versions\": [\"1.0.9\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/clappr.dash-shaka-playback/1.0.9\",\n  \"branch\": \"dash-shaka-playback/1.0.9\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 139959406
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

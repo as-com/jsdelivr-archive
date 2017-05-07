@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-04) 18 : 51 : 26 UTC
+  , issueUpdatedAt = 2016 (-05) (-04) 18 : 51 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11441/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11441")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11441
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3459542
+        , simpleUserLogin = N "gswalden"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3459542?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gswalden"
+        }
+  , issueTitle = "add swiper3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11441")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11441.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11441.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11441"
+  , issueCreatedAt = 2016 (-05) (-04) 15 : 06 : 44 UTC
+  , issueBody =
+      Just
+        "This library already exists in jsdelivr as [swiper](http://www.jsdelivr.com/projects/swiper), however the file structure changed between v2 and v3, and my other [pull request](https://github.com/jsdelivr/jsdelivr/pull/11440) to fix the existing setup has not passed the tests, despite my search through old issues for guidance. If anyone can offer assistance on https://github.com/jsdelivr/jsdelivr/pull/11440 I would glady close this pull request. \n"
+  , issueState = StateClosed
+  , issueId = Id 153035711
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

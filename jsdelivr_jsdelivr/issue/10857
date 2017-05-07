@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-06) 08 : 54 : 56 UTC
+  , issueUpdatedAt = 2016 (-04) (-06) 08 : 54 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10857/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10857")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10857
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project marx to v2.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10857")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10857.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10857.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10857"
+  , issueCreatedAt = 2016 (-04) (-06) 08 : 03 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project marx to v2.0.2.\n\n@mblode\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"marx\",\n    \"repo\": \"mblode/marx\",\n    \"files\": {\n      \"basePath\": \"css/\",\n      \"include\": [\"marx.min.css\", \"marx.min.css.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/marx\",\n    \"localVersions\": [\"1.3.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.0.8\", \"v1.0.9\", \"1.1.0\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.2.0\", \"v1.2.1\", \"v1.3.0\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/marx/update.json\",\n  \"versions\": [\"v2.0.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/marx/2.0.2\",\n  \"branch\": \"marx/v2.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 146225071
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

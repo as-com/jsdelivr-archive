@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-11) 15 : 09 : 15 UTC
+  , issueUpdatedAt = 2017 (-04) (-11) 15 : 09 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17395/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17395")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17395
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4301907
+        , simpleUserLogin = N "sysadmin-hola"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4301907?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sysadmin-hola"
+        }
+  , issueTitle = "Add Hola fork of dashjs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17395")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17395.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17395.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17395"
+  , issueCreatedAt = 2017 (-04) (-04) 07 : 28 : 09 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 219162637
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-20) 21 : 12 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/67749924"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2802#issuecomment-67749924"
+  , issueCommentCreatedAt = 2014 (-12) (-20) 21 : 12 : 39 UTC
+  , issueCommentBody =
+      "v1.11.2; they're still splitting versions (also considered 'latest' by their CDN it seems)\nhttps://github.com/jquery/codeorigin.jquery.com/commit/a01ac759c2b4b353ac279d0b48f1bae1de0e819a\n"
+  , issueCommentId = 67749924
+  }

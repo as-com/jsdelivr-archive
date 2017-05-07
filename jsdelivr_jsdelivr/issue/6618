@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-29) 13 : 09 : 06 UTC
+  , issueUpdatedAt = 2015 (-08) (-29) 13 : 09 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6618/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6618")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6618
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2483249
+        , simpleUserLogin = N "tylerbhughes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2483249?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tylerbhughes"
+        }
+  , issueTitle = "Updated jquery.hotkeys to latest version"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6618")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6618.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6618.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6618"
+  , issueCreatedAt = 2015 (-08) (-28) 23 : 42 : 06 UTC
+  , issueBody =
+      Just
+        "Since this project has not been released for some time I have not enabled auto-updates for the project.\n\nAlso, while adding the new version I went ahead and included a minified file for version 0.1.0. I did not include a minifed file 0.8b because if you go to the [Project's Releases page](https://github.com/jeresig/jquery.hotkeys/releases) there is not a 0.8b release listed. \n"
+  , issueState = StateClosed
+  , issueId = Id 103813113
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

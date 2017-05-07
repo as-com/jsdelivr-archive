@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-26) 12 : 02 : 55 UTC
+  , issueUpdatedAt = 2015 (-12) (-26) 12 : 02 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8660/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8660")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8660
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 13363340
+        , simpleUserLogin = N "hungluu2106"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/13363340?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hungluu2106"
+        }
+  , issueTitle =
+      "Add emujs - a responsiveness testing tool on browsers"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8660")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8660.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8660.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8660"
+  , issueCreatedAt = 2015 (-12) (-26) 12 : 02 : 29 UTC
+  , issueBody = Just "A responsiveness testing tool on browsers\n"
+  , issueState = StateClosed
+  , issueId = Id 123926494
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

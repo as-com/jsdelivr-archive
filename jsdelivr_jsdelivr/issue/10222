@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-02) 11 : 07 : 53 UTC
+  , issueUpdatedAt = 2016 (-03) (-02) 11 : 07 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10222/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10222")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10222
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 499550
+        , simpleUserLogin = N "yyx990803"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/499550?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/yyx990803"
+        }
+  , issueTitle = "Add Vuex"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10222")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10222.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10222.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10222"
+  , issueCreatedAt = 2016 (-03) (-01) 23 : 29 : 17 UTC
+  , issueBody = Just "https://github.com/vuejs/vuex\n"
+  , issueState = StateClosed
+  , issueId = Id 137720608
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

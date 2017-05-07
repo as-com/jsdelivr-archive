@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 13 : 27 : 23 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 13 : 27 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1015/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1015")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1015
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1920405
+        , simpleUserLogin = N "moderndeveloperllc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1920405?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/moderndeveloperllc"
+        }
+  , issueTitle = "Add jQuery.mb.browser. "
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1015")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1015.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1015.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1015"
+  , issueCreatedAt = 2014 (-06) (-25) 19 : 21 : 17 UTC
+  , issueBody =
+      Just
+        "There are no tags, so I just created a 0.1 folder. The .min isn't fully minimized, but I guess that is as much as he wants it to be. Only 1k difference between what he has and a fully minified file.\n"
+  , issueState = StateClosed
+  , issueId = Id 36513215
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-27) 21 : 22 : 56 UTC
+  , issueUpdatedAt = 2017 (-01) (-27) 21 : 22 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16008/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16008")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16008
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project minifill to 0.0.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16008")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16008.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16008.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16008"
+  , issueCreatedAt = 2017 (-01) (-26) 15 : 04 : 55 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project minifill to 0.0.4.\n\n@thednp\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"minifill\",\n    \"repo\": \"thednp/minifill\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/minifill\",\n    \"localVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/minifill/update.json\",\n  \"versions\": [\"0.0.4\"],\n  \"updateRemote\": true,\n  \"version\": \"0.0.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/minifill/0.0.4\",\n  \"branch\": \"minifill/0.0.4\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 203394053
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

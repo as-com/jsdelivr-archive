@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-25) 22 : 25 : 22 UTC
+  , issueUpdatedAt = 2014 (-03) (-25) 22 : 28 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/512/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/512")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 512
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2361099
+        , simpleUserLogin = N "Nagriar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2361099?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Nagriar"
+        }
+  , issueTitle = "Fix the failure of wget"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/512")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/512.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/512.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/512"
+  , issueCreatedAt = 2014 (-03) (-25) 22 : 22 : 00 UTC
+  , issueBody =
+      Just
+        "The content of `algoliasearch.min.js` was false.\n\nSorry for that.\n"
+  , issueState = StateClosed
+  , issueId = Id 30169543
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

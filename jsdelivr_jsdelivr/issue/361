@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-16) 13 : 52 : 23 UTC
+  , issueUpdatedAt = 2014 (-06) (-18) 11 : 03 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/361/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/361")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 361
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1647155
+        , simpleUserLogin = N "nextroy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1647155?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nextroy"
+        }
+  , issueTitle =
+      "Added Jquery-Numerator plugin to the projects list/library."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/361")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/361.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/361.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/361"
+  , issueCreatedAt = 2014 (-02) (-16) 09 : 33 : 27 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 27667238
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

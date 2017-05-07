@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-09) 16 : 48 : 51 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 06 : 45 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/776/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/776")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 776
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 211033
+        , simpleUserLogin = N "jfmoy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/211033?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jfmoy"
+        }
+  , issueTitle = "Updated imagesloaded to version 3.1.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/776")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/776.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/776.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/776"
+  , issueCreatedAt = 2014 (-05) (-09) 10 : 04 : 15 UTC
+  , issueBody =
+      Just
+        "A packaged version is now available and should be used as main file instead of imagesloaded.min.js that cannot work on its own (requires event emitter, and eventie).\n"
+  , issueState = StateClosed
+  , issueId = Id 33159776
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

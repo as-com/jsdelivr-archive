@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-22) 19 : 06 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123829233"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123829233"
+  , issueCommentCreatedAt = 2015 (-07) (-22) 19 : 06 : 09 UTC
+  , issueCommentBody =
+      "I am not saying that the dev should check the integrity after they download.\nThe front-end check will always generate the same value since the file doesnt change. The dev will copy the SRI and use it permanently never coming back to our website. If the file breaks the hash will change and the browser will decline the file. Everything works.\n1. He comes to the website and opens http://www.jsdelivr.com/#!jquery\n2. His browser generates the SRI for those files\n3. He copies the script tag with the SRI and link\n4. He never visits the website again and if the file changes the links will break\n5. IF he comes back, the browser will generate the SRI again and it will be the same as the last time\n\nHe is not required at any step to use the website to verify anything after the initial visit.\n"
+  , issueCommentId = 123829233
+  }

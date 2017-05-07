@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-07) 04 : 51 : 33 UTC
+  , issueUpdatedAt = 2016 (-11) (-07) 04 : 51 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14668/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14668")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14668
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project skeljs to v3.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14668")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14668.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14668.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14668"
+  , issueCreatedAt = 2016 (-11) (-05) 19 : 06 : 09 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project skeljs to v3.0.1.\n\n@ajlkn\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"skeljs\",\n    \"repo\": \"ajlkn/skel\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/skeljs\",\n    \"localVersions\": [\"0.4\", \"0.4.6\"],\n    \"remoteVersions\": [\"v3.0.0\", \"v3.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/skeljs/update.json\",\n  \"versions\": [\"v3.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/skeljs/3.0.1\",\n  \"branch\": \"skeljs/v3.0.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 187516681
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

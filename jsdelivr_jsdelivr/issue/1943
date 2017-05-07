@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-07) 15 : 59 : 54 UTC
+  , issueUpdatedAt = 2014 (-10) (-09) 07 : 53 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1943/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1943")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1943
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project cilantro to 2.3.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1943")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1943.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1943.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1943"
+  , issueCreatedAt = 2014 (-10) (-07) 15 : 32 : 58 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project cilantro to 2.3.4.\n\n@cbmi\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"cilantro\",\n    \"repo\": \"cbmi/cilantro\",\n    \"files\": {\n      \"basePath\": \"cdn/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/cilantro\",\n    \"localVersions\": [\"2.2.22\", \"2.2.23\", \"2.2.24\", \"2.2.25\", \"2.2.26\", \"2.2.27\", \"2.2.28\", \"2.2.29\", \"2.2.30\", \"2.2.31\", \"2.2.32\", \"2.2.35\", \"2.2.36\", \"2.3.0\", \"2.3.1\", \"2.3.2\", \"2.3.3\"],\n    \"remoteVersions\": [\"2.2.12\", \"2.2.13\", \"2.2.14\", \"2.2.15\", \"2.2.16\", \"2.2.17\", \"2.2.18\", \"2.2.19\", \"2.2.20\", \"2.2.21\", \"2.2.22\", \"2.2.23\", \"2.2.24\", \"2.2.25\", \"2.2.26\", \"2.2.27\", \"2.2.28\", \"2.2.29\", \"2.2.30\", \"2.2.31\", \"2.2.32\", \"2.2.33\", \"2.2.34\", \"2.2.35\", \"2.2.36\", \"2.3.0\", \"2.3.1\", \"2.3.2\", \"2.3.3\", \"2.3.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.3.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/cilantro/2.3.4\",\n  \"branch\": \"cilantro/2.3.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 45121951
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

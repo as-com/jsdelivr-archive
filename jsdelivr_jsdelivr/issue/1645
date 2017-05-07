@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-07) 21 : 35 : 20 UTC
+  , issueUpdatedAt = 2014 (-09) (-07) 21 : 35 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1645/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1645")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1645
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1663993
+        , simpleUserLogin = N "AlexBeauchemin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1663993?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/AlexBeauchemin"
+        }
+  , issueTitle = "New release not catched by jsdelivr"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1645"
+  , issueCreatedAt = 2014 (-09) (-07) 06 : 32 : 53 UTC
+  , issueBody =
+      Just
+        "Pushed a new release 2 weeks ago, it has not been updated on jsdelivr.\n\nAm i doing something wrong? Api is showing my 2 releases (1.0 & 1.1) : https://api.github.com/repos/AlexBeauchemin/jssavior/releases\n\nBut jsdelivr only showing version 1.0\n"
+  , issueState = StateClosed
+  , issueId = Id 42136124
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

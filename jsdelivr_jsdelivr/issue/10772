@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-02) 12 : 25 : 57 UTC
+  , issueUpdatedAt = 2016 (-04) (-02) 12 : 25 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10772/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10772")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10772
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1172588
+        , simpleUserLogin = N "nemanja-stanarevic"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1172588?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/nemanja-stanarevic"
+        }
+  , issueTitle = "Adding Meldio Client Driver to jsdelivr CDN"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10772")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10772.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10772.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10772"
+  , issueCreatedAt = 2016 (-04) (-01) 18 : 35 : 27 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 145251706
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-17) 14 : 45 : 22 UTC
+  , issueUpdatedAt = 2014 (-06) (-29) 09 : 13 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/362/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/362")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 362
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add uikit"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/362")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/362.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/362.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/362"
+  , issueCreatedAt = 2014 (-02) (-16) 10 : 15 : 12 UTC
+  , issueBody =
+      Just
+        "Hello,\nI wanna add uikit to this project, uikit is a lightweight and modular front-end framework for developing fast and powerful web interfaces, you can find more detail about it on [https://github.com/uikit/uikit] & [http://www.getuikit.com/]\nIf I need to do something more to match this project's format, please tell me.\nThanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 27667744
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

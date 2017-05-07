@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-27) 18 : 20 : 31 UTC
+  , issueUpdatedAt = 2014 (-12) (-27) 18 : 20 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2850/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2850")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2850
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7634596
+        , simpleUserLogin = N "MidnightWonderer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7634596?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/MidnightWonderer"
+        }
+  , issueTitle = "Add update.json for jsface"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2850")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2850.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2850.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2850"
+  , issueCreatedAt = 2014 (-12) (-27) 17 : 06 : 03 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 52961244
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

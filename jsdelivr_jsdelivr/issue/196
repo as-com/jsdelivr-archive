@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-02) 01 : 04 : 51 UTC
+  , issueUpdatedAt = 2014 (-02) (-02) 01 : 04 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/196/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/196")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/enhancement"
+          , labelName = N "enhancement"
+          }
+      ]
+  , issueNumber = 196
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "A real API for jsDelivr"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/196"
+  , issueCreatedAt = 2013 (-12) (-11) 15 : 12 : 37 UTC
+  , issueBody =
+      Just
+        "A real fully featured API is needed.\n\n`http://api.jsdelivr.com/packages/json`\nOutputs all hosted projects and files of latest versions\n\n`http://api.jsdelivr.com/packages/json?versions=all`\nOutputs all hosted projects and files for all hosted versions\n\n`http://api.jsdelivr.com/packages/xml`\nSame XML formatted output\n\n`http://api.jsdelivr.com/packages/xml?hash=true`\nIncludes md5 hashes for each file\n\n`http://api.jsdelivr.com/project/jquery`\nBy default outputs JSON with jQuery information and files of latest version\n\n`http://api.jsdelivr.com/project/jquery?version=1.9.1&hash=true&url=true`\nRequest info for specific version and include hashes. Also instead of relative paths outputs full URLs for each file.\n\n`http://api.jsdelivr.com/versions/jquery`\nA list of all hosted versions of a project\n\n`http://api.jsdelivr.com/lastver/jquery`\nOutput the latest version of a hosted project\n\n`http://api.jsdelivr.com/files/jquery`\nOutput the list of hosted files for a project. By default latest version\n\n`http://www.jsdelivr.com/mainfile/jquery`\nGet the main file of a project. Relative by default. &url=true for full URLs\n"
+  , issueState = StateClosed
+  , issueId = Id 24112804
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

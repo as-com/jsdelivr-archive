@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 31 : 37 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 31 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16988/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16988")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16988
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 26072661
+        , simpleUserLogin = N "rrurr"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/26072661?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rrurr"
+        }
+  , issueTitle = "Create info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16988")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16988.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16988.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16988"
+  , issueCreatedAt = 2017 (-03) (-17) 20 : 16 : 25 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 215111214
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

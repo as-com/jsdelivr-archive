@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-25) 20 : 07 : 23 UTC
+  , issueUpdatedAt = 2016 (-04) (-25) 20 : 07 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11204/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11204")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11204
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1263856
+        , simpleUserLogin = N "ricardopolo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1263856?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ricardopolo"
+        }
+  , issueTitle = "bootstrap slider"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11204")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11204.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11204.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11204"
+  , issueCreatedAt = 2016 (-04) (-22) 01 : 57 : 10 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 150242735
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

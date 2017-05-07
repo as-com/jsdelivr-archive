@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-21) 20 : 49 : 10 UTC
+  , issueUpdatedAt = 2014 (-07) (-21) 20 : 49 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1266/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1266")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1266
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 645758
+        , simpleUserLogin = N "bzmw"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/645758?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bzmw"
+        }
+  , issueTitle = "Add Raven.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1266")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1266.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1266.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1266"
+  , issueCreatedAt = 2014 (-07) (-21) 20 : 28 : 33 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 38341444
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-30) 19 : 55 : 26 UTC
+  , issueUpdatedAt = 2017 (-03) (-30) 19 : 55 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17310/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17310")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17310
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 910829
+        , simpleUserLogin = N "rafa8626"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/910829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rafa8626"
+        }
+  , issueTitle = "[Author] Update MediaElement Plugins' update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17310")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17310.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17310.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17310"
+  , issueCreatedAt = 2017 (-03) (-30) 17 : 25 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 218269448
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

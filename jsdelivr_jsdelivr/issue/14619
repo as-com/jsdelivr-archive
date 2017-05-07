@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-03) 02 : 35 : 05 UTC
+  , issueUpdatedAt = 2016 (-11) (-03) 02 : 35 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14619/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14619")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14619
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project wheelnav to v1.7.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14619")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14619.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14619.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14619"
+  , issueCreatedAt = 2016 (-11) (-03) 02 : 35 : 02 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project wheelnav to v1.7.0.\n\n@softwaretailoring\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"wheelnav\",\n    \"repo\": \"softwaretailoring/wheelnav\",\n    \"files\": {\n      \"basePath\": \"js/dist\",\n      \"include\": [\"wheelnav.min.js\", \"wheelnav.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/wheelnav\",\n    \"localVersions\": [\"1.6.1\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.1.0\", \"v1.2.0\", \"v1.3.0\", \"v1.3.1\", \"v1.4.0\", \"v1.5.0\", \"v1.5.1\", \"v1.5.2\", \"v1.5.3\", \"v1.5.4\", \"v1.5.5\", \"v1.6.0\", \"v1.6.1\", \"v1.7.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/wheelnav/update.json\",\n  \"versions\": [\"v1.7.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.7.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/wheelnav/1.7.0\",\n  \"branch\": \"wheelnav/v1.7.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 186967400
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

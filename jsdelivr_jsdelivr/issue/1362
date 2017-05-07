@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-06) 13 : 27 : 35 UTC
+  , issueUpdatedAt = 2014 (-08) (-06) 13 : 27 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1362/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1362")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1362
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 291060
+        , simpleUserLogin = N "Stolz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/291060?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Stolz"
+        }
+  , issueTitle = "Updated Zurb Foundation for sites to v5.3.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1362")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1362.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1362.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1362"
+  , issueCreatedAt = 2014 (-08) (-06) 08 : 00 : 44 UTC
+  , issueBody =
+      Just
+        "Updated Zurb Foundation for sites to v5.3.3\n\nChangelog http://foundation.zurb.com/docs/changelog.html\n"
+  , issueState = StateClosed
+  , issueId = Id 39597998
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

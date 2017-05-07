@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-30) 20 : 34 : 00 UTC
+  , issueUpdatedAt = 2015 (-08) (-30) 20 : 34 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6631/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6631")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6631
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project lazy.js to 0.4.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6631")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6631.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6631.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6631"
+  , issueCreatedAt = 2015 (-08) (-30) 20 : 33 : 53 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project lazy.js to 0.4.1.\n\n@dtao\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"lazy.js\",\n    \"repo\": \"dtao/lazy.js\",\n    \"files\": {\n      \"include\": [\"lazy.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/lazy.js\",\n    \"localVersions\": [\"0.4.0\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.2.0\", \"0.2.1\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.4.0\", \"0.4.1\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/lazy.js/update.json\",\n  \"version\": \"0.4.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/lazy.js/0.4.1\",\n  \"branch\": \"lazy.js/0.4.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 103944882
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

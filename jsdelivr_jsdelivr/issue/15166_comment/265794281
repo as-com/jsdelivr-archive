@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-12) (-08) 17 : 02 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/265794281"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15166#issuecomment-265794281"
+  , issueCommentCreatedAt = 2016 (-12) (-08) 17 : 02 : 55 UTC
+  , issueCommentBody =
+      "Not sure, it should be picking that up.\r\n\r\nI pushed https://github.com/jsdelivr/jsdelivr/commit/6d029bcac4589bdc81f77d1b9e0209be57160676 as an attempt fix but if it doesn't I'll look into further"
+  , issueCommentId = 265794281
+  }

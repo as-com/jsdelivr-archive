@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-02) 01 : 04 : 12 UTC
+  , issueUpdatedAt = 2014 (-02) (-02) 01 : 04 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/323/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/323")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 323
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1068978
+        , simpleUserLogin = N "hnrch02"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1068978?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hnrch02"
+        }
+  , issueTitle = "JavaScript files' MIME type"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/323"
+  , issueCreatedAt = 2014 (-01) (-31) 12 : 28 : 19 UTC
+  , issueBody =
+      Just
+        "Is there any reason as to why JS files are getting served with the `application/x-javascript` `Content-Type`? [RFC 4329](http://www.rfc-editor.org/rfc/rfc4329.txt) discourages the use of these \"experimental\" media types and suggests `application/javascript` instead.\n"
+  , issueState = StateClosed
+  , issueId = Id 26678047
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-26) 18 : 56 : 56 UTC
+  , issueUpdatedAt = 2014 (-10) (-26) 18 : 57 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2121/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2121")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2121
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 892048
+        , simpleUserLogin = N "ngryman"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/892048?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ngryman"
+        }
+  , issueTitle = "jquery.finger."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2121")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2121.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2121.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2121"
+  , issueCreatedAt = 2014 (-10) (-26) 17 : 18 : 03 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nMy submission for **jquery.finger**: https://github.com/ngryman/jquery.finger.\n\nThanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 46848408
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

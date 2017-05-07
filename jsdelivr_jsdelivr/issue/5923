@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-16) 19 : 00 : 47 UTC
+  , issueUpdatedAt = 2015 (-07) (-16) 19 : 00 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5923/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5923")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5923
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 425410
+        , simpleUserLogin = N "anshumanf"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/425410?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/anshumanf"
+        }
+  , issueTitle = "Set up automatic updates for jCarousel"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5923")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5923.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5923.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5923"
+  , issueCreatedAt = 2015 (-07) (-16) 17 : 17 : 24 UTC
+  , issueBody = Just "Will upgrade from 0.3.0-rc1 to 0.3.3\n"
+  , issueState = StateClosed
+  , issueId = Id 95482592
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

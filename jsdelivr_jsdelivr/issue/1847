@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-27) 16 : 21 : 52 UTC
+  , issueUpdatedAt = 2014 (-09) (-27) 16 : 21 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1847/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1847")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1847
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8939145
+        , simpleUserLogin = N "clipclic"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8939145?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/clipclic"
+        }
+  , issueTitle = "Adding mainsite.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1847")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1847.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1847.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1847"
+  , issueCreatedAt = 2014 (-09) (-27) 16 : 17 : 44 UTC
+  , issueBody = Just "added mainsite.js\n"
+  , issueState = StateClosed
+  , issueId = Id 44179138
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

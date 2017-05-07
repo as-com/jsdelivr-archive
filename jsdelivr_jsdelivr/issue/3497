@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-18) 01 : 03 : 18 UTC
+  , issueUpdatedAt = 2015 (-02) (-18) 01 : 03 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3497/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3497")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3497
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7966759
+        , simpleUserLogin = N "dfedgar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7966759?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dfedgar"
+        }
+  , issueTitle =
+      "Adding the latest GSAP version (1.15.1), removing the oldest version of GSAP and fixing auto-update"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3497")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3497.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3497.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3497"
+  , issueCreatedAt = 2015 (-02) (-18) 01 : 00 : 02 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 58008959
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

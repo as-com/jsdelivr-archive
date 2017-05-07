@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-16) 23 : 31 : 37 UTC
+  , issueUpdatedAt = 2014 (-04) (-16) 23 : 31 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/664/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/664")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 664
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 178641
+        , simpleUserLogin = N "ellisonleao"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/178641?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ellisonleao"
+        }
+  , issueTitle = "Add phaser 2.0.3 version"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/664")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/664.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/664.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/664"
+  , issueCreatedAt = 2014 (-04) (-16) 23 : 31 : 16 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 31689375
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-30) 19 : 23 : 26 UTC
+  , issueUpdatedAt = 2014 (-10) (-30) 19 : 23 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1787/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1787")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1787
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 295778
+        , simpleUserLogin = N "klml"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/295778?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/klml"
+        }
+  , issueTitle = "add editor"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1787")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1787.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1787.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1787"
+  , issueCreatedAt = 2014 (-09) (-20) 17 : 32 : 14 UTC
+  , issueBody =
+      Just
+        "Editor is not a WYSIWYG editor, it is a plain text markdown editor. Thanks for the great project codemirror, without which editor can never be created.\n"
+  , issueState = StateClosed
+  , issueId = Id 43315245
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

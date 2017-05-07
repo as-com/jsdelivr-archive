@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-30) 21 : 59 : 41 UTC
+  , issueUpdatedAt = 2016 (-09) (-30) 21 : 59 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14013/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14013")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14013
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9658016
+        , simpleUserLogin = N "qrac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9658016?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/qrac"
+        }
+  , issueTitle = "Update info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14013")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14013.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14013.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14013"
+  , issueCreatedAt = 2016 (-09) (-27) 16 : 58 : 35 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 179552143
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

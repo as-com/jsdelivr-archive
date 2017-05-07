@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-30) 05 : 18 : 38 UTC
+  , issueUpdatedAt = 2014 (-11) (-30) 05 : 26 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2549/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2549")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2549
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1840854
+        , simpleUserLogin = N "rileyjshaw"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1840854?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rileyjshaw"
+        }
+  , issueTitle = "Add tappy"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2549")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2549.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2549.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2549"
+  , issueCreatedAt = 2014 (-11) (-30) 04 : 40 : 04 UTC
+  , issueBody =
+      Just
+        "Tappy is a JavaScript library for recording and comparing rhythms\n"
+  , issueState = StateClosed
+  , issueId = Id 50446853
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

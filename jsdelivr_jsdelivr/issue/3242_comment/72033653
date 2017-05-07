@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-29) 14 : 32 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/72033653"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3242#issuecomment-72033653"
+  , issueCommentCreatedAt = 2015 (-01) (-29) 14 : 32 : 15 UTC
+  , issueCommentBody =
+      "It will definitely break the combination features when more than files are combined from a single project.\nExample URL:\nhttp://cdn.jsdelivr.net/g/jquery@2.1.0,angularjs@1.2.14(angular.min.js+angular-resource.min.js+angular-animate.min.js+angular-cookies.min.js+angular-route.min.js+angular-sanitize.min.js)\n([docs](https://github.com/jsdelivr/jsdelivr#load-multiple-files-with-single-http-request))\n\nTechnically I can merge it but then this feature wont work for riot\n"
+  , issueCommentId = 72033653
+  }

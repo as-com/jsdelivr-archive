@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-15) 13 : 07 : 32 UTC
+  , issueUpdatedAt = 2016 (-05) (-15) 13 : 07 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11623/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11623")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11623
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4902746
+        , simpleUserLogin = N "goessner"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4902746?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/goessner"
+        }
+  , issueTitle = "final first commit of v2 ..."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11623")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11623.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11623.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11623"
+  , issueCreatedAt = 2016 (-05) (-15) 12 : 54 : 26 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 154907331
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-03) 09 : 56 : 01 UTC
+  , issueUpdatedAt = 2014 (-12) (-03) 09 : 56 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2587/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2587")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2587
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1072660
+        , simpleUserLogin = N "paulo-raca"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1072660?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/paulo-raca"
+        }
+  , issueTitle = "Added handsontable extensions for version 0.12."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2587")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2587.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2587.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2587"
+  , issueCreatedAt = 2014 (-12) (-02) 21 : 12 : 17 UTC
+  , issueBody =
+      Just
+        "These are the updated versions of the files found in /files/jquery.handsontable/0.11.2/extensions/\n\nIn particular, I use removeRow plugin\n"
+  , issueState = StateClosed
+  , issueId = Id 50721661
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

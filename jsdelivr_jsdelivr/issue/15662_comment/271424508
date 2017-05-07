@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-01) (-09) 22 : 15 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 4303
+        , simpleUserLogin = N "jdalton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4303?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jdalton"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/271424508"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15662#issuecomment-271424508"
+  , issueCommentCreatedAt = 2017 (-01) (-09) 22 : 13 : 34 UTC
+  , issueCommentBody =
+      "Ah, I think there's a bit of a bug \128563\r\n\r\nIt says the main file is this, which points to a 404:\r\nhttps://cdn.jsdelivr.net/inferno/1.1.1/packages/inferno/dist/inferno.min.js\r\n\r\nThe \"mainfile\" entry needs to be changed to the based-path of:\r\n```txt\r\nmainfile = \"inferno.min.js\"\r\n```"
+  , issueCommentId = 271424508
+  }

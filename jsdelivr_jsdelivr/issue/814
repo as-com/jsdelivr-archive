@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-15) 20 : 09 : 09 UTC
+  , issueUpdatedAt = 2014 (-07) (-09) 08 : 24 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/814/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/814")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 814
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 744538
+        , simpleUserLogin = N "gavinhungry"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/744538?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gavinhungry"
+        }
+  , issueTitle = "Add typestring 1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/814")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/814.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/814.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/814"
+  , issueCreatedAt = 2014 (-05) (-15) 19 : 08 : 27 UTC
+  , issueBody =
+      Just "From https://github.com/gavinhungry/typestring\n"
+  , issueState = StateClosed
+  , issueId = Id 33615342
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-06) 13 : 41 : 51 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 14 : 50 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/417/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/417")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 417
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle =
+      "remove useless file, jsdelivr don't provide such a zip tarball file"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/417")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/417.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/417.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/417"
+  , issueCreatedAt = 2014 (-03) (-06) 02 : 28 : 19 UTC
+  , issueBody =
+      Just
+        "Hi, I found there is a useless/wrong file here, and seems it's need to be removed.\n"
+  , issueState = StateClosed
+  , issueId = Id 28845214
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

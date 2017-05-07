@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-09) 10 : 03 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/129150244"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6320#issuecomment-129150244"
+  , issueCommentCreatedAt = 2015 (-08) (-09) 10 : 03 : 07 UTC
+  , issueCommentBody =
+      "`\"basePath\": \"dist/\",` needs to be inside `files` https://github.com/jsdelivr/libgrabber#examples\n\nthats why it failed to update\n"
+  , issueCommentId = 129150244
+  }

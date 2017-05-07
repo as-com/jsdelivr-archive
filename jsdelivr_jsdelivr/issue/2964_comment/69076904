@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-07) 20 : 14 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/69076904"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2964#issuecomment-69076904"
+  , issueCommentCreatedAt = 2015 (-01) (-07) 19 : 28 : 51 UTC
+  , issueCommentBody =
+      "jquery-jvectormap.css and jquery-jvectormap.js. seem to be enough. But yes the fact that they are not minified is bad. Maybe ask the author to create a `dist/` folder with production files?\n"
+  , issueCommentId = 69076904
+  }

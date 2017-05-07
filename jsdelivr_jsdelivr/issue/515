@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-27) 14 : 35 : 10 UTC
+  , issueUpdatedAt = 2014 (-03) (-27) 14 : 35 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/515/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/515")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 515
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 59507
+        , simpleUserLogin = N "bdukes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/59507?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bdukes"
+        }
+  , issueTitle = "New Cycle2 versions, plus tcycle"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/515")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/515.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/515.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/515"
+  , issueCreatedAt = 2014 (-03) (-26) 20 : 51 : 16 UTC
+  , issueBody =
+      Just
+        "Add version 20140314 and 20140126 for cycle2, and add tcycle\n"
+  , issueState = StateClosed
+  , issueId = Id 30250279
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

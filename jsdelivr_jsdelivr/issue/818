@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-16) 18 : 19 : 14 UTC
+  , issueUpdatedAt = 2014 (-05) (-16) 18 : 25 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/818/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/818")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 818
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add Ink v3.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/818")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/818.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/818.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/818"
+  , issueCreatedAt = 2014 (-05) (-16) 09 : 00 : 08 UTC
+  , issueBody =
+      Just
+        "reference:\nhttps://github.com/sapo/Ink/releases/download/3.0.1/ink-3.0.1.zip\n"
+  , issueState = StateClosed
+  , issueId = Id 33657984
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

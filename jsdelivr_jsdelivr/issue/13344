@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 23 : 09 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 23 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13344/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13344")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13344
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5070245
+        , simpleUserLogin = N "gitaeks"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5070245?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gitaeks"
+        }
+  , issueTitle = "Add kimsQ RC project "
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13344")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13344.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13344.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13344"
+  , issueCreatedAt = 2016 (-08) (-20) 04 : 29 : 02 UTC
+  , issueBody = Just "Add kimsQ RC project !\n"
+  , issueState = StateClosed
+  , issueId = Id 172252752
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

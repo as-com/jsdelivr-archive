@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-22) 16 : 33 : 11 UTC
+  , issueUpdatedAt = 2017 (-02) (-22) 16 : 33 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16498/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16498")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16498
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project Alorel/alo-cookie to 1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16498")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16498.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16498.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16498"
+  , issueCreatedAt = 2017 (-02) (-22) 16 : 33 : 04 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project Alorel/alo-cookie to 1.1.\n\n@Alorel\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"Alorel/alo-cookie\",\n    \"repo\": \"Alorel/alo-cookie\",\n    \"files\": {\n      \"basePath\": \"src/\",\n      \"include\": [\"cookie.js\", \"cookie.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/alo-cookie\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0\", \"1.0.1\", \"1.0.2\", \"1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/alo-cookie/update.json\",\n  \"versions\": [\"1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/alo-cookie/1.1\",\n  \"branch\": \"Alorel/alo-cookie/1.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 209508068
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

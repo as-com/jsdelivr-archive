@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-06) (-21) 16 : 07 : 34 UTC
+  , issueUpdatedAt = 2013 (-06) (-21) 16 : 08 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/40/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/40")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 40
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 946315
+        , simpleUserLogin = N "Aymkdn"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/946315?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Aymkdn"
+        }
+  , issueTitle = "Sharepointplus v3.0.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/40")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/40.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/40.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/40"
+  , issueCreatedAt = 2013 (-06) (-21) 14 : 57 : 00 UTC
+  , issueBody = Just "Thank you\n"
+  , issueState = StateClosed
+  , issueId = Id 15854953
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

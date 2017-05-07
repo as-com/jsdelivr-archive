@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-21) 16 : 04 : 39 UTC
+  , issueUpdatedAt = 2017 (-04) (-21) 16 : 04 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17740/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17740")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17740
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ecmwf-static-charts to 1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17740")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17740.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17740.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17740"
+  , issueCreatedAt = 2017 (-04) (-21) 16 : 04 : 13 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ecmwf-static-charts to 1.0.1.\n\n@ecmwf-sdo\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ecmwf-static-charts\",\n    \"repo\": \"ecmwf-sdo/static-charts\",\n    \"files\": {\n      \"include\": [\"ecmwf_static_charts.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/ecmwf-static-charts\",\n    \"localVersions\": [\"1.0.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/ecmwf-static-charts/update.json\",\n  \"versions\": [\"1.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/ecmwf-static-charts/1.0.1\",\n  \"branch\": \"ecmwf-static-charts/1.0.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 223427807
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

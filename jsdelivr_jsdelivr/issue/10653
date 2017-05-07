@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-27) 17 : 23 : 30 UTC
+  , issueUpdatedAt = 2016 (-03) (-27) 17 : 23 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10653/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10653")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10653
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project embed.js to v4.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10653")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10653.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10653.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10653"
+  , issueCreatedAt = 2016 (-03) (-27) 10 : 32 : 32 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project embed.js to v4.0.1.\n\n@ritz078\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"embed.js\",\n    \"repo\": \"ritz078/embed.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/embed.js\",\n    \"localVersions\": [\"1.0.0\", \"2.1.0\", \"3.6.0\", \"3.6.1\", \"3.6.2\", \"3.7.0\", \"3.7.1\", \"3.7.2\", \"3.7.4\", \"4.0.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v2.0.0-rc.1\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v2.0.6\", \"v2.1.0\", \"v3.0.0\", \"v3.0.1\", \"v3.0.2\", \"v3.0.3\", \"v3.0.4\", \"v3.1.0\", \"v3.1.1\", \"v3.2.0\", \"v3.2.1\", \"v3.2.2\", \"v3.3.2\", \"v3.3.3\", \"v3.4.3\", \"v3.5.0\", \"3.6.0\", \"3.6.1\", \"3.6.2\", \"v3.7.0\", \"v3.7.1\", \"v3.7.2\", \"v3.7.3\", \"v3.7.4\", \"v4.0.0\", \"v4.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/embed.js/update.json\",\n  \"versions\": [\"v4.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v4.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/embed.js/4.0.1\",\n  \"branch\": \"embed.js/v4.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 143795814
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

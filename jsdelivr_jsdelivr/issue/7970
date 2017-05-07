@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-17) 10 : 08 : 55 UTC
+  , issueUpdatedAt = 2015 (-11) (-17) 10 : 08 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7970/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7970")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7970
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project prelodr to 1.0.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7970")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7970.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7970.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7970"
+  , issueCreatedAt = 2015 (-11) (-17) 10 : 05 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project prelodr to 1.0.6.\n\n@quintana-dev\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"prelodr\",\n    \"repo\": \"quintana-dev/prelodr\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"prelodr.min.js\", \"prelodr.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/prelodr\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/prelodr/update.json\",\n  \"version\": \"1.0.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/prelodr/1.0.6\",\n  \"branch\": \"prelodr/1.0.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 117321562
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

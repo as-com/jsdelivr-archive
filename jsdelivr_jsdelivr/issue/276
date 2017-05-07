@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-21) 18 : 22 : 47 UTC
+  , issueUpdatedAt = 2014 (-01) (-21) 18 : 22 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/276/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/276")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 276
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 482853
+        , simpleUserLogin = N "ismailfazal"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/482853?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ismailfazal"
+        }
+  , issueTitle = "Added version 3.48 of jquery.form.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/276")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/276.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/276.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/276"
+  , issueCreatedAt = 2014 (-01) (-21) 18 : 13 : 11 UTC
+  , issueBody =
+      Just "Added the minified version 3.48 of jquery.form\n"
+  , issueState = StateClosed
+  , issueId = Id 26020906
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

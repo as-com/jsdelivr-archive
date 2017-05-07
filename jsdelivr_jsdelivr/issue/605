@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-08) 18 : 35 : 54 UTC
+  , issueUpdatedAt = 2014 (-04) (-08) 18 : 35 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/605/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/605")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 605
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "update link to minify tool"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/605")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/605.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/605.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/605"
+  , issueCreatedAt = 2014 (-04) (-08) 18 : 33 : 49 UTC
+  , issueBody =
+      Just "update link for minify tool to http://refresh-sf.com/yui/ \n"
+  , issueState = StateClosed
+  , issueId = Id 31096422
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-07) 20 : 35 : 33 UTC
+  , issueUpdatedAt = 2017 (-03) (-07) 20 : 35 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16785/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16785")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16785
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project porterjs to 1.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16785")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16785.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16785.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16785"
+  , issueCreatedAt = 2017 (-03) (-07) 20 : 35 : 30 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project porterjs to 1.1.3.\n\n@ahopkins\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"porterjs\",\n    \"repo\": \"ahopkins/porterjs\",\n    \"files\": {\n      \"include\": [\"porter.min.js\"],\n      \"basePath\": \"bin/\",\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/porterjs\",\n    \"localVersions\": [\"1.0.1\", \"1.1.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/porterjs/update.json\",\n  \"versions\": [\"1.1.3\"],\n  \"updateRemote\": true,\n  \"version\": \"1.1.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/porterjs/1.1.3\",\n  \"branch\": \"porterjs/1.1.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 212550845
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

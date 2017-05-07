@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-31) 23 : 39 : 53 UTC
+  , issueUpdatedAt = 2016 (-10) (-31) 23 : 39 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14548/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14548")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14548
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular.pressure to 2.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14548")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14548.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14548.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14548"
+  , issueCreatedAt = 2016 (-10) (-31) 23 : 39 : 48 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.pressure to 2.0.1.\n\n@thierryc\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.pressure\",\n    \"repo\": \"thierryc/angular-pressure\",\n    \"files\": {\n      \"include\": [\"angular.pressure.js\", \"angular.pressure.min.js\", \"angular.pressure.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.pressure\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"2.0.0\", \"2.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.pressure/update.json\",\n  \"versions\": [\"v1.0.5\", \"2.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"2.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.pressure/2.0.1\",\n  \"branch\": \"angular.pressure/2.0.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 186429490
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

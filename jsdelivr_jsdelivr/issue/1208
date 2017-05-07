@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-14) 17 : 18 : 31 UTC
+  , issueUpdatedAt = 2014 (-07) (-14) 17 : 18 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1208/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1208")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1208
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 123563
+        , simpleUserLogin = N "sbilly"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/123563?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sbilly"
+        }
+  , issueTitle = "add multiple opensource javascript libs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1208")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1208.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1208.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1208"
+  , issueCreatedAt = 2014 (-07) (-14) 07 : 39 : 47 UTC
+  , issueBody =
+      Just "topojson v1.6.4\nplanetary.js v1.1.1\njvectormap v1.2.2\n"
+  , issueState = StateClosed
+  , issueId = Id 37764971
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

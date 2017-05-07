@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-23) 10 : 19 : 58 UTC
+  , issueUpdatedAt = 2016 (-04) (-23) 10 : 19 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11225/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11225")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11225
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project canadarm to 1.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11225")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11225.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11225.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11225"
+  , issueCreatedAt = 2016 (-04) (-22) 22 : 32 : 28 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project canadarm to 1.0.2.\n\n@cerner\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"canadarm\",\n    \"repo\": \"cerner/canadarm\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/canadarm\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/canadarm/update.json\",\n  \"versions\": [\"1.0.2\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/canadarm/1.0.2\",\n  \"branch\": \"canadarm/1.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 150486695
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

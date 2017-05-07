@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-01) 09 : 52 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1443911
+        , simpleUserLogin = N "lpinca"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1443911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lpinca"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/68483364"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2886#issuecomment-68483364"
+  , issueCommentCreatedAt = 2015 (-01) (-01) 09 : 52 : 16 UTC
+  , issueCommentBody =
+      "> jPlayer Repository Refactor: All the circle player specific files are now in the lib/circle-player folder.\n\nI didn't include that skin as it is no longer present in the default `dist` folder and now lives in a separate folder with its own js files.\nIt's probably better to ship it as a separate project.\n"
+  , issueCommentId = 68483364
+  }

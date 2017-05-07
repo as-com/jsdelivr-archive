@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-15) 21 : 15 : 54 UTC
+  , issueUpdatedAt = 2014 (-07) (-15) 21 : 15 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1219/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1219")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1219
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1008705
+        , simpleUserLogin = N "hgoebl"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1008705?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hgoebl"
+        }
+  , issueTitle = "add mobile-detect.js@0.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1219")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1219.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1219.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1219"
+  , issueCreatedAt = 2014 (-07) (-15) 21 : 08 : 24 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 37925965
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

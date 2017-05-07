@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-13) 17 : 29 : 45 UTC
+  , issueUpdatedAt = 2017 (-01) (-13) 17 : 29 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15762/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15762")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15762
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6059356
+        , simpleUserLogin = N "limonte"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6059356?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/limonte"
+        }
+  , issueTitle = "Add vaadin-split-layout"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15762")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15762.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15762.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15762"
+  , issueCreatedAt = 2017 (-01) (-12) 15 : 03 : 32 UTC
+  , issueBody =
+      Just
+        "Add [vaadin-split-layout](https://github.com/vaadin/vaadin-split-layout) - a Polymer component to partition a layout into resizeable areas\r\n\r\nhttps://vaadin.com/elements/-/element/vaadin-split-layout"
+  , issueState = StateClosed
+  , issueId = Id 200389830
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-13) 20 : 47 : 47 UTC
+  , issueUpdatedAt = 2014 (-11) (-13) 20 : 47 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2358/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2358")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2358
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 656083
+        , simpleUserLogin = N "wsmckenz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/656083?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wsmckenz"
+        }
+  , issueTitle = "New library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2358")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2358.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2358.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2358"
+  , issueCreatedAt = 2014 (-11) (-13) 20 : 43 : 43 UTC
+  , issueBody =
+      Just
+        "I am working with an industry group to develop a high-speed websocket protocol for exchange of drilling data from oilfield facilities. This library will allow simple access to Avro data schemas and a binary serializer for Avro messages. I'm hoping this sort of work is appropriate for the purposes of jsdelivr.\n"
+  , issueState = StateClosed
+  , issueId = Id 48689267
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-03) 03 : 50 : 36 UTC
+  , issueUpdatedAt = 2016 (-07) (-03) 03 : 50 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12525/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12525")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12525
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3487535
+        , simpleUserLogin = N "surunzi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3487535?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/surunzi"
+        }
+  , issueTitle = "Add Eruda"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12525")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12525.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12525.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12525"
+  , issueCreatedAt = 2016 (-07) (-03) 03 : 43 : 34 UTC
+  , issueBody = Just "Console for Mobile Browsers\n"
+  , issueState = StateClosed
+  , issueId = Id 163545617
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

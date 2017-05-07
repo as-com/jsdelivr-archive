@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-28) 12 : 05 : 35 UTC
+  , issueUpdatedAt = 2015 (-12) (-28) 12 : 05 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8672/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8672")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8672
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2676795
+        , simpleUserLogin = N "jehna"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2676795?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jehna"
+        }
+  , issueTitle = "Add ga-lite"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8672")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8672.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8672.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8672"
+  , issueCreatedAt = 2015 (-12) (-27) 22 : 39 : 10 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 123999277
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

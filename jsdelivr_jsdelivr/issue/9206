@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-19) 12 : 32 : 18 UTC
+  , issueUpdatedAt = 2016 (-01) (-19) 12 : 32 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9206/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9206")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9206
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project classList.js to 1.1.20150312"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9206")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9206.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9206.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9206"
+  , issueCreatedAt = 2016 (-01) (-19) 12 : 32 : 14 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project classList.js to 1.1.20150312.\n\n@eligrey\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"classList.js\",\n    \"repo\": \"eligrey/classList.js\",\n    \"files\": {\n      \"include\": [\"classList.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/classlist\",\n    \"localVersions\": [\"2014.0.0-12-13\"],\n    \"remoteVersions\": [\"1.1.20150312\", \"2014-07-23\", \"2014-12-13\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/classlist/update.json\",\n  \"versions\": [\"1.1.20150312\"],\n  \"updateRemote\": true,\n  \"version\": \"1.1.20150312\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/classlist/1.1.20150312\",\n  \"branch\": \"classList.js/1.1.20150312\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127435662
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

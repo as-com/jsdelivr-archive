@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-03) 14 : 41 : 58 UTC
+  , issueUpdatedAt = 2016 (-08) (-03) 14 : 41 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13008/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13008")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13008
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5326335
+        , simpleUserLogin = N "wesky93"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5326335?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wesky93"
+        }
+  , issueTitle = "nanum font"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13008")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13008.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13008.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13008"
+  , issueCreatedAt = 2016 (-08) (-01) 07 : 29 : 26 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 168583870
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

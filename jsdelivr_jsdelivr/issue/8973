@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-16) 16 : 32 : 55 UTC
+  , issueUpdatedAt = 2016 (-01) (-16) 17 : 10 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8973/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8973")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8973
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7111053
+        , simpleUserLogin = N "swcheon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/7111053?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/swcheon"
+        }
+  , issueTitle = "Update project jquery to 1.12.0 and 2.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8973")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8973.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8973.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8973"
+  , issueCreatedAt = 2016 (-01) (-14) 22 : 41 : 06 UTC
+  , issueBody = Just "Please check this commit. :-)\n"
+  , issueState = StateClosed
+  , issueId = Id 126765005
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

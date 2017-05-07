@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-27) 14 : 15 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64794973"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2523#issuecomment-64794973"
+  , issueCommentCreatedAt = 2014 (-11) (-27) 14 : 15 : 14 UTC
+  , issueCommentBody =
+      "We dont modify existing files, the correct would be to add a new version.\nI will do it, thanks for the suggestion :)\n"
+  , issueCommentId = 64794973
+  }

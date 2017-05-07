@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-09) 11 : 32 : 21 UTC
+  , issueUpdatedAt = 2015 (-12) (-09) 11 : 32 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8402/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8402")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8402
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.worldmapgenerator to v1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8402")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8402.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8402.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8402"
+  , issueCreatedAt = 2015 (-12) (-09) 11 : 31 : 52 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.worldmapgenerator to v1.0.0.\n\n@kevalbhatt\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.worldmapgenerator\",\n    \"repo\": \"kevalbhatt/WorldMapGenerator\",\n    \"files\": {\n      \"include\": [\"WorldMapGenerator.min.js\", \"WorldMapGenerator.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.worldmapgenerator\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.worldmapgenerator/update.json\",\n  \"version\": \"v1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.worldmapgenerator/1.0.0\",\n  \"branch\": \"jquery.worldmapgenerator/v1.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 121216571
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

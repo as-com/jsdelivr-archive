@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-06) 20 : 05 : 23 UTC
+  , issueUpdatedAt = 2017 (-05) (-06) 20 : 05 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17985/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17985")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17985
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project musubii to 2.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17985")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17985.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17985.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17985"
+  , issueCreatedAt = 2017 (-05) (-06) 06 : 06 : 53 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project musubii to 2.0.0.\n\n@qrac\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"musubii\",\n    \"repo\": \"qrac/musubii\",\n    \"files\": {\n      \"basePath\": \"docs/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/musubii\",\n    \"localVersions\": [\"1.1.0\", \"1.2.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\", \"1.2.0\", \"2.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/musubii/update.json\",\n  \"versions\": [\"2.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"2.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/musubii/2.0.0\",\n  \"branch\": \"musubii/2.0.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 226742848
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

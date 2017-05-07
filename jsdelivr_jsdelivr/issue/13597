@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-13) 14 : 41 : 07 UTC
+  , issueUpdatedAt = 2016 (-09) (-13) 14 : 41 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13597/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13597")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13597
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 831389
+        , simpleUserLogin = N "lewisgoddard"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/831389?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lewisgoddard"
+        }
+  , issueTitle = "Add StreamSaver.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13597")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13597.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13597.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13597"
+  , issueCreatedAt = 2016 (-09) (-04) 13 : 34 : 01 UTC
+  , issueBody =
+      Just
+        "> StreamSaver writes stream to the filesystem directly asynchronous.\n>  https://jimmywarting.github.io/StreamSaver.js/example.html\n"
+  , issueState = StateClosed
+  , issueId = Id 174949238
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

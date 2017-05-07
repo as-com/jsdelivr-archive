@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 02 : 43 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 02 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15767/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15767")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15767
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 994083
+        , simpleUserLogin = N "bkrajendra"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/994083?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bkrajendra"
+        }
+  , issueTitle =
+      "JavaScript plugin for playing sounds and music in browsers"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15767")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15767.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15767.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15767"
+  , issueCreatedAt = 2017 (-01) (-12) 20 : 48 : 21 UTC
+  , issueBody =
+      Just
+        "JavaScript plugin for playing sounds and music in browsers\r\nhttps://github.com/IonDen/ion.sound"
+  , issueState = StateClosed
+  , issueId = Id 200475480
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

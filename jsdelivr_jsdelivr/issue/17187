@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 17 : 26 : 38 UTC
+  , issueUpdatedAt = 2017 (-03) (-29) 17 : 28 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17187/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17187")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17187
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 537127
+        , simpleUserLogin = N "englishextra"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/537127?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/englishextra"
+        }
+  , issueTitle = "Create info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17187")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17187.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17187.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17187"
+  , issueCreatedAt = 2017 (-03) (-24) 11 : 44 : 40 UTC
+  , issueBody = Just "add qrjs2"
+  , issueState = StateClosed
+  , issueId = Id 216758159
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

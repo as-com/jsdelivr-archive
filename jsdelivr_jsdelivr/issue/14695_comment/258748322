@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-11) (-07) 05 : 07 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/258748322"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14695#issuecomment-258748322"
+  , issueCommentCreatedAt = 2016 (-11) (-07) 05 : 07 : 17 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _zepto_ between _1.1.6_ and _1.2.0_ there was a change in file structure  \n  \n  ``` diff\n  + ajax.js\n  + assets.js\n  + callbacks.js\n  + data.js\n  + deferred.js\n  + detect.js\n  + event.js\n  + form.js\n  + fx.js\n  + fx_methods.js\n  + gesture.js\n  + ie.js\n  + ios3.js\n  + selector.js\n  + stack.js\n  + touch.js\n  - modules/assets.js\n  - modules/assets.min.js\n  - modules/callbacks.js\n  - modules/callbacks.min.js\n  - modules/data.min.js\n  - modules/data.js\n  - modules/deferred.js\n  - modules/deferred.min.js\n  - modules/detect.js\n  - modules/detect.min.js\n  - modules/fx.js\n  - modules/fx.min.js\n  - modules/fx_methods.js\n  - modules/fx_methods.min.js\n  - modules/gesture.js\n  - modules/gesture.min.js\n  - modules/ios3.js\n  - modules/ios3.min.js\n  - modules/selector.js\n  - modules/selector.min.js\n  - modules/stack.js\n  - modules/stack.min.js\n  - modules/touch.js\n  - modules/touch.min.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Anything added dilutes everything else._\n"
+  , issueCommentId = 258748322
+  }

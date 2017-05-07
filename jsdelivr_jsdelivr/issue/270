@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-05) 22 : 34 : 15 UTC
+  , issueUpdatedAt = 2014 (-02) (-05) 22 : 34 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/270/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/270")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 270
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1271068
+        , simpleUserLogin = N "pragmaticlogic"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1271068?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pragmaticlogic"
+        }
+  , issueTitle =
+      "initial commit for angular bootstrap progress circle"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/270")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/270.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/270.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/270"
+  , issueCreatedAt = 2014 (-01) (-18) 03 : 49 : 15 UTC
+  , issueBody =
+      Just
+        "Angular bootstrap progress circle is similar to the progress bar built by the UI Angular team, but instead of a bar, it's a circle that shows the progress. \n"
+  , issueState = StateClosed
+  , issueId = Id 25853096
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

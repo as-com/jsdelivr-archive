@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-28) 18 : 03 : 30 UTC
+  , issueUpdatedAt = 2016 (-01) (-28) 18 : 03 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9425/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9425")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9425
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project apiNG-plugin-openweathermap to v0.7.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9425")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9425.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9425.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9425"
+  , issueCreatedAt = 2016 (-01) (-28) 18 : 03 : 24 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project apiNG-plugin-openweathermap to v0.7.7.\n\n@JohnnyTheTank\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"apiNG-plugin-openweathermap\",\n    \"repo\": \"JohnnyTheTank/apiNG-plugin-openweathermap\",\n    \"files\": {\n      \"include\": [\"dist/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/aping.plugin-openweathermap\",\n    \"localVersions\": [\"0.7.6\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.6.0\", \"v0.7.0\", \"v0.7.6\", \"v0.7.7\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/aping.plugin-openweathermap/update.json\",\n  \"versions\": [\"v0.7.7\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.7.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/aping.plugin-openweathermap/0.7.7\",\n  \"branch\": \"apiNG-plugin-openweathermap/v0.7.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 129527972
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

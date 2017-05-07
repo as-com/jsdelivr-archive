@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-18) 13 : 41 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1165758
+        , simpleUserLogin = N "Toilal"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1165758?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Toilal"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/82976475"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2569#issuecomment-82976475"
+  , issueCommentCreatedAt = 2015 (-03) (-18) 13 : 41 : 06 UTC
+  , issueCommentBody =
+      "I've just release a new version of angular-gantt library, but when using latest, it doesn't not pick the latest version.\n\nhttp://cdn.jsdelivr.net/angular.gantt/latest/angular-gantt.min.js => This point to 1.2.1.\nhttp://cdn.jsdelivr.net/angular.gantt/1.2.3/angular-gantt.min.js => But 1.2.3 is released and available.\n"
+  , issueCommentId = 82976475
+  }

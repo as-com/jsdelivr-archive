@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-05) 21 : 31 : 09 UTC
+  , issueUpdatedAt = 2014 (-11) (-05) 21 : 31 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2235/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2235")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2235
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 336433
+        , simpleUserLogin = N "kevinoid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/336433?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kevinoid"
+        }
+  , issueTitle = "Add angular.piwik 1.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2235")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2235.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2235.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2235"
+  , issueCreatedAt = 2014 (-11) (-05) 21 : 22 : 12 UTC
+  , issueBody =
+      Just
+        "This pull request adds the angular-piwik library with the name angular.piwik (to match the naming convention for the angular library for which it is an addon).\n\nIt doesn't include an `update.json` file for the library because the repository does not contain a minified version.  If it would still be useful to have an `update.json` (which either excludes all files or includes the non-minified version), let me know and I'll add one.\n\nThanks,\nKevin\n"
+  , issueState = StateClosed
+  , issueId = Id 47889646
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

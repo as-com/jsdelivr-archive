@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-22) 05 : 09 : 46 UTC
+  , issueUpdatedAt = 2016 (-12) (-22) 05 : 09 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15458/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15458")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15458
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11155743
+        , simpleUserLogin = N "koddr"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11155743?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/koddr"
+        }
+  , issueTitle = "Update update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15458")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15458.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15458.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15458"
+  , issueCreatedAt = 2016 (-12) (-21) 22 : 42 : 00 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 197051049
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

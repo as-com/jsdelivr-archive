@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-17) 03 : 49 : 20 UTC
+  , issueUpdatedAt = 2014 (-01) (-17) 03 : 49 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/268/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/268")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 268
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2075506
+        , simpleUserLogin = N "dhruvaray"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2075506?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dhruvaray"
+        }
+  , issueTitle = "Backbone Associations v0.5.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/268")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/268.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/268.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/268"
+  , issueCreatedAt = 2014 (-01) (-17) 03 : 07 : 01 UTC
+  , issueBody = Just "Kindly accept for your CDN! Thanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 25784656
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

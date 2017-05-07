@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-16) 18 : 23 : 21 UTC
+  , issueUpdatedAt = 2014 (-11) (-21) 12 : 16 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1488/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1488")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/enhancement"
+          , labelName = N "enhancement"
+          }
+      , IssueLabel
+          { labelColor = "e11d21"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/Performance"
+          , labelName = N "Performance"
+          }
+      ]
+  , issueNumber = 1488
+  , issueAssignees =
+      [ SimpleUser
+          { simpleUserId = Id 1834071
+          , simpleUserLogin = N "jimaek"
+          , simpleUserAvatarUrl =
+              URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+          , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+          }
+      ]
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "Adding Timing-Allow-Origin Header"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1488"
+  , issueCreatedAt = 2014 (-08) (-22) 05 : 11 : 00 UTC
+  , issueBody =
+      Just
+        "The Timing-Allow-Origin header allows people to measure the performance of that 3rd party content that they integrate with their websites/applications via the Resource Timing API. \n\nGoogle does this and we could be added to the list http://googledevelopers.blogspot.com/2013/12/measuring-network-performance-with.html. \n\nThoughts? \n"
+  , issueState = StateClosed
+  , issueId = Id 40878874
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

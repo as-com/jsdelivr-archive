@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-17) 20 : 27 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 9707818
+        , simpleUserLogin = N "mikebe11"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/9707818?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mikebe11"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/122403557"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/5953#issuecomment-122403557"
+  , issueCommentCreatedAt = 2015 (-07) (-17) 20 : 27 : 22 UTC
+  , issueCommentBody =
+      "@jimaek Is it possible to purge the cache just based on extension?\nhttp://cdn.jsdelivr.net/emojione/assets/png/*.png \nand \nhttp://cdn.jsdelivr.net/emojione/assets/svg/*.svg\n"
+  , issueCommentId = 122403557
+  }

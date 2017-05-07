@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-02) 20 : 06 : 20 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 23 : 45 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/742/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/742")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 742
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "Create minify-sans-regexp.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/742")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/742.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/742.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/742"
+  , issueCreatedAt = 2014 (-05) (-02) 17 : 18 : 51 UTC
+  , issueBody =
+      Just
+        "Part of the [official repo](https://github.com/getify/JSON.minify/blob/master/minify-sans-regexp.js)\n[seems faster](http://jsperf.com/json-minify/2/)\n"
+  , issueState = StateClosed
+  , issueId = Id 32708951
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

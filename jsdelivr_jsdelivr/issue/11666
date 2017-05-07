@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-17) 21 : 36 : 31 UTC
+  , issueUpdatedAt = 2016 (-05) (-17) 21 : 36 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11666/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11666")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11666
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1402524
+        , simpleUserLogin = N "AlessandroMenti"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1402524?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/AlessandroMenti"
+        }
+  , issueTitle = "Add the Synaptic neural network library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11666")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11666.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11666.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11666"
+  , issueCreatedAt = 2016 (-05) (-17) 21 : 31 : 06 UTC
+  , issueBody =
+      Just
+        "This pull request adds [Synaptic](https://github.com/cazala/synaptic), an architecture-free neural network library for node.js and the browser.\n"
+  , issueState = StateClosed
+  , issueId = Id 155366960
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

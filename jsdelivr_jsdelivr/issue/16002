@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-27) 21 : 24 : 40 UTC
+  , issueUpdatedAt = 2017 (-01) (-27) 21 : 24 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16002/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16002")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16002
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9441999
+        , simpleUserLogin = N "w3cproject"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/9441999?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/w3cproject"
+        }
+  , issueTitle = "info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16002")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16002.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16002.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16002"
+  , issueCreatedAt = 2017 (-01) (-26) 12 : 10 : 18 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 203356319
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

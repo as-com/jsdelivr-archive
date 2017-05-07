@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-25) 13 : 43 : 02 UTC
+  , issueUpdatedAt = 2013 (-11) (-25) 15 : 18 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/162/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/162")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 162
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2644599
+        , simpleUserLogin = N "ndnhat"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2644599?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ndnhat"
+        }
+  , issueTitle = "Add jquery.safeharbor"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/162")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/162.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/162.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/162"
+  , issueCreatedAt = 2013 (-11) (-25) 04 : 26 : 20 UTC
+  , issueBody =
+      Just
+        "jquery.safeharbor is a jQuery plugin that creates a privacy policy notice and helps your web application conform with the US-EU Safe Harbor.\n"
+  , issueState = StateClosed
+  , issueId = Id 23221696
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

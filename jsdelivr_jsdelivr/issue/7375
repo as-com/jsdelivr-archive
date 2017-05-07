@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-15) 07 : 10 : 40 UTC
+  , issueUpdatedAt = 2015 (-11) (-10) 07 : 52 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7375/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/7375")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7375
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 120998
+        , simpleUserLogin = N "jhiswin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/120998?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jhiswin"
+        }
+  , issueTitle = "babel browser-polyfill.js minified version"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7375"
+  , issueCreatedAt = 2015 (-10) (-14) 01 : 47 : 49 UTC
+  , issueBody =
+      Just
+        "The browser-polyfill for babel does not contain a minified version of the library.\n"
+  , issueState = StateClosed
+  , issueId = Id 111305314
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

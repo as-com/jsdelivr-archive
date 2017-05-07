@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-05) (-16) 15 : 58 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/347/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/347")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/enhancement"
+          , labelName = N "enhancement"
+          }
+      ]
+  , issueNumber = 347
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Easier way to add projects"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/347"
+  , issueCreatedAt = 2014 (-02) (-07) 21 : 09 : 31 UTC
+  , issueBody =
+      Just
+        "I hate the idea of hosting all files in Github but I don't see any other alternative. \n\nDoes anyone have any ideas on how improve this system? Ideally we want to host in Github only configs/meta data required for everything to function and not the actual files.\n"
+  , issueState = StateOpen
+  , issueId = Id 27171903
+  , issueComments = 122
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-23) 16 : 33 : 52 UTC
+  , issueUpdatedAt = 2016 (-08) (-23) 16 : 33 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13397/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13397")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13397
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.payment to v2.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13397")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13397.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13397.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13397"
+  , issueCreatedAt = 2016 (-08) (-23) 16 : 33 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.payment to v2.0.0.\n\n@stripe\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.payment\",\n    \"repo\": \"stripe/jquery.payment\",\n    \"files\": {\n      \"basePath\": \"lib/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.payment\",\n    \"localVersions\": [\"1.0.1\", \"1.0.3\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.2.4\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"1.4.4\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\", \"v1.1.4\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.3\", \"v1.2.4\", \"v1.3.0\", \"v1.3.1\", \"v1.3.2\", \"v1.3.3\", \"v1.4.0\", \"v1.4.1\", \"v1.4.2\", \"v1.4.3\", \"v1.4.4\", \"v2.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.payment/update.json\",\n  \"versions\": [\"v2.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.payment/2.0.0\",\n  \"branch\": \"jquery.payment/v2.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 172746933
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-01) (-12) 14 : 43 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/272180334"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15760#issuecomment-272180334"
+  , issueCommentCreatedAt = 2017 (-01) (-12) 14 : 43 : 06 UTC
+  , issueCommentBody =
+      "yep, latest is determined through semver version comparisons "
+  , issueCommentId = 272180334
+  }

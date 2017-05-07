@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-27) 18 : 01 : 13 UTC
+  , issueUpdatedAt = 2017 (-02) (-27) 18 : 01 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16566/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16566")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16566
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project mediaelement-plugins to 1.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16566")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16566.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16566.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16566"
+  , issueCreatedAt = 2017 (-02) (-26) 13 : 34 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project mediaelement-plugins to 1.2.1.\n\n@johndyer\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"mediaelement-plugins\",\n    \"repo\": \"johndyer/mediaelement-plugins\",\n    \"files\": {\n      \"basePath\": \"dist\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/mediaelement-plugins\",\n    \"localVersions\": [\"1.1.0\", \"1.2.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\", \"1.2.0\", \"1.2.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/mediaelement-plugins/update.json\",\n  \"versions\": [\"1.2.1\"],\n  \"updateRemote\": true,\n  \"version\": \"1.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/mediaelement-plugins/1.2.1\",\n  \"branch\": \"mediaelement-plugins/1.2.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 210318783
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

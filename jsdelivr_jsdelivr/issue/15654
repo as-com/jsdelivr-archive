@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-09) 04 : 05 : 28 UTC
+  , issueUpdatedAt = 2017 (-01) (-09) 04 : 05 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15654/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15654")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15654
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1758606
+        , simpleUserLogin = N "rezafaizarahman"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1758606?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/rezafaizarahman"
+        }
+  , issueTitle = "added mltrgt-icon"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15654")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15654.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15654.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15654"
+  , issueCreatedAt = 2017 (-01) (-06) 14 : 14 : 53 UTC
+  , issueBody = Just "Add mltrgt-icon font files to CDN."
+  , issueState = StateClosed
+  , issueId = Id 199204382
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

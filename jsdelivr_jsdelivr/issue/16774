@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-07) 11 : 59 : 19 UTC
+  , issueUpdatedAt = 2017 (-03) (-07) 11 : 59 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16774/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16774")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16774
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7425468
+        , simpleUserLogin = N "devendrant"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7425468?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/devendrant"
+        }
+  , issueTitle = "Create angular.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16774")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16774.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16774.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16774"
+  , issueCreatedAt = 2017 (-03) (-07) 11 : 58 : 35 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 212411767
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

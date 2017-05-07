@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-11) 20 : 33 : 46 UTC
+  , issueUpdatedAt = 2016 (-04) (-11) 20 : 33 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10984/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10984")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10984
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1770198
+        , simpleUserLogin = N "wski"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1770198?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wski"
+        }
+  , issueTitle = "Updated to new package name on npm."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10984")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10984.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10984.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10984"
+  , issueCreatedAt = 2016 (-04) (-11) 19 : 33 : 49 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 147530461
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

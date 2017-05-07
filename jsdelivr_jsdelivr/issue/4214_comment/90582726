@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-07) 14 : 21 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/90582726"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4214#issuecomment-90582726"
+  , issueCommentCreatedAt = 2015 (-04) (-07) 14 : 21 : 32 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @c8seki, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- There are some fundamental issues with your PR :no_good:  \n  - You appear to be changing the file contents of _kwebfonts.css_ in _1_!\n- Looks like the `info.ini` has a few problems\n  - Where is the korean-webfonts's mainfile (_dist/kwebfonts.css_) in v-_1_\n- Might be nothing but I have some concerns about the files in your submission...  \n  - _.woff2_ (on _Bareun/Batang/BareunBatangB.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Bareun/Batang/BareunBatangL.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Bareun/Batang/BareunBatangM.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Bareun/Dotum/BareunDotumPro1.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Bareun/Dotum/BareunDotumPro2.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Bareun/Dotum/BareunDotumPro3.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Chonbuk/ChonbukL.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Chonbuk/ChonbukM.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Daum/Daum-Regular.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Daum/Daum-SemiBold.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Gimje/Gimje-L.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Gimje/Gimje-M.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Godo/GodoB.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Godo/GodoM.woff2_) seems odd to want to host?\n  - _.woff2_ (on _Jeongum/jeongum.woff2_) seems odd to want to host?\n  - _.woff2_ (on _SuhwaMyungjo/SHMyungjo110.woff2_) seems odd to want to host?\n  - _.woff2_ (on _SuhwaMyungjo/SHMyungjo140.woff2_) seems odd to want to host?\n  - _.woff2_ (on _TaeryongGothic/TRGothic210.woff2_) seems odd to want to host?\n  - _.woff2_ (on _TaeryongGothic/TRGothic240.woff2_) seems odd to want to host?\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Anything added dilutes everything else._\n"
+  , issueCommentId = 90582726
+  }

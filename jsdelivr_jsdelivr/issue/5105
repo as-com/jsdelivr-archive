@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-08) 14 : 16 : 06 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 10 : 27 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5105/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5105")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5105
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 38454
+        , simpleUserLogin = N "akkumar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/38454?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/akkumar"
+        }
+  , issueTitle = "loadCSS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5105")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5105.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5105.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5105"
+  , issueCreatedAt = 2015 (-06) (-03) 09 : 08 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 84450172
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

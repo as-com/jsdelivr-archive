@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-06) 02 : 55 : 44 UTC
+  , issueUpdatedAt = 2015 (-04) (-06) 02 : 55 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4152/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4152")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4152
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6420209
+        , simpleUserLogin = N "SirenHound"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/6420209?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/SirenHound"
+        }
+  , issueTitle = "jQuery mockjax 1.6.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4152")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4152.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4152.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4152"
+  , issueCreatedAt = 2015 (-04) (-06) 02 : 53 : 57 UTC
+  , issueBody = Just "mock ajax requests to a server\n"
+  , issueState = StateClosed
+  , issueId = Id 66512074
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

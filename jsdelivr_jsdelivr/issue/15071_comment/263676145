@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-11) (-29) 19 : 41 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/263676145"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15071#issuecomment-263676145"
+  , issueCommentCreatedAt = 2016 (-11) (-29) 19 : 41 : 05 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *highcharts* between *highmaps-v1.1.10* and *5.0.5* there was a change in file structure  \n    ```diff\n    + highcharts-3d.src.js\n    + highcharts-more.src.js\n    + highcharts.src.js\n    + highmaps.src.js\n    + highstock.src.js\n    - adapters/standalone-framework.js\n    - adapters/standalone-framework.src.js\n    - modules/boost.js\n    - modules/boost.src.js\n    - modules/broken-axis.js\n    - modules/broken-axis.src.js\n    - modules/canvas-tools.js\n    - modules/canvas-tools.src.js\n    - modules/data.js\n    - modules/data.src.js\n    - modules/drilldown.js\n    - modules/drilldown.src.js\n    - modules/exporting.js\n    - modules/exporting.src.js\n    - modules/funnel.js\n    - modules/funnel.src.js\n    - modules/heatmap.js\n    - modules/heatmap.src.js\n    - modules/map.js\n    - modules/map.src.js\n    - modules/no-data-to-display.js\n    - modules/no-data-to-display.src.js\n    - modules/offline-exporting.js\n    - modules/offline-exporting.src.js\n    - modules/solid-gauge.js\n    - modules/solid-gauge.src.js\n    - modules/treemap.js\n    - modules/treemap.src.js\n    - themes/dark-blue.js\n    - themes/dark-green.js\n    - themes/dark-unica.js\n    - themes/gray.js\n    - themes/grid-light.js\n    - themes/grid.js\n    - themes/sand-signika.js\n    - themes/skies.js\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Approachable is better than simple.*\n"
+  , issueCommentId = 263676145
+  }

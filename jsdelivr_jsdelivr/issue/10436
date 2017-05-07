@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-14) 20 : 35 : 06 UTC
+  , issueUpdatedAt = 2016 (-03) (-14) 20 : 35 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10436/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10436")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10436
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project qoopido.rescale to 1.0.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10436")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10436.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10436.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10436"
+  , issueCreatedAt = 2016 (-03) (-14) 20 : 34 : 59 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project qoopido.rescale to 1.0.6.\n\n@dlueth\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"qoopido.rescale\",\n    \"repo\": \"dlueth/qoopido.rescale\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/qoopido.rescale\",\n    \"localVersions\": [\"1.0.0\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/qoopido.rescale/update.json\",\n  \"versions\": [\"1.0.6\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/qoopido.rescale/1.0.6\",\n  \"branch\": \"qoopido.rescale/1.0.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 140790544
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

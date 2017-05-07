@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2015 (-11) (-04) 19 : 20 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7589/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/7589")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7589
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4943837
+        , simpleUserLogin = N "admiralsmaster"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/4943837?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/admiralsmaster"
+        }
+  , issueTitle = "No autoupdate at leaflet library"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7589"
+  , issueCreatedAt = 2015 (-10) (-27) 21 : 43 : 11 UTC
+  , issueBody =
+      Just
+        "Hello,\n\nThe auto update mechanism of the leaflet library is faulty.\nSee https://github.com/jsdelivr/jsdelivr/tree/master/files/leaflet\nCurrent version is 0.7.7\n\nThank you.\n"
+  , issueState = StateOpen
+  , issueId = Id 113696501
+  , issueComments = 13
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-24) 14 : 07 : 46 UTC
+  , issueUpdatedAt = 2014 (-08) (-24) 19 : 13 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1511/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1511")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1511
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 196617
+        , simpleUserLogin = N "attilaolah"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/196617?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/attilaolah"
+        }
+  , issueTitle = "WOW: add update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1511")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1511.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1511.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1511"
+  , issueCreatedAt = 2014 (-08) (-24) 09 : 00 : 14 UTC
+  , issueBody =
+      Just
+        "Add an update script, as suggested in #1499.\n\n---\n\nAlso, @jimaek, @Snoop and I were wondering over at https://github.com/matthieua/WOW/issues/103, how often the [website](http://www.jsdelivr.com/) gets updated? It seems that searching for WOW yields no results, however the CDN [already contains the file](//cdn.jsdelivr.net/wow/1.0.1/wow.min.js).\n"
+  , issueState = StateClosed
+  , issueId = Id 41002027
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

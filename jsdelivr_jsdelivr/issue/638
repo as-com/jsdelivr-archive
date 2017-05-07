@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-13) 16 : 31 : 15 UTC
+  , issueUpdatedAt = 2014 (-04) (-13) 16 : 31 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/638/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/638")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 638
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6960243
+        , simpleUserLogin = N "djprmf"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6960243?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/djprmf"
+        }
+  , issueTitle = "Add Jquery.fakecrop"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/638")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/638.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/638.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/638"
+  , issueCreatedAt = 2014 (-04) (-13) 16 : 24 : 52 UTC
+  , issueBody = Just "Add Jquery.fakecrop\n"
+  , issueState = StateClosed
+  , issueId = Id 31410174
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

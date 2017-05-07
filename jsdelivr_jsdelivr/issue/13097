@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-13) 15 : 02 : 55 UTC
+  , issueUpdatedAt = 2016 (-09) (-13) 15 : 02 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13097/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13097")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13097
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project sql.js to 0.3.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13097")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13097.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13097.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13097"
+  , issueCreatedAt = 2016 (-08) (-05) 15 : 05 : 18 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project sql.js to 0.3.2.\n\n@kripken\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"sql.js\",\n    \"repo\": \"kripken/sql.js\",\n    \"files\": {\n      \"include\": [\"js/sql.js\", \"js/worker.sql.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/sql.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.1.1\", \"0.1.2\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.2.9\", \"0.2.10\", \"0.2.20\", \"0.2.21\", \"0.3.0\", \"0.3.1\", \"0.3.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/sql.js/update.json\",\n  \"versions\": [\"0.3.2\"],\n  \"updateRemote\": true,\n  \"version\": \"0.3.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/sql.js/0.3.2\",\n  \"branch\": \"sql.js/0.3.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 169627881
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

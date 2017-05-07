@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-09) 19 : 10 : 12 UTC
+  , issueUpdatedAt = 2016 (-09) (-09) 19 : 10 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13661/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13661")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13661
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 711580
+        , simpleUserLogin = N "glesage"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/711580?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/glesage"
+        }
+  , issueTitle = "Add tracker-js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13661")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13661.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13661.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13661"
+  , issueCreatedAt = 2016 (-09) (-07) 20 : 47 : 27 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 175602368
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

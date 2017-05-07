@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-06) (-27) 20 : 44 : 59 UTC
+  , issueUpdatedAt = 2014 (-06) (-30) 16 : 54 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/41/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/41")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 41
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 200884
+        , simpleUserLogin = N "lolmaus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/200884?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lolmaus"
+        }
+  , issueTitle = "Added clientside-haml-js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/41")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/41.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/41.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/41"
+  , issueCreatedAt = 2013 (-06) (-25) 12 : 40 : 28 UTC
+  , issueBody =
+      Just
+        "> The [clientside-haml-js](https://github.com/uglyog/clientside-haml-js) is a compiler written in CoffeeScript that compiles text templates in HAML format into Javascript functions that generate HTML.\n\nI use it in my project http://sassbin.com\n"
+  , issueState = StateClosed
+  , issueId = Id 15975817
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-02) 10 : 57 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65213627"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2569#issuecomment-65213627"
+  , issueCommentCreatedAt = 2014 (-12) (-02) 10 : 57 : 05 UTC
+  , issueCommentBody =
+      "Hey, sorry about that. I am looking into it. Not sure yet what is wrong.\nThe bot sees rc8 but not rc9 https://github.com/jsdelivr/jsdelivr/pull/2570\n\nI will keep you posted\n"
+  , issueCommentId = 65213627
+  }

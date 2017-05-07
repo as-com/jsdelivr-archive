@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-14) 21 : 14 : 31 UTC
+  , issueUpdatedAt = 2016 (-07) (-14) 21 : 14 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12680/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12680")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12680
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17101141
+        , simpleUserLogin = N "breinify-stage"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/17101141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/breinify-stage"
+        }
+  , issueTitle = "Breinify API Library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12680")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12680.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12680.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12680"
+  , issueCreatedAt = 2016 (-07) (-12) 01 : 33 : 15 UTC
+  , issueBody =
+      Just
+        "First public version of the Breinify API Library (JavaScript)\n"
+  , issueState = StateClosed
+  , issueId = Id 164975275
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

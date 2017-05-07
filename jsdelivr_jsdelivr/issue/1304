@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-26) 01 : 12 : 36 UTC
+  , issueUpdatedAt = 2014 (-07) (-27) 23 : 04 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1304/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1304")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1304
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1085899
+        , simpleUserLogin = N "SimeonC"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1085899?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/SimeonC"
+        }
+  , issueTitle = "Update textAngular to v1.2.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1304")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1304.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1304.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1304"
+  , issueCreatedAt = 2014 (-07) (-26) 01 : 02 : 30 UTC
+  , issueBody =
+      Just
+        "New bugfix update of textAngular v1.2.2.\n\nSee: https://github.com/fraywing/textAngular/releases/tag/v1.2.2\n"
+  , issueState = StateClosed
+  , issueId = Id 38786377
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

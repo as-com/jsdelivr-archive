@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-24) 17 : 34 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 319284
+        , simpleUserLogin = N "pingram3541"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/319284?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pingram3541"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/71328493"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3180#issuecomment-71328493"
+  , issueCommentCreatedAt = 2015 (-01) (-24) 17 : 34 : 45 UTC
+  , issueCommentBody =
+      "- Looks like the info.ini has a few problems\n  - Where is the jquery.layout's mainfile (jquery.layout.min.js) in v-1.3.0rc30.79\n    - It never existed because it was renamed previously with -latest which is no longer correct.\n- Might be nothing but I have some concerns about the files in your submission...\n  - Is jquery.layout.min.js (1.4.3) properly minimized?\n    - It is but preserving the author credentials as the previous version was allowed to do\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...\n  - In jquery.layout between 1.3.0rc30.79 and 1.4.3 there was a change in file structure\n    - Again, this was due to -latest being appended to the older version, nothing else changed\n\nAll I did was rename the older version to no longer have -latest in the file name and this was only due to the bot complaining it no longer matched with the updated ini file.  Your documentation says that you will change the files to -latest so I did not modify the new versions from the original authors file names.  This is proving to be a more difficult process and if others have this difficulty I wonder how many just give up and walk away from the whole thing.  This is a great service with a great idea but seriously, I had to fork/copy a HUGE library to my local storage just to update 3 files only a few k and even then the process is frustrating.  Maybe I'm just a noob and need better instruction.  What is a squash besides a vegetable?  Is that a git term like fork...what is all this food reference?\n"
+  , issueCommentId = 71328493
+  }

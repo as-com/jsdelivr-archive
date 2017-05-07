@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-23) 21 : 00 : 17 UTC
+  , issueUpdatedAt = 2016 (-06) (-23) 21 : 00 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12358/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12358")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12358
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project map-icons to v3.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12358")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12358.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12358.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12358"
+  , issueCreatedAt = 2016 (-06) (-23) 20 : 34 : 28 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project map-icons to v3.0.0.\n\n@scottdejonge\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"map-icons\",\n    \"repo\": \"scottdejonge/map-icons\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"js/map-icons.min.js\", \"js/map-icons.js\", \"css/map-icons.min.css\", \"css/map-icons.css\", \"fonts/map-icons.eot\", \"fonts/map-icons.svg\", \"fonts/map-icons.ttf\", \"fonts/map-icons.woff\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/map-icons\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v.1.2.0\", \"v.2.0.0\", \"v.2.1.0\", \"v.2.2.0\", \"v3.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/map-icons/update.json\",\n  \"versions\": [\"v.1.2.0\", \"v.2.2.0\", \"v3.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/map-icons/3.0.0\",\n  \"branch\": \"map-icons/v3.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 162016816
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

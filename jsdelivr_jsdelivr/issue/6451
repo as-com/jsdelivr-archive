@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-26) 20 : 53 : 20 UTC
+  , issueUpdatedAt = 2016 (-12) (-26) 20 : 53 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6451/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6451")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6451
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1639302
+        , simpleUserLogin = N "abishekrsrikaanth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1639302?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/abishekrsrikaanth"
+        }
+  , issueTitle = "Adding Library Canvg"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6451")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6451.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6451.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6451"
+  , issueCreatedAt = 2015 (-08) (-17) 15 : 54 : 23 UTC
+  , issueBody =
+      Just
+        "Repo: https://github.com/gabelerner/canvg\nDescription: Javascript SVG parser and renderer on Canvas\n\nI have created a PR (https://github.com/gabelerner/canvg/pull/397) on this library to setup the minified file. Once this is done, I will change the configs to use the minified file\n"
+  , issueState = StateClosed
+  , issueId = Id 101453532
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-26) 16 : 14 : 02 UTC
+  , issueUpdatedAt = 2014 (-03) (-26) 16 : 14 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/514/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/514")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 514
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 134009
+        , simpleUserLogin = N "ekashida"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/134009?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ekashida"
+        }
+  , issueTitle = "gallery-2014.03.12-23-08 minus coverage files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/514")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/514.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/514.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/514"
+  , issueCreatedAt = 2014 (-03) (-26) 04 : 24 : 57 UTC
+  , issueBody =
+      Just
+        "https://github.com/yui/yui3-gallery/tree/gallery-2014.03.12-23-08\n\nlmk if we should just ftp these...\n/cc @jimaek\n"
+  , issueState = StateClosed
+  , issueId = Id 30184788
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

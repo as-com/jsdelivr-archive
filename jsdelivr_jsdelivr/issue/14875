@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-21) 14 : 27 : 07 UTC
+  , issueUpdatedAt = 2016 (-11) (-21) 14 : 27 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14875/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14875")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14875
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8419393
+        , simpleUserLogin = N "manfuku"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8419393?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/manfuku"
+        }
+  , issueTitle = "Jquery Mosaic (Minified)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14875")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14875.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14875.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14875"
+  , issueCreatedAt = 2016 (-11) (-20) 13 : 35 : 44 UTC
+  , issueBody =
+      Just
+        "Manually added minified files as these aren't available in the original repository (https://github.com/tin-cat/jquery-mosaic)"
+  , issueState = StateClosed
+  , issueId = Id 190558561
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

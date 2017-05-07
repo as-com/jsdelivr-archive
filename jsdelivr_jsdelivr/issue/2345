@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-13) 11 : 03 : 58 UTC
+  , issueUpdatedAt = 2014 (-11) (-13) 11 : 04 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2345/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2345")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2345
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2437183
+        , simpleUserLogin = N "SeungYeonYou"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2437183?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/SeungYeonYou"
+        }
+  , issueTitle = "Adding Korean Cufon Fonts"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2345")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2345.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2345.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2345"
+  , issueCreatedAt = 2014 (-11) (-13) 10 : 50 : 43 UTC
+  , issueBody =
+      Just
+        "Korean Cufon Fonts Library - License free fonts converted for use in Cufon Library\n"
+  , issueState = StateClosed
+  , issueId = Id 48622337
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

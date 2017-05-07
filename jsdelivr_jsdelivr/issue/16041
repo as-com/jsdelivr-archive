@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-28) 13 : 34 : 08 UTC
+  , issueUpdatedAt = 2017 (-01) (-28) 13 : 34 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16041/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16041")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16041
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.timeliny to v1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16041")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16041.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16041.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16041"
+  , issueCreatedAt = 2017 (-01) (-28) 13 : 34 : 01 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.timeliny to v1.0.1.\n\n@maoosi\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.timeliny\",\n    \"repo\": \"maoosi/jquery.timeliny\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.timeliny\",\n    \"localVersions\": [\"1.0.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.timeliny/update.json\",\n  \"versions\": [\"v1.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.timeliny/1.0.1\",\n  \"branch\": \"jquery.timeliny/v1.0.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 203807559
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

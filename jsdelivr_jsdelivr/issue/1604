@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-03) 16 : 12 : 48 UTC
+  , issueUpdatedAt = 2014 (-09) (-03) 16 : 14 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1604/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1604")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1604
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 59401
+        , simpleUserLogin = N "Robertof"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/59401?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Robertof"
+        }
+  , issueTitle = "Update at.js to version 0.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1604")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1604.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1604.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1604"
+  , issueCreatedAt = 2014 (-09) (-03) 16 : 11 : 42 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 41834095
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

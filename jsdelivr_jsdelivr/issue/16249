@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-09) 20 : 38 : 14 UTC
+  , issueUpdatedAt = 2017 (-02) (-09) 20 : 38 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16249/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16249")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16249
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 128952
+        , simpleUserLogin = N "desmondgc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/128952?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/desmondgc"
+        }
+  , issueTitle = "Add angular.ui-leaflet"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16249")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16249.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16249.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16249"
+  , issueCreatedAt = 2017 (-02) (-08) 15 : 02 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 206223262
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

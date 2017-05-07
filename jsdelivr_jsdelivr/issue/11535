@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-10) 13 : 07 : 14 UTC
+  , issueUpdatedAt = 2016 (-05) (-10) 13 : 07 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11535/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11535")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11535
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jQuery-QueryBuilder to 2.3.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11535")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11535.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11535.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11535"
+  , issueCreatedAt = 2016 (-05) (-10) 12 : 33 : 39 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jQuery-QueryBuilder to 2.3.3.\n\n@mistic100\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"jQuery-QueryBuilder\",\n    \"repo\": \"mistic100/jQuery-QueryBuilder\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"./js/*.min.*\", \"./css/*.min.*\", \"./i18n/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.query-builder\",\n    \"localVersions\": [\"1.4.2\", \"1.4.3\", \"2.3.0\", \"2.3.1\", \"2.3.2\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"2.0.0\", \"2.0.1\", \"2.1.0\", \"2.2.0\", \"2.2.1\", \"2.3.0\", \"2.3.1\", \"2.3.2\", \"2.3.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.query-builder/update.json\",\n  \"versions\": [\"2.3.3\"],\n  \"updateRemote\": true,\n  \"version\": \"2.3.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.query-builder/2.3.3\",\n  \"branch\": \"jQuery-QueryBuilder/2.3.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 153995145
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

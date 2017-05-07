@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-11) 15 : 14 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/120629481"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/5797#issuecomment-120629481"
+  , issueCommentCreatedAt = 2015 (-07) (-11) 15 : 14 : 12 UTC
+  , issueCommentBody =
+      "Hi @patrickarlt, its available on the CDN however it takes a while for that version of the site to refresh with the hosted libraries\n\nhttp://cdn.jsdelivr.net/leaflet.esri.geocoder/1.0.0/esri-leaflet-geocoder-src.css\n"
+  , issueCommentId = 120629481
+  }

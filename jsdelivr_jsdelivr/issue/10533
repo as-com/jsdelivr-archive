@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-19) 10 : 34 : 08 UTC
+  , issueUpdatedAt = 2016 (-03) (-19) 10 : 34 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10533/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10533")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10533
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5345836
+        , simpleUserLogin = N "YoungCatChen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5345836?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/YoungCatChen"
+        }
+  , issueTitle = "Update update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10533")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10533.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10533.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10533"
+  , issueCreatedAt = 2016 (-03) (-18) 23 : 56 : 06 UTC
+  , issueBody =
+      Just
+        "Sounds like we should still include the plugins/ directory per #10512. Also, per #10495, we should exclude some irrelevant files.\n"
+  , issueState = StateClosed
+  , issueId = Id 142004269
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-21) 10 : 16 : 29 UTC
+  , issueUpdatedAt = 2016 (-04) (-21) 10 : 20 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11183/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/11183")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11183
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1263856
+        , simpleUserLogin = N "ricardopolo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1263856?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ricardopolo"
+        }
+  , issueTitle = "Why are you slower than CDNJs?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11183"
+  , issueCreatedAt = 2016 (-04) (-21) 10 : 10 : 06 UTC
+  , issueBody =
+      Just
+        "According to http://www.cdnperf.com/ you are slowed than CDNJs, I dont understand why if you have multibalanced and eventually use the same newtork (Cloudflare)?\n\nThanks :)\n"
+  , issueState = StateClosed
+  , issueId = Id 150028384
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

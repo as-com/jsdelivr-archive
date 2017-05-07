@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-02) 20 : 07 : 06 UTC
+  , issueUpdatedAt = 2016 (-06) (-02) 20 : 07 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11945/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11945")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11945
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10346004
+        , simpleUserLogin = N "etsms"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10346004?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/etsms"
+        }
+  , issueTitle = "Adding Hosted Payments (v3.3.4) to jsDelivr! Yay!"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11945")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11945.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11945.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11945"
+  , issueCreatedAt = 2016 (-06) (-01) 20 : 58 : 41 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 158005555
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

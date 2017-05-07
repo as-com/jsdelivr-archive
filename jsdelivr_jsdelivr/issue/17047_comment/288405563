@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-03) (-22) 13 : 56 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 9315
+        , simpleUserLogin = N "azuwis"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9315?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/azuwis"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/288405563"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17047#issuecomment-288405563"
+  , issueCommentCreatedAt = 2017 (-03) (-22) 13 : 56 : 23 UTC
+  , issueCommentBody =
+      "Should I make another pull request to remove version 1.1.19-rc1?\r\n\r\nIt seems version 1.1.19-rc1 is tagged [by mistake](https://github.com/muicss/mui/commit/33bf6d17d1789737b88400217bed41850a6d1ad4), should be 0.1.19-rc1, probably removed afterwards, and now does not exist in upstream [git](https://github.com/muicss/mui/tags) and [npm](https://www.npmjs.com/package/muicss).\r\n\r\nForm example from [official mui doc](https://www.muicss.com/examples/v1/css-js/forms-basic.html), version [0.9.12](https://cdn.rawgit.com/azuwis/0e0f836bd9fee045c0dc0f643afd12c3/raw/9f2ec1b830d94960db23c60af05da1e7980389d7/mui-test-0.9.12.html) and [0.2.10](https://cdn.rawgit.com/azuwis/794bbc12a65936688903555bc483a025/raw/e79c7e54e2e128f20df55b0a7954b5776320f47b/mui-test-0.2.10.html) work fine, but version [1.1.19-rc1](https://cdn.rawgit.com/azuwis/b2281657fa0f9a386d14ce430029439d/raw/c02d7ee27025b6b568e71c3be500b5765da12ae2/mui-test-1.1.19-rc1.html) is broken."
+  , issueCommentId = 288405563
+  }

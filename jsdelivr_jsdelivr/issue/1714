@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-14) 16 : 34 : 01 UTC
+  , issueUpdatedAt = 2014 (-10) (-22) 09 : 34 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1714/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1714")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1714
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1613163
+        , simpleUserLogin = N "dlueth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1613163?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dlueth"
+        }
+  , issueTitle = "add qoopido.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1714")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1714.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1714.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1714"
+  , issueCreatedAt = 2014 (-09) (-14) 06 : 30 : 02 UTC
+  , issueBody =
+      Just
+        "Please add qoopido.js library to jsdelivr. Hope I did everything right - let me know otherwise :)\n"
+  , issueState = StateClosed
+  , issueId = Id 42714300
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

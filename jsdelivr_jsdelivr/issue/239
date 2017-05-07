@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-28) 01 : 13 : 53 UTC
+  , issueUpdatedAt = 2014 (-07) (-03) 00 : 09 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/239/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/239")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 239
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6273770
+        , simpleUserLogin = N "lmntest"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6273770?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lmntest"
+        }
+  , issueTitle = "Create jquery.ui.lmtheme"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/239")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/239.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/239.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/239"
+  , issueCreatedAt = 2013 (-12) (-28) 00 : 25 : 14 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 24838217
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

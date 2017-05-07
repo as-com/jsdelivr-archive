@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-10) 03 : 37 : 58 UTC
+  , issueUpdatedAt = 2016 (-12) (-10) 03 : 37 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15277/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15277")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15277
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1440134
+        , simpleUserLogin = N "ashlinallen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1440134?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ashlinallen"
+        }
+  , issueTitle = "Adding AngularJS 1.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15277")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15277.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15277.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15277"
+  , issueCreatedAt = 2016 (-12) (-10) 03 : 10 : 24 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 194740879
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

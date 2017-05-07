@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-22) 18 : 44 : 24 UTC
+  , issueUpdatedAt = 2014 (-08) (-22) 18 : 44 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1501/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1501")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1501
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1686556
+        , simpleUserLogin = N "patrickkunka"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1686556?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/patrickkunka"
+        }
+  , issueTitle = "Added Zero-width Web Font"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1501")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1501.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1501.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1501"
+  , issueCreatedAt = 2014 (-08) (-22) 17 : 17 : 02 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 40929496
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

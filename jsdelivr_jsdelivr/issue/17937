@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-03) 18 : 34 : 11 UTC
+  , issueUpdatedAt = 2017 (-05) (-03) 18 : 34 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17937/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17937")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17937
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bulma to 0.4.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17937")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17937.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17937.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17937"
+  , issueCreatedAt = 2017 (-05) (-03) 18 : 34 : 01 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bulma to 0.4.1.\n\n@jgthms\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bulma\",\n    \"repo\": \"jgthms/bulma\",\n    \"files\": {\n      \"include\": [\"./css/bulma.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/bulma\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.7\", \"0.0.8\", \"0.0.10\", \"0.0.11\", \"0.0.12\", \"0.0.13\", \"0.0.14\", \"0.0.15\", \"0.0.16\", \"0.0.17\", \"0.0.18\", \"0.0.19\", \"0.0.20\", \"0.0.21\", \"0.0.22\", \"0.0.23\", \"0.0.24\", \"0.0.25\", \"0.0.26\", \"0.0.27\", \"0.0.28\", \"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.2.0\", \"0.2.1\", \"0.2.3\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.4.0\", \"0.4.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/bulma/update.json\",\n  \"versions\": [\"0.4.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.4.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/bulma/0.4.1\",\n  \"branch\": \"bulma/0.4.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 226075899
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

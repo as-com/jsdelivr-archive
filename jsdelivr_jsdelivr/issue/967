@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 14 : 21 : 06 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 14 : 21 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/967/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/967")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 967
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7634596
+        , simpleUserLogin = N "MidnightWonderer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7634596?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/MidnightWonderer"
+        }
+  , issueTitle = "How about update notification bot?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/967"
+  , issueCreatedAt = 2014 (-06) (-17) 19 : 36 : 27 UTC
+  , issueBody =
+      Just
+        "I think making bot checking on some scripts that available on other CDN. And notify human for update would be great.\n\nSays polling on Google hosted library or cdnjs and list all available update for jsDelivr in one place would be great.\n\nHow do you think?\n"
+  , issueState = StateClosed
+  , issueId = Id 35923677
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

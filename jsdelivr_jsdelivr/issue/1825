@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-25) 12 : 06 : 42 UTC
+  , issueUpdatedAt = 2014 (-09) (-25) 12 : 06 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1825/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1825")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1825
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project gridster.js to v0.5.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1825")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1825.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1825.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1825"
+  , issueCreatedAt = 2014 (-09) (-25) 12 : 05 : 57 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project gridster.js to v0.5.6.\n\n@ducksboard\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"gridster.js\",\n    \"repo\": \"ducksboard/gridster.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/gridster.js\",\n    \"localVersions\": [\"0.5.0\", \"0.5.2\", \"0.5.3\", \"0.5.4\", \"0.5.5\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.2.0\", \"v0.2.1\", \"v0.3.0\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\", \"v0.5.0\", \"v0.5.1\", \"v0.5.2\", \"v0.5.3\", \"v0.5.4\", \"v0.5.5\", \"v0.5.6\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.5.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/gridster.js/0.5.6\",\n  \"branch\": \"gridster.js/v0.5.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 43911293
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-22) 01 : 01 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123521572"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123521572"
+  , issueCommentCreatedAt = 2015 (-07) (-22) 01 : 01 : 17 UTC
+  , issueCommentBody =
+      "api-sync is seperate from the cdn sync ~~ api sync is mostly for metadata. I'm suggesting we don't generate the SRIs from the Github API but instead request the files off our CDN.\n\nAny concerns with this approach besides requiring extra memory?\n"
+  , issueCommentId = 123521572
+  }

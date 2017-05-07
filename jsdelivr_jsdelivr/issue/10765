@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-02) 12 : 26 : 38 UTC
+  , issueUpdatedAt = 2016 (-04) (-02) 12 : 26 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10765/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10765")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10765
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10674240
+        , simpleUserLogin = N "TheTannerRyan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/10674240?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/TheTannerRyan"
+        }
+  , issueTitle = "Add climacons-fork"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10765")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10765.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10765.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10765"
+  , issueCreatedAt = 2016 (-04) (-01) 12 : 57 : 48 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 145174787
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

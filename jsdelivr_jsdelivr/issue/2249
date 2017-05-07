@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-06) 17 : 20 : 43 UTC
+  , issueUpdatedAt = 2014 (-11) (-06) 17 : 32 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2249/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2249")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2249
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 645758
+        , simpleUserLogin = N "bzmw"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/645758?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bzmw"
+        }
+  , issueTitle = "Add in SVGInjector"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2249")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2249.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2249.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2249"
+  , issueCreatedAt = 2014 (-11) (-06) 17 : 07 : 40 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 47987526
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

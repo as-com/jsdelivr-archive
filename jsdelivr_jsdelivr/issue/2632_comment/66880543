@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-13) 15 : 51 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66880543"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-66880543"
+  , issueCommentCreatedAt = 2014 (-12) (-13) 15 : 51 : 06 UTC
+  , issueCommentBody =
+      "Please dont push it to production yet. I want to make 100% sure that nothing will break if used live :)\n\nThere is nothing to detect, once you tag a version and it appears on WordPress its automatically available on jsDelivr. So its instant, no waiting at all.\n\nTest it out if you can and let me know if you find any issues.\nWe are also going to contact WordPress.org in case they want to make this feature semi-official.\n"
+  , issueCommentId = 66880543
+  }

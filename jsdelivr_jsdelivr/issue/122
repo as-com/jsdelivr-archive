@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-19) 19 : 44 : 37 UTC
+  , issueUpdatedAt = 2013 (-11) (-19) 19 : 44 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/122/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/122")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 122
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 44454
+        , simpleUserLogin = N "indolering"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/44454?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/indolering"
+        }
+  , issueTitle = "Team up with rawgithub"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/122"
+  , issueCreatedAt = 2013 (-10) (-27) 07 : 40 : 43 UTC
+  , issueBody =
+      Just
+        "[These smart people](https://rawgithub.com/) wanted to use `raw.github.com/user/repo/master/filename.js` as a host but couldn't because raw.github serves everything with a text MIME.  So they bought `rawgithub.com` setup a proxy/mirror and filtered `X-Content-Type-Options: nosniff` from the header.\n\nSadly, if you use it in a production site, they blacklist you and eventually start serving evil.css:\n\n```\n/* Don't send production traffic to rawgithub.com! */\n\nhtml {\n    -moz-transform: rotateX(180deg) !important;\n    -webkit-transform: rotateX(180deg) !important;\n    transform: rotateX(180deg) !important;\n}\n```\n\nYou could try and get MaxCDN and others to step up and start really competing with cdnjs!\n"
+  , issueState = StateClosed
+  , issueId = Id 21648701
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

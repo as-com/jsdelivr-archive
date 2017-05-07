@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-30) 14 : 47 : 07 UTC
+  , issueUpdatedAt = 2014 (-10) (-30) 14 : 47 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2161/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2161")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2161
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6033531
+        , simpleUserLogin = N "misantronic"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6033531?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/misantronic"
+        }
+  , issueTitle = "initially added framewreck v.1.2.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2161")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2161.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2161.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2161"
+  , issueCreatedAt = 2014 (-10) (-29) 23 : 13 : 55 UTC
+  , issueBody =
+      Just
+        "A lightweight modular JavaScript framework.\n\nhttps://github.com/misantronic/framewreck\n"
+  , issueState = StateClosed
+  , issueId = Id 47215816
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

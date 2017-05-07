@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-07) 19 : 13 : 50 UTC
+  , issueUpdatedAt = 2014 (-03) (-07) 19 : 25 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/425/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/425")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 425
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "jsdelivr.com/network.php  Broke"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/425"
+  , issueCreatedAt = 2014 (-03) (-07) 17 : 35 : 26 UTC
+  , issueBody =
+      Just
+        "> {\"message\":\"Account over limit.\"}\n\nI was snooping to see how switching to CloudFlare changed things.\n\nBTW, I wonder if there should be a jsdelivr.com repo?\n"
+  , issueState = StateClosed
+  , issueId = Id 28983528
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

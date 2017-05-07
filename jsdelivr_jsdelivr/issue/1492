@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-22) 20 : 25 : 14 UTC
+  , issueUpdatedAt = 2014 (-08) (-22) 20 : 25 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1492/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1492")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1492
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 542154
+        , simpleUserLogin = N "lorenzleutgeb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/542154?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lorenzleutgeb"
+        }
+  , issueTitle = "Add jsmpeg"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1492")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1492.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1492.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1492"
+  , issueCreatedAt = 2014 (-08) (-22) 11 : 40 : 15 UTC
+  , issueBody = Just "A handy MPEG1 decoder written by @phoboslab\n"
+  , issueState = StateClosed
+  , issueId = Id 40900984
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

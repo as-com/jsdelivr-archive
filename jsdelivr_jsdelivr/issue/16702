@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-06) 20 : 57 : 51 UTC
+  , issueUpdatedAt = 2017 (-03) (-06) 20 : 57 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16702/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16702")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16702
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5009534
+        , simpleUserLogin = N "duyetdev"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5009534?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/duyetdev"
+        }
+  , issueTitle = "Add notibar.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16702")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16702.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16702.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16702"
+  , issueCreatedAt = 2017 (-03) (-04) 08 : 33 : 23 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 211865960
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

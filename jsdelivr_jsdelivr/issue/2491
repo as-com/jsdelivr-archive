@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-25) 11 : 53 : 11 UTC
+  , issueUpdatedAt = 2014 (-11) (-25) 12 : 20 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2491/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2491")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2491
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5516214
+        , simpleUserLogin = N "robman87"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5516214?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/robman87"
+        }
+  , issueTitle = "angular.flow v2.5.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2491")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2491.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2491.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2491"
+  , issueCreatedAt = 2014 (-11) (-25) 10 : 23 : 41 UTC
+  , issueBody =
+      Just "Updated angular.flow to v2.5.1 and added update.json\n"
+  , issueState = StateClosed
+  , issueId = Id 50007235
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

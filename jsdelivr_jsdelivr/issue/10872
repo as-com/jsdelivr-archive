@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-07) 10 : 20 : 27 UTC
+  , issueUpdatedAt = 2016 (-04) (-07) 10 : 20 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10872/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10872")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10872
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project flat-ui to 2.3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10872")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10872.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10872.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10872"
+  , issueCreatedAt = 2016 (-04) (-06) 22 : 32 : 42 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project flat-ui to 2.3.0.\n\n@designmodo\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"flat-ui\",\n    \"repo\": \"designmodo/Flat-UI\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"exclude\": [\"index.html\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/flat-ui\",\n    \"localVersions\": [\"1.1\", \"2.0\", \"2.2.2\"],\n    \"remoteVersions\": [\"1.1.0\", \"2.0.0\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.1.3\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"2.3.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/flat-ui/update.json\",\n  \"versions\": [\"1.1.0\", \"2.3.0\"],\n  \"updateRemote\": true,\n  \"version\": \"2.3.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/flat-ui/2.3.0\",\n  \"branch\": \"flat-ui/2.3.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 146453730
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

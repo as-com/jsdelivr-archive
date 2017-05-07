@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-01) 17 : 17 : 15 UTC
+  , issueUpdatedAt = 2017 (-03) (-01) 17 : 17 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16615/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16615")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16615
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2342142
+        , simpleUserLogin = N "dkoes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2342142?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dkoes"
+        }
+  , issueTitle = "trying to update version of 3dmol.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16615")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16615.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16615.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16615"
+  , issueCreatedAt = 2017 (-02) (-27) 20 : 38 : 23 UTC
+  , issueBody =
+      Just
+        "I don't understand why this isn't being pulled automatically from git."
+  , issueState = StateClosed
+  , issueId = Id 210599589
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

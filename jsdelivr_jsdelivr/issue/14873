@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-20) 06 : 33 : 46 UTC
+  , issueUpdatedAt = 2016 (-11) (-20) 06 : 33 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14873/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14873")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14873
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project lg-zoom to 1.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14873")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14873.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14873.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14873"
+  , issueCreatedAt = 2016 (-11) (-20) 06 : 33 : 42 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project lg-zoom to 1.0.2.\n\n@sachinchoolur\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"lg-zoom\",\n    \"repo\": \"sachinchoolur/lg-zoom\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/lg-zoom\",\n    \"localVersions\": [\"1.0.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/lg-zoom/update.json\",\n  \"versions\": [\"1.0.2\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/lg-zoom/1.0.2\",\n  \"branch\": \"lg-zoom/1.0.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 190542682
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

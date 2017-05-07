@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-17) 21 : 06 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/122416028"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/5953#issuecomment-122416028"
+  , issueCommentCreatedAt = 2015 (-07) (-17) 21 : 06 : 45 UTC
+  , issueCommentBody =
+      "Our CDN providers dont support that. \nIf you want just send me the output of the `ll` command on your server in that directory and I will purge all the URLs.\n"
+  , issueCommentId = 122416028
+  }

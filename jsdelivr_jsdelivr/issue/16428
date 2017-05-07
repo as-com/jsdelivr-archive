@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-19) 14 : 05 : 39 UTC
+  , issueUpdatedAt = 2017 (-02) (-19) 14 : 05 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16428/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16428")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16428
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project rapidoid to 5.2.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16428")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16428.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16428.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16428"
+  , issueCreatedAt = 2017 (-02) (-19) 14 : 05 : 35 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project rapidoid to 5.2.9.\n\n@rapidoid\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"rapidoid\",\n    \"repo\": \"rapidoid/rapidoid\",\n    \"files\": {\n      \"basePath\": \"rapidoid-html/src/main/resources/default/static/\",\n      \"include\": [\"rapidoid.min.js\", \"rapidoid.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/rapidoid\",\n    \"localVersions\": [\"4.1.0\", \"4.2.0\", \"4.3.0\", \"4.4.0\", \"5.0.0\", \"5.0.1\", \"5.0.2\", \"5.0.3\", \"5.0.4\", \"5.0.5\", \"5.0.6\", \"5.0.7\", \"5.0.8\", \"5.0.9\", \"5.0.10\", \"5.0.11\", \"5.0.12\", \"5.1.1\", \"5.1.2\", \"5.1.3\", \"5.1.4\", \"5.1.5\", \"5.1.6\", \"5.1.7\", \"5.1.8\", \"5.1.9\", \"5.2.0\", \"5.2.1\", \"5.2.2\", \"5.2.3\", \"5.2.4\", \"5.2.5\", \"5.2.6\", \"5.2.7\", \"5.2.8\"],\n    \"remoteVersions\": [\"rapidoid-0.9.0\", \"rapidoid-1.0.0\", \"rapidoid-1.0.1\", \"rapidoid-2.0.0\", \"rapidoid-2.0.1\", \"rapidoid-2.0.2\", \"rapidoid-2.0.3\", \"rapidoid-2.1.0\", \"rapidoid-2.1.1\", \"rapidoid-2.2.0\", \"rapidoid-2.3.0\", \"rapidoid-2.4.0\", \"rapidoid-3.0.0\", \"rapidoid-4.0.0\", \"rapidoid-4.0.1\", \"rapidoid-4.0.2\", \"rapidoid-4.0.3\", \"4.1.0\", \"4.2.0\", \"4.3.0\", \"4.4.0\", \"5.0.0\", \"5.0.1\", \"5.0.2\", \"5.0.3\", \"5.0.4\", \"5.0.5\", \"5.0.6\", \"5.0.7\", \"5.0.8\", \"5.0.9\", \"5.0.10\", \"5.0.11\", \"5.0.12\", \"5.1.0\", \"5.1.1\", \"5.1.2\", \"5.1.3\", \"5.1.4\", \"5.1.5\", \"5.1.6\", \"5.1.7\", \"5.1.8\", \"5.1.9\", \"5.2.0\", \"5.2.1\", \"5.2.2\", \"5.2.3\", \"5.2.4\", \"5.2.5\", \"5.2.6\", \"5.2.7\", \"5.2.8\", \"5.2.9\"],\n    \"branchVersions\": [\"5.0.12\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/rapidoid/update.json\",\n  \"versions\": [\"5.2.9\", \"rapidoid-0.9.0\", \"rapidoid-1.0.1\", \"rapidoid-2.4.0\", \"rapidoid-3.0.0\", \"rapidoid-4.0.3\"],\n  \"updateRemote\": true,\n  \"version\": \"5.2.9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/rapidoid/5.2.9\",\n  \"branch\": \"rapidoid/5.2.9\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 208719531
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

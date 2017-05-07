@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-16) 08 : 34 : 42 UTC
+  , issueUpdatedAt = 2017 (-04) (-16) 08 : 34 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17606/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17606")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17606
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project js-xlsx to v0.9.11"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17606")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17606.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17606.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17606"
+  , issueCreatedAt = 2017 (-04) (-16) 08 : 34 : 30 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project js-xlsx to v0.9.11.\n\n@SheetJS\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"js-xlsx\",\n    \"repo\": \"SheetJS/js-xlsx\",\n    \"files\": {\n      \"basePath\": \"dist\",\n      \"exclude\": [\"LICENSE\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/js-xlsx\",\n    \"localVersions\": [\"0.7.11\", \"0.8.0\", \"0.8.1\", \"0.8.2\", \"0.8.3\", \"0.8.4\", \"0.8.5\", \"0.8.7\", \"0.8.8\", \"0.9.0\", \"0.9.1\", \"0.9.2\", \"0.9.3\", \"0.9.4\", \"0.9.5\", \"0.9.6\", \"0.9.7\", \"0.9.8\", \"0.9.9\", \"0.9.10\"],\n    \"remoteVersions\": [\"v0.4.3\", \"v0.5.0\", \"v0.5.7\", \"v0.5.8\", \"v0.5.9\", \"v0.5.10\", \"v0.7.1\", \"v0.7.2\", \"v0.7.3\", \"v0.7.4\", \"v0.7.5\", \"v0.7.6-a\", \"v0.7.6-h\", \"v0.7.6-i\", \"v0.7.6\", \"v0.7.7\", \"v0.7.9\", \"v0.7.10\", \"v0.7.11\", \"v0.8.0\", \"v0.8.1\", \"v0.8.2\", \"v0.8.3\", \"v0.8.4\", \"v0.8.5\", \"v0.8.6\", \"v0.8.7\", \"v0.8.8\", \"v0.9.0\", \"v0.9.1\", \"v0.9.2\", \"v0.9.3\", \"v0.9.4\", \"v0.9.5\", \"v0.9.6\", \"v0.9.7\", \"v0.9.8\", \"v0.9.9\", \"v0.9.10\", \"v0.9.11\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/js-xlsx/update.json\",\n  \"versions\": [\"v0.9.11\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.9.11\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/js-xlsx/0.9.11\",\n  \"branch\": \"js-xlsx/v0.9.11\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 221998523
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-09) 22 : 03 : 54 UTC
+  , issueUpdatedAt = 2016 (-09) (-09) 22 : 03 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13702/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13702")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13702
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project leaflet.esri.gp to v2.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13702")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13702.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13702.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13702"
+  , issueCreatedAt = 2016 (-09) (-09) 22 : 03 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project leaflet.esri.gp to v2.0.1.\n\n@jgravois\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"leaflet.esri.gp\",\n    \"repo\": \"jgravois/esri-leaflet-gp\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"esri-leaflet-gp.js\", \"esri-leaflet-gp.js.map\"],\n      \"exclude\": [\"README.md\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/leaflet.esri.gp\",\n    \"localVersions\": [\"1.0.2\", \"2.0.0-beta.1\", \"2.0.0\"],\n    \"remoteVersions\": [\"v0.0.1-alpha2\", \"v0.0.1-alpha.3\", \"v0.0.1-beta.1\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v2.0.0-beta.1\", \"v2.0.0\", \"v2.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/leaflet.esri.gp/update.json\",\n  \"versions\": [\"v2.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/leaflet.esri.gp/2.0.1\",\n  \"branch\": \"leaflet.esri.gp/v2.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 176121937
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

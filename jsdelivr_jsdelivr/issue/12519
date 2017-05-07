@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-01) 19 : 41 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12519/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/12519")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12519
+  , issueAssignees =
+      [ SimpleUser
+          { simpleUserId = Id 6192491
+          , simpleUserLogin = N "MartinKolarik"
+          , simpleUserAvatarUrl =
+              URL "https://avatars0.githubusercontent.com/u/6192491?v=3"
+          , simpleUserUrl = URL "https://api.github.com/users/MartinKolarik"
+          }
+      ]
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 770982
+        , simpleUserLogin = N "coreybutler"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/770982?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coreybutler"
+        }
+  , issueTitle = "Project not updating via update.json"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12519"
+  , issueCreatedAt = 2016 (-07) (-02) 19 : 24 : 33 UTC
+  , issueBody =
+      Just
+        "I have the following in the [chassis](https://github.com/jsdelivr/jsdelivr/tree/master/files/chassis) project's update file:\n\n```\n{\n  \"packageManager\": \"npm\",\n  \"name\": \"ngn-chassis\",\n  \"repo\": \"ngnjs/cdn\",\n  \"files\": {\n    \"basePath\": \"chassis-lib/\",\n    \"include\": [\"*.min.js\"]\n  }\n}\n```\n\n**Expected Behavior**\n\nWhen the bot detects a new version of ngn-chassis in npm, it triggers an update. The update looks at the `ngnjs/cdn` repository and pulls all files ending in `.min.js` from the `chassis-lib` directory.\n\nThe resulting output is stored in a directory whose name corresponds to the version npm module's version number.\n\n**Actual Behavior**\n\nNothing. It's been 3 days with this configuration and it still shows version 1.0.56 even though there have been multiple incremental updates each day (currently at v1.0.63 as of this writing).\n\n---\n\nSo, the big questions are\n\na) Am I understanding the process correctly?\nb) Why aren't the updates happening?\nc) Could the [info.ini](https://github.com/jsdelivr/jsdelivr/blob/master/files/chassis/info.ini) file's `github` property be confusing the process? \n\n---\n\nFurther information | Use Case: \n\nThis used to be triggered by a Github release, but not any longer. We _used_ to have a `dist` directory in the chassis-lib repo. This became a problem for our workflow... plus, it's just not good practice to have your release files stored with your source code. SCM is suppposed to be about _source_ code management, not release code.\n\nI have since configured my build process to generate the appropriate release files as a Github release. This triggers an external process that commits those files to the [ngnjs/cdn](https://github.com/ngnjs/cdn) repository. Upon completion of that, my build process then publishes to npm.\n\nBasically, I'm using npm to trigger the jsdelivr bot, but using the ngnjs/cdn repo as the source for the bot.\n\nI posted a comment on a [similar issue](https://github.com/jsdelivr/libgrabber/issues/51) in the libgrabber repo and offered to help out with it.\n"
+  , issueState = StateOpen
+  , issueId = Id 163532407
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

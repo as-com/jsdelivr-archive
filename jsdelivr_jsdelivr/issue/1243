@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-19) 15 : 08 : 31 UTC
+  , issueUpdatedAt = 2014 (-07) (-19) 15 : 08 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1243/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1243")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1243
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17435
+        , simpleUserLogin = N "tomalec"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/17435?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomalec"
+        }
+  , issueTitle = "Add Starcounter-Jack/JSON-Patch@0.3.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1243")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1243.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1243.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1243"
+  , issueCreatedAt = 2014 (-07) (-18) 21 : 00 : 30 UTC
+  , issueBody =
+      Just
+        "https://github.com/Starcounter-Jack/JSON-Patch\nLean and mean Javascript implementation of the JSON-Patch standard. Update JSON documents using delta patches.\n"
+  , issueState = StateClosed
+  , issueId = Id 38211863
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

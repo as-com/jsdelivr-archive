@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-28) 20 : 06 : 51 UTC
+  , issueUpdatedAt = 2017 (-01) (-28) 20 : 06 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16046/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16046")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16046
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tablesorter to v2.28.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16046")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16046.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16046.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16046"
+  , issueCreatedAt = 2017 (-01) (-28) 20 : 05 : 50 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tablesorter to v2.28.5.\n\n@Mottie\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"tablesorter\",\n    \"repo\": \"Mottie/tablesorter\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/tablesorter\",\n    \"localVersions\": [\"2.0.3\", \"2.0.5b\", \"2.10.8\", \"2.11.1\", \"2.13.3\", \"2.15.13\", \"2.15.14\", \"2.16.1\", \"2.16.2\", \"2.16.3\", \"2.16.4\", \"2.17.0\", \"2.17.1\", \"2.17.2\", \"2.17.3\", \"2.17.4\", \"2.28.1\", \"2.28.2\", \"2.28.3\", \"2.28.4\"],\n    \"remoteVersions\": [\"v2.14.2\", \"v2.14.3\", \"v2.14.4\", \"v2.14.5\", \"v2.15.0\", \"v2.15.1\", \"v2.15.2\", \"v2.15.3\", \"v2.15.4\", \"v2.15.5\", \"v2.15.6\", \"v2.15.7\", \"v2.15.8\", \"v2.15.9\", \"v2.15.10\", \"v2.15.12\", \"v2.15.13\", \"v2.15.14\", \"v2.16.0-beta\", \"v2.16.0\", \"v2.16.1-beta\", \"v2.16.1\", \"v2.16.2\", \"v2.16.3\", \"v2.16.4\", \"v2.17.0\", \"v2.17.1\", \"v2.17.2\", \"v2.17.3\", \"v2.17.4\", \"v2.17.5\", \"v2.17.6\", \"v2.17.7\", \"v2.17.8\", \"v2.18.0\", \"v2.18.1\", \"v2.18.2\", \"v2.18.3\", \"v2.18.4\", \"v2.19.0\", \"v2.19.1\", \"v2.20.0\", \"v2.20.1\", \"v2.21.0\", \"v2.21.1\", \"v2.21.2\", \"v2.21.3\", \"v2.21.4\", \"v2.21.5\", \"v2.22.0\", \"v2.22.1\", \"v2.22.2\", \"v2.22.3\", \"v2.22.4\", \"v2.22.5\", \"v2.23.0\", \"v2.23.1\", \"v2.23.2\", \"v2.23.3\", \"v2.23.4\", \"v2.23.5\", \"v2.24.0\", \"v2.24.1\", \"v2.24.2\", \"v2.24.3\", \"v2.24.4\", \"v2.24.5\", \"v2.24.6\", \"v2.25.0\", \"v2.25.1\", \"v2.25.2\", \"v2.25.3\", \"v2.25.4\", \"v2.25.5\", \"v2.25.6\", \"v2.25.7\", \"v2.25.8\", \"v2.25.9\", \"v2.26.0\", \"v2.26.1\", \"v2.26.2\", \"v2.26.3\", \"v2.26.4\", \"v2.26.5\", \"v2.26.6\", \"v2.27.0\", \"v2.27.1\", \"v2.27.2\", \"v2.27.3\", \"v2.27.4\", \"v2.27.5\", \"v2.27.6\", \"v2.27.7\", \"v2.27.8\", \"v2.28.0\", \"v2.28.1\", \"v2.28.2\", \"v2.28.3\", \"v2.28.4\", \"v2.28.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/tablesorter/update.json\",\n  \"versions\": [\"v2.28.5\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.28.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/tablesorter/2.28.5\",\n  \"branch\": \"tablesorter/v2.28.5\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 203828024
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

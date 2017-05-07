@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-01) 23 : 21 : 11 UTC
+  , issueUpdatedAt = 2014 (-03) (-01) 23 : 21 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/398/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/398")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 398
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1573697
+        , simpleUserLogin = N "jeffrey-l-turner"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1573697?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/jeffrey-l-turner"
+        }
+  , issueTitle = "proofread and edited README"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/398")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/398.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/398.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/398"
+  , issueCreatedAt = 2014 (-02) (-28) 23 : 38 : 51 UTC
+  , issueBody =
+      Just
+        "defined CDN; changed wording around optimization and \"competition\"; It would be nice to define RUM in document (does RUM stand for \"Real User Metrics?\"); minor grammatical and wording changes;\n"
+  , issueState = StateClosed
+  , issueId = Id 28542226
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

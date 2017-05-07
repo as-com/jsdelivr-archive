@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-13) 21 : 00 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 351902
+        , simpleUserLogin = N "markcarver"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/351902?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/markcarver"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/130843623"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6396#issuecomment-130843623"
+  , issueCommentCreatedAt = 2015 (-08) (-13) 21 : 00 : 27 UTC
+  , issueCommentBody =
+      "> No mainfile property provided\n\n@jimaek, is this a hard requirement? I can't tell from existing [documentation](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md#file-structure). It's also not very applicable here. If we _have_ to put something, is `\"mainfile\": \"cerulean/bootstrap.css\"` applicable?\n"
+  , issueCommentId = 130843623
+  }

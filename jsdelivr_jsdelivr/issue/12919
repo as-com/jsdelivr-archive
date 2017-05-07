@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-26) 08 : 59 : 54 UTC
+  , issueUpdatedAt = 2016 (-07) (-26) 08 : 59 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12919/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12919")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12919
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project autocomplete.js to 0.21.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12919")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12919.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12919.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12919"
+  , issueCreatedAt = 2016 (-07) (-26) 08 : 02 : 51 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project autocomplete.js to 0.21.2.\n\n@algolia\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"autocomplete.js\",\n    \"repo\": \"algolia/autocomplete.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/autocomplete.js\",\n    \"localVersions\": [\"0.1.0\", \"0.2.0\", \"0.3.0\", \"0.4.0\", \"0.5.0\", \"0.6.0\", \"0.7.0\", \"0.8.0\", \"0.9.0\", \"0.10.0\", \"0.11.0\", \"0.11.1\", \"0.12.0\", \"0.13.0\", \"0.14.0\", \"0.14.1\", \"0.15.0\", \"0.16.0\", \"0.16.1\", \"0.16.2\", \"0.17.0\", \"0.17.1\", \"0.17.2\", \"0.17.3\", \"0.18.0\", \"0.19.0\", \"0.19.1\", \"0.20.0\", \"0.20.1\", \"0.21.0\", \"0.21.1\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.1.0\", \"0.2.0\", \"0.3.0\", \"0.4.0\", \"0.5.0\", \"0.6.0\", \"0.7.0\", \"0.8.0\", \"0.9.0\", \"0.10.0\", \"0.11.0\", \"0.11.1\", \"0.12.0\", \"0.13.0\", \"0.14.0\", \"0.14.1\", \"0.15.0\", \"0.16.0\", \"0.16.1\", \"0.16.2\", \"0.17.0\", \"0.17.1\", \"0.17.2\", \"0.17.3\", \"0.18.0\", \"0.19.0\", \"0.19.1\", \"0.20.0\", \"0.20.1\", \"0.21.0\", \"0.21.1\", \"0.21.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/autocomplete.js/update.json\",\n  \"versions\": [\"0.21.2\"],\n  \"updateRemote\": true,\n  \"version\": \"0.21.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/autocomplete.js/0.21.2\",\n  \"branch\": \"autocomplete.js/0.21.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 167544415
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

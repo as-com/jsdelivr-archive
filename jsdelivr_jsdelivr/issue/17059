@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-19) 14 : 59 : 17 UTC
+  , issueUpdatedAt = 2017 (-04) (-19) 14 : 59 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17059/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17059")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17059
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project countdown to Release_1_1_0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17059")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17059.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17059.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17059"
+  , issueCreatedAt = 2017 (-03) (-21) 17 : 34 : 34 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project countdown to Release_1_1_0.\n\n@kbwood\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"countdown\",\n    \"repo\": \"kbwood/countdown\",\n    \"files\": {\n      \"include\": [\"*.js\", \"*.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/countdown\",\n    \"localVersions\": [\"1.5.11\", \"1.6.0\", \"1.6.1\", \"1.6.3\", \"2.0.0\", \"2.0.1\", \"2.0.2\"],\n    \"remoteVersions\": [\"Release_1_0_0\", \"Release_1_1_0\", \"Release_1_1_1\", \"Release_1_2_0\", \"Release_1_2_1\", \"Release_1_2_2\", \"Release_1_3_0\", \"Release_1_4_0\", \"Release_1_4_1\", \"Release_1_4_2\", \"Release_1_4_3\", \"Release_1_5_0\", \"Release_1_5_1\", \"Release_1_5_2\", \"Release_1_5_3\", \"Release_1_5_4\", \"Release_1_5_5\", \"Release_1_5_6\", \"Release_1_5_8\", \"Release_1_5_10\", \"Release_1_5_11\", \"Release_1_6_0\", \"Release_1_6_1\", \"Release_1_6_2\", \"Release_1_6_3\", \"1.6.2\", \"1.6.3\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0\"],\n    \"branchVersions\": [\"Release_1_0_0\", \"Release_1_4_0\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/countdown/update.json\",\n  \"versions\": [\"2.1.0\", \"Release_1_1_0\", \"Release_1_1_1\", \"Release_1_2_0\", \"Release_1_2_1\", \"Release_1_2_2\", \"Release_1_3_0\", \"Release_1_4_1\", \"Release_1_4_2\", \"Release_1_4_3\", \"Release_1_5_0\", \"Release_1_5_1\", \"Release_1_5_2\", \"Release_1_5_3\", \"Release_1_5_4\", \"Release_1_5_5\", \"Release_1_5_6\", \"Release_1_5_8\", \"Release_1_5_10\", \"Release_1_5_11\", \"Release_1_6_0\", \"Release_1_6_1\", \"Release_1_6_2\", \"Release_1_6_3\"],\n  \"updateRemote\": true,\n  \"version\": \"Release_1_1_0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/countdown/Release_1_1_0\",\n  \"branch\": \"countdown/Release_1_1_0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215820588
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

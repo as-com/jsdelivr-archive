@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-15) 17 : 38 : 07 UTC
+  , issueUpdatedAt = 2014 (-05) (-15) 20 : 08 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/808/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/808")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 808
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3189678
+        , simpleUserLogin = N "MickeyKay"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3189678?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MickeyKay"
+        }
+  , issueTitle = "Not showing latest Font Awesome version"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/808"
+  , issueCreatedAt = 2014 (-05) (-15) 16 : 52 : 38 UTC
+  , issueBody =
+      Just
+        "Hi there,\n\nWhen I go to the following URL, the latest version of Font Awesome (4.1.0) isn't listed - any ideas why? \nhttp://api.jsdelivr.com/v1/bootstrap/libraries/font-awesome/\n\nIs there a delay of some sort? I can see that this version is available via your CDN (http://www.jsdelivr.com/#!fontawesome), so it seems like it'd be registered when user the jsdelivr api as well.\n\nThanks!\nMickey\n"
+  , issueState = StateClosed
+  , issueId = Id 33604088
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-03) 16 : 50 : 17 UTC
+  , issueUpdatedAt = 2014 (-06) (-20) 22 : 03 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/173/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/173")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 173
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4303
+        , simpleUserLogin = N "jdalton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4303?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jdalton"
+        }
+  , issueTitle = "Add Lo-Dash v2.4.1."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/173")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/173.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/173.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/173"
+  , issueCreatedAt = 2013 (-12) (-03) 16 : 49 : 30 UTC
+  , issueBody = Just "Files from the tagged release :)\n"
+  , issueState = StateClosed
+  , issueId = Id 23656099
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

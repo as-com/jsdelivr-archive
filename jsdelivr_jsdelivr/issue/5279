@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-12) 13 : 09 : 25 UTC
+  , issueUpdatedAt = 2015 (-06) (-12) 13 : 09 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5279/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5279")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5279
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project jquery.simple-scroll-follow to 2.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5279")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5279.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5279.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5279"
+  , issueCreatedAt = 2015 (-06) (-12) 13 : 09 : 21 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.simple-scroll-follow to 2.0.3.\n\n@sutara79\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.simple-scroll-follow\",\n    \"repo\": \"sutara79/jquery.simple-scroll-follow\",\n    \"files\": {\n      \"include\": [\"jquery.simple-scroll-follow.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.simple-scroll-follow\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.simple-scroll-follow/2.0.3\",\n  \"branch\": \"jquery.simple-scroll-follow/2.0.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 87723298
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

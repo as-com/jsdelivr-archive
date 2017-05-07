@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-18) 04 : 53 : 18 UTC
+  , issueUpdatedAt = 2016 (-08) (-18) 04 : 53 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13163/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13163")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13163
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 20928941
+        , simpleUserLogin = N "RiNsCS"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/20928941?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/RiNsCS"
+        }
+  , issueTitle = "Make New Project - Seopirang"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13163")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13163.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13163.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13163"
+  , issueCreatedAt = 2016 (-08) (-09) 15 : 35 : 50 UTC
+  , issueBody = Just "Make New Project\n"
+  , issueState = StateClosed
+  , issueId = Id 170198492
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-29) 23 : 56 : 15 UTC
+  , issueUpdatedAt = 2014 (-12) (-30) 11 : 17 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2854/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2854")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2854
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 121766
+        , simpleUserLogin = N "feross"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/121766?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/feross"
+        }
+  , issueTitle = "add webtorrent"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2854")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2854.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2854.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2854"
+  , issueCreatedAt = 2014 (-12) (-29) 23 : 53 : 52 UTC
+  , issueBody =
+      Just
+        "WebTorrent is a streaming torrent client for node.js and the browser. YEP, THAT'S RIGHT. THE BROWSER. It's written completely in JavaScript \8211 the language of the web \8211 so the same code works in both runtimes.\n\nIn the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations. It's Just JavaScript\8482.\n\nMore info: https://github.com/feross/webtorrent\nRelevant issue: https://github.com/feross/webtorrent/issues/219\n\nThanks to @jimaek for recommending jsDelivr.\n"
+  , issueState = StateClosed
+  , issueId = Id 53082211
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

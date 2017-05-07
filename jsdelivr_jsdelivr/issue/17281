@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 18 : 37 : 05 UTC
+  , issueUpdatedAt = 2017 (-03) (-29) 18 : 37 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17281/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17281")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17281
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 910829
+        , simpleUserLogin = N "rafa8626"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/910829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rafa8626"
+        }
+  , issueTitle = "Update MediaElement info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17281")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17281.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17281.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17281"
+  , issueCreatedAt = 2017 (-03) (-29) 18 : 03 : 17 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 217959855
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

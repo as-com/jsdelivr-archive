@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-28) 13 : 59 : 08 UTC
+  , issueUpdatedAt = 2014 (-04) (-28) 13 : 59 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/713/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/713")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 713
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1573141
+        , simpleUserLogin = N "coderaiser"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1573141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coderaiser"
+        }
+  , issueTitle = "add util.io"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/713")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/713.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/713.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/713"
+  , issueCreatedAt = 2014 (-04) (-28) 12 : 58 : 17 UTC
+  , issueBody =
+      Just
+        "I removed forked repository. So I make new pull request with minified version.\n"
+  , issueState = StateClosed
+  , issueId = Id 32356647
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

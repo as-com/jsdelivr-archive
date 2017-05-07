@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-06) (-20) 12 : 59 : 33 UTC
+  , issueUpdatedAt = 2013 (-06) (-20) 13 : 23 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/37/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/37")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 37
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1618054
+        , simpleUserLogin = N "stijnherreman"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1618054?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/stijnherreman"
+        }
+  , issueTitle = "Update jQuery Form to 3.36"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/37")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/37.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/37.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/37"
+  , issueCreatedAt = 2013 (-06) (-20) 09 : 00 : 52 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 15788081
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

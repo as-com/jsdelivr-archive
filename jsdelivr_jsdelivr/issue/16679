@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-03) 18 : 40 : 14 UTC
+  , issueUpdatedAt = 2017 (-03) (-03) 19 : 42 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16679/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16679")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16679
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 772937
+        , simpleUserLogin = N "ryanpcmcquen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/772937?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ryanpcmcquen"
+        }
+  , issueTitle = "Add Cheval."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16679")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16679.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16679.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16679"
+  , issueCreatedAt = 2017 (-03) (-02) 20 : 50 : 58 UTC
+  , issueBody =
+      Just "Thank you!\r\n\r\nhttps://ryanpcmcquen.org/cheval/"
+  , issueState = StateClosed
+  , issueId = Id 211513422
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

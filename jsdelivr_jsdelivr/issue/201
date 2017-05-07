@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-12) 17 : 02 : 17 UTC
+  , issueUpdatedAt = 2014 (-07) (-08) 06 : 17 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/201/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/201")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 201
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 843787
+        , simpleUserLogin = N "mkody"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/843787?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mkody"
+        }
+  , issueTitle = "Added HubSpot's scripts"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/201")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/201.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/201.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/201"
+  , issueCreatedAt = 2013 (-12) (-12) 16 : 57 : 36 UTC
+  , issueBody =
+      Just
+        "`Offline`, `signet`, `titleSignet` has been added.\nPlus: `pace` has been updated\n"
+  , issueState = StateClosed
+  , issueId = Id 24192050
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

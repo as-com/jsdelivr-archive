@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-26) 19 : 26 : 34 UTC
+  , issueUpdatedAt = 2016 (-09) (-26) 19 : 26 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13996/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13996")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13996
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 12477449
+        , simpleUserLogin = N "park-brian"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/12477449?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/park-brian"
+        }
+  , issueTitle = "adding bootstrap-tabcollapse"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13996")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13996.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13996.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13996"
+  , issueCreatedAt = 2016 (-09) (-26) 19 : 23 : 52 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 179315145
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

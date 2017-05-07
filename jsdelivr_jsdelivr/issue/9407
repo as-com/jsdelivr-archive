@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-28) 10 : 52 : 03 UTC
+  , issueUpdatedAt = 2016 (-01) (-28) 10 : 52 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9407/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9407")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9407
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3011734
+        , simpleUserLogin = N "jgravois"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3011734?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jgravois"
+        }
+  , issueTitle = "adding files manually.."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9407")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9407.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9407.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9407"
+  , issueCreatedAt = 2016 (-01) (-28) 03 : 07 : 17 UTC
+  , issueBody =
+      Just
+        "thanks for the eagle eye [here](https://github.com/Esri/esri-leaflet-geocoder/issues/117#issuecomment-175209978) @jimaek!  i've fixed our release and assume a manual PR is needed here too.\n"
+  , issueState = StateClosed
+  , issueId = Id 129317334
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

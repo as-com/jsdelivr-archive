@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-03) 22 : 23 : 33 UTC
+  , issueUpdatedAt = 2014 (-09) (-03) 22 : 23 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1342/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1342")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1342
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Velocity New York 2014"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1342"
+  , issueCreatedAt = 2014 (-08) (-01) 20 : 28 : 00 UTC
+  , issueBody =
+      Just
+        "I have 1 free two-day conference pass (excludes tutorials day \8211 the first day of the tutorial) for our internal use.\nSo one jsDelivr fan will get the chance to visit the conference and learn lots of new stuff.\nPreferably it should be a person interested in web performance that will understand what is going on.\nAnd at the same time I will ask him to have the interests of jsDelivr in mind. This means talking to people, promoting the project, get business cards from companies that are potential sponsors...\n\n**What:** [Velocity NYC - Web performance conference](http://velocityconf.com/velocityny2014)\n**When:** September 15\8211\&17\n**Where:** New York\n### What do you get:\n- Free 2-day pass (Tues, Weds)\n- Watch interesting presentations\n- Meet lots of smart people and big companies\n- Have fun\n### What I ask:\n- Have jsDelivr in mind\n- Look over our stickers :p\n- If a chance for promotion appears take it\n- Have fun\n\nIf you are interested to go please leave a comment\n"
+  , issueState = StateClosed
+  , issueId = Id 39324642
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

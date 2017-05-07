@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-29) 23 : 07 : 30 UTC
+  , issueUpdatedAt = 2014 (-10) (-29) 23 : 07 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2160/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2160")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2160
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project waffle to 0.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2160")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2160.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2160.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2160"
+  , issueCreatedAt = 2014 (-10) (-29) 23 : 06 : 58 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project waffle to 0.2.1.\n\n@LandonSchropp\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"waffle\",\n    \"repo\": \"LandonSchropp/waffle\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"waffle.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/waffle\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.1.0\", \"0.2.0\", \"0.2.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/waffle/0.2.1\",\n  \"branch\": \"waffle/0.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 47215256
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

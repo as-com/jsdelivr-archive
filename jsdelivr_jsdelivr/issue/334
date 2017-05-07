@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-05) 13 : 29 : 44 UTC
+  , issueUpdatedAt = 2014 (-02) (-05) 18 : 06 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/334/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/334")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 334
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 463580
+        , simpleUserLogin = N "coldhawaiian"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/463580?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coldhawaiian"
+        }
+  , issueTitle =
+      "Jasmine 2.0.0 is available, is it possible to add it to JSDelivr?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/334"
+  , issueCreatedAt = 2014 (-02) (-05) 03 : 56 : 11 UTC
+  , issueBody =
+      Just
+        "Hi, [Jasmine 2.0.0](https://github.com/pivotal/jasmine/releases/tag/v2.0.0) was released 2 months ago, is it possible to add it to JSDelivr? Right now JSDelivr only hosts Jasmine 2.0.0rc2.\n"
+  , issueState = StateClosed
+  , issueId = Id 26936335
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

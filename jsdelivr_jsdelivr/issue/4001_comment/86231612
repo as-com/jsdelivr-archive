@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-25) 22 : 00 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/86231612"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4001#issuecomment-86231612"
+  , issueCommentCreatedAt = 2015 (-03) (-25) 22 : 00 : 20 UTC
+  , issueCommentBody =
+      "Can you paste the HTTP headers here? I hit CloudFlare and I see 0.0.114\n"
+  , issueCommentId = 86231612
+  }

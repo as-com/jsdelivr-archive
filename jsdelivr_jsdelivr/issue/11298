@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-26) 12 : 49 : 50 UTC
+  , issueUpdatedAt = 2016 (-04) (-26) 12 : 49 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11298/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11298")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11298
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 297650
+        , simpleUserLogin = N "krzyko"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/297650?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/krzyko"
+        }
+  , issueTitle = "add jquery-migrate 1.4.0 version"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11298")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11298.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11298.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11298"
+  , issueCreatedAt = 2016 (-04) (-26) 11 : 55 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 151114100
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

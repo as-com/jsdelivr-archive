@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-01) 08 : 04 : 08 UTC
+  , issueUpdatedAt = 2016 (-02) (-01) 08 : 04 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9484/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9484")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9484
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project rtc to v3.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9484")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9484.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9484.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9484"
+  , issueCreatedAt = 2016 (-02) (-01) 08 : 04 : 02 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project rtc to v3.4.0.\n\n@rtc-io\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"rtc\",\n    \"repo\": \"rtc-io/rtc\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"rtc.min.js\", \"rtc.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/rtc\",\n    \"localVersions\": [\"2.1.8\", \"3.0.1\", \"3.0.2\", \"3.0.4\", \"3.1.0\", \"3.1.1\", \"3.1.2\", \"3.2.1\", \"3.2.2\", \"3.2.3\", \"3.2.4\", \"3.2.5\", \"3.3.0\"],\n    \"remoteVersions\": [\"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.1.0\", \"v2.1.1\", \"v2.1.2\", \"v2.1.3\", \"v2.1.4\", \"v2.1.5\", \"v2.1.6\", \"v2.1.7\", \"v2.1.8\", \"v3.0.0\", \"v3.0.1\", \"v3.0.2\", \"v3.0.3\", \"v3.0.4\", \"v3.1.0\", \"v3.1.1\", \"v3.1.2\", \"v3.2.0\", \"v3.2.1\", \"v3.2.2\", \"v3.2.3\", \"v3.2.4\", \"v3.2.5\", \"v3.3.0\", \"v3.4.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/rtc/update.json\",\n  \"versions\": [\"v3.4.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.4.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/rtc/3.4.0\",\n  \"branch\": \"rtc/v3.4.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 130288131
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

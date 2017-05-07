@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-09) 11 : 51 : 44 UTC
+  , issueUpdatedAt = 2014 (-07) (-15) 08 : 15 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/429/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/429")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 429
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1915268
+        , simpleUserLogin = N "irazasyed"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1915268?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/irazasyed"
+        }
+  , issueTitle = "Add new versions, scripts and css."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/429")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/429.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/429.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/429"
+  , issueCreatedAt = 2014 (-03) (-09) 07 : 40 : 13 UTC
+  , issueBody =
+      Just
+        "Added Latest versions of libraries, new scripts and new css.\n\nNew:\n- Mobile-DetectJS\n- Collision Detection for EaselJS - Note: This doesn't seem to have any version tag, So i added 1.0.0.\n- CSS3 Facebook Buttons\n- CSS3 Github Buttons\n- CSS3 Social Signin Buttons\n"
+  , issueState = StateClosed
+  , issueId = Id 29038697
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

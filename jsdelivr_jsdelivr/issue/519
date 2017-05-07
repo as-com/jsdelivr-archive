@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-13) 16 : 22 : 30 UTC
+  , issueUpdatedAt = 2014 (-04) (-13) 16 : 22 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/519/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/519")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 519
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1566
+        , simpleUserLogin = N "jhnsntmthy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1566?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jhnsntmthy"
+        }
+  , issueTitle =
+      "Added Konami-EasterEggs with FartScroll from theOnion.com"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/519")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/519.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/519.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/519"
+  , issueCreatedAt = 2014 (-03) (-27) 16 : 09 : 38 UTC
+  , issueBody =
+      Just
+        "Leveraging the brilliant FartScroll.js from the Onion, and the equally brilliant Konami code, we just implemented a mechanism that allows the fartscroll to be loaded only upon successful entry of the special code \"fff\". Just embed this file and add your own Konami easter eggs as well\n"
+  , issueState = StateClosed
+  , issueId = Id 30315472
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

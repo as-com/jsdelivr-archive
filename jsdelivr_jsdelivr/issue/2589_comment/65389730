@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-03) 10 : 53 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 313744
+        , simpleUserLogin = N "asurak"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/313744?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/asurak"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65389730"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2589#issuecomment-65389730"
+  , issueCommentCreatedAt = 2014 (-12) (-03) 10 : 53 : 05 UTC
+  , issueCommentBody =
+      "7 days for us, that is not a problem, but I think the issue might be somewhere else.\nWhen I request \"latest\" with a clean cache on my side, I get 2.7.4 that is 21 days old:\nCache-Control:public, max-age=604800\nCF-Cache-Status:HIT\nCF-RAY:192f3314a4141509-CDG\nConnection:keep-alive\nContent-Encoding:gzip\nContent-Type:application/x-javascript; charset=utf-8\nDate:Wed, 03 Dec 2014 10:49:46 GMT\nLast-Modified:Mon, 13 Jan 2014 18:17:35 GMT\nServer:cloudflare-nginx\nTransfer-Encoding:chunked\nVary:Accept-Encoding\nX-Version:2.7.4\n\nPurge command would be really cool to have, but then it is a question if it would not create too much undesirable traffic. After all, that should be used only in a case of emergency.\n"
+  , issueCommentId = 65389730
+  }

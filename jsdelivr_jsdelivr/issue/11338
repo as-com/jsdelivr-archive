@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-28) 13 : 34 : 47 UTC
+  , issueUpdatedAt = 2016 (-04) (-28) 13 : 34 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11338/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11338")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11338
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project clappr-markers-plugin to 0.4.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11338")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11338.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11338.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11338"
+  , issueCreatedAt = 2016 (-04) (-28) 13 : 33 : 03 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project clappr-markers-plugin to 0.4.2.\n\n@tjenkinson\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"clappr-markers-plugin\",\n    \"repo\": \"tjenkinson/clappr-markers-plugin\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/clappr.markers-plugin\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.0.1\", \"0.1.0\", \"0.2.0\", \"0.3.0\", \"0.4.0\", \"0.4.1\", \"0.4.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/clappr.markers-plugin/update.json\",\n  \"versions\": [\"0.4.2\"],\n  \"updateRemote\": true,\n  \"version\": \"0.4.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/clappr.markers-plugin/0.4.2\",\n  \"branch\": \"clappr-markers-plugin/0.4.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 151642098
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

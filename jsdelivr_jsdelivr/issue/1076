@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-24) 19 : 04 : 58 UTC
+  , issueUpdatedAt = 2015 (-04) (-24) 19 : 04 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1076/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1076")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1076
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle =
+      "add header for font files to be gzipped in cloudflare."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1076"
+  , issueCreatedAt = 2014 (-06) (-29) 18 : 00 : 36 UTC
+  , issueBody =
+      Just
+        "#965\n\nhi, i found jsdelivr does not provid http content type header.\n\nif jsdelvir provide proper content type header for some font files, cloudflare edge can gzip the contents.\n\nhere is my test result and reference\nhttps://support.cloudflare.com/hc/en-us/articles/200168396-What-will-CloudFlare-gzip-\n\nquerystirng : gzip= on or off  content-type = ttf or none(application/octet-stream)\n\nnone cloudflare test\n(cloud flare origin server, i'll mask this URL after issue is closed)\nhttp://bypass.cloudflare-test.cf/cloudflare-test.php?gzip=off&content-type=ttf\nhttp://bypass.cloudflare-test.cf//cloudflare-test.php?gzip=on&content-type=\n\ncloudflare test\nhttp://cloudflare-test.cf/cloudflare-test.php?gzip=off&content-type=ttf\nhttp://cloudflare-test.cf/cloudflare-test.php?gzip=on&content-type=\n\ncheck-gzip :http://www.whatsmyip.org/http-compression-test/\nfast test : http://www.web-sniffer.net\ntiny test file : http://pastebin.com/t6D9HwmQ\n![a](https://cloud.githubusercontent.com/assets/7894760/3423984/0becc8c0-ffb7-11e3-883a-f03b6ef5799d.png)\n"
+  , issueState = StateClosed
+  , issueId = Id 36751520
+  , issueComments = 12
+  , issueMilestone = Nothing
+  }

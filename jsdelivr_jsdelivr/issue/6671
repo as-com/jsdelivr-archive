@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-02) 10 : 09 : 55 UTC
+  , issueUpdatedAt = 2015 (-09) (-02) 10 : 09 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6671/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6671")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6671
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project graphiql to 0.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6671")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6671.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6671.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6671"
+  , issueCreatedAt = 2015 (-09) (-02) 10 : 04 : 16 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project graphiql to 0.1.2.\n\n@graphql\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"graphiql\",\n    \"repo\": \"graphql/graphiql\",\n    \"files\": {\n      \"include\": [\"graphiql.min.js\", \"graphiql.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/graphiql\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/graphiql/update.json\",\n  \"version\": \"0.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/graphiql/0.1.2\",\n  \"branch\": \"graphiql/0.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 104445178
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

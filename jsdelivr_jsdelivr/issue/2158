@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-31) 18 : 21 : 44 UTC
+  , issueUpdatedAt = 2014 (-10) (-31) 18 : 21 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2158/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2158")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2158
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "comodo slow ocsp server."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2158"
+  , issueCreatedAt = 2014 (-10) (-29) 22 : 02 : 29 UTC
+  , issueBody =
+      Just
+        "hi, i found that comodo ocsp is slow relative to another provider especially non eu-america region.\n\nhow about change ssl cert for better performance?\n\ni checked\nrapidssl-ocsp.geotrust.com use Akamai and very fast in all region.\nocsp2.globalsign.com use cloudflare , quite fast and they offer free ssl for opensource project\nocsp.startssl.com use Akamai, and also very fast in all region\n"
+  , issueState = StateClosed
+  , issueId = Id 47209712
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

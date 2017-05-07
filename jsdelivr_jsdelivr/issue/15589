@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-04) 10 : 24 : 36 UTC
+  , issueUpdatedAt = 2017 (-01) (-04) 10 : 24 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15589/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15589")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15589
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 119555
+        , simpleUserLogin = N "dpilafian"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/119555?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dpilafian"
+        }
+  , issueTitle = "Non-minified version added to help when debugging"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15589")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15589.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15589.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15589"
+  , issueCreatedAt = 2017 (-01) (-02) 01 : 44 : 14 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 198290073
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

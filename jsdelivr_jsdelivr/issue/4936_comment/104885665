@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-23) 12 : 11 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/104885665"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4936#issuecomment-104885665"
+  , issueCommentCreatedAt = 2015 (-05) (-23) 12 : 11 : 52 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` has a few problems\n  - Where is the photoswipe's mainfile (_,photoswipe.min.js_) in v-_3.0.5_\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _photoswipe_ between _3.0.5_ and _4.0.8_ there was a change in file structure  \n  \n  ``` diff\n  + default-skin/default-skin.css\n  + default-skin/default-skin.png\n  + default-skin/default-skin.svg\n  + default-skin/preloader.gif\n  + photoswipe-ui-default.min.js\n  + photoswipe.min.js\n  - code.photoswipe-3.0.5.js\n  - code.photoswipe-3.0.5.min.js\n  - code.photoswipe.jquery-3.0.5.js\n  - code.photoswipe.jquery-3.0.5.min.js\n  - error.gif\n  - icons.png\n  - icons@2x.png\n  - loader.gif\n  - noutil/code.photoswipe.noutil-3.0.5.js\n  - noutil/code.photoswipe.noutil-3.0.5.min.js\n  - noutil/code.photoswipe.noutil.jquery-3.0.5.js\n  - noutil/code.photoswipe.noutil.jquery-3.0.5.min.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Design for failure._\n"
+  , issueCommentId = 104885665
+  }

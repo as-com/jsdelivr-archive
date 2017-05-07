@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2013 (-07) (-04) 07 : 14 : 14 UTC
+  , issueUpdatedAt = 2013 (-07) (-04) 10 : 22 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/46/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/46")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 46
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1640669
+        , simpleUserLogin = N "damianavila"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1640669?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/damianavila"
+        }
+  , issueTitle =
+      "Added lib folder and some minimal and essential plugins."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/46")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/46.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/46.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/46"
+  , issueCreatedAt = 2013 (-07) (-04) 02 : 43 : 48 UTC
+  , issueBody =
+      Just
+        "Hi, first of all, thanks for your work with jsdelivr...\n\nIn this PR, I have uploaded some essential lib and plugins from reveal.js 2.4.0.\n\nCurrently, with the proposed PR, we have the minimal coverage from the basic slideshow, showing a lot of the features that the reveal.js library has to offer...\n\nI have written a converter from IPython notebooks to reveal.js slideshow and having this minimal reveal.js CDN will help me (and the users) a lot.  \n\nCheers.\n\nDami\225n.\n"
+  , issueState = StateClosed
+  , issueId = Id 16349864
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

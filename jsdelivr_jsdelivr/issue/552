@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-02) 14 : 23 : 58 UTC
+  , issueUpdatedAt = 2014 (-04) (-02) 14 : 25 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/552/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/552")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 552
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 178641
+        , simpleUserLogin = N "ellisonleao"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/178641?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ellisonleao"
+        }
+  , issueTitle = "Add 1.0.0b version of MelonJS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/552")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/552.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/552.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/552"
+  , issueCreatedAt = 2014 (-04) (-02) 14 : 23 : 18 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 30691817
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

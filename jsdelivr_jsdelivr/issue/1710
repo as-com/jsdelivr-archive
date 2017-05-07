@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-13) 12 : 47 : 22 UTC
+  , issueUpdatedAt = 2014 (-09) (-13) 12 : 52 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1710/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1710")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1710
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1443911
+        , simpleUserLogin = N "lpinca"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1443911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lpinca"
+        }
+  , issueTitle = "add jPlayer v2.7.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1710")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1710.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1710.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1710"
+  , issueCreatedAt = 2014 (-09) (-13) 08 : 18 : 53 UTC
+  , issueBody = Just "Update jPlayer to version 2.7.0\n"
+  , issueState = StateClosed
+  , issueId = Id 42690097
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-20) 16 : 50 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/113789487"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5370#issuecomment-113789487"
+  , issueCommentCreatedAt = 2015 (-06) (-20) 16 : 50 : 03 UTC
+  , issueCommentBody =
+      "Kind of unfortunate, but because the author doesn't include a minified file I don't think this can work. Might be worth bothering the author about (/cc @rickharrison)\n"
+  , issueCommentId = 113789487
+  }

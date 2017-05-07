@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-24) 18 : 33 : 53 UTC
+  , issueUpdatedAt = 2013 (-12) (-24) 18 : 33 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/233/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/233")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 233
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1922389
+        , simpleUserLogin = N "mechabyte"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1922389?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mechabyte"
+        }
+  , issueTitle = "Added jquery.mixitup.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/233")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/233.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/233.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/233"
+  , issueCreatedAt = 2013 (-12) (-24) 18 : 28 : 14 UTC
+  , issueBody =
+      Just "Support for the jQuery filtering plugin \8216MixItUp\8217\n"
+  , issueState = StateClosed
+  , issueId = Id 24753889
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-05) 02 : 10 : 15 UTC
+  , issueUpdatedAt = 2017 (-02) (-05) 02 : 10 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16163/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16163")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16163
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7145271
+        , simpleUserLogin = N "Laxenade"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7145271?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Laxenade"
+        }
+  , issueTitle = "Add Bootstrap v4.00-alpha.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16163")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16163.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16163.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16163"
+  , issueCreatedAt = 2017 (-02) (-05) 02 : 08 : 59 UTC
+  , issueBody = Nothing
+  , issueState = StateClosed
+  , issueId = Id 205394107
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

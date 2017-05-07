@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-14) 13 : 54 : 35 UTC
+  , issueUpdatedAt = 2013 (-12) (-14) 13 : 54 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/205/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/205")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 205
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 766031
+        , simpleUserLogin = N "Zverik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/766031?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Zverik"
+        }
+  , issueTitle = "MapBBCode 1.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/205")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/205.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/205.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/205"
+  , issueCreatedAt = 2013 (-12) (-14) 10 : 33 : 05 UTC
+  , issueBody =
+      Just
+        "Hi! This is a latest stable version of the library (I'm the author). There are many files, but all of them may be needed: no documentation or examples, just required libraries and common add-ons (they are maintained along mapbbcode, no need to create separate repos for them). Could you please add it to your wonderful CDN? Thanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 24289335
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-10) 13 : 11 : 52 UTC
+  , issueUpdatedAt = 2016 (-08) (-10) 13 : 11 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13172/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13172")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13172
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2734718
+        , simpleUserLogin = N "bouks"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2734718?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bouks"
+        }
+  , issueTitle = "deliver complement font files bug"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13172"
+  , issueCreatedAt = 2016 (-08) (-10) 02 : 38 : 56 UTC
+  , issueBody =
+      Just
+        "Hi.\n\nCalling:\n\n`//cdn.jsdelivr.net/g/angular.ui-grid@3.2.6(ui-grid.min.css),bootstrap@3.3.7(css/bootstrap.min.css),normalize@3.0.3`\n\nThe navigator makes two new dynamic calls (firefox example):\n\n`http://cdn.jsdelivr.net/g/angular.ui-grid@3.2.6(ui-grid.min.css),bootstrap@3.3.7(css/ui-grid.woff`\n\nand\n\n`http://cdn.jsdelivr.net/g/angular.ui-grid@3.2.6(ui-grid.min.css),bootstrap@3.3.7(css/ui-grid.ttf`\n\nthat are not good.\n- First, missing \")\" at the end of the request\n- Second, the complements are for the first projectname (angular.ui-grid) and the dynamic link allocated them to the second (bootstrap)\n\nInterchanging the projectnames whatever the order does not change anything.\n"
+  , issueState = StateClosed
+  , issueId = Id 170315314
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

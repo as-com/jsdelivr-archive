@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-15) 09 : 07 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66965963"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-66965963"
+  , issueCommentCreatedAt = 2014 (-12) (-15) 09 : 07 : 18 UTC
+  , issueCommentBody =
+      "Why do you say that? `wp` is a popular acronym of WordPress. Since jsDelivr is a CDN it makes it clear that wp contains WordPess related files on our CDN.\nPlus `wordpress-plugins` is too big.\n\nAnd why anyone needs to guess anything, The devs will read what it is on our docs and the users that will see it on their source code are not our problem (although most will understand what it is)\n\nSorry I just dont follow your logic :)\n"
+  , issueCommentId = 66965963
+  }

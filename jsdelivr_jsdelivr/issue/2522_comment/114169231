@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-22) 16 : 18 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/114169231"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2522#issuecomment-114169231"
+  , issueCommentCreatedAt = 2015 (-06) (-22) 16 : 18 : 54 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @robman87, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` has a few problems\n  - -mainfile isn't a valid _info.ini_ property...\n  - -github isn't a valid _info.ini_ property...\n  - -homepage isn't a valid _info.ini_ property...\n  - -description isn't a valid _info.ini_ property...\n  - -author isn't a valid _info.ini_ property...\n  - No author property provided\n  - No description property provided\n  - No mainfile property provided\n  - Expected a `homepage` (this can be the source repo with docs)\n  - Where is the anglular.flow's mainfile (*_) in v-_1.0.0b2*\n  - Where is the anglular.flow's mainfile (*_) in v-_1.0.0b3*\n  - Where is the anglular.flow's mainfile (*_) in v-_2.2.0*\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Half measures are as bad as nothing at all._\n"
+  , issueCommentId = 114169231
+  }

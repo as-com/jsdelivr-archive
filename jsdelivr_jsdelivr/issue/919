@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 14 : 12 : 46 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 14 : 12 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/919/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/919")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 919
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 831389
+        , simpleUserLogin = N "lewisgoddard"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/831389?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lewisgoddard"
+        }
+  , issueTitle = "Add update.json to multiple projects"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/919")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/919.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/919.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/919"
+  , issueCreatedAt = 2014 (-06) (-09) 20 : 57 : 39 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 35323661
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

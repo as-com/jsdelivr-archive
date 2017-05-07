@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 26 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10929/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10929")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10929
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9800479
+        , simpleUserLogin = N "gportelli"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/9800479?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gportelli"
+        }
+  , issueTitle = "pocket.gl"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10929")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10929.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10929.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10929"
+  , issueCreatedAt = 2016 (-04) (-09) 12 : 22 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 147125134
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

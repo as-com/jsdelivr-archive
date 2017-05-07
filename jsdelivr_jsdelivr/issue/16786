@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 42 : 34 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 42 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16786/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16786")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16786
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 25598228
+        , simpleUserLogin = N "ptraverse-aiq"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/25598228?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ptraverse-aiq"
+        }
+  , issueTitle = "New \"af-awesome\" JS lib"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16786")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16786.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16786.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16786"
+  , issueCreatedAt = 2017 (-03) (-07) 23 : 34 : 38 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 212593077
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-09) 21 : 32 : 44 UTC
+  , issueUpdatedAt = 2016 (-05) (-09) 21 : 32 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11531/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11531")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11531
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project blazy to 1.6.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11531")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11531.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11531.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11531"
+  , issueCreatedAt = 2016 (-05) (-09) 21 : 32 : 40 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project blazy to 1.6.2.\n\n@dinbror\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"blazy\",\n    \"repo\": \"dinbror/blazy\",\n    \"files\": {\n      \"include\": [\"blazy.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/blazy\",\n    \"localVersions\": [\"1.2.0\", \"1.2.1\", \"1.3.1\", \"1.4.0\", \"1.4.1\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.4\", \"1.6.0\", \"1.6.1\"],\n    \"remoteVersions\": [\"1.3.0\", \"1.3.1\", \"1.4.0\", \"1.4.1\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.4\", \"1.6.0\", \"1.6.1\", \"1.6.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/blazy/update.json\",\n  \"versions\": [\"1.6.2\"],\n  \"updateRemote\": true,\n  \"version\": \"1.6.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/blazy/1.6.2\",\n  \"branch\": \"blazy/1.6.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 153875058
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

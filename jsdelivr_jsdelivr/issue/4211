@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-07) 13 : 14 : 01 UTC
+  , issueUpdatedAt = 2015 (-04) (-07) 13 : 14 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4211/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4211")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4211
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1504938
+        , simpleUserLogin = N "idleberg"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1504938?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/idleberg"
+        }
+  , issueTitle = "bump to 3.3.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4211")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4211.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4211.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4211"
+  , issueCreatedAt = 2015 (-04) (-07) 13 : 03 : 01 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 66876750
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

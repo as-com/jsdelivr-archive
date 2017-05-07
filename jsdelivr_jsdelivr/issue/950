@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-03) 23 : 13 : 39 UTC
+  , issueUpdatedAt = 2014 (-09) (-03) 23 : 13 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/950/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/950")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/Needs%20attention/help"
+          , labelName = N "Needs attention/help"
+          }
+      ]
+  , issueNumber = 950
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Lets make jsDelivr automated"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/950"
+  , issueCreatedAt = 2014 (-06) (-14) 22 : 24 : 34 UTC
+  , issueBody =
+      Just
+        "If you didn't know it jsDelivr now supports auto-updating of all projects.\nThis means that a project need to get submitted only once and then all new versions will be added by our bot.\n\nSo I want to ask everybody to contribute and help out get jsDelivr automated. Ideally we want every project that we host to have an `update.json` file.\nIf you have some free time and you are bored consider adding a few `update.json` files to projects that don't have them yet. Its a huge deal and its going to help us a lot.\n\nYou can find the full docs over here https://github.com/jsdelivr/libgrabber#updatejson-schema\nThey explain what parameters `update.json` supports. You can use as examples existing `update.json` files to help you out.\n\nOf course not 100% of projects that we host support this functionality, mainly because of decisions taken by the author (no compiled files, no minified files, no tags...) but the ones that do should be auto-updated.\n\nThank you all!\n"
+  , issueState = StateClosed
+  , issueId = Id 35738015
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

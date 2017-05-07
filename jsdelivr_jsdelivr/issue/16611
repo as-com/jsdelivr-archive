@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-27) 18 : 37 : 01 UTC
+  , issueUpdatedAt = 2017 (-02) (-27) 18 : 37 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16611/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16611")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16611
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project sass-basis to 6.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16611")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16611.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16611.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16611"
+  , issueCreatedAt = 2017 (-02) (-27) 18 : 36 : 55 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project sass-basis to 6.2.1.\n\n@sass-basis\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"sass-basis\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"css/**/*.min.css\", \"font/**\", \"js/*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/sass-basis\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.2.1\", \"1.2.2\", \"1.3.0\", \"1.4.0\", \"2.0.0\", \"2.1.2\", \"2.2.0\", \"3.0.0\", \"3.0.1\", \"3.1.0\", \"4.0.0\", \"4.0.1\", \"4.0.2\", \"4.1.0\", \"4.2.0\", \"4.2.6\", \"4.2.7\", \"4.3.0\", \"4.3.1\", \"4.3.2\", \"5.0.0\", \"5.1.0\", \"5.2.0\", \"5.2.1\", \"5.3.0\", \"5.4.0\", \"5.4.1\", \"5.5.0\", \"5.5.1\", \"6.0.0\", \"6.0.1\", \"6.0.2\", \"6.1.0\", \"6.1.1\", \"6.1.2\", \"6.1.3\", \"6.2.0\", \"6.2.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/sass-basis/update.json\",\n  \"versions\": [\"1.4.0\", \"2.2.0\", \"3.1.0\", \"4.3.2\", \"5.5.1\", \"6.2.1\"],\n  \"updateRemote\": true,\n  \"version\": \"6.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/sass-basis/6.2.1\",\n  \"branch\": \"sass-basis/6.2.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 210568729
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

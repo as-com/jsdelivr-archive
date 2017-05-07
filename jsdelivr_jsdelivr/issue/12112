@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-10) 13 : 04 : 33 UTC
+  , issueUpdatedAt = 2016 (-06) (-10) 13 : 04 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12112/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12112")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12112
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project monkberry-standalone to 4.0.0-beta.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12112")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12112.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12112.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12112"
+  , issueCreatedAt = 2016 (-06) (-10) 13 : 04 : 16 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project monkberry-standalone to 4.0.0-beta.4.\n\n@monkberry\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"monkberry-standalone\",\n    \"repo\": \"monkberry/standalone\",\n    \"files\": {\n      \"include\": [\"monkberry.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/monkberry-standalone\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.0.1\", \"4.0.0-beta.3\", \"4.0.0-beta.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/monkberry-standalone/update.json\",\n  \"versions\": [\"4.0.0-beta.4\"],\n  \"updateRemote\": true,\n  \"version\": \"4.0.0-beta.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/monkberry-standalone/4.0.0-beta.4\",\n  \"branch\": \"monkberry-standalone/4.0.0-beta.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 159630627
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

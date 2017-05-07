@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-27) 22 : 37 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 207487
+        , simpleUserLogin = N "iskitz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/207487?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/iskitz"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/76485957"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3642#issuecomment-76485957"
+  , issueCommentCreatedAt = 2015 (-02) (-27) 22 : 37 : 53 UTC
+  , issueCommentBody =
+      "@jimaek ajile's been in production for a few years now so I wanted to make sure all its released versions would be available for anyone who's been using it over the years. Having them all hosted on a CDN also makes it easy to reference them from jsperf tests and other online dev tools like jsfiddle.\n"
+  , issueCommentId = 76485957
+  }

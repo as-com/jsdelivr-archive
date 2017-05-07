@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-18) 11 : 06 : 36 UTC
+  , issueUpdatedAt = 2016 (-01) (-18) 11 : 06 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9157/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9157")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9157
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11806915
+        , simpleUserLogin = N "rannn505"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11806915?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rannn505"
+        }
+  , issueTitle = "wave.io"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9157")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9157.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9157.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9157"
+  , issueCreatedAt = 2016 (-01) (-17) 23 : 15 : 32 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 127131614
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

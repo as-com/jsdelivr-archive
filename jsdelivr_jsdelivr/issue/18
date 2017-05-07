@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2013 (-06) (-17) 22 : 46 : 24 UTC
+  , issueUpdatedAt = 2013 (-06) (-17) 22 : 46 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/18/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/18")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 18
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1190944
+        , simpleUserLogin = N "kspearrin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1190944?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kspearrin"
+        }
+  , issueTitle = "jQuery.Payment Fails To Init?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/18"
+  , issueCreatedAt = 2013 (-05) (-16) 03 : 01 : 12 UTC
+  , issueBody =
+      Just
+        "For some reason, I cannot get the jquery.payment library to initialize. The source seems to load fine, but I cannot perform the provided functions of the library like I can if I load the script locally. Locally loading the script works just fine.\n\nI also tried this with the version of jquery.payment hosted on cdnjs.com CDN. It has the same problem.\n\nExample (view console error when run/loaded):\nhttp://jsfiddle.net/DDw6A/\n\nAny idea what is causing this?\n"
+  , issueState = StateClosed
+  , issueId = Id 14388950
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

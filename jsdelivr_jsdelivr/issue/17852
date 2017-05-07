@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-03) 18 : 16 : 51 UTC
+  , issueUpdatedAt = 2017 (-05) (-03) 18 : 16 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17852/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17852")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17852
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 822488
+        , simpleUserLogin = N "mavarazy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/822488?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mavarazy"
+        }
+  , issueTitle = "Bulma automatical update script"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17852")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17852.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17852.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17852"
+  , issueCreatedAt = 2017 (-04) (-28) 10 : 34 : 23 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 225042795
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

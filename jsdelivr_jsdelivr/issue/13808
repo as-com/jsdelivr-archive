@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-15) 15 : 15 : 26 UTC
+  , issueUpdatedAt = 2016 (-09) (-15) 15 : 15 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13808/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13808")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13808
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "Roboto webfont"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13808")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13808.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13808.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13808"
+  , issueCreatedAt = 2016 (-09) (-15) 15 : 14 : 43 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 177205080
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

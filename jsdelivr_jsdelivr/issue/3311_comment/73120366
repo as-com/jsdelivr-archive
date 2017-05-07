@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-05) 20 : 28 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6594069
+        , simpleUserLogin = N "arnaudleyder"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6594069?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/arnaudleyder"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/73120366"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3311#issuecomment-73120366"
+  , issueCommentCreatedAt = 2015 (-02) (-05) 20 : 28 : 11 UTC
+  , issueCommentBody =
+      "ok I have updated my fork with the upstream repo and rebase my commits. While processing rebase I had a warning message:\nCould not apply 6d47a028143bfd60eac2ac0cb19dc344c356fec4... Update project knockout.punches to v0.5.1\nbut it went on with the rebase. I forced push to master.\nIs everything ok now to review the PR?\n\nThanks\nArnaud\n"
+  , issueCommentId = 73120366
+  }

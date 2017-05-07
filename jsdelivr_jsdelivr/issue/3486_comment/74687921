@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-17) 15 : 40 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1082083
+        , simpleUserLogin = N "finom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1082083?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/finom"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/74687921"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3486#issuecomment-74687921"
+  , issueCommentCreatedAt = 2015 (-02) (-17) 15 : 40 : 29 UTC
+  , issueCommentBody =
+      "Does it mean I need to use semver for tags? 0.3.0 instead of v0.3.0?\n"
+  , issueCommentId = 74687921
+  }

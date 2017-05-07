@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-13) 15 : 03 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5274747
+        , simpleUserLogin = N "hubdotcom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5274747?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hubdotcom"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/111717579"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/5249#issuecomment-111717579"
+  , issueCommentCreatedAt = 2015 (-06) (-13) 15 : 03 : 46 UTC
+  , issueCommentBody =
+      "In order to prevent your enqueued scripts and style in WordPress to use a version number, all you need to do is use null value in the $ver parameter. Given below is how you\8217ll implement it in the WordPress enqueue functions:\n\n<?php wp_register_script('basic', plugins_url('js/basic.js', **FILE**), array(), null, true); >\n\nhttp://wpcrux.com/wordpress-enqueue-functions-version/\n"
+  , issueCommentId = 111717579
+  }

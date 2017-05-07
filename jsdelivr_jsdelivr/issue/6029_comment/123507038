@@ -1,0 +1,22 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-21) 23 : 28 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 338988
+        , simpleUserLogin = N "jonathanKingston"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/338988?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/jonathanKingston"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123507038"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123507038"
+  , issueCommentCreatedAt = 2015 (-07) (-21) 23 : 28 : 25 UTC
+  , issueCommentBody =
+      "It's less about trusting jsDelivr developers and the issues where:\n- The cloud hosting gets attacked with malicious content\n  - poisoned DNS on the CDN\n  - stolen keys / disgruntled CDN\n  - low level security CDN providers might be exploitable via other avenues\n- Your site loads over http so anyone could fake it via wifi base station etc\n\nNo hack is ever impossible with enough motivation, certainly the last item is available to hack right now.\n\nSo when the user visits the site and the CDN is misbehaving it is completely possible that they would hash the wrong content, reducing the risk by making it an upload time would be much better (The risk would be trusting your site is secure only rather than you and the CDN).\n\nYup and looks like rate limiting would be an issue with that approach also.\nhttps://developer.github.com/v3/git/trees/#get-a-tree is the API you are using right? If that returned integrities would that be better?\n"
+  , issueCommentId = 123507038
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-05) 14 : 13 : 17 UTC
+  , issueUpdatedAt = 2016 (-08) (-05) 14 : 13 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12457/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12457")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12457
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8983200
+        , simpleUserLogin = N "gasparesganga"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/8983200?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gasparesganga"
+        }
+  , issueTitle = "jQuery LoadingOverlay plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12457")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12457.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12457.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12457"
+  , issueCreatedAt = 2016 (-06) (-29) 10 : 54 : 21 UTC
+  , issueBody = Just "First CDN release\n"
+  , issueState = StateClosed
+  , issueId = Id 162896901
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

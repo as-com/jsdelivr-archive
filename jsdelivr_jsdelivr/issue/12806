@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-19) 17 : 05 : 15 UTC
+  , issueUpdatedAt = 2016 (-07) (-19) 17 : 05 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12806/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12806")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12806
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10088807
+        , simpleUserLogin = N "dokngh2621"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/10088807?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dokngh2621"
+        }
+  , issueTitle = "Add AngularMotion"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12806")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12806.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12806.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12806"
+  , issueCreatedAt = 2016 (-07) (-19) 13 : 52 : 01 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 166336714
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

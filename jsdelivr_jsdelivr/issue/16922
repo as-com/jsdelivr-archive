@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-15) 11 : 05 : 07 UTC
+  , issueUpdatedAt = 2017 (-03) (-15) 11 : 05 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16922/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16922")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16922
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project octobat.js to 2.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16922")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16922.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16922.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16922"
+  , issueCreatedAt = 2017 (-03) (-15) 11 : 05 : 02 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project octobat.js to 2.0.2.\n\n@0ctobat\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"octobat.js\",\n    \"repo\": \"0ctobat/octobat.js\",\n    \"files\": {\n      \"basePath\": \"/dist\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/octobat.js\",\n    \"localVersions\": [\"1.0.0\", \"2.0.0\", \"2.0.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"2.0.0\", \"2.0.1\", \"2.0.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/octobat.js/update.json\",\n  \"versions\": [\"2.0.2\"],\n  \"updateRemote\": true,\n  \"version\": \"2.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/octobat.js/2.0.2\",\n  \"branch\": \"octobat.js/2.0.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 214355180
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

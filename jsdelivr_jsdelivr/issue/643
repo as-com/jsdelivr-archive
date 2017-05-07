@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-14) 19 : 21 : 23 UTC
+  , issueUpdatedAt = 2014 (-04) (-14) 19 : 21 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/643/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/643")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 643
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1612250
+        , simpleUserLogin = N "edgardleal"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1612250?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/edgardleal"
+        }
+  , issueTitle = "Included simpleTable jQuery plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/643")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/643.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/643.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/643"
+  , issueCreatedAt = 2014 (-04) (-14) 01 : 48 : 21 UTC
+  , issueBody =
+      Just
+        "A jQuery plugin to generate html table with conditional style, by array of object\n"
+  , issueState = StateClosed
+  , issueId = Id 31429843
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

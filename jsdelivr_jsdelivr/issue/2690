@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-11) 09 : 09 : 33 UTC
+  , issueUpdatedAt = 2014 (-12) (-11) 09 : 09 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2690/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2690")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2690
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular.translate to 2.5.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2690")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2690.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2690.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2690"
+  , issueCreatedAt = 2014 (-12) (-10) 22 : 02 : 18 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.translate to 2.5.2.\n\n@angular-translate\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.translate\",\n    \"repo\": \"angular-translate/bower-angular-translate\",\n    \"files\": {\n      \"include\": [\"angular-translate.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular.translate\",\n    \"localVersions\": [\"2.1.0\", \"2.2.0\", \"2.3.0\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"2.5.0\"],\n    \"remoteVersions\": [\"0.4.2\", \"0.4.3\", \"0.4.4\", \"0.5.1\", \"0.5.2\", \"0.6.0\", \"0.7.0\", \"0.8.0\", \"0.8.1\", \"0.9.0\", \"0.9.1\", \"0.9.3\", \"0.9.4\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.1.0\", \"1.1.1\", \"2.0.0\", \"2.0.1\", \"2.1.0\", \"2.2.0\", \"2.3.0\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"2.5.0\", \"2.5.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.5.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.translate/2.5.2\",\n  \"branch\": \"angular.translate/2.5.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 51617124
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

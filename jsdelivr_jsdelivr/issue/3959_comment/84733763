@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-22) 23 : 48 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10674240
+        , simpleUserLogin = N "TheTannerRyan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/10674240?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/TheTannerRyan"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/84733763"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3959#issuecomment-84733763"
+  , issueCommentCreatedAt = 2015 (-03) (-22) 23 : 48 : 36 UTC
+  , issueCommentBody =
+      "I don't know if they would merge it, if it is leading to a 404. It would work, but it depends on who is merging it, if they would allow it. Also, every time the font gets updated, you will have to fork, commit and send a pull request again. With auto update, all you have to do is update the repo. A bot will check and see that it has changed and update it. If you want you can close this. I have already submitted one that has auto update, and passed the auto tests. \n"
+  , issueCommentId = 84733763
+  }

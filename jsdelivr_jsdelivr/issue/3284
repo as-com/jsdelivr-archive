@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-03) 04 : 57 : 38 UTC
+  , issueUpdatedAt = 2015 (-04) (-20) 04 : 02 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3284/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3284")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3284
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle = "Update kakao.js to 1.0.23"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3284")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3284.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3284.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3284"
+  , issueCreatedAt = 2015 (-02) (-02) 04 : 23 : 51 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 56194696
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

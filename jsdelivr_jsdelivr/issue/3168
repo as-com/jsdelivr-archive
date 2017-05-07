@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-23) 14 : 37 : 23 UTC
+  , issueUpdatedAt = 2015 (-01) (-23) 14 : 37 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3168/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3168")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3168
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1052467
+        , simpleUserLogin = N "hakanersu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1052467?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hakanersu"
+        }
+  , issueTitle = "AmaranJS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3168")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3168.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3168.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3168"
+  , issueCreatedAt = 2015 (-01) (-23) 07 : 57 : 58 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 55254607
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

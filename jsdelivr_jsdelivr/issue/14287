@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-07) 23 : 35 : 12 UTC
+  , issueUpdatedAt = 2016 (-10) (-07) 23 : 35 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14287/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14287")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14287
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project vivus to v0.3.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14287")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14287.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14287.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14287"
+  , issueCreatedAt = 2016 (-10) (-07) 23 : 35 : 09 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vivus to v0.3.2.\n\n@maxwellito\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vivus\",\n    \"repo\": \"maxwellito/vivus\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"vivus.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/vivus\",\n    \"localVersions\": [\"0.1.1\", \"0.1.2\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.3.0\", \"0.3.1\"],\n    \"remoteVersions\": [\"v0.1.1\", \"v0.1.2\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"0.2.3\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/vivus/update.json\",\n  \"versions\": [\"v0.3.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.3.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/vivus/0.3.2\",\n  \"branch\": \"vivus/v0.3.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 181787954
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

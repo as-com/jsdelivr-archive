@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-09) 16 : 39 : 57 UTC
+  , issueUpdatedAt = 2015 (-08) (-09) 16 : 39 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6326/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/6326")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6326
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 742498
+        , simpleUserLogin = N "onokumus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/742498?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/onokumus"
+        }
+  , issueTitle = "Rename project name"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6326"
+  , issueCreatedAt = 2015 (-08) (-09) 16 : 18 : 16 UTC
+  , issueBody =
+      Just
+        "What should I do to change the project's name? Because `metisMenu` project's dependency on twbs/bootstrap is no more. JQuery is now only required.\n"
+  , issueState = StateClosed
+  , issueId = Id 99910864
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-11) (-19) 18 : 48 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7549136
+        , simpleUserLogin = N "lenovouser"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7549136?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lenovouser"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/261731993"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14865#issuecomment-261731993"
+  , issueCommentCreatedAt = 2016 (-11) (-19) 18 : 48 : 48 UTC
+  , issueCommentBody =
+      "What about deleting `v0.52` and uploading the first version that is available? ( Which would be `v0.2.0` **=>** [arasatasaygin/is.js](https://github.com/arasatasaygin/is.js/releases?after=v0.2.1) ) I think it should automatically add the other versions after that. I suppose that `v0.52` actually was uploaded by mistake because it doesn't exist in the original repository. \n"
+  , issueCommentId = 261731993
+  }

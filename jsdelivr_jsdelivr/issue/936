@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-12) 14 : 07 : 12 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 14 : 07 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/936/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/936")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 936
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3027536
+        , simpleUserLogin = N "bradberger"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3027536?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bradberger"
+        }
+  , issueTitle =
+      "Added github.com/jdarling/Object.observe and github.com/axemclion/IndexedDBShim"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/936")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/936.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/936.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/936"
+  , issueCreatedAt = 2014 (-06) (-12) 12 : 25 : 06 UTC
+  , issueBody =
+      Just
+        "No official version for Object.observe so set it at 0.1. Not sure if the `.` in the project name is an issue. Perhaps it clashes with the naming conventions? \n"
+  , issueState = StateClosed
+  , issueId = Id 35578881
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

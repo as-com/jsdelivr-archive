@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-16) 00 : 02 : 59 UTC
+  , issueUpdatedAt = 2016 (-07) (-16) 00 : 02 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12746/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12746")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12746
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project breinify-api to 1.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12746")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12746.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12746.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12746"
+  , issueCreatedAt = 2016 (-07) (-16) 00 : 02 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project breinify-api to 1.0.5.\n\n@breinify\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"breinify-api\",\n    \"repo\": \"breinify/brein-api-library-javascript-browser\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"breinify-api.js\", \"breinify-api.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/breinify-api\",\n    \"localVersions\": [\"1.0.4\"],\n    \"remoteVersions\": [\"1.0.4\", \"1.0.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/breinify-api/update.json\",\n  \"versions\": [\"1.0.5\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/breinify-api/1.0.5\",\n  \"branch\": \"breinify-api/1.0.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 165897630
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

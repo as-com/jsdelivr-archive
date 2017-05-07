@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-16) 17 : 07 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3011734
+        , simpleUserLogin = N "jgravois"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3011734?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jgravois"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/122023836"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5921#issuecomment-122023836"
+  , issueCommentCreatedAt = 2015 (-07) (-16) 17 : 07 : 23 UTC
+  , issueCommentBody =
+      "arghh.  thanks for catching that!\n\ni'm going to update my build process to name the minified output 'esri-leaflet-related.js' and the other 'esri-leaflet-related-src.js' instead (to match the convention of the other plugins) and let you know when you can merge the existing PR. \n"
+  , issueCommentId = 122023836
+  }

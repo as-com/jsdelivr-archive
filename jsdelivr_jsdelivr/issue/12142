@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-06) (-12) 17 : 19 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12142/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/12142")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12142
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2801252
+        , simpleUserLogin = N "franciscop"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2801252?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/franciscop"
+        }
+  , issueTitle = "Project not updated"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12142"
+  , issueCreatedAt = 2016 (-06) (-11) 20 : 22 : 20 UTC
+  , issueBody =
+      Just
+        "Hi, I have recently changed the directory in the update.json from Picnic CSS and you accepted the PR. However the project [stays in version 6.0.0](http://www.jsdelivr.com/projects/picnicss) while the [latest git version is 6.1.1](https://github.com/picnicss/picnic/releases)\n\nFollowing it, it seems that [jsdelivr is having a not very efficient conversation](https://github.com/jsdelivr/jsdelivr/pull/12027) with... itself:\n\n```\nIt looks like you want to contribute to jsdelivr/jsdelivr, @jsdelivrbot, however [...]\n```\n\nHow can I fix this? Can you fix it?\n"
+  , issueState = StateOpen
+  , issueId = Id 159792195
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

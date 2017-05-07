@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-19) 19 : 43 : 52 UTC
+  , issueUpdatedAt = 2013 (-11) (-19) 19 : 43 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/95/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/95")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 95
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 856687
+        , simpleUserLogin = N "tugatech"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/856687?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tugatech"
+        }
+  , issueTitle = "New js and css from DropdownJS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/95")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/95.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/95.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/95"
+  , issueCreatedAt = 2013 (-09) (-02) 09 : 55 : 04 UTC
+  , issueBody = Just "Resubmited according the right format.\n"
+  , issueState = StateClosed
+  , issueId = Id 18857140
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

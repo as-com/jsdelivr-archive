@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-18) 19 : 53 : 49 UTC
+  , issueUpdatedAt = 2015 (-06) (-24) 20 : 04 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5357/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5357")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5357
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1639302
+        , simpleUserLogin = N "abishekrsrikaanth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1639302?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/abishekrsrikaanth"
+        }
+  , issueTitle = "Adding Library jquery.iOSList v2.0.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5357")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5357.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5357.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5357"
+  , issueCreatedAt = 2015 (-06) (-18) 17 : 57 : 50 UTC
+  , issueBody =
+      Just
+        "Repo: https://github.com/brianhadaway/iOSList\nURL: http://brianhadaway.github.io/iOSList\nDescription: The jQuery iOS (iPhone/iPad/iPod) Alphabetical Contact List\n"
+  , issueState = StateClosed
+  , issueId = Id 89356967
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

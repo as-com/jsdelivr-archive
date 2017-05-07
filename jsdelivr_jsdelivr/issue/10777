@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 29 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10777/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10777")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10777
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 12986672
+        , simpleUserLogin = N "webdevjeffus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/12986672?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/webdevjeffus"
+        }
+  , issueTitle = "Webdevjeffus patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10777")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10777.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10777.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10777"
+  , issueCreatedAt = 2016 (-04) (-01) 20 : 56 : 37 UTC
+  , issueBody =
+      Just
+        "Thanks in advance for considering adding this resource to your collection. Please advise me of any corrections necessary to ready my project for inclusion.\n"
+  , issueState = StateClosed
+  , issueId = Id 145283382
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

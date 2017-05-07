@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-26) 09 : 33 : 21 UTC
+  , issueUpdatedAt = 2015 (-12) (-26) 20 : 05 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8658/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8658")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8658
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10249860
+        , simpleUserLogin = N "jackdalton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10249860?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jackdalton"
+        }
+  , issueTitle = "Update links for WhitestormJS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8658")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8658.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8658.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8658"
+  , issueCreatedAt = 2015 (-12) (-25) 22 : 52 : 17 UTC
+  , issueBody =
+      Just
+        "We migrated to an organization rather than keeping it as one of @sasha240100's repositories.\n"
+  , issueState = StateClosed
+  , issueId = Id 123900134
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

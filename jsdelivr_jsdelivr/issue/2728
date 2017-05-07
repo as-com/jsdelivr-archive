@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-15) 08 : 53 : 24 UTC
+  , issueUpdatedAt = 2014 (-12) (-15) 08 : 53 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2728/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2728")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2728
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project sweep to 1.2.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2728")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2728.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2728.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2728"
+  , issueCreatedAt = 2014 (-12) (-15) 05 : 09 : 18 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project sweep to 1.2.2.\n\n@rileyjshaw\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"sweep\",\n    \"repo\": \"rileyjshaw/sweep\",\n    \"files\": {\n      \"basePath\": \"bin/\",\n      \"include\": [\"sweep.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/sweep\",\n    \"localVersions\": [\"1.1.0\", \"1.2.0\", \"1.2.1\"],\n    \"remoteVersions\": [\"1.1.0\", \"1.2.0\", \"1.2.1\", \"1.2.2\"],\n    \"branchVersions\": [\"1.2.1\"]\n  },\n  \"version\": \"1.2.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/sweep/1.2.2\",\n  \"branch\": \"sweep/1.2.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 51949581
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-04) 01 : 15 : 10 UTC
+  , issueUpdatedAt = 2014 (-07) (-04) 01 : 15 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1108/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1108")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1108
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1055782
+        , simpleUserLogin = N "ppavlov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1055782?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ppavlov"
+        }
+  , issueTitle = "Adding the latest version of backbone super."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1108")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1108.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1108.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1108"
+  , issueCreatedAt = 2014 (-07) (-04) 01 : 11 : 41 UTC
+  , issueBody =
+      Just "https://github.com/lukasolson/backbone-super/\n"
+  , issueState = StateClosed
+  , issueId = Id 37135923
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

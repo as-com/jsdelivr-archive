@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-30) 20 : 12 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/87814671"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4082#issuecomment-87814671"
+  , issueCommentCreatedAt = 2015 (-03) (-30) 20 : 12 : 59 UTC
+  , issueCommentBody =
+      "I already purged the cache for these 2 files and I can see the correct mime\n\n```\n curl -I http://cdn.jsdelivr.net/cyber-font/3.0.0/woff2/cyber-font-bold.woff2\nHTTP/1.1 200 OK\nServer: keycdn-engine\nDate: Mon, 30 Mar 2015 20:12:15 GMT\nContent-Type: application/font-woff2\nContent-Length: 29228\nConnection: keep-alive\n```\n"
+  , issueCommentId = 87814671
+  }

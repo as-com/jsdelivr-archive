@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-05) 20 : 11 : 53 UTC
+  , issueUpdatedAt = 2014 (-07) (-05) 20 : 15 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1122/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1122")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1122
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 737584
+        , simpleUserLogin = N "Rarst"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/737584?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Rarst"
+        }
+  , issueTitle = "head.js missing map files"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1122"
+  , issueCreatedAt = 2014 (-07) (-05) 19 : 55 : 49 UTC
+  , issueBody =
+      Just
+        "`//cdn.jsdelivr.net/headjs/1.0.3/head.load.min.js` refers to map file, but it 404s. Repo seems to only have map file for \"full\" head.js build and not component ones.\n"
+  , issueState = StateClosed
+  , issueId = Id 37205234
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

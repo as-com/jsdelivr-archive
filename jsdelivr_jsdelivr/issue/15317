@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-13) 15 : 31 : 44 UTC
+  , issueUpdatedAt = 2016 (-12) (-13) 15 : 31 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15317/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15317")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15317
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1837621
+        , simpleUserLogin = N "pithu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1837621?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pithu"
+        }
+  , issueTitle = "please add js-joda-timezone"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15317")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15317.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15317.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15317"
+  , issueCreatedAt = 2016 (-12) (-12) 20 : 17 : 44 UTC
+  , issueBody = Just "iana tzdb timezone bindings for js-joda"
+  , issueState = StateClosed
+  , issueId = Id 195074691
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

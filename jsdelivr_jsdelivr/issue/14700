@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-07) 18 : 03 : 18 UTC
+  , issueUpdatedAt = 2016 (-11) (-07) 18 : 03 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14700/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14700")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14700
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project figuration to v1.3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14700")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14700.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14700.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14700"
+  , issueCreatedAt = 2016 (-11) (-07) 18 : 03 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project figuration to v1.3.1.\n\n@cast-org\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"figuration\",\n    \"repo\": \"cast-org/figuration\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/figuration\",\n    \"localVersions\": [\"0.1.0\", \"1.0.0\", \"1.1.0\", \"1.2.0\", \"1.3.0\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v1.0.0\", \"v1.1.0\", \"v1.2.0\", \"v1.3.0\", \"v1.3.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/figuration/update.json\",\n  \"versions\": [\"v1.3.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.3.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/figuration/1.3.1\",\n  \"branch\": \"figuration/v1.3.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 187784240
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

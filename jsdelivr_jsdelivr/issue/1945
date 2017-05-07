@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-07) 18 : 38 : 16 UTC
+  , issueUpdatedAt = 2014 (-10) (-07) 18 : 41 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1945/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1945")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1945
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 365596
+        , simpleUserLogin = N "sourrust"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/365596?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sourrust"
+        }
+  , issueTitle = "Fix update file for highlight.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1945")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1945.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1945.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1945"
+  , issueCreatedAt = 2014 (-10) (-07) 18 : 36 : 09 UTC
+  , issueBody = Just "Separated the update.json fix from #1942.\n"
+  , issueState = StateClosed
+  , issueId = Id 45143565
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

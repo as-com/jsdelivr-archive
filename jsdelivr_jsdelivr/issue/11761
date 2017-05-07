@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-29) 03 : 16 : 59 UTC
+  , issueUpdatedAt = 2016 (-05) (-29) 03 : 16 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11761/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11761")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11761
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17718831
+        , simpleUserLogin = N "bornbit"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/17718831?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bornbit"
+        }
+  , issueTitle = "Add nanoclipboard"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11761")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11761.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11761.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11761"
+  , issueCreatedAt = 2016 (-05) (-22) 12 : 05 : 02 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 156148979
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-14) 09 : 25 : 32 UTC
+  , issueUpdatedAt = 2015 (-07) (-14) 15 : 14 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5849/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5849")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5849
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 29529
+        , simpleUserLogin = N "redox"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/29529?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/redox"
+        }
+  , issueTitle = "Added autocomplete.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5849")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5849.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5849.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5849"
+  , issueCreatedAt = 2015 (-07) (-13) 19 : 38 : 25 UTC
+  , issueBody =
+      Just
+        "[algolia/autocomplete.js](https://github.com/algolia/autocomplete.js) is a JS library providing a fast and fully-featured auto-completion menu.\n"
+  , issueState = StateClosed
+  , issueId = Id 94795010
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

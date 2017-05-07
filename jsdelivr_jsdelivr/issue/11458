@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-06) 09 : 21 : 38 UTC
+  , issueUpdatedAt = 2016 (-05) (-06) 09 : 21 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11458/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11458")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11458
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16904728
+        , simpleUserLogin = N "ticmaroc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/16904728?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ticmaroc"
+        }
+  , issueTitle = "Merge pull request #1 from jsdelivr/master"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11458")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11458.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11458.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11458"
+  , issueCreatedAt = 2016 (-05) (-05) 17 : 00 : 54 UTC
+  , issueBody = Just "Add tic maroc\n"
+  , issueState = StateClosed
+  , issueId = Id 153275606
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

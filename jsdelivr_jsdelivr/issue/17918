@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-03) 18 : 08 : 01 UTC
+  , issueUpdatedAt = 2017 (-05) (-03) 18 : 08 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17918/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17918")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17918
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular.ui-router to 1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17918")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17918.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17918.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17918"
+  , issueCreatedAt = 2017 (-05) (-03) 07 : 03 : 51 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.ui-router to 1.0.0.\n\n@angular-ui\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.ui-router\",\n    \"repo\": \"angular-ui/angular-ui-router-bower\",\n    \"files\": {\n      \"basePath\": \"release/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.ui-router\",\n    \"localVersions\": [\"0.2.0\", \"0.2.7\", \"0.2.8\", \"0.2.10\", \"0.2.11\", \"0.2.12\", \"0.2.13\", \"0.2.14\", \"0.2.15\", \"0.3.2\", \"1.0.0-alpha0\", \"1.0.0-beta.3\", \"1.0.0-rc.1\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.2.0\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.2.8-bowratic-tedium\", \"0.2.9\", \"0.2.10\", \"0.2.11\", \"0.2.12\", \"0.2.13\", \"0.2.14\", \"0.2.15\", \"0.2.16\", \"0.2.17\", \"0.2.18\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"1.0.0-alpha.1\", \"1.0.0-alpha.2\", \"1.0.0-alpha.3\", \"1.0.0-alpha.4\", \"1.0.0-alpha.5\", \"1.0.0-beta.1\", \"1.0.0-beta.2\", \"1.0.0-beta.3\", \"1.0.0-rc.1\", \"1.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.ui-router/update.json\",\n  \"versions\": [\"1.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.ui-router/1.0.0\",\n  \"branch\": \"angular.ui-router/1.0.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 225899044
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

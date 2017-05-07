@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-06) (-10) 21 : 55 : 21 UTC
+  , issueUpdatedAt = 2013 (-06) (-10) 21 : 55 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/31/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/31")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 31
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2022984
+        , simpleUserLogin = N "evertton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/2022984?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/evertton"
+        }
+  , issueTitle = "Adds cookie.js 0.2.0."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/31")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/31.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/31.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/31"
+  , issueCreatedAt = 2013 (-06) (-10) 21 : 49 : 16 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 15370612
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

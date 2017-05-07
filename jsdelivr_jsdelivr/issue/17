@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-05) (-11) 03 : 00 : 05 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 03 : 55 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "Version 3.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17"
+  , issueCreatedAt = 2013 (-05) (-11) 02 : 59 : 35 UTC
+  , issueBody =
+      Just "Getting ready to release the new version next week.\n"
+  , issueState = StateClosed
+  , issueId = Id 14216623
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

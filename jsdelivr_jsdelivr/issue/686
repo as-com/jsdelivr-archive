@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-22) 18 : 36 : 40 UTC
+  , issueUpdatedAt = 2014 (-04) (-23) 08 : 39 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/686/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/686")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 686
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4623588
+        , simpleUserLogin = N "tiwence"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4623588?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tiwence"
+        }
+  , issueTitle = "animatron"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/686")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/686.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/686.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/686"
+  , issueCreatedAt = 2014 (-04) (-22) 14 : 09 : 17 UTC
+  , issueBody =
+      Just
+        "Animatron.js is a javascript library used for the Animatron HTML5 animation tool \n"
+  , issueState = StateClosed
+  , issueId = Id 31975654
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

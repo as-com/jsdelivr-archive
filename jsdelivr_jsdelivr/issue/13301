@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-18) 04 : 53 : 44 UTC
+  , issueUpdatedAt = 2016 (-08) (-18) 04 : 53 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13301/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13301")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13301
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 810601
+        , simpleUserLogin = N "thysultan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/810601?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thysultan"
+        }
+  , issueTitle = "[new] [author] add dio"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13301")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13301.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13301.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13301"
+  , issueCreatedAt = 2016 (-08) (-18) 02 : 43 : 02 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 171805750
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

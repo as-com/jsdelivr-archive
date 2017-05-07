@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-31) 05 : 35 : 20 UTC
+  , issueUpdatedAt = 2015 (-07) (-31) 05 : 35 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6203/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6203")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6203
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project react to 0.14.0-beta2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6203")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6203.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6203.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6203"
+  , issueCreatedAt = 2015 (-07) (-31) 05 : 35 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project react to 0.14.0-beta2.\n\n@facebook\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"react\",\n    \"repo\": \"facebook/react\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/react\",\n    \"localVersions\": [\"0.8.0\", \"0.9.0\", \"0.10.0\", \"0.11.0\", \"0.11.1\", \"0.11.2\", \"0.12.0-rc1\", \"0.12.0\", \"0.12.1\", \"0.12.2\", \"0.13.0-beta.2\", \"0.13.0-rc1\", \"0.13.0-rc2\", \"0.13.0\", \"0.13.1\", \"0.13.2\", \"0.13.3\", \"0.14.0-alpha1\", \"0.14.0-alpha2\", \"0.14.0-alpha3\", \"0.14.0-beta1\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.1.2\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.3.0\", \"0.3.4\", \"0.3.5\", \"0.5.0\", \"0.5.1\", \"0.5.2\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.6.3\", \"0.7.0\", \"0.7.1\", \"0.8.0\", \"0.9.0-rc1\", \"0.9.0\", \"0.10.0-rc1\", \"0.10.0\", \"0.11.0-rc1\", \"0.11.0\", \"0.11.1\", \"0.11.2\", \"0.12.0-rc1\", \"0.12.0\", \"0.12.1\", \"0.12.2\", \"0.13.0-alpha.1\", \"0.13.0-alpha.2\", \"0.13.0-beta.1\", \"0.13.0-beta.2\", \"0.13.0-rc1\", \"0.13.0-rc2\", \"0.13.0\", \"0.13.1\", \"0.13.2\", \"0.13.3\", \"0.14.0-alpha1\", \"0.14.0-alpha2\", \"0.14.0-alpha3\", \"0.14.0-beta1\", \"0.14.0-beta2\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/react/update.json\",\n  \"version\": \"0.14.0-beta2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/react/0.14.0-beta2\",\n  \"branch\": \"react/0.14.0-beta2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 98319500
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

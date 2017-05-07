@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-18) 16 : 05 : 15 UTC
+  , issueUpdatedAt = 2016 (-09) (-18) 16 : 05 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13869/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13869")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13869
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project vue-multiselect to 1.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13869")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13869.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13869.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13869"
+  , issueCreatedAt = 2016 (-09) (-18) 16 : 05 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vue-multiselect to 1.1.3.\n\n@monterail\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vue-multiselect\",\n    \"repo\": \"monterail/vue-multiselect\",\n    \"files\": {\n      \"basePath\": \"lib\",\n      \"include\": [\"vue-multiselect.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/vue.multiselect\",\n    \"localVersions\": [\"1.0.1\", \"1.1.0\", \"1.1.2\"],\n    \"remoteVersions\": [\"next\", \"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.4\", \"v0.1.5\", \"v0.1.6\", \"v0.1.7\", \"0.2.5\", \"0.2.6\", \"0.3.0\", \"0.3.1\", \"1.0.0\", \"1.0.1\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/vue.multiselect/update.json\",\n  \"versions\": [\"1.1.3\", \"next\"],\n  \"updateRemote\": true,\n  \"version\": \"1.1.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/vue.multiselect/1.1.3\",\n  \"branch\": \"vue-multiselect/1.1.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 177660162
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-04) 12 : 08 : 51 UTC
+  , issueUpdatedAt = 2014 (-11) (-04) 12 : 08 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2201/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2201")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2201
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tauCharts to 0.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2201")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2201.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2201.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2201"
+  , issueCreatedAt = 2014 (-11) (-04) 09 : 35 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tauCharts to 0.1.1.\n\n@TargetProcess\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"tauCharts\",\n    \"repo\": \"TargetProcess/tauCharts\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"tauCharts.min.js\", \"color-brewer.min.js\", \"css/graphic-elements.min.css\", \"css/colorbrewer.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/taucharts\",\n    \"localVersions\": [\"0.1.0\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/taucharts/0.1.1\",\n  \"branch\": \"tauCharts/0.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 47693689
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

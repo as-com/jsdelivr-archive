@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-21) 10 : 20 : 21 UTC
+  , issueUpdatedAt = 2016 (-04) (-21) 10 : 20 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11184/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/11184")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11184
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1263856
+        , simpleUserLogin = N "ricardopolo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1263856?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ricardopolo"
+        }
+  , issueTitle = "Whats the point of Load Multiple Files"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11184"
+  , issueCreatedAt = 2016 (-04) (-21) 10 : 15 : 42 UTC
+  , issueBody =
+      Just
+        "I cannot understand the benefits of your feature of concatenate multiple projects in one Url.\n\nIn HTTP2 and SPDY all requests to the same domain shares the same HTTP connection, so its the same as concatenation. \nI also think that if you have all of your resources in the same URL when you update one, the URL will change, and force the user to re download everything again, losing all cache benefits. If you have multiple URLs per dependency, when one changes, you wont for to re download all dependencies again.\n\nSo, I cannot understand the point of using tha feature, but, am I missing something? \n"
+  , issueState = StateClosed
+  , issueId = Id 150029547
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

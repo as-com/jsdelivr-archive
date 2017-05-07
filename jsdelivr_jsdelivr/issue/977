@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 13 : 37 : 19 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 20 : 15 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/977/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/977")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 977
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3504255
+        , simpleUserLogin = N "nooblike"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3504255?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nooblike"
+        }
+  , issueTitle = "Add bootstrap.hover-dropdown"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/977")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/977.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/977.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/977"
+  , issueCreatedAt = 2014 (-06) (-19) 06 : 57 : 35 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 36053857
+  , issueComments = 15
+  , issueMilestone = Nothing
+  }

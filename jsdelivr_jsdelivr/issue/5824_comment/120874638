@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-13) 09 : 43 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/120874638"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/5824#issuecomment-120874638"
+  , issueCommentCreatedAt = 2015 (-07) (-13) 09 : 43 : 25 UTC
+  , issueCommentBody =
+      "This should fix the issue https://cdn.jsdelivr.net/g/angularjs@1(angular.min.js+angular-resource.min.js)\nUsing latest is not recommended but I will look into it further. Thanks\n"
+  , issueCommentId = 120874638
+  }

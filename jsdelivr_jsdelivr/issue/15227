@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-07) 22 : 25 : 51 UTC
+  , issueUpdatedAt = 2016 (-12) (-07) 23 : 00 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15227/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15227")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15227
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4424598
+        , simpleUserLogin = N "antoniokov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/4424598?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/antoniokov"
+        }
+  , issueTitle = "add replay-table"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15227")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15227.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15227.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15227"
+  , issueCreatedAt = 2016 (-12) (-06) 21 : 49 : 19 UTC
+  , issueBody = Just "Add Replay Table project"
+  , issueState = StateClosed
+  , issueId = Id 193895011
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

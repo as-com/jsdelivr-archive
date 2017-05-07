@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-02) 22 : 56 : 19 UTC
+  , issueUpdatedAt = 2014 (-04) (-02) 22 : 56 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/560/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/560")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 560
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3965
+        , simpleUserLogin = N "simo2409"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3965?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/simo2409"
+        }
+  , issueTitle = "Website seems not updating hosted projects number"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/560"
+  , issueCreatedAt = 2014 (-04) (-02) 22 : 55 : 07 UTC
+  , issueBody =
+      Just
+        "I see 1004 directories inside \"files\" directories but on the website I see \"only\" 951 projects hosted.\n\nProbably there is a problem on updating the counter?\n"
+  , issueState = StateClosed
+  , issueId = Id 30733235
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

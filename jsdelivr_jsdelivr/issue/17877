@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-03) 18 : 13 : 09 UTC
+  , issueUpdatedAt = 2017 (-05) (-03) 18 : 13 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17877/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17877")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17877
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 187350
+        , simpleUserLogin = N "sutara79"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/187350?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sutara79"
+        }
+  , issueTitle = "Add manually jquery.random-fade-in"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17877")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17877.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17877.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17877"
+  , issueCreatedAt = 2017 (-04) (-30) 05 : 35 : 57 UTC
+  , issueBody =
+      Just
+        "I want to add [this](https://github.com/sutara79/jquery.random-fade-in) for the first time.\r\nI tried [Web Interface (Recommended)](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md#web-interface-recommended) but failed.\r\nI don't know how to bind both \"info.ini (jsdelivr/jsdelivr: master)\" and \"update.json (sutara79/jsdelivr: patch-1)\" to the same PR.\r\nSo now I try [Advanced - Manual](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md#advanced---manual).\r\nI'm sorry to trouble you."
+  , issueState = StateClosed
+  , issueId = Id 225306056
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

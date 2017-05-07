@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 21 : 19 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 21 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13365/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13365")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13365
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5836544
+        , simpleUserLogin = N "ajaydhaka"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5836544?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajaydhaka"
+        }
+  , issueTitle = "Create dekatech"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13365")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13365.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13365.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13365"
+  , issueCreatedAt = 2016 (-08) (-22) 05 : 15 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 172371167
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

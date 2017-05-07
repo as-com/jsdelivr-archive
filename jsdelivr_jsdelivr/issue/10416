@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-12) 20 : 28 : 42 UTC
+  , issueUpdatedAt = 2016 (-03) (-13) 02 : 41 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10416/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10416")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10416
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 42669
+        , simpleUserLogin = N "heybenji"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/42669?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/heybenji"
+        }
+  , issueTitle =
+      "Adding Blast.js ini file, files to come momentarily..."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10416")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10416.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10416.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10416"
+  , issueCreatedAt = 2016 (-03) (-12) 19 : 10 : 55 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 140408758
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

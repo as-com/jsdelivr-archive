@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-16) 14 : 34 : 59 UTC
+  , issueUpdatedAt = 2016 (-10) (-16) 14 : 34 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14388/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14388")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14388
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project swiper to 3.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14388")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14388.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14388.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14388"
+  , issueCreatedAt = 2016 (-10) (-16) 14 : 34 : 50 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project swiper to 3.4.0.\n\n@nolimits4web\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"swiper\",\n    \"repo\": \"nolimits4web/Swiper\",\n    \"files\": {\n      \"include\": [\"dist/js/*.js\", \"dist/css/*.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/swiper\",\n    \"localVersions\": [\"1.9.4\", \"2.0.0\", \"2.2.0\", \"2.5.0\", \"2.6.0\", \"2.6.1\", \"3.3.1\"],\n    \"remoteVersions\": [\"2.7.0\", \"2.7.5\", \"2.7.6\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.0.7\", \"3.0.8\", \"3.1.0\", \"3.1.2\", \"3.1.5\", \"3.1.7\", \"3.2.0\", \"3.2.5\", \"3.2.6\", \"3.2.7\", \"3.3.0\", \"3.3.1\", \"3.4.0\"],\n    \"branchVersions\": [\"3.3.1\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/swiper/update.json\",\n  \"versions\": [\"2.7.6\", \"3.4.0\"],\n  \"updateRemote\": true,\n  \"version\": \"3.4.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/swiper/3.4.0\",\n  \"branch\": \"swiper/3.4.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 183270223
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

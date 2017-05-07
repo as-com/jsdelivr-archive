@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-21) 20 : 29 : 30 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 14 : 08 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/833/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/833")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 833
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3027536
+        , simpleUserLogin = N "bradberger"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3027536?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bradberger"
+        }
+  , issueTitle = "Added four Angular JS libraries"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/833")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/833.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/833.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/833"
+  , issueCreatedAt = 2014 (-05) (-21) 11 : 17 : 20 UTC
+  , issueBody =
+      Just
+        "Added four AngularJS libraries - [angular-charts](http://chinmaymk.github.io/angular-charts/), [angular-dragdrop](http://codef0rmer.github.io/angular-dragdrop), [angular-file-upload](https://github.com/nervgh/angular-file-upload), [angular-google-maps](http://angular-google-maps.org)\n"
+  , issueState = StateClosed
+  , issueId = Id 33973038
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

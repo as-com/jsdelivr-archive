@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 24 : 54 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 24 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13306/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13306")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13306
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 20928941
+        , simpleUserLogin = N "RiNsCS"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/20928941?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/RiNsCS"
+        }
+  , issueTitle = "Reupload some wrong files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13306")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13306.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13306.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13306"
+  , issueCreatedAt = 2016 (-08) (-18) 05 : 47 : 06 UTC
+  , issueBody = Just "Reupload some wrong files\n"
+  , issueState = StateClosed
+  , issueId = Id 171822682
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

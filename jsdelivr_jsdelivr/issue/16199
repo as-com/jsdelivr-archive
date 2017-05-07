@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-06) 22 : 07 : 12 UTC
+  , issueUpdatedAt = 2017 (-02) (-06) 22 : 07 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16199/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16199")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16199
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 147451
+        , simpleUserLogin = N "humancopy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/147451?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/humancopy"
+        }
+  , issueTitle = "Fix mistakes in the folder names"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16199")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16199.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16199.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16199"
+  , issueCreatedAt = 2017 (-02) (-06) 11 : 06 : 57 UTC
+  , issueBody = Just "Oops, got those folders wrong ... :)"
+  , issueState = StateClosed
+  , issueId = Id 205550936
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

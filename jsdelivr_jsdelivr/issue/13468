@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-28) 08 : 46 : 46 UTC
+  , issueUpdatedAt = 2016 (-08) (-28) 08 : 46 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13468/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13468")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13468
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project flipclock to 0.7.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13468")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13468.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13468.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13468"
+  , issueCreatedAt = 2016 (-08) (-27) 18 : 44 : 01 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project flipclock to 0.7.7.\n\n@objectivehtml\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"flipclock\",\n    \"repo\": \"objectivehtml/FlipClock\",\n    \"files\": {\n      \"include\": [\"compiled/flipclock.min.js\", \"compiled/flipclock.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/flipclock\",\n    \"localVersions\": [\"0.1\"],\n    \"remoteVersions\": [\"0.6.1\", \"0.6.2\", \"0.6.3\", \"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"0.7.4\", \"0.7.7\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/flipclock/update.json\",\n  \"versions\": [\"0.7.7\"],\n  \"updateRemote\": true,\n  \"version\": \"0.7.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/flipclock/0.7.7\",\n  \"branch\": \"flipclock/0.7.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 173609677
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

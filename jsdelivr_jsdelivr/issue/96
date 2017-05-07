@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-09) (-09) 18 : 52 : 55 UTC
+  , issueUpdatedAt = 2013 (-09) (-09) 18 : 53 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/96/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/96")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 96
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1324089
+        , simpleUserLogin = N "benjaminma"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1324089?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/benjaminma"
+        }
+  , issueTitle = "Adding angular-ui-router v0.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/96")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/96.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/96.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/96"
+  , issueCreatedAt = 2013 (-09) (-09) 18 : 36 : 28 UTC
+  , issueBody =
+      Just
+        "Adding both minified and verbose versions of angular-ui-router v0.2.0.\n\nSource taken from:\nhttps://raw.github.com/angular-ui/ui-router/0.2.0/release/angular-ui-router.js\nhttps://raw.github.com/angular-ui/ui-router/0.2.0/release/angular-ui-router.min.js\n\nZip created with:\n`$ zip -urq angular-ui-router.zip *.js`\n"
+  , issueState = StateClosed
+  , issueId = Id 19214578
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

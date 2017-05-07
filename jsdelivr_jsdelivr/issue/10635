@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-05) 13 : 45 : 54 UTC
+  , issueUpdatedAt = 2016 (-04) (-05) 13 : 45 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10635/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/10635")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10635
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2006839
+        , simpleUserLogin = N "DiegoRBaquero"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2006839?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DiegoRBaquero"
+        }
+  , issueTitle = "How to link source maps"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10635"
+  , issueCreatedAt = 2016 (-03) (-25) 02 : 37 : 00 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nI currently use the following packages: `https://cdn.jsdelivr.net/g/webtorrent@0.87,momentjs@2,angularjs@1.4(angular.min.js+angular-route.min.js+angular-sanitize.min.js),angular.ui-grid@3.1,angular.ng-notify@0.7,angular.file-upload@12`\n\nBut I get source maps errors such as: Failed to parse SourceMap: https://cdn.jsdelivr.net/g/ng-notify.min.js.map\n\nI had similar things with some CSS files (moved independently) but now they are occurring in JS... previously not. Is there a way to manually specify the source maps url?\n\nIf every project I use must be separated into independent requests then it will suck.\n\nThank you\n"
+  , issueState = StateClosed
+  , issueId = Id 143410152
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

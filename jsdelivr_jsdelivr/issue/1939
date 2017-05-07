@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-14) 16 : 54 : 56 UTC
+  , issueUpdatedAt = 2014 (-10) (-28) 15 : 51 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1939/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1939")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1939
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6333719
+        , simpleUserLogin = N "lineardevon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6333719?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lineardevon"
+        }
+  , issueTitle = "Add pager.js & preload version 1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1939")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1939.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1939.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1939"
+  , issueCreatedAt = 2014 (-10) (-07) 03 : 11 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 45062852
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

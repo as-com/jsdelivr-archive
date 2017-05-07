@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-06) 20 : 58 : 23 UTC
+  , issueUpdatedAt = 2017 (-03) (-06) 20 : 58 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16668/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16668")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16668
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6297068
+        , simpleUserLogin = N "jagadeeshv16"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6297068?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jagadeeshv16"
+        }
+  , issueTitle = "Add xterm.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16668")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16668.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16668.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16668"
+  , issueCreatedAt = 2017 (-03) (-02) 07 : 58 : 27 UTC
+  , issueBody =
+      Just "xtermjs is a popular browser terminal software."
+  , issueState = StateClosed
+  , issueId = Id 211315893
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

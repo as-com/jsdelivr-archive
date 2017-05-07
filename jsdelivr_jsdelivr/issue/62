@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-07) (-26) 17 : 57 : 36 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 15 : 36 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/62/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/62")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 62
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2124755
+        , simpleUserLogin = N "isaumya"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2124755?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaumya"
+        }
+  , issueTitle = "Added new jQuery Shuffel Letter Plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/62")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/62.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/62.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/62"
+  , issueCreatedAt = 2013 (-07) (-26) 17 : 02 : 12 UTC
+  , issueBody =
+      Just "Added jQuery Shuffel Letter Plugin with minor update\n"
+  , issueState = StateClosed
+  , issueId = Id 17273347
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

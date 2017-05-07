@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-21) 15 : 37 : 36 UTC
+  , issueUpdatedAt = 2014 (-07) (-12) 01 : 31 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/273/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/273")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 273
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 243830
+        , simpleUserLogin = N "kitcambridge"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/243830?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kitcambridge"
+        }
+  , issueTitle = "Add JSON v3.3.0."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/273")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/273.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/273.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/273"
+  , issueCreatedAt = 2014 (-01) (-21) 08 : 16 : 52 UTC
+  , issueBody =
+      Just
+        "Adding the [latest release](http://bestiejs.github.io/json3/) of JSON 3.\n"
+  , issueState = StateClosed
+  , issueId = Id 25971207
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-24) 22 : 09 : 34 UTC
+  , issueUpdatedAt = 2016 (-02) (-24) 22 : 09 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10109/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10109")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10109
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project waypoints to 4.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10109")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10109.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10109.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10109"
+  , issueCreatedAt = 2016 (-02) (-24) 22 : 09 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project waypoints to 4.0.0.\n\n@imakewebthings\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"waypoints\",\n    \"repo\": \"imakewebthings/waypoints\",\n    \"files\": {\n      \"basePath\": \"lib\",\n      \"include\": [\"*.min.*\", \"*.map\", \"./shortcuts/*.min.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/waypoints\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"latest\", \"v1.0\", \"v1.0.1\", \"v1.0.2\", \"v1.1\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\", \"v1.1.4\", \"v1.1.5\", \"v1.1.6\", \"v1.1.7\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"3.0.0\", \"3.0.1\", \"3.1.0\", \"3.1.1\", \"4.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/waypoints/update.json\",\n  \"versions\": [\"v1.1.7\", \"v2.0.5\", \"3.1.1\", \"4.0.0\", \"latest\"],\n  \"updateRemote\": true,\n  \"version\": \"4.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/waypoints/4.0.0\",\n  \"branch\": \"waypoints/4.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 136201305
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

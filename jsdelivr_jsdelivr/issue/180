@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-16) 13 : 50 : 01 UTC
+  , issueUpdatedAt = 2014 (-01) (-02) 14 : 40 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/180/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/180")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/enhancement"
+          , labelName = N "enhancement"
+          }
+      ]
+  , issueNumber = 180
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Main file for every project"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/180"
+  , issueCreatedAt = 2013 (-12) (-06) 20 : 45 : 38 UTC
+  , issueBody =
+      Just
+        "TODO:\nAdd a `mainfile` parameter to every project. \nThis will allow people to create new tools for jsDelivr.\nPlus gives me the ability to add a lot of awesome features.\n"
+  , issueState = StateClosed
+  , issueId = Id 23884118
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

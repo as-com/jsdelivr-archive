@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-14) 18 : 12 : 58 UTC
+  , issueUpdatedAt = 2014 (-11) (-14) 18 : 23 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2370/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2370")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2370
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 244265
+        , simpleUserLogin = N "flavioribeiro"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/244265?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/flavioribeiro"
+        }
+  , issueTitle = "add clappr.js to clappr bundle"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2370")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2370.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2370.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2370"
+  , issueCreatedAt = 2014 (-11) (-14) 18 : 06 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 48820414
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

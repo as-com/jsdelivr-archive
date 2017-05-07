@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-20) 20 : 14 : 56 UTC
+  , issueUpdatedAt = 2016 (-02) (-20) 20 : 14 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9884/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9884")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9884
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3754571
+        , simpleUserLogin = N "drvic10k"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3754571?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/drvic10k"
+        }
+  , issueTitle = "updated bootstrap-sortable 2.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9884")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9884.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9884.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9884"
+  , issueCreatedAt = 2016 (-02) (-20) 16 : 27 : 15 UTC
+  , issueBody = Nothing
+  , issueState = StateClosed
+  , issueId = Id 135093037
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

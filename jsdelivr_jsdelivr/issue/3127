@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-20) 10 : 44 : 05 UTC
+  , issueUpdatedAt = 2015 (-01) (-20) 10 : 44 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3127/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3127")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3127
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 330362
+        , simpleUserLogin = N "a5his"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/330362?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/a5his"
+        }
+  , issueTitle = "added new version of jStorage 0.4.12"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3127")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3127.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3127.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3127"
+  , issueCreatedAt = 2015 (-01) (-20) 04 : 56 : 52 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 54843890
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

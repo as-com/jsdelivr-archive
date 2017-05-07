@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-04) (-05) 15 : 05 : 54 UTC
+  , issueUpdatedAt = 2013 (-10) (-10) 01 : 39 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "WP SlimStat 3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5"
+  , issueCreatedAt = 2013 (-04) (-05) 15 : 04 : 49 UTC
+  , issueBody =
+      Just
+        "I decided to bump up the version number to 3.1, because of some major\nchanges in the tracker (no changes in the JS, though)\n"
+  , issueState = StateClosed
+  , issueId = Id 12849394
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

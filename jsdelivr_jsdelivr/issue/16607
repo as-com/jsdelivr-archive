@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-01) 17 : 18 : 10 UTC
+  , issueUpdatedAt = 2017 (-03) (-01) 17 : 18 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16607/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16607")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16607
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 249117
+        , simpleUserLogin = N "OlegKi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/249117?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/OlegKi"
+        }
+  , issueTitle = "Update update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16607")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16607.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16607.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16607"
+  , issueCreatedAt = 2017 (-02) (-27) 18 : 30 : 38 UTC
+  , issueBody =
+      Just
+        "The changes corresponds new structure of https://github.com/free-jqgrid/jqGrid after moving some files in the subfolders `css` and `min`"
+  , issueState = StateClosed
+  , issueId = Id 210567245
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

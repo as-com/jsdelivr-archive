@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-17) 10 : 56 : 03 UTC
+  , issueUpdatedAt = 2016 (-01) (-17) 10 : 56 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9017/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9017")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9017
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 825836
+        , simpleUserLogin = N "sarunast"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/825836?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sarunast"
+        }
+  , issueTitle = "Use minified file"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9017")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9017.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9017.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9017"
+  , issueCreatedAt = 2016 (-01) (-16) 22 : 21 : 07 UTC
+  , issueBody =
+      Just
+        "I thought that the older versions will be included as well which doesn't have the minified versions. Only from version 2 the minified version was made available. So I think it is okay to switch.\n"
+  , issueState = StateClosed
+  , issueId = Id 127057481
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-04) 00 : 44 : 32 UTC
+  , issueUpdatedAt = 2014 (-07) (-04) 00 : 44 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1103/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1103")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1103
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1055782
+        , simpleUserLogin = N "ppavlov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1055782?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ppavlov"
+        }
+  , issueTitle =
+      "Adding the latest version of the RequireJS text plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1103")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1103.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1103.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1103"
+  , issueCreatedAt = 2014 (-07) (-03) 19 : 31 : 11 UTC
+  , issueBody = Just "https://github.com/requirejs/text\n"
+  , issueState = StateClosed
+  , issueId = Id 37115871
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

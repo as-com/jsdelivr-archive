@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-30) 17 : 04 : 53 UTC
+  , issueUpdatedAt = 2014 (-09) (-30) 19 : 35 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1869/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1869")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1869
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1573141
+        , simpleUserLogin = N "coderaiser"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1573141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coderaiser"
+        }
+  , issueTitle = "Added Menu-io"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1869")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1869.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1869.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1869"
+  , issueCreatedAt = 2014 (-09) (-30) 11 : 07 : 30 UTC
+  , issueBody =
+      Just "Added [menu-io](http://coderaiser.github.io/menu).\n"
+  , issueState = StateClosed
+  , issueId = Id 44425699
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

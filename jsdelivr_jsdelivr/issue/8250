@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-03) 11 : 41 : 15 UTC
+  , issueUpdatedAt = 2015 (-12) (-03) 11 : 41 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8250/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8250")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8250
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 45862
+        , simpleUserLogin = N "modethirteen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/45862?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/modethirteen"
+        }
+  , issueTitle = "Ignore geniuslink.js and geniuslink.js.map"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8250")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8250.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8250.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8250"
+  , issueCreatedAt = 2015 (-12) (-03) 00 : 18 : 23 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 120065593
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

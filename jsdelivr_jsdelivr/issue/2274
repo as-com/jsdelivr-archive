@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-07) 21 : 17 : 18 UTC
+  , issueUpdatedAt = 2014 (-11) (-07) 21 : 17 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2274/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2274")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2274
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1519888
+        , simpleUserLogin = N "hufyhang"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1519888?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hufyhang"
+        }
+  , issueTitle = "ChopJS-utils 0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2274")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2274.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2274.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2274"
+  , issueCreatedAt = 2014 (-11) (-07) 21 : 16 : 42 UTC
+  , issueBody = Just "ChopJS-utils 0.2\n"
+  , issueState = StateClosed
+  , issueId = Id 48131516
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

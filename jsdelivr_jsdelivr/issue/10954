@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-10) 15 : 31 : 02 UTC
+  , issueUpdatedAt = 2016 (-04) (-10) 15 : 31 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10954/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10954")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10954
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6059356
+        , simpleUserLogin = N "limonte"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6059356?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/limonte"
+        }
+  , issueTitle =
+      "Revert non-minified CSS to sweetalert2 for back-compatibility"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10954")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10954.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10954.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10954"
+  , issueCreatedAt = 2016 (-04) (-10) 15 : 11 : 10 UTC
+  , issueBody =
+      Just
+        "Related to: https://github.com/jsdelivr/jsdelivr/pull/10951\n"
+  , issueState = StateClosed
+  , issueId = Id 147232608
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

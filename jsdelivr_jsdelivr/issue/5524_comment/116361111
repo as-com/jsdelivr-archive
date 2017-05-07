@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-28) 23 : 44 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 160618
+        , simpleUserLogin = N "ntd"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/160618?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ntd"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/116361111"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5524#issuecomment-116361111"
+  , issueCommentCreatedAt = 2015 (-06) (-28) 23 : 44 : 30 UTC
+  , issueCommentBody =
+      "Ok, I forced a push to pr5 with `jquery.fotorama` and it seems to have worked.\n\nThe included files are taken directly from the [zip release](https://github.com/artpolikarpov/fotorama/releases/download/4.6.4/fotorama-4.6.4.zip): `fotorama.js` has been renamed to `fotorama.min.js` and `fotorama.css` has been renamed to `fotorama.min.css` since they are minimized.\n"
+  , issueCommentId = 116361111
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-24) 19 : 04 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 14615
+        , simpleUserLogin = N "edrex"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/14615?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/edrex"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/114981720"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3156#issuecomment-114981720"
+  , issueCommentCreatedAt = 2015 (-06) (-24) 19 : 04 : 13 UTC
+  , issueCommentBody =
+      "I guess I was wondering whether jsdelivr's bot might grow the ability to run postprocessing tasks (ie, `grunt`) on travis or similar as part of auto update.\n"
+  , issueCommentId = 114981720
+  }

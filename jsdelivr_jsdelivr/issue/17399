@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-11) 15 : 09 : 36 UTC
+  , issueUpdatedAt = 2017 (-04) (-14) 04 : 22 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17399/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17399")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17399
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15174329
+        , simpleUserLogin = N "feuzeu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/15174329?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/feuzeu"
+        }
+  , issueTitle = "Fixed file list in update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17399")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17399.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17399.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17399"
+  , issueCreatedAt = 2017 (-04) (-04) 11 : 35 : 59 UTC
+  , issueBody =
+      Just
+        "According to the bot docs, the file names must be prepended with \"./\" for the directory structure to be retained."
+  , issueState = StateClosed
+  , issueId = Id 219221429
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

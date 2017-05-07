@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-06) 17 : 57 : 53 UTC
+  , issueUpdatedAt = 2014 (-10) (-06) 17 : 58 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1840/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1840")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1840
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6156012
+        , simpleUserLogin = N "Artur-A"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6156012?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Artur-A"
+        }
+  , issueTitle = "Added bootstrap stroke icons"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1840")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1840.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1840.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1840"
+  , issueCreatedAt = 2014 (-09) (-26) 18 : 32 : 58 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 44092729
+  , issueComments = 21
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-05) 14 : 09 : 55 UTC
+  , issueUpdatedAt = 2013 (-11) (-05) 14 : 38 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/137/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/137")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 137
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 14610
+        , simpleUserLogin = N "frozzare"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/14610?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/frozzare"
+        }
+  , issueTitle = "Updated Tire to version 1.3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/137")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/137.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/137.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/137"
+  , issueCreatedAt = 2013 (-11) (-05) 07 : 53 : 28 UTC
+  , issueBody = Just "Updated Tire to version 1.3.1\n"
+  , issueState = StateClosed
+  , issueId = Id 22104180
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

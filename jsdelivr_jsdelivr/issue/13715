@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-10) 11 : 02 : 56 UTC
+  , issueUpdatedAt = 2016 (-09) (-10) 11 : 02 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13715/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13715")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13715
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project eruda to 1.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13715")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13715.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13715.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13715"
+  , issueCreatedAt = 2016 (-09) (-10) 11 : 02 : 52 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project eruda to 1.1.2.\n\n@liriliri\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"eruda\",\n    \"repo\": \"liriliri/eruda\",\n    \"files\": {\n      \"include\": [\"eruda.js\", \"eruda.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/eruda\",\n    \"localVersions\": [\"1.0.0\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.1.0\", \"1.1.1\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.4.0\", \"0.5.0\", \"0.5.1\", \"0.5.2\", \"0.5.3\", \"0.5.4\", \"0.5.5\", \"0.5.6\", \"0.5.7\", \"0.5.8\", \"0.5.9\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.6.3\", \"0.6.4\", \"0.6.5\", \"0.7.0\", \"0.7.1\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.1.0\", \"1.1.1\", \"1.1.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/eruda/update.json\",\n  \"versions\": [\"1.1.2\"],\n  \"updateRemote\": true,\n  \"version\": \"1.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/eruda/1.1.2\",\n  \"branch\": \"eruda/1.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 176174206
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

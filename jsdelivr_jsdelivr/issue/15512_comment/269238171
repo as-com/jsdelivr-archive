@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-12) (-26) 19 : 57 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/269238171"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15512#issuecomment-269238171"
+  , issueCommentCreatedAt = 2016 (-12) (-26) 19 : 57 : 19 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @abishekrsrikaanth, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- Looks like the `info.ini` or `update.json` has some problems\n    - Issues validating *update.json* for modaal: Expecting property name enclosed in double quotes: line 7 column 3 (char 119)\n- Might be nothing but I have some concerns about the files in your submission...  \n    - *.scss* (on *css/modaal.scss*) seems odd to want to host?\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Encourage flow.*\n"
+  , issueCommentId = 269238171
+  }

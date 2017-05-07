@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-16) 11 : 46 : 31 UTC
+  , issueUpdatedAt = 2016 (-01) (-16) 11 : 46 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9007/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9007")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9007
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project Leaflet.awesome-markers to 2.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9007")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9007.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9007.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9007"
+  , issueCreatedAt = 2016 (-01) (-16) 11 : 32 : 02 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project Leaflet.awesome-markers to 2.0.2.\n\n@lvoogdt\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"Leaflet.awesome-markers\",\n    \"repo\": \"lvoogdt/Leaflet.awesome-markers\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/leaflet.awesome-markers\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"2.0.0\", \"2.0.1\", \"2.0.2\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/leaflet.awesome-markers/update.json\",\n  \"version\": \"2.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/leaflet.awesome-markers/2.0.2\",\n  \"branch\": \"Leaflet.awesome-markers/2.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127018626
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

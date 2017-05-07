@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-28) 23 : 05 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 160618
+        , simpleUserLogin = N "ntd"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/160618?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ntd"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/116358816"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5523#issuecomment-116358816"
+  , issueCommentCreatedAt = 2015 (-06) (-28) 23 : 05 : 14 UTC
+  , issueCommentBody =
+      "They are really 5 different themes, with CSS and images (I purposely skipped the HTML files and the sample images). Colorbox without theme is quite ugly.\n\nUnfortunately I did not find a way to rename that `example` prefix to something more meaningful such as `theme`.\n"
+  , issueCommentId = 116358816
+  }

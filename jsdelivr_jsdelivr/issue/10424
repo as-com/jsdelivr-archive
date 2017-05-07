@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-13) 20 : 16 : 26 UTC
+  , issueUpdatedAt = 2016 (-03) (-13) 20 : 41 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10424/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10424")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10424
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 145155
+        , simpleUserLogin = N "DBJDBJ"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/145155?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DBJDBJ"
+        }
+  , issueTitle =
+      "Micro library of absolutely necessary JS stuff. In the same time probably difficult to find elsewhere."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10424")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10424.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10424.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10424"
+  , issueCreatedAt = 2016 (-03) (-13) 20 : 14 : 35 UTC
+  , issueBody = Just "created\n"
+  , issueState = StateClosed
+  , issueId = Id 140525221
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

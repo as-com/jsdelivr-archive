@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-25) 20 : 33 : 07 UTC
+  , issueUpdatedAt = 2016 (-12) (-25) 20 : 33 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15446/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15446")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15446
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8336811
+        , simpleUserLogin = N "Chiru13"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8336811?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Chiru13"
+        }
+  , issueTitle = "Encora JS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15446")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15446.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15446.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15446"
+  , issueCreatedAt = 2016 (-12) (-21) 15 : 32 : 38 UTC
+  , issueBody = Just "EncoraJS Library (which I am working on)"
+  , issueState = StateClosed
+  , issueId = Id 196961276
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-26) 19 : 13 : 16 UTC
+  , issueUpdatedAt = 2014 (-11) (-26) 19 : 13 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2513/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2513")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2513
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.scrolldepth.js to 0.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2513")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2513.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2513.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2513"
+  , issueCreatedAt = 2014 (-11) (-26) 19 : 12 : 53 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.scrolldepth.js to 0.7.\n\n@robflaherty\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.scrolldepth.js\",\n    \"repo\": \"robflaherty/jquery-scrolldepth\",\n    \"files\": {\n      \"include\": [\"jquery.scrolldepth.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.scrolldepth\",\n    \"localVersions\": [\"0.4.1\", \"0.6.0\"],\n    \"remoteVersions\": [\"v0.1.1\", \"v0.1.2\", \"0.4.1\", \"0.5\", \"0.6\", \"0.7\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.scrolldepth/0.7.0\",\n  \"branch\": \"jquery.scrolldepth.js/0.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 50216570
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

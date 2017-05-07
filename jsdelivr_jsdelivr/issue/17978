@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-05) 16 : 34 : 38 UTC
+  , issueUpdatedAt = 2017 (-05) (-05) 16 : 34 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17978/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17978")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17978
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project epub.js to v0.2.17"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17978")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17978.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17978.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17978"
+  , issueCreatedAt = 2017 (-05) (-05) 16 : 34 : 28 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project epub.js to v0.2.17.\n\n@futurepress\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"epub.js\",\n    \"repo\": \"futurepress/epub.js\",\n    \"files\": {\n      \"include\": [\"build/epub.min.js\", \"build/hooks.min.js\", \"build/reader.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/epub.js\",\n    \"localVersions\": [\"0.2.9\", \"0.2.10\", \"0.2.11\", \"0.2.12\", \"0.2.13\", \"0.2.14\", \"0.2.15\"],\n    \"remoteVersions\": [\"alpha-0.3.1\", \"v0.1.5\", \"v0.1.6\", \"v0.1.7\", \"v0.1.8\", \"0.1.8\", \"v0.1.9\", \"0.1.10\", \"v0.2.0\", \"v0.2.0.1\", \"v0.2.1\", \"v0.2.2\", \"v0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.7\", \"0.2.8\", \"0.2.8.1\", \"0.2.9\", \"v0.2.10\", \"v0.2.11\", \"v0.2.12\", \"v0.2.13\", \"v0.2.14\", \"v0.2.15\", \"v0.2.17\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/epub.js/update.json\",\n  \"versions\": [\"v0.2.17\", \"alpha-0.3.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.2.17\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/epub.js/0.2.17\",\n  \"branch\": \"epub.js/v0.2.17\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 226626892
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

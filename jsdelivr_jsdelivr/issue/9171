@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-18) 11 : 38 : 44 UTC
+  , issueUpdatedAt = 2016 (-01) (-18) 11 : 38 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9171/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9171")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9171
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-masonry-packed to v0.14.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9171")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9171.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9171.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9171"
+  , issueCreatedAt = 2016 (-01) (-18) 11 : 32 : 09 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-masonry-packed to v0.14.5.\n\n@JohnnyTheTank\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular-masonry-packed\",\n    \"repo\": \"JohnnyTheTank/angular-masonry-packed\",\n    \"files\": {\n      \"include\": [\"dist/*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.masonry-packed\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.13.0\", \"v0.14.0\", \"v0.14.1\", \"v0.14.2\", \"v0.14.3\", \"v0.14.4\", \"v0.14.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.masonry-packed/update.json\",\n  \"versions\": [\"v0.14.5\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.14.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.masonry-packed/0.14.5\",\n  \"branch\": \"angular-masonry-packed/v0.14.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127208061
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

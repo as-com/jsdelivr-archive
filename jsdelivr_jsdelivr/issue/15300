@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-12) 15 : 19 : 45 UTC
+  , issueUpdatedAt = 2016 (-12) (-12) 15 : 19 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15300/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15300")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15300
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6295761
+        , simpleUserLogin = N "vousk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6295761?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vousk"
+        }
+  , issueTitle = "Update project babylon.js to 2.5 final"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15300")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15300.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15300.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15300"
+  , issueCreatedAt = 2016 (-12) (-12) 10 : 26 : 03 UTC
+  , issueBody =
+      Just
+        "Update project babylon.js to 2.5 final.\r\nSource file is https://github.com/BabylonJS/Babylon.js/blob/master/dist/babylon.2.5.js"
+  , issueState = StateClosed
+  , issueId = Id 194938108
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

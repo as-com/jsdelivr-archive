@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-15) 12 : 33 : 50 UTC
+  , issueUpdatedAt = 2016 (-08) (-15) 12 : 33 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13245/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13245")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13245
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jssor.slider to 21.1.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13245")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13245.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13245.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13245"
+  , issueCreatedAt = 2016 (-08) (-15) 12 : 33 : 46 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jssor.slider to 21.1.5.\n\n@jssor\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jssor.slider\",\n    \"repo\": \"jssor/slider\",\n    \"files\": {\n      \"basePath\": \"js/\",\n      \"include\": [\"jssor.slider.mini.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jssor.slider\",\n    \"localVersions\": [\"16.0\", \"17.0.0\", \"18.0.0\", \"19.0.0\", \"19.0.1\", \"20.0.0\"],\n    \"remoteVersions\": [\"16.0\", \"17.0\", \"18.0\", \"19.0\", \"19.0.1\", \"20.0.0\", \"21.1.5\"],\n    \"branchVersions\": [\"19.0\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jssor.slider/update.json\",\n  \"versions\": [\"21.1.5\"],\n  \"updateRemote\": true,\n  \"version\": \"21.1.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jssor.slider/21.1.5\",\n  \"branch\": \"jssor.slider/21.1.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 171161364
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

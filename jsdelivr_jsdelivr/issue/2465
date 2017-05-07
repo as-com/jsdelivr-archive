@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-21) 20 : 35 : 09 UTC
+  , issueUpdatedAt = 2015 (-03) (-21) 20 : 35 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2465/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2465")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2465
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2486424
+        , simpleUserLogin = N "laruiss"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/2486424?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/laruiss"
+        }
+  , issueTitle =
+      "Add animo.js \"A powerful little tool for managing CSS animations\""
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2465")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2465.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2465.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2465"
+  , issueCreatedAt = 2014 (-11) (-23) 09 : 00 : 38 UTC
+  , issueBody =
+      Just "from http://labs.bigroomstudios.com/libraries/animo-js\n"
+  , issueState = StateClosed
+  , issueId = Id 49819216
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

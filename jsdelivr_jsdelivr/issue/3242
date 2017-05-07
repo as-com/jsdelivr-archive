@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-29) 16 : 15 : 33 UTC
+  , issueUpdatedAt = 2015 (-01) (-29) 16 : 15 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3242/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3242")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3242
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 80772
+        , simpleUserLogin = N "aurri"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/80772?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aurri"
+        }
+  , issueTitle = "Changed Riot's update.json (added more files)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3242")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3242.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3242.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3242"
+  , issueCreatedAt = 2015 (-01) (-29) 14 : 03 : 28 UTC
+  , issueBody =
+      Just
+        "The next Riot version will include new files: riot+compiler.js and riot+compiler.min.js.\nAdded them to update.json.\n"
+  , issueState = StateClosed
+  , issueId = Id 55902499
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

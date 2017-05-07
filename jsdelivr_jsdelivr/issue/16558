@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-27) 18 : 03 : 16 UTC
+  , issueUpdatedAt = 2017 (-02) (-27) 18 : 03 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16558/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16558")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16558
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1094306
+        , simpleUserLogin = N "inc2734"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1094306?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/inc2734"
+        }
+  , issueTitle = "Add sass-basis"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16558")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16558.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16558.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16558"
+  , issueCreatedAt = 2017 (-02) (-25) 14 : 12 : 19 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 210236913
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-19) 15 : 26 : 31 UTC
+  , issueUpdatedAt = 2014 (-03) (-19) 15 : 26 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/474/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/474")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 474
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 127199
+        , simpleUserLogin = N "christianvuerings"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/127199?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/christianvuerings"
+        }
+  , issueTitle = "Add GitHub URL for AngularJS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/474")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/474.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/474.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/474"
+  , issueCreatedAt = 2014 (-03) (-19) 15 : 25 : 47 UTC
+  , issueBody =
+      Just
+        "Add a link to GitHub for AngularJS: https://github.com/angular/angular.js\n"
+  , issueState = StateClosed
+  , issueId = Id 29741841
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

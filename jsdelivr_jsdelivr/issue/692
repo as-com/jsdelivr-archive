@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-23) 17 : 24 : 15 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 00 : 18 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/692/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/692")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 692
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "fix highstock"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/692")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/692.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/692.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/692"
+  , issueCreatedAt = 2014 (-04) (-23) 16 : 27 : 04 UTC
+  , issueBody =
+      Just
+        "copy highstocks to highstock, highstock`s` was a wrong name and path.\nreference to : #691\n"
+  , issueState = StateClosed
+  , issueId = Id 32076699
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-14) 19 : 11 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 351902
+        , simpleUserLogin = N "markcarver"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/351902?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/markcarver"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/131211916"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6407#issuecomment-131211916"
+  , issueCommentCreatedAt = 2015 (-08) (-14) 19 : 11 : 00 UTC
+  , issueCommentBody =
+      "Ok, maybe this will help clear up some confusion on my part. To avoid having to initiate multiple requests, I'm simply using http://api.jsdelivr.com/v1/bootstrap/libraries and then parsing that entire JSON data ([source](http://cgit.drupalcode.org/bootstrap/tree/includes/cdn.inc#n49)).\n\nBecause there is no \"base path/url\" provided by the API (as I have brought up in https://github.com/jsdelivr/api/issues/56#issuecomment-108691577), I inadvertently used ([source](http://cgit.drupalcode.org/bootstrap/tree/includes/cdn.inc#n189)):\n\n`//cdn.jsdelivr.net/bootstrap/$version`\n`//cdn.jsdelivr.net/bootswatch/$version`\n\nWhen they should, in fact, be using:\n\n`//maxcdn.bootstrapcdn.com/bootstrap/$version`\n`//maxcdn.bootstrapcdn.com/bootswatch/$version`\n\nUnfortunately, maxcdn.bootstrapcdn.com is just one CDN, not the multi-architecture that comes with jsDelivr. I would much rather keep these URLs at cdn.jsdelivr.net. The reason I started this auto-update process for bootswatch is because I noticed that when I started switching themes (especially past 3.3.2), the site would become un-styled (missing assets). This led me to start digging and found out that jsDelivr's bootswatch repo wasn't being automatically updated (hence the PRs). I also assumed that this would fill in the missing pieces.\n\nIf this were still a manual process, I may have been forced to switch the URLs to maxcdn.bootstrapcdn.com. However, now that the jsDelivr bootswatch repo is updated automatically, I think it will be safe to continue using cdn.jsdelivr.net/bootswatch; that is if I manually fill in the missing 3.x.x versions.\n"
+  , issueCommentId = 131211916
+  }

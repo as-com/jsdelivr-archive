@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-31) 19 : 44 : 10 UTC
+  , issueUpdatedAt = 2016 (-01) (-31) 19 : 44 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9284/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9284")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9284
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2373
+        , simpleUserLogin = N "pfefferle"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2373?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pfefferle"
+        }
+  , issueTitle = "Openwebicons"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9284")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9284.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9284.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9284"
+  , issueCreatedAt = 2016 (-01) (-22) 21 : 28 : 59 UTC
+  , issueBody =
+      Just
+        "Added OpenWebIcons font: http://pfefferle.github.io/openwebicons/\n"
+  , issueState = StateClosed
+  , issueId = Id 128249923
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

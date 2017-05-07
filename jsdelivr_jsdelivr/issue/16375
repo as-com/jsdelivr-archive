@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-22) 16 : 06 : 56 UTC
+  , issueUpdatedAt = 2017 (-02) (-22) 16 : 06 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16375/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16375")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16375
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 12599965
+        , simpleUserLogin = N "clouless"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/12599965?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/clouless"
+        }
+  , issueTitle = "Update update.json - codeclou/cc-image-lightbox"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16375")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16375.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16375.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16375"
+  , issueCreatedAt = 2017 (-02) (-15) 09 : 04 : 25 UTC
+  , issueBody =
+      Just " * added basePath since original update.json did not work"
+  , issueState = StateClosed
+  , issueId = Id 207744147
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

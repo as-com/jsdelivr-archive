@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-08) 21 : 36 : 40 UTC
+  , issueUpdatedAt = 2014 (-09) (-08) 21 : 36 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1679/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1679")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1679
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project leaflet to v0.7.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1679")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1679.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1679.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1679"
+  , issueCreatedAt = 2014 (-09) (-08) 21 : 36 : 13 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project leaflet to v0.7.3.\n\n@Leaflet\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"leaflet\",\n    \"repo\": \"Leaflet/Leaflet\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/leaflet\",\n    \"localVersions\": [\"0.5.1\", \"0.6.2\", \"0.6.4\", \"0.7.2\"],\n    \"remoteVersions\": [\"v0.2.1\", \"v0.3.1\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\", \"v0.4.5\", \"v0.5.1\", \"v0.6.1\", \"v0.6.2\", \"v0.6.3\", \"v0.6.4\", \"v0.7.1\", \"v0.7.2\", \"v0.7.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.7.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/leaflet/0.7.3\",\n  \"branch\": \"leaflet/v0.7.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 42246333
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

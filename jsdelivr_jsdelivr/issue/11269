@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-25) 20 : 11 : 09 UTC
+  , issueUpdatedAt = 2016 (-04) (-25) 20 : 11 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11269/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11269")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11269
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1263856
+        , simpleUserLogin = N "ricardopolo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1263856?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ricardopolo"
+        }
+  , issueTitle = "Create update.json for Codemirror"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11269")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11269.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11269.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11269"
+  , issueCreatedAt = 2016 (-04) (-25) 16 : 09 : 14 UTC
+  , issueBody =
+      Just "Is this the right way to include the full repo?\n"
+  , issueState = StateClosed
+  , issueId = Id 150912475
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

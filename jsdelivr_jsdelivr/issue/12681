@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-14) 16 : 30 : 39 UTC
+  , issueUpdatedAt = 2016 (-07) (-18) 09 : 51 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12681/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12681")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12681
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17172363
+        , simpleUserLogin = N "DheepaKumar123"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/17172363?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DheepaKumar123"
+        }
+  , issueTitle = "Blezyy"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12681")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12681.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12681.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12681"
+  , issueCreatedAt = 2016 (-07) (-12) 04 : 45 : 28 UTC
+  , issueBody = Just "New javascript to be added\n"
+  , issueState = StateClosed
+  , issueId = Id 164993212
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

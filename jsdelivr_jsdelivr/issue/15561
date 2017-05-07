@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-30) 14 : 09 : 45 UTC
+  , issueUpdatedAt = 2016 (-12) (-30) 14 : 09 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15561/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15561")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15561
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11781896
+        , simpleUserLogin = N "thamarais"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/11781896?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thamarais"
+        }
+  , issueTitle = "Create finzoya"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15561")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15561.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15561.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15561"
+  , issueCreatedAt = 2016 (-12) (-30) 13 : 58 : 16 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 198150370
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

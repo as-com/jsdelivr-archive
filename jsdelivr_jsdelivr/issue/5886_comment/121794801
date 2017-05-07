@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-16) 01 : 14 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 139472
+        , simpleUserLogin = N "tzmartin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/139472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tzmartin"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/121794801"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5886#issuecomment-121794801"
+  , issueCommentCreatedAt = 2015 (-07) (-16) 01 : 14 : 15 UTC
+  , issueCommentBody =
+      "Tagged 1.0.0 GA release.\n\nThis project is the web-based presentation library for the Ponyshow app and wouldn't be used on it's own without installing the Ponyshow CLI or native app.  I'm in the process of adding docs to main Ponyshow project.  However, it would beneficial to implement JSDelivr as part of the initial docs and application logic when rendering between online/offline modes.  Can you reconsider?\n\nBest\n- tz\n"
+  , issueCommentId = 121794801
+  }

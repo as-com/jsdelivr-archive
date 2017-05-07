@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-02) 09 : 55 : 38 UTC
+  , issueUpdatedAt = 2016 (-08) (-02) 09 : 55 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13025/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13025")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13025
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4679377
+        , simpleUserLogin = N "maoosi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/4679377?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/maoosi"
+        }
+  , issueTitle = "perstrok.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13025")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13025.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13025.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13025"
+  , issueCreatedAt = 2016 (-08) (-02) 09 : 41 : 35 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 168841859
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

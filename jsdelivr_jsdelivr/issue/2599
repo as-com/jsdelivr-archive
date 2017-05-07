@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-03) 21 : 04 : 43 UTC
+  , issueUpdatedAt = 2014 (-12) (-03) 21 : 04 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2599/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2599")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2599
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5818982
+        , simpleUserLogin = N "mikewgd"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5818982?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mikewgd"
+        }
+  , issueTitle = "new version"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2599")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2599.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2599.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2599"
+  , issueCreatedAt = 2014 (-12) (-03) 20 : 52 : 17 UTC
+  , issueBody =
+      Just
+        "- Displaying HTML elements\n- Fixes for IE\n- Changed formatting of printing objects\n- Better error handling\n- Various code formatting\n- Ran through jsHint\n- Executing code in browser\n"
+  , issueState = StateClosed
+  , issueId = Id 50891322
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

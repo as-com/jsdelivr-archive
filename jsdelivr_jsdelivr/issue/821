@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-19) 23 : 28 : 12 UTC
+  , issueUpdatedAt = 2014 (-07) (-14) 14 : 37 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/821/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/821")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 821
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1085899
+        , simpleUserLogin = N "SimeonC"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1085899?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/SimeonC"
+        }
+  , issueTitle = "Add textAngular 1.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/821")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/821.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/821.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/821"
+  , issueCreatedAt = 2014 (-05) (-18) 23 : 39 : 17 UTC
+  , issueBody = Just "Adding new version of textAngular 1.2.1\n"
+  , issueState = StateClosed
+  , issueId = Id 33763877
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

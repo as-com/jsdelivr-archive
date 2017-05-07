@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 14 : 01 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 14 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8974/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8974")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8974
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4180144
+        , simpleUserLogin = N "marekfilipiak"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/4180144?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/marekfilipiak"
+        }
+  , issueTitle = "Add font Antykwa P\243\322tawskiego"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8974")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8974.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8974.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8974"
+  , issueCreatedAt = 2016 (-01) (-14) 23 : 18 : 52 UTC
+  , issueBody =
+      Just
+        "The folder contains Antykwa P\243\322tawskiego for web use.\n\nThis font was designed in the twenties and the thirties of the XX century by a Polish graphic artist and typographer Adam P\243\322tawski. It was widely used by Polish printing houses.\n"
+  , issueState = StateClosed
+  , issueId = Id 126771120
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

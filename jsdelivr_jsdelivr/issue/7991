@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-18) 12 : 07 : 28 UTC
+  , issueUpdatedAt = 2015 (-11) (-18) 12 : 07 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7991/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7991")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7991
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project w2ui to 1.4.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7991")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7991.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7991.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7991"
+  , issueCreatedAt = 2015 (-11) (-18) 12 : 07 : 18 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project w2ui to 1.4.3.\n\n@vitmalina\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"w2ui\",\n    \"repo\": \"vitmalina/w2ui\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"kickstart.css\", \"kickstart.js\", \"kickstart.min.css\", \"kickstart.min.js\", \"w2ui-dark.css\", \"w2ui-dark.min.css\", \"w2ui.css\", \"w2ui.js\", \"w2ui.min.css\", \"w2ui.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/w2ui\",\n    \"localVersions\": [\"1.2.0\", \"1.3.0\", \"1.3.2\"],\n    \"remoteVersions\": [\"1.0\", \"1.1\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/w2ui/update.json\",\n  \"version\": \"1.4.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/w2ui/1.4.3\",\n  \"branch\": \"w2ui/1.4.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 117573121
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

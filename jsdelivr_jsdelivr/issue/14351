@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-14) 00 : 21 : 56 UTC
+  , issueUpdatedAt = 2016 (-10) (-14) 00 : 21 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14351/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14351")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14351
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49068
+        , simpleUserLogin = N "marioja"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/49068?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/marioja"
+        }
+  , issueTitle =
+      "This includes the minimized and non mimized files with 258 feature check capabilities"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14351")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14351.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14351.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14351"
+  , issueCreatedAt = 2016 (-10) (-14) 00 : 04 : 03 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 182933815
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

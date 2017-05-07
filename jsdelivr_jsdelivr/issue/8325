@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-03) 11 : 37 : 11 UTC
+  , issueUpdatedAt = 2016 (-01) (-03) 11 : 37 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8325/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8325")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8325
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project chrono to v1.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8325")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8325.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8325.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8325"
+  , issueCreatedAt = 2015 (-12) (-05) 15 : 32 : 21 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project chrono to v1.0.2.\n\n@wanasit\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"chrono\",\n    \"repo\": \"wanasit/chrono\",\n    \"files\": {\n      \"include\": [\"chrono.js\", \"chrono.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/chrono\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.8\", \"v0.1.9\", \"v0.1.10\", \"v0.1.11\", \"v1.0.2\", \"v1.1.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/chrono/update.json\",\n  \"versions\": [\"v0.1.8\", \"v0.1.9\", \"v0.1.10\", \"v0.1.11\", \"v1.0.2\", \"v1.1.0\"],\n  \"version\": \"v1.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/chrono/1.0.2\",\n  \"branch\": \"chrono/v1.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 120566189
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

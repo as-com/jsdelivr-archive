@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-25) 19 : 00 : 31 UTC
+  , issueUpdatedAt = 2014 (-10) (-25) 19 : 00 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2110/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2110")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2110
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1193817
+        , simpleUserLogin = N "Mavrin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1193817?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Mavrin"
+        }
+  , issueTitle = "Added tauCharts graphical library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2110")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2110.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2110.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2110"
+  , issueCreatedAt = 2014 (-10) (-25) 10 : 32 : 42 UTC
+  , issueBody =
+      Just
+        "TauCharts is a javascript charting library. It is based on D3 framework and Grammar of Graphics concepts.\nTauCharts has perfect visual design, it is flexible and powerful and can be extended with plugins.\n"
+  , issueState = StateClosed
+  , issueId = Id 46808440
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

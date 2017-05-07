@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-14) 09 : 27 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/92716170"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4077#issuecomment-92716170"
+  , issueCommentCreatedAt = 2015 (-04) (-14) 09 : 27 : 43 UTC
+  , issueCommentBody =
+      "The API doesnt include the mainfile fix that we use yet. Once we add it we can modify the bot and these errors will stop\n"
+  , issueCommentId = 92716170
+  }

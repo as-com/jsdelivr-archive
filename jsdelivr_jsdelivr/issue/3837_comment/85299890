@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-24) 02 : 21 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/85299890"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3837#issuecomment-85299890"
+  , issueCommentCreatedAt = 2015 (-03) (-24) 02 : 21 : 08 UTC
+  , issueCommentBody =
+      "@a5his: please remove the non-minified css and js as they are not necessary for production use. \n"
+  , issueCommentId = 85299890
+  }

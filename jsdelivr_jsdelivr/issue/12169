@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-13) 16 : 58 : 35 UTC
+  , issueUpdatedAt = 2016 (-06) (-13) 16 : 58 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12169/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12169")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12169
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1830959
+        , simpleUserLogin = N "zebMcCorkle"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1830959?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zebMcCorkle"
+        }
+  , issueTitle = "Add AMDCDN"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12169")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12169.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12169.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12169"
+  , issueCreatedAt = 2016 (-06) (-13) 16 : 21 : 33 UTC
+  , issueBody =
+      Just
+        "> An AMD module loader that can load modules from a CDN\n\nBuilt for jsDelivr, so I figure it should be hosted _on_ jsDelivr.\n"
+  , issueState = StateClosed
+  , issueId = Id 159990162
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

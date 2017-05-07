@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-24) 13 : 20 : 38 UTC
+  , issueUpdatedAt = 2016 (-02) (-24) 19 : 34 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9910/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9910")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9910
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 169524
+        , simpleUserLogin = N "soulchainer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/169524?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/soulchainer"
+        }
+  , issueTitle = "Add jbone"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9910")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9910.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9910.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9910"
+  , issueCreatedAt = 2016 (-02) (-22) 17 : 50 : 45 UTC
+  , issueBody =
+      Just
+        "Add [jbone](https://github.com/kupriyanenko/jbone) library.\nA JS library for Events and DOM manipulation, that replaces jQuery for Backbone.\n\nThis is my first contribution. I don't know if I should add only the last version of the library, all or a few ones... so I only added the few more recent.\n"
+  , issueState = StateClosed
+  , issueId = Id 135491292
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

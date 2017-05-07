@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-11) 16 : 47 : 54 UTC
+  , issueUpdatedAt = 2014 (-07) (-11) 16 : 47 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/961/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/961")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 961
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 854006
+        , simpleUserLogin = N "PauCodina"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/854006?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PauCodina"
+        }
+  , issueTitle = "ng-SharePoint (v.0.0.1)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/961")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/961.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/961.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/961"
+  , issueCreatedAt = 2014 (-06) (-17) 11 : 52 : 48 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 35881526
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

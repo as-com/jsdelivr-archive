@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-10) 13 : 51 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/110762051"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/5249#issuecomment-110762051"
+  , issueCommentCreatedAt = 2015 (-06) (-10) 13 : 51 : 42 UTC
+  , issueCommentBody =
+      "Its not jsDelivr that is adding the `?ver=4.2.2\"` part but your website. So you need to change your WordPress settings to remove it. \nIts not a jsDelivr problem but a WordPress problem\n"
+  , issueCommentId = 110762051
+  }

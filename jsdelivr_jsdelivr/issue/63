@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-07) (-27) 22 : 27 : 53 UTC
+  , issueUpdatedAt = 2013 (-08) (-18) 21 : 40 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/63/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/63")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 63
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 723723
+        , simpleUserLogin = N "mgonto"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/723723?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mgonto"
+        }
+  , issueTitle = "Added Restangular v1.0.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/63")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/63.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/63.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/63"
+  , issueCreatedAt = 2013 (-07) (-27) 22 : 26 : 22 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 17304352
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-03) 14 : 08 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65411558"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2589#issuecomment-65411558"
+  , issueCommentCreatedAt = 2014 (-12) (-03) 14 : 08 : 10 UTC
+  , issueCommentBody =
+      "`Last-Modified` is hardcoded for all dynamic files for correct 304 headers. It should not impact CloudFlare's ability to fetch the files. They just use max-age as TTL\n"
+  , issueCommentId = 65411558
+  }

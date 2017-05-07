@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-22) 10 : 05 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/104607244"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4907#issuecomment-104607244"
+  , issueCommentCreatedAt = 2015 (-05) (-22) 10 : 05 : 56 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _bootstrap.table_ between _1.7.0_ and _1.8.0_ there was a change in file structure  \n  \n  ``` diff\n  + bootstrap-table-all.min.js\n  + bootstrap-table-locale-all.min.js\n  + extensions/cookie/bootstrap-table-cookie.min.js\n  + extensions/filter-control/bootstrap-table-filter-control.min.js\n  + extensions/flat-json/bootstrap-table-flat-json.min.js\n  + extensions/key-events/bootstrap-table-key-events.min.js\n  + extensions/mobile/bootstrap-table-mobile.min.js\n  + extensions/natural-sorting/bootstrap-table-natural-sorting.min.js\n  + extensions/reorder-columns/bootstrap-table-reorder-columns.min.js\n  + extensions/reorder-rows/bootstrap-table-reorder-rows.min.js\n  + extensions/resizable/bootstrap-table-resizable.min.js\n  + extensions/toolbar/bootstrap-table-toolbar.min.js\n  + locale/bootstrap-table-es-SP.min.js\n  + locale/bootstrap-table-ro-RO.min.js\n  - extensions/flatJSON/bootstrap-table-flatJSON.min.js\n  - extensions/sorting/bootstrap-table_natural-sorting.min.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Half measures are as bad as nothing at all._\n"
+  , issueCommentId = 104607244
+  }

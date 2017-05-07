@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-02) 21 : 37 : 00 UTC
+  , issueUpdatedAt = 2014 (-10) (-02) 21 : 37 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1899/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1899")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1899
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project knockout.punches to v0.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1899")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1899.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1899.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1899"
+  , issueCreatedAt = 2014 (-10) (-02) 21 : 32 : 59 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project knockout.punches to v0.5.0.\n\n@mbest\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"knockout.punches\",\n    \"repo\": \"mbest/knockout.punches\",\n    \"files\": {\n      \"include\": [\"knockout.punches.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/knockout.punches\",\n    \"localVersions\": [\"0.4.0\", \"0.4.1\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.3.0\", \"v0.3.1\", \"v0.4.0\", \"v0.4.1\", \"v0.5.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.5.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/knockout.punches/0.5.0\",\n  \"branch\": \"knockout.punches/v0.5.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 44742075
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

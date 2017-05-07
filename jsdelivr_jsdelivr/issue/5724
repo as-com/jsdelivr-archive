@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-10) 09 : 57 : 23 UTC
+  , issueUpdatedAt = 2015 (-07) (-10) 13 : 20 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5724/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5724")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5724
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8916666
+        , simpleUserLogin = N "soundar24"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/8916666?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/soundar24"
+        }
+  , issueTitle = "roundSlider - unminified sources are added"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5724")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5724.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5724.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5724"
+  , issueCreatedAt = 2015 (-07) (-09) 18 : 29 : 52 UTC
+  , issueBody =
+      Just
+        "roundSlider - unminified sources are added under the version 1.0\n"
+  , issueState = StateClosed
+  , issueId = Id 94119374
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

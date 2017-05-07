@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-02) 21 : 10 : 33 UTC
+  , issueUpdatedAt = 2014 (-09) (-02) 21 : 10 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1594/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1594")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1594
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project rome to v1.1.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1594")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1594.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1594.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1594"
+  , issueCreatedAt = 2014 (-09) (-02) 21 : 09 : 48 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project rome to v1.1.4.\n\n@bevacqua\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"rome\",\n    \"repo\": \"bevacqua/rome\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\", \"*.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/rome\",\n    \"localVersions\": [\"1.1.2\", \"1.1.3\"],\n    \"remoteVersions\": [\"v0.4.1\", \"v0.4.2\", \"v0.5.0\", \"v0.5.1\", \"v0.6.0\", \"v0.6.1\", \"v0.6.2\", \"v0.7.0\", \"v0.7.1\", \"v0.8.0\", \"v0.8.1\", \"v0.8.2\", \"v0.9.0\", \"v0.10.0\", \"v0.11.0\", \"v0.11.1\", \"v0.11.2\", \"v0.12.0\", \"v0.12.1\", \"v0.13.0\", \"v0.14.0\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\", \"v1.1.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.1.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/rome/1.1.4\",\n  \"branch\": \"rome/v1.1.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 41755131
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

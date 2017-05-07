@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-07) 17 : 58 : 15 UTC
+  , issueUpdatedAt = 2014 (-11) (-07) 17 : 58 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2268/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2268")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2268
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1519888
+        , simpleUserLogin = N "hufyhang"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1519888?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hufyhang"
+        }
+  , issueTitle = "ChopJS-directive 0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2268")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2268.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2268.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2268"
+  , issueCreatedAt = 2014 (-11) (-07) 16 : 39 : 31 UTC
+  , issueBody =
+      Just
+        "ChopJS-directive 0.2\n- major improvement by strictly following HTML5 API specs.\n"
+  , issueState = StateClosed
+  , issueId = Id 48102538
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

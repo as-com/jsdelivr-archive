@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-01) 20 : 03 : 51 UTC
+  , issueUpdatedAt = 2016 (-03) (-01) 20 : 03 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10216/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10216")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10216
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jQuery.leanModal2 to 2.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10216")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10216.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10216.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10216"
+  , issueCreatedAt = 2016 (-03) (-01) 20 : 03 : 46 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jQuery.leanModal2 to 2.3.\n\n@eustasy\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jQuery.leanModal2\",\n    \"repo\": \"eustasy/jQuery.leanModal2\",\n    \"files\": {\n      \"include\": [\"jQuery.leanModal2.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.leanmodal2\",\n    \"localVersions\": [\"2.0\", \"2.1.0\", \"2.2.0\"],\n    \"remoteVersions\": [\"2.0\", \"2.1\", \"2.2\", \"2.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.leanmodal2/update.json\",\n  \"versions\": [\"2.3\"],\n  \"updateRemote\": true,\n  \"version\": \"2.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.leanmodal2/2.3\",\n  \"branch\": \"jQuery.leanModal2/2.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 137672857
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

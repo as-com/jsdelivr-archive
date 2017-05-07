@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-11) 16 : 47 : 50 UTC
+  , issueUpdatedAt = 2014 (-11) (-11) 16 : 47 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2059/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2059")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2059
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project uikit to 2.11.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2059")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2059.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2059.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2059"
+  , issueCreatedAt = 2014 (-10) (-18) 22 : 05 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project uikit to 2.11.1.\n\n@uikit\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"uikit\",\n    \"repo\": \"uikit/bower-uikit\",\n    \"files\": {\n      \"include\": [\"./css/**/*.min.css\", \"./fonts/**/*\", \"./js/**/*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/uikit\",\n    \"localVersions\": [\"2.3.0\", \"2.3.1\", \"2.4.0\", \"2.5.0\", \"2.6.0\", \"2.7.1\", \"2.8.0\", \"2.9.0\", \"2.10.0\"],\n    \"remoteVersions\": [\"2.11.0\", \"2.11.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.11.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/uikit/2.11.1\",\n  \"branch\": \"uikit/2.11.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 46188961
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

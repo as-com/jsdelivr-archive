@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-22) 12 : 57 : 15 UTC
+  , issueUpdatedAt = 2013 (-10) (-22) 12 : 57 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/118/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/118")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 118
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1423566
+        , simpleUserLogin = N "johngeorgewright"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1423566?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/johngeorgewright"
+        }
+  , issueTitle = "Added new angular.xml versions."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/118")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/118.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/118.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/118"
+  , issueCreatedAt = 2013 (-10) (-22) 11 : 36 : 30 UTC
+  , issueBody = Just "angular.xml v0.1.4 and v0.2.0\n"
+  , issueState = StateClosed
+  , issueId = Id 21376189
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

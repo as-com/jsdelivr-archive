@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-19) 20 : 31 : 33 UTC
+  , issueUpdatedAt = 2016 (-09) (-19) 20 : 31 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13874/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13874")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13874
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10684818
+        , simpleUserLogin = N "cuddlecheek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/10684818?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/cuddlecheek"
+        }
+  , issueTitle = "Add night-mode-js library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13874")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13874.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13874.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13874"
+  , issueCreatedAt = 2016 (-09) (-18) 22 : 07 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 177680676
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

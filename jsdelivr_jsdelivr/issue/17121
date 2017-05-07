@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-22) 14 : 29 : 13 UTC
+  , issueUpdatedAt = 2017 (-03) (-22) 14 : 29 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17121/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17121")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17121
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 13473521
+        , simpleUserLogin = N "PaulaoDeveloper"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/13473521?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/PaulaoDeveloper"
+        }
+  , issueTitle = "Novo Pull agora vai"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17121")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17121.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17121.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17121"
+  , issueCreatedAt = 2017 (-03) (-22) 00 : 05 : 57 UTC
+  , issueBody = Just "fwfwaf"
+  , issueState = StateClosed
+  , issueId = Id 215915535
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

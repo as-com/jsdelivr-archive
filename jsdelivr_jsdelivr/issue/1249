@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-20) 21 : 21 : 46 UTC
+  , issueUpdatedAt = 2014 (-07) (-22) 19 : 24 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1249/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1249")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1249
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17435
+        , simpleUserLogin = N "tomalec"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/17435?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomalec"
+        }
+  , issueTitle = "Add juicy-html"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1249")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1249.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1249.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1249"
+  , issueCreatedAt = 2014 (-07) (-20) 21 : 09 : 30 UTC
+  , issueBody =
+      Just
+        "https://github.com/Juicy/juicy-html\nCustom Element that lets you load HTML partials into your Web Components\n"
+  , issueState = StateClosed
+  , issueId = Id 38266657
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

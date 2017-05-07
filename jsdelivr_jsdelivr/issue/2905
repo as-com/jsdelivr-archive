@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-02) 18 : 27 : 03 UTC
+  , issueUpdatedAt = 2015 (-01) (-02) 18 : 27 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2905/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2905")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2905
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3662229
+        , simpleUserLogin = N "Arg0n4th"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3662229?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Arg0n4th"
+        }
+  , issueTitle = "Created jquery.cssmap js project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2905")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2905.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2905.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2905"
+  , issueCreatedAt = 2015 (-01) (-02) 18 : 09 : 40 UTC
+  , issueBody = Just "Created jquery.cssmap js Project\n"
+  , issueState = StateClosed
+  , issueId = Id 53267450
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

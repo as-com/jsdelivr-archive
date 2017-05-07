@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-02) 11 : 36 : 56 UTC
+  , issueUpdatedAt = 2014 (-07) (-07) 23 : 09 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/878/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/878")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 878
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1005813
+        , simpleUserLogin = N "isaackwan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1005813?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaackwan"
+        }
+  , issueTitle = "webshim 1.13.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/878")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/878.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/878.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/878"
+  , issueCreatedAt = 2014 (-06) (-02) 02 : 49 : 01 UTC
+  , issueBody =
+      Just
+        "Webshim update 1.13.1\nSource: http://corrupt-system.de/webshims-stable.zip\n\nI think this is going to trigger the bot again as I noted that on the GH commit page it shows that there are only 40 changed files.\nHowever, in fact, all the 135 files are committed:\n![screen shot 2014-06-02 at 10 47 22 am](https://cloud.githubusercontent.com/assets/1005813/3143573/4bcd1700-ea00-11e3-8b8e-8bf718666998.png)\n\nI noted the same behaviour (i.e. some files do not show up in the commit stats despite being included) even in the \"official\" commit:\n![screen shot 2014-06-02 at 10 43 52 am](https://cloud.githubusercontent.com/assets/1005813/3143567/04f9ae9c-ea00-11e3-8acf-f03c1915ceb6.png)\n\nPlease let me know if there is any solutions. Thanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 34743353
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

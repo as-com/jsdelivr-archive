@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2017 (-01) (-03) 12 : 13 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15599/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/15599")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15599
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 24697422
+        , simpleUserLogin = N "bitbytebot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/24697422?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bitbytebot"
+        }
+  , issueTitle = "md-data-table is not being added"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15599"
+  , issueCreatedAt = 2017 (-01) (-03) 12 : 13 : 01 UTC
+  , issueBody =
+      Just
+        "Hi, I created a pull request for the resource \"md-data-table\" here: https://github.com/bitbytebot/jsdelivr/commit/764813acd1b42aacc07310d02b037b66b471dfa8\r\n\r\nBut it was still not added as you can see here: https://github.com/jsdelivr/jsdelivr/tree/master/files/md-data-table\r\n\r\nCould you please check whats the issue?"
+  , issueState = StateOpen
+  , issueId = Id 198462391
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

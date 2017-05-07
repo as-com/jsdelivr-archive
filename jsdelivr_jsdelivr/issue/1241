@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-18) 20 : 03 : 27 UTC
+  , issueUpdatedAt = 2014 (-07) (-18) 20 : 07 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1241/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1241")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1241
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6960243
+        , simpleUserLogin = N "djprmf"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6960243?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/djprmf"
+        }
+  , issueTitle = "Added CSS minify version of jquery.navgoco"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1241")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1241.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1241.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1241"
+  , issueCreatedAt = 2014 (-07) (-18) 20 : 00 : 53 UTC
+  , issueBody = Just "Added CSS minify version of jquery.navgoco\n"
+  , issueState = StateClosed
+  , issueId = Id 38207555
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

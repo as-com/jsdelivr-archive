@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-31) 12 : 10 : 03 UTC
+  , issueUpdatedAt = 2014 (-10) (-31) 12 : 10 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2174/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2174")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2174
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4437052
+        , simpleUserLogin = N "avindiamanta"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4437052?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/avindiamanta"
+        }
+  , issueTitle =
+      "Please review my folder, am I doing right this time?"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2174")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2174.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2174.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2174"
+  , issueCreatedAt = 2014 (-10) (-31) 06 : 09 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 47364144
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

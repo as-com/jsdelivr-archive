@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-13) 07 : 34 : 09 UTC
+  , issueUpdatedAt = 2016 (-09) (-13) 07 : 34 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13755/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13755")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13755
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project nunjucks to v2.5.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13755")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13755.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13755.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13755"
+  , issueCreatedAt = 2016 (-09) (-13) 07 : 34 : 05 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project nunjucks to v2.5.1.\n\n@mozilla\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"nunjucks\",\n    \"repo\": \"mozilla/nunjucks\",\n    \"files\": {\n      \"basePath\": \"browser/\",\n      \"include\": [\"*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/nunjucks\",\n    \"localVersions\": [\"1.0.0\", \"1.2.0\", \"1.3.0\", \"1.3.1\", \"1.3.3\", \"1.3.4\", \"2.0.0\", \"2.1.0\", \"2.2.0\", \"2.3.0\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"2.4.3\", \"2.5.0\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.4\", \"v0.1.5\", \"v0.1.6\", \"v0.1.7\", \"v0.1.8\", \"v0.1.9\", \"v0.1.10\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.1.0\", \"v1.2.0\", \"v1.3.0\", \"v.1.3.1\", \"v1.3.2\", \"v1.3.3\", \"1.3.4\", \"v1.3.4\", \"v2.0.0\", \"v2.1.0\", \"v2.2.0\", \"v2.3.0\", \"v2.4.0\", \"v2.4.1\", \"v2.4.2\", \"2.4.3\", \"v2.4.3\", \"2.5.0\", \"v2.5.0\", \"v2.5.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/nunjucks/update.json\",\n  \"versions\": [\"v2.5.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.5.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/nunjucks/2.5.1\",\n  \"branch\": \"nunjucks/v2.5.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 176570728
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

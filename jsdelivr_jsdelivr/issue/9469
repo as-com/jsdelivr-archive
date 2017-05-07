@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-31) 18 : 32 : 17 UTC
+  , issueUpdatedAt = 2016 (-01) (-31) 18 : 32 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9469/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9469")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9469
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1464051
+        , simpleUserLogin = N "rrevanth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1464051?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rrevanth"
+        }
+  , issueTitle = "Patch 1 - Adding project cantata to blog page"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9469")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9469.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9469.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9469"
+  , issueCreatedAt = 2016 (-01) (-31) 07 : 27 : 16 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 130096286
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

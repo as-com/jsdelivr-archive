@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-07) 16 : 55 : 30 UTC
+  , issueUpdatedAt = 2015 (-07) (-07) 16 : 55 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5679/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5679")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5679
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8916666
+        , simpleUserLogin = N "soundar24"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/8916666?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/soundar24"
+        }
+  , issueTitle = "roundSlider new plugin added"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5679")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5679.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5679.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5679"
+  , issueCreatedAt = 2015 (-07) (-07) 16 : 50 : 49 UTC
+  , issueBody =
+      Just
+        "A new plugin roundSlider was added. You can find more details form here:  http://roundsliderui.com/\n\nGitHub repository link: https://github.com/soundar24/roundSlider\n"
+  , issueState = StateClosed
+  , issueId = Id 93577149
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

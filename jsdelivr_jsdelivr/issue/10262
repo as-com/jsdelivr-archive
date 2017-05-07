@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-03) 19 : 05 : 28 UTC
+  , issueUpdatedAt = 2016 (-03) (-03) 19 : 05 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10262/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10262")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10262
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project senna to v1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10262")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10262.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10262.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10262"
+  , issueCreatedAt = 2016 (-03) (-03) 19 : 05 : 21 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project senna to v1.0.0.\n\n@liferay\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"senna\",\n    \"repo\": \"liferay/senna.js\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"globals/senna-min.js\", \"senna.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/senna.js\",\n    \"localVersions\": [\"0.4.1\", \"0.4.2\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.2.0\", \"v0.2.1\", \"v0.3.0\", \"v0.3.1\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v1.0.0-alpha\", \"v1.0.0-alpha.1\", \"v1.0.0-alpha.2\", \"v1.0.0-alpha.3\", \"v1.0.0-alpha.4\", \"v1.0.0-alpha.5\", \"v1.0.0-alpha.6\", \"v1.0.0\"],\n    \"branchVersions\": [\"v1.0.0-alpha\", \"v1.0.0-alpha.1\", \"v1.0.0-alpha.2\", \"v1.0.0-alpha.3\", \"v1.0.0-alpha.4\", \"v1.0.0-alpha.5\", \"v1.0.0-alpha.6\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/senna.js/update.json\",\n  \"versions\": [\"v1.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/senna.js/1.0.0\",\n  \"branch\": \"senna/v1.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 138268866
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

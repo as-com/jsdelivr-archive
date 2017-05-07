@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-05) 09 : 04 : 04 UTC
+  , issueUpdatedAt = 2016 (-12) (-05) 09 : 04 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15206/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15206")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15206
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project js-sha1 to v0.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15206")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15206.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15206.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15206"
+  , issueCreatedAt = 2016 (-12) (-05) 09 : 04 : 02 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project js-sha1 to v0.4.0.\n\n@emn178\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"js-sha1\",\n    \"repo\": \"emn178/js-sha1\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/js-sha1\",\n    \"localVersions\": [\"0.2.0\", \"0.3.0\"],\n    \"remoteVersions\": [\"v0.1.3\", \"v0.2.0\", \"v0.3.0\", \"v0.4.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/js-sha1/update.json\",\n  \"versions\": [\"v0.4.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.4.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/js-sha1/0.4.0\",\n  \"branch\": \"js-sha1/v0.4.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 193443329
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

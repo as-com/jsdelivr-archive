@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-04) 10 : 18 : 43 UTC
+  , issueUpdatedAt = 2017 (-01) (-04) 10 : 18 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15612/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15612")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15612
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9387503
+        , simpleUserLogin = N "hkwu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/9387503?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hkwu"
+        }
+  , issueTitle = "Add Wargamer"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15612")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15612.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15612.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15612"
+  , issueCreatedAt = 2017 (-01) (-04) 01 : 56 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 198613971
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

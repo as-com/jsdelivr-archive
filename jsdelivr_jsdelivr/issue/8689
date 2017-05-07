@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-29) 13 : 23 : 07 UTC
+  , issueUpdatedAt = 2015 (-12) (-29) 13 : 23 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8689/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8689")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8689
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3000936
+        , simpleUserLogin = N "Kcchouette"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3000936?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Kcchouette"
+        }
+  , issueTitle = "Add leaflet.markercluster"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8689")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8689.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8689.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8689"
+  , issueCreatedAt = 2015 (-12) (-29) 10 : 50 : 37 UTC
+  , issueBody =
+      Just "From https://github.com/Leaflet/Leaflet.markercluster\n"
+  , issueState = StateClosed
+  , issueId = Id 124194036
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-09) (-13) 22 : 20 : 34 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 08 : 38 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/98/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/98")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 98
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2124755
+        , simpleUserLogin = N "isaumya"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2124755?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaumya"
+        }
+  , issueTitle = "Updated WordPress 3.6.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/98")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/98.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/98.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/98"
+  , issueCreatedAt = 2013 (-09) (-13) 22 : 16 : 32 UTC
+  , issueBody = Just "Updated the new files of WordPress 3.6.1\n"
+  , issueState = StateClosed
+  , issueId = Id 19479273
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

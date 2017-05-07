@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-16) 11 : 05 : 37 UTC
+  , issueUpdatedAt = 2014 (-07) (-16) 11 : 05 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1222/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1222")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1222
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueTitle = "Rewrite URLs in CSS files when using /g/"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1222"
+  , issueCreatedAt = 2014 (-07) (-16) 01 : 16 : 48 UTC
+  , issueBody =
+      Just
+        "I noticed that URLs in CSS files do not point to the correct files when using the `/g/` function. I think the CDN should rewrite the URLs to point to the correct files, so it can be used for projects like...well, any project that needs more than just the CSS!\n"
+  , issueState = StateClosed
+  , issueId = Id 37941399
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

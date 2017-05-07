@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-22) 11 : 32 : 17 UTC
+  , issueUpdatedAt = 2015 (-10) (-22) 11 : 32 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7430/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/7430")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7430
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4747021
+        , simpleUserLogin = N "mjau-mjau"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4747021?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mjau-mjau"
+        }
+  , issueTitle = "How is closest route determined?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7430"
+  , issueCreatedAt = 2015 (-10) (-17) 06 : 29 : 28 UTC
+  , issueBody =
+      Just
+        "Hi, I am in Thailand, and I am curious how closest location is determined. JSDelivr is quite slow here, and I find this strange since the big CDN providers have servers in Singapore, which is fast from here. I did a traceroute ...The request goes to Bangkok, then heads up to Hong Kong, then down to Singapore, then back up to Hong Kong again where it jumps around a bit, then all the way down to Australia. Australia is even slower than Europe and US from here ... I find it strange that the routing can be so awful, making the service detrimental.\n\n```\n1  10.0.1.1 (10.0.1.1)  1.314 ms  1.152 ms  1.183 ms\n 2  192.168.1.1 (192.168.1.1)  3.644 ms  1.859 ms  1.740 ms\n 3  119.42.80.1 (119.42.80.1)  26.189 ms  25.287 ms  26.572 ms\n 4  110.78.189.110 (110.78.189.110)  43.674 ms  43.412 ms  44.526 ms\n 5  * * *\n 6  122.155.224.133 (122.155.224.133)  42.074 ms  42.982 ms  41.883 ms\n 7  61.19.9.150 (61.19.9.150)  72.573 ms  71.710 ms\n    61.19.9.226 (61.19.9.226)  70.857 ms\n 8  103.231.152.56 (103.231.152.56)  93.228 ms  93.062 ms  93.198 ms\n 9  ae7.bbr02.eq01.sng02.networklayer.com (50.97.18.171)  100.029 ms  100.581 ms  97.423 ms\n10  ae0.bbr02.pn01.hkg01.networklayer.com (50.97.18.173)  97.552 ms  97.435 ms  93.605 ms\n11  ae6.dar01.hkg02.networklayer.com (50.97.19.33)  94.154 ms  94.292 ms  96.456 ms\n12  po3.fcr01.hkg02.networklayer.com (119.81.138.139)  95.141 ms\n    po1.fcr01.hkg02.networklayer.com (119.81.138.131)  94.527 ms  94.472 ms\n13  146.88.128.44 (146.88.128.44)  95.650 ms  97.566 ms  97.784 ms\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 111947396
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

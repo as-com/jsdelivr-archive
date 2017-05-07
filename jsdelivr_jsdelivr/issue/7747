@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-04) 17 : 09 : 51 UTC
+  , issueUpdatedAt = 2015 (-11) (-04) 17 : 09 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7747/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/7747")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7747
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3011734
+        , simpleUserLogin = N "jgravois"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3011734?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jgravois"
+        }
+  , issueTitle = "leaflet.esri 1.0.1 didn't make it to the cdn"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7747"
+  , issueCreatedAt = 2015 (-11) (-04) 16 : 22 : 53 UTC
+  , issueBody =
+      Just
+        "hi there,\ni backported a fix and tagged [`1.0.1`](https://github.com/Esri/esri-leaflet/releases/tag/v1.0.1) of 'leaflet.esri' yesterday.  when a new release is not the _latest_ (ie: we're up to 2.0.0-beta.x) is something additional required to ensure that your bot opens a PR and the release makes it to your CDN?\n"
+  , issueState = StateClosed
+  , issueId = Id 115090897
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

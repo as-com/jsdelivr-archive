@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-26) 16 : 36 : 20 UTC
+  , issueUpdatedAt = 2016 (-08) (-26) 16 : 36 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13457/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13457")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13457
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10901035
+        , simpleUserLogin = N "soumak77"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/10901035?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/soumak77"
+        }
+  , issueTitle = "Bot dead?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13457"
+  , issueCreatedAt = 2016 (-08) (-26) 16 : 18 : 59 UTC
+  , issueBody =
+      Just
+        "I've noticed a large backlog of PRs pilling up without being auto-merged by the bot\n"
+  , issueState = StateClosed
+  , issueId = Id 173490562
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

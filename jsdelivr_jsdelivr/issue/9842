@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-18) 05 : 33 : 13 UTC
+  , issueUpdatedAt = 2016 (-02) (-18) 05 : 33 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9842/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9842")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9842
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project keen.js to v3.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9842")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9842.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9842.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9842"
+  , issueCreatedAt = 2016 (-02) (-18) 05 : 33 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project keen.js to v3.4.0.\n\n@keen\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"keen.js\",\n    \"repo\": \"keen/keen-js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/keen.js\",\n    \"localVersions\": [\"3.2.3\", \"3.2.4\", \"3.2.5\", \"3.2.6\", \"3.2.7\", \"3.3.0\", \"3.4.0-rc\", \"3.4.0-rc2\", \"3.4.0-rc4\"],\n    \"remoteVersions\": [\"v3.0.0-pre\", \"v3.0.1\", \"v3.0.2\", \"v3.0.3\", \"v3.0.4\", \"v3.0.5\", \"v3.0.7\", \"v3.0.8\", \"v3.0.9\", \"v3.1.0-beta\", \"v3.1.0\", \"v3.2.0\", \"v3.2.1\", \"v3.2.2\", \"v3.2.3\", \"v3.2.4\", \"v3.2.5\", \"v3.2.6\", \"v3.2.7-r\", \"v3.2.7\", \"v3.2.8-r\", \"v3.2.9-r\", \"v3.3.0\", \"v3.4.0-rc\", \"v3.4.0-rc2\", \"v3.4.0-rc4\", \"v3.4.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/keen.js/update.json\",\n  \"versions\": [\"v3.4.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.4.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/keen.js/3.4.0\",\n  \"branch\": \"keen.js/v3.4.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 134485797
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

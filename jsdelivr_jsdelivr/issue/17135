@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-22) 14 : 24 : 28 UTC
+  , issueUpdatedAt = 2017 (-03) (-22) 14 : 24 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17135/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17135")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17135
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4751769
+        , simpleUserLogin = N "ImsirovicAjdin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4751769?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ImsirovicAjdin"
+        }
+  , issueTitle = "Add learningjs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17135")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17135.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17135.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17135"
+  , issueCreatedAt = 2017 (-03) (-22) 13 : 16 : 26 UTC
+  , issueBody =
+      Just
+        "Add the new project, learningjs, to be developed gradually over the coming weeks."
+  , issueState = StateClosed
+  , issueId = Id 216057849
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

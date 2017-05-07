@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-03) 18 : 38 : 38 UTC
+  , issueUpdatedAt = 2014 (-04) (-03) 18 : 45 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/571/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/571")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 571
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 262165
+        , simpleUserLogin = N "GeorgeErickson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/262165?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GeorgeErickson"
+        }
+  , issueTitle = "Everything is Broken!!!"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/571"
+  , issueCreatedAt = 2014 (-04) (-03) 18 : 29 : 41 UTC
+  , issueBody =
+      Just
+        "The url: `//cdn.jsdelivr.net/g/angularjs@1.2.15(angular.js+angular-sanitize.min.js),angular.ui-router@0.2.10,lodash@2.4.1,algoliasearch@2.4.4`\n\njust stopped working < 5minutes ago.\n"
+  , issueState = StateClosed
+  , issueId = Id 30800731
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

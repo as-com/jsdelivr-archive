@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-18) 12 : 03 : 18 UTC
+  , issueUpdatedAt = 2014 (-07) (-18) 12 : 03 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1231/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1231")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1231
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17435
+        , simpleUserLogin = N "tomalec"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/17435?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomalec"
+        }
+  , issueTitle = "Add PuppetJs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1231")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1231.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1231.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1231"
+  , issueCreatedAt = 2014 (-07) (-18) 07 : 59 : 20 UTC
+  , issueBody =
+      Just
+        "https://github.com/PuppetJs/PuppetJs\nClient side library that binds Web Components or AngularJs to server side view models using JSON-Patch.\n"
+  , issueState = StateClosed
+  , issueId = Id 38155407
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

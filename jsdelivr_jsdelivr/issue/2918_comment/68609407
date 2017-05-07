@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-03) 21 : 00 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10374924
+        , simpleUserLogin = N "Fede72"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10374924?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Fede72"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/68609407"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2918#issuecomment-68609407"
+  , issueCommentCreatedAt = 2015 (-01) (-03) 21 : 00 : 15 UTC
+  , issueCommentBody =
+      "There are 2 requirements in conflict. The info.ini requires the folder js/jquery.fileupload.js, the 5.19.7 file structure requires the query/js/jquery.fileupload.js.\n\nWhich is the right requirement I have to meet?\n"
+  , issueCommentId = 68609407
+  }

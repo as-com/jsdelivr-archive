@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 33 : 46 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 05 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16954/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16954")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16954
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 633012
+        , simpleUserLogin = N "karissa"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/633012?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/karissa"
+        }
+  , issueTitle = "Add dat project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16954")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16954.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16954.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16954"
+  , issueCreatedAt = 2017 (-03) (-16) 09 : 47 : 00 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 214647415
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

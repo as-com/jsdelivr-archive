@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-12) 18 : 52 : 30 UTC
+  , issueUpdatedAt = 2016 (-12) (-12) 18 : 52 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15310/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15310")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15310
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10724744
+        , simpleUserLogin = N "Aotik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/10724744?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Aotik"
+        }
+  , issueTitle = "Merge ProwlJS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15310")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15310.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15310.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15310"
+  , issueCreatedAt = 2016 (-12) (-12) 18 : 03 : 55 UTC
+  , issueBody = Just "Add prowl.js from aotik/dist/prowl.js"
+  , issueState = StateClosed
+  , issueId = Id 195043823
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

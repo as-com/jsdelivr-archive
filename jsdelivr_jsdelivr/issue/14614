@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-02) 22 : 05 : 38 UTC
+  , issueUpdatedAt = 2016 (-11) (-02) 22 : 05 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14614/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14614")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14614
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project yadcf to 0.9.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14614")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14614.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14614.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14614"
+  , issueCreatedAt = 2016 (-11) (-02) 22 : 05 : 34 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project yadcf to 0.9.1.\n\n@vedmack\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"yadcf\",\n    \"repo\": \"vedmack/yadcf\",\n    \"files\": {\n      \"include\": [\"jquery.dataTables.yadcf.js\", \"jquery.dataTables.yadcf.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/yadcf\",\n    \"localVersions\": [\"0.8.9\", \"0.9.0\"],\n    \"remoteVersions\": [\"0.3.0\", \"0.3.1\", \"0.3.3\", \"0.3.5\", \"0.3.8\", \"0.4.0\", \"0.4.2\", \"0.4.6\", \"0.4.7\", \"0.5.0\", \"0.5.6\", \"0.5.8\", \"0.6.0\", \"0.6.3\", \"0.6.4\", \"0.6.7\", \"0.6.9\", \"0.7.0\", \"0.7.2\", \"0.7.4\", \"0.8.0\", \"0.8.2\", \"0.8.3\", \"0.8.4\", \"0.8.5\", \"0.8.6\", \"0.8.7\", \"0.8.8\", \"0.8.9\", \"0.9.0\", \"0.9.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/yadcf/update.json\",\n  \"versions\": [\"0.9.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.9.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/yadcf/0.9.1\",\n  \"branch\": \"yadcf/0.9.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 186932936
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

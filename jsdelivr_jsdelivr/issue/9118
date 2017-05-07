@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-17) 15 : 31 : 40 UTC
+  , issueUpdatedAt = 2016 (-01) (-17) 15 : 31 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9118/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9118")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9118
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project mustache.js to v1.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9118")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9118.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9118.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9118"
+  , issueCreatedAt = 2016 (-01) (-17) 15 : 08 : 02 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project mustache.js to v1.2.0.\n\n@janl\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"mustache.js\",\n    \"repo\": \"janl/mustache.js\",\n    \"files\": {\n      \"include\": [\"mustache.js\", \"mustache.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/mustache.js\",\n    \"localVersions\": [\"0.6.0\", \"0.7.0\", \"0.7.2\", \"0.7.3\", \"0.8.0\", \"0.8.1\", \"2.0.0\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.1.3\", \"2.2.0\", \"2.2.1\"],\n    \"remoteVersions\": [\"0.1\", \"0.2\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.3.0\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.5.0-vsc\", \"0.5.1-vsc\", \"0.5.1\", \"0.5.2-vsc\", \"0.5.2\", \"0.6.0\", \"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"0.8.0\", \"0.8.1\", \"0.8.2\", \"v1.0.0\", \"v1.1.0\", \"v1.2.0\", \"v2.0.0\", \"v2.1.0\", \"v2.1.1\", \"v2.1.2\", \"v2.1.3\", \"v2.2.0\", \"v2.2.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/mustache.js/update.json\",\n  \"versions\": [\"v1.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/mustache.js/1.2.0\",\n  \"branch\": \"mustache.js/v1.2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127100544
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

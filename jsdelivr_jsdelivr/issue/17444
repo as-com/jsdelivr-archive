@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-11) 15 : 04 : 55 UTC
+  , issueUpdatedAt = 2017 (-04) (-11) 15 : 04 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17444/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17444")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17444
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2261598
+        , simpleUserLogin = N "SupremeTechnopriest"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2261598?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/SupremeTechnopriest"
+        }
+  , issueTitle = "Update edgemesh"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17444")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17444.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17444.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17444"
+  , issueCreatedAt = 2017 (-04) (-06) 18 : 24 : 04 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 219989330
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

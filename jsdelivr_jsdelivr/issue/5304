@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-15) 05 : 05 : 18 UTC
+  , issueUpdatedAt = 2015 (-06) (-15) 05 : 05 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5304/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5304")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5304
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project chart.js to 2.0.0-alpha2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5304")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5304.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5304.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5304"
+  , issueCreatedAt = 2015 (-06) (-15) 05 : 05 : 14 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project chart.js to 2.0.0-alpha2.\n\n@nnnick\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"chart.js\",\n    \"repo\": \"nnnick/Chart.js\",\n    \"files\": {\n      \"include\": [\"Chart.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/chart.js\",\n    \"localVersions\": [\"0.1.0\", \"0.2.0\", \"1.0.1-beta.4\", \"1.0.1\", \"1.0.2\", \"2.0.0-alpha\"],\n    \"remoteVersions\": [\"v0.2.0\", \"v1.0.0-beta\", \"v1.0.1-beta\", \"v1.0.1-beta.2\", \"v1.0.1-beta.3\", \"v1.0.1-beta.4\", \"v1.0.1\", \"v1.0.2\", \"v2.0-alpha\", \"2.0.0-alpha2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.0.0-alpha2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/chart.js/2.0.0-alpha2\",\n  \"branch\": \"chart.js/2.0.0-alpha2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 88317436
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

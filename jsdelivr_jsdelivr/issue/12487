@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-30) 17 : 03 : 17 UTC
+  , issueUpdatedAt = 2016 (-06) (-30) 17 : 03 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12487/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12487")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12487
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bootstrap-star-rating to v2.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12487")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12487.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12487.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12487"
+  , issueCreatedAt = 2016 (-06) (-30) 17 : 02 : 57 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootstrap-star-rating to v2.6.0.\n\n@kartik-v\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bootstrap-star-rating\",\n    \"repo\": \"kartik-v/bootstrap-star-rating\",\n    \"files\": {\n      \"include\": [\"css/star-rating.min.css\", \"js/star-rating.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/bootstrap.star-rating\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.2.0\", \"v2.0.0\", \"v2.5.0\", \"v2.6.0\", \"v3.0.0\", \"v3.1.0\", \"v3.2.0\", \"v3.3.0\", \"v3.4.0\", \"v3.5.0\", \"v3.5.1\", \"v3.5.2\", \"v3.5.3\", \"v3.5.4\", \"v3.5.5\", \"v3.5.6\", \"v3.5.7\", \"v3.5.8\", \"v4.0.0\", \"v4.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/bootstrap.star-rating/update.json\",\n  \"versions\": [\"v1.2.0\", \"v2.6.0\", \"v3.5.8\", \"v4.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.6.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/bootstrap.star-rating/2.6.0\",\n  \"branch\": \"bootstrap-star-rating/v2.6.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 163215310
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

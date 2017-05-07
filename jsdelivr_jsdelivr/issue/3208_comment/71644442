@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-27) 13 : 04 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1504938
+        , simpleUserLogin = N "idleberg"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1504938?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/idleberg"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/71644442"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3208#issuecomment-71644442"
+  , issueCommentCreatedAt = 2015 (-01) (-27) 13 : 04 : 54 UTC
+  , issueCommentBody =
+      "To be honest, I keep wondering why Bootstrap or Bootswatch put their unminified CSS on CDNs. I don't mind getting only the minified version hosted.\n"
+  , issueCommentId = 71644442
+  }

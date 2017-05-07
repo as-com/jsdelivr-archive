@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-18) 04 : 03 : 52 UTC
+  , issueUpdatedAt = 2016 (-09) (-18) 04 : 03 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13858/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13858")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13858
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.slicknav to 1.0.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13858")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13858.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13858.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13858"
+  , issueCreatedAt = 2016 (-09) (-18) 04 : 03 : 48 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.slicknav to 1.0.8.\n\n@ComputerWolf\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.slicknav\",\n    \"repo\": \"ComputerWolf/SlickNav\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.*\", \"slicknav.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.slicknav\",\n    \"localVersions\": [\"0.1\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.5.5\", \"1.0.7\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.5.1\", \"1.0.5.5\", \"1.0.7\", \"1.0.8\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.slicknav/update.json\",\n  \"versions\": [\"1.0.8\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.8\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.slicknav/1.0.8\",\n  \"branch\": \"jquery.slicknav/1.0.8\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 177627923
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-13) 02 : 46 : 51 UTC
+  , issueUpdatedAt = 2017 (-03) (-13) 02 : 46 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16838/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16838")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16838
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6551569
+        , simpleUserLogin = N "GoToLoop"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6551569?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GoToLoop"
+        }
+  , issueTitle = "Include non-minified main version as well: p5.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16838")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16838.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16838.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16838"
+  , issueCreatedAt = 2017 (-03) (-10) 19 : 09 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 213425840
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

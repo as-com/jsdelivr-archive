@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-14) 13 : 29 : 42 UTC
+  , issueUpdatedAt = 2014 (-11) (-14) 13 : 29 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2362/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2362")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2362
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project mithril to v0.1.24"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2362")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2362.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2362.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2362"
+  , issueCreatedAt = 2014 (-11) (-14) 01 : 36 : 30 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project mithril to v0.1.24.\n\n@lhorie\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"mithril\",\n    \"repo\": \"lhorie/mithril\",\n    \"files\": {\n      \"include\": [\"mithril.js\", \"mithril.min.js\", \"mithril.min.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/mithril\",\n    \"localVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.8\", \"0.1.9\", \"0.1.10\", \"0.1.11\", \"0.1.12\", \"0.1.13\", \"0.1.14\", \"0.1.15\", \"0.1.16\", \"0.1.17\", \"0.1.18\", \"0.1.19\", \"0.1.20\", \"0.1.21\", \"0.1.22\", \"0.1.23\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\", \"v0.1.6\", \"v0.1.7\", \"v0.1.8\", \"v0.1.9\", \"v0.1.10\", \"v0.1.11\", \"v0.1.12\", \"v0.1.13\", \"v0.1.14\", \"v0.1.15\", \"v0.1.16\", \"v0.1.17\", \"v0.1.18\", \"v0.1.19\", \"v0.1.20\", \"v0.1.21\", \"v0.1.22\", \"v0.1.23\", \"v0.1.24\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.1.24\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/mithril/0.1.24\",\n  \"branch\": \"mithril/v0.1.24\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 48719388
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

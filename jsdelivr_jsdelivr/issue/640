@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-13) 20 : 10 : 11 UTC
+  , issueUpdatedAt = 2014 (-04) (-13) 20 : 10 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/640/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/640")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 640
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6960243
+        , simpleUserLogin = N "djprmf"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6960243?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/djprmf"
+        }
+  , issueTitle = "Added jquery.nailthumb and jquery.mythumbnail"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/640")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/640.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/640.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/640"
+  , issueCreatedAt = 2014 (-04) (-13) 19 : 55 : 46 UTC
+  , issueBody =
+      Just "Added jquery.nailthumb and jquery.mythumbnail\n"
+  , issueState = StateClosed
+  , issueId = Id 31420689
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

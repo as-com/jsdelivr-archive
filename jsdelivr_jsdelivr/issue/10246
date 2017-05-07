@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-03) (-02) 21 : 56 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10246/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/10246")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10246
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3011734
+        , simpleUserLogin = N "jgravois"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3011734?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jgravois"
+        }
+  , issueTitle = "what is needed to fix esri-leaflet autoupdates?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10246"
+  , issueCreatedAt = 2016 (-03) (-02) 21 : 01 : 51 UTC
+  , issueBody =
+      Just
+        "just in case you missed my question in the [closed PR](https://github.com/jsdelivr/jsdelivr/pull/10203#issuecomment-191359101)\n"
+  , issueState = StateOpen
+  , issueId = Id 137991420
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

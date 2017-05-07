@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-31) 23 : 12 : 16 UTC
+  , issueUpdatedAt = 2014 (-07) (-31) 23 : 28 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1333/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1333")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1333
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1287260
+        , simpleUserLogin = N "clickslide"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1287260?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/clickslide"
+        }
+  , issueTitle = "NML.js Addition to CDN"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1333")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1333.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1333.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1333"
+  , issueCreatedAt = 2014 (-07) (-31) 04 : 16 : 06 UTC
+  , issueBody =
+      Just
+        "Only the NML.min.js file is added. File system appears to be structured properly. There shouldn't be any problems merging with the master branch.\n"
+  , issueState = StateClosed
+  , issueId = Id 39160877
+  , issueComments = 12
+  , issueMilestone = Nothing
+  }

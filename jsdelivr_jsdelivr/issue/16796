@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-08) 14 : 03 : 33 UTC
+  , issueUpdatedAt = 2017 (-03) (-08) 14 : 03 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16796/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16796")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16796
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bxslider to v4.2.11"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16796")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16796.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16796.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16796"
+  , issueCreatedAt = 2017 (-03) (-08) 14 : 03 : 26 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bxslider to v4.2.11.\n\n@stevenwanderski\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bxslider\",\n    \"repo\": \"stevenwanderski/bxslider-4\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"jquery.bxslider.min.js\", \"jquery.bxslider.js\", \"jquery.bxslider.css\", \"./images/*\", \"./vendor/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/bxslider\",\n    \"localVersions\": [\"4.1\", \"4.1.1\", \"4.1.2\", \"4.1.3\", \"4.2.3\", \"4.2.4\", \"4.2.5\", \"4.2.6\", \"4.2.7\", \"4.2.8\", \"4.2.10\"],\n    \"remoteVersions\": [\"4.1.2\", \"v4.1.3\", \"v4.2.0\", \"v4.2.1\", \"v4.2.2\", \"v4.2.3\", \"v4.2.4\", \"v4.2.5\", \"v4.2.6\", \"v4.2.7\", \"v4.2.8\", \"v4.2.9\", \"v4.2.10\", \"v4.2.11\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/bxslider/update.json\",\n  \"versions\": [\"v4.2.11\"],\n  \"updateRemote\": true,\n  \"version\": \"v4.2.11\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/bxslider/4.2.11\",\n  \"branch\": \"bxslider/v4.2.11\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 212742526
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

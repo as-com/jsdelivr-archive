@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-04) 21 : 57 : 53 UTC
+  , issueUpdatedAt = 2014 (-09) (-04) 21 : 57 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1614/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1614")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1614
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1959167
+        , simpleUserLogin = N "emitstop"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1959167?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/emitstop"
+        }
+  , issueTitle = "Add Emoji One 1.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1614")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1614.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1614.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1614"
+  , issueCreatedAt = 2014 (-09) (-04) 21 : 56 : 29 UTC
+  , issueBody =
+      Just
+        "Here we go! Was having trouble with the squashing so we're just submitting a new pull request. \n"
+  , issueState = StateClosed
+  , issueId = Id 41990522
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

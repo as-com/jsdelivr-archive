@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-15) 20 : 13 : 01 UTC
+  , issueUpdatedAt = 2014 (-06) (-09) 23 : 30 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/815/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/815")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/Discussion"
+          , labelName = N "Discussion"
+          }
+      ]
+  , issueNumber = 815
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Force minification command"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/815"
+  , issueCreatedAt = 2014 (-05) (-15) 19 : 32 : 59 UTC
+  , issueBody =
+      Just
+        "How about adding a `/minify` command to jsDelivr?\n\nFor example\n\n```\nUnminified - //cdn.jsdelivr.net/jasmine/2.0.0/jasmine.css\nForced min - //cdn.jsdelivr.net/jasmine/2.0.0/jasmine.css/minify\n```\n\n`/minify` would detect what kind of file it is and would use the appropriate tool to minify it. \nIts an on-the-fly minification command that could be used for files that for any reason are not minified. And since its part of the path it will cached as a real static file.\n\nI can make it work with /g/ too.\n`//cdn.jsdelivr.net/g/underscorejs@1.5.2,restangular@1.2.2/minify`\n\nWhat do you guys think? \n"
+  , issueState = StateClosed
+  , issueId = Id 33617344
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

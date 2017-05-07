@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-09) (-12) 17 : 31 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13678/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13678")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13678
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 44454
+        , simpleUserLogin = N "indolering"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/44454?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/indolering"
+        }
+  , issueTitle = "HPKP & HSTS Support"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13678"
+  , issueCreatedAt = 2016 (-09) (-08) 19 : 06 : 38 UTC
+  , issueBody =
+      Just
+        "Downgrading a request to HTTP or getting an HTTPS certificate for a website is fairly low bar to clear.  While I understand you have to support HTTP, what about a subdomain that enforces HTTPS (via HSTS) and pins the key for ~72 hours (~~HSTS~~ HPKP)?  Ideally, projects would be able to opt-out of the non-HTTPS CDN as well.\n"
+  , issueState = StateOpen
+  , issueId = Id 175836779
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

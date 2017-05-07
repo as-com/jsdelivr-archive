@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-11) 18 : 37 : 07 UTC
+  , issueUpdatedAt = 2017 (-04) (-11) 18 : 37 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17523/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17523")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17523
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project selector.js to 0.9.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17523")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17523.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17523.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17523"
+  , issueCreatedAt = 2017 (-04) (-11) 18 : 37 : 00 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project selector.js to 0.9.1.\n\n@websilk\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"selector.js\",\n    \"repo\": \"websilk/selector\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"selector.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/selectorjs\",\n    \"localVersions\": [\"0.9.0\"],\n    \"remoteVersions\": [\"0.9\", \"0.9.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/selectorjs/update.json\",\n  \"versions\": [\"0.9.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.9.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/selectorjs/0.9.1\",\n  \"branch\": \"selector.js/0.9.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 221042225
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

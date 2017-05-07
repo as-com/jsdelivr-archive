@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-02) 21 : 44 : 02 UTC
+  , issueUpdatedAt = 2015 (-03) (-02) 21 : 44 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3702/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3702")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3702
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5065163
+        , simpleUserLogin = N "Dennis14e"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5065163?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Dennis14e"
+        }
+  , issueTitle = "Updated jquery.fullsize v2.5.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3702")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3702.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3702.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3702"
+  , issueCreatedAt = 2015 (-03) (-02) 20 : 52 : 11 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 59548177
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

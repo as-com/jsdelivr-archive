@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-24) 21 : 46 : 01 UTC
+  , issueUpdatedAt = 2016 (-02) (-24) 21 : 46 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9713/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9713")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9713
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 393114
+        , simpleUserLogin = N "brandomeniconi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/393114?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/brandomeniconi"
+        }
+  , issueTitle = "Added the new waypoints library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9713")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9713.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9713.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9713"
+  , issueCreatedAt = 2016 (-02) (-11) 18 : 39 : 33 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 133053746
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

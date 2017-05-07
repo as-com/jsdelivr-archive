@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-13) 02 : 53 : 24 UTC
+  , issueUpdatedAt = 2017 (-03) (-13) 02 : 53 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16765/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16765")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16765
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2269530
+        , simpleUserLogin = N "sreym"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/2269530?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sreym"
+        }
+  , issueTitle = "update info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16765")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16765.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16765.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16765"
+  , issueCreatedAt = 2017 (-03) (-07) 07 : 20 : 31 UTC
+  , issueBody = Just "checked that set wrong mainfile name before"
+  , issueState = StateClosed
+  , issueId = Id 212350468
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

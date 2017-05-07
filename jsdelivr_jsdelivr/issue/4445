@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-23) 00 : 58 : 18 UTC
+  , issueUpdatedAt = 2015 (-04) (-23) 00 : 58 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4445/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4445")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4445
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1505013
+        , simpleUserLogin = N "fatbattk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1505013?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/fatbattk"
+        }
+  , issueTitle = "Added Typed.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4445")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4445.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4445.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4445"
+  , issueCreatedAt = 2015 (-04) (-23) 00 : 09 : 47 UTC
+  , issueBody = Just "Adding Typed.js jquery plugin.\n"
+  , issueState = StateClosed
+  , issueId = Id 70266576
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

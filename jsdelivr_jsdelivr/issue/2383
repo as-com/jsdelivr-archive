@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-15) 20 : 37 : 38 UTC
+  , issueUpdatedAt = 2014 (-11) (-15) 20 : 37 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2383/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2383")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2383
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project mediaelement to 2.16.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2383")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2383.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2383.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2383"
+  , issueCreatedAt = 2014 (-11) (-15) 20 : 36 : 58 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project mediaelement to 2.16.2.\n\n@johndyer\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"mediaelement\",\n    \"repo\": \"johndyer/mediaelement\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"exclude\": [\"jquery.js\", \"DO NOT CHANGE THESE FILES. USE -src- FOLDER.txt\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/jsdelivr/files/mediaelement\",\n    \"localVersions\": [\"2.10.0\", \"2.10.1\", \"2.10.3\", \"2.11.0\", \"2.12.0\", \"2.13.1\", \"2.14.2\", \"2.15.0\", \"2.15.1\", \"2.16.0\", \"2.16.1\"],\n    \"remoteVersions\": [\"2.6.5\", \"2.7.0\", \"2.8.0\", \"2.8.1\", \"2.8.2\", \"2.9.0\", \"2.9.1\", \"2.9.2\", \"2.9.3\", \"2.9.4\", \"2.9.5\", \"2.10.0\", \"2.10.1\", \"2.10.2\", \"2.10.3\", \"2.11.0\", \"2.11.1\", \"2.11.2\", \"2.11.3\", \"2.12.0\", \"2.13.0\", \"2.13.1\", \"2.13.2\", \"2.14.0\", \"2.14.2\", \"2.15.0\", \"2.15.1\", \"2.16.0\", \"2.16.1\", \"2.16.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.16.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/mediaelement/2.16.2\",\n  \"branch\": \"mediaelement/2.16.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 48931501
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-15) 22 : 24 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1775792
+        , simpleUserLogin = N "geoperez"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1775792?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/geoperez"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/93586307"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4338#issuecomment-93586307"
+  , issueCommentCreatedAt = 2015 (-04) (-15) 22 : 24 : 20 UTC
+  , issueCommentBody =
+      "Really? The Doc says: \"If your PR exceeds 2 commits(1 per file) it will be declined.\" I'm just using two. \n\nDo I need to download the repo and squash them?\n"
+  , issueCommentId = 93586307
+  }

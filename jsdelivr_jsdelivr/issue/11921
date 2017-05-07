@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-03) 14 : 27 : 26 UTC
+  , issueUpdatedAt = 2016 (-10) (-03) 14 : 27 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11921/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11921")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11921
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project materialize-css to 0.97.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11921")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11921.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11921.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11921"
+  , issueCreatedAt = 2016 (-05) (-31) 12 : 03 : 55 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project materialize-css to 0.97.6.\n\n@Dogfalo\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"materialize-css\",\n    \"repo\": \"Dogfalo/materialize\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/materialize\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.95.3\", \"0.96.1\", \"0.97.1\", \"0.97.2\", \"0.97.3\", \"0.97.4\", \"0.97.5\", \"0.97.6\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/materialize/update.json\",\n  \"versions\": [\"0.97.6\"],\n  \"updateRemote\": true,\n  \"version\": \"0.97.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/materialize/0.97.6\",\n  \"branch\": \"materialize-css/0.97.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 157655146
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

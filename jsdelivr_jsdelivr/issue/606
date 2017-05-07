@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-08) 18 : 48 : 56 UTC
+  , issueUpdatedAt = 2014 (-04) (-09) 21 : 14 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/606/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/606")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 606
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5818982
+        , simpleUserLogin = N "mikewgd"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5818982?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mikewgd"
+        }
+  , issueTitle = "initial console-log commit"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/606")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/606.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/606.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/606"
+  , issueCreatedAt = 2014 (-04) (-08) 18 : 34 : 19 UTC
+  , issueBody =
+      Just
+        "A simple JavaScript file that mimics console.log in the browser. Best used for browsers that do not support console and in mobile devices.\n"
+  , issueState = StateClosed
+  , issueId = Id 31096472
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

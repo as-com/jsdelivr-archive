@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-27) 23 : 32 : 30 UTC
+  , issueUpdatedAt = 2014 (-07) (-16) 17 : 39 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/394/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/394")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 394
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 887397
+        , simpleUserLogin = N "thybag"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/887397?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thybag"
+        }
+  , issueTitle = "Update PJAX-Standalone to 0.6.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/394")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/394.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/394.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/394"
+  , issueCreatedAt = 2014 (-02) (-27) 23 : 31 : 02 UTC
+  , issueBody =
+      Just
+        "Hello,\n\nJust updating the PJAX-Standalone library to the latest version :)\n\nThanks,\nCarl\n"
+  , issueState = StateClosed
+  , issueId = Id 28465471
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

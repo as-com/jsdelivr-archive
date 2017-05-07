@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-09) 00 : 56 : 37 UTC
+  , issueUpdatedAt = 2015 (-09) (-09) 00 : 56 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6726/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6726")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6726
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1388974
+        , simpleUserLogin = N "jtblin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1388974?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jtblin"
+        }
+  , issueTitle = "Include non minified source"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6726")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6726.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6726.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6726"
+  , issueCreatedAt = 2015 (-09) (-05) 04 : 53 : 31 UTC
+  , issueBody =
+      Just
+        "Users have been asking for the non minified source code as well.\n"
+  , issueState = StateClosed
+  , issueId = Id 105004006
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

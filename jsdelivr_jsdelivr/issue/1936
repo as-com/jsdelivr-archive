@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-09) 12 : 06 : 12 UTC
+  , issueUpdatedAt = 2014 (-10) (-13) 21 : 10 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1936/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1936")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1936
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6333719
+        , simpleUserLogin = N "lineardevon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6333719?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lineardevon"
+        }
+  , issueTitle = "Create update.json for select2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1936")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1936.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1936.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1936"
+  , issueCreatedAt = 2014 (-10) (-07) 02 : 58 : 27 UTC
+  , issueBody =
+      Just "Included same files for consistency with previous versions\n"
+  , issueState = StateClosed
+  , issueId = Id 45062196
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

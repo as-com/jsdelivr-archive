@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-07) 13 : 42 : 21 UTC
+  , issueUpdatedAt = 2015 (-04) (-07) 13 : 42 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4183/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4183")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4183
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 146930
+        , simpleUserLogin = N "zippy1981"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/146930?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zippy1981"
+        }
+  , issueTitle = "Added ion.rangeSlider"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4183")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4183.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4183.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4183"
+  , issueCreatedAt = 2015 (-04) (-07) 02 : 33 : 39 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 66754913
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

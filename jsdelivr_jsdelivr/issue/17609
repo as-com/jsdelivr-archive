@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-17) 15 : 12 : 03 UTC
+  , issueUpdatedAt = 2017 (-04) (-17) 15 : 12 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17609/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17609")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17609
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10461745
+        , simpleUserLogin = N "jumadvu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/10461745?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jumadvu"
+        }
+  , issueTitle = "Create codebird.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17609")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17609.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17609.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17609"
+  , issueCreatedAt = 2017 (-04) (-16) 11 : 38 : 43 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 222005502
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-27) 00 : 10 : 49 UTC
+  , issueUpdatedAt = 2014 (-08) (-27) 00 : 10 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1540/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1540")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1540
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project p5.js to 0.3.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1540")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1540.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1540.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1540"
+  , issueCreatedAt = 2014 (-08) (-27) 00 : 06 : 05 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project p5.js to 0.3.4.\n\n@lmccart\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"p5.js\",\n    \"repo\": \"lmccart/p5.js\",\n    \"files\": {\n      \"basePath\": \"lib/\",\n      \"include\": [\"p5.min.js\", \"./addons/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/p5.js\",\n    \"localVersions\": [\"0.3.0\", \"0.3.2\", \"0.3.3\"],\n    \"remoteVersions\": [\"0.2.22\", \"0.2.23\", \"0.3.0\", \"0.3.2\", \"0.3.3\", \"0.3.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.3.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/p5.js/0.3.4\",\n  \"branch\": \"p5.js/0.3.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 41236521
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

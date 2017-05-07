@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-13) 20 : 51 : 07 UTC
+  , issueUpdatedAt = 2014 (-08) (-15) 10 : 58 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/803/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/803")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 803
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 178641
+        , simpleUserLogin = N "ellisonleao"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/178641?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ellisonleao"
+        }
+  , issueTitle = "add howler 1.1.20 version"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/803")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/803.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/803.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/803"
+  , issueCreatedAt = 2014 (-05) (-13) 20 : 50 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 33437545
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

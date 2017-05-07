@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-24) 13 : 34 : 13 UTC
+  , issueUpdatedAt = 2014 (-03) (-24) 13 : 34 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/497/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/497")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 497
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 134009
+        , simpleUserLogin = N "ekashida"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/134009?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ekashida"
+        }
+  , issueTitle =
+      "cdn-ssl build of https://github.com/yui/yui3/tree/v3.15.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/497")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/497.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/497.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/497"
+  , issueCreatedAt = 2014 (-03) (-23) 03 : 40 : 18 UTC
+  , issueBody = Just "SSL version of YUI 3.15.0\n"
+  , issueState = StateClosed
+  , issueId = Id 29978645
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

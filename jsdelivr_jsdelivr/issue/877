@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-01) 23 : 31 : 55 UTC
+  , issueUpdatedAt = 2014 (-06) (-19) 18 : 18 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/877/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/877")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 877
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 310246
+        , simpleUserLogin = N "TannerFilip"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/310246?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/TannerFilip"
+        }
+  , issueTitle = "add fartscroll.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/877")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/877.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/877.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/877"
+  , issueCreatedAt = 2014 (-06) (-01) 21 : 40 : 17 UTC
+  , issueBody =
+      Just
+        "I _believe_ I did this right...  Very important library that every website should use.\n"
+  , issueState = StateClosed
+  , issueId = Id 34737505
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

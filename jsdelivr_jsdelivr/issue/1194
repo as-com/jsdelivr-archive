@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-12) 18 : 18 : 23 UTC
+  , issueUpdatedAt = 2014 (-07) (-12) 18 : 18 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1194/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1194")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1194
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 151263
+        , simpleUserLogin = N "CrossEye"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/151263?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/CrossEye"
+        }
+  , issueTitle = "Adding Ramda [author]"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1194")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1194.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1194.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1194"
+  , issueCreatedAt = 2014 (-07) (-12) 17 : 27 : 44 UTC
+  , issueBody =
+      Just
+        "Adding new library to jsdelivr from https://github.com/CrossEye/ramda . I'm new here, so please forgive any errors.  I'm hoping I make fewer errors the second time around!\n"
+  , issueState = StateClosed
+  , issueId = Id 37724266
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

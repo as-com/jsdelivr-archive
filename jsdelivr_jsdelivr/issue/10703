@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-30) 11 : 11 : 01 UTC
+  , issueUpdatedAt = 2016 (-03) (-30) 11 : 11 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10703/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10703")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10703
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 41597
+        , simpleUserLogin = N "mistic100"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/41597?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mistic100"
+        }
+  , issueTitle = "Update project jQuery-QueryBuilder to 1.4.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10703")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10703.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10703.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10703"
+  , issueCreatedAt = 2016 (-03) (-30) 11 : 08 : 33 UTC
+  , issueBody =
+      Just
+        "Complete release of an old version after the fail (my fault) of #10452\n"
+  , issueState = StateClosed
+  , issueId = Id 144550977
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

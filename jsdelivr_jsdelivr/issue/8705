@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-30) 10 : 33 : 38 UTC
+  , issueUpdatedAt = 2015 (-12) (-30) 10 : 33 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8705/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8705")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8705
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project kute.js to 1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8705")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8705.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8705.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8705"
+  , issueCreatedAt = 2015 (-12) (-29) 23 : 01 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project kute.js to 1.0.0.\n\n@thednp\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"kute.js\",\n    \"repo\": \"thednp/kute.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/kute.js\",\n    \"localVersions\": [\"0.9.0\", \"0.9.1\", \"0.9.2\", \"0.9.3\", \"0.9.4\"],\n    \"remoteVersions\": [\"0.9.0\", \"0.9.1\", \"0.9.2\", \"0.9.3\", \"0.9.4\", \"0.9.5\", \"1.0.0\"],\n    \"branchVersions\": [\"0.9.5\"]\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/kute.js/update.json\",\n  \"version\": \"1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/kute.js/1.0.0\",\n  \"branch\": \"kute.js/1.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 124280521
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

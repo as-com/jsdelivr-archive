@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-27) 10 : 33 : 05 UTC
+  , issueUpdatedAt = 2015 (-11) (-27) 10 : 33 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6389/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6389")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6389
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1390934
+        , simpleUserLogin = N "dpellier"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1390934?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dpellier"
+        }
+  , issueTitle = "Add oneMapToRuleThemAll project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6389")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6389.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6389.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6389"
+  , issueCreatedAt = 2015 (-08) (-13) 13 : 13 : 41 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 100765895
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

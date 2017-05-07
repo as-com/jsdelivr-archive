@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-09) 00 : 12 : 23 UTC
+  , issueUpdatedAt = 2014 (-05) (-09) 00 : 12 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/766/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/766")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 766
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 744538
+        , simpleUserLogin = N "gavinhungry"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/744538?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gavinhungry"
+        }
+  , issueTitle = "Add Jade 1.3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/766")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/766.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/766.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/766"
+  , issueCreatedAt = 2014 (-05) (-08) 23 : 24 : 09 UTC
+  , issueBody =
+      Just
+        "Jade template engine, version 1.3.1.\n\nGitHub: https://github.com/visionmedia/jade\nNPM: https://www.npmjs.org/package/jade\n"
+  , issueState = StateClosed
+  , issueId = Id 33133052
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

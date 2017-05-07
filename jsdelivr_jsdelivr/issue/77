@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-08) (-20) 21 : 35 : 48 UTC
+  , issueUpdatedAt = 2014 (-06) (-18) 09 : 12 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/77/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/77")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 77
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1676054
+        , simpleUserLogin = N "danialfarid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1676054?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/danialfarid"
+        }
+  , issueTitle = "angular.file-upload minified and verbose version"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/77")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/77.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/77.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/77"
+  , issueCreatedAt = 2013 (-08) (-20) 21 : 24 : 01 UTC
+  , issueBody =
+      Just
+        "Added both minified and verbose version of the js file to version 0.1.1\nCould you add the new file angular-file-upload.min.js to CDN\n\nThanks\n"
+  , issueState = StateClosed
+  , issueId = Id 18322346
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

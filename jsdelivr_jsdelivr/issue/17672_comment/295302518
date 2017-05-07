@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-04) (-19) 15 : 06 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/295302518"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17672#issuecomment-295302518"
+  , issueCommentCreatedAt = 2017 (-04) (-19) 15 : 06 : 16 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- There are some fundamental issues with your PR :no_good:  \n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n    - *files/countdown/Release_1_4_3* should be lowercase\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *countdown* between *1.5.11* and *Release_1_4_3* there was a change in file structure  \n    ```diff\n    + jquery.countdown.compat-1.0.js\n    - countdownGlowing.gif\n    - countdownLED.png\n    - jquery.countdown-ar.js\n    - jquery.countdown-bg.js\n    - jquery.countdown-bn.js\n    - jquery.countdown-ca.js\n    - jquery.countdown-da.js\n    - jquery.countdown-el.js\n    - jquery.countdown-et.js\n    - jquery.countdown-fi.js\n    - jquery.countdown-gl.js\n    - jquery.countdown-hr.js\n    - jquery.countdown-ja.js\n    - jquery.countdown-ko.js\n    - jquery.countdown-lt.js\n    - jquery.countdown-lv.js\n    - jquery.countdown-ms.js\n    - jquery.countdown-my.js\n    - jquery.countdown-sl.js\n    - jquery.countdown-sr-SR.js\n    - jquery.countdown-sr.js\n    - jquery.countdown-th.js\n    - jquery.countdown-uk.js\n    - jquery.countdown-vi.js\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Practicality beats purity.*\n"
+  , issueCommentId = 295302518
+  }

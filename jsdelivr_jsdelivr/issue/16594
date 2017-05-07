@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-27) 17 : 58 : 52 UTC
+  , issueUpdatedAt = 2017 (-02) (-27) 17 : 58 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16594/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16594")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16594
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project font-frino to 0.7.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16594")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16594.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16594.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16594"
+  , issueCreatedAt = 2017 (-02) (-27) 12 : 03 : 50 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project font-frino to 0.7.6.\n\n@arbati6\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"font-frino\",\n    \"repo\": \"arbati6/Frino\",\n    \"files\": {\n      \"include\": [\"fonts/frino.ttf\", \"fonts/frino.woff\", \"fonts/frino.woff2\", \"frinostyle.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/font-frino\",\n    \"localVersions\": [\"0.7.0\"],\n    \"remoteVersions\": [\"0.7.0\", \"0.7.5\", \"0.7.6\"],\n    \"branchVersions\": [\"0.7.5\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/font-frino/update.json\",\n  \"versions\": [\"0.7.6\"],\n  \"updateRemote\": true,\n  \"version\": \"0.7.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/font-frino/0.7.6\",\n  \"branch\": \"font-frino/0.7.6\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 210465337
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

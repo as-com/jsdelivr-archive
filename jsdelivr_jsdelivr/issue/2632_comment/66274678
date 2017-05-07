@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-09) 12 : 22 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66274678"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-66274678"
+  , issueCommentCreatedAt = 2014 (-12) (-09) 12 : 22 : 12 UTC
+  , issueCommentBody =
+      "@pnommensen Each browser only has a few 'spare' [HTTP connections for serving outside Originating Hostname](http://tombyrer.github.io/slideshow-improving_load_times_with_cdns/#Browsers_HTTP_Connections). 4-11 last I looked.  Browsers have 6-8 max connections for the originating, so if the only file served from there is the `index.htm` & all the other files are CDN hosted, then the other 5-7 HTTP connections sit there unused.\n\nReally important for WP sites, since most have <strike>tracking spam</strike>'social sharing buttons' & other service plugins, which usually eat up several outbound HTTP connections already.\n\nYMMV, best to test.\n"
+  , issueCommentId = 66274678
+  }

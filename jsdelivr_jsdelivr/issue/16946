@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-16) 02 : 33 : 22 UTC
+  , issueUpdatedAt = 2017 (-03) (-16) 02 : 33 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16946/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16946")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16946
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project doppler-maps to v1.0-beta.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16946")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16946.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16946.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16946"
+  , issueCreatedAt = 2017 (-03) (-16) 02 : 33 : 19 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project doppler-maps to v1.0-beta.1.\n\n@CodeForAfrica\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"doppler-maps\",\n    \"repo\": \"CodeForAfrica/DopplerMaps\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"doppler-maps.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/doppler-maps\",\n    \"localVersions\": [\"1.0-beta\"],\n    \"remoteVersions\": [\"v1.0-beta\", \"v1.0-beta.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/doppler-maps/update.json\",\n  \"versions\": [\"v1.0-beta.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0-beta.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/doppler-maps/1.0-beta.1\",\n  \"branch\": \"doppler-maps/v1.0-beta.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 214582068
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-14) 05 : 05 : 09 UTC
+  , issueUpdatedAt = 2015 (-11) (-14) 05 : 05 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7927/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7927")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7927
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project datetimepicker to 0.1.22"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7927")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7927.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7927.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7927"
+  , issueCreatedAt = 2015 (-11) (-14) 05 : 05 : 03 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project datetimepicker to 0.1.22.\n\n@CuriousSolutions\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"datetimepicker\",\n    \"repo\": \"CuriousSolutions/DateTimePicker\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/datetimepicker\",\n    \"localVersions\": [\"0.1.8\", \"0.1.10\", \"0.1.11\", \"0.1.12\", \"0.1.13\", \"0.1.14\", \"0.1.15\", \"0.1.16\", \"0.1.17\", \"0.1.18\", \"0.1.19\", \"0.1.20\", \"0.1.21\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.8\", \"0.1.9\", \"0.1.10\", \"0.1.11\", \"0.1.12\", \"0.1.13\", \"0.1.14\", \"0.1.15\", \"0.1.16\", \"0.1.17\", \"0.1.18\", \"0.1.19\", \"0.1.20\", \"0.1.21\", \"0.1.22\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/datetimepicker/update.json\",\n  \"version\": \"0.1.22\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/datetimepicker/0.1.22\",\n  \"branch\": \"datetimepicker/0.1.22\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 116897016
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-01) 19 : 08 : 34 UTC
+  , issueUpdatedAt = 2014 (-04) (-01) 19 : 12 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/545/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/545")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 545
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1915268
+        , simpleUserLogin = N "irazasyed"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1915268?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/irazasyed"
+        }
+  , issueTitle = "Add Jquery.countto v0.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/545")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/545.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/545.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/545"
+  , issueCreatedAt = 2014 (-04) (-01) 18 : 52 : 07 UTC
+  , issueBody =
+      Just
+        "This lib doesn't have any version, So based on FAQ, I added 0.1.0.\n"
+  , issueState = StateClosed
+  , issueId = Id 30626644
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

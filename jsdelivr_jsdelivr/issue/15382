@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-16) 20 : 05 : 26 UTC
+  , issueUpdatedAt = 2016 (-12) (-16) 20 : 05 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15382/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15382")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15382
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project savejs to v1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15382")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15382.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15382.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15382"
+  , issueCreatedAt = 2016 (-12) (-16) 20 : 05 : 22 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project savejs to v1.0.1.\n\n@savejs\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"savejs\",\n    \"repo\": \"savejs/savejs\",\n    \"files\": {\n      \"include\": [\"save.min.js\", \"save.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/savejs\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/savejs/update.json\",\n  \"versions\": [\"v1.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/savejs/1.0.1\",\n  \"branch\": \"savejs/v1.0.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 196143256
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-23) 03 : 56 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64105748"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2464#issuecomment-64105748"
+  , issueCommentCreatedAt = 2014 (-11) (-23) 03 : 56 : 36 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help ammending your PR...\n- Looks like the `info.ini` has a few problems\n  - Where is the paperjs's mainfile (_paper-full.min.js_) in v-_0.3_\n- Might be nothing but I have some concerns about the files in your submission...  \n  - Unescaped unicode characters in _paper-core.js_ (at pos 18591)\n  - Is paper-core.min.js (0.9.21) properly minimized?\n  - Unescaped unicode characters in _paper-full.js_ (at pos 18591)\n  - Is paper-full.min.js (0.9.21) properly minimized?\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Avoid administrative distraction._\n"
+  , issueCommentId = 64105748
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-23) 13 : 14 : 28 UTC
+  , issueUpdatedAt = 2015 (-06) (-23) 13 : 14 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2580/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2580")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2580
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1102138
+        , simpleUserLogin = N "sdr0x07b6"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1102138?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sdr0x07b6"
+        }
+  , issueTitle = "Nestable registered"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2580")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2580.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2580.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2580"
+  , issueCreatedAt = 2014 (-12) (-02) 13 : 59 : 20 UTC
+  , issueBody = Just "Nestable registered\n"
+  , issueState = StateClosed
+  , issueId = Id 50653427
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

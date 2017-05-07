@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-06) 13 : 50 : 26 UTC
+  , issueUpdatedAt = 2016 (-06) (-06) 13 : 50 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11998/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11998")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11998
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4924614
+        , simpleUserLogin = N "ArunMichaelDsouza"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4924614?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/ArunMichaelDsouza"
+        }
+  , issueTitle = "Adding jquery.picla to jsdelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11998")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11998.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11998.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11998"
+  , issueCreatedAt = 2016 (-06) (-05) 14 : 41 : 16 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 158557516
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

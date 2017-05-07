@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-05) 01 : 39 : 51 UTC
+  , issueUpdatedAt = 2014 (-09) (-05) 11 : 30 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1620/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1620")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1620
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project emojione to v1.0.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1620")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1620.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1620.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1620"
+  , issueCreatedAt = 2014 (-09) (-05) 01 : 35 : 53 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project emojione to v1.0.4.\n\n@Ranks\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"emojione\",\n    \"repo\": \"Ranks/emojione\",\n    \"files\": {\n      \"include\": [\"assets/css/emojione.min.css\", \"lib/js/emojione.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/emojione\",\n    \"localVersions\": [\"1.0.1\", \"1.0.3\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"1.0.1\", \"v1.0.3\", \"v1.0.4\"],\n    \"branchVersions\": [\"1.0.1\"]\n  },\n  \"version\": \"v1.0.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/emojione/1.0.4\",\n  \"branch\": \"emojione/v1.0.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 42005331
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

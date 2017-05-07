@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-13) 08 : 12 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/120844679"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5801#issuecomment-120844679"
+  , issueCommentCreatedAt = 2015 (-07) (-13) 08 : 12 : 26 UTC
+  , issueCommentBody =
+      "> /latest should be expected to break.\n\nThis is true, though I think our Readme should be updated to reflect this?\n\nI recommend usually only grabbing the newest point version (in Angular's case, `/1.4/`).  Same recommendation with jQuery; they actively had supported a 1.x & 2.x branch at same time.  jQuery & Angular in particular, there have been many changes including APIs between 'minor' point versions.\n\nThat said, I still don't recommend hosting beta versions, let alone ALPHA versions that are updated every 10 days.  Angular in particular; people can use Google's CDN for alpha/beta which works _almost_ as good as jsDelivr ;)\nEven if jsDelivr can handle the harddrive & bandwidth for alpha/beta, IMHO better to conserve the man-hours.\n\nSo, my vote is -1\n"
+  , issueCommentId = 120844679
+  }

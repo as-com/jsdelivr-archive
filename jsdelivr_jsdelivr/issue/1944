@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-16) 18 : 16 : 54 UTC
+  , issueUpdatedAt = 2014 (-10) (-16) 18 : 16 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1944/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1944")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1944
+  , issueAssignees =
+      [ SimpleUser
+          { simpleUserId = Id 1834071
+          , simpleUserLogin = N "jimaek"
+          , simpleUserAvatarUrl =
+              URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+          , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+          }
+      ]
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 668274
+        , simpleUserLogin = N "rilwis"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/668274?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rilwis"
+        }
+  , issueTitle = "Bug: Query string in URL"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1944"
+  , issueCreatedAt = 2014 (-10) (-07) 16 : 09 : 44 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nI'm using jQuery Cycle2 plugins using this URL:\n\n```\nhttp://cdn.jsdelivr.net/g/cycle2(jquery.cycle2.min.js+jquery.cycle2.carousel.min.js)\n```\n\nThis URL works. However, when I use the script in a WordPress website, it automatically adds `ver` query string and I get this actual URL:\n\n```\nhttp://cdn.jsdelivr.net/g/cycle2(jquery.cycle2.min.js+jquery.cycle2.carousel.min.js)?ver=4.0\n```\n\nWhen I view this URL in the browser, I see the error:\n\n> Could not find file jquery.cycle2.carousel.min.js?ver=4.0 for project: cycle2.\n\nI think the bug might comes from how you parse the URL. The parser should exclude all query variables and make sure it always returns correct file regardless query string.\n"
+  , issueState = StateClosed
+  , issueId = Id 45126612
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

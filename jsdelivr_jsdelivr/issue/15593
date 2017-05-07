@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-04) 10 : 23 : 17 UTC
+  , issueUpdatedAt = 2017 (-01) (-04) 10 : 23 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15593/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15593")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15593
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15933
+        , simpleUserLogin = N "fabricionaweb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/15933?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/fabricionaweb"
+        }
+  , issueTitle = "Added fitch.js v0.10.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15593")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15593.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15593.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15593"
+  , issueCreatedAt = 2017 (-01) (-02) 14 : 46 : 01 UTC
+  , issueBody =
+      Just "@raphaelpor I can pick up files from npm \128640 "
+  , issueState = StateClosed
+  , issueId = Id 198344597
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

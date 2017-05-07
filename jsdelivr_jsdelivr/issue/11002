@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-16) 00 : 28 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11002/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/11002")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11002
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "update foundation-APPS"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11002"
+  , issueCreatedAt = 2016 (-04) (-12) 15 : 04 : 51 UTC
+  , issueBody =
+      Just
+        "Sorry @ work, g2g, but tested broken\nhttp://foundation.zurb.com/forum/posts/38626-foundation-for-apps-cdn-not-working\nNote: different than [Foundation for SITES](https://www.jsdelivr.com/projects/foundation), might need to change that entry.\n"
+  , issueState = StateOpen
+  , issueId = Id 147780428
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

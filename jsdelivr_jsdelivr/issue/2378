@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-15) 18 : 43 : 38 UTC
+  , issueUpdatedAt = 2014 (-11) (-15) 18 : 43 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2378/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2378")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2378
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1519888
+        , simpleUserLogin = N "hufyhang"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1519888?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hufyhang"
+        }
+  , issueTitle = "ChopJS DB 0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2378")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2378.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2378.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2378"
+  , issueCreatedAt = 2014 (-11) (-15) 18 : 36 : 31 UTC
+  , issueBody =
+      Just
+        "The first release version of ChopJS DB.\n- Supports Web SQL.\n"
+  , issueState = StateClosed
+  , issueId = Id 48925631
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

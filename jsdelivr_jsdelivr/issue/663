@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-17) 11 : 56 : 55 UTC
+  , issueUpdatedAt = 2014 (-04) (-18) 20 : 58 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/663/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/663")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 663
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add reveal.js v2.6.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/663")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/663.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/663.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/663"
+  , issueCreatedAt = 2014 (-04) (-16) 19 : 26 : 34 UTC
+  , issueBody =
+      Just
+        "source :https://github.com/hakimel/reveal.js/archive/2.6.2.tar.gz\n"
+  , issueState = StateClosed
+  , issueId = Id 31671585
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-10) 23 : 34 : 53 UTC
+  , issueUpdatedAt = 2014 (-10) (-12) 19 : 37 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1975/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1975")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1975
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project peerjs to 0.3.14"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1975")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1975.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1975.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1975"
+  , issueCreatedAt = 2014 (-10) (-10) 23 : 33 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project peerjs to 0.3.14.\n\n@peers\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"peerjs\",\n    \"repo\": \"peers/peerjs\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"peer.min.js\", \"peer.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/peerjs\",\n    \"localVersions\": [\"0.0.1\", \"0.1.6\", \"0.2.7\", \"0.3.8\", \"0.3.9\", \"0.3.10\", \"0.3.11\", \"0.3.12\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.2.0\", \"0.2.1\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.2.8\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.3.5\", \"0.3.6\", \"0.3.7\", \"0.3.8\", \"0.3.9\", \"0.3.10\", \"0.3.11\", \"0.3.12\", \"0.3.13\", \"0.3.14\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.3.14\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/peerjs/0.3.14\",\n  \"branch\": \"peerjs/0.3.14\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 45533638
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

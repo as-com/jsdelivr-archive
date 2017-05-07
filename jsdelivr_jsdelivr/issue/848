@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-23) 12 : 25 : 38 UTC
+  , issueUpdatedAt = 2014 (-05) (-23) 12 : 25 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/848/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/848")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 848
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 975298
+        , simpleUserLogin = N "AzizHardaya"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/975298?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/AzizHardaya"
+        }
+  , issueTitle = "Update 16pixels.min.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/848")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/848.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/848.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/848"
+  , issueCreatedAt = 2014 (-05) (-23) 08 : 48 : 59 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 34155985
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

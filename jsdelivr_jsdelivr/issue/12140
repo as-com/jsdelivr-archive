@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-11) 18 : 03 : 50 UTC
+  , issueUpdatedAt = 2016 (-06) (-11) 18 : 03 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12140/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12140")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12140
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project monkberry to 4.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12140")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12140.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12140.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12140"
+  , issueCreatedAt = 2016 (-06) (-11) 18 : 03 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project monkberry to 4.0.1.\n\n@monkberry\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"monkberry\",\n    \"repo\": \"monkberry/monkberry\",\n    \"files\": {\n      \"include\": [\"monkberry.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/monkberry\",\n    \"localVersions\": [\"1.0.2\", \"2.0.0\", \"3.8.2\", \"4.0.0-beta.4\", \"4.0.0-beta.5\", \"4.0.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"2.0.0\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.0.7\", \"3.0.8\", \"3.1.0\", \"3.1.1\", \"3.1.2\", \"3.1.3\", \"3.1.4\", \"3.1.5\", \"3.1.6\", \"3.2.0\", \"3.2.1\", \"3.4.0\", \"3.4.1\", \"3.5.0\", \"3.6.0\", \"3.6.1\", \"3.7.0\", \"3.7.1\", \"3.7.2\", \"3.7.3\", \"3.8.0\", \"3.8.1\", \"3.8.2\", \"4.0.0-beta\", \"4.0.0-beta.2\", \"4.0.0-beta.3\", \"4.0.0-beta.4\", \"4.0.0-beta.5\", \"4.0.0-beta.6\", \"4.0.0\", \"4.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/monkberry/update.json\",\n  \"versions\": [\"4.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"4.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/monkberry/4.0.1\",\n  \"branch\": \"monkberry/4.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 159785782
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

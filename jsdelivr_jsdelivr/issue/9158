@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-18) 11 : 08 : 57 UTC
+  , issueUpdatedAt = 2016 (-01) (-18) 11 : 08 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9158/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9158")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9158
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1826380
+        , simpleUserLogin = N "kashiif"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1826380?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kashiif"
+        }
+  , issueTitle = "Include update.json for classList.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9158")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9158.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9158.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9158"
+  , issueCreatedAt = 2016 (-01) (-18) 00 : 11 : 25 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 127134363
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

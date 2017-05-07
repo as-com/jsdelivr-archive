@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-24) 16 : 35 : 36 UTC
+  , issueUpdatedAt = 2014 (-07) (-08) 19 : 34 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/379/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/379")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 379
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 760071
+        , simpleUserLogin = N "asaph"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/760071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/asaph"
+        }
+  , issueTitle = "jPlayer 2.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/379")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/379.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/379.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/379"
+  , issueCreatedAt = 2014 (-02) (-24) 05 : 31 : 45 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 28139404
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

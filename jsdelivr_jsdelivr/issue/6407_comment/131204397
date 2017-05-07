@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-14) 18 : 33 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 351902
+        , simpleUserLogin = N "markcarver"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/351902?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/markcarver"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/131204397"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6407#issuecomment-131204397"
+  , issueCommentCreatedAt = 2015 (-08) (-14) 18 : 33 : 31 UTC
+  , issueCommentBody =
+      "http://api.jsdelivr.com/v1/bootswatch/libraries does not exist.\n\nThe only recourse is to use http://api.jsdelivr.com/v1/bootstrap/libraries/bootswatch (which is technically from https://github.com/MaxCDN/bootstrap-cdn and they have all of Bootswatch's versions/themes).\n\nHowever, since this is just and API (with no default base_url btw), I'm left with having to choose how to construct this URL.\n\nI'm saying that there are inconsistencies between what jsDelivr API _says exists_ and _what is actually_ in jsDelivr's repo.\n\nThat's why I was saying that the folders should just be removed and it be repopulated with the _correct_ repo information. I'd rather have the bot do this automatically, than me having to do this manually.\n\nI know _in theory_ it could possibly break someone's site... but this is actually _very highly unlikely_. We'd still have the same files (albeit minus source files like `*.less` and whatnot, but those wouldn't/shouldn't be used anyway).\n"
+  , issueCommentId = 131204397
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-24) 19 : 33 : 00 UTC
+  , issueUpdatedAt = 2015 (-01) (-24) 19 : 33 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3176/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/3176")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3176
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8389542
+        , simpleUserLogin = N "thekondrashov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/8389542?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thekondrashov"
+        }
+  , issueTitle =
+      "Possible workaround of problem with jsDelivr file combiner"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3176"
+  , issueCreatedAt = 2015 (-01) (-23) 21 : 28 : 17 UTC
+  , issueBody =
+      Just
+        "Hello.\nI know about the problem with jsDelivr file combiner with css files that load images or another assets ([#452](https://github.com/jsdelivr/jsdelivr/issues/452), [#500](https://github.com/jsdelivr/jsdelivr/issues/500), [#666](https://github.com/jsdelivr/jsdelivr/issues/666), [#1222](https://github.com/jsdelivr/jsdelivr/issues/1222), [#2014](https://github.com/jsdelivr/jsdelivr/issues/2014), [#2018](https://github.com/jsdelivr/jsdelivr/issues/2018), [#2656](https://github.com/jsdelivr/jsdelivr/issues/2656)).\nI offer my solution to this problem (I understand that this is not the best idea). The idea: to create a new project, which includes css files with the overridden styles for fontawesome, bootstrap and other similar projects.\nI created a [test project](https://github.com/thekondrashov/jsdelivr-assetsfix) with the following structure:\n- [**fontawesome/**](https://github.com/thekondrashov/jsdelivr-assetsfix/tree/master/fontawesome)\n  - [**latest/**](https://github.com/thekondrashov/jsdelivr-assetsfix/tree/master/fontawesome/latest)\n    - [assets.css](https://github.com/thekondrashov/jsdelivr-assetsfix/blob/master/fontawesome/latest/assets.css) \8212 This is a copy of a workaround from a 4.2.0/ folder. This should be overwritten when the fontawesome will release a new version.\n  - [**4.2.0/**](https://github.com/thekondrashov/jsdelivr-assetsfix/tree/master/fontawesome/4.2.0)\n    - [assets.css](https://github.com/thekondrashov/jsdelivr-assetsfix/blob/master/fontawesome/4.2.0/assets.css) \8212 This is a compressed version of css workaround, which corresponds to original 4.2.0 bootstrap version.\n  - [**4.1.0/**](https://github.com/thekondrashov/jsdelivr-assetsfix/tree/master/fontawesome/4.1.0)\n    - [assets.css](https://github.com/thekondrashov/jsdelivr-assetsfix/blob/master/fontawesome/4.1.0/assets.css) \8212 This is a compressed version of css workaround, which corresponds to version 4.1.0.\n  - [**{x.x.x}/**](https://github.com/thekondrashov/jsdelivr-assetsfix/tree/master/fontawesome) \8212 And other (older) versions of which are in the [repository jsDelivr](http://api.jsdelivr.com/v1/jsdelivr/libraries?name=fontawesome)\n- [**bootstrap/**](https://github.com/thekondrashov/jsdelivr-assetsfix/tree/master/bootstrap)\n  \8212 The structure is completely analogous to the previous one.\n- [**{other}/**](https://github.com/thekondrashov/jsdelivr-assetsfix)\n  \8212 And any similar projects.\n\nThis structure will allow you to access the files with a single request like this (with normalize for example):\n`//cdn.jsdelivr.net/g/normalize,fontawesome@4.2.0,jsdelivr-assetsfix(fontawesome/4.2.0/assets.css)`\nIn this case, the version of the project with the workaround is not important. And you can always specify the latest version of \"jsdelivr-assetsfix\" project.\n\nIf you want to specify the latest version of fontawesome, use this:\n`//cdn.jsdelivr.net/g/normalize,fontawesome,jsdelivr-assetsfix(fontawesome/latest/assets.css)`\n(Of course this will require a manual update when a new version of the font will appear.)\n\nIn the case of the version aliasing, you can create the appropriate directories:\n`//cdn.jsdelivr.net/g/normalize,fontawesome@4,jsdelivr-assetsfix(fontawesome/4/assets.css)`\n(You only need to create the directory \"fontawesome/4/\". And update if necessary.)\n\nThe example code with the workaround (for latest(4.2.0) version of fontawesome):\n\n``` css\n@font-face {\n  /* I have not found a better solution, and simply create a new font-family */\n  font-family: 'FontAwesome Fallback';\n  src: url('https://cdn.jsdelivr.net/fontawesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0');\n  src: url('https://cdn.jsdelivr.net/fontawesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'),\n       url('https://cdn.jsdelivr.net/fontawesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'),\n       url('https://cdn.jsdelivr.net/fontawesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),\n       url('https://cdn.jsdelivr.net/fontawesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');\n  font-weight: normal;\n  font-style: normal;\n}\n.fa {\n  /* Override font-family with \"!important\" */\n  font-family: 'FontAwesome Fallback'!important;\n}\n```\n\nThis technique allows you to specify a workaround anywhere in the url, even before the main file:\n`//cdn.jsdelivr.net/g/jsdelivr-assetsfix(fontawesome/latest/assets.css),normalize,fontawesome`\n\nWhat do you think about this mad idea?\n\nAnd please replace the example on README.md page:\n`//cdn.jsdelivr.net/g/angularui@0.4.0(angular-ui.min.css),fontawesome@4.0.3(css/font-awesome.min.css)`\n(fontawesome assets not loading)\n\n/ Sorry for my English /\n"
+  , issueState = StateClosed
+  , issueId = Id 55335208
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-19) 16 : 03 : 08 UTC
+  , issueUpdatedAt = 2017 (-02) (-19) 16 : 03 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16431/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16431")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16431
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project blocks to 0.3.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16431")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16431.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16431.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16431"
+  , issueCreatedAt = 2017 (-02) (-19) 16 : 03 : 00 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project blocks to 0.3.5.\n\n@astoilkov\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"blocks\",\n    \"repo\": \"astoilkov/jsblocks\",\n    \"files\": {\n      \"include\": [\"*.min.*\", \"./mvc/*.min.*\", \"./query/*.min.*\"],\n      \"basePath\": \"dist/\",\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/blocks\",\n    \"localVersions\": [\"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\"],\n    \"remoteVersions\": [\"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.3.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/blocks/update.json\",\n  \"versions\": [\"0.3.5\"],\n  \"updateRemote\": true,\n  \"version\": \"0.3.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/blocks/0.3.5\",\n  \"branch\": \"blocks/0.3.5\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 208726275
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

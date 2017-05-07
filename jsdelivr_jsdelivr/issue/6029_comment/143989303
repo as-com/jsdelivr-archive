@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-29) 08 : 43 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/143989303"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-143989303"
+  , issueCommentCreatedAt = 2015 (-09) (-29) 08 : 43 : 33 UTC
+  , issueCommentBody =
+      "Yes. This allows a good UI, easy implementation and the same security level like I explained above.\n\n> Is there any advantage to \"enable SRI\" as an option (I mean it is delete key friendly anyway)?\n\nNot sure what you mean.\n\nI also wasn't aware that Chrome has an SRI issue. Do you happen to know the ETA for the fix?\n"
+  , issueCommentId = 143989303
+  }

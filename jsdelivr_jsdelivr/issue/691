@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-23) 16 : 10 : 57 UTC
+  , issueUpdatedAt = 2014 (-04) (-23) 16 : 27 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/691/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/691")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 691
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle =
+      "move highstocks to highstock, highstocks was a WRONG name"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/691")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/691.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/691.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/691"
+  , issueCreatedAt = 2014 (-04) (-23) 16 : 05 : 23 UTC
+  , issueBody =
+      Just
+        "Hello maintainer,\nIt's a serious problem, it was a wrong name and path in the repo and mush be fixed!\n"
+  , issueState = StateClosed
+  , issueId = Id 32074862
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

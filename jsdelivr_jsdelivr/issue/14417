@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-19) 16 : 03 : 16 UTC
+  , issueUpdatedAt = 2016 (-10) (-19) 16 : 03 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14417/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14417")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14417
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1761145
+        , simpleUserLogin = N "eldelentes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1761145?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/eldelentes"
+        }
+  , issueTitle = "Create info.ini for lazzy.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14417")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14417.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14417.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14417"
+  , issueCreatedAt = 2016 (-10) (-18) 20 : 00 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 183787667
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

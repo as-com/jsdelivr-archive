@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-04) 13 : 31 : 32 UTC
+  , issueUpdatedAt = 2016 (-02) (-04) 13 : 31 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9575/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9575")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9575
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2932952
+        , simpleUserLogin = N "matej-marcisovsky"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2932952?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/matej-marcisovsky"
+        }
+  , issueTitle = "TastyTabs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9575")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9575.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9575.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9575"
+  , issueCreatedAt = 2016 (-02) (-04) 13 : 30 : 38 UTC
+  , issueBody = Just "Adding jquery.tastytabs\n"
+  , issueState = StateClosed
+  , issueId = Id 131347859
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-06) 13 : 25 : 09 UTC
+  , issueUpdatedAt = 2014 (-11) (-22) 09 : 22 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1363/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1363")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1363
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2486424
+        , simpleUserLogin = N "laruiss"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/2486424?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/laruiss"
+        }
+  , issueTitle = "Update jquery.transit plugin to version 0.9.12"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1363")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1363.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1363.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1363"
+  , issueCreatedAt = 2014 (-08) (-06) 12 : 20 : 19 UTC
+  , issueBody =
+      Just "Update jquery.transit plugin to version 0.9.12\n"
+  , issueState = StateClosed
+  , issueId = Id 39615463
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

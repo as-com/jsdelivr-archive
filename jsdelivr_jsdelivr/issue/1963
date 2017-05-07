@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-07) 04 : 08 : 50 UTC
+  , issueUpdatedAt = 2014 (-11) (-07) 11 : 51 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1963/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1963")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1963
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle =
+      "Uncompressed response (HTTP only) from custom servers?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1963"
+  , issueCreatedAt = 2014 (-10) (-09) 15 : 55 : 18 UTC
+  , issueBody =
+      Just
+        "I'm not sure if I'm interpreting this correctly. In both Chrome and Firefox's devtools, I'm seeing uncompressed output over HTTP from the custom servers (tested with exvm-sg, leap-ua). HTTPS requests are served compressed.\n\n![cdn_test](https://cloud.githubusercontent.com/assets/104607/4579357/1b6425d6-4fcc-11e4-8612-2de490a920e6.png)\n\nI tested this with curl and see different responses for HTTP and HTTPS. For http, it looks like the response is uncompressed at 100k for bootstrap.min.css (it should be < 20k gzipped) and there is no gzip header.\n\n```\ncurl --compressed -I http://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css\nHTTP/1.1 200 OK\nServer: nginx/1.6.2\nDate: Thu, 09 Oct 2014 15:27:23 GMT\nContent-Type: text/css\nContent-Length: 109518\nConnection: keep-alive\nLast-Modified: Thu, 07 Aug 2014 16:38:49 GMT\nVary: Accept-Encoding\nETag: \"53e3ab99-1abce\"\nAccess-Control-Allow-Origin: *\nCache-Control: public, max-age=31536000\nVary: Accept-Encoding\nPOP: exvm-sg\nAccept-Ranges: bytes\n\ncurl --compressed -I https://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css\nHTTP/1.1 200 OK\nServer: nginx/1.6.2\nDate: Thu, 09 Oct 2014 15:27:32 GMT\nContent-Type: text/css\nConnection: keep-alive\nLast-Modified: Thu, 07 Aug 2014 16:38:49 GMT\nVary: Accept-Encoding\nAccess-Control-Allow-Origin: *\nCache-Control: public, max-age=31536000\nVary: Accept-Encoding\nPOP: exvm-sg\nContent-Encoding: gzip\n```\n\nI created some test pages pointing specifically to exvm-sg and leap-ua for my testing. Can anyone else replicate this?\nhttp://rawgit.com/ping/cdntest/master/jsdelivr_exvm-sg.html\nhttp://rawgit.com/ping/cdntest/master/jsdelivr_leap-ua.html\nhttp://rawgit.com/ping/cdntest/master/cdnjs.html\n"
+  , issueState = StateClosed
+  , issueId = Id 45383624
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

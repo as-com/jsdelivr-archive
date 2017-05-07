@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-08) 12 : 04 : 32 UTC
+  , issueUpdatedAt = 2014 (-07) (-09) 12 : 39 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1147/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1147")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1147
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project postcodify to 1.8.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1147")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1147.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1147.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1147"
+  , issueCreatedAt = 2014 (-07) (-08) 12 : 04 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project postcodify to 1.8.2.\n\n@kijin\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"postcodify\",\n    \"repo\": \"kijin/postcodify\",\n    \"files\": {\n      \"basePath\": \"api\",\n      \"include\": [\"search.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.postcodify\",\n    \"localVersions\": [\"1.7.1\", \"1.8.1\"],\n    \"remoteVersions\": [\"1.2.1\", \"1.4.2\", \"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.4\", \"1.5.5\", \"1.7.1\", \"1.8.1\", \"1.8.2\"],\n    \"branchVersions\": [\"1.8.1\"]\n  },\n  \"version\": \"1.8.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.postcodify/1.8.2\",\n  \"branch\": \"postcodify/1.8.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 37363291
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

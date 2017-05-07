@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-30) 14 : 55 : 27 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 06 : 10 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/169/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/169")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 169
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 744360
+        , simpleUserLogin = N "mrkindy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/744360?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mrkindy"
+        }
+  , issueTitle = "add new fonts to darfonts project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/169")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/169.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/169.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/169"
+  , issueCreatedAt = 2013 (-11) (-30) 14 : 27 : 29 UTC
+  , issueBody = Just "add new fonts to darfonts project\n"
+  , issueState = StateClosed
+  , issueId = Id 23521070
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

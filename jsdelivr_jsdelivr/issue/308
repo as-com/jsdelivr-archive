@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-28) 19 : 35 : 29 UTC
+  , issueUpdatedAt = 2014 (-01) (-28) 19 : 35 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/308/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/308")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 308
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 831389
+        , simpleUserLogin = N "lewisgoddard"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/831389?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lewisgoddard"
+        }
+  , issueTitle = "jQuery 2.0.3 minified file is not minified"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/308"
+  , issueCreatedAt = 2014 (-01) (-28) 19 : 07 : 13 UTC
+  , issueBody =
+      Just
+        "[jquery-2.0.3.min.js](http://cdn.jsdelivr.net/jquery/2.0.3/jquery-2.0.3.min.js) does not seem to be minified properly.\n"
+  , issueState = StateClosed
+  , issueId = Id 26467287
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

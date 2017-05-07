@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-04) 03 : 40 : 45 UTC
+  , issueUpdatedAt = 2017 (-04) (-04) 03 : 40 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17380/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17380")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17380
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15174329
+        , simpleUserLogin = N "feuzeu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/15174329?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/feuzeu"
+        }
+  , issueTitle = "Updated update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17380")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17380.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17380.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17380"
+  , issueCreatedAt = 2017 (-04) (-03) 18 : 11 : 12 UTC
+  , issueBody = Just "Added missing `basePath` option."
+  , issueState = StateClosed
+  , issueId = Id 219016605
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

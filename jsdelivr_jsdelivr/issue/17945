@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-03) 19 : 35 : 20 UTC
+  , issueUpdatedAt = 2017 (-05) (-03) 19 : 35 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17945/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17945")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17945
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project fuelux to 3.16.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17945")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17945.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17945.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17945"
+  , issueCreatedAt = 2017 (-05) (-03) 19 : 34 : 43 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project fuelux to 3.16.0.\n\n@ExactTarget\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"fuelux\",\n    \"repo\": \"ExactTarget/fuelux\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"exclude\": [\"fuelux.zip\", \"js/npm.js\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/fuelux\",\n    \"localVersions\": [\"2.3.0\", \"2.3.1\", \"2.4.0\", \"2.6.6\", \"3.0.1\", \"3.0.2\", \"3.1.0\", \"3.2.0\", \"3.2.1\", \"3.3.0\", \"3.3.1\", \"3.4.0\", \"3.5.0\", \"3.5.1\", \"3.6.0\", \"3.6.1\", \"3.6.2\", \"3.6.3\", \"3.6.4\", \"3.6.5\", \"3.7.0\", \"3.7.1\", \"3.7.2\", \"3.7.3\", \"3.8.0\", \"3.9.0\", \"3.9.1\", \"3.10.0\", \"3.11.0\", \"3.11.1\", \"3.11.2\", \"3.11.3\", \"3.11.4\", \"3.11.5\", \"3.12.0\", \"3.13.0\", \"3.13.1\", \"3.15.0\", \"3.15.1\", \"3.15.2\", \"3.15.3\", \"3.15.5\", \"3.15.6\", \"3.15.7\", \"3.15.8\", \"3.15.9\", \"3.15.10\", \"3.15.11\", \"3.15.12\", \"3.15.13\"],\n    \"remoteVersions\": [\"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0\", \"2.1.1\", \"2.2.0\", \"2.2.1-devdeps\", \"2.2.1\", \"2.3.0\", \"2.3.1\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"2.5.0\", \"2.5.1\", \"2.5.2\", \"2.6.0\", \"2.6.1\", \"2.6.2\", \"2.6.3\", \"2.6.4\", \"2.6.5\", \"2.6.6\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.1.0\", \"3.2.0\", \"3.2.1\", \"3.3.0\", \"3.3.1\", \"3.4.0\", \"3.5.0\", \"3.5.1\", \"3.6.0\", \"3.6.1\", \"3.6.2\", \"3.6.3\", \"3.6.4\", \"3.6.5\", \"3.7.0\", \"3.7.1\", \"3.7.2\", \"3.7.3\", \"3.8.0\", \"3.9.0\", \"3.9.1\", \"3.10.0\", \"3.11.0\", \"3.11.1\", \"3.11.2\", \"3.11.3\", \"3.11.4\", \"3.11.5\", \"3.12.0\", \"3.13.0\", \"3.13.1\", \"3.14.0\", \"3.14.1\", \"3.14.2\", \"3.15.0\", \"3.15.1\", \"3.15.2\", \"3.15.3\", \"3.15.4\", \"3.15.5\", \"3.15.6\", \"3.15.7\", \"3.15.8\", \"3.15.9\", \"3.15.10\", \"3.15.11\", \"3.15.12\", \"3.15.13\", \"3.16.0\"],\n    \"branchVersions\": [\"3.15.1\", \"3.15.2\", \"3.15.3\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/fuelux/update.json\",\n  \"versions\": [\"3.16.0\"],\n  \"updateRemote\": true,\n  \"version\": \"3.16.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/fuelux/3.16.0\",\n  \"branch\": \"fuelux/3.16.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 226091412
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

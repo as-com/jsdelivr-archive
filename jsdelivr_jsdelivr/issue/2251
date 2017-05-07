@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-06) 20 : 57 : 09 UTC
+  , issueUpdatedAt = 2014 (-11) (-06) 20 : 57 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2251/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2251")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2251
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project satellizer to 0.8.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2251")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2251.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2251.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2251"
+  , issueCreatedAt = 2014 (-11) (-06) 20 : 36 : 55 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project satellizer to 0.8.4.\n\n@sahat\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"satellizer\",\n    \"repo\": \"sahat/satellizer\",\n    \"files\": {\n      \"include\": [\"satellizer.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/satellizer\",\n    \"localVersions\": [\"0.3.3\", \"0.3.4\", \"0.4.0\", \"0.4.1\", \"0.5.0\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.6.3\", \"0.6.4\", \"0.7.0\", \"0.7.1\", \"0.8.0\", \"0.8.1\", \"0.8.2\", \"0.8.3\"],\n    \"remoteVersions\": [\"0.2.0\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.4.0\", \"0.4.1\", \"0.5.0\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.6.3\", \"0.6.4\", \"0.7.0\", \"0.7.1\", \"0.8.0\", \"0.8.1\", \"0.8.2\", \"0.8.3\", \"0.8.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.8.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/satellizer/0.8.4\",\n  \"branch\": \"satellizer/0.8.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 48011242
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

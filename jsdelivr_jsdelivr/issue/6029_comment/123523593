@@ -1,0 +1,22 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-22) 01 : 11 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 338988
+        , simpleUserLogin = N "jonathanKingston"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/338988?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/jonathanKingston"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123523593"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123523593"
+  , issueCommentCreatedAt = 2015 (-07) (-22) 01 : 11 : 14 UTC
+  , issueCommentBody =
+      "So long as it is done once like post upload then the risks should be limited, if it is the client doing it when downloading the library then yeah I think it is a real issue.\n\nPoisoning GitHub would likely be much harder by their design due to their API backed from storage rather than a CDN which could farm out content to community/open run servers (I'm not saying these statements are indicative of how your CDN's are run and how GitHub is just trying to mitigate risk - less hands involved the better).\n\nIf GitHub can provide some form of fingerprint then the risk should be completely mitigated when comparing against the CDN. So in my Ember implementation I check a md5 sum matches the file before considering adding an integrity.\n"
+  , issueCommentId = 123523593
+  }

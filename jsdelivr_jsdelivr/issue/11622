@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-15) 12 : 04 : 46 UTC
+  , issueUpdatedAt = 2016 (-05) (-15) 12 : 04 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11622/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11622")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11622
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project usertiming.js to v0.1.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11622")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11622.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11622.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11622"
+  , issueCreatedAt = 2016 (-05) (-15) 12 : 04 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project usertiming.js to v0.1.8.\n\n@nicjansma\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"usertiming.js\",\n    \"repo\": \"nicjansma/usertiming.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/usertiming.js\",\n    \"localVersions\": [\"0.1.7\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\", \"v0.1.6\", \"v0.1.7\", \"v0.1.8\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/usertiming.js/update.json\",\n  \"versions\": [\"v0.1.8\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1.8\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/usertiming.js/0.1.8\",\n  \"branch\": \"usertiming.js/v0.1.8\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 154905368
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

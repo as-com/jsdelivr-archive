@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-05) (-08) 14 : 18 : 27 UTC
+  , issueUpdatedAt = 2014 (-08) (-20) 03 : 37 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "Getting ready for version 3.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15"
+  , issueCreatedAt = 2013 (-05) (-08) 13 : 37 : 26 UTC
+  , issueBody =
+      Just
+        "Hi there,\n\nI've committed the new files that will be part of WP SlimStat 3.2, which should be released later this week or earlier next week.\n\nThank you as always,\nCamu\n"
+  , issueState = StateClosed
+  , issueId = Id 14100689
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

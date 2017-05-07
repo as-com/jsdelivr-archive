@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-27) 00 : 54 : 31 UTC
+  , issueUpdatedAt = 2016 (-12) (-27) 00 : 54 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15504/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15504")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15504
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project dollar-array to 1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15504")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15504.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15504.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15504"
+  , issueCreatedAt = 2016 (-12) (-25) 20 : 33 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project dollar-array to 1.1.0.\n\n@obedm503\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"dollar-array\",\n    \"repo\": \"obedm503/dollar-array\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/dollar-array\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.2\", \"1.1.0\", \"2.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/dollar-array/update.json\",\n  \"versions\": [\"1.1.0\", \"2.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/dollar-array/1.1.0\",\n  \"branch\": \"dollar-array/1.1.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 197514295
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-06) 20 : 03 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/90224950"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4151#issuecomment-90224950"
+  , issueCommentCreatedAt = 2015 (-04) (-06) 20 : 03 : 30 UTC
+  , issueCommentBody =
+      "I dont think that we can proxy a full API. They are very dynamic and frequently accept POST parameters. jsDelivr was built to work with files that can be cached for a long time and blocks all POST requests. I dont think its possible unfortunately.\n"
+  , issueCommentId = 90224950
+  }

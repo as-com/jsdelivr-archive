@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-02) 20 : 40 : 36 UTC
+  , issueUpdatedAt = 2014 (-09) (-02) 20 : 40 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1592/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1592")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1592
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueTitle = "Add Backbone Localstorage"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1592")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1592.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1592.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1592"
+  , issueCreatedAt = 2014 (-09) (-02) 20 : 39 : 50 UTC
+  , issueBody =
+      Just "https://github.com/jeromegn/Backbone.localStorage\n"
+  , issueState = StateClosed
+  , issueId = Id 41752119
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

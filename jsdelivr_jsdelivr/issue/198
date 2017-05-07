@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-12) 10 : 04 : 38 UTC
+  , issueUpdatedAt = 2013 (-12) (-13) 18 : 44 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/198/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/198")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 198
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5640466
+        , simpleUserLogin = N "Exacore"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5640466?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Exacore"
+        }
+  , issueTitle = "Add MeanMenu 2.0.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/198")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/198.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/198.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/198"
+  , issueCreatedAt = 2013 (-12) (-12) 09 : 14 : 51 UTC
+  , issueBody =
+      Just
+        "A menu system for converting a standard menu into a mobile/tablet\nresponsive menu, media query independent.\n"
+  , issueState = StateClosed
+  , issueId = Id 24165405
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-30) 10 : 13 : 38 UTC
+  , issueUpdatedAt = 2014 (-12) (-30) 11 : 07 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2855/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2855")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2855
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3662229
+        , simpleUserLogin = N "Arg0n4th"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3662229?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Arg0n4th"
+        }
+  , issueTitle = "Several update and new add"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2855")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2855.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2855.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2855"
+  , issueCreatedAt = 2014 (-12) (-30) 09 : 44 : 32 UTC
+  , issueBody =
+      Just
+        "I added/updated several files:\n\njquery.tablednd\njquery.easing\njquery.fileupload-ui and fileupload\nlytebox (css and js) for jquery photo gallery\nrate-it (css and js) dor a 5stars ranking system\nfalesia (css and js for Falesia.it site)\n"
+  , issueState = StateClosed
+  , issueId = Id 53104159
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

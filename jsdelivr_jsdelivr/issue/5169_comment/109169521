@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-05) 05 : 45 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2282735
+        , simpleUserLogin = N "matowens"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2282735?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/matowens"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/109169521"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5169#issuecomment-109169521"
+  , issueCommentCreatedAt = 2015 (-06) (-05) 05 : 45 : 09 UTC
+  , issueCommentBody =
+      "@jimaek - have a question for ya.  this recent release of ng-notify added a map file and it looks like the bot doesn't like the new file since it's a change to the file structure.  is there something I should have done and/or can do to avoid the test failure here since the project's structure is really unchanged?  thanks for your help!\n"
+  , issueCommentId = 109169521
+  }

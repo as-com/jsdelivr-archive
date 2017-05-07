@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-28) 16 : 36 : 23 UTC
+  , issueUpdatedAt = 2017 (-02) (-28) 16 : 36 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16639/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16639")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16639
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3490654
+        , simpleUserLogin = N "komikoni"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3490654?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/komikoni"
+        }
+  , issueTitle = "ArielScheduleUrlgen pull request"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16639")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16639.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16639.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16639"
+  , issueCreatedAt = 2017 (-02) (-28) 16 : 22 : 05 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 210836064
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

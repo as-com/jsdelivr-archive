@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-25) 20 : 06 : 15 UTC
+  , issueUpdatedAt = 2014 (-12) (-25) 20 : 06 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2840/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2840")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2840
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project highcharts to v4.0.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2840")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2840.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2840.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2840"
+  , issueCreatedAt = 2014 (-12) (-25) 20 : 04 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project highcharts to v4.0.4.\n\n@highslide-software\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"highcharts\",\n    \"repo\": \"highslide-software/highcharts-release\",\n    \"files\": {\n      \"exclude\": [\"README.md\", \"bower.json\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/jsdelivr/files/highcharts\",\n    \"localVersions\": [\"2.2.4\", \"2.3.0\", \"2.3.2\", \"2.3.3\", \"3.0.1\", \"3.0.4\", \"3.0.7\", \"3.0.9\", \"4.0.0\", \"4.0.1\", \"4.0.3\"],\n    \"remoteVersions\": [\"v3.0.10\", \"v4.0.0\", \"v4.0.1\", \"v4.0.3\", \"v4.0.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v4.0.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/highcharts/4.0.4\",\n  \"branch\": \"highcharts/v4.0.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 52871275
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

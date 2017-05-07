@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-18) 13 : 29 : 53 UTC
+  , issueUpdatedAt = 2014 (-03) (-18) 13 : 29 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/468/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/468")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 468
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 537127
+        , simpleUserLogin = N "englishextra"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/537127?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/englishextra"
+        }
+  , issueTitle = "Updating pnotify to version 1.3.1"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/468"
+  , issueCreatedAt = 2014 (-03) (-18) 09 : 00 : 47 UTC
+  , issueBody =
+      Just
+        "This one works \nhttps://raw.github.com/sciactive/pnotify/master/jquery.pnotify.min.js\n\nand this //cdn.jsdelivr.net/pnotify/1.3/jquery.pnotify.js \nthrows $.pnotify is not defined \n"
+  , issueState = StateClosed
+  , issueId = Id 29628742
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

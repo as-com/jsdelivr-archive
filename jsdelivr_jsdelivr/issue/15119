@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-09) 17 : 03 : 47 UTC
+  , issueUpdatedAt = 2016 (-12) (-09) 17 : 03 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15119/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15119")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15119
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project loadcss to 1.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15119")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15119.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15119.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15119"
+  , issueCreatedAt = 2016 (-11) (-29) 20 : 13 : 25 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project loadcss to 1.2.0.\n\n@filamentgroup\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"loadcss\",\n    \"repo\": \"filamentgroup/loadCSS\",\n    \"files\": {\n      \"basePath\": \"src/\",\n      \"include\": [\"*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/loadcss\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.8\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"1.0.0-0\", \"1.0.0\", \"1.2.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/loadcss/update.json\",\n  \"versions\": [\"1.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/loadcss/1.2.0\",\n  \"branch\": \"loadcss/1.2.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 192387182
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-17) 14 : 39 : 44 UTC
+  , issueUpdatedAt = 2016 (-01) (-17) 14 : 39 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9097/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9097")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9097
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project leaflet to v1.0.0-beta.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9097")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9097.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9097.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9097"
+  , issueCreatedAt = 2016 (-01) (-17) 14 : 32 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project leaflet to v1.0.0-beta.2.\n\n@Leaflet\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"leaflet\",\n    \"repo\": \"Leaflet/Leaflet\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/leaflet\",\n    \"localVersions\": [\"0.5.1\", \"0.6.2\", \"0.6.4\", \"0.7.2\", \"0.7.3\", \"0.7.7\"],\n    \"remoteVersions\": [\"v0.1\", \"v0.2\", \"v0.2.1\", \"v0.3\", \"v0.3.1\", \"v0.4\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\", \"v0.4.5\", \"v0.5\", \"v0.5.1\", \"v0.6\", \"v0.6.1\", \"v0.6.2\", \"v0.6.3\", \"v0.6.4\", \"v0.7\", \"v0.7.1\", \"v0.7.2\", \"v0.7.3\", \"v0.7.4\", \"v0.7.5\", \"v0.7.7\", \"v1.0.0-beta.1\", \"v1.0.0-beta.2\"],\n    \"branchVersions\": [\"v1.0.0-beta.1\", \"v1.0.0-beta.2.rc\", \"v1.0.0-beta.2.rc.2\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/leaflet/update.json\",\n  \"versions\": [\"v1.0.0-beta.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.0-beta.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/leaflet/1.0.0-beta.2\",\n  \"branch\": \"leaflet/v1.0.0-beta.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127098293
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

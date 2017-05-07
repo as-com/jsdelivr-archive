@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-19) 17 : 03 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 160618
+        , simpleUserLogin = N "ntd"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/160618?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ntd"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/83665446"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3929#issuecomment-83665446"
+  , issueCommentCreatedAt = 2015 (-03) (-19) 17 : 03 : 13 UTC
+  , issueCommentBody =
+      "Some clarification for jsdelivrbot (yes, I know it is a bot):\n- no idea why the _formvalidation.io_ host has errors... here it is working as expected;\n- I know the 0.5.3 version had wrong `mainfile` but there was nothing to do there;\n- the directory structure has been changed in branch 0.6.\n"
+  , issueCommentId = 83665446
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-03) 18 : 41 : 56 UTC
+  , issueUpdatedAt = 2017 (-03) (-03) 21 : 14 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16664/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16664")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16664
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1300141
+        , simpleUserLogin = N "LeoWinterDE"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1300141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/LeoWinterDE"
+        }
+  , issueTitle = "Add bootstrap3-dialog"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16664")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16664.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16664.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16664"
+  , issueCreatedAt = 2017 (-03) (-01) 20 : 20 : 37 UTC
+  , issueBody =
+      Just
+        "Add [bootstrap3-dialog](https://github.com/nakupanda/bootstrap3-dialog) to jsdelivr. Related https://github.com/nakupanda/bootstrap3-dialog/issues/330"
+  , issueState = StateClosed
+  , issueId = Id 211196496
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

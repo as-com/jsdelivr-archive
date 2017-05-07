@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-18) 16 : 50 : 55 UTC
+  , issueUpdatedAt = 2016 (-05) (-18) 16 : 50 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11687/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11687")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11687
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7750618
+        , simpleUserLogin = N "pushpabrol"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/7750618?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pushpabrol"
+        }
+  , issueTitle = "testing the cdn"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11687")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11687.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11687.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11687"
+  , issueCreatedAt = 2016 (-05) (-18) 16 : 50 : 33 UTC
+  , issueBody = Just "none\n"
+  , issueState = StateClosed
+  , issueId = Id 155550880
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

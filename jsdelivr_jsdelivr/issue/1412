@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-26) 15 : 12 : 18 UTC
+  , issueUpdatedAt = 2014 (-08) (-26) 15 : 12 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1412/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1412")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1412
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1055782
+        , simpleUserLogin = N "ppavlov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1055782?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ppavlov"
+        }
+  , issueTitle = "Adding requirejs-plugins set."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1412")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1412.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1412.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1412"
+  , issueCreatedAt = 2014 (-08) (-11) 22 : 36 : 21 UTC
+  , issueBody =
+      Just "The author does not have minified files inside his builds.\n"
+  , issueState = StateClosed
+  , issueId = Id 40008102
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

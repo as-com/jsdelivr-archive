@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-05) 13 : 50 : 36 UTC
+  , issueUpdatedAt = 2015 (-04) (-18) 12 : 21 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1624/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1624")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1624
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle =
+      "Problem with font-awesome 4.2.0 lib hosted on EXVM-SG"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1624"
+  , issueCreatedAt = 2014 (-09) (-05) 13 : 37 : 47 UTC
+  , issueBody =
+      Just
+        "http://exvm-sg.jsdelivr.net/fontawesome/4.2.0/css/font-awesome.css (and the .min version too) is referring to font files on the domain **oss.maxcdn.com** (instead of a relative path on the same domain). \n\nIn addition, .min version refers to the font file http://oss.maxcdn.com/fontawesome/4.2.0/sfonts/fontawesome-webfont.woff?v=4.2.0 which is missing (404) but the full version refers to http://oss.maxcdn.com/fontawesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0. It looks like the .min version has a typo in the path, **sfonts** instead of fonts.\n"
+  , issueState = StateClosed
+  , issueId = Id 42046964
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

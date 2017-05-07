@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-08) 09 : 15 : 00 UTC
+  , issueUpdatedAt = 2016 (-12) (-08) 09 : 15 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15214/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15214")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15214
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19570590
+        , simpleUserLogin = N "ezekutor"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/19570590?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ezekutor"
+        }
+  , issueTitle = "Ezekutor patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15214")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15214.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15214.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15214"
+  , issueCreatedAt = 2016 (-12) (-05) 20 : 23 : 16 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 193600658
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

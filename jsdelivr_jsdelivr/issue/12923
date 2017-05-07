@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-26) 20 : 56 : 13 UTC
+  , issueUpdatedAt = 2016 (-07) (-26) 20 : 56 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12923/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12923")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12923
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1504938
+        , simpleUserLogin = N "idleberg"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1504938?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/idleberg"
+        }
+  , issueTitle = "Add m8tro-extras.min.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12923")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12923.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12923.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12923"
+  , issueCreatedAt = 2016 (-07) (-26) 11 : 17 : 05 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 167582836
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

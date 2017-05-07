@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-19) 11 : 42 : 07 UTC
+  , issueUpdatedAt = 2016 (-02) (-19) 11 : 42 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9836/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9836")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9836
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5976116
+        , simpleUserLogin = N "SeanPollock"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5976116?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/SeanPollock"
+        }
+  , issueTitle = "Add instantsearch-ionrangeslider "
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9836")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9836.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9836.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9836"
+  , issueCreatedAt = 2016 (-02) (-18) 01 : 24 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 134453041
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

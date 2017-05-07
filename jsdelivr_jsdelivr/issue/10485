@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-17) 11 : 36 : 55 UTC
+  , issueUpdatedAt = 2016 (-03) (-17) 11 : 36 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10485/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10485")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10485
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project domcom to before-remove-Ref-component"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10485")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10485.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10485.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10485"
+  , issueCreatedAt = 2016 (-03) (-17) 03 : 02 : 39 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project domcom to before-remove-Ref-component.\n\n@taijiweb\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"domcom\",\n    \"repo\": \"taijiweb/domcom\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"domcom.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/domcom\",\n    \"localVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.1.6\"],\n    \"remoteVersions\": [\"before-remove-Ref-component\", \"v0.0.1\", \"v0.0.2\", \"v0.1\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\", \"v0.1.6\", \"v0.2.0\"],\n    \"branchVersions\": [\"v0.0.2\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/domcom/update.json\",\n  \"versions\": [\"before-remove-Ref-component\"],\n  \"updateRemote\": true,\n  \"version\": \"before-remove-Ref-component\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/domcom/before-remove-Ref-component\",\n  \"branch\": \"domcom/before-remove-Ref-component\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 141465813
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

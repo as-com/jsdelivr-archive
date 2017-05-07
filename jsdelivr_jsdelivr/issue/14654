@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-05) 18 : 54 : 15 UTC
+  , issueUpdatedAt = 2016 (-11) (-05) 18 : 54 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14654/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14654")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14654
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7549136
+        , simpleUserLogin = N "lenovouser"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7549136?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lenovouser"
+        }
+  , issueTitle = "Enable auto-updating for Zepto"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14654")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14654.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14654.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14654"
+  , issueCreatedAt = 2016 (-11) (-05) 15 : 30 : 21 UTC
+  , issueBody = Just "#13217"
+  , issueState = StateClosed
+  , issueId = Id 187503459
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

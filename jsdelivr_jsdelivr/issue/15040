@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 34 : 14 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 34 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15040/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15040")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15040
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project clappr-rtmp-plugin to 0.0.19"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15040")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15040.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15040.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15040"
+  , issueCreatedAt = 2016 (-11) (-29) 19 : 34 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project clappr-rtmp-plugin to 0.0.19.\n\n@flavioribeiro\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"clappr-rtmp-plugin\",\n    \"repo\": \"flavioribeiro/clappr-rtmp-plugin\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"rtmp.min.js\", \"./assets/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/clappr.rtmp\",\n    \"localVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.6\", \"0.0.7\", \"0.0.8\", \"0.0.9\", \"0.0.10\", \"0.0.11\", \"0.0.12\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"0.0.8\", \"0.0.9\", \"0.0.10\", \"0.0.11\", \"0.0.12\", \"0.0.13\", \"0.0.14\", \"0.0.15-rc1\", \"0.0.16\", \"0.0.17\", \"0.0.18\", \"0.0.19\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/clappr.rtmp/update.json\",\n  \"versions\": [\"0.0.19\"],\n  \"updateRemote\": true,\n  \"version\": \"0.0.19\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/clappr.rtmp/0.0.19\",\n  \"branch\": \"clappr-rtmp-plugin/0.0.19\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 192377484
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

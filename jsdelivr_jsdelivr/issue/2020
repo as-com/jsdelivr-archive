@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-14) 22 : 25 : 53 UTC
+  , issueUpdatedAt = 2014 (-10) (-15) 01 : 22 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2020/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2020")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2020
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 609693
+        , simpleUserLogin = N "DamonOehlman"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/609693?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DamonOehlman"
+        }
+  , issueTitle =
+      "Added files for rtc package - this time with a bit more care :)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2020")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2020.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2020.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2020"
+  , issueCreatedAt = 2014 (-10) (-14) 22 : 24 : 06 UTC
+  , issueBody =
+      Just
+        "OK - This time it should be right.  I've also added the `include` parameter in the files section for `update.json`.\n"
+  , issueState = StateClosed
+  , issueId = Id 45808007
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

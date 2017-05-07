@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-07) 21 : 30 : 54 UTC
+  , issueUpdatedAt = 2014 (-09) (-17) 19 : 35 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1657/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1657")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1657
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 737584
+        , simpleUserLogin = N "Rarst"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/737584?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Rarst"
+        }
+  , issueTitle = "highlight.js 8.0 outdated"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1657"
+  , issueCreatedAt = 2014 (-09) (-07) 19 : 32 : 34 UTC
+  , issueBody =
+      Just
+        "I know I promised to be back in winter, but beating the schedule. :)\n\nhighlight.js hosted is currently at 8.0, stable is at 8.2\n"
+  , issueState = StateClosed
+  , issueId = Id 42149972
+  , issueComments = 26
+  , issueMilestone = Nothing
+  }

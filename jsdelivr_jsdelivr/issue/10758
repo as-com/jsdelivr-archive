@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-01) 09 : 03 : 04 UTC
+  , issueUpdatedAt = 2016 (-04) (-01) 09 : 03 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10758/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10758")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10758
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5573357
+        , simpleUserLogin = N "gnuzilla"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5573357?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gnuzilla"
+        }
+  , issueTitle = "Update fallback.js to newest version 1.1.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10758")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10758.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10758.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10758"
+  , issueCreatedAt = 2016 (-04) (-01) 02 : 53 : 56 UTC
+  , issueBody = Just "Update fallback.js to newest version 1.1.7\n"
+  , issueState = StateClosed
+  , issueId = Id 145071515
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

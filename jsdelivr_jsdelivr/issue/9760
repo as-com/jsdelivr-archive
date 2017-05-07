@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-15) 10 : 31 : 07 UTC
+  , issueUpdatedAt = 2016 (-02) (-15) 10 : 31 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9760/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9760")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9760
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project noUiSlider to 8.3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9760")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9760.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9760.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9760"
+  , issueCreatedAt = 2016 (-02) (-14) 21 : 32 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project noUiSlider to 8.3.0.\n\n@leongersen\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"noUiSlider\",\n    \"repo\": \"leongersen/noUiSlider\",\n    \"files\": {\n      \"basePath\": \"distribute/\",\n      \"include\": [\"*.min.js\", \"*.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.nouislider\",\n    \"localVersions\": [\"3.2.1\", \"6.0.0\", \"6.2.0\", \"7.0.9\", \"7.0.10\", \"8.0.0\", \"8.0.1\", \"8.0.2\", \"8.1.0\", \"8.2.0\", \"8.2.1\"],\n    \"remoteVersions\": [\"0.9.8\", \"1.1.7\", \"1.2.2\", \"1.2.8\", \"1.3.1\", \"2.0.0\", \"2.0.4\", \"2.1.3\", \"2.1.4\", \"2.5.0\", \"2.5.1\", \"2.5.2\", \"2.5.3\", \"2.5.4\", \"2.5.5\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.4\", \"3.0.6\", \"3.0.7\", \"3.0.9\", \"3.1.1\", \"3.2.0\", \"3.2.1\", \"4.0.0\", \"4.0.1\", \"4.0.2\", \"4.0.3\", \"4.1.0\", \"4.2.0\", \"4.2.2\", \"4.3.0\", \"5.0.0\", \"6.0.0\", \"6.1.0\", \"6.1.1\", \"6.2.0\", \"7.0.0\", \"7.0.1\", \"7.0.2\", \"7.0.3\", \"7.0.4\", \"7.0.5\", \"7.0.6\", \"7.0.7\", \"7.0.8\", \"7.0.9\", \"7.0.10\", \"8.0.0\", \"8.0.1\", \"8.0.2\", \"8.1.0\", \"8.2.0\", \"8.2.1\", \"8.3.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.nouislider/update.json\",\n  \"versions\": [\"1.3.1\", \"2.5.5\", \"4.3.0\", \"5.0.0\", \"8.3.0\"],\n  \"updateRemote\": true,\n  \"version\": \"8.3.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.nouislider/8.3.0\",\n  \"branch\": \"noUiSlider/8.3.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 133582214
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

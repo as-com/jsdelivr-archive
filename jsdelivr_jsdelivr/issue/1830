@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-25) 16 : 37 : 15 UTC
+  , issueUpdatedAt = 2014 (-09) (-25) 16 : 37 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1830/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1830")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1830
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ractive-events-tap to v0.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1830")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1830.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1830.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1830"
+  , issueCreatedAt = 2014 (-09) (-25) 16 : 36 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ractive-events-tap to v0.1.2.\n\n@ractivejs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ractive-events-tap\",\n    \"repo\": \"ractivejs/ractive-events-tap\",\n    \"files\": {\n      \"include\": [\"ractive-events-tap.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/ractive.events-tap\",\n    \"localVersions\": [\"0.1.1\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/ractive.events-tap/0.1.2\",\n  \"branch\": \"ractive-events-tap/v0.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 43939658
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

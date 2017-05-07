@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-10) 19 : 53 : 53 UTC
+  , issueUpdatedAt = 2014 (-07) (-10) 19 : 54 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1177/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1177")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1177
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3312990
+        , simpleUserLogin = N "darielnoel"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3312990?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/darielnoel"
+        }
+  , issueTitle = "V0.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1177")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1177.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1177.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1177"
+  , issueCreatedAt = 2014 (-07) (-10) 19 : 50 : 04 UTC
+  , issueBody =
+      Just
+        "- Adding css3 selector support\n- Add **onRunFinished** event\n  Read more [here](https://github.com/anijs/anijs/wiki/Listening-events-from-document-and-window#onrunfinished-event)\n"
+  , issueState = StateClosed
+  , issueId = Id 37598282
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

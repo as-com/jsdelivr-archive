@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-09) 15 : 14 : 49 UTC
+  , issueUpdatedAt = 2014 (-04) (-22) 09 : 42 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/615/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/615")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 615
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1215667
+        , simpleUserLogin = N "garybond"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1215667?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/garybond"
+        }
+  , issueTitle =
+      "Created versionless filesnames for jQuery 1.8.3, 1.9.0, 1.9.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/615")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/615.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/615.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/615"
+  , issueCreatedAt = 2014 (-04) (-09) 14 : 56 : 19 UTC
+  , issueBody = Just "To allow bundling URL to work\n"
+  , issueState = StateClosed
+  , issueId = Id 31164286
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

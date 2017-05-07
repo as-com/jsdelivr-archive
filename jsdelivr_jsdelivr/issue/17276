@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 17 : 38 : 14 UTC
+  , issueUpdatedAt = 2017 (-03) (-29) 17 : 38 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17276/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17276")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17276
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 21834
+        , simpleUserLogin = N "fk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/21834?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/fk"
+        }
+  , issueTitle = "Add select2-bootstrap-theme"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17276")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17276.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17276.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17276"
+  , issueCreatedAt = 2017 (-03) (-29) 15 : 05 : 08 UTC
+  , issueBody =
+      Just
+        "This (hopefully) adds select2-bootstrap-theme as requested in https://github.com/select2/select2-bootstrap-theme/issues/59"
+  , issueState = StateClosed
+  , issueId = Id 217907445
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

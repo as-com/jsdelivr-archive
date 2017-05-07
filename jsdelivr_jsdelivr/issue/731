@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-04) 18 : 51 : 19 UTC
+  , issueUpdatedAt = 2014 (-05) (-06) 16 : 56 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/731/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/731")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 731
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1920405
+        , simpleUserLogin = N "moderndeveloperllc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1920405?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/moderndeveloperllc"
+        }
+  , issueTitle = "Package aliasing"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/731"
+  , issueCreatedAt = 2014 (-04) (-30) 20 : 15 : 25 UTC
+  , issueBody =
+      Just
+        "Is there currently a solution for creating a package aliases? For instance, I just put in a pull request for jGrowl. The lib is in the repo as just jgrowl/ when it should probably be jquery.jgrowl/ as indicated by the repo's file names. Suggestions?\n"
+  , issueState = StateClosed
+  , issueId = Id 32569382
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

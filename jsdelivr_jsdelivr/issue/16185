@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-05) 19 : 04 : 44 UTC
+  , issueUpdatedAt = 2017 (-02) (-05) 19 : 04 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16185/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16185")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16185
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project lazyload.js to v1.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16185")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16185.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16185.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16185"
+  , issueCreatedAt = 2017 (-02) (-05) 19 : 04 : 40 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project lazyload.js to v1.0.3.\n\n@OscarDCorbalan\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"lazyload.js\",\n    \"repo\": \"OscarDCorbalan/lazyload.js\",\n    \"files\": {\n      \"include\": [\"lazyload.js\", \"lazyload.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/lazyload-js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/lazyload-js/update.json\",\n  \"versions\": [\"v1.0.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/lazyload-js/1.0.3\",\n  \"branch\": \"lazyload.js/v1.0.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 205445782
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-07) 21 : 06 : 08 UTC
+  , issueUpdatedAt = 2014 (-09) (-07) 21 : 25 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1660/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1660")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1660
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project devicons to 1.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1660")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1660.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1660.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1660"
+  , issueCreatedAt = 2014 (-09) (-07) 21 : 05 : 46 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project devicons to 1.6.0.\n\n@vorillaz\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"devicons\",\n    \"repo\": \"vorillaz/devicons\",\n    \"files\": {\n      \"include\": [\"./css/devicons.min.css\", \"./fonts/devicons.eot\", \"./fonts/devicons.svg\", \"./fonts/devicons.ttf\", \"./fonts/devicons.woff\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/devicons\",\n    \"localVersions\": [\"1.3.1\", \"1.4.0\", \"1.5.0\"],\n    \"remoteVersions\": [\"v1.1.0\", \"v1.2.0\", \"v1.3.0\", \"v1.3.1\", \"1.4.0\", \"1.5.0\", \"1.6.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.6.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/devicons/1.6.0\",\n  \"branch\": \"devicons/1.6.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 42152233
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

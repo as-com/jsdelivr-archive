@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-03) 07 : 51 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 123822
+        , simpleUserLogin = N "vvo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/123822?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vvo"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/89207682"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4121#issuecomment-89207682"
+  , issueCommentCreatedAt = 2015 (-04) (-03) 07 : 51 : 46 UTC
+  , issueCommentBody =
+      "Also, I pushed a tag https://github.com/algolia/algoliasearch-client-js/tree/2.9.5 and hoped it would also be pulled.\n\nBasically, I want to publish 3.0.5 and 2.9.5 to jsDelivr. We have v2 and v3 and both need to be updated.\n\nCan this be done?\n"
+  , issueCommentId = 89207682
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-06) 10 : 37 : 00 UTC
+  , issueUpdatedAt = 2017 (-04) (-06) 10 : 37 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17435/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17435")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17435
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tez to v2.7.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17435")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17435.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17435.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17435"
+  , issueCreatedAt = 2017 (-04) (-06) 10 : 36 : 56 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tez to v2.7.1.\n\n@dalisoft\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"tez\",\n    \"repo\": \"dalisoft/tez\",\n    \"files\": {\n      \"include\": [\"Tez.js\", \"Tez.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/tez.js\",\n    \"localVersions\": [\"2.3.42\", \"2.3.43\", \"2.3.44\", \"2.6.0\"],\n    \"remoteVersions\": [\"v2.3.42\", \"v2.3.43\", \"v2.3.44\", \"v2.6.0\", \"v2.7.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/tez.js/update.json\",\n  \"versions\": [\"v2.7.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.7.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/tez.js/2.7.1\",\n  \"branch\": \"tez/v2.7.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 219855557
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

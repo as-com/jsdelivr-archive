@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-30) 15 : 05 : 14 UTC
+  , issueUpdatedAt = 2014 (-10) (-30) 15 : 05 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2166/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2166")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2166
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4437052
+        , simpleUserLogin = N "avindiamanta"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4437052?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/avindiamanta"
+        }
+  , issueTitle = "Create tiffanystyle"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2166")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2166.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2166.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2166"
+  , issueCreatedAt = 2014 (-10) (-30) 15 : 04 : 20 UTC
+  , issueBody = Just "My first minimise style \n"
+  , issueState = StateClosed
+  , issueId = Id 47280836
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

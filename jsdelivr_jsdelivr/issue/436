@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-10) 00 : 00 : 19 UTC
+  , issueUpdatedAt = 2014 (-03) (-10) 00 : 00 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/436/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/436")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 436
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1915268
+        , simpleUserLogin = N "irazasyed"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1915268?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/irazasyed"
+        }
+  , issueTitle = "Add option to select a file in grouping"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/436"
+  , issueCreatedAt = 2014 (-03) (-09) 23 : 19 : 50 UTC
+  , issueBody =
+      Just
+        "Hello,\n\nI was trying the grouping feature today to save multiple calls (Very good stuff btw :+1:)\n\nAnd found there are 2 issues with this:\n1. Your system simply concatenates the main files without any knowledge of the type of file it is (CSS/JS). So if you load this link for example [normalize,jquery](http://cdn.jsdelivr.net/g/normalize,jquery) you can see, it loaded CSS and JS both in one which won't obviously work (How is the browser supposed to understand and execute?). I do understand that's not how we're supposed to use the grouping feature and as per the README, it is only for JS but even though it is for JS, how can i access other JS files within a project while grouping (other than main file)? And it would be good if it can support CSS as well.\n2. Some libraries have CSS files with JS file as their `mainfile` and vice-versa. So if you want to group a lib's CSS file with other CSS files, it isn't working the way it is supposed to work (assuming it should have supported CSS as some projects mainfile is CSS) and instead it loads the `mainfile` (In this case it loads JS file) which i have already explained above. Here's the [link](http://cdn.jsdelivr.net/g/normalize,jquery.owlcarousel) which I'm trying to load in which i just want to group second project's CSS file along with the first one, but it simply loads the main JS file, hence it fails.\n\nSo it would be good to have some sort of option to select single file of a project to group with other files and support for CSS too.\n\nThanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 29065515
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

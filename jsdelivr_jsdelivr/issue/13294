@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 25 : 16 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 25 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13294/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13294")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13294
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104853
+        , simpleUserLogin = N "gfronza"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/104853?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gfronza"
+        }
+  , issueTitle = "Changed repo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13294")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13294.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13294.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13294"
+  , issueCreatedAt = 2016 (-08) (-17) 18 : 15 : 25 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 171724866
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-23) 15 : 38 : 03 UTC
+  , issueUpdatedAt = 2016 (-09) (-23) 15 : 38 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13951/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13951")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13951
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 993318
+        , simpleUserLogin = N "douglasdeodato"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/993318?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/douglasdeodato"
+        }
+  , issueTitle = "Adding Files for Hosting"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13951")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13951.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13951.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13951"
+  , issueCreatedAt = 2016 (-09) (-23) 15 : 27 : 07 UTC
+  , issueBody = Just "Adding Files for Hosting\n"
+  , issueState = StateClosed
+  , issueId = Id 178906161
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

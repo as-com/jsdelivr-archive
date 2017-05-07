@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-09) 20 : 01 : 07 UTC
+  , issueUpdatedAt = 2016 (-10) (-09) 20 : 01 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14301/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14301")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14301
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15719096
+        , simpleUserLogin = N "sudheerkaku"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/15719096?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sudheerkaku"
+        }
+  , issueTitle =
+      "Merge remote-tracking branch 'refs/remotes/jsdelivr/master'"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14301")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14301.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14301.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14301"
+  , issueCreatedAt = 2016 (-10) (-09) 19 : 58 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 181907332
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

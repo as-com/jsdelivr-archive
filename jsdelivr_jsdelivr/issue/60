@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-07) (-25) 19 : 01 : 30 UTC
+  , issueUpdatedAt = 2013 (-09) (-13) 22 : 15 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/60/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/60")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 60
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2124755
+        , simpleUserLogin = N "isaumya"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2124755?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaumya"
+        }
+  , issueTitle = "add FV code highlighter"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/60")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/60.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/60.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/60"
+  , issueCreatedAt = 2013 (-07) (-25) 18 : 24 : 25 UTC
+  , issueBody =
+      Just
+        "I know this pull request have 2 commits, but really I dont have any other way to do this. Actually 1 commit is for .gitignore file, and this is really useful file, which automatically ignore the system file like thumb.db etc. This will also be really useful for other users too. I tried a lot to sent pull request with 1 commit, but I had to add .gitignore, otherwise windows by default add thumbs.db.\nIf you can , please accept this pull request, I assure you, from the next time, it will be 1 commit only, per pull request, cause there will no more .gitignore. Now its upto u. \n"
+  , issueState = StateClosed
+  , issueId = Id 17227055
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

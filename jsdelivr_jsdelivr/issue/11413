@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-03) 08 : 17 : 11 UTC
+  , issueUpdatedAt = 2016 (-05) (-03) 08 : 17 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11413/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11413")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11413
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project superfish to v1.7.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11413")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11413.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11413.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11413"
+  , issueCreatedAt = 2016 (-05) (-03) 04 : 04 : 34 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project superfish to v1.7.9.\n\n@joeldbirch\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"superfish\",\n    \"repo\": \"joeldbirch/superfish\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"./js/*.js\", \"./css/*.css\"],\n      \"exclude\": [\"./js/jquery.js\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/superfish\",\n    \"localVersions\": [\"1.4.8\", \"1.5.0\", \"1.5.1\", \"1.5.4\", \"1.7.2\", \"1.7.3\", \"1.7.4\", \"1.7.5\", \"1.7.6\", \"1.7.7\", \"1.7.8\"],\n    \"remoteVersions\": [\"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.4\", \"1.5.5\", \"1.5.6\", \"1.5.7\", \"1.5.8\", \"1.5.9\", \"1.5.10\", \"1.5.11\", \"1.5.12\", \"1.5.13\", \"1.6.0\", \"1.6.1\", \"1.6.2\", \"1.6.3\", \"1.6.4\", \"1.6.4.1\", \"1.6.5\", \"1.6.6\", \"1.6.7\", \"1.6.8\", \"1.6.9\", \"1.7\", \"1.7.0\", \"1.7.1\", \"1.7.2\", \"1.7.3\", \"1.7.4\", \"1.7.5\", \"1.7.6\", \"v1.7.7\", \"v1.7.8\", \"v1.7.9\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/superfish/update.json\",\n  \"versions\": [\"v1.7.9\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.7.9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/superfish/1.7.9\",\n  \"branch\": \"superfish/v1.7.9\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 152695652
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

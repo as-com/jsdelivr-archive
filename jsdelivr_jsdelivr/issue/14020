@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-29) 16 : 21 : 25 UTC
+  , issueUpdatedAt = 2016 (-09) (-29) 16 : 21 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14020/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14020")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14020
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10346004
+        , simpleUserLogin = N "etsms"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10346004?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/etsms"
+        }
+  , issueTitle = "Updates to 3.5.41"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14020")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14020.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14020.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14020"
+  , issueCreatedAt = 2016 (-09) (-27) 20 : 41 : 35 UTC
+  , issueBody =
+      Just
+        "- adds new visuals for the secure icon\n- adds new \"connection\" timeout for transvault devices\n"
+  , issueState = StateClosed
+  , issueId = Id 179607697
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

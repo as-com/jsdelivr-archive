@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-27) 00 : 38 : 05 UTC
+  , issueUpdatedAt = 2014 (-08) (-27) 00 : 38 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1541/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1541")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1541
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project requirejs-plugins to v1.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1541")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1541.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1541.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1541"
+  , issueCreatedAt = 2014 (-08) (-27) 00 : 36 : 29 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project requirejs-plugins to v1.0.2.\n\n@millermedeiros\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"requirejs-plugins\",\n    \"repo\": \"millermedeiros/requirejs-plugins\",\n    \"files\": {\n      \"basePath\": \"src/\",\n      \"include\": [\"*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/requirejs.plugins\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/requirejs.plugins/1.0.2\",\n  \"branch\": \"requirejs-plugins/v1.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 41238201
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-27) 16 : 44 : 00 UTC
+  , issueUpdatedAt = 2014 (-01) (-27) 17 : 40 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/304/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/304")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 304
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1443911
+        , simpleUserLogin = N "lpinca"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1443911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lpinca"
+        }
+  , issueTitle = "add bootstrap.datepicker-fork v1.3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/304")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/304.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/304.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/304"
+  , issueCreatedAt = 2014 (-01) (-26) 11 : 16 : 19 UTC
+  , issueBody =
+      Just
+        "Bump [bootstrap-datepicker-fork](https://github.com/eternicode/bootstrap-datepicker) to version 1.3.0\n"
+  , issueState = StateClosed
+  , issueId = Id 26311988
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

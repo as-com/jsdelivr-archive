@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-31) 16 : 53 : 17 UTC
+  , issueUpdatedAt = 2017 (-03) (-31) 16 : 53 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17323/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17323")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17323
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3490654
+        , simpleUserLogin = N "komikoni"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3490654?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/komikoni"
+        }
+  , issueTitle = "file name change"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17323")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17323.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17323.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17323"
+  , issueCreatedAt = 2017 (-03) (-31) 06 : 53 : 55 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 218413637
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

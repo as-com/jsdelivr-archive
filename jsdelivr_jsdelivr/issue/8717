@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-31) 17 : 16 : 45 UTC
+  , issueUpdatedAt = 2015 (-12) (-31) 17 : 16 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8717/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8717")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8717
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2044842
+        , simpleUserLogin = N "jlmakes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2044842?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jlmakes"
+        }
+  , issueTitle = "ScrollReveal Cleanup"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8717")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8717.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8717.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8717"
+  , issueCreatedAt = 2015 (-12) (-31) 04 : 40 : 27 UTC
+  , issueBody =
+      Just
+        "@jimaek I made the ideal changes I _think_\8212now you tell me, what is wrong with what I\8217m doing? Is there a way to see usage statistics to know how many users/sites would break by removing the inconsistently cased files from `2.3.2` ??\n"
+  , issueState = StateClosed
+  , issueId = Id 124431814
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

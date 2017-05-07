@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-11) (-29) 19 : 43 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/263676918"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15080#issuecomment-263676918"
+  , issueCommentCreatedAt = 2016 (-11) (-29) 19 : 43 : 49 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *mdbootstrap* between *4.1.1* and *4.2.0* there was a change in file structure  \n    ```diff\n    + bootstrap.css\n    + bootstrap.js\n    + bootstrap.min.css\n    + bootstrap.min.js\n    + jquery-2.2.3.js\n    + jquery-2.2.3.min.js\n    + mdb.css\n    + mdb.js\n    + mdb.min.css\n    + mdb.min.js\n    + tether.js\n    + tether.min.js\n    - css/bootstrap.css\n    - css/bootstrap.min.css\n    - css/mdb.css\n    - css/mdb.min.css\n    - css/style.css\n    - js/bootstrap.js\n    - js/bootstrap.min.js\n    - js/jquery-2.2.3.js\n    - js/jquery-2.2.3.min.js\n    - js/mdb.js\n    - js/mdb.min.js\n    - js/tether.js\n    - js/tether.min.js\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Practicality beats purity.*\n"
+  , issueCommentId = 263676918
+  }

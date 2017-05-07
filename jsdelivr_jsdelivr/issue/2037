@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-22) 15 : 07 : 46 UTC
+  , issueUpdatedAt = 2014 (-10) (-22) 15 : 07 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2037/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2037")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2037
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1017097
+        , simpleUserLogin = N "adamwardecki"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1017097?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/adamwardecki"
+        }
+  , issueTitle = "Added SyncanoJS library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2037")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2037.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2037.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2037"
+  , issueCreatedAt = 2014 (-10) (-16) 13 : 02 : 56 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 45982805
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

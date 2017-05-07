@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-18) 13 : 07 : 20 UTC
+  , issueUpdatedAt = 2014 (-04) (-18) 13 : 07 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/668/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/668")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 668
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 155787
+        , simpleUserLogin = N "passcod"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/155787?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/passcod"
+        }
+  , issueTitle = "Add jsdiff library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/668")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/668.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/668.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/668"
+  , issueCreatedAt = 2014 (-04) (-18) 12 : 38 : 46 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 31796687
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

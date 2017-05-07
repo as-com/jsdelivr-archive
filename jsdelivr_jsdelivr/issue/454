@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-14) 03 : 17 : 39 UTC
+  , issueUpdatedAt = 2014 (-03) (-14) 03 : 17 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/454/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/454")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 454
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1663355
+        , simpleUserLogin = N "danchleo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1663355?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/danchleo"
+        }
+  , issueTitle = "Add my file which need cdn"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/454")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/454.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/454.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/454"
+  , issueCreatedAt = 2014 (-03) (-14) 03 : 13 : 57 UTC
+  , issueBody = Just "Thank you  very much!!\n"
+  , issueState = StateClosed
+  , issueId = Id 29408290
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

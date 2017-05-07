@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 13 : 55 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 13 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9657/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9657")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9657
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1285326
+        , simpleUserLogin = N "leyanlo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1285326?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/leyanlo"
+        }
+  , issueTitle = "Add jquery.address"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9657")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9657.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9657.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9657"
+  , issueCreatedAt = 2016 (-02) (-09) 11 : 27 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 132395716
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

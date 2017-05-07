@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-20) 03 : 41 : 20 UTC
+  , issueUpdatedAt = 2014 (-10) (-20) 03 : 41 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2066/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2066")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2066
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1813359
+        , simpleUserLogin = N "malihu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1813359?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/malihu"
+        }
+  , issueTitle = "Updated jquery.mcustomscrollbar info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2066")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2066.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2066.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2066"
+  , issueCreatedAt = 2014 (-10) (-20) 03 : 39 : 24 UTC
+  , issueBody = Just "Updated plugin description\n"
+  , issueState = StateClosed
+  , issueId = Id 46228936
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

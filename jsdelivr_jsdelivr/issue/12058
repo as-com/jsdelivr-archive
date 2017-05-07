@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-08) 04 : 31 : 12 UTC
+  , issueUpdatedAt = 2016 (-06) (-08) 04 : 31 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12058/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12058")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12058
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8541602
+        , simpleUserLogin = N "itseasy21"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/8541602?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/itseasy21"
+        }
+  , issueTitle = "Added latest livefyre.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12058")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12058.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12058.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12058"
+  , issueCreatedAt = 2016 (-06) (-08) 04 : 29 : 33 UTC
+  , issueBody =
+      Just
+        "Added Latest livefyre.js from source : http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js\n"
+  , issueState = StateClosed
+  , issueId = Id 159076580
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

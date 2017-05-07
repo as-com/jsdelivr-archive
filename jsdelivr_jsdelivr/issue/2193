@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-02) 14 : 11 : 32 UTC
+  , issueUpdatedAt = 2014 (-11) (-02) 14 : 11 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2193/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2193")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2193
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project instafeed.js to v1.3.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2193")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2193.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2193.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2193"
+  , issueCreatedAt = 2014 (-11) (-02) 14 : 04 : 14 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project instafeed.js to v1.3.2.\n\n@stevenschobert\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"instafeed.js\",\n    \"repo\": \"stevenschobert/instafeed.js\",\n    \"files\": {\n      \"include\": [\"instafeed.min.js\", \"instafeed.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/instafeed.js\",\n    \"localVersions\": [\"1.2.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.1.0\", \"v1.2.0\", \"v1.2.1\", \"v1.3.0\", \"v1.3.1\", \"v1.3.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.3.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/instafeed.js/1.3.2\",\n  \"branch\": \"instafeed.js/v1.3.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 47537439
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-03) 18 : 21 : 39 UTC
+  , issueUpdatedAt = 2017 (-05) (-03) 18 : 21 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17846/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17846")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17846
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 12024823
+        , simpleUserLogin = N "mokazhar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/12024823?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mokazhar"
+        }
+  , issueTitle = "Add themify-icons version 1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17846")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17846.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17846.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17846"
+  , issueCreatedAt = 2017 (-04) (-28) 01 : 56 : 20 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 224959185
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

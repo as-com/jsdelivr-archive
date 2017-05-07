@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-10) 21 : 05 : 39 UTC
+  , issueUpdatedAt = 2014 (-04) (-10) 21 : 05 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/625/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/625")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 625
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3512672
+        , simpleUserLogin = N "DannyCork"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3512672?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DannyCork"
+        }
+  , issueTitle = "initial load of the codef lib"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/625")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/625.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/625.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/625"
+  , issueCreatedAt = 2014 (-04) (-10) 20 : 58 : 06 UTC
+  , issueBody =
+      Just
+        "codef lib\nhttp://codef.santo.fr/\nhttps://github.com/N0NameN0/CODEF\n"
+  , issueState = StateClosed
+  , issueId = Id 31281038
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

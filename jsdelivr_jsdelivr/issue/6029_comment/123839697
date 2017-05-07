@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-22) 19 : 40 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123839697"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123839697"
+  , issueCommentCreatedAt = 2015 (-07) (-22) 19 : 40 : 08 UTC
+  , issueCommentBody =
+      "Hacking jsDelivr is not such a minor issue as you describe \"unlucky during the period\". If that happens he WILL notice it. The easiest way will be to use SRI on our website. If the CDN gets hacked then our website breaks completely and nobody can generate new SRI. \nThis way nobody gets bad hashes and the old good hashes stop working. Everything works.\n\nBut like you said this is mostly for Wi-Fi snooping and other problems between the user and the CDN.\n"
+  , issueCommentId = 123839697
+  }

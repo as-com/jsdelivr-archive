@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-16) 17 : 45 : 04 UTC
+  , issueUpdatedAt = 2014 (-10) (-16) 17 : 45 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2038/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2038")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2038
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 354181
+        , simpleUserLogin = N "smiley"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/354181?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/smiley"
+        }
+  , issueTitle = "Add standard CORS headers to error responses"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2038"
+  , issueCreatedAt = 2014 (-10) (-16) 13 : 05 : 46 UTC
+  , issueBody =
+      Just
+        "When jsdelivr throws an error (like 404) due to [a badly formatted URL](http://cdn.jsdelivr.net/fonts/fontawesome-webfont.ttf?v=4.2.0), the response doesn't contain any CORS headers. This causes issues like in #2014 and #2018 to be masked by a CORS error in the browser. (Chrome doesn't even specify what caused the request -- a CSS reference in this case -- which hides the real problem even more)\n"
+  , issueState = StateClosed
+  , issueId = Id 45983065
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

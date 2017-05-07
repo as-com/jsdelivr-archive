@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-04) 07 : 43 : 19 UTC
+  , issueUpdatedAt = 2016 (-04) (-04) 07 : 43 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10806/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10806")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10806
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1325987
+        , simpleUserLogin = N "dancio"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1325987?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dancio"
+        }
+  , issueTitle = "New Syncano library with new naming"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10806")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10806.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10806.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10806"
+  , issueCreatedAt = 2016 (-04) (-04) 07 : 40 : 21 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nWhat was changed:\n- We are changing naming convention `syncanojs` -> `syncano` to be consistent with npm and python package\n- For now we need to support both names but after few months `syncanojs` will be removed\n- Added uncompressed version `syncano.js`\n- Added missing `map` files for release 1.0.x \n- `update.json` && `info.ini` cleanup (new description, files, author)\n"
+  , issueState = StateClosed
+  , issueId = Id 145609256
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

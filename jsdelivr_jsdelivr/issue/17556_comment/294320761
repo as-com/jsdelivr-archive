@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-04) (-15) 22 : 13 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6182099
+        , simpleUserLogin = N "felixsanz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6182099?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/felixsanz"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/294320761"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17556#issuecomment-294320761"
+  , issueCommentCreatedAt = 2017 (-04) (-15) 22 : 11 : 52 UTC
+  , issueCommentBody =
+      "@megawac There are files missing because of an error from myself. I updated the release (same tag/version). I've also created the above PR with the correct files in case manual intervention is needed. Please merge that one and close this. Thanks again"
+  , issueCommentId = 294320761
+  }

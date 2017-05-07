@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 26 : 11 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 26 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17032/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17032")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17032
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7145271
+        , simpleUserLogin = N "Laxenade"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7145271?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Laxenade"
+        }
+  , issueTitle = "Add iViewUI"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17032")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17032.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17032.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17032"
+  , issueCreatedAt = 2017 (-03) (-21) 07 : 29 : 33 UTC
+  , issueBody = Nothing
+  , issueState = StateClosed
+  , issueId = Id 215650047
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

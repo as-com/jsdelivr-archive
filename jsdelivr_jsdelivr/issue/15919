@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-24) 05 : 59 : 57 UTC
+  , issueUpdatedAt = 2017 (-01) (-24) 05 : 59 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15919/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15919")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15919
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5703402
+        , simpleUserLogin = N "yannickebongue"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5703402?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/yannickebongue"
+        }
+  , issueTitle = "Create project text-formatjs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15919")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15919.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15919.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15919"
+  , issueCreatedAt = 2017 (-01) (-23) 10 : 58 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 202503019
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

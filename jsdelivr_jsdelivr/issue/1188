@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-13) 15 : 59 : 31 UTC
+  , issueUpdatedAt = 2014 (-07) (-13) 15 : 59 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1188/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1188")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1188
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7024864
+        , simpleUserLogin = N "ahall-medullan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7024864?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ahall-medullan"
+        }
+  , issueTitle = "just to facilitate making a plugin..."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1188")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1188.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1188.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1188"
+  , issueCreatedAt = 2014 (-07) (-11) 20 : 31 : 04 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 37694787
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

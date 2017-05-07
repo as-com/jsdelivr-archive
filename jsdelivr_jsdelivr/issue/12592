@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-06) 21 : 04 : 41 UTC
+  , issueUpdatedAt = 2016 (-07) (-06) 21 : 04 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12592/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12592")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12592
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4764134
+        , simpleUserLogin = N "mbrambilla"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4764134?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mbrambilla"
+        }
+  , issueTitle = "figuration - update homepage url"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12592")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12592.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12592.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12592"
+  , issueCreatedAt = 2016 (-07) (-06) 19 : 07 : 01 UTC
+  , issueBody =
+      Just
+        "Changing from https://cast-org.github.io/figuration/\nto http://figuration.org\n"
+  , issueState = StateClosed
+  , issueId = Id 164150852
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

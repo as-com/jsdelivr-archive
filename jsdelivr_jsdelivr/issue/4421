@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-22) 16 : 03 : 47 UTC
+  , issueUpdatedAt = 2015 (-04) (-22) 16 : 03 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4421/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4421")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4421
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 355874
+        , simpleUserLogin = N "sancospi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/355874?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sancospi"
+        }
+  , issueTitle = "Updated to version 4.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4421")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4421.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4421.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4421"
+  , issueCreatedAt = 2015 (-04) (-20) 14 : 13 : 53 UTC
+  , issueBody = Just "Updated to version 4.4.0\n"
+  , issueState = StateClosed
+  , issueId = Id 69596409
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

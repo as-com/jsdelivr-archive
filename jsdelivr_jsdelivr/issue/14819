@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-11) (-16) 23 : 30 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14819/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/14819")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14819
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2893215
+        , simpleUserLogin = N "pmeisen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2893215?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pmeisen"
+        }
+  , issueTitle = "Files not found on \"https://cdn.jsdelivr.net/\""
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14819"
+  , issueCreatedAt = 2016 (-11) (-16) 23 : 30 : 37 UTC
+  , issueBody =
+      Just
+        "The version 1.0.6 of our library `breinify-api` was added to the GitHub repository, but if someone tries to use the version through https://cdn.jsdelivr.net/breinify-api/1.0.6/breinify-api.min.js or https://cdn.jsdelivr.net/breinify-api/1.0.6/breinify-api.js the system returns with \"File not found\".\r\n\r\nThe correct file is released in our GitHub and was correctly merged with the jsdelivr GitHub, see https://github.com/jsdelivr/jsdelivr/tree/master/files/breinify-api/1.0.6"
+  , issueState = StateOpen
+  , issueId = Id 189883509
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

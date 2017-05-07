@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-11) 15 : 05 : 37 UTC
+  , issueUpdatedAt = 2017 (-04) (-11) 15 : 05 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17457/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17457")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17457
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 440298
+        , simpleUserLogin = N "jhabdas"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/440298?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jhabdas"
+        }
+  , issueTitle = "Add ES2015 module bundle (unminified, for now)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17457")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17457.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17457.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17457"
+  , issueCreatedAt = 2017 (-04) (-07) 15 : 43 : 02 UTC
+  , issueBody = Just "Because Rich Harris"
+  , issueState = StateClosed
+  , issueId = Id 220251998
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

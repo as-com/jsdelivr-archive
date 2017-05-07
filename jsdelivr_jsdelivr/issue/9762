@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-15) 10 : 31 : 19 UTC
+  , issueUpdatedAt = 2016 (-02) (-15) 10 : 31 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9762/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9762")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9762
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project select2 to 4.0.2-rc.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9762")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9762.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9762.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9762"
+  , issueCreatedAt = 2016 (-02) (-14) 22 : 34 : 02 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project select2 to 4.0.2-rc.1.\n\n@select2\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"select2\",\n    \"repo\": \"select2/select2\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/select2\",\n    \"localVersions\": [\"3.2.0\", \"3.3.0\", \"3.3.1\", \"3.3.2\", \"3.4.0\", \"3.4.1\", \"3.4.2\", \"3.4.3\", \"3.4.4\", \"3.4.5\", \"3.4.6\", \"3.4.8\", \"3.5.1\", \"3.5.2\", \"4.0.0\", \"4.0.1-rc.1\", \"4.0.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"2.1.0\", \"3.0.0\", \"3.1.0\", \"3.2.0\", \"3.3.0\", \"3.3.1\", \"3.3.2\", \"3.4.0\", \"3.4.1\", \"3.4.2\", \"3.4.3\", \"3.4.4\", \"3.4.5\", \"3.4.6\", \"3.4.7\", \"3.4.8\", \"3.5.0\", \"3.5.1\", \"3.5.2\", \"3.5.3\", \"3.5.4\", \"4.0.0-beta.1\", \"4.0.0-beta.2\", \"4.0.0-beta.3\", \"4.0.0-rc.1\", \"4.0.0-rc.2\", \"4.0.0\", \"4.0.1-rc.1\", \"4.0.1\", \"4.0.2-rc.1\"],\n    \"branchVersions\": [\"4.0.0-rc.2\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/select2/update.json\",\n  \"versions\": [\"1.0.0\", \"2.1.0\", \"3.5.4\", \"4.0.2-rc.1\"],\n  \"updateRemote\": true,\n  \"version\": \"4.0.2-rc.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/select2/4.0.2-rc.1\",\n  \"branch\": \"select2/4.0.2-rc.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 133588045
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

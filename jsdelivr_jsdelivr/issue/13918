@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-30) 22 : 08 : 08 UTC
+  , issueUpdatedAt = 2016 (-10) (-01) 06 : 16 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13918/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13918")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13918
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 946315
+        , simpleUserLogin = N "Aymkdn"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/946315?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Aymkdn"
+        }
+  , issueTitle = "Provide the correct files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13918")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13918.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13918.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13918"
+  , issueCreatedAt = 2016 (-09) (-21) 22 : 37 : 12 UTC
+  , issueBody =
+      Just
+        "I've just found that I didn't provide the correct files to jsdelivr for v3.13 ... it was still an old version. So I'd like to overwrite the existing ones.\n"
+  , issueState = StateClosed
+  , issueId = Id 178479546
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

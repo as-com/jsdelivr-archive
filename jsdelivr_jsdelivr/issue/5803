@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-11) 16 : 06 : 10 UTC
+  , issueUpdatedAt = 2015 (-07) (-11) 16 : 06 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5803/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5803")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5803
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project leaflet.esri.heatmap-feature-layer to v1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5803")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5803.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5803.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5803"
+  , issueCreatedAt = 2015 (-07) (-11) 16 : 06 : 03 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project leaflet.esri.heatmap-feature-layer to v1.0.1.\n\n@esri\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"leaflet.esri.heatmap-feature-layer\",\n    \"repo\": \"esri/esri-leaflet-heatmap-feature-layer\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"exclude\": [\"README.md\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/jsdelivr/files/leaflet.esri.heatmap-feature-layer\",\n    \"localVersions\": [\"1.0.0-rc.4\", \"1.0.0\"],\n    \"remoteVersions\": [\"v1.0.0-rc.1\", \"v1.0.0-rc.2\", \"v1.0.0-rc.3\", \"v1.0.0-rc.4\", \"v1.0.0\", \"v1.0.1\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/leaflet.esri.heatmap-feature-layer/update.json\",\n  \"version\": \"v1.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/leaflet.esri.heatmap-feature-layer/1.0.1\",\n  \"branch\": \"leaflet.esri.heatmap-feature-layer/v1.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 94486028
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

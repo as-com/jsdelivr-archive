@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-01) 19 : 57 : 53 UTC
+  , issueUpdatedAt = 2016 (-08) (-01) 19 : 57 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12941/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12941")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12941
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8983200
+        , simpleUserLogin = N "gasparesganga"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/8983200?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gasparesganga"
+        }
+  , issueTitle = "Add jQuery PopupWindow"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12941")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12941.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12941.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12941"
+  , issueCreatedAt = 2016 (-07) (-27) 14 : 22 : 46 UTC
+  , issueBody =
+      Just
+        "- All the capabilities _(maximizing, minimizing, modal/non-modal, etc.)_ you would expect from a regular window and more _(collapsing, keepInViewport, animations, etc.)_\n- Exhaustive set of **Actions** to control it\n- Exhaustive set **Events** to interact with it\n- Fully CSS customizable\n- Low footprint and great performances\n\nSee [Release notes](http://gasparesganga.com/posts/jquery-popup-window-release/)\n"
+  , issueState = StateClosed
+  , issueId = Id 167866604
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

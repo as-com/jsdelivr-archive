@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-13) 19 : 28 : 01 UTC
+  , issueUpdatedAt = 2014 (-10) (-13) 19 : 28 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2006/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2006")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2006
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6397999
+        , simpleUserLogin = N "AlohafromHell"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6397999?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/AlohafromHell"
+        }
+  , issueTitle = "font-nanumlight"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2006")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2006.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2006.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2006"
+  , issueCreatedAt = 2014 (-10) (-13) 15 : 25 : 20 UTC
+  , issueBody =
+      Just "nanum fonts light weight version.\n(characters optimazed)\n"
+  , issueState = StateClosed
+  , issueId = Id 45654210
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-10) 05 : 45 : 59 UTC
+  , issueUpdatedAt = 2014 (-05) (-10) 05 : 46 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/783/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/783")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 783
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7540081
+        , simpleUserLogin = N "call2vn"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7540081?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/call2vn"
+        }
+  , issueTitle = "Create jquery.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/783")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/783.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/783.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/783"
+  , issueCreatedAt = 2014 (-05) (-10) 05 : 08 : 53 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 33228951
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

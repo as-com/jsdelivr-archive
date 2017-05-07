@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-01) 16 : 50 : 37 UTC
+  , issueUpdatedAt = 2014 (-10) (-01) 17 : 07 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1882/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1882")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1882
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "update angularjs v1.2.25 please"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1882"
+  , issueCreatedAt = 2014 (-10) (-01) 00 : 59 : 28 UTC
+  , issueBody =
+      Just
+        "https://github.com/angular/code.angularjs.org/tree/master/1.2.25 (latest stable)\nMy weak WiFi & other projects won't give me enough time.  There are no /releases to automate.\n(I don't need at this time, but I'm sure other users would appreciate)\n"
+  , issueState = StateClosed
+  , issueId = Id 44517627
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

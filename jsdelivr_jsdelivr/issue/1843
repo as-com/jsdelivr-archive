@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-27) 16 : 13 : 06 UTC
+  , issueUpdatedAt = 2014 (-09) (-27) 16 : 13 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1843/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1843")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1843
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5967570
+        , simpleUserLogin = N "yamaryu0508"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5967570?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/yamaryu0508"
+        }
+  , issueTitle = "add highmaps v1.0.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1843")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1843.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1843.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1843"
+  , issueCreatedAt = 2014 (-09) (-27) 14 : 48 : 44 UTC
+  , issueBody = Just "I'd like to new library, \"highmaps\"\n"
+  , issueState = StateClosed
+  , issueId = Id 44174968
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

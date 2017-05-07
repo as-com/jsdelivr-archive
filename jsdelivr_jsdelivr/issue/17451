@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-11) 15 : 05 : 20 UTC
+  , issueUpdatedAt = 2017 (-04) (-21) 08 : 40 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17451/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17451")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17451
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 426686
+        , simpleUserLogin = N "pkra"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/426686?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pkra"
+        }
+  , issueTitle = "create update.json for MathJax"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17451")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17451.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17451.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17451"
+  , issueCreatedAt = 2017 (-04) (-07) 10 : 49 : 17 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 220179280
+  , issueComments = 11
+  , issueMilestone = Nothing
+  }

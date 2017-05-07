@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-18) 10 : 11 : 43 UTC
+  , issueUpdatedAt = 2014 (-12) (-18) 10 : 11 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2767/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2767")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2767
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project video.js to 4.11.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2767")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2767.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2767.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2767"
+  , issueCreatedAt = 2014 (-12) (-18) 10 : 11 : 16 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project video.js to 4.11.2.\n\n@videojs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"video.js\",\n    \"repo\": \"videojs/video.js\",\n    \"files\": {\n      \"basePath\": \"dist/video-js/\",\n      \"include\": [\"video-js.css\", \"video-js.min.css\", \"video-js.swf\", \"video.dev.js\", \"video.js\", \"./lang/**/*\", \"./font/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/videojs\",\n    \"localVersions\": [\"3.2.0\", \"4.1.0\", \"4.2.1\", \"4.3.0\", \"4.4.3\", \"4.5.1\", \"4.6.0\", \"4.6.3\", \"4.7.2\", \"4.8.4\", \"4.10.2\", \"4.11.1\"],\n    \"remoteVersions\": [\"4.1.0\", \"4.2.0\", \"4.2.1\", \"4.2.2\", \"4.3.0\", \"4.4.0\", \"4.4.1\", \"4.4.2\", \"4.4.3\", \"4.5.0\", \"4.5.1\", \"4.5.2\", \"4.6.0\", \"4.6.1\", \"4.6.2\", \"4.6.3\", \"4.6.4\", \"4.7.0\", \"4.7.1\", \"4.7.2\", \"4.7.3\", \"4.8.0\", \"4.8.1\", \"4.8.2\", \"4.8.3\", \"4.8.4\", \"4.8.5\", \"4.9.0\", \"4.9.1\", \"4.10.0\", \"4.10.1\", \"4.10.2\", \"4.11.0\", \"4.11.1\", \"4.11.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"4.11.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/videojs/4.11.2\",\n  \"branch\": \"video.js/4.11.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 52345418
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-28) 20 : 37 : 30 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 20 : 37 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1048/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1048")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1048
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5982829
+        , simpleUserLogin = N "Todd-Werelius"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5982829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Todd-Werelius"
+        }
+  , issueTitle = "Submitting angular-all for review"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1048")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1048.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1048.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1048"
+  , issueCreatedAt = 2014 (-06) (-28) 20 : 36 : 22 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 36732941
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

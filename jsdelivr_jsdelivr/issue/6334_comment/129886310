@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-11) 13 : 59 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 95381
+        , simpleUserLogin = N "mstenta"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/95381?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mstenta"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/129886310"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6334#issuecomment-129886310"
+  , issueCommentCreatedAt = 2015 (-08) (-11) 13 : 59 : 01 UTC
+  , issueCommentBody =
+      "@drupol - I'm not sure that's possible with the ol3 Github, because the ./build folder doesn't exist in the repo. Only in the packaged released. Unless that's what jsDelivr is looking at... not sure...\n"
+  , issueCommentId = 129886310
+  }

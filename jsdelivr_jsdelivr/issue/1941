@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-12) 21 : 37 : 21 UTC
+  , issueUpdatedAt = 2014 (-10) (-12) 21 : 42 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1941/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1941")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1941
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 241725
+        , simpleUserLogin = N "neo22s"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/241725?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/neo22s"
+        }
+  , issueTitle = "sweetalert"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1941"
+  , issueCreatedAt = 2014 (-10) (-07) 10 : 48 : 16 UTC
+  , issueBody =
+      Just "Please add http://tristanedwards.me/sweetalert\n\nthanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 45093221
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

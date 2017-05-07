@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-08) 20 : 01 : 53 UTC
+  , issueUpdatedAt = 2016 (-01) (-08) 20 : 01 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8847/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8847")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8847
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 770982
+        , simpleUserLogin = N "coreybutler"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/770982?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coreybutler"
+        }
+  , issueTitle = "NGN Chassis Web Components Library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8847")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8847.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8847.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8847"
+  , issueCreatedAt = 2016 (-01) (-08) 17 : 51 : 56 UTC
+  , issueBody =
+      Just "The NGN Chassis web components library (JS and HTML).\n"
+  , issueState = StateClosed
+  , issueId = Id 125660040
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-26) 18 : 05 : 15 UTC
+  , issueUpdatedAt = 2015 (-10) (-26) 18 : 05 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7553/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7553")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7553
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project lunr.js to v0.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7553")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7553.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7553.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7553"
+  , issueCreatedAt = 2015 (-10) (-26) 18 : 05 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project lunr.js to v0.6.0.\n\n@olivernn\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"lunr.js\",\n    \"repo\": \"olivernn/lunr.js\",\n    \"files\": {\n      \"include\": [\"lunr.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/lunr\",\n    \"localVersions\": [\"0.5.3\", \"0.5.6\", \"0.5.7\", \"0.5.8\", \"0.5.9\", \"0.5.10\", \"0.5.11\", \"0.5.12\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.2.3\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\", \"v0.4.5\", \"v0.5.0\", \"v0.5.1\", \"v0.5.2\", \"v0.5.3\", \"v0.5.4\", \"v0.5.5\", \"v0.5.6\", \"v0.5.7\", \"v0.5.8\", \"v0.5.9\", \"v0.5.10\", \"v0.5.11\", \"v0.5.12\", \"v0.6.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/lunr/update.json\",\n  \"version\": \"v0.6.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/lunr/0.6.0\",\n  \"branch\": \"lunr.js/v0.6.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 113415618
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-23) 00 : 00 : 47 UTC
+  , issueUpdatedAt = 2015 (-06) (-23) 00 : 00 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2634/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2634")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2634
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "new web-animations"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2634")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2634.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2634.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2634"
+  , issueCreatedAt = 2014 (-12) (-07) 02 : 46 : 00 UTC
+  , issueBody =
+      Just
+        "Nope can't squish, so either let me do 2 commits, or you'll have to do them yourself.  sorry!\nhttps://github.com/jsdelivr/jsdelivr/pull/2628#issuecomment-65824473\n"
+  , issueState = StateClosed
+  , issueId = Id 51205056
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

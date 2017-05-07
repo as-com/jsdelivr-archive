@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-30) 21 : 48 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10674240
+        , simpleUserLogin = N "TheTannerRyan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/10674240?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/TheTannerRyan"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/87823070"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4082#issuecomment-87823070"
+  , issueCommentCreatedAt = 2015 (-03) (-30) 20 : 30 : 14 UTC
+  , issueCommentBody =
+      "It's now serving with the correct mimeType but is still very slow at loading, even after clearing my cache. \n\nUPDATE: I have removed the font from my website (for other reason), but you will not be able to test it there. I have also updated cyber-font to remove the WOFF2 issue at the moment so if you still want to troubleshoot this issue, make sure you do it with `cyber-font 3.0.0`.\n"
+  , issueCommentId = 87823070
+  }

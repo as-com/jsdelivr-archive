@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 02 : 39 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 02 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16180/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16180")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16180
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19478360
+        , simpleUserLogin = N "talonbragg"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/19478360?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/talonbragg"
+        }
+  , issueTitle = "Add Custom Markup"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16180")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16180.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16180.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16180"
+  , issueCreatedAt = 2017 (-02) (-05) 17 : 34 : 07 UTC
+  , issueBody = Just "Adding a new package"
+  , issueState = StateClosed
+  , issueId = Id 205439815
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

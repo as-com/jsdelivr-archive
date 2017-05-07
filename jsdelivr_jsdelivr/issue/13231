@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-14) 19 : 02 : 37 UTC
+  , issueUpdatedAt = 2016 (-08) (-14) 19 : 02 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13231/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13231")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13231
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-base-apps to v1.2.7-0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13231")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13231.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13231.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13231"
+  , issueCreatedAt = 2016 (-08) (-14) 19 : 02 : 30 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-base-apps to v1.2.7-0.\n\n@base-apps\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular-base-apps\",\n    \"repo\": \"base-apps/angular-base-apps\",\n    \"files\": {\n      \"include\": [\"dist/css/base-apps.css\", \"dist/css/base-apps.min.css\", \"dist/js/base-apps.js\", \"dist/js/base-apps.min.js\", \"dist/js/base-apps-templates.js\", \"dist/js/base-apps-templates.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular-base-apps\",\n    \"localVersions\": [\"1.2.5\", \"1.2.6\"],\n    \"remoteVersions\": [\"v1.2.1\", \"v1.2.2\", \"v1.2.3\", \"v1.2.4\", \"v1.2.5\", \"v1.2.6\", \"v1.2.7-0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular-base-apps/update.json\",\n  \"versions\": [\"v1.2.7-0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.2.7-0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular-base-apps/1.2.7-0\",\n  \"branch\": \"angular-base-apps/v1.2.7-0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 171073086
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

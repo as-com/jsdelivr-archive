@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-22) 10 : 32 : 52 UTC
+  , issueUpdatedAt = 2015 (-03) (-22) 10 : 33 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3951/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3951")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3951
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3066742
+        , simpleUserLogin = N "camelotceo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3066742?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/camelotceo"
+        }
+  , issueTitle = "Create jquery.rss.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3951")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3951.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3951.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3951"
+  , issueCreatedAt = 2015 (-03) (-22) 00 : 03 : 52 UTC
+  , issueBody =
+      Just
+        "adding jquery rss plugin from https://github.com/sdepold/jquery-rss\n"
+  , issueState = StateClosed
+  , issueId = Id 63468564
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

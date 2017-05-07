@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-22) 15 : 56 : 27 UTC
+  , issueUpdatedAt = 2017 (-02) (-22) 16 : 20 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16491/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16491")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16491
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16632552
+        , simpleUserLogin = N "tomsonpl"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16632552?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomsonpl"
+        }
+  , issueTitle = "syncano-client-js "
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16491")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16491.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16491.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16491"
+  , issueCreatedAt = 2017 (-02) (-22) 14 : 30 : 36 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 209470205
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

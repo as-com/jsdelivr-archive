@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-08) 18 : 31 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/73424154"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3379#issuecomment-73424154"
+  , issueCommentCreatedAt = 2015 (-02) (-08) 18 : 31 : 55 UTC
+  , issueCommentBody =
+      "How about removing `reflux.js` from the PR and specifying the min file in update.json? I dont think we need the unminified file in production\n"
+  , issueCommentId = 73424154
+  }

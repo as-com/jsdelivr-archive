@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-09) 16 : 22 : 34 UTC
+  , issueUpdatedAt = 2014 (-09) (-09) 16 : 31 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1683/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1683")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1683
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1935696
+        , simpleUserLogin = N "karlhorky"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1935696?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/karlhorky"
+        }
+  , issueTitle = "Add version 1.3.5 of jquery.gray"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1683")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1683.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1683.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1683"
+  , issueCreatedAt = 2014 (-09) (-09) 10 : 26 : 36 UTC
+  , issueBody =
+      Just
+        "Auto-update [isn't working quite yet](https://github.com/jsdelivr/jsdelivr/pull/1635#issuecomment-54724232), so opening this pull request manually.\n"
+  , issueState = StateClosed
+  , issueId = Id 42291565
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

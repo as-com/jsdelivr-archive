@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-28) 07 : 33 : 34 UTC
+  , issueUpdatedAt = 2016 (-04) (-28) 07 : 33 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11332/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11332")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11332
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project js-data-http to 3.0.0-beta.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11332")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11332.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11332.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11332"
+  , issueCreatedAt = 2016 (-04) (-28) 07 : 33 : 30 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project js-data-http to 3.0.0-beta.3.\n\n@js-data\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"js-data-http\",\n    \"repo\": \"js-data/js-data-http\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"js-data-http.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/js-data-http\",\n    \"localVersions\": [\"1.2.3\", \"2.0.0-beta.2\", \"2.0.0-beta.3\", \"2.0.0-rc.1\", \"2.0.0\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"3.0.0-beta.1\", \"3.0.0-beta.2\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.2.0\", \"0.3.0\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.4.3\", \"1.0.0-alpha.1\", \"1.0.0-alpha.2\", \"1.0.0-alpha.3\", \"1.0.0-alpha.4\", \"1.0.0-alpha.5\", \"1.0.0-alpha.6\", \"1.0.0-beta.1\", \"1.0.0-beta.2\", \"1.0.0\", \"1.1.0\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"2.0.0-beta.1\", \"2.0.0-beta.2\", \"2.0.0-beta.3\", \"2.0.0-rc.1\", \"2.0.0\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"3.0.0-alpha.1\", \"3.0.0-alpha.2\", \"3.0.0-alpha.3\", \"3.0.0-alpha.4\", \"3.0.0-alpha.5\", \"3.0.0-alpha.6\", \"3.0.0-alpha.8\", \"3.0.0-alpha.9\", \"3.0.0-beta.1\", \"3.0.0-beta.2\", \"3.0.0-beta.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/js-data-http/update.json\",\n  \"versions\": [\"3.0.0-beta.3\"],\n  \"updateRemote\": true,\n  \"version\": \"3.0.0-beta.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/js-data-http/3.0.0-beta.3\",\n  \"branch\": \"js-data-http/3.0.0-beta.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 151568837
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

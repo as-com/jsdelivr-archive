@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-20) 18 : 34 : 20 UTC
+  , issueUpdatedAt = 2014 (-11) (-20) 18 : 34 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2441/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2441")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2441
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project pusher-angular to 0.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2441")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2441.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2441.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2441"
+  , issueCreatedAt = 2014 (-11) (-20) 18 : 31 : 57 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project pusher-angular to 0.1.2.\n\n@pusher\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"pusher-angular\",\n    \"repo\": \"pusher/pusher-angular\",\n    \"files\": {\n      \"basePath\": \"lib/\",\n      \"include\": [\"pusher-angular.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular.pusher\",\n    \"localVersions\": [\"0.1.1\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.pusher/0.1.2\",\n  \"branch\": \"pusher-angular/0.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 49600023
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

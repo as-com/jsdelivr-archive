@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-09) 04 : 03 : 44 UTC
+  , issueUpdatedAt = 2017 (-01) (-09) 04 : 03 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15678/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15678")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15678
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2214504
+        , simpleUserLogin = N "ecarriou"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2214504?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ecarriou"
+        }
+  , issueTitle = "Update project system-runtime"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15678")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15678.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15678.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15678"
+  , issueCreatedAt = 2017 (-01) (-07) 23 : 24 : 04 UTC
+  , issueBody = Just "* Update GitHub repository links."
+  , issueState = StateClosed
+  , issueId = Id 199391445
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

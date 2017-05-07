@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-26) 13 : 25 : 40 UTC
+  , issueUpdatedAt = 2014 (-07) (-07) 05 : 28 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/391/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/391")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 391
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1219661
+        , simpleUserLogin = N "charsleysa"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1219661?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/charsleysa"
+        }
+  , issueTitle = "Updated Zero.js to version 1.3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/391")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/391.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/391.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/391"
+  , issueCreatedAt = 2014 (-02) (-26) 12 : 16 : 56 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 28328926
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-12) 17 : 51 : 47 UTC
+  , issueUpdatedAt = 2016 (-08) (-12) 17 : 51 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13182/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13182")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13182
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8029346
+        , simpleUserLogin = N "Jeiwan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8029346?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Jeiwan"
+        }
+  , issueTitle = "selectize.js: update repo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13182")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13182.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13182.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13182"
+  , issueCreatedAt = 2016 (-08) (-10) 23 : 20 : 49 UTC
+  , issueBody = Just "The project moved to another repo.\n"
+  , issueState = StateClosed
+  , issueId = Id 170541225
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

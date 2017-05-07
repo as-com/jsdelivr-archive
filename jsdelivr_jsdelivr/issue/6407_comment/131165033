@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-14) 16 : 10 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 351902
+        , simpleUserLogin = N "markcarver"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/351902?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/markcarver"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/131165033"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6407#issuecomment-131165033"
+  , issueCommentCreatedAt = 2015 (-08) (-14) 16 : 10 : 34 UTC
+  , issueCommentBody =
+      "@jimaek, this looks much, much better :) We're definitely getting really close.\n\nThis PR has brought up three major concerns/inconsistencies for me:\n1. Older/all versions are not picked up. I'm not sure what the problem is on this one. You will notice that https://github.com/thomaspark/bootswatch/tree/v3.0.2 exists, but is not in https://github.com/jsdelivr/jsdelivr/tree/master/files/bootswatch. At first I thought it was just because the bot only checks what has changed past the latest version in the repo. However, if this were the case, it should have picked up version 3.3.4 in this PR, but it did not. Why not?\n2. The \"amelia\" theme was removed in 3.3.0 (and subsequently all versions moving forward), yet currently exists in version 3.3.2 of jsDelivr's copy: https://github.com/jsdelivr/jsdelivr/tree/master/files/bootswatch/3.3.2/amelia. As you can see, there is no \"amelia\" at the source: https://github.com/thomaspark/bootswatch/tree/v3.3.2.\n3. I originally didn't exclude the source files was because they already exist in existing jsDevlir/boowswatch folders, see: https://github.com/jsdelivr/jsdelivr/tree/master/files/bootswatch/3.0.0/cerulean (which contains bootswatch.less, index.html, thumbnail.png and variables.less). However, I would imagine that these should also be excluded (if needed, they should be using the source to begin with).\n\nDue to the previous manual iterations of this project on jsDelivr, would it make more sense to just remove the existing versions/folder and let the bot populate everything automatically to remedy these inconsistencies?\n"
+  , issueCommentId = 131165033
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-12) 17 : 53 : 36 UTC
+  , issueUpdatedAt = 2016 (-08) (-12) 17 : 53 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13164/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13164")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13164
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8983200
+        , simpleUserLogin = N "gasparesganga"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/8983200?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gasparesganga"
+        }
+  , issueTitle = "Add jQuery MessageBox"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13164")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13164.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13164.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13164"
+  , issueCreatedAt = 2016 (-08) (-09) 16 : 25 : 02 UTC
+  , issueBody =
+      Just
+        "### jQuery MessageBox\n- Substitutes Javascript's window.alert(), window.confirm() and window.prompt() functions\n- Implements [jQuery Promise interface](https://api.jquery.com/category/deferred-object/)\n- Customizable [buttons](http://gasparesganga.com/labs/jquery-message-box/#custom-buttons-configuration) and [inputs](http://gasparesganga.com/labs/jquery-message-box/#custom-inputs-configuration)\n- Flexible _message-queue_\n- Fully CSS customizable\n\nSee [documentation and demos](http://gasparesganga.com/labs/jquery-message-box/)\n"
+  , issueState = StateClosed
+  , issueId = Id 170210822
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

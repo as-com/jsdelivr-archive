@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-29) 09 : 22 : 44 UTC
+  , issueUpdatedAt = 2015 (-10) (-29) 09 : 22 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7618/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7618")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7618
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 119184
+        , simpleUserLogin = N "samthor"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/119184?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/samthor"
+        }
+  , issueTitle = "Include *.min.js.map files for browser debugging"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7618")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7618.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7618.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7618"
+  , issueCreatedAt = 2015 (-10) (-28) 23 : 16 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 113945836
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

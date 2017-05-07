@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-26) 12 : 38 : 16 UTC
+  , issueUpdatedAt = 2017 (-04) (-26) 12 : 38 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17807/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17807")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17807
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 187350
+        , simpleUserLogin = N "sutara79"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/187350?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sutara79"
+        }
+  , issueTitle = "Create update.json of jquery.simple-scroll-follow"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17807")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17807.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17807.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17807"
+  , issueCreatedAt = 2017 (-04) (-26) 05 : 31 : 58 UTC
+  , issueBody =
+      Just "I want to update my plugin at jsdelivr to v3.0.0."
+  , issueState = StateClosed
+  , issueId = Id 224347895
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

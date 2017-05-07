@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-13) 23 : 36 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/147884583"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/7372#issuecomment-147884583"
+  , issueCommentCreatedAt = 2015 (-10) (-13) 23 : 36 : 20 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n- Might be nothing but I have some concerns about the files in your submission...  \n  - Expected _rx.js_ to be static content; found binary\n  - Expected _rx.lite.compat.js_ to be static content; found binary\n  - Expected _rx.lite.compat.min.js_ to be static content; found binary\n  - Expected _rx.lite.extras.compat.js_ to be static content; found binary\n  - Expected _rx.lite.extras.compat.min.js_ to be static content; found binary\n  - Expected _rx.lite.extras.js_ to be static content; found binary\n  - Expected _rx.lite.extras.min.js_ to be static content; found binary\n  - Expected _rx.lite.js_ to be static content; found binary\n  - Expected _rx.lite.min.js_ to be static content; found binary\n  - Expected _rx.min.js_ to be static content; found binary\n  - Expected _rx.sorting.js_ to be static content; found binary\n  - Expected _rx.sorting.min.js_ to be static content; found binary\n  - Expected _rx.testing.js_ to be static content; found binary\n  - Expected _rx.testing.min.js_ to be static content; found binary\n  - Expected _rx.time.js_ to be static content; found binary\n  - Expected _rx.time.min.js_ to be static content; found binary\n  - Expected _rx.virtualtime.js_ to be static content; found binary\n  - Expected _rx.virtualtime.min.js_ to be static content; found binary\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Non-blocking is better than blocking._\n"
+  , issueCommentId = 147884583
+  }

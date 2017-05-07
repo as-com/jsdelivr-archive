@@ -1,0 +1,22 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-22) 20 : 53 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 338988
+        , simpleUserLogin = N "jonathanKingston"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/338988?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/jonathanKingston"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123859145"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123859145"
+  , issueCommentCreatedAt = 2015 (-07) (-22) 20 : 53 : 09 UTC
+  , issueCommentBody =
+      "A developer in x country could have key loggers injected into all code on their site from their local CDN servers because x country doesn't like user privacy.\n- Users in x country have key logged code\n- Developer in x country thinks things are fine\n- All other users around the globe have a broken site\n\nPredicting the hacks of tomorrow is hard. If this could be done correctly, the likelihood would be reduced.\n\nPerhaps @fmarier or @mozfreddyb might be able to provide more help here.\n"
+  , issueCommentId = 123859145
+  }

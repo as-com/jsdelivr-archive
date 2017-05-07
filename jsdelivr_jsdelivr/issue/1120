@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-08) 16 : 48 : 38 UTC
+  , issueUpdatedAt = 2014 (-07) (-08) 16 : 48 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1120/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1120")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1120
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5982829
+        , simpleUserLogin = N "Todd-Werelius"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5982829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Todd-Werelius"
+        }
+  , issueTitle = "Angular.all"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1120"
+  , issueCreatedAt = 2014 (-07) (-05) 06 : 52 : 04 UTC
+  , issueBody =
+      Just
+        "I noticed that the bot picked up v 1.3.0-beta.14 but did not pick up 1.2.19 ( latest stable )\n\n1.2.19 is released/tagged\n\nI also noticed on the main web site it's still showing 1.3.0-beta.13 as the latest vs. 1.3.0=beta.14 \n\nNot sure how the bot 'updates' things, should I just submit a pull request to get everything up to date?\n"
+  , issueState = StateClosed
+  , issueId = Id 37193629
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

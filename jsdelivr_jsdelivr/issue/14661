@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-05) 19 : 02 : 48 UTC
+  , issueUpdatedAt = 2016 (-11) (-05) 19 : 02 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14661/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14661")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14661
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project blocksovetnik to 1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14661")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14661.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14661.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14661"
+  , issueCreatedAt = 2016 (-11) (-05) 19 : 02 : 44 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project blocksovetnik to 1.0.0.\n\n@nofuel\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"blocksovetnik\",\n    \"repo\": \"nofuel/blocksovetnik\",\n    \"files\": {\n      \"include\": [\"lib/bs.min.js\", \"lib/bs.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/blocksovetnik\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/blocksovetnik/update.json\",\n  \"versions\": [\"1.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/blocksovetnik/1.0.0\",\n  \"branch\": \"blocksovetnik/1.0.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 187516123
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

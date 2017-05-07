@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-27) 11 : 21 : 36 UTC
+  , issueUpdatedAt = 2017 (-02) (-27) 11 : 21 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16591/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16591")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16591
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 22114845
+        , simpleUserLogin = N "dimitrigq"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/22114845?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dimitrigq"
+        }
+  , issueTitle = "Create HYPE-552.thin.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16591")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16591.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16591.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16591"
+  , issueCreatedAt = 2017 (-02) (-27) 10 : 57 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 210450991
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

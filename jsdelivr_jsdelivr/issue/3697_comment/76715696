@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-02) 14 : 00 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 207487
+        , simpleUserLogin = N "iskitz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/207487?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/iskitz"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/76715696"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3697#issuecomment-76715696"
+  , issueCommentCreatedAt = 2015 (-03) (-02) 14 : 00 : 22 UTC
+  , issueCommentBody =
+      "@jimaek: Please merge these changes. Here's my response to @jsdelivrbot's comment:\n\n> There are some fundamental issues with your PR :no_good:\n> - You appear to be changing the file contents of _index.js_ in _<version-directory>_!\n\nThe `index.js` script in each version directory is a helper script that **ajile** automatically loads; it doesn't provide ajile APIs so modifying it doesn't negatively affect users. I've modified `index.js` to notify developers that it was auto-loaded by **ajile** and to provide them with information about how to use or disable auto-loading.\n\n> Looks like the info.ini has a few problems\n> - Where is the ajile's mainfile (_com.iskitz.ajile.js_) in v-_0.9.1_\n\nI've added that missing file. You can view it [here](https://github.com/iskitz/jsdelivr/blob/9099c27b462efa0060f8f094c65f77ec534a7cd2/files/ajile/0.9.1/com.iskitz.ajile.js) in this PR's changeset.\n\n> We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...\n> - In _ajile_ between _a.b.c_ and _x.y.z_ there was a change in file structure\n\nThere are no directory structure changes. I removed `com.iskitz.ajile.src.js` from the `0.5.5` directory because it was mistakenly added in the initial commit. The content of every other version directory is what it was in the original commit.\n\nThanks!\n"
+  , issueCommentId = 76715696
+  }

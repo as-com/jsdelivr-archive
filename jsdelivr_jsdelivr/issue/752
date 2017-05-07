@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-06) 14 : 55 : 08 UTC
+  , issueUpdatedAt = 2014 (-05) (-06) 14 : 55 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/752/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/752")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 752
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add skrollr v0.6.24"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/752")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/752.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/752.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/752"
+  , issueCreatedAt = 2014 (-05) (-06) 13 : 30 : 04 UTC
+  , issueBody =
+      Just
+        "source : https://github.com/Prinzhorn/skrollr/archive/0.6.24.tar.gz\n"
+  , issueState = StateClosed
+  , issueId = Id 32892183
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

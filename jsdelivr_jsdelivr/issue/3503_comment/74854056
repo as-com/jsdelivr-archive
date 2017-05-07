@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-18) 12 : 07 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1876045
+        , simpleUserLogin = N "orweinberger"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1876045?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/orweinberger"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/74854056"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3503#issuecomment-74854056"
+  , issueCommentCreatedAt = 2015 (-02) (-18) 12 : 07 : 57 UTC
+  , issueCommentBody =
+      "@jimaek Thanks for the merge. How does the build process for jsdelivr.com work? How soon should I expect to see this live in the CDN?\n"
+  , issueCommentId = 74854056
+  }

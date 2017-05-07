@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-06) 14 : 33 : 06 UTC
+  , issueUpdatedAt = 2014 (-07) (-06) 14 : 33 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1132/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1132")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1132
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 537127
+        , simpleUserLogin = N "englishextra"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/537127?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/englishextra"
+        }
+  , issueTitle = "Add update json typeboost.css 2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1132")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1132.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1132.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1132"
+  , issueCreatedAt = 2014 (-07) (-06) 12 : 57 : 52 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 37218780
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

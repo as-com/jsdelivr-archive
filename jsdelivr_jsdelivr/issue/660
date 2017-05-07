@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-15) 20 : 18 : 39 UTC
+  , issueUpdatedAt = 2014 (-04) (-15) 20 : 18 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/660/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/660")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 660
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7112345
+        , simpleUserLogin = N "codingfriend1"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7112345?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/codingfriend1"
+        }
+  , issueTitle = "Flexgrid 1.4.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/660")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/660.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/660.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/660"
+  , issueCreatedAt = 2014 (-04) (-15) 20 : 18 : 05 UTC
+  , issueBody =
+      Just
+        "Removed a bug from the javascript equal heights function where\nsetHeights() wouldn't call at the end of each parent. Applied support\nfor non javascript browsers.\n"
+  , issueState = StateClosed
+  , issueId = Id 31587195
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

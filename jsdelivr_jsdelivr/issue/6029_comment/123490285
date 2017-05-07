@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-21) 22 : 01 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123490285"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123490285"
+  , issueCommentCreatedAt = 2015 (-07) (-21) 22 : 01 : 04 UTC
+  , issueCommentBody =
+      "This is static\nhttp://cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js\n\nThis is dynamic\nhttp://cdn.jsdelivr.net/jquery/2.1/jquery.min.js (latest in 2.1.x version)\nhttp://cdn.jsdelivr.net/jquery/2/jquery.min.js (latest in 2.x.x version)\nhttp://cdn.jsdelivr.net/jquery/latest/jquery.min.js (latest)\nhttp://cdn.jsdelivr.net/g/underscorejs@1.5.2,restangular@1.2.2 (combined)\n"
+  , issueCommentId = 123490285
+  }

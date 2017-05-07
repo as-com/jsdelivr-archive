@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-19) 23 : 33 : 16 UTC
+  , issueUpdatedAt = 2017 (-02) (-19) 23 : 33 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16441/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16441")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16441
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project clusterize.js to v0.17.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16441")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16441.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16441.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16441"
+  , issueCreatedAt = 2017 (-02) (-19) 23 : 33 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project clusterize.js to v0.17.4.\n\n@NeXTs\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"clusterize.js\",\n    \"repo\": \"NeXTs/Clusterize.js\",\n    \"files\": {\n      \"include\": [\"clusterize.min.js\", \"clusterize.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/clusterize.js\",\n    \"localVersions\": [\"0.7.0\", \"0.7.1\", \"0.8.0\", \"0.8.2\", \"0.9.0\", \"0.10.0\", \"0.11.0\", \"0.12.0\", \"0.13.0\", \"0.14.0\", \"0.15.0\", \"0.16.0\", \"0.16.1\", \"0.17.0\", \"0.17.1\", \"0.17.2\", \"0.17.3\"],\n    \"remoteVersions\": [\"v0.0.2\", \"v0.2.0\", \"v0.3.1\", \"v0.4.0\", \"v0.4.1\", \"v0.5.0\", \"v.0.6.0\", \"v0.7.0\", \"v0.7.1\", \"v0.8.0\", \"v0.8.2\", \"v0.9.0\", \"v0.10.0\", \"v0.11.0\", \"v0.12.0\", \"v0.13.0\", \"v0.14.0\", \"v0.15.0\", \"v0.16.0\", \"v0.16.1\", \"v0.17.0\", \"v0.17.1\", \"v0.17.2\", \"v0.17.3\", \"v0.17.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/clusterize.js/update.json\",\n  \"versions\": [\"v0.17.4\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.17.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/clusterize.js/0.17.4\",\n  \"branch\": \"clusterize.js/v0.17.4\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 208756346
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

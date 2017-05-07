@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-24) 17 : 12 : 20 UTC
+  , issueUpdatedAt = 2014 (-07) (-16) 11 : 05 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/500/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/500")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 500
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 170002
+        , simpleUserLogin = N "ericbuckley"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/170002?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ericbuckley"
+        }
+  , issueTitle =
+      "Multiple file CSS requests, will not properly load assets"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/500"
+  , issueCreatedAt = 2014 (-03) (-23) 15 : 53 : 00 UTC
+  , issueBody =
+      Just
+        "Issuing a request for a single CSS file that references fonts or images using `url`, will correctly download those assets when they are needed.  However if you issue the request using the multiple file structure, those assets will not be retrieved.\n\nFor example the following code, properly displays the bootstrap search icon.\nhttps://gist.github.com/ericbuckley/825b5d481d9c1c583a8a\n\nHowever this does not.\nhttps://gist.github.com/ericbuckley/ba51b341ed87e1818321\n"
+  , issueState = StateClosed
+  , issueId = Id 29989964
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

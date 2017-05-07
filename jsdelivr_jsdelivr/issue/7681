@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-21) 22 : 02 : 03 UTC
+  , issueUpdatedAt = 2015 (-12) (-21) 22 : 02 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7681/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/7681")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7681
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4747021
+        , simpleUserLogin = N "mjau-mjau"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4747021?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mjau-mjau"
+        }
+  , issueTitle = "Your connection is not private + no Gzip"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7681"
+  , issueCreatedAt = 2015 (-11) (-01) 05 : 35 : 01 UTC
+  , issueBody =
+      Just
+        "Today, I am getting \"Your connection is not private\", which has basically broken our app, at least from this location.\n\n![connection](http://d.pr/i/158vi+)\n\nAlso, we are intermittently getting uncompressed outputs. Perhaps only from combined files, but that would be quite counter-productive nevertheless:\n\n![no-compression](http://d.pr/i/1eXRh+)\n![response](http://d.pr/i/uyum+)\n\nThe other day, traceroute to jsdeliver was all over the place, hopping from Thailand-HK-SG-HK-Australia. Today, it seems really good, and it seems you have POP servers in Bangkok now? Thus, speeds are excellent, although the issues with gzip and ssl are kinda critical. Here is my traceroute:\n\n```\ntraceroute cdn.jsdelivr.net\ntraceroute: Warning: cdn.jsdelivr.net has multiple addresses; using 61.90.241.25\ntraceroute to 1stapacsniwebmw.dtwscache.speedcdns.com (61.90.241.25), 64 hops max, 52 byte packets\n 1  10.0.1.1 (10.0.1.1)  1.336 ms  1.275 ms  1.241 ms\n 2  192.168.1.1 (192.168.1.1)  2.186 ms  1.661 ms  1.611 ms\n 3  119.42.80.1 (119.42.80.1)  25.878 ms  26.513 ms  25.837 ms\n 4  110.78.190.110 (110.78.190.110)  40.808 ms  42.427 ms  39.870 ms\n 5  110.78.188.2 (110.78.188.2)  41.815 ms  41.885 ms  42.524 ms\n 6  122.155.254.73 (122.155.254.73)  40.093 ms  39.727 ms  40.539 ms\n 7  122.155.254.50 (122.155.254.50)  39.720 ms\n    122.155.254.38 (122.155.254.38)  42.614 ms  46.516 ms\n 8  61-91-213-198.static.asianet.co.th (61.91.213.198)  41.370 ms  40.468 ms  40.139 ms\n 9  61-90-241-25.static.asianet.co.th (61.90.241.25)  42.263 ms  41.545 ms  40.118 ms\n```\n\nHere are results from debug-tool:\nhttp://goo.gl/cAJLbc\n\nReally like the idea of jsdelivr, especially the the widespread locations/pops and combining files. However, it seems a bit counter-productive with some of the issues above. I could solve the SSL issue by adding protocol-relative paths of course, but would prefer to avoid that.\n"
+  , issueState = StateClosed
+  , issueId = Id 114451662
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

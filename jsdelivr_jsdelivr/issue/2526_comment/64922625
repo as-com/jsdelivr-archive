@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-28) 19 : 17 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64922625"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2526#issuecomment-64922625"
+  , issueCommentCreatedAt = 2014 (-11) (-28) 19 : 17 : 20 UTC
+  , issueCommentBody =
+      "if they test for https connection, they need to use ssl cert with same CA or wildcard/SAN SSL.(because of ocsp performance) \n"
+  , issueCommentId = 64922625
+  }

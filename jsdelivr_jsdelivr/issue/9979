@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-23) 12 : 17 : 16 UTC
+  , issueUpdatedAt = 2016 (-02) (-23) 12 : 17 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9979/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9979")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9979
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jcanvas to 16.02.09"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9979")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9979.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9979.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9979"
+  , issueCreatedAt = 2016 (-02) (-23) 12 : 17 : 09 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jcanvas to 16.02.09.\n\n@caleb531\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jcanvas\",\n    \"repo\": \"caleb531/jcanvas\",\n    \"files\": {\n      \"include\": [\"jcanvas.js\", \"jcanvas.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.jcanvas\",\n    \"localVersions\": [\"13.01.19\", \"13.04.26\", \"13.11.21\", \"14.11.25\", \"15.12.12\"],\n    \"remoteVersions\": [\"13.11.08\", \"13.11.17\", \"13.11.19\", \"13.11.21\", \"14.01.01\", \"14.01.07\", \"14.01.12\", \"14.01.21\", \"14.01.22\", \"14.03.01\", \"14.03.09\", \"14.03.14\", \"14.03.19\", \"14.03.20\", \"14.03.27\", \"14.04.14\", \"14.04.22\", \"14.05.09\", \"14.05.10\", \"14.05.12\", \"14.05.15\", \"14.05.20\", \"14.06.06\", \"14.07.04\", \"14.07.16\", \"14.08.07\", \"14.08.15\", \"14.08.16\", \"14.08.25\", \"14.09.14\", \"14.09.27\", \"14.10.16\", \"14.11.19\", \"14.11.24\", \"14.11.25\", \"15.02.07\", \"15.03.02\", \"15.03.28\", \"15.03.29\", \"15.06.05\", \"15.06.17\", \"15.08.17\", \"15.09.03\", \"15.09.04\", \"15.09.29\", \"15.10.08\", \"15.12.12\", \"16.02.08\", \"16.02.09\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.jcanvas/update.json\",\n  \"versions\": [\"16.02.09\"],\n  \"updateRemote\": true,\n  \"version\": \"16.02.09\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.jcanvas/16.02.09\",\n  \"branch\": \"jcanvas/16.02.09\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 135721677
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

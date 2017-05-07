@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-01) 22 : 17 : 42 UTC
+  , issueUpdatedAt = 2014 (-11) (-01) 22 : 21 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2191/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2191")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2191
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8389542
+        , simpleUserLogin = N "thekondrashov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/8389542?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thekondrashov"
+        }
+  , issueTitle = "Rename mainfile string in html5shiv/info.ini"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2191"
+  , issueCreatedAt = 2014 (-11) (-01) 22 : 08 : 34 UTC
+  , issueBody =
+      Just
+        "Now when you click on this link:\n[https://cdn.jsdelivr.net/g/html5shiv](https://cdn.jsdelivr.net/g/html5shiv)\nyou will get an uncompressed version.\nTo get the compressed version you need to specify the path to the compressed file:\n[https://cdn.jsdelivr.net/g/html5shiv%28html5shiv.min.js%29](https://cdn.jsdelivr.net/g/html5shiv%28html5shiv.min.js%29).\nI think that is wrong.\nNeed to replace \"html5shiv.js\" on \"html5shiv.min.js\". I tried to do it, but could not.\n"
+  , issueState = StateClosed
+  , issueId = Id 47518684
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

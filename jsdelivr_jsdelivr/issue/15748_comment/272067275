@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-01) (-12) 03 : 33 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/272067275"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15748#issuecomment-272067275"
+  , issueCommentCreatedAt = 2017 (-01) (-12) 03 : 33 : 40 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *font-spoqa-han-sans* between *subset* and *origin* there was a change in file structure  \n    ```diff\n    + css/SpoqaHanSans-jp.css\n    + css/SpoqaHanSans-kr.css\n    - spoqahansans-kr.css\n    - japanese/bold/SpoqaHanSansJP-Bold.eot\n    - japanese/bold/SpoqaHanSansJP-Bold.svg\n    - japanese/bold/SpoqaHanSansJP-Bold.ttf\n    - japanese/bold/SpoqaHanSansJP-Bold.woff\n    - japanese/regular/SpoqaHanSansJP-Regular.eot\n    - japanese/regular/SpoqaHanSansJP-Regular.svg\n    - japanese/regular/SpoqaHanSansJP-Regular.ttf\n    - japanese/regular/SpoqaHanSansJP-Regular.woff\n    - japanese/thin/SpoqaHanSansJP-Thin.eot\n    - japanese/thin/SpoqaHanSansJP-Thin.svg\n    - japanese/thin/SpoqaHanSansJP-Thin.ttf\n    - japanese/thin/SpoqaHanSansJP-Thin.woff\n    - korean/bold/SpoqaHanSans-Bold.eot\n    - korean/bold/SpoqaHanSans-Bold.svg\n    - korean/bold/SpoqaHanSans-Bold.ttf\n    - korean/bold/SpoqaHanSans-Bold.woff\n    - korean/bold/SpoqaHanSans-Bold.woff2\n    - korean/regular/SpoqaHanSans-Regular.eot\n    - korean/regular/SpoqaHanSans-Regular.svg\n    - korean/regular/SpoqaHanSans-Regular.ttf\n    - korean/regular/SpoqaHanSans-Regular.woff\n    - korean/regular/SpoqaHanSans-Regular.woff2\n    - korean/thin/SpoqaHanSans-Thin.eot\n    - korean/thin/SpoqaHanSans-Thin.svg\n    - korean/thin/SpoqaHanSans-Thin.ttf\n    - korean/thin/SpoqaHanSans-Thin.woff\n    - korean/thin/SpoqaHanSans-Thin.woff2\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Keep it logically awesome.*\n"
+  , issueCommentId = 272067275
+  }

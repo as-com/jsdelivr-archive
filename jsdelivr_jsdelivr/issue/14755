@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-15) 19 : 52 : 17 UTC
+  , issueUpdatedAt = 2016 (-11) (-15) 19 : 52 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14755/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14755")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14755
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8983200
+        , simpleUserLogin = N "gasparesganga"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/8983200?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gasparesganga"
+        }
+  , issueTitle = "Add jQuery AjaxDownloader"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14755")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14755.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14755.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14755"
+  , issueCreatedAt = 2016 (-11) (-12) 10 : 34 : 24 UTC
+  , issueBody =
+      Just
+        "## jQuery AjaxDownloader\r\nA jQuery Plugin to perform *ajax-style* downloads\r\n\r\nSee [documentation and examples](http://gasparesganga.com/labs/jquery-ajax-downloader/)"
+  , issueState = StateClosed
+  , issueId = Id 188904853
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

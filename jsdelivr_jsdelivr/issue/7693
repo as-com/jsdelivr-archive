@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-01) 22 : 36 : 57 UTC
+  , issueUpdatedAt = 2015 (-11) (-01) 22 : 36 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7693/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7693")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7693
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ractive-transitions-slide to v0.3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7693")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7693.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7693.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7693"
+  , issueCreatedAt = 2015 (-11) (-01) 22 : 36 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ractive-transitions-slide to v0.3.0.\n\n@ractivejs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ractive-transitions-slide\",\n    \"repo\": \"ractivejs/ractive-transitions-slide\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/ractive.transitions-slide\",\n    \"localVersions\": [\"0.1.2\", \"0.2.1\"],\n    \"remoteVersions\": [\"v0.1.1\", \"v0.1.2\", \"v0.2.1\", \"v0.3.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/ractive.transitions-slide/update.json\",\n  \"version\": \"v0.3.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/ractive.transitions-slide/0.3.0\",\n  \"branch\": \"ractive-transitions-slide/v0.3.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 114497602
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-07) (-14) 20 : 28 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12724/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/12724")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12724
+  , issueAssignees =
+      [ SimpleUser
+          { simpleUserId = Id 6192491
+          , simpleUserLogin = N "MartinKolarik"
+          , simpleUserAvatarUrl =
+              URL "https://avatars0.githubusercontent.com/u/6192491?v=3"
+          , simpleUserUrl = URL "https://api.github.com/users/MartinKolarik"
+          }
+      ]
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3457368
+        , simpleUserLogin = N "tankerkiller125"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3457368?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/tankerkiller125"
+        }
+  , issueTitle = "fontawesome-markers not being merged."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12724"
+  , issueCreatedAt = 2016 (-07) (-14) 14 : 20 : 40 UTC
+  , issueBody =
+      Just
+        "It seems that the bot can't see the info.ini in the fontawesome-markers directory dispite it definitely existing. https://github.com/jsdelivr/jsdelivr/blob/master/files/fontawesome-markers/info.ini\n"
+  , issueState = StateOpen
+  , issueId = Id 165573559
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

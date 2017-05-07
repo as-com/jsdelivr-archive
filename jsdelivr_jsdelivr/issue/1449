@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-16) 20 : 30 : 09 UTC
+  , issueUpdatedAt = 2015 (-03) (-12) 14 : 11 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1449/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1449")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1449
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "updated ua-parser.js by autoupdate"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1449")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1449.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1449.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1449"
+  , issueCreatedAt = 2014 (-08) (-16) 10 : 13 : 22 UTC
+  , issueBody = Just "updated ua-parser.js by autoupdate\n"
+  , issueState = StateClosed
+  , issueId = Id 40408051
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

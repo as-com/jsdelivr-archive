@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-22) 20 : 11 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123848197"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123848197"
+  , issueCommentCreatedAt = 2015 (-07) (-22) 20 : 10 : 03 UTC
+  , issueCommentBody =
+      "So basically the only argument against front-end generation is that if the user visits the website while the CDN is hacked/bad content he will get the hash of the bad file?\n- If the whole CDN is hacked, he wont be able to get the SRI.\n- If 1 server on the CDN misbehaves the chances of him getting the bad SRI are VERY low. a. He had to visit during that exact time for the first time b. The hash generator had to hit that exact server with the problem out of our 78 locations c. After copying the bad hash and file the user tests it on his website he has not to notice that the file is either broken or the file has changed since then.\n- The user has to even decide to use SRI. Most will use either the grouped links or wont use the SRI at all.\n\nI don't believe the problem you explain will ever happen in real life.\n"
+  , issueCommentId = 123848197
+  }

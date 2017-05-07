@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-17) 18 : 10 : 14 UTC
+  , issueUpdatedAt = 2016 (-08) (-17) 18 : 10 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13289/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13289")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13289
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104853
+        , simpleUserLogin = N "gfronza"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/104853?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gfronza"
+        }
+  , issueTitle = "Update info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13289")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13289.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13289.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13289"
+  , issueCreatedAt = 2016 (-08) (-17) 15 : 19 : 03 UTC
+  , issueBody = Just "Changed repo account.\n"
+  , issueState = StateClosed
+  , issueId = Id 171685177
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

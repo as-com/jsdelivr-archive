@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-24) 21 : 37 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/255873712"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/14459#issuecomment-255873712"
+  , issueCommentCreatedAt = 2016 (-10) (-24) 21 : 37 : 34 UTC
+  , issueCommentBody =
+      "True, but it still wasn't meant to be used with SRI. Still, I will try to fix this issue as long as its not a CDN level bug.\n\nBtw how important is the combination feature for you? We are building a new backend with new features and I would love your input.\n"
+  , issueCommentId = 255873712
+  }

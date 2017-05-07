@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-27) 11 : 07 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 193816
+        , simpleUserLogin = N "brgrz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/193816?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/brgrz"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/228716702"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/3814#issuecomment-228716702"
+  , issueCommentCreatedAt = 2016 (-06) (-27) 11 : 07 : 25 UTC
+  , issueCommentBody =
+      "I'm still having issues with this. It does not produce a network error (404 or anything) but it does produce a console error saying \"Failed to parse SourceMaps\", which is annoying because it always opens the console when having the Developer tools open.\n"
+  , issueCommentId = 228716702
+  }

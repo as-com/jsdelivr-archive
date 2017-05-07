@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-27) 14 : 35 : 46 UTC
+  , issueUpdatedAt = 2017 (-03) (-27) 14 : 35 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17228/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17228")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17228
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project places.js to 1.4.12"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17228")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17228.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17228.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17228"
+  , issueCreatedAt = 2017 (-03) (-27) 14 : 35 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project places.js to 1.4.12.\n\n@algolia\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"places.js\",\n    \"repo\": \"algolia/places.js\",\n    \"files\": {\n      \"basePath\": \"dist/cdn/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/places.js\",\n    \"localVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"0.0.8\", \"0.0.9\", \"0.0.10\", \"0.0.11\", \"0.0.12\", \"0.0.14\", \"0.0.15\", \"0.0.16\", \"0.0.17\", \"0.0.18\", \"0.19.0\", \"0.20.0\", \"0.21.0\", \"0.22.0\", \"0.23.0\", \"0.23.1\", \"0.24.0\", \"0.25.0\", \"0.26.0\", \"0.27.0\", \"0.28.0\", \"0.29.0\", \"0.30.0\", \"0.31.0\", \"0.32.0\", \"0.33.0\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.1.2\", \"1.1.3\", \"1.1.5\", \"1.1.6\", \"1.1.7\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.3.1\", \"1.3.3\", \"1.3.4\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"1.4.4\", \"1.4.5\", \"1.4.6\", \"1.4.7\", \"1.4.8\", \"1.4.9\", \"1.4.10\", \"1.4.11\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"0.0.8\", \"0.0.9\", \"0.0.10\", \"0.0.11\", \"0.0.12\", \"0.0.13\", \"0.0.14\", \"0.0.15\", \"0.0.16\", \"0.0.17\", \"0.0.18\", \"0.19.0\", \"0.20.0\", \"0.21.0\", \"0.22.0\", \"0.23.0\", \"0.23.1\", \"0.24.0\", \"0.25.0\", \"0.26.0\", \"0.27.0\", \"0.28.0\", \"0.29.0\", \"0.30.0\", \"0.31.0\", \"0.32.0\", \"0.33.0\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.1.5\", \"1.1.6\", \"1.1.7\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.3.4\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"1.4.4\", \"1.4.5\", \"1.4.6\", \"1.4.7\", \"1.4.8\", \"1.4.9\", \"1.4.10\", \"1.4.11\", \"1.4.12\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/places.js/update.json\",\n  \"versions\": [\"1.4.12\"],\n  \"updateRemote\": true,\n  \"version\": \"1.4.12\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/places.js/1.4.12\",\n  \"branch\": \"places.js/1.4.12\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 217266603
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

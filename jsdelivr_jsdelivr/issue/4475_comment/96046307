@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 19 : 56 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 378557
+        , simpleUserLogin = N "patrickarlt"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/378557?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/patrickarlt"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/96046307"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4475#issuecomment-96046307"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 19 : 56 : 58 UTC
+  , issueCommentBody =
+      "@jimaek mentioned he would prefer it as `leaflet.esri` in https://github.com/jsdelivr/jsdelivr/pull/4474#issuecomment-96042795 since this is a plugin for Leaflet. It looks like that the pattern for a lot of other stuff like `angular.all` or `bootstrap.calender`. I suppose I could just change the `packageManager` to `github` to get around this but it does look like a validation bug in the bot.\n\n@jimaek Your call. I'm more then happy to reopen using `github` as opposed to NPM if you want.\n"
+  , issueCommentId = 96046307
+  }

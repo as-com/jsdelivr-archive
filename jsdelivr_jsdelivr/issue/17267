@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 17 : 42 : 02 UTC
+  , issueUpdatedAt = 2017 (-03) (-29) 18 : 05 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17267/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/17267")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17267
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 910829
+        , simpleUserLogin = N "rafa8626"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/910829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rafa8626"
+        }
+  , issueTitle =
+      "Repos moved to organization repo not reflecting latest version"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17267"
+  , issueCreatedAt = 2017 (-03) (-29) 10 : 45 : 19 UTC
+  , issueBody =
+      Just
+        "My repos for MediaElement got moved to an organization repo (https://github.com/mediaelement/mediaelement-plugins and https://github.com/mediaelement/mediaelement) so right now they are not reflecting the latest versions.\r\n\r\nI created PRs to update the info.ini for both projects (#17178 and #17179). Is that all I need to do?"
+  , issueState = StateClosed
+  , issueId = Id 217835971
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

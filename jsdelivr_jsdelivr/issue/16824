@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-13) 02 : 48 : 23 UTC
+  , issueUpdatedAt = 2017 (-03) (-13) 02 : 48 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16824/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16824")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16824
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6709482
+        , simpleUserLogin = N "cure53"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/6709482?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/cure53"
+        }
+  , issueTitle = "Added DOMPurify"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16824")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16824.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16824.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16824"
+  , issueCreatedAt = 2017 (-03) (-10) 09 : 10 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 213284196
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

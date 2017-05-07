@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-15) 00 : 34 : 25 UTC
+  , issueUpdatedAt = 2016 (-12) (-15) 00 : 34 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15353/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15353")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15353
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project pako to 1.0.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15353")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15353.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15353.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15353"
+  , issueCreatedAt = 2016 (-12) (-15) 00 : 34 : 21 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project pako to 1.0.4.\n\n@nodeca\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"pako\",\n    \"repo\": \"nodeca/pako\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"pako.min.js\", \"pako_inflate.min.js\", \"pako_deflate.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/pako\",\n    \"localVersions\": [\"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.2.8\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.2.8\", \"0.2.9\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/pako/update.json\",\n  \"versions\": [\"1.0.4\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/pako/1.0.4\",\n  \"branch\": \"pako/1.0.4\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 195685301
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

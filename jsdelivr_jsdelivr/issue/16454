@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-22) 17 : 23 : 24 UTC
+  , issueUpdatedAt = 2017 (-02) (-22) 17 : 56 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16454/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16454")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16454
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1197144
+        , simpleUserLogin = N "redmunds"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1197144?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/redmunds"
+        }
+  , issueTitle = "Create update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16454")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16454.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16454.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16454"
+  , issueCreatedAt = 2017 (-02) (-21) 00 : 41 : 22 UTC
+  , issueBody =
+      Just
+        "I hope I'm doing this correctly.\r\n\r\nUp until v2, balance-text was a jquery plugin named jquery.balancetext.js, and I want to maintain existing libs for older versions.\r\n\r\nStarting with v3, balance-text lib no longer has jquery dependency so it's now balancetext.js ."
+  , issueState = StateClosed
+  , issueId = Id 209013032
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

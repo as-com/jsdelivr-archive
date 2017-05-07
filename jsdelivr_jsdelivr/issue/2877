@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-31) 09 : 50 : 42 UTC
+  , issueUpdatedAt = 2014 (-12) (-31) 10 : 28 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2877/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2877")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2877
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1801923
+        , simpleUserLogin = N "tymondesigns"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1801923?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tymondesigns"
+        }
+  , issueTitle = "Adding angular-locker 1.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2877")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2877.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2877.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2877"
+  , issueCreatedAt = 2014 (-12) (-31) 09 : 29 : 49 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 53175380
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

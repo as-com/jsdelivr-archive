@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-03) 15 : 39 : 15 UTC
+  , issueUpdatedAt = 2016 (-03) (-03) 15 : 39 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10256/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10256")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10256
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project pokewrap to v0.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10256")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10256.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10256.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10256"
+  , issueCreatedAt = 2016 (-03) (-03) 15 : 34 : 44 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project pokewrap to v0.2.0.\n\n@bdchauvette\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"pokewrap\",\n    \"repo\": \"bdchauvette/pokewrap\",\n    \"files\": {\n      \"include\": [\"dist/browser/pokewrap.js\", \"dist/browser/pokewrap.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/pokewrap\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.2.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/pokewrap/update.json\",\n  \"versions\": [\"v0.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/pokewrap/0.2.0\",\n  \"branch\": \"pokewrap/v0.2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 138211895
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-17) 21 : 10 : 45 UTC
+  , issueUpdatedAt = 2015 (-07) (-17) 21 : 10 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5927/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5927")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5927
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 425410
+        , simpleUserLogin = N "anshumanf"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/425410?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/anshumanf"
+        }
+  , issueTitle = "Update info for CodeMirror"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5927")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5927.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5927.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5927"
+  , issueCreatedAt = 2015 (-07) (-16) 19 : 21 : 44 UTC
+  , issueBody = Just "Website and Github owner/URL have changed\n"
+  , issueState = StateClosed
+  , issueId = Id 95506517
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-12) 13 : 45 : 36 UTC
+  , issueUpdatedAt = 2014 (-04) (-12) 13 : 45 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/633/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/633")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 633
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4295266
+        , simpleUserLogin = N "medimatrix"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4295266?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/medimatrix"
+        }
+  , issueTitle = "Added alameda.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/633")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/633.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/633.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/633"
+  , issueCreatedAt = 2014 (-04) (-12) 13 : 41 : 14 UTC
+  , issueBody =
+      Just
+        "Added the alternative to [requirejs]() for modern browsers, [alameda](https://github.com/requirejs/alameda).\n"
+  , issueState = StateClosed
+  , issueId = Id 31383135
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

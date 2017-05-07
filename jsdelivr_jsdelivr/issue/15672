@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-07) 14 : 49 : 04 UTC
+  , issueUpdatedAt = 2017 (-01) (-07) 14 : 49 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15672/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15672")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15672
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 914122
+        , simpleUserLogin = N "martinheidegger"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/914122?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/martinheidegger"
+        }
+  , issueTitle = "egraphql-fetch added 0.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15672")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15672.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15672.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15672"
+  , issueCreatedAt = 2017 (-01) (-07) 14 : 08 : 37 UTC
+  , issueBody = Just "Added 0.0.5 version of egraphql-fetch"
+  , issueState = StateClosed
+  , issueId = Id 199363555
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

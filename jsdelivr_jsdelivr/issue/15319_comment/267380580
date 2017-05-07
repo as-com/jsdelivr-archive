@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-12) (-15) 17 : 00 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 136959
+        , simpleUserLogin = N "Mottie"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/136959?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Mottie"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/267380580"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/15319#issuecomment-267380580"
+  , issueCommentCreatedAt = 2016 (-12) (-15) 16 : 56 : 48 UTC
+  , issueCommentBody =
+      "Umm actually, that change breaks linking to the newer versions of tablesorter... versions 2.17.4 and older have a different directory structure - there is no `dist` folder.\r\n\r\nWhat I mean is that v2.18.1 no longer shows up in the dropdown:\r\nhttp://www.jsdelivr.com/?query=tablesorter\r\n\r\nbut I can still link to the file:\r\nhttps://cdn.jsdelivr.net/g/tablesorter@2.28.1(js/jquery.tablesorter.min.js)"
+  , issueCommentId = 267380580
+  }

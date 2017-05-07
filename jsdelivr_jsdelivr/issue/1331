@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-29) 23 : 35 : 46 UTC
+  , issueUpdatedAt = 2014 (-07) (-29) 23 : 35 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1331/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1331")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1331
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bootstrap.autohidingnavbar to 1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1331")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1331.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1331.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1331"
+  , issueCreatedAt = 2014 (-07) (-29) 23 : 34 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootstrap.autohidingnavbar to 1.0.0.\n\n@istvan-ujjmeszaros\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bootstrap.autohidingnavbar\",\n    \"repo\": \"istvan-ujjmeszaros/bootstrap-autohidingnavbar\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"exclude\": [\"jquery.bootstrap-autohidingnavbar.js\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/jsdelivr/files/bootstrap.autohidingnavbar\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/bootstrap.autohidingnavbar/1.0.0\",\n  \"branch\": \"bootstrap.autohidingnavbar/1.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 39047039
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

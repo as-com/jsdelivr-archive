@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-10) 15 : 52 : 22 UTC
+  , issueUpdatedAt = 2017 (-02) (-10) 15 : 52 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16291/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16291")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16291
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 345483
+        , simpleUserLogin = N "whs"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/345483?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/whs"
+        }
+  , issueTitle = "Updated Chart.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16291")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16291.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16291.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16291"
+  , issueCreatedAt = 2017 (-02) (-10) 15 : 51 : 31 UTC
+  , issueBody =
+      Just
+        "Chart.js is now at chartjs/Chart.js. The included file list also get updated to include the bundled version."
+  , issueState = StateClosed
+  , issueId = Id 206831118
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

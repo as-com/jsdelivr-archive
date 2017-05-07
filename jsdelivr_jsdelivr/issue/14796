@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-15) 20 : 03 : 47 UTC
+  , issueUpdatedAt = 2016 (-11) (-15) 20 : 03 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14796/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14796")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14796
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery-ajax-downloader to v1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14796")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14796.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14796.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14796"
+  , issueCreatedAt = 2016 (-11) (-15) 20 : 03 : 44 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery-ajax-downloader to v1.1.0.\n\n@gasparesganga\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery-ajax-downloader\",\n    \"repo\": \"gasparesganga/jquery-ajax-downloader\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"src/*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.ajaxdownloader\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0\", \"v1.1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.ajaxdownloader/update.json\",\n  \"versions\": [\"v1.1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.ajaxdownloader/1.1.0\",\n  \"branch\": \"jquery-ajax-downloader/v1.1.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 189492009
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

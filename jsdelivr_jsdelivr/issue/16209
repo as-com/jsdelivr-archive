@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-06) 22 : 33 : 46 UTC
+  , issueUpdatedAt = 2017 (-02) (-06) 22 : 33 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16209/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16209")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16209
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project font-iroke-batang to v1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16209")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16209.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16209.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16209"
+  , issueCreatedAt = 2017 (-02) (-06) 22 : 33 : 42 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project font-iroke-batang to v1.0.\n\n@iropke\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"font-iroke-batang\",\n    \"repo\": \"iropke/font-iropke-batang\",\n    \"files\": {\n      \"include\": [\"font-iropke-batang.css\", \"IropkeBatangM.eot\", \"IropkeBatangM.woff\", \"IropkeBatangM.ttf\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/font-iropke-batang\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/font-iropke-batang/update.json\",\n  \"versions\": [\"v1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/font-iropke-batang/1.0\",\n  \"branch\": \"font-iroke-batang/v1.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 205728349
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

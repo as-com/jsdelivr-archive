@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-08) 07 : 01 : 10 UTC
+  , issueUpdatedAt = 2014 (-04) (-08) 07 : 01 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/594/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/594")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 594
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 189265
+        , simpleUserLogin = N "jensenbox"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/189265?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jensenbox"
+        }
+  , issueTitle = "jQuery missing?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/594"
+  , issueCreatedAt = 2014 (-04) (-08) 06 : 37 : 09 UTC
+  , issueBody =
+      Just
+        "So I went to go grab jquery from the site and was met with no results.\n\nI then went to:\n\nhttp://jquery.com/download/ \n\nand they list I can get jQuery from here as well:\n\nhttp://www.jsdelivr.com/#!jquery\n\nno results either.\n\nIs something broken?\n"
+  , issueState = StateClosed
+  , issueId = Id 31046556
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

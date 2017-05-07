@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-08) 10 : 58 : 38 UTC
+  , issueUpdatedAt = 2014 (-08) (-08) 10 : 58 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1384/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1384")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1384
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angularAMD to 0.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1384")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1384.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1384.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1384"
+  , issueCreatedAt = 2014 (-08) (-08) 10 : 57 : 40 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angularAMD to 0.2.1.\n\n@marcoslin\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"angularAMD\",\n    \"files\": {\n      \"include\": [\"*.min.js\", \"*.min.map\"],\n      \"exclude\": [\"README.md\", \"bower.json\"]\n    },\n    \"path\": \"/home/jsdelivr/files/angular.amd\",\n    \"localVersions\": [\"0.1.0\", \"0.1.1\", \"0.2.0\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.1.0\", \"0.1.1\", \"0.2.0\", \"0.2.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.amd/0.2.1\",\n  \"branch\": \"angularAMD/0.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 39812170
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 17 : 29 : 49 UTC
+  , issueUpdatedAt = 2017 (-03) (-29) 17 : 29 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17220/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17220")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17220
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 78122
+        , simpleUserLogin = N "aadsm"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/78122?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aadsm"
+        }
+  , issueTitle = "Add new library: jsmediatags"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17220")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17220.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17220.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17220"
+  , issueCreatedAt = 2017 (-03) (-26) 23 : 24 : 58 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 217099870
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

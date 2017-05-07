@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-20) 15 : 59 : 05 UTC
+  , issueUpdatedAt = 2014 (-10) (-20) 15 : 59 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2069/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2069")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2069
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-auto-value to 2.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2069")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2069.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2069.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2069"
+  , issueCreatedAt = 2014 (-10) (-20) 15 : 32 : 59 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-auto-value to 2.1.2.\n\n@johngeorgewright\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"angular-auto-value\",\n    \"repo\": \"johngeorgewright/angular-auto-value\",\n    \"files\": {\n      \"include\": [\"angular-auto-value.js\", \"angular-auto-value.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular.auto-value\",\n    \"localVersions\": [\"1.1.0\", \"2.0.0\", \"2.1.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\", \"1.2.0\", \"2.0.0\", \"2.1.0\", \"2.1.1\", \"2.1.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.auto-value/2.1.2\",\n  \"branch\": \"angular-auto-value/2.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 46288033
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

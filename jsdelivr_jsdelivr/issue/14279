@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-07) 17 : 35 : 14 UTC
+  , issueUpdatedAt = 2016 (-10) (-07) 17 : 35 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14279/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14279")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14279
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project timepicker.js to 2.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14279")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14279.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14279.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14279"
+  , issueCreatedAt = 2016 (-10) (-07) 17 : 35 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project timepicker.js to 2.1.0.\n\n@jonataswalker\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"timepicker.js\",\n    \"repo\": \"jonataswalker/timepicker.js\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"timepicker.min.js\", \"timepicker.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/timepicker.js\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"2.0.0\", \"2.0.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"2.0.0\", \"2.0.1\", \"2.1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/timepicker.js/update.json\",\n  \"versions\": [\"2.1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"2.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/timepicker.js/2.1.0\",\n  \"branch\": \"timepicker.js/2.1.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 181726545
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-27) 18 : 04 : 50 UTC
+  , issueUpdatedAt = 2017 (-03) (-02) 01 : 10 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16544/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16544")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16544
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3468013
+        , simpleUserLogin = N "kevindb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3468013?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kevindb"
+        }
+  , issueTitle = "Moved lib jquery-form"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16544")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16544.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16544.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16544"
+  , issueCreatedAt = 2017 (-02) (-24) 13 : 34 : 42 UTC
+  , issueBody =
+      Just
+        "http://www.jsdelivr.com/projects/jquery.form\r\nThe jquery-form/form project has changed ownership from malsup/form.\r\n\r\nAlso added auto-update config"
+  , issueState = StateClosed
+  , issueId = Id 210049336
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

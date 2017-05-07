@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-04) 20 : 55 : 06 UTC
+  , issueUpdatedAt = 2014 (-11) (-04) 20 : 55 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2210/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2210")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2210
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 146930
+        , simpleUserLogin = N "zippy1981"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/146930?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zippy1981"
+        }
+  , issueTitle = "auto update for handsontable"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2210")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2210.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2210.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2210"
+  , issueCreatedAt = 2014 (-11) (-04) 19 : 42 : 41 UTC
+  , issueBody = Just "Added update.config\n"
+  , issueState = StateClosed
+  , issueId = Id 47755830
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

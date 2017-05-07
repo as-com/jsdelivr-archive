@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-06) 03 : 32 : 43 UTC
+  , issueUpdatedAt = 2016 (-10) (-06) 03 : 32 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14240/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14240")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14240
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project anchorjs to 3.2.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14240")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14240.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14240.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14240"
+  , issueCreatedAt = 2016 (-10) (-06) 03 : 32 : 39 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project anchorjs to 3.2.2.\n\n@bryanbraun\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"anchorjs\",\n    \"repo\": \"bryanbraun/anchorjs\",\n    \"files\": {\n      \"include\": [\"anchor.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/anchorjs\",\n    \"localVersions\": [\"1.0.1\", \"1.1.1\", \"1.2.1\", \"1.3.0\", \"2.0.0\", \"2.1.0\", \"3.0.0\", \"3.1.0\", \"3.1.1\", \"3.2.0\", \"3.2.1\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.2.0\", \"0.3.0\", \"0.3.1\", \"0.4.0\", \"1.0.0\", \"1.0.1\", \"1.1.1\", \"1.2.1\", \"1.3.0\", \"2.0.0\", \"2.1.0\", \"3.0.0\", \"3.1.0\", \"3.1.1\", \"3.2.0\", \"3.2.1\", \"3.2.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/anchorjs/update.json\",\n  \"versions\": [\"3.2.2\"],\n  \"updateRemote\": true,\n  \"version\": \"3.2.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/anchorjs/3.2.2\",\n  \"branch\": \"anchorjs/3.2.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 181317106
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

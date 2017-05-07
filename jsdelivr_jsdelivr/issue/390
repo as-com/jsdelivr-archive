@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-26) 13 : 25 : 05 UTC
+  , issueUpdatedAt = 2014 (-02) (-26) 13 : 31 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/390/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/390")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 390
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5071164
+        , simpleUserLogin = N "Yustie"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5071164?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Yustie"
+        }
+  , issueTitle = "load mainfiles knockout"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/390"
+  , issueCreatedAt = 2014 (-02) (-26) 10 : 25 : 11 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nThis loads `http://cdn.jsdelivr.net/g/knockout` the version 3.0.0 beta, in stead of the official release version 3.0.0.\n\nShouldn't that url load the latest of knockout project?\n"
+  , issueState = StateClosed
+  , issueId = Id 28322715
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

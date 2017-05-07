@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-10) 07 : 52 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 120998
+        , simpleUserLogin = N "jhiswin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/120998?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jhiswin"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/155349278"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/7375#issuecomment-155349278"
+  , issueCommentCreatedAt = 2015 (-11) (-10) 07 : 52 : 42 UTC
+  , issueCommentBody =
+      "Seems like @megawac is right on its true intention\n\nShouldn't jsdelivr only host babel-polyfill?\n\nOr maybe it would make more sense to just not include it, and have people include corejs and regenerator themselves?\n"
+  , issueCommentId = 155349278
+  }

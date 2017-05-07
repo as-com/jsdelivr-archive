@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-16) 22 : 13 : 36 UTC
+  , issueUpdatedAt = 2014 (-10) (-04) 19 : 07 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1747/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1747")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1747
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular.ng-grid to v2.0.13"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1747")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1747.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1747.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1747"
+  , issueCreatedAt = 2014 (-09) (-16) 22 : 06 : 44 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.ng-grid to v2.0.13.\n\n@angular-ui\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.ng-grid\",\n    \"repo\": \"angular-ui/ng-grid\",\n    \"files\": {\n      \"include\": [\"ng-grid.min.css\", \"build/ng-grid.min.js\", \"build/ng-grid.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular.ng-grid\",\n    \"localVersions\": [\"2.0.7\"],\n    \"remoteVersions\": [\"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.3.0\", \"v1.3.1\", \"v1.3.2\", \"v1.3.4\", \"v1.3.6\", \"v1.4.1\", \"v1.5.0\", \"v1.6.0\", \"v1.6.1\", \"v1.6.2\", \"v1.6.3\", \"v1.7.0\", \"v1.7.1\", \"v1.8.0\", \"v1.9.0\", \"v2.0.1\", \"v2.0.4\", \"v2.0.5\", \"v2.0.6\", \"v2.0.7\", \"v2.0.8\", \"v2.0.9\", \"v2.0.10\", \"v2.0.11\", \"v2.0.12\", \"v2.0.13\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v2.0.13\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.ng-grid/2.0.13\",\n  \"branch\": \"angular.ng-grid/v2.0.13\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 42939595
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

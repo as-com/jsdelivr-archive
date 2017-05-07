@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-14) 04 : 35 : 42 UTC
+  , issueUpdatedAt = 2016 (-09) (-14) 04 : 35 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13775/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13775")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13775
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project vuejs-paginator to v1.0.15"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13775")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13775.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13775.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13775"
+  , issueCreatedAt = 2016 (-09) (-14) 04 : 35 : 36 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vuejs-paginator to v1.0.15.\n\n@hootlex\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vuejs-paginator\",\n    \"repo\": \"hootlex/vuejs-paginator\",\n    \"files\": {\n      \"include\": [\"dist/vuejs-paginator.js\", \"dist/vuejs-paginator.min.js\", \"vuejs-paginator.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/vuejs-paginator\",\n    \"localVersions\": [\"1.0.11\", \"1.0.12\", \"1.0.13\", \"1.0.14\"],\n    \"remoteVersions\": [\"V1.0.11\", \"v1.0.11\", \"v1.0.12\", \"v1.0.13\", \"v1.0.14\", \"v1.0.15\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/vuejs-paginator/update.json\",\n  \"versions\": [\"v1.0.15\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.15\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/vuejs-paginator/1.0.15\",\n  \"branch\": \"vuejs-paginator/v1.0.15\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 176812808
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-11) (-05) 16 : 56 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7549136
+        , simpleUserLogin = N "lenovouser"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7549136?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lenovouser"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/258624304"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14655#issuecomment-258624304"
+  , issueCommentCreatedAt = 2016 (-11) (-05) 16 : 56 : 35 UTC
+  , issueCommentBody =
+      "In case anyone runs into the ASCII problem too, here is how you find them in your file:\n\n```\ncd ~/Development/jsdelivr/\ngrep -P -n \"[^\\x00-\\x7f]\" files/<file.ext>`\n```\n"
+  , issueCommentId = 258624304
+  }

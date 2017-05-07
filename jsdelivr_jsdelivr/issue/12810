@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-19) 17 : 07 : 42 UTC
+  , issueUpdatedAt = 2016 (-07) (-19) 17 : 07 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12810/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12810")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12810
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 13556847
+        , simpleUserLogin = N "webcomOps"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/13556847?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/webcomOps"
+        }
+  , issueTitle = "Update webcom-reach's info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12810")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12810.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12810.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12810"
+  , issueCreatedAt = 2016 (-07) (-19) 16 : 11 : 59 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 166371788
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

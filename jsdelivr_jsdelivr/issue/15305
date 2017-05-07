@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-12) 17 : 29 : 03 UTC
+  , issueUpdatedAt = 2016 (-12) (-12) 17 : 29 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15305/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15305")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15305
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4296898
+        , simpleUserLogin = N "shawnjohnson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4296898?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/shawnjohnson"
+        }
+  , issueTitle = "Update update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15305")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15305.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15305.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15305"
+  , issueCreatedAt = 2016 (-12) (-12) 16 : 14 : 42 UTC
+  , issueBody = Just "Fix incorrect repo value."
+  , issueState = StateClosed
+  , issueId = Id 195015612
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

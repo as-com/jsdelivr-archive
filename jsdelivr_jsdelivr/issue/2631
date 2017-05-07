@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-06) 21 : 42 : 35 UTC
+  , issueUpdatedAt = 2014 (-12) (-06) 21 : 42 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2631/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2631")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2631
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueTitle = "Add bootswatch 3.3.1-2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2631")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2631.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2631.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2631"
+  , issueCreatedAt = 2014 (-12) (-06) 21 : 17 : 43 UTC
+  , issueBody = Just "Hopefully I did it correctly this time.\n"
+  , issueState = StateClosed
+  , issueId = Id 51196398
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

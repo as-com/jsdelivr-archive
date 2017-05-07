@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-10) 11 : 33 : 13 UTC
+  , issueUpdatedAt = 2016 (-02) (-10) 11 : 33 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9667/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/9667")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9667
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1453899
+        , simpleUserLogin = N "gregorypratt"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1453899?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gregorypratt"
+        }
+  , issueTitle = "RiotJS latest version not deployed to CDN"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9667"
+  , issueCreatedAt = 2016 (-02) (-09) 20 : 53 : 39 UTC
+  , issueBody =
+      Just
+        "https://github.com/riot/riot/issues/1583\n\nSeems like it's fallen through the gaps some how?\n"
+  , issueState = StateClosed
+  , issueId = Id 132531043
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

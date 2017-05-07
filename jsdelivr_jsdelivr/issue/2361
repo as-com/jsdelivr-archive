@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-25) 10 : 30 : 06 UTC
+  , issueUpdatedAt = 2014 (-11) (-25) 10 : 30 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2361/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2361")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2361
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2188425
+        , simpleUserLogin = N "jeromecharron"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2188425?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jeromecharron"
+        }
+  , issueTitle = "Added project KNACSS version 3.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2361")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2361.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2361.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2361"
+  , issueCreatedAt = 2014 (-11) (-13) 22 : 51 : 20 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 48703825
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

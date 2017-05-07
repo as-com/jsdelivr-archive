@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-06) 01 : 46 : 34 UTC
+  , issueUpdatedAt = 2017 (-01) (-06) 01 : 46 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15646/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15646")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15646
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 24946497
+        , simpleUserLogin = N "webfirethemes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/24946497?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/webfirethemes"
+        }
+  , issueTitle = "wftwidget v1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15646")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15646.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15646.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15646"
+  , issueCreatedAt = 2017 (-01) (-06) 00 : 28 : 21 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 199095169
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

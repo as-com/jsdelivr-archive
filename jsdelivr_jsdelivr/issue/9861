@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-21) 14 : 54 : 32 UTC
+  , issueUpdatedAt = 2016 (-02) (-21) 14 : 54 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9861/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9861")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9861
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 355874
+        , simpleUserLogin = N "sancospi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/355874?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sancospi"
+        }
+  , issueTitle = "Added ag-grid library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9861")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9861.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9861.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9861"
+  , issueCreatedAt = 2016 (-02) (-19) 01 : 08 : 02 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 134743600
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-21) 22 : 41 : 28 UTC
+  , issueUpdatedAt = 2014 (-03) (-22) 16 : 00 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/490/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/490")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 490
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8445
+        , simpleUserLogin = N "zpao"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8445?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zpao"
+        }
+  , issueTitle = "React v0.10"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/490")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/490.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/490.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/490"
+  , issueCreatedAt = 2014 (-03) (-21) 22 : 40 : 04 UTC
+  , issueBody = Just "hot off the presses\n"
+  , issueState = StateClosed
+  , issueId = Id 29945097
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

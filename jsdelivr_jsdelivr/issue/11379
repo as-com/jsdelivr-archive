@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-01) 09 : 46 : 34 UTC
+  , issueUpdatedAt = 2016 (-05) (-01) 09 : 46 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11379/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11379")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11379
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project prismjs to 1.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11379")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11379.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11379.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11379"
+  , issueCreatedAt = 2016 (-05) (-01) 09 : 04 : 00 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project prismjs to 1.5.0.\n\n@PrismJS\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"prismjs\",\n    \"repo\": \"PrismJS/prism\",\n    \"files\": {\n      \"include\": [\"prism.js\", \"./components/*.min.js\", \"./plugins/**/*.min.js\", \"./plugins/**/*.css\", \"./themes/*.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/prism\",\n    \"localVersions\": [\"0.1\", \"1.2.0\", \"1.3.0\", \"1.4.0\", \"1.4.1\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.1.0\", \"v1.2.0\", \"v1.3.0\", \"1.4.0\", \"v1.4.1\", \"1.5.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/prism/update.json\",\n  \"versions\": [\"1.5.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.5.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/prism/1.5.0\",\n  \"branch\": \"prismjs/1.5.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 152189011
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-15) 14 : 34 : 25 UTC
+  , issueUpdatedAt = 2016 (-12) (-15) 14 : 34 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15357/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15357")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15357
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project oboejs to v2.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15357")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15357.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15357.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15357"
+  , issueCreatedAt = 2016 (-12) (-15) 14 : 34 : 21 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project oboejs to v2.1.3.\n\n@jimhigson\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"oboejs\",\n    \"repo\": \"jimhigson/oboe.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"oboe-browser.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/oboejs\",\n    \"localVersions\": [\"1.15.2\", \"2.1.2\"],\n    \"remoteVersions\": [\"v1.4.0\", \"v1.5.0\", \"v1.5.2\", \"v1.5.3\", \"v1.5.4\", \"v1.6.0\", \"v1.7.0\", \"v1.8.0\", \"v1.8.1\", \"v1.8.2\", \"v1.8.3\", \"v1.8.4\", \"v1.8.5\", \"v1.8.6\", \"v1.8.7\", \"v1.9.0\", \"v1.10.0\", \"v1.10.1\", \"v1.10.2\", \"v1.10.3\", \"v1.11.0\", \"v1.11.1\", \"v1.12.0\", \"v1.12.1\", \"v1.12.2\", \"v1.12.3\", \"v1.12.4\", \"v1.13.0\", \"v1.14.0\", \"v1.14.1\", \"v1.14.2\", \"v1.14.3\", \"v1.14.4\", \"v1.14.5\", \"v1.14.6\", \"v1.14.7\", \"v1.15.0\", \"v1.15.1\", \"v1.15.2\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.1.0\", \"v2.1.1\", \"v2.1.2\", \"v2.1.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/oboejs/update.json\",\n  \"versions\": [\"v2.1.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.1.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/oboejs/2.1.3\",\n  \"branch\": \"oboejs/v2.1.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 195820377
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

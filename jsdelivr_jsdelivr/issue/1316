@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-27) 21 : 01 : 48 UTC
+  , issueUpdatedAt = 2014 (-07) (-27) 21 : 17 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1316/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1316")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1316
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1915268
+        , simpleUserLogin = N "irazasyed"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1915268?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/irazasyed"
+        }
+  , issueTitle = "Add iCheck Library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1316")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1316.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1316.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1316"
+  , issueCreatedAt = 2014 (-07) (-27) 20 : 57 : 04 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 38850401
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

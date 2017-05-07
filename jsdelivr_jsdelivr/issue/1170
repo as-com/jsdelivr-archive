@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-09) 13 : 51 : 35 UTC
+  , issueUpdatedAt = 2014 (-07) (-09) 15 : 14 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1170/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1170")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1170
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project 16pixels to v0.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1170")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1170.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1170.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1170"
+  , issueCreatedAt = 2014 (-07) (-09) 13 : 34 : 16 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project 16pixels to v0.1.2.\n\n@englishextra\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"16pixels\",\n    \"repo\": \"englishextra/16pixels\",\n    \"files\": {\n      \"basePath\": \"CDN/16pixels/latest/css/\",\n      \"include\": [\"16pixels.css\", \"16pixels.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/16pixels\",\n    \"localVersions\": [\"0.1.1\"],\n    \"remoteVersions\": [\"v0.1.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/16pixels/0.1.2\",\n  \"branch\": \"16pixels/v0.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 37464247
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

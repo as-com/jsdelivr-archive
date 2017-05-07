@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-10) (-24) 20 : 42 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14253/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/14253")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14253
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17800145
+        , simpleUserLogin = N "RoteMinecraftIL"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/17800145?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/RoteMinecraftIL"
+        }
+  , issueTitle = "jsDelivr is not keeping file structure"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14253"
+  , issueCreatedAt = 2016 (-10) (-06) 20 : 08 : 13 UTC
+  , issueBody =
+      Just
+        "When I updated my project to `0.3.1`, the file structure kinda broke.\nI expected it to be something like\n\n```\n0.3.1\n  | rotem.min.css\n  | rotem.css\n  |-fonts\n    | ionicons.eot\n    | ionicons.ttf\n    |...\n```\n\nBut instead, I got this:\n\n```\n0.3.1\n  | rotem.min.css\n  | rotem.css\n  | ionicons.eot\n  | ionicons.ttf\n  |...\n```\n\nHow can I fix this, so the files will work correctly?\n"
+  , issueState = StateOpen
+  , issueId = Id 181512819
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

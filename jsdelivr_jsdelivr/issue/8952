@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-14) 13 : 31 : 45 UTC
+  , issueUpdatedAt = 2016 (-01) (-14) 13 : 31 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8952/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8952")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8952
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6803264
+        , simpleUserLogin = N "JohnnyTheTank"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6803264?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/JohnnyTheTank"
+        }
+  , issueTitle = "Adding aping plugins"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8952")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8952.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8952.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8952"
+  , issueCreatedAt = 2016 (-01) (-14) 13 : 30 : 04 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 126655180
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

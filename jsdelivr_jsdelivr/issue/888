@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-03) 17 : 54 : 31 UTC
+  , issueUpdatedAt = 2014 (-06) (-29) 06 : 44 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/888/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/888")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 888
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add yui v3.17.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/888")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/888.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/888.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/888"
+  , issueCreatedAt = 2014 (-06) (-03) 17 : 40 : 07 UTC
+  , issueBody =
+      Just "source : http://yui.zenfs.com/releases/yui3/yui_3.17.2.zip\n"
+  , issueState = StateClosed
+  , issueId = Id 34886482
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

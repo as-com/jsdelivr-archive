@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-17) 15 : 17 : 26 UTC
+  , issueUpdatedAt = 2014 (-11) (-18) 20 : 09 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2309/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2309")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2309
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2278876
+        , simpleUserLogin = N "phahulin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2278876?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/phahulin"
+        }
+  , issueTitle = "[new] Probtn"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2309")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2309.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2309.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2309"
+  , issueCreatedAt = 2014 (-11) (-11) 11 : 43 : 37 UTC
+  , issueBody =
+      Just
+        "Please add our project.\nProfit button - easy to integrate floating element on top of your existing mobile app or a website. Include surveys, ads or online shops without redesigning your project.\n\n[Main site of our project](http://probtn.com)\nThis cdn repository will be used in the [web-version of our widget](http://github.com/probtn/probtn-web).\n\nThanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 48375747
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-14) 23 : 33 : 40 UTC
+  , issueUpdatedAt = 2016 (-04) (-14) 23 : 33 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11051/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/11051")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11051
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1206524
+        , simpleUserLogin = N "kjur"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1206524?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kjur"
+        }
+  , issueTitle =
+      "Please don't send me any notification for jsrsasign"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11051"
+  , issueCreatedAt = 2016 (-04) (-14) 19 : 23 : 48 UTC
+  , issueBody =
+      Just
+        "Please don't send me (@kjur) when I update my jsrsasign npm modules. I don't need any such notification. Thanks.\n\nFor example like this:\nhttps://github.com/jsdelivr/jsdelivr/pull/11045\n"
+  , issueState = StateClosed
+  , issueId = Id 148457948
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

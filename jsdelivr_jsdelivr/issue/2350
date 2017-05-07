@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-13) 13 : 30 : 23 UTC
+  , issueUpdatedAt = 2014 (-11) (-13) 13 : 31 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2350/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2350")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2350
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 456426
+        , simpleUserLogin = N "webpro"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/456426?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/webpro"
+        }
+  , issueTitle = "Updated structure for DOMtastic"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2350")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2350.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2350.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2350"
+  , issueCreatedAt = 2014 (-11) (-13) 13 : 29 : 03 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 48635714
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-14) 13 : 40 : 22 UTC
+  , issueUpdatedAt = 2016 (-01) (-14) 13 : 40 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8961/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8961")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8961
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project apiNG-plugin-github to v0.7.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8961")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8961.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8961.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8961"
+  , issueCreatedAt = 2016 (-01) (-14) 13 : 40 : 07 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project apiNG-plugin-github to v0.7.7.\n\n@JohnnyTheTank\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"apiNG-plugin-github\",\n    \"repo\": \"JohnnyTheTank/apiNG-plugin-github\",\n    \"files\": {\n      \"include\": [\"dist/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/aping.plugin-github\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.6.0\", \"v0.7.0\", \"v0.7.5\", \"v0.7.6\", \"v0.7.7\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/aping.plugin-github/update.json\",\n  \"version\": \"v0.7.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/aping.plugin-github/0.7.7\",\n  \"branch\": \"apiNG-plugin-github/v0.7.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 126656664
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

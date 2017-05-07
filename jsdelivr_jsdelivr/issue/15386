@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-17) 00 : 43 : 08 UTC
+  , issueUpdatedAt = 2016 (-12) (-17) 00 : 43 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15386/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15386")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15386
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15077095
+        , simpleUserLogin = N "wsngamerz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/15077095?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wsngamerz"
+        }
+  , issueTitle = "WebFunk Framework"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15386")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15386.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15386.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15386"
+  , issueCreatedAt = 2016 (-12) (-17) 00 : 38 : 03 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 196183765
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

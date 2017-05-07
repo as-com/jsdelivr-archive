@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-28) 23 : 17 : 50 UTC
+  , issueUpdatedAt = 2014 (-03) (-28) 23 : 18 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/528/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/528")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 528
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "bug: `latest` alias for concocting files"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/528"
+  , issueCreatedAt = 2014 (-03) (-28) 22 : 53 : 47 UTC
+  , issueBody =
+      Just
+        "Works: http://cdn.jsdelivr.net/normalize/latest/normalize.min.css\nDoesn't: http://cdn.jsdelivr.net/g/normalize@latest%28normalize.css+normalize.min.css%29\nWorks: http://cdn.jsdelivr.net/g/normalize@3%28normalize.css+normalize.min.css%29\n\nI hope you can copy-paste the other `latest` alias code :)\nLow priority.\n"
+  , issueState = StateClosed
+  , issueId = Id 30428921
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

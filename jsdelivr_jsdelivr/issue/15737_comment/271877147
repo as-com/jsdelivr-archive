@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-01) (-11) 14 : 08 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1613163
+        , simpleUserLogin = N "dlueth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1613163?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dlueth"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/271877147"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15737#issuecomment-271877147"
+  , issueCommentCreatedAt = 2017 (-01) (-11) 14 : 08 : 22 UTC
+  , issueCommentBody =
+      "@jimaek This is fine as isInstanceOf is, again, part of the main js file now and is useable exactly as before, so definitely a non-breaking change"
+  , issueCommentId = 271877147
+  }

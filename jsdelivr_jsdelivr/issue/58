@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-07) (-25) 15 : 56 : 27 UTC
+  , issueUpdatedAt = 2013 (-07) (-25) 16 : 48 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/58/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/58")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 58
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2124755
+        , simpleUserLogin = N "isaumya"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2124755?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaumya"
+        }
+  , issueTitle = "Uploaded WP FV Code Highlighter Plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/58")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/58.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/58.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/58"
+  , issueCreatedAt = 2013 (-07) (-25) 14 : 55 : 06 UTC
+  , issueBody = Just "Uploaded WP FV Code Highlighter Plugin v1.8\n"
+  , issueState = StateClosed
+  , issueId = Id 17215819
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

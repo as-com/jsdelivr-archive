@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-03) 03 : 20 : 30 UTC
+  , issueUpdatedAt = 2016 (-09) (-03) 03 : 20 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13549/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13549")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13549
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4747021
+        , simpleUserLogin = N "mjau-mjau"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4747021?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mjau-mjau"
+        }
+  , issueTitle =
+      "How is POP location determined from response headers?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13549"
+  , issueCreatedAt = 2016 (-09) (-01) 14 : 32 : 06 UTC
+  , issueBody =
+      Just
+        "Hi. I tried searching around, but could not find any specific information about this. The **X-Via** tag seems to contain information about where the resource is served from, although it seems a bit vague.\n\nWhen I request a file (for example [jQuery 2.2.4](https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js)), it returns a response that insinuates the file was served from China somewhere:\n\n```\nX-Via:1.1 mgny23:8105 (Cdn Cache Server V2.0), 1.1 meizhou37:7 (Cdn Cache Server V2.0), 1.1 mangu9:4 (Cdn Cache Server V2.0)\n```\n\nI am based in Phuket, Thailand, approximately half way between Bangkok and Singapore. Normally, all CDN requests (from CDN providers) are routed to Singapore from here, although I would expect more requests being routed to Bangkok now that more POPs are showing up there. It's 1330km to singapore from here, but must be 4000km to meizhou China. Of course, it would generally not be performance-friendly to get files served from within China and outwards anyway.\n\nWhen performing a **traceroute** of cdn.jsdelivr.net, it seems fast, and eventually ends on an IP that is located in Bangkok. Good ... but I wonder why this isn't reflected in requests to assets.\n\n**traceroute cdn.jsdelivr.net**\ntraceroute: Warning: cdn.jsdelivr.net has multiple addresses; using 122.155.238.37\ntraceroute to 1stapacsniwebmw.dtwscache.speedcdns.com (122.155.238.37), 64 hops max, 52 byte packets\n 1  192.168.1.1 (192.168.1.1)  4.016 ms  1.066 ms  0.993 ms\n 2  10.87.163.1 (10.87.163.1)  14.113 ms  42.510 ms  8.023 ms\n 3  10.87.246.233 (10.87.246.233)  11.440 ms  16.668 ms  13.359 ms\n 4  10.185.105.236 (10.185.105.236)  21.837 ms  24.563 ms  25.024 ms\n 5  10.185.105.101 (10.185.105.101)  20.785 ms  25.434 ms  22.889 ms\n 6  58-97-82-126.static.asianet.co.th (58.97.82.126)  20.857 ms\n    58-97-82-120.static.asianet.co.th (58.97.82.120)  24.179 ms  23.191 ms\n 7  61-91-213-177.static.asianet.co.th (61.91.213.177)  23.904 ms  22.714 ms  20.833 ms\n 8  61-91-213-35.static.asianet.co.th (61.91.213.35)  26.611 ms  25.798 ms  23.864 ms\n 9  61-91-213-81.static.asianet.co.th (61.91.213.81)  30.738 ms  25.632 ms  30.749 ms\n10  122.155.226.17 (122.155.226.17)  26.400 ms  22.141 ms\n    122.155.226.105 (122.155.226.105)  23.911 ms\n11  61.19.9.74 (61.19.9.74)  1128.982 ms\n    61.19.9.190 (61.19.9.190)  61.625 ms  1034.804 ms\n12  122.155.238.33 (122.155.238.33)  43.172 ms  22.684 ms  22.008 ms\n13  122.155.238.37 (122.155.238.37)  24.050 ms  24.542 ms  21.870 ms\n\n122.155.238.37 == CAT Telecom, Bangkok\n\n**Results from jsdelivr debug-tool**\nhttp://goo.gl/0HgRXn\n\nThu, 01 Sep 2016 14:26:31 GMT\n\nhttp://ipinfo.io/json\nip: 119.76.127.226\nhostname: ppp-119-76-127-226.revip17.asianet.co.th\ncity: Phuket\nregion: Phuket\ncountry: TH\nloc: 7.9500,98.3583\norg: AS17552 True Internet Co.,Ltd.\npostal: 83000\n\nhttp://cdn.jsdelivr.net/information.txt\nnginx/1.10.0\n\n2-01-2cd3-000f.cdx-i-119-76-127-226.cedexis.net\ncdn.jsdelivr.net.mwcloudcdn.com\n\nhttps://cdn.jsdelivr.net/r15lgc.js\nOK\n\nhttp://cdn.jsdelivr.net/r15lgc.js\nOK\n\nhttp://testingcf.jsdelivr.net/r15lgc.js\nOK\n\nhttp://jsdelivr3.dak.netdna-cdn.com/r15lgc.js\nOK\n\nhttp://jsdelivr-cb7.kxcdn.com/r15lgc.js\nOK\n\nhttp://quantil.jsdelivr.net/r15lgc.js\nOK\n\ncloudflare.avail.2-01-2cd3-0010.cdx-i-119-76-127-226.cedexis.net\navailability: 90%\ncontinent: AS\ncountry: TH\nasn: 17552\n\nmaxcdn.avail.2-01-2cd3-0010.cdx-i-119-76-127-226.cedexis.net\navailability: 96%\ncontinent: AS\ncountry: TH\nasn: 17552\n\nkeycdn.avail.2-01-2cd3-0010.cdx-i-119-76-127-226.cedexis.net\navailability: 100%\ncontinent: AS\ncountry: TH\nasn: 17552\n\nquantil.avail.2-01-2cd3-0010.cdx-i-119-76-127-226.cedexis.net\navailability: 100%\ncontinent: AS\ncountry: TH\nasn: 17552\n\ncloudflare.http_rtt.2-01-2cd3-0010.cdx-i-119-76-127-226.cedexis.net\n116 ms\n\nmaxcdn.http_rtt.2-01-2cd3-0010.cdx-i-119-76-127-226.cedexis.net\n117 ms\n\nkeycdn.http_rtt.2-01-2cd3-0010.cdx-i-119-76-127-226.cedexis.net\n109 ms\n\nquantil.http_rtt.2-01-2cd3-0010.cdx-i-119-76-127-226.cedexis.net\n10 ms\n\nThanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 174539398
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

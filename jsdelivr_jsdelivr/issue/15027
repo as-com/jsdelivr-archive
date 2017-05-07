@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 17 : 03 : 22 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 17 : 03 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15027/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15027")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15027
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project cookieconsent3 to 3.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15027")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15027.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15027.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15027"
+  , issueCreatedAt = 2016 (-11) (-29) 17 : 03 : 19 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project cookieconsent3 to 3.0.3.\n\n@insites\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"cookieconsent3\",\n    \"repo\": \"insites/cookieconsent\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/cookieconsent3\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.0.8\", \"1.0.9\", \"1.0.10\", \"2.0.0\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/cookieconsent3/update.json\",\n  \"versions\": [\"1.0.10\", \"2.0.0\", \"3.0.3\"],\n  \"updateRemote\": true,\n  \"version\": \"3.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/cookieconsent3/3.0.3\",\n  \"branch\": \"cookieconsent3/3.0.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 192340428
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

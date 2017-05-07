@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-06) 21 : 17 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65914326"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2631#issuecomment-65914326"
+  , issueCommentCreatedAt = 2014 (-12) (-06) 21 : 17 : 55 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @as-com, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help ammending your PR...\n- Looks like the `info.ini` has a few problems\n  - No mainfile property provided\n  - Where is the bootswatch's mainfile (*_) in v-_3.3.1.2*\n  - Where is the bootswatch's mainfile (*_) in v-_3.0.0*\n  - Where is the bootswatch's mainfile (*_) in v-_3.0.3b*\n  - Where is the bootswatch's mainfile (*_) in v-_3.1.0*\n  - Where is the bootswatch's mainfile (*_) in v-_3.1.1.1*\n  - Where is the bootswatch's mainfile (*_) in v-_3.1.1*\n  - Where is the bootswatch's mainfile (*_) in v-_3.2.0.1*\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _bootswatch_ between _3.2.0.1_ and _3.3.1.2_ there was a change in file structure  \n  \n  ``` diff\n  + paper/bootstrap.css\n  + paper/bootstrap.min.css\n  + sandstone/bootstrap.css\n  + sandstone/bootstrap.min.css\n  - amelia/bootswatch.less\n  - amelia/variables.less\n  - cerulean/bootswatch.less\n  - cerulean/variables.less\n  - cosmo/bootswatch.less\n  - cosmo/variables.less\n  - cyborg/bootswatch.less\n  - cyborg/variables.less\n  - darkly/bootswatch.less\n  - darkly/variables.less\n  - flatly/bootswatch.less\n  - flatly/variables.less\n  - journal/bootswatch.less\n  - journal/variables.less\n  - lumen/bootswatch.less\n  - lumen/variables.less\n  - readable/bootswatch.less\n  - readable/variables.less\n  - simplex/bootswatch.less\n  - simplex/variables.less\n  - slate/bootswatch.less\n  - slate/variables.less\n  - spacelab/bootswatch.less\n  - spacelab/variables.less\n  - superhero/bootswatch.less\n  - superhero/variables.less\n  - united/bootswatch.less\n  - united/variables.less\n  - yeti/bootswatch.less\n  - yeti/variables.less\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Approachable is better than simple._\n"
+  , issueCommentId = 65914326
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-18) 20 : 29 : 47 UTC
+  , issueUpdatedAt = 2016 (-01) (-18) 20 : 29 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9182/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9182")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9182
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6803264
+        , simpleUserLogin = N "JohnnyTheTank"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6803264?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/JohnnyTheTank"
+        }
+  , issueTitle = "Added angular.xgallerify"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9182")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9182.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9182.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9182"
+  , issueCreatedAt = 2016 (-01) (-18) 16 : 46 : 17 UTC
+  , issueBody =
+      Just "Added https://github.com/JohnnyTheTank/angular-xGallerify\n"
+  , issueState = StateClosed
+  , issueId = Id 127265676
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

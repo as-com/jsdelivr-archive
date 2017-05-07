@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-11) 20 : 43 : 43 UTC
+  , issueUpdatedAt = 2015 (-02) (-11) 20 : 43 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3397/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3397")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3397
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1584235
+        , simpleUserLogin = N "alidbg"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1584235?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/alidbg"
+        }
+  , issueTitle = "Update project highlightjs.loader to 5.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3397")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3397.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3397.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3397"
+  , issueCreatedAt = 2015 (-02) (-10) 20 : 21 : 29 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 57230829
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

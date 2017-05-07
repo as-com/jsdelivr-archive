@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-03) 08 : 36 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/89220736"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4121#issuecomment-89220736"
+  , issueCommentCreatedAt = 2015 (-04) (-03) 08 : 36 : 44 UTC
+  , issueCommentBody =
+      "Done. When uploading your files please dont push to master. Create a PR and let the bot check for any errors you might have missed. Once everything is ok or the warnings can be ignored you can merge.\nFollow the README and CONTRIBUTING rules and ping me if you have any questions.\n"
+  , issueCommentId = 89220736
+  }

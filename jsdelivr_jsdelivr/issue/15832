@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-18) 08 : 28 : 40 UTC
+  , issueUpdatedAt = 2017 (-01) (-18) 08 : 28 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15832/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15832")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15832
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project redux-thunk to 2.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15832")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15832.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15832.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15832"
+  , issueCreatedAt = 2017 (-01) (-18) 08 : 28 : 34 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project redux-thunk to 2.1.1.\n\n@gaearon\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"redux-thunk\",\n    \"repo\": \"gaearon/redux-thunk\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/redux.thunk\",\n    \"localVersions\": [\"2.0.1\", \"2.1.0\"],\n    \"remoteVersions\": [\"0.1.0\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"2.0.1\", \"2.1.0\", \"2.1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/redux.thunk/update.json\",\n  \"versions\": [\"1.0.3\", \"2.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"2.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/redux.thunk/2.1.1\",\n  \"branch\": \"redux-thunk/2.1.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 201507538
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

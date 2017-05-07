@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-23) 12 : 20 : 38 UTC
+  , issueUpdatedAt = 2016 (-02) (-23) 12 : 20 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9991/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9991")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9991
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ros2d to r2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9991")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9991.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9991.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9991"
+  , issueCreatedAt = 2016 (-02) (-23) 12 : 20 : 28 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ros2d to r2.\n\n@RobotWebTools\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ros2d\",\n    \"repo\": \"RobotWebTools/ros2djs\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": [\"ros2d.js\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/ros2d\",\n    \"localVersions\": [\"0.6.0\", \"0.7.0\"],\n    \"remoteVersions\": [\"r1\", \"r2\", \"0.3.0\", \"0.4.0\", \"0.5.0\", \"0.6.0\", \"0.7.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/ros2d/update.json\",\n  \"versions\": [\"r1\", \"r2\"],\n  \"updateRemote\": true,\n  \"version\": \"r2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/ros2d/r2\",\n  \"branch\": \"ros2d/r2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 135722345
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

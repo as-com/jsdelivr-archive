@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-17) 15 : 33 : 53 UTC
+  , issueUpdatedAt = 2017 (-04) (-17) 15 : 33 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17623/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17623")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17623
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project browser-support-embed to 0.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17623")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17623.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17623.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17623"
+  , issueCreatedAt = 2017 (-04) (-17) 15 : 33 : 48 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project browser-support-embed to 0.1.1.\n\n@thlb\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"browser-support-embed\",\n    \"repo\": \"thlb/browser-support-embed\",\n    \"files\": {\n      \"basePath\": \"jsdelivr/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/browser-support-embed\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/browser-support-embed/update.json\",\n  \"versions\": [\"0.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/browser-support-embed/0.1.1\",\n  \"branch\": \"browser-support-embed/0.1.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 222156520
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

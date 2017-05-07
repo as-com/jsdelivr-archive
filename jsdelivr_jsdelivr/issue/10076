@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 34 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10076/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10076")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10076
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1505013
+        , simpleUserLogin = N "fatbattk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1505013?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/fatbattk"
+        }
+  , issueTitle = "Updated highcharts info"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10076")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10076.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10076.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10076"
+  , issueCreatedAt = 2016 (-02) (-23) 18 : 45 : 10 UTC
+  , issueBody = Just "Updated author and github.\n"
+  , issueState = StateClosed
+  , issueId = Id 135826159
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

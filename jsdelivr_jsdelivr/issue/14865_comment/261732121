@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-11) (-19) 18 : 51 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/261732121"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14865#issuecomment-261732121"
+  , issueCommentCreatedAt = 2016 (-11) (-19) 18 : 51 : 21 UTC
+  , issueCommentBody =
+      "i assume so too, but that could break urls for sites relying on it. I think we have to respect that its there and manually upload new versions until 1.0.0 comes out\n"
+  , issueCommentId = 261732121
+  }

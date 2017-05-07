@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-29) 21 : 59 : 09 UTC
+  , issueUpdatedAt = 2014 (-07) (-30) 00 : 08 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1330/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1330")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1330
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project dropzone.js to v3.10.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1330")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1330.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1330.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1330"
+  , issueCreatedAt = 2014 (-07) (-29) 21 : 34 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project dropzone.js to v3.10.2.\n\n@enyo\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"dropzone.js\",\n    \"repo\": \"enyo/dropzone\",\n    \"files\": {\n      \"basePath\": \"downloads/\",\n      \"exclude\": [\"readme.md\", \"css/stylus/*\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/jsdelivr/files/dropzone\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v3.0.1\", \"v3.1.0\", \"v3.2.0\", \"v3.3.0\", \"v3.4.0\", \"v3.4.1\", \"v3.5.0\", \"v3.5.1\", \"v3.5.2\", \"v3.5.3\", \"v3.6.0\", \"v3.6.1\", \"v3.6.2\", \"v3.7.0\", \"v3.7.1\", \"v3.7.2\", \"v3.7.3\", \"v3.7.4\", \"v3.8.0\", \"v3.8.1\", \"v3.8.2\", \"v3.8.3\", \"v3.8.4\", \"v3.8.5\", \"v3.8.6\", \"v3.8.7\", \"v3.9.0\", \"v3.10.0\", \"v3.10.1\", \"v3.10.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v3.10.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/dropzone/3.10.2\",\n  \"branch\": \"dropzone.js/v3.10.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 39038167
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

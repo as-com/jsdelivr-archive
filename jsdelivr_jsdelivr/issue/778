@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-09) 16 : 03 : 39 UTC
+  , issueUpdatedAt = 2014 (-05) (-12) 08 : 16 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/778/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/778")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 778
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1215667
+        , simpleUserLogin = N "garybond"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1215667?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/garybond"
+        }
+  , issueTitle = "jquery.colorbox version 1.5.9 added"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/778")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/778.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/778.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/778"
+  , issueCreatedAt = 2014 (-05) (-09) 13 : 18 : 14 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 33171117
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

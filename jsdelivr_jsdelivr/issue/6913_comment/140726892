@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-16) 12 : 29 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3605512
+        , simpleUserLogin = N "moay"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3605512?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/moay"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/140726892"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6913#issuecomment-140726892"
+  , issueCommentCreatedAt = 2015 (-09) (-16) 12 : 28 : 54 UTC
+  , issueCommentBody =
+      "Okay, just saw https://github.com/jsdelivr/jsdelivr/issues/5056 which seems to clarify things. With a new release being out, this is a bummer because I'd have to wait for the CDN to catch up before updating the website.\n\nIs there some way for project authors to purge their \"latest\" version? That would be great.\n"
+  , issueCommentId = 140726892
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-23) 12 : 17 : 03 UTC
+  , issueUpdatedAt = 2016 (-02) (-23) 12 : 17 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9978/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9978")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9978
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Revert \"Update project dna.js to current\""
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9978")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9978.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9978.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9978"
+  , issueCreatedAt = 2016 (-02) (-23) 12 : 16 : 57 UTC
+  , issueBody = Just "Reverts jsdelivr/jsdelivr#9973\n"
+  , issueState = StateClosed
+  , issueId = Id 135721639
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

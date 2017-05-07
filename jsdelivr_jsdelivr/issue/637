@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-14) 12 : 57 : 40 UTC
+  , issueUpdatedAt = 2014 (-04) (-14) 12 : 57 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/637/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/637")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 637
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 810995
+        , simpleUserLogin = N "csainty"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/810995?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/csainty"
+        }
+  , issueTitle = "Update jquery.slick to 1.3.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/637")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/637.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/637.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/637"
+  , issueCreatedAt = 2014 (-04) (-13) 08 : 18 : 58 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 31399423
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

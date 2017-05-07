@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-15) 12 : 47 : 46 UTC
+  , issueUpdatedAt = 2016 (-09) (-15) 12 : 47 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13756/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13756")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13756
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6059356
+        , simpleUserLogin = N "limonte"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6059356?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/limonte"
+        }
+  , issueTitle = "granim.js is not available"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13756"
+  , issueCreatedAt = 2016 (-09) (-13) 08 : 45 : 06 UTC
+  , issueBody =
+      Just
+        "https://github.com/jsdelivr/jsdelivr/pull/13673 is merged 5 days ago but granim.js is still unavailable https://www.jsdelivr.com/projects/granim.js\n"
+  , issueState = StateClosed
+  , issueId = Id 176583751
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

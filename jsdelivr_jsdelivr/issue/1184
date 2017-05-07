@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-11) 20 : 52 : 16 UTC
+  , issueUpdatedAt = 2014 (-07) (-11) 23 : 40 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1184/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1184")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1184
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "update jquery.fullpage 2.1.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1184")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1184.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1184.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1184"
+  , issueCreatedAt = 2014 (-07) (-11) 17 : 03 : 49 UTC
+  , issueBody =
+      Just
+        "I added jquery.easings.min.js 1.9.2; the repo author used jQuery.UI's build tool to make an [official reduced version](https://github.com/alvarotrigo/fullPage.js/tree/master/vendors).  By default, either `jquery.easings.min.js` or the full jquery.ui are needed.\n\nI suggest future uploads include the repo's jquery.easings.min.js, unless he or someone else uploads this particular build elsewhere.\n"
+  , issueState = StateClosed
+  , issueId = Id 37678404
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

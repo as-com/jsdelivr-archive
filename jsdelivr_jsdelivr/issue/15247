@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-07) 22 : 32 : 54 UTC
+  , issueUpdatedAt = 2016 (-12) (-07) 22 : 32 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15247/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15247")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15247
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bootstrap-richarea-images to 1.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15247")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15247.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15247.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15247"
+  , issueCreatedAt = 2016 (-12) (-07) 22 : 32 : 46 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootstrap-richarea-images to 1.0.3.\n\n@benallfree\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"bootstrap-richarea-images\",\n    \"repo\": \"benallfree/bootstrap-richarea-images\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.js\", \"*.css\", \"images/*\", \"templates/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/bootstrap-richarea-images\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.2\", \"1.0.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/bootstrap-richarea-images/update.json\",\n  \"versions\": [\"1.0.3\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/bootstrap-richarea-images/1.0.3\",\n  \"branch\": \"bootstrap-richarea-images/1.0.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 194191658
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

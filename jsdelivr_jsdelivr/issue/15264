@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-09) 10 : 33 : 49 UTC
+  , issueUpdatedAt = 2016 (-12) (-09) 10 : 33 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15264/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15264")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15264
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery-loading-overlay to v1.5.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15264")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15264.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15264.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15264"
+  , issueCreatedAt = 2016 (-12) (-09) 10 : 33 : 45 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery-loading-overlay to v1.5.2.\n\n@gasparesganga\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery-loading-overlay\",\n    \"repo\": \"gasparesganga/jquery-loading-overlay\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"src/*.js\", \"src/loading.gif\", \"extras/loadingoverlay_progress/*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.loadingoverlay\",\n    \"localVersions\": [\"1.4.1\", \"1.5.0\", \"1.5.1\"],\n    \"remoteVersions\": [\"v1.0\", \"v1.1\", \"v1.2\", \"v1.3\", \"1.4.0\", \"v1.4.0\", \"v1.4.1\", \"v1.5.0\", \"v1.5.1\", \"v1.5.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.loadingoverlay/update.json\",\n  \"versions\": [\"v1.5.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.5.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.loadingoverlay/1.5.2\",\n  \"branch\": \"jquery-loading-overlay/v1.5.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 194563188
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

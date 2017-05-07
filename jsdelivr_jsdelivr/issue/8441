@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-11) 14 : 02 : 00 UTC
+  , issueUpdatedAt = 2015 (-12) (-11) 14 : 02 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8441/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8441")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8441
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project conditionizr to v4.5.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8441")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8441.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8441.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8441"
+  , issueCreatedAt = 2015 (-12) (-11) 14 : 01 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project conditionizr to v4.5.1.\n\n@conditionizr\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"conditionizr\",\n    \"repo\": \"conditionizr/conditionizr\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"conditionizr.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/conditionizr\",\n    \"localVersions\": [\"4.5.0\"],\n    \"remoteVersions\": [\"v3.0.0\", \"v4.0.0\", \"v4.2.0\", \"v4.3.0\", \"v4.4.0\", \"4.5.0\", \"v4.5.1\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/conditionizr/update.json\",\n  \"version\": \"v4.5.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/conditionizr/4.5.1\",\n  \"branch\": \"conditionizr/v4.5.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 121713053
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

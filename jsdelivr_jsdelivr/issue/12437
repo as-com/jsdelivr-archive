@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-29) 15 : 09 : 41 UTC
+  , issueUpdatedAt = 2016 (-06) (-29) 15 : 09 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12437/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12437")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12437
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 757431
+        , simpleUserLogin = N "DanCollinz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/757431?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DanCollinz"
+        }
+  , issueTitle = "Add bootstrap.star rating"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12437")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12437.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12437.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12437"
+  , issueCreatedAt = 2016 (-06) (-28) 18 : 39 : 23 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 162756407
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

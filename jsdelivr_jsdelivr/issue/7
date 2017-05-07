@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-04) (-13) 14 : 11 : 44 UTC
+  , issueUpdatedAt = 2013 (-04) (-13) 14 : 12 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 922051
+        , simpleUserLogin = N "robocoder"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/922051?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/robocoder"
+        }
+  , issueTitle = "update require.js to 2.1.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7"
+  , issueCreatedAt = 2013 (-04) (-13) 13 : 58 : 35 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 13156778
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

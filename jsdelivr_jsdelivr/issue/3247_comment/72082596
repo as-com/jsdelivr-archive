@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-29) 18 : 58 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/72082596"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3247#issuecomment-72082596"
+  , issueCommentCreatedAt = 2015 (-01) (-29) 18 : 58 : 39 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @cappslock, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help ammending your PR...\n- Might be nothing but I have some concerns about the files in your submission...  \n  - Unescaped unicode characters in _jquery.waypoints.js_ (at pos 32)\n  - Unescaped unicode characters in _jquery.waypoints.min.js_ (at pos 32)\n  - Unescaped unicode characters in _noframework.waypoints.js_ (at pos 32)\n  - Unescaped unicode characters in _noframework.waypoints.min.js_ (at pos 32)\n  - Unescaped unicode characters in _shortcuts/infinite.js_ (at pos 57)\n  - Unescaped unicode characters in _shortcuts/infinite.min.js_ (at pos 57)\n  - Unescaped unicode characters in _shortcuts/inview.js_ (at pos 48)\n  - Unescaped unicode characters in _shortcuts/inview.min.js_ (at pos 48)\n  - Unescaped unicode characters in _shortcuts/sticky.js_ (at pos 56)\n  - Unescaped unicode characters in _shortcuts/sticky.min.js_ (at pos 56)\n  - Unescaped unicode characters in _waypoints.debug.js_ (at pos 38)\n  - Unescaped unicode characters in _zepto.waypoints.js_ (at pos 32)\n  - Unescaped unicode characters in _zepto.waypoints.min.js_ (at pos 32)\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Approachable is better than simple._\n"
+  , issueCommentId = 72082596
+  }

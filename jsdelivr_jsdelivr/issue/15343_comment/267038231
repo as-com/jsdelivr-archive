@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-12) (-14) 13 : 50 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/267038231"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15343#issuecomment-267038231"
+  , issueCommentCreatedAt = 2016 (-12) (-14) 13 : 50 : 16 UTC
+  , issueCommentBody =
+      "It fails because of this symbol `\8805` you can ignore it. You will need to add the new repo to update.json as well"
+  , issueCommentId = 267038231
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-08) (-13) 22 : 06 : 59 UTC
+  , issueUpdatedAt = 2013 (-08) (-28) 20 : 42 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/73/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/73")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 73
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1676054
+        , simpleUserLogin = N "danialfarid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1676054?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/danialfarid"
+        }
+  , issueTitle = "angular.file-upload v0.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/73")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/73.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/73.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/73"
+  , issueCreatedAt = 2013 (-08) (-13) 21 : 36 : 54 UTC
+  , issueBody =
+      Just
+        "The new version 0.1.1 allows sending model \"data\" along with a file through $http.fileUpload\n"
+  , issueState = StateClosed
+  , issueId = Id 18022842
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

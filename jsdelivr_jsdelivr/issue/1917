@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-03) 23 : 29 : 11 UTC
+  , issueUpdatedAt = 2014 (-10) (-03) 23 : 29 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1917/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1917")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1917
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project octicons to v2.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1917")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1917.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1917.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1917"
+  , issueCreatedAt = 2014 (-10) (-03) 23 : 28 : 42 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project octicons to v2.1.2.\n\n@github\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"octicons\",\n    \"repo\": \"github/octicons\",\n    \"files\": {\n      \"basePath\": \"octicons/\",\n      \"exclude\": [\"README.md\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/jsdelivr/files/octicons\",\n    \"localVersions\": [\"2.0.1\"],\n    \"remoteVersions\": [\"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.1.0\", \"v2.1.1\", \"v2.1.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v2.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/octicons/2.1.2\",\n  \"branch\": \"octicons/v2.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 44860473
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-13) 14 : 44 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/92386093"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4284#issuecomment-92386093"
+  , issueCommentCreatedAt = 2015 (-04) (-13) 14 : 44 : 22 UTC
+  , issueCommentBody =
+      "Looks like 'jquery.isotope.js' was included in all previous versions. Users who are using that file in production will face errors if they are using the /latest/ feature. \n\n@jimaek  thoughts? \n"
+  , issueCommentId = 92386093
+  }

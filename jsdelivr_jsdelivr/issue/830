@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-22) 12 : 37 : 57 UTC
+  , issueUpdatedAt = 2014 (-05) (-22) 12 : 37 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/830/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/830")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 830
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3189678
+        , simpleUserLogin = N "MickeyKay"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3189678?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MickeyKay"
+        }
+  , issueTitle = "Connectivity Issues"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/830"
+  , issueCreatedAt = 2014 (-05) (-20) 17 : 00 : 56 UTC
+  , issueBody =
+      Just
+        "Hi there,\n\nI'm using the jsDelivr CDN for my [Better Font Awesome](https://wordpress.org/plugins/better-font-awesome/) WordPress plugin, to pull in the CDN Font Awesome CSS file at `//cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.min.css?ver=4.1.0` using [wp_remote_get()](http://codex.wordpress.org/Function_Reference/wp_remote_get).\n\nSeveral users have reported PHP warnings that indicate the the wp_remote_get() call might be failing, and I'm wondering if you have any insights on why that might be. Is the server experiencing inconsistent uptimes? Are there other factors that would prevent some users from connecting? Any other ideas? Thanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 33908584
+  , issueComments = 14
+  , issueMilestone = Nothing
+  }

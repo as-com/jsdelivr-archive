@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-06) 15 : 10 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/68876892"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2953#issuecomment-68876892"
+  , issueCommentCreatedAt = 2015 (-01) (-06) 15 : 10 : 43 UTC
+  , issueCommentBody =
+      "Update info.ini with the new structure as well. (you dont need to close it and create a new one. Just commit the change and squash your commits)\n"
+  , issueCommentId = 68876892
+  }

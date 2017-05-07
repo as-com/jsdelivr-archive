@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-23) 15 : 57 : 00 UTC
+  , issueUpdatedAt = 2016 (-02) (-23) 15 : 57 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10051/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10051")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10051
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project iframe-resizer to v3.5.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10051")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10051.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10051.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10051"
+  , issueCreatedAt = 2016 (-02) (-23) 15 : 49 : 59 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project iframe-resizer to v3.5.2.\n\n@davidjbradshaw\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"iframe-resizer\",\n    \"repo\": \"davidjbradshaw/iframe-resizer\",\n    \"files\": {\n      \"basePath\": \"js\",\n      \"include\": [\"*.min.*\", \"*.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/iframe-resizer\",\n    \"localVersions\": [\"1.4.4\", \"2.8.10\", \"3.5.0\", \"3.5.1\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.2.0\", \"1.0.0\", \"1.0.1\", \"1.0.3\", \"v1.1.0\", \"v1.1.1\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.3\", \"v1.2.4\", \"v1.2.5\", \"v1.3.0\", \"v1.3.2\", \"v1.3.3\", \"v1.3.4\", \"v1.3.5\", \"v1.3.6\", \"v1.3.7\", \"v1.4.0\", \"v1.4.1\", \"v1.4.2\", \"v1.4.3\", \"v1.4.4\", \"v2.0.0-pre\", \"v2.0.0\", \"v2.1.0\", \"v2.1.1\", \"v2.2.0\", \"v2.2.1\", \"v2.2.2\", \"v2.2.3\", \"v2.3.0\", \"v2.3.1\", \"v2.3.2\", \"v2.4.0\", \"v2.4.1\", \"v2.4.2\", \"v2.4.3\", \"v2.4.4\", \"v2.4.5\", \"v2.4.6\", \"v2.4.7\", \"v2.4.8\", \"v2.5.0\", \"v2.5.1\", \"v2.5.2\", \"v2.6.0\", \"v2.6.1\", \"v2.6.2\", \"v2.6.3\", \"v2.6.4\", \"v2.6.5\", \"v2.7.0\", \"v2.7.1\", \"v2.8.0\", \"v2.8.1\", \"v2.8.2\", \"v2.8.3\", \"v2.8.4\", \"v2.8.5\", \"v2.8.6\", \"v2.8.7\", \"v2.8.8\", \"v2.8.9\", \"v2.8.10\", \"v3.0.0\", \"v3.1.0\", \"v3.1.1\", \"v3.2.0\", \"v3.2.1\", \"v3.3.0\", \"v3.3.1\", \"v3.3.2\", \"v3.3.3\", \"v3.4.0\", \"v3.4.1\", \"v3.4.2\", \"v3.5.0\", \"v3.5.1\", \"v3.5.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/iframe-resizer/update.json\",\n  \"versions\": [\"v3.5.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.5.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/iframe-resizer/3.5.2\",\n  \"branch\": \"iframe-resizer/v3.5.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 135775925
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

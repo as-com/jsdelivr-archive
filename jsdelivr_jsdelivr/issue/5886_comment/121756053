@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-15) 21 : 30 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/121756053"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5886#issuecomment-121756053"
+  , issueCommentCreatedAt = 2015 (-07) (-15) 21 : 30 : 11 UTC
+  , issueCommentBody =
+      "1. You dont have any tagged versions so our bot will fail in the future\n2. Please add more documentation to your project. Its not clear at all what it does at the moment. I would also suggest waiting a bit until it becomes stable before adding it to jsDelivr.\n"
+  , issueCommentId = 121756053
+  }

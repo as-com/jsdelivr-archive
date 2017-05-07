@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-25) 14 : 03 : 59 UTC
+  , issueUpdatedAt = 2016 (-09) (-25) 14 : 03 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13978/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13978")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13978
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jsrsasign to 6.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13978")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13978.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13978.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13978"
+  , issueCreatedAt = 2016 (-09) (-25) 14 : 03 : 55 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jsrsasign to 6.1.1.\n\n@kjur\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"jsrsasign\",\n    \"repo\": \"kjur/jsrsasign\",\n    \"files\": {\n      \"basePath\": \"lib/\",\n      \"include\": [\"jsrsasign.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jsrsasign\",\n    \"localVersions\": [\"4.9.2\", \"5.0.1\", \"5.0.2\", \"5.0.5\", \"5.0.6\", \"5.0.7\", \"5.0.8\", \"5.0.9\", \"5.0.10\", \"5.0.11\", \"5.0.12\", \"5.0.13\", \"5.0.14\", \"5.0.15\", \"5.1.0\", \"6.0.0\", \"6.0.1\", \"6.1.0\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"4.8.2\", \"4.8.3\", \"4.8.4\", \"4.8.5\", \"4.8.6\", \"4.9.0\", \"4.9.1\", \"4.9.2\", \"5.0.0\", \"5.0.1\", \"5.0.2\", \"5.0.5\", \"5.0.6\", \"5.0.7\", \"5.0.8\", \"5.0.9\", \"5.0.10\", \"5.0.11\", \"5.0.12\", \"5.0.13\", \"5.0.14\", \"5.0.15\", \"5.1.0\", \"6.0.0\", \"6.0.1\", \"6.1.0\", \"6.1.1\"],\n    \"branchVersions\": [\"5.0.1\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jsrsasign/update.json\",\n  \"versions\": [\"6.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"6.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jsrsasign/6.1.1\",\n  \"branch\": \"jsrsasign/6.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 179087784
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

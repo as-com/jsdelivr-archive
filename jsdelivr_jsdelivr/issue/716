@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-28) 16 : 16 : 13 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 06 : 47 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/716/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/716")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 716
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7112345
+        , simpleUserLogin = N "codingfriend1"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7112345?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/codingfriend1"
+        }
+  , issueTitle = "Flexgrid"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/716")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/716.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/716.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/716"
+  , issueCreatedAt = 2014 (-04) (-28) 16 : 06 : 33 UTC
+  , issueBody =
+      Just
+        "Added !important to grid margins which should not be changed.\n"
+  , issueState = StateClosed
+  , issueId = Id 32373054
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

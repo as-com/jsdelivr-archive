@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-03) 11 : 12 : 31 UTC
+  , issueUpdatedAt = 2016 (-01) (-03) 11 : 12 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8697/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/8697")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8697
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3000936
+        , simpleUserLogin = N "Kcchouette"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3000936?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Kcchouette"
+        }
+  , issueTitle = "Question about leaflet.markercluster"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8697"
+  , issueCreatedAt = 2015 (-12) (-29) 14 : 33 : 05 UTC
+  , issueBody =
+      Just
+        "Hello,\nThanks for jsdelivr\n\nFor leaflet.markercluster, is there a way to host branch like https://github.com/Leaflet/Leaflet.markercluster/tree/leaflet-0.7 (to use it with leaflet 0.7)?\n\nThanks\n"
+  , issueState = StateClosed
+  , issueId = Id 124218889
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

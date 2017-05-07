@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-19) 13 : 55 : 58 UTC
+  , issueUpdatedAt = 2014 (-03) (-19) 13 : 56 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/473/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/473")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 473
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 161476
+        , simpleUserLogin = N "Eugeny"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/161476?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Eugeny"
+        }
+  , issueTitle = "Add socket.io-client 0.9.15, 0.9.16"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/473")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/473.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/473.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/473"
+  , issueCreatedAt = 2014 (-03) (-19) 13 : 16 : 55 UTC
+  , issueBody =
+      Just
+        "Latest socket.io-client (0.9.16) and socket.io-client corresponding to socket.io server version (0.9.15) on jsDelivr.\nFixes #472\n"
+  , issueState = StateClosed
+  , issueId = Id 29730899
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

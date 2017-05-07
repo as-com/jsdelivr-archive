@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-10) 16 : 00 : 19 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 10 : 54 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/924/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/924")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 924
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "Uikit v2.7.1 & auto-update"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/924")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/924.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/924.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/924"
+  , issueCreatedAt = 2014 (-06) (-10) 15 : 10 : 58 UTC
+  , issueBody =
+      Just
+        "source :\n https://github.com/uikit/uikit/releases/download/v2.7.1/uikit-2.7.1.zip\n"
+  , issueState = StateClosed
+  , issueId = Id 35391832
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

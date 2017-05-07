@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-04) 03 : 41 : 25 UTC
+  , issueUpdatedAt = 2017 (-04) (-04) 03 : 41 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17370/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17370")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17370
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 171072
+        , simpleUserLogin = N "floydpink"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/171072?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/floydpink"
+        }
+  , issueTitle = "updates the update.json for the right css filename"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17370")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17370.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17370.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17370"
+  , issueCreatedAt = 2017 (-04) (-03) 02 : 24 : 46 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 218815714
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

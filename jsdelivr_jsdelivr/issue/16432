@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-19) 17 : 33 : 21 UTC
+  , issueUpdatedAt = 2017 (-02) (-19) 17 : 33 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16432/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16432")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16432
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project d3 to 4.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16432")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16432.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16432.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16432"
+  , issueCreatedAt = 2017 (-02) (-19) 17 : 33 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project d3 to 4.6.0.\n\n@d3\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"d3\",\n    \"repo\": \"d3/d3\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"d3.js\", \"d3.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/d3js\",\n    \"localVersions\": [\"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.1.6\", \"3.2.2\", \"3.2.8\", \"3.3.2\", \"3.3.3\", \"3.3.9\", \"3.4.1\", \"3.4.3\", \"3.4.6\", \"3.4.10\", \"3.4.11\", \"3.4.12\", \"3.4.13\", \"3.5.0\", \"3.5.1\", \"3.5.2\", \"3.5.3\", \"3.5.4\", \"3.5.5\", \"3.5.6\", \"3.5.7\", \"3.5.8\", \"3.5.9\", \"3.5.10\", \"3.5.11\", \"3.5.12\", \"3.5.13\", \"3.5.14\", \"3.5.15\", \"3.5.16\", \"3.5.17\", \"4.4.0\", \"4.4.1\", \"4.4.2\", \"4.4.3\", \"4.4.4\", \"4.5.0\", \"4.5.1\"],\n    \"remoteVersions\": [\"1.29.5\", \"2.1.3\", \"2.2.1\", \"2.3.0\", \"2.3.2\", \"2.3.3\", \"2.3.4\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"2.5.1\", \"2.5.2\", \"2.6.0\", \"2.7.0\", \"2.7.2\", \"2.7.3\", \"2.7.4\", \"2.7.5\", \"2.8.0\", \"2.8.1\", \"2.9.0\", \"2.9.1\", \"2.9.2\", \"2.9.3\", \"2.9.4\", \"2.9.6\", \"2.9.7\", \"2.10.0\", \"2.10.1\", \"2.10.3\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.0.7\", \"3.0.8\", \"3.1.0\", \"3.1.1\", \"3.1.2\", \"3.1.3\", \"3.1.4\", \"3.1.5\", \"3.1.6\", \"3.1.7\", \"3.1.8\", \"3.1.9\", \"3.1.10\", \"3.2.0\", \"3.2.1\", \"3.2.2\", \"3.2.3\", \"3.2.4\", \"3.2.5\", \"3.2.6\", \"3.2.7\", \"3.2.8\", \"3.3.0\", \"3.3.1\", \"3.3.2\", \"3.3.3\", \"3.3.4\", \"3.3.5\", \"3.3.6\", \"3.3.7\", \"3.3.8\", \"3.3.9\", \"3.3.10\", \"3.3.11\", \"3.3.12\", \"3.3.13\", \"3.4.0\", \"3.4.1\", \"3.4.2\", \"3.4.3\", \"3.4.4\", \"3.4.5\", \"3.4.6\", \"3.4.7\", \"3.4.8\", \"3.4.9\", \"3.4.10\", \"3.4.11\", \"3.4.12\", \"3.4.13\", \"3.5.0\", \"3.5.1\", \"3.5.2\", \"3.5.3\", \"3.5.4\", \"3.5.5\", \"3.5.6\", \"3.5.7\", \"3.5.8\", \"3.5.9\", \"3.5.10\", \"3.5.11\", \"3.5.12\", \"3.5.13\", \"3.5.14\", \"3.5.15\", \"3.5.16\", \"3.5.17\", \"4.0.0-alpha.1\", \"4.0.0-alpha.2\", \"4.0.0-alpha.3\", \"4.0.0-alpha.4\", \"4.0.0-alpha.5\", \"4.0.0-alpha.6\", \"4.0.0-alpha.7\", \"4.0.0-alpha.9\", \"4.0.0-alpha.10\", \"4.0.0-alpha.11\", \"4.0.0-alpha.12\", \"4.0.0-alpha.13\", \"4.0.0-alpha.14\", \"4.0.0-alpha.15\", \"4.0.0-alpha.16\", \"4.0.0-alpha.17\", \"4.0.0-alpha.18\", \"4.0.0-alpha.19\", \"4.0.0-alpha.20\", \"4.0.0-alpha.21\", \"4.0.0-alpha.22\", \"4.0.0-alpha.23\", \"4.0.0-alpha.24\", \"4.0.0-alpha.25\", \"4.0.0-alpha.26\", \"4.0.0-alpha.27\", \"4.0.0-alpha.28\", \"4.0.0-alpha.29\", \"4.0.0-alpha.30\", \"4.0.0-alpha.31\", \"4.0.0-alpha.32\", \"4.0.0-alpha.33\", \"4.0.0-alpha.34\", \"4.0.0-alpha.35\", \"4.0.0-alpha.36\", \"4.0.0-alpha.37\", \"4.0.0-alpha.38\", \"4.0.0-alpha.39\", \"4.0.0-alpha.40\", \"4.0.0-alpha.41\", \"4.0.0-alpha.42\", \"4.0.0-alpha.43\", \"4.0.0-alpha.44\", \"4.0.0-alpha.45\", \"4.0.0-alpha.46\", \"4.0.0-alpha.47\", \"4.0.0-alpha.48\", \"4.0.0-alpha.49\", \"4.0.0-alpha.50\", \"4.0.0-rc.1\", \"4.0.0-rc.2\", \"4.0.0\", \"4.1.0\", \"4.1.1\", \"4.2.0\", \"4.2.1\", \"4.2.2\", \"4.2.3\", \"4.2.4\", \"4.2.5\", \"4.2.6\", \"4.2.7\", \"4.2.8\", \"4.3.0\", \"4.4.0\", \"4.4.1\", \"4.4.2\", \"4.4.3\", \"4.4.4\", \"4.5.0\", \"4.5.1\", \"4.6.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/d3js/update.json\",\n  \"versions\": [\"1.29.5\", \"2.10.3\", \"4.6.0\"],\n  \"updateRemote\": true,\n  \"version\": \"4.6.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/d3js/4.6.0\",\n  \"branch\": \"d3/4.6.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 208731996
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-09) (-26) 10 : 01 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 284868
+        , simpleUserLogin = N "lindell"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/284868?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lindell"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/249529272"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/13979#issuecomment-249529272"
+  , issueCommentCreatedAt = 2016 (-09) (-26) 10 : 01 : 44 UTC
+  , issueCommentBody =
+      "As said in previus PRs that has yet to be merged. This is intended since a new barcode (codabar) was added. It's now more than a week since I could update the version of the jsdelivr CDN and would appreciate if this could get merged.\n"
+  , issueCommentId = 249529272
+  }

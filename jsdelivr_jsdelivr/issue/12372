@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-24) 11 : 42 : 21 UTC
+  , issueUpdatedAt = 2016 (-06) (-24) 11 : 42 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12372/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12372")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12372
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7224675
+        , simpleUserLogin = N "andreamariotti83"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7224675?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/andreamariotti83"
+        }
+  , issueTitle = "Candy grid system 1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12372")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12372.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12372.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12372"
+  , issueCreatedAt = 2016 (-06) (-24) 08 : 21 : 54 UTC
+  , issueBody = Just "Update info.ini & update.json\n"
+  , issueState = StateClosed
+  , issueId = Id 162098748
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

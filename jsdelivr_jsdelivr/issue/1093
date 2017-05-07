@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-02) 14 : 58 : 52 UTC
+  , issueUpdatedAt = 2014 (-07) (-02) 14 : 59 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1093/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1093")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1093
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1519888
+        , simpleUserLogin = N "hufyhang"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1519888?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hufyhang"
+        }
+  , issueTitle = "Chop.js 0.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1093")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1093.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1093.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1093"
+  , issueCreatedAt = 2014 (-07) (-02) 05 : 29 : 56 UTC
+  , issueBody = Just "Chop.js updated to 0.1.1\n"
+  , issueState = StateClosed
+  , issueId = Id 36953248
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

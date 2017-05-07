@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-29) 11 : 44 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1613163
+        , simpleUserLogin = N "dlueth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1613163?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dlueth"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64949280"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2521#issuecomment-64949280"
+  , issueCommentCreatedAt = 2014 (-11) (-29) 11 : 44 : 02 UTC
+  , issueCommentBody =
+      "Something went wrong apparently: \"latest\" is still @3.5.8 and not 3.5.9 - mind having a look?\n"
+  , issueCommentId = 64949280
+  }

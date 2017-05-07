@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-12) 18 : 56 : 16 UTC
+  , issueUpdatedAt = 2014 (-06) (-15) 12 : 16 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/202/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/202")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 202
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "Added WP 3.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/202")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/202.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/202.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/202"
+  , issueCreatedAt = 2013 (-12) (-12) 18 : 05 : 53 UTC
+  , issueBody =
+      Just
+        "Added css/js/images for the new WP 3.8.\n\nhttp://wordpress.org/news/2013/12/parker/\n"
+  , issueState = StateClosed
+  , issueId = Id 24196712
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

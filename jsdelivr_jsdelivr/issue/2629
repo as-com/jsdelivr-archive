@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-06) 20 : 51 : 52 UTC
+  , issueUpdatedAt = 2014 (-12) (-06) 20 : 53 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2629/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2629")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2629
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueTitle = "Add bootswatch 3.3.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2629")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2629.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2629.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2629"
+  , issueCreatedAt = 2014 (-12) (-05) 23 : 57 : 28 UTC
+  , issueBody =
+      Just
+        "Sorry some Thumbs.db and .DS_Store files disappeared - it's just Bleachbit at work. :smile:\n"
+  , issueState = StateClosed
+  , issueId = Id 51160672
+  , issueComments = 12
+  , issueMilestone = Nothing
+  }

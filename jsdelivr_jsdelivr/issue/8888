@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-11) 22 : 02 : 15 UTC
+  , issueUpdatedAt = 2016 (-01) (-11) 22 : 02 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8888/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8888")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8888
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project vue.router to v0.7.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8888")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8888.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8888.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8888"
+  , issueCreatedAt = 2016 (-01) (-11) 22 : 02 : 09 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vue.router to v0.7.8.\n\n@vuejs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vue.router\",\n    \"repo\": \"vuejs/vue-router\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"vue-router.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/vue.router\",\n    \"localVersions\": [\"0.5.1\", \"0.5.2\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"0.7.4\", \"0.7.5\", \"0.7.6\", \"0.7.7\"],\n    \"remoteVersions\": [\"v0.4.0\", \"v0.5.0\", \"v0.5.1\", \"v0.5.2\", \"v0.6.0\", \"v0.6.1\", \"v0.6.2\", \"v0.7.0\", \"v0.7.1\", \"v0.7.2\", \"v0.7.3\", \"v0.7.4\", \"v0.7.5\", \"v0.7.6\", \"v0.7.7\", \"v0.7.8\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/vue.router/update.json\",\n  \"version\": \"v0.7.8\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/vue.router/0.7.8\",\n  \"branch\": \"vue.router/v0.7.8\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 126047333
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-19) 12 : 59 : 51 UTC
+  , issueUpdatedAt = 2014 (-04) (-19) 12 : 59 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/666/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/666")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 666
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 155787
+        , simpleUserLogin = N "passcod"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/155787?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/passcod"
+        }
+  , issueTitle = "Font reference broken with Bootstrap"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/666"
+  , issueCreatedAt = 2014 (-04) (-18) 04 : 31 : 53 UTC
+  , issueBody =
+      Just
+        ":japanese_ogre: When using combined files for loading bootstrap CSS, the `@font-face` urls aren't set properly.\n\nI'm using `//cdn.jsdelivr.net/g/bootstrap@3(css/bootstrap.min.css+css/bootstrap-theme.min.css)`, and getting:\n\n``` css\n@font-face{\n    font-family:'Glyphicons Halflings';\n    src:url(\"http://cdn.jsdelivr.net/g/bootstrap@3(css/bootstrap.min.css+css/../fonts/glyphicons-halflings-regular.eot\");\n    src:url(\"http://cdn.jsdelivr.net/g/bootstrap@3(css/bootstrap.min.css+css/../fonts/glyphicons-halflings-regular.eot?#iefix\") format('embedded-opentype'),url(\"http://cdn.jsdelivr.net/g/bootstrap@3(css/bootstrap.min.css+css/../fonts/glyphicons-halflings-regular.woff\") format('woff'),url(\"http://cdn.jsdelivr.net/g/bootstrap@3(css/bootstrap.min.css+css/../fonts/glyphicons-halflings-regular.ttf\") format('truetype'),url(\"http://cdn.jsdelivr.net/g/bootstrap@3(css/bootstrap.min.css+css/../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular\") format('svg')\n}\n```\n1. This results in a 404.\n2. Even if it worked, it wouldn't be the right thing: as per the docs, it would combine the `bootstrap.min.css` and `glyphicons-halflings-regular.ext` into one unusable file _and_ serve it with `application/javascript`.\n\nI'm not sure how these urls are generated, but clearly it's not compatible with `/g/` use.\n"
+  , issueState = StateClosed
+  , issueId = Id 31780822
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

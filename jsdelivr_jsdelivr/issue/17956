@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-06) 20 : 05 : 23 UTC
+  , issueUpdatedAt = 2017 (-05) (-06) 20 : 05 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17956/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17956")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17956
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1212676
+        , simpleUserLogin = N "deetail"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1212676?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/deetail"
+        }
+  , issueTitle = "Adding project moonball-custom"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17956")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17956.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17956.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17956"
+  , issueCreatedAt = 2017 (-05) (-04) 09 : 51 : 56 UTC
+  , issueBody = Just "Please add my files to jsdelivr :)"
+  , issueState = StateClosed
+  , issueId = Id 226229339
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

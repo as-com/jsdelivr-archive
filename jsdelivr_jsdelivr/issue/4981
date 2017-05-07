@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-26) 17 : 50 : 52 UTC
+  , issueUpdatedAt = 2015 (-05) (-26) 17 : 51 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4981/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4981")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4981
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 59507
+        , simpleUserLogin = N "bdukes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/59507?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bdukes"
+        }
+  , issueTitle = "Create update.json for flexslider"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4981")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4981.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4981.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4981"
+  , issueCreatedAt = 2015 (-05) (-26) 17 : 41 : 53 UTC
+  , issueBody = Just "flexslider has just released version 2.5\n"
+  , issueState = StateClosed
+  , issueId = Id 81064587
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

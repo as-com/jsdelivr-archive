@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-08) 01 : 39 : 59 UTC
+  , issueUpdatedAt = 2016 (-11) (-08) 01 : 39 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14702/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14702")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14702
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1508754
+        , simpleUserLogin = N "Petrovich-Z"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1508754?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Petrovich-Z"
+        }
+  , issueTitle = "Update update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14702")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14702.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14702.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14702"
+  , issueCreatedAt = 2016 (-11) (-07) 19 : 04 : 19 UTC
+  , issueBody = Just "correct path to script"
+  , issueState = StateClosed
+  , issueId = Id 187798784
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

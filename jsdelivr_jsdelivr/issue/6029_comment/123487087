@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-21) 21 : 47 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123487087"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123487087"
+  , issueCommentCreatedAt = 2015 (-07) (-21) 21 : 47 : 34 UTC
+  , issueCommentBody =
+      "Here is the new website https://github.com/jsdelivr/www.jsdelivr.com \nIts not live yet but it will be soon.\n\nRegarding the SRI, I am not sure how it would look on our interface.\nAlso of course it wont work at all for dynamic URLs. All files need to be 100% static.\n"
+  , issueCommentId = 123487087
+  }

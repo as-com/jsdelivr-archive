@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-31) 17 : 08 : 33 UTC
+  , issueUpdatedAt = 2014 (-01) (-31) 17 : 08 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/324/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/324")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 324
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 305721
+        , simpleUserLogin = N "rdeavila"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/305721?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rdeavila"
+        }
+  , issueTitle =
+      "Added jQuery Mask Plugin, from Igor Escobar. Versions 1.3.1 and 1.5.2."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/324")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/324.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/324.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/324"
+  , issueCreatedAt = 2014 (-01) (-31) 15 : 51 : 01 UTC
+  , issueBody =
+      Just
+        "Added jQuery Mask Plugin, from Igor Escobar. Versions 1.3.1 and 1.5.2.\n"
+  , issueState = StateClosed
+  , issueId = Id 26689793
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

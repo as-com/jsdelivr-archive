@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-19) 21 : 26 : 19 UTC
+  , issueUpdatedAt = 2014 (-06) (-22) 08 : 51 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/227/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/227")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 227
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 820748
+        , simpleUserLogin = N "mfidemraizer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/820748?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mfidemraizer"
+        }
+  , issueTitle = "Publish jOOPL 2.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/227")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/227.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/227.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/227"
+  , issueCreatedAt = 2013 (-12) (-19) 21 : 19 : 10 UTC
+  , issueBody =
+      Just
+        "2.5 version comes with a lot of improvements that will be published in\nthe project's official web site very soon!\n(http://mfidemraizer.github.io/joopl/)\n\nThank you again for adding jOOPL to this CDN! ;)\n"
+  , issueState = StateClosed
+  , issueId = Id 24588531
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

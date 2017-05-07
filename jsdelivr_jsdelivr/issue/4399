@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-18) 23 : 40 : 34 UTC
+  , issueUpdatedAt = 2015 (-04) (-18) 23 : 40 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4399/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4399")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4399
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project js-data-localstorage to 2.0.0-beta.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4399")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4399.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4399.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4399"
+  , issueCreatedAt = 2015 (-04) (-18) 23 : 40 : 29 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project js-data-localstorage to 2.0.0-beta.4.\n\n@js-data\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"js-data-localstorage\",\n    \"repo\": \"js-data/js-data-localstorage\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"js-data-localstorage.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/js-data-localstorage\",\n    \"localVersions\": [\"1.0.1\", \"1.1.0\", \"1.1.1\", \"2.0.0-beta.1\", \"2.0.0-beta.2\", \"2.0.0-beta.3\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.2.0\", \"0.3.0\", \"0.4.0\", \"0.4.1\", \"1.0.0-alpha.1\", \"1.0.0-beta.1\", \"1.0.0\", \"1.0.1\", \"1.1.0\", \"1.1.1\", \"2.0.0-beta.1\", \"2.0.0-beta.2\", \"2.0.0-beta.3\", \"2.0.0-beta.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.0.0-beta.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/js-data-localstorage/2.0.0-beta.4\",\n  \"branch\": \"js-data-localstorage/2.0.0-beta.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 69360973
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

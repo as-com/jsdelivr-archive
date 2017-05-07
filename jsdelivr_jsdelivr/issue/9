@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-04) (-15) 12 : 59 : 03 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 17 : 06 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 46602
+        , simpleUserLogin = N "David-Mulder"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/46602?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/David-Mulder"
+        }
+  , issueTitle = "Chosen updated"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9"
+  , issueCreatedAt = 2013 (-04) (-15) 11 : 21 : 24 UTC
+  , issueBody =
+      Just "Hope I am finally doing this the right way O:)\n"
+  , issueState = StateClosed
+  , issueId = Id 13195149
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

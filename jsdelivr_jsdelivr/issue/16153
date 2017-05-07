@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-04) 23 : 43 : 33 UTC
+  , issueUpdatedAt = 2017 (-02) (-04) 23 : 43 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16153/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16153")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16153
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6551569
+        , simpleUserLogin = N "GoToLoop"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6551569?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GoToLoop"
+        }
+  , issueTitle = "Update processing.js to 1.6.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16153")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16153.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16153.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16153"
+  , issueCreatedAt = 2017 (-02) (-04) 22 : 00 : 49 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 205380939
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

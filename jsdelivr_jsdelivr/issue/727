@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-30) 14 : 44 : 33 UTC
+  , issueUpdatedAt = 2014 (-06) (-20) 06 : 44 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/727/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/727")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 727
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add tablesorter v2.16.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/727")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/727.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/727.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/727"
+  , issueCreatedAt = 2014 (-04) (-30) 07 : 59 : 13 UTC
+  , issueBody =
+      Just
+        "source:https://github.com/Mottie/tablesorter/archive/v2.16.2.tar.gz\n"
+  , issueState = StateClosed
+  , issueId = Id 32513978
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

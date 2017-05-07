@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-01) 19 : 26 : 46 UTC
+  , issueUpdatedAt = 2016 (-12) (-01) 19 : 26 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15150/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15150")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15150
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4033915
+        , simpleUserLogin = N "Joylei"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/4033915?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Joylei"
+        }
+  , issueTitle = "Add project riot-format"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15150")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15150.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15150.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15150"
+  , issueCreatedAt = 2016 (-12) (-01) 13 : 40 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 192849515
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

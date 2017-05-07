@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-31) 16 : 53 : 51 UTC
+  , issueUpdatedAt = 2017 (-03) (-31) 16 : 53 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17318/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17318")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17318
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3855149
+        , simpleUserLogin = N "RestingCoder"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3855149?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/RestingCoder"
+        }
+  , issueTitle = "merged pull request"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17318")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17318.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17318.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17318"
+  , issueCreatedAt = 2017 (-03) (-30) 21 : 20 : 16 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 218331456
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

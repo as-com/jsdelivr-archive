@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-04) 21 : 36 : 24 UTC
+  , issueUpdatedAt = 2017 (-01) (-04) 21 : 36 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15631/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15631")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15631
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project wargamer to v0.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15631")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15631.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15631.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15631"
+  , issueCreatedAt = 2017 (-01) (-04) 21 : 36 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project wargamer to v0.1.2.\n\n@hkwu\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"wargamer\",\n    \"repo\": \"hkwu/wargamer\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/wargamer\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/wargamer/update.json\",\n  \"versions\": [\"v0.1.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/wargamer/0.1.2\",\n  \"branch\": \"wargamer/v0.1.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 198816911
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

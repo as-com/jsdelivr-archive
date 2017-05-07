@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-24) 20 : 33 : 05 UTC
+  , issueUpdatedAt = 2014 (-09) (-24) 20 : 33 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1796/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1796")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1796
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91501
+        , simpleUserLogin = N "daviddelikat"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/91501?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/daviddelikat"
+        }
+  , issueTitle = "Create update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1796")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1796.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1796.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1796"
+  , issueCreatedAt = 2014 (-09) (-22) 17 : 25 : 12 UTC
+  , issueBody =
+      Just "added auto-update config for countdown javascript module\n"
+  , issueState = StateClosed
+  , issueId = Id 43520519
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-12) (-16) 09 : 59 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 136959
+        , simpleUserLogin = N "Mottie"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/136959?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Mottie"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/267558509"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/15319#issuecomment-267558509"
+  , issueCommentCreatedAt = 2016 (-12) (-16) 09 : 59 : 14 UTC
+  , issueCommentBody =
+      "I cleared my cache, and the main jsDelivr page is still not showing the most recent versions:\r\n\r\nhttp://www.jsdelivr.com/?query=tablesorter\r\n\r\n![2016-12-16 03_51_52-jsdelivr - a free super-fast cdn for developers and webmasters](https://cloud.githubusercontent.com/assets/136959/21258551/2ab93674-c343-11e6-93ea-3faaaaf7ff4f.png)\r\n\r\nThe JSON in the api has the incorrect `mainfile` values for the last two versions:\r\n\r\n```js\r\n[{\r\n  \"assets\": [{\r\n    \"files\" : [...],\r\n    \"version\": \"2.28.2\",\r\n    \"mainfile\": \"js/jquery.tablesorter.min.js\" // this should be \"dist/js/...\"\r\n  },{\r\n    \"files\" : [...],\r\n    \"version\": \"2.17.4\",\r\n    \"mainfile\": \"js/jquery.tablesorter.min.js\" // correct\r\n  },{\r\n    // ...\r\n  }\r\n}]\r\n```\r\n"
+  , issueCommentId = 267558509
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-17) 00 : 15 : 40 UTC
+  , issueUpdatedAt = 2014 (-07) (-17) 00 : 15 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1216/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1216")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1216
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add prototypejs v1.7.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1216")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1216.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1216.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1216"
+  , issueCreatedAt = 2014 (-07) (-15) 14 : 30 : 13 UTC
+  , issueBody =
+      Just
+        "source : https://ajax.googleapis.com/ajax/libs/prototype/1.7.2.0/prototype.js\nPS: though they have `dist` dir in repo, but it's use for locally build, cannot be used for fetching release.\n"
+  , issueState = StateClosed
+  , issueId = Id 37888642
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-20) 23 : 34 : 41 UTC
+  , issueUpdatedAt = 2017 (-03) (-20) 23 : 34 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17031/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17031")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17031
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project unify to 1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17031")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17031.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17031.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17031"
+  , issueCreatedAt = 2017 (-03) (-20) 23 : 34 : 35 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project unify to 1.1.0.\n\n@mike-feldmeier\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"unify\",\n    \"repo\": \"mike-feldmeier/unify\",\n    \"files\": {\n      \"include\": [\"unify.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.unify\",\n    \"localVersions\": [\"1.0.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.unify/update.json\",\n  \"versions\": [\"1.1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.unify/1.1.0\",\n  \"branch\": \"unify/1.1.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215587032
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

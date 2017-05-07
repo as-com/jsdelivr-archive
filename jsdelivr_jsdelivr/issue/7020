@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-18) 20 : 08 : 21 UTC
+  , issueUpdatedAt = 2015 (-10) (-18) 20 : 08 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7020/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7020")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7020
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 38454
+        , simpleUserLogin = N "akkumar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/38454?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/akkumar"
+        }
+  , issueTitle = "get animate.css from bower"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7020")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7020.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7020.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7020"
+  , issueCreatedAt = 2015 (-09) (-22) 09 : 58 : 50 UTC
+  , issueBody =
+      Just
+        "Get Animate.css from bower instead of github to be more authentic. \n"
+  , issueState = StateClosed
+  , issueId = Id 107680740
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

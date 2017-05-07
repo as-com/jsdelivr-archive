@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-07) 02 : 35 : 19 UTC
+  , issueUpdatedAt = 2017 (-02) (-07) 02 : 35 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16215/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16215")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16215
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project PocketMine-CSS to 0.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16215")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16215.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16215.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16215"
+  , issueCreatedAt = 2017 (-02) (-07) 02 : 35 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project PocketMine-CSS to 0.1.2.\n\n@BoxOfDevs\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"PocketMine-CSS\",\n    \"repo\": \"BoxOfDevs/PocketMine-CSS\",\n    \"files\": {\n      \"include\": [\"PocketMine.min.css\", \"PocketMine.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/pocketmine-css\",\n    \"localVersions\": [\"0.1.0\", \"0.1.1\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/pocketmine-css/update.json\",\n  \"versions\": [\"0.1.2\"],\n  \"updateRemote\": true,\n  \"version\": \"0.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/pocketmine-css/0.1.2\",\n  \"branch\": \"PocketMine-CSS/0.1.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 205768635
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

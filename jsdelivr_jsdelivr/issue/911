@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-09) 13 : 59 : 19 UTC
+  , issueUpdatedAt = 2014 (-06) (-09) 13 : 59 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/911/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/911")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 911
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 525676
+        , simpleUserLogin = N "JuhQ"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/525676?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/JuhQ"
+        }
+  , issueTitle = "Headroom.js 0.6.0 kind of broken"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/911"
+  , issueCreatedAt = 2014 (-06) (-09) 12 : 46 : 49 UTC
+  , issueBody =
+      Just
+        "This seems to be broken for me but other people are reporting this to work fine.\n\nhttp://cdn.jsdelivr.net/headroomjs/0.6.0/headroom.min.js\n\n![screen shot 2014-06-09 at 15 42 56](https://cloud.githubusercontent.com/assets/525676/3216574/f8fae0f0-efd3-11e3-9154-90d8a2bb6977.png)\n\nSee discussion here: https://github.com/WickyNilliams/headroom.js/issues/79\n"
+  , issueState = StateClosed
+  , issueId = Id 35281544
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

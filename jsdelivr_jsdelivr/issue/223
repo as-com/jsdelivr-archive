@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-17) 20 : 29 : 31 UTC
+  , issueUpdatedAt = 2014 (-06) (-15) 12 : 16 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/223/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/223")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 223
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueTitle = "Added wp-includes to WordPress"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/223")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/223.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/223.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/223"
+  , issueCreatedAt = 2013 (-12) (-17) 20 : 18 : 42 UTC
+  , issueBody =
+      Just
+        "I think it's more useful to host wp-includes, rather than just the admin area. It appears that stuff already on the CDN does not include the stuff used on the front-end.\n"
+  , issueState = StateClosed
+  , issueId = Id 24447772
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

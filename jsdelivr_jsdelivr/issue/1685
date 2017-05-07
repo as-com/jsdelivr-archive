@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-09) 16 : 24 : 07 UTC
+  , issueUpdatedAt = 2014 (-09) (-09) 17 : 05 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1685/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1685")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1685
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 39958
+        , simpleUserLogin = N "nemtsov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/39958?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nemtsov"
+        }
+  , issueTitle = "jsonmask: update to 0.3.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1685")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1685.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1685.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1685"
+  , issueCreatedAt = 2014 (-09) (-09) 13 : 57 : 54 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 42308880
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

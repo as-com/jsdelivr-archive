@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-26) 14 : 03 : 47 UTC
+  , issueUpdatedAt = 2016 (-07) (-26) 14 : 03 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12924/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12924")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12924
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project blaze to 2.10.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12924")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12924.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12924.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12924"
+  , issueCreatedAt = 2016 (-07) (-26) 14 : 03 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project blaze to 2.10.2.\n\n@BlazeCSS\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"blaze\",\n    \"repo\": \"BlazeCSS/blaze\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/blazecss\",\n    \"localVersions\": [\"1.0.0-beta.2\", \"1.0.0-beta.3\", \"1.0.0-rc1\", \"1.0.0-rc2\", \"1.0.0-rc3\", \"1.0.0-rc4\", \"1.0.0-rc5\", \"1.0.0-rc6\", \"1.0.0-rc7\", \"1.0.0-rc8\", \"1.0.0-rc9\", \"1.0.0-rc10\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.2.1\", \"2.0.0\", \"2.1.0\", \"2.1.1\", \"2.2.0\", \"2.2.1\", \"2.3.0\", \"2.4.1\", \"2.5.0\", \"2.5.1\", \"2.6.0\", \"2.7.0\", \"2.7.1\", \"2.8.0\", \"2.9.0\", \"2.9.1\", \"2.10.0\", \"2.10.1\"],\n    \"remoteVersions\": [\"1.0.0-alpha\", \"1.0.0-alpha.1\", \"1.0.0-beta\", \"1.0.0-beta.1\", \"1.0.0-beta.2\", \"1.0.0-beta.3\", \"1.0.0-rc1\", \"1.0.0-rc2\", \"1.0.0-rc3\", \"1.0.0-rc4\", \"1.0.0-rc5\", \"1.0.0-rc6\", \"1.0.0-rc7\", \"1.0.0-rc8\", \"1.0.0-rc9\", \"1.0.0-rc10\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.2.0\", \"1.2.1\", \"2.0.0\", \"2.1.0\", \"2.1.1\", \"2.2.0\", \"2.2.1\", \"2.3.0\", \"2.4.1\", \"2.5.0\", \"2.5.1\", \"2.6.0\", \"2.7.0\", \"2.7.1\", \"2.8.0\", \"2.9.0\", \"2.9.1\", \"2.10.0\", \"2.10.1\", \"2.10.2\"],\n    \"branchVersions\": [\"2.4.1\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/blazecss/update.json\",\n  \"versions\": [\"2.10.2\"],\n  \"updateRemote\": true,\n  \"version\": \"2.10.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/blazecss/2.10.2\",\n  \"branch\": \"blaze/2.10.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 167615172
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

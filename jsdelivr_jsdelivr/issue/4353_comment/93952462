@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-17) 09 : 33 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/93952462"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4353#issuecomment-93952462"
+  , issueCommentCreatedAt = 2015 (-04) (-17) 09 : 33 : 12 UTC
+  , issueCommentBody =
+      "You can't use /g/ with css files that include other files, it breaks the paths and it results in 404 errors.\nLoad them normally and it will work just fine\n"
+  , issueCommentId = 93952462
+  }

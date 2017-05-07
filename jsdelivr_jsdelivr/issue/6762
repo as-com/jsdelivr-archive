@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-18) 20 : 04 : 40 UTC
+  , issueUpdatedAt = 2015 (-10) (-18) 20 : 04 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6762/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6762")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6762
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2970624
+        , simpleUserLogin = N "ludens"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2970624?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ludens"
+        }
+  , issueTitle = "fix incorrect font-weights"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6762")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6762.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6762.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6762"
+  , issueCreatedAt = 2015 (-09) (-08) 12 : 20 : 08 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 105367597
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

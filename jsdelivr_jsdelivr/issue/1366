@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-06) 20 : 54 : 43 UTC
+  , issueUpdatedAt = 2014 (-08) (-06) 20 : 55 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1366/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1366")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1366
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project p5.js to 0.3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1366")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1366.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1366.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1366"
+  , issueCreatedAt = 2014 (-08) (-06) 20 : 53 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project p5.js to 0.3.0.\n\n@lmccart\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"p5.js\",\n    \"repo\": \"lmccart/p5.js\",\n    \"files\": {\n      \"basePath\": \"lib/\",\n      \"include\": [\"p5.min.js\", \"./addons/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/p5.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.2.22\", \"0.2.23\", \"0.3.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.3.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/p5.js/0.3.0\",\n  \"branch\": \"p5.js/0.3.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 39664836
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

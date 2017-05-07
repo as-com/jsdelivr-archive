@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-22) 18 : 56 : 22 UTC
+  , issueUpdatedAt = 2016 (-11) (-22) 18 : 56 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14911/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14911")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14911
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1068356
+        , simpleUserLogin = N "benallfree"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1068356?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/benallfree"
+        }
+  , issueTitle = "Add bootstrap-modal-fullscreen"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14911")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14911.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14911.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14911"
+  , issueCreatedAt = 2016 (-11) (-22) 13 : 37 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 191007401
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

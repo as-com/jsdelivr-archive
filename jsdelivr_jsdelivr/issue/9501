@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-02) 00 : 02 : 32 UTC
+  , issueUpdatedAt = 2016 (-02) (-02) 00 : 02 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9501/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9501")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9501
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project countupjs to v1.6.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9501")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9501.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9501.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9501"
+  , issueCreatedAt = 2016 (-02) (-02) 00 : 02 : 29 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project countupjs to v1.6.1.\n\n@inorganik\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"countupjs\",\n    \"repo\": \"inorganik/countUp.js\",\n    \"files\": {\n      \"include\": [\"dist/countUp.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/countupjs\",\n    \"localVersions\": [\"1.1.0\", \"1.5.3\", \"1.6.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"v1.1.0\", \"1.1.1\", \"1.2.0\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"v1.3.3\", \"1.4.0\", \"1.5.0\", \"1.5.2\", \"1.5.3\", \"1.6.0\", \"v1.6.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/countupjs/update.json\",\n  \"versions\": [\"v1.6.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.6.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/countupjs/1.6.1\",\n  \"branch\": \"countupjs/v1.6.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 130524837
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

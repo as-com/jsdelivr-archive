@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-25) 16 : 34 : 01 UTC
+  , issueUpdatedAt = 2014 (-03) (-25) 16 : 34 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/510/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/510")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 510
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4980521
+        , simpleUserLogin = N "nielk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4980521?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nielk"
+        }
+  , issueTitle = "Create masonry.pkgd.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/510")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/510.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/510.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/510"
+  , issueCreatedAt = 2014 (-03) (-25) 15 : 27 : 21 UTC
+  , issueBody =
+      Just
+        "I added the masonry.pkgd.min.js (packaged source file includes everything you need). the masonry.min.js is the \"raw\" version...\n\ninfo : https://github.com/desandro/masonry\n"
+  , issueState = StateClosed
+  , issueId = Id 30133407
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

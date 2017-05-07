@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-01) 12 : 46 : 39 UTC
+  , issueUpdatedAt = 2014 (-08) (-01) 12 : 46 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1334/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1334")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1334
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 742498
+        , simpleUserLogin = N "onokumus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/742498?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/onokumus"
+        }
+  , issueTitle = "create twbuttons library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1334")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1334.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1334.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1334"
+  , issueCreatedAt = 2014 (-07) (-31) 11 : 54 : 36 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 39187114
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

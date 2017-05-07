@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-22) 18 : 31 : 23 UTC
+  , issueUpdatedAt = 2015 (-04) (-22) 18 : 31 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2569/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2569")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2569
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1165758
+        , simpleUserLogin = N "Toilal"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1165758?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Toilal"
+        }
+  , issueTitle = "angular.gantt doesn't update"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2569"
+  , issueCreatedAt = 2014 (-12) (-02) 07 : 24 : 23 UTC
+  , issueBody =
+      Just
+        "Since i use [release-it](https://github.com/webpro/release-it) to automate release process, [angular.gantt](https://github.com/jsdelivr/jsdelivr/blob/master/files/angular.gantt/update.json) doesn't get updated in jsDelivr.\n\nBefore, releases were created manually on github in releases page, and it was automatically added in jsDelivr. Now, releases are created through [release-it](https://github.com/webpro/release-it) and won't appear in jsDelivr. \n\nThose release are standard git tags created locally and then pushed to github. Is it the cause of the problem ?\n"
+  , issueState = StateClosed
+  , issueId = Id 50619866
+  , issueComments = 12
+  , issueMilestone = Nothing
+  }

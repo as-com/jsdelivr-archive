@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-02) 17 : 12 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/88977613"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4082#issuecomment-88977613"
+  , issueCommentCreatedAt = 2015 (-04) (-02) 17 : 12 : 27 UTC
+  , issueCommentBody =
+      "I dont have this problem on my PC. It looked like a known issue with CloudFlare, but I created a special rule for woff2 which should had fixed the problem.\nCan you run some tests again when you are home?\nTake a screenshot showing the 12s loading time along with the HTTP headers of that request\n"
+  , issueCommentId = 88977613
+  }

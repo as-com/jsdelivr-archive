@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-13) 14 : 32 : 55 UTC
+  , issueUpdatedAt = 2016 (-09) (-13) 14 : 32 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13732/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13732")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13732
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6059356
+        , simpleUserLogin = N "limonte"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6059356?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/limonte"
+        }
+  , issueTitle = "Create update.json for visionmedia/move.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13732")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13732.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13732.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13732"
+  , issueCreatedAt = 2016 (-09) (-11) 16 : 05 : 14 UTC
+  , issueBody =
+      Just
+        "For some reason, there was no update.json for visionmedia/move.js project and http://www.jsdelivr.com/projects/move.js is showing that latest is v0.1.1, but it's v0.5.0 now: https://github.com/visionmedia/move.js/releases\n"
+  , issueState = StateClosed
+  , issueId = Id 176250853
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

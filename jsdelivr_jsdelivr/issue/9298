@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-23) 19 : 05 : 07 UTC
+  , issueUpdatedAt = 2016 (-02) (-02) 11 : 46 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9298/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9298")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9298
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8916666
+        , simpleUserLogin = N "soundar24"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/8916666?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/soundar24"
+        }
+  , issueTitle = "roundSlider - new version 1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9298")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9298.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9298.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9298"
+  , issueCreatedAt = 2016 (-01) (-23) 18 : 58 : 42 UTC
+  , issueBody = Just "Added the new version (1.2) of roundSlider. \n"
+  , issueState = StateClosed
+  , issueId = Id 128345981
+  , issueComments = 11
+  , issueMilestone = Nothing
+  }

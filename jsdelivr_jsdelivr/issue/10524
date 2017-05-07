@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-18) 18 : 32 : 36 UTC
+  , issueUpdatedAt = 2016 (-03) (-18) 18 : 32 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10524/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10524")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10524
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-gravatar to 0.4.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10524")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10524.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10524.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10524"
+  , issueCreatedAt = 2016 (-03) (-18) 18 : 32 : 32 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-gravatar to 0.4.2.\n\n@wallin\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular-gravatar\",\n    \"repo\": \"wallin/angular-gravatar\",\n    \"files\": {\n      \"include\": [\"build/angular-gravatar.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.gravatar\",\n    \"localVersions\": [\"0.4.1\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.4.0\", \"0.4.1\", \"0.4.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.gravatar/update.json\",\n  \"versions\": [\"0.4.2\"],\n  \"updateRemote\": true,\n  \"version\": \"0.4.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.gravatar/0.4.2\",\n  \"branch\": \"angular-gravatar/0.4.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 141945657
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

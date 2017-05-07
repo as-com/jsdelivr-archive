@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-25) 05 : 12 : 59 UTC
+  , issueUpdatedAt = 2016 (-04) (-25) 05 : 12 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8667/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8667")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8667
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7444882
+        , simpleUserLogin = N "max-maxymenko"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7444882?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/max-maxymenko"
+        }
+  , issueTitle = "Create lightbox.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8667")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8667.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8667.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8667"
+  , issueCreatedAt = 2015 (-12) (-27) 13 : 37 : 23 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 123979115
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

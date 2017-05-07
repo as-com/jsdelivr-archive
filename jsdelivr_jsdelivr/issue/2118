@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-04) 15 : 51 : 38 UTC
+  , issueUpdatedAt = 2014 (-12) (-04) 15 : 51 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2118/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2118")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2118
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5640466
+        , simpleUserLogin = N "Exacore"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5640466?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Exacore"
+        }
+  , issueTitle = "jQuery ScrollMe"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2118")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2118.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2118.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2118"
+  , issueCreatedAt = 2014 (-10) (-26) 15 : 01 : 45 UTC
+  , issueBody =
+      Just
+        "A jQuery plugin for adding simple scrolling effects to web pages.\n"
+  , issueState = StateClosed
+  , issueId = Id 46845031
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

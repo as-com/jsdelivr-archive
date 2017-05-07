@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-14) 15 : 18 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1219831
+        , simpleUserLogin = N "oller"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1219831?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/oller"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/131144305"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6411#issuecomment-131144305"
+  , issueCommentCreatedAt = 2015 (-08) (-14) 15 : 17 : 20 UTC
+  , issueCommentBody =
+      "I've added in the minified version of older versions unrelated to the updates my initial commit was adding however this is still failing due to pre-existing file structure changes.\n\nThis is a bit tricky here as the bot mustn't have applied these rules previously, I'm following the existing patterns for updates on this lib.\n"
+  , issueCommentId = 131144305
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-19) 15 : 32 : 56 UTC
+  , issueUpdatedAt = 2014 (-01) (-19) 15 : 32 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/272/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/272")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 272
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6097059
+        , simpleUserLogin = N "rawmaterials"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/6097059?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rawmaterials"
+        }
+  , issueTitle = "Updated 0.4.17 of Pace javascripts"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/272")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/272.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/272.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/272"
+  , issueCreatedAt = 2014 (-01) (-19) 05 : 43 : 47 UTC
+  , issueBody =
+      Just
+        "updated Pace java-scripts from\n\nhttps://raw.github.com/HubSpot/pace/v0.4.17/pace.js\nhttps://raw.github.com/HubSpot/pace/v0.4.17/pace.min.js\n\nref : http://github.hubspot.com/pace/docs/welcome/\n"
+  , issueState = StateClosed
+  , issueId = Id 25875049
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

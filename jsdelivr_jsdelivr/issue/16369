@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-14) 22 : 04 : 09 UTC
+  , issueUpdatedAt = 2017 (-02) (-14) 22 : 04 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16369/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16369")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16369
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project EasyZoom to 2.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16369")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16369.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16369.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16369"
+  , issueCreatedAt = 2017 (-02) (-14) 22 : 04 : 05 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project EasyZoom to 2.5.0.\n\n@i-like-robots\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"EasyZoom\",\n    \"repo\": \"i-like-robots/EasyZoom\",\n    \"files\": {\n      \"include\": [\"dist/easyzoom.js\", \"css/easyzoom.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.easyzoom\",\n    \"localVersions\": [\"2.4.0\", \"2.4.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.0.4\", \"2.0.5\", \"2.1.0\", \"2.1.1\", \"2.2.0\", \"2.2.1\", \"2.3.0\", \"2.3.1\", \"2.4.0\", \"v2.4.1\", \"2.5.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.easyzoom/update.json\",\n  \"versions\": [\"1.0.1\", \"2.5.0\"],\n  \"updateRemote\": true,\n  \"version\": \"2.5.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.easyzoom/2.5.0\",\n  \"branch\": \"EasyZoom/2.5.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 207649954
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-22) 19 : 16 : 53 UTC
+  , issueUpdatedAt = 2014 (-12) (-22) 19 : 52 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2815/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2815")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2815
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 188254
+        , simpleUserLogin = N "aFarkas"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/188254?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aFarkas"
+        }
+  , issueTitle = "add lazysizes to jsdelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2815")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2815.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2815.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2815"
+  , issueCreatedAt = 2014 (-12) (-22) 19 : 13 : 09 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 52678877
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

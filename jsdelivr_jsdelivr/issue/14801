@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-15) 23 : 06 : 08 UTC
+  , issueUpdatedAt = 2016 (-11) (-15) 23 : 06 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14801/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14801")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14801
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project TimelineJS3 to 3.4.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14801")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14801.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14801.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14801"
+  , issueCreatedAt = 2016 (-11) (-15) 23 : 05 : 03 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project TimelineJS3 to 3.4.3.\n\n@NUKnightLab\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"TimelineJS3\",\n    \"repo\": \"NUKnightLab/TimelineJS3\",\n    \"files\": {\n      \"basePath\": \"compiled/\",\n      \"include\": [\"./css/**/*\", \"./js/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/timelinejs3\",\n    \"localVersions\": [\"3.3.9\", \"3.3.11\", \"3.3.12\", \"3.3.13\", \"3.3.14\", \"3.3.15\", \"3.3.17\", \"3.4.0\", \"3.4.1\", \"3.4.2\"],\n    \"remoteVersions\": [\"3.0.0\", \"3.1.0\", \"3.1.1\", \"3.1.2\", \"3.1.3\", \"3.1.4\", \"3.1.5\", \"3.1.6\", \"3.1.7\", \"3.1.8\", \"3.1.9\", \"3.1.10\", \"3.1.11\", \"3.1.12\", \"3.2.0\", \"3.2.1\", \"3.2.2\", \"3.2.3\", \"3.2.4\", \"3.2.5\", \"3.2.6\", \"3.3.0\", \"3.3.1\", \"3.3.2\", \"3.3.3\", \"3.3.4\", \"3.3.5\", \"3.3.6\", \"3.3.7\", \"3.3.8\", \"3.3.9\", \"3.3.10\", \"3.3.11\", \"3.3.12\", \"3.3.13\", \"3.3.14\", \"3.3.15\", \"3.3.16\", \"3.3.17\", \"3.4.0\", \"3.4.1\", \"3.4.2\", \"3.4.3\"],\n    \"branchVersions\": [\"3.3.15\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/timelinejs3/update.json\",\n  \"versions\": [\"3.4.3\"],\n  \"updateRemote\": true,\n  \"version\": \"3.4.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/timelinejs3/3.4.3\",\n  \"branch\": \"TimelineJS3/3.4.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 189533074
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

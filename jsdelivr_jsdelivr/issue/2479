@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-24) 08 : 48 : 24 UTC
+  , issueUpdatedAt = 2014 (-11) (-24) 08 : 48 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2479/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2479")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2479
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 866558
+        , simpleUserLogin = N "eserozvataf"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/866558?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/eserozvataf"
+        }
+  , issueTitle = "Added project laroux.js (current version 1.4)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2479")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2479.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2479.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2479"
+  , issueCreatedAt = 2014 (-11) (-24) 07 : 58 : 52 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 49864315
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

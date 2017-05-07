@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-01) 21 : 31 : 06 UTC
+  , issueUpdatedAt = 2016 (-10) (-01) 21 : 31 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14058/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14058")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14058
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17800145
+        , simpleUserLogin = N "RoteMinecraftIL"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/17800145?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/RoteMinecraftIL"
+        }
+  , issueTitle = "Headstart-CSS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14058")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14058.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14058.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14058"
+  , issueCreatedAt = 2016 (-09) (-30) 11 : 45 : 09 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 180284491
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

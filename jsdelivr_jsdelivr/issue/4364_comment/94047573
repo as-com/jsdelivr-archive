@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-17) 18 : 35 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/94047573"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4364#issuecomment-94047573"
+  , issueCommentCreatedAt = 2015 (-04) (-17) 18 : 35 : 43 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` has a few problems\n  - Where is the core-js's mainfile (_client/core.min.js_) in v-_0.8.4_\n  - Where is the core-js's mainfile (_client/core.min.js_) in v-_0.8.1_\n  - Where is the core-js's mainfile (_client/core.min.js_) in v-_0.8.2_\n  - Where is the core-js's mainfile (_client/core.min.js_) in v-_0.8.3_\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Mind your words, they are important._\n"
+  , issueCommentId = 94047573
+  }

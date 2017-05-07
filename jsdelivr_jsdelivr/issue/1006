@@ -1,0 +1,35 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-24) 06 : 54 : 20 UTC
+  , issueUpdatedAt = 2014 (-06) (-25) 13 : 30 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1006/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1006")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1006
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 21095
+        , simpleUserLogin = N "digitalextremist"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/21095?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/digitalextremist"
+        }
+  , issueTitle =
+      "Emergency: cdn.jsdelivr.net only showing 404 across all uses."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1006"
+  , issueCreatedAt = 2014 (-06) (-24) 05 : 00 : 05 UTC
+  , issueBody =
+      Just
+        "Even on jsdelivr.com, all uses of `cdn.jsdelivr.net` is only returning a `404` status. So the majority of CSS and JavaScript is malformed. At least from my location, right now jsdelivr.com is showing unstyled content, and javascript errors in the console.\n\nAll my own references to Open Source libraries using `cdn.jsdelivr.net` are also dying with error `404` across all my uses.\n\nWas the CDN network hacked? I thought there was failover and redundancy. It appears the servers _are_ online, but the files have been removed, which would explain why there is no failover behavior.\n\n```\nextremist:js de$ host cdn.jsdelivr.net\ncdn.jsdelivr.net is an alias for 2-01-2cd3-0004.cdx.cedexis.net.\n2-01-2cd3-0004.cdx.cedexis.net is an alias for cdn.jsdelivr.net.cdn.cloudflare.net.\ncdn.jsdelivr.net.cdn.cloudflare.net has address 190.93.246.228\ncdn.jsdelivr.net.cdn.cloudflare.net has address 190.93.247.228\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 36353779
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

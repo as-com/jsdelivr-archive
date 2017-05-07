@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-28) 01 : 10 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 167821
+        , simpleUserLogin = N "fmarier"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/167821?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/fmarier"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/125399010"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-125399010"
+  , issueCommentCreatedAt = 2015 (-07) (-28) 01 : 10 : 28 UTC
+  , issueCommentBody =
+      "Actually I'm tempted to side with @jimaek here. An ssh-style TOFU (trust on first use) approach is much better than the status quo and so it's a good first step.\n"
+  , issueCommentId = 125399010
+  }

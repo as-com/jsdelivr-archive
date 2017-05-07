@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-16) 14 : 32 : 49 UTC
+  , issueUpdatedAt = 2015 (-09) (-16) 14 : 32 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6913/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/6913")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6913
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3605512
+        , simpleUserLogin = N "moay"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3605512?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/moay"
+        }
+  , issueTitle = "Latest not updating"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6913"
+  , issueCreatedAt = 2015 (-09) (-16) 11 : 51 : 49 UTC
+  , issueBody =
+      Just
+        "Hi everyone. I don't know if this is a known issue or if I'm just doing something wrong, but for my project afterglow, there is a slight problem. The updates are correctly taken from the repo, but the `https://cdn.jsdelivr.net/projectname/latest/filename` doesn't update correctly. \n\nSo: https://cdn.jsdelivr.net/afterglow/latest/afterglow.min.js still delivers v0.1.1, which is outdates since a few days. \n\nAny idea?\n"
+  , issueState = StateClosed
+  , issueId = Id 106757461
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-08) 17 : 37 : 07 UTC
+  , issueUpdatedAt = 2014 (-09) (-08) 17 : 37 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1672/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1672")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1672
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3579195
+        , simpleUserLogin = N "karololszak"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3579195?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/karololszak"
+        }
+  , issueTitle = "Add jquery.cookiecuttr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1672")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1672.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1672.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1672"
+  , issueCreatedAt = 2014 (-09) (-08) 15 : 26 : 27 UTC
+  , issueBody =
+      Just
+        "A library we use to comply with EU cookie law. It has not changed in two years, no version number provided (I set it to 1.0), no minified version (I uglified it myself).\n\nDependencies: jquery, jquery.cookie (both in the CDN already).\n"
+  , issueState = StateClosed
+  , issueId = Id 42208745
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

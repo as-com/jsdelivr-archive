@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-01) 17 : 12 : 17 UTC
+  , issueUpdatedAt = 2017 (-03) (-01) 17 : 12 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16641/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16641")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16641
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3490654
+        , simpleUserLogin = N "komikoni"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3490654?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/komikoni"
+        }
+  , issueTitle = "ArielScheduleUrlgen CDN relese"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16641")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16641.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16641.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16641"
+  , issueCreatedAt = 2017 (-02) (-28) 16 : 54 : 54 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 210845887
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

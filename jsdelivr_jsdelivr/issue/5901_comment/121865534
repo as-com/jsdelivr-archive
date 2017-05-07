@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-16) 07 : 42 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/121865534"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5901#issuecomment-121865534"
+  , issueCommentCreatedAt = 2015 (-07) (-16) 07 : 42 : 01 UTC
+  , issueCommentBody =
+      "There is only 1 CSS file but it was not included in this PR. Please update the update.json file with the new files to include\n"
+  , issueCommentId = 121865534
+  }

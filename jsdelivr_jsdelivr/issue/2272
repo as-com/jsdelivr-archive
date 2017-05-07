@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-24) 08 : 16 : 21 UTC
+  , issueUpdatedAt = 2015 (-07) (-24) 08 : 16 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2272/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2272")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/Needs%20attention/help"
+          , labelName = N "Needs attention/help"
+          }
+      ]
+  , issueNumber = 2272
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Asia representation"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2272"
+  , issueCreatedAt = 2014 (-11) (-07) 19 : 23 : 37 UTC
+  , issueBody =
+      Just
+        "@ping @as-com @watermelonjuice Hey guys, as far as I know you have connections with Asia. \nEither are located there or know one of the languages.\nI was wondering if you would be interested to take a more active role at jsDelivr.\n\nThis would involve:\n- Getting Asian companies to sponsor us. (CDNs or servers)\n- Do benchmarks to improve our [load balancing code](https://github.com/jsdelivr/dns-openmix)\n- Get in contact with Asian open source projects for potential partnerships \n- General promotion of jsDelivr in Asian countries. Maybe even a translation of our website?\n  For example there is no point for http://jsdelivr.cn/ to exist.\n\nYou would be our official representation and could help us a lot.\n\nWhat do you think? Is there any interest in this?\n"
+  , issueState = StateClosed
+  , issueId = Id 48120312
+  , issueComments = 37
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-28) 12 : 53 : 16 UTC
+  , issueUpdatedAt = 2016 (-11) (-28) 12 : 53 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15000/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15000")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15000
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15857795
+        , simpleUserLogin = N "perfectacle"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/15857795?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/perfectacle"
+        }
+  , issueTitle = "request add my lib-name"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15000")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15000.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15000.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15000"
+  , issueCreatedAt = 2016 (-11) (-28) 12 : 51 : 09 UTC
+  , issueBody = Just "my lib is blah blah..."
+  , issueState = StateClosed
+  , issueId = Id 191998352
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

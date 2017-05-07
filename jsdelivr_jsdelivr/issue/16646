@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-28) 22 : 36 : 27 UTC
+  , issueUpdatedAt = 2017 (-02) (-28) 22 : 36 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16646/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16646")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16646
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project syncano-client-js to v.0.13.2-0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16646")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16646.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16646.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16646"
+  , issueCreatedAt = 2017 (-02) (-28) 22 : 36 : 22 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project syncano-client-js to v.0.13.2-0.\n\n@syncano\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"syncano-client-js\",\n    \"repo\": \"syncano/syncano-client-js\",\n    \"files\": {\n      \"basePath\": \"src/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/syncano-client-js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v.0.13.2-0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/syncano-client-js/update.json\",\n  \"versions\": [\"v.0.13.2-0\"],\n  \"updateRemote\": true,\n  \"version\": \"v.0.13.2-0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/syncano-client-js/0.13.2-0\",\n  \"branch\": \"syncano-client-js/v.0.13.2-0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 210923014
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-29) 04 : 40 : 54 UTC
+  , issueUpdatedAt = 2014 (-04) (-29) 04 : 40 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/721/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/721")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 721
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "add nanobar v 0.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/721")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/721.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/721.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/721"
+  , issueCreatedAt = 2014 (-04) (-29) 04 : 39 : 17 UTC
+  , issueBody =
+      Just "https://github.com/jacoborus/nanobar/archive/v0.2.0.zip \n"
+  , issueState = StateClosed
+  , issueId = Id 32418567
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-29) 16 : 42 : 50 UTC
+  , issueUpdatedAt = 2014 (-07) (-13) 16 : 08 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/871/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/871")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 871
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 59507
+        , simpleUserLogin = N "bdukes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/59507?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bdukes"
+        }
+  , issueTitle = "ZeroClipboard 1.3.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/871")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/871.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/871.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/871"
+  , issueCreatedAt = 2014 (-05) (-29) 16 : 37 : 54 UTC
+  , issueBody =
+      Just
+        "Add version 1.3.5 for ZeroClipboard.  Also fix bad URL for the project.\n"
+  , issueState = StateClosed
+  , issueId = Id 34570597
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

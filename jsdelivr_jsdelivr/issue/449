@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-12) 17 : 36 : 13 UTC
+  , issueUpdatedAt = 2014 (-08) (-12) 12 : 56 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/449/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/449")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 449
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 537127
+        , simpleUserLogin = N "englishextra"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/537127?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/englishextra"
+        }
+  , issueTitle = "added 16pixels.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/449")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/449.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/449.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/449"
+  , issueCreatedAt = 2014 (-03) (-12) 17 : 21 : 09 UTC
+  , issueBody =
+      Just
+        "suggest adding a css file with typography rules that is independant from any frameworks like bootstrap or CSS resets. Handy and is first to include in my new web project.\n\nthe demo here \nhttp://shimansky.biz/libs/16pixels/shimansky.biz/index.html\n\nthe pages that use 16pixels.css\n http://portfolio.shimansky.biz/\n\nThank you very much for collaboration\n\nSerguei Shimansky\n"
+  , issueState = StateClosed
+  , issueId = Id 29283319
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

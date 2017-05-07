@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-18) 11 : 11 : 15 UTC
+  , issueUpdatedAt = 2015 (-05) (-18) 11 : 11 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4813/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4813")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4813
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jspdf to 1.1.135"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4813")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4813.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4813.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4813"
+  , issueCreatedAt = 2015 (-05) (-18) 11 : 10 : 13 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jspdf to 1.1.135.\n\n@MrRio\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jspdf\",\n    \"repo\": \"MrRio/jsPDF\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"jspdf.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jspdf\",\n    \"localVersions\": [\"1.0.138\", \"1.0.150\", \"1.0.178\", \"1.0.272\"],\n    \"remoteVersions\": [\"v0.9.0\", \"v1.0.106\", \"v1.0.115\", \"v1.0.116\", \"v1.0.119\", \"v1.0.138\", \"v1.0.150\", \"v1.0.178\", \"v1.0.272\", \"1.1.135\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.1.135\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jspdf/1.1.135\",\n  \"branch\": \"jspdf/1.1.135\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 77612548
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-16) 18 : 12 : 11 UTC
+  , issueUpdatedAt = 2015 (-09) (-16) 18 : 12 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6917/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6917")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6917
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1621293
+        , simpleUserLogin = N "Sneezry"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1621293?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Sneezry"
+        }
+  , issueTitle = "Add image-delay.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6917")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6917.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6917.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6917"
+  , issueCreatedAt = 2015 (-09) (-16) 18 : 07 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 106828382
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

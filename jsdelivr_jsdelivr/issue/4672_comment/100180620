@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-08) 10 : 03 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/100180620"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4672#issuecomment-100180620"
+  , issueCommentCreatedAt = 2015 (-05) (-08) 10 : 03 : 03 UTC
+  , issueCommentBody =
+      "Yes, http://cdn.jsdelivr.net/jquery/latest/jquery.min.js\n\nBut I dont recommend it because sooner or later the author will release a version that will break your website.\n"
+  , issueCommentId = 100180620
+  }

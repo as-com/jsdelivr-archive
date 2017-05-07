@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-01) (-18) 18 : 57 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/273566764"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15845#issuecomment-273566764"
+  , issueCommentCreatedAt = 2017 (-01) (-18) 18 : 57 : 11 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @quinns, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- Looks like the `info.ini` or `update.json` has some problems\n    - The description property should be wrapped in double quotes (e.g. `description = \"\"A light-weight jQuery \"dirty forms\" Plugin - it monitors html forms and alerts users to unsaved changes if they attempt to close the browser or navigate away from the page. (Minified fork of jquery.AreYouSure by @codedance)\"\"`) and contain no other double quotes\n    - Issues validating *update.json* for jquery.areyousure: Expecting property name enclosed in double quotes: line 7 column 3 (char 189)\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Encourage flow.*\n"
+  , issueCommentId = 273566764
+  }

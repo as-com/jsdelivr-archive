@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-31) 09 : 22 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/126620212"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6202#issuecomment-126620212"
+  , issueCommentCreatedAt = 2015 (-07) (-31) 09 : 22 : 57 UTC
+  , issueCommentBody =
+      "In most cases we dont allow the modification of existing files but in this case nothing should break thanks to version aliasing.\n"
+  , issueCommentId = 126620212
+  }

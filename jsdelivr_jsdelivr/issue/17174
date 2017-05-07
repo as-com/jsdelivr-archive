@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-23) 23 : 02 : 47 UTC
+  , issueUpdatedAt = 2017 (-03) (-23) 23 : 02 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17174/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17174")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17174
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project alasql to 0.3.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17174")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17174.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17174.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17174"
+  , issueCreatedAt = 2017 (-03) (-23) 23 : 02 : 43 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project alasql to 0.3.9.\n\n@agershun\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"alasql\",\n    \"repo\": \"agershun/alasql\",\n    \"files\": {\n      \"include\": [\"dist/*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/alasql\",\n    \"localVersions\": [\"0.1.9\", \"0.1.10\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.3.5\", \"0.3.6\", \"0.3.7\", \"0.3.8\"],\n    \"remoteVersions\": [\"v0.0.40\", \"v0.0.41\", \"0.0.43\", \"0.0.44\", \"0.0.45\", \"0.0.46\", \"0.0.47\", \"0.0.48\", \"0.0.49\", \"0.0.50\", \"0.0.51\", \"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.8\", \"0.1.9\", \"0.1.10\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.3.5\", \"0.3.6\", \"0.3.7\", \"0.3.8\", \"0.3.9\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/alasql/update.json\",\n  \"versions\": [\"0.3.9\"],\n  \"updateRemote\": true,\n  \"version\": \"0.3.9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/alasql/0.3.9\",\n  \"branch\": \"alasql/0.3.9\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 216598093
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

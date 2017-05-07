@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-01) 14 : 18 : 53 UTC
+  , issueUpdatedAt = 2014 (-07) (-01) 14 : 18 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1084/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1084")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1084
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 701520
+        , simpleUserLogin = N "mostafasoufi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/701520?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mostafasoufi"
+        }
+  , issueTitle = "chosen-rtl.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1084")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1084.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1084.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1084"
+  , issueCreatedAt = 2014 (-07) (-01) 14 : 13 : 11 UTC
+  , issueBody = Just "chosen-rtl\n"
+  , issueState = StateClosed
+  , issueId = Id 36896297
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

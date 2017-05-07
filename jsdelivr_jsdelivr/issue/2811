@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-22) 09 : 27 : 51 UTC
+  , issueUpdatedAt = 2014 (-12) (-22) 09 : 27 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2811/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2811")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2811
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tinyterm to 0.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2811")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2811.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2811.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2811"
+  , issueCreatedAt = 2014 (-12) (-22) 08 : 49 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tinyterm to 0.0.3.\n\n@rileyjshaw\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"tinyterm\",\n    \"repo\": \"rileyjshaw/tinyterm\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"tinyterm.min.js\", \"tinyterm.min.css\", \"themes/*.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/tinyterm\",\n    \"localVersions\": [\"0.0.1\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\"],\n    \"branchVersions\": [\"0.0.2\"]\n  },\n  \"version\": \"0.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/tinyterm/0.0.3\",\n  \"branch\": \"tinyterm/0.0.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 52630268
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-06) 13 : 30 : 34 UTC
+  , issueUpdatedAt = 2014 (-08) (-06) 13 : 30 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1339/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1339")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1339
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8327704
+        , simpleUserLogin = N "a-m-b"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8327704?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/a-m-b"
+        }
+  , issueTitle =
+      "Update for owl carousel (using correct versioning format) and adding jquery rotate"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1339")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1339.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1339.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1339"
+  , issueCreatedAt = 2014 (-08) (-01) 08 : 13 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 39269781
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-20) 11 : 18 : 07 UTC
+  , issueUpdatedAt = 2016 (-04) (-20) 11 : 18 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11159/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11159")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11159
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6059356
+        , simpleUserLogin = N "limonte"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6059356?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/limonte"
+        }
+  , issueTitle = "Add project lahmatiy/es6-promise-polyfill "
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11159")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11159.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11159.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11159"
+  , issueCreatedAt = 2016 (-04) (-20) 10 : 17 : 00 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 149725786
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

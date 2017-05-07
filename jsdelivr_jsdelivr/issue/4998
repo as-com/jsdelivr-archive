@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-27) 20 : 32 : 03 UTC
+  , issueUpdatedAt = 2015 (-05) (-27) 20 : 32 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4998/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4998")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4998
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 150913
+        , simpleUserLogin = N "edwinm"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/150913?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/edwinm"
+        }
+  , issueTitle = "New package Color animation jQuery-plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4998")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4998.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4998.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4998"
+  , issueCreatedAt = 2015 (-05) (-27) 20 : 31 : 10 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 81611654
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

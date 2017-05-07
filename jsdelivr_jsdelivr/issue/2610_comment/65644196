@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-04) 15 : 03 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65644196"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2610#issuecomment-65644196"
+  , issueCommentCreatedAt = 2014 (-12) (-04) 15 : 03 : 34 UTC
+  , issueCommentBody =
+      "I sent a support ticket to CloudFlare. But its strange because our monitoring did not pick up the issue. Otherwise the traffic would be automatically switched to other providers.\n"
+  , issueCommentId = 65644196
+  }

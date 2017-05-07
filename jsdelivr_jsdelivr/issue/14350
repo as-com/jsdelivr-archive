@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-14) 00 : 02 : 26 UTC
+  , issueUpdatedAt = 2016 (-10) (-14) 00 : 02 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14350/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14350")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14350
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49068
+        , simpleUserLogin = N "marioja"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/49068?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/marioja"
+        }
+  , issueTitle =
+      "Added complete 3.3.1 modernizr minimized and not files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14350")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14350.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14350.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14350"
+  , issueCreatedAt = 2016 (-10) (-13) 21 : 37 : 27 UTC
+  , issueBody =
+      Just
+        "This includes a file with 258 browser feature check capability.\n"
+  , issueState = StateClosed
+  , issueId = Id 182908423
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-18) 12 : 24 : 56 UTC
+  , issueUpdatedAt = 2016 (-01) (-18) 12 : 24 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9160/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9160")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9160
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1430979
+        , simpleUserLogin = N "AurelioDeRosa"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1430979?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/AurelioDeRosa"
+        }
+  , issueTitle = "audero-sticky"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9160")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9160.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9160.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9160"
+  , issueCreatedAt = 2016 (-01) (-18) 02 : 58 : 31 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 127145103
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

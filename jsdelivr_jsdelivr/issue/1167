@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-09) 12 : 42 : 21 UTC
+  , issueUpdatedAt = 2014 (-07) (-09) 12 : 45 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1167/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1167")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1167
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ractive-transitions-fly to v0.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1167")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1167.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1167.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1167"
+  , issueCreatedAt = 2014 (-07) (-09) 12 : 42 : 04 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ractive-transitions-fly to v0.1.2.\n\n@ractivejs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ractive-transitions-fly\",\n    \"repo\": \"ractivejs/ractive-transitions-fly\",\n    \"files\": {\n      \"include\": [\"ractive-transitions-fly.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/ractive.transitions-fly\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.1\", \"v0.1.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/ractive.transitions-fly/0.1.2\",\n  \"branch\": \"ractive-transitions-fly/v0.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 37460315
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

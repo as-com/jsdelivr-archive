@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-01) (-17) 01 : 33 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/272999398"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15810#issuecomment-272999398"
+  , issueCommentCreatedAt = 2017 (-01) (-17) 01 : 33 : 53 UTC
+  , issueCommentBody =
+      "Hampton, make sure you follow the instructions to properly add a new project: https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md#advanced---manual\r\n\r\nYou need to have a info.ini file and a separate folder for each version. You'll also want to add a properly minified version."
+  , issueCommentId = 272999398
+  }

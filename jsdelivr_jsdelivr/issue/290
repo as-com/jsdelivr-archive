@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-23) 02 : 34 : 33 UTC
+  , issueUpdatedAt = 2014 (-01) (-23) 04 : 17 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/290/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/290")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 290
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 38454
+        , simpleUserLogin = N "akkumar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/38454?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/akkumar"
+        }
+  , issueTitle = "nggrid 2.0.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/290")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/290.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/290.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/290"
+  , issueCreatedAt = 2014 (-01) (-23) 02 : 33 : 41 UTC
+  , issueBody = Just "nggrid 2.0.7 \n"
+  , issueState = StateClosed
+  , issueId = Id 26140611
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

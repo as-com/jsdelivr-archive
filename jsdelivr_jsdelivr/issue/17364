@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-19) 14 : 58 : 53 UTC
+  , issueUpdatedAt = 2017 (-04) (-19) 14 : 58 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17364/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17364")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17364
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 26855384
+        , simpleUserLogin = N "dottoredellapeste"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/26855384?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/dottoredellapeste"
+        }
+  , issueTitle = "dottoredellapeste.it"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17364")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17364.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17364.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17364"
+  , issueCreatedAt = 2017 (-04) (-02) 16 : 34 : 18 UTC
+  , issueBody =
+      Just
+        "Hello,\r\n\r\nI'm new to GitHub, I hope I didn't make major mistakes during the setting up of the request.\r\nI would like to use JsDelivr for my website [dottoredellapeste.it](http://dottoredellapeste.it/) and I think the Pull Request is part of this process. Please let me know if everything looks ok.\r\n\r\nThank you,\r\nRaz"
+  , issueState = StateClosed
+  , issueId = Id 218775820
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

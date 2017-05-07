@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-16) 10 : 12 : 43 UTC
+  , issueUpdatedAt = 2015 (-12) (-16) 11 : 29 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8514/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8514")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8514
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 123822
+        , simpleUserLogin = N "vvo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/123822?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vvo"
+        }
+  , issueTitle = "feat(new lib): add docsearch.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8514")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8514.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8514.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8514"
+  , issueCreatedAt = 2015 (-12) (-16) 10 : 09 : 11 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 122469486
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

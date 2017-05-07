@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-07) 19 : 19 : 25 UTC
+  , issueUpdatedAt = 2014 (-09) (-07) 19 : 19 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1654/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1654")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1654
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jssavior to 1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1654")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1654.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1654.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1654"
+  , issueCreatedAt = 2014 (-09) (-07) 17 : 35 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jssavior to 1.1.0.\n\n@AlexBeauchemin\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jssavior\",\n    \"repo\": \"AlexBeauchemin/jssavior\",\n    \"files\": {\n      \"include\": [\"jssavior.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jssavior\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jssavior/1.1.0\",\n  \"branch\": \"jssavior/1.1.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 42147201
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

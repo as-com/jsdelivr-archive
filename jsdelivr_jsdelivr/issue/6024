@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-21) 21 : 57 : 26 UTC
+  , issueUpdatedAt = 2015 (-07) (-21) 21 : 57 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6024/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6024")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6024
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueTitle = "Create backbone.wreqr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6024")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6024.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6024.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6024"
+  , issueCreatedAt = 2015 (-07) (-21) 20 : 21 : 23 UTC
+  , issueBody =
+      Just "Created via https://github.com/megawac/cdn-it\n"
+  , issueState = StateClosed
+  , issueId = Id 96408265
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

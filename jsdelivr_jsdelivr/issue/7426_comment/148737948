@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-16) 14 : 52 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/148737948"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/7426#issuecomment-148737948"
+  , issueCommentCreatedAt = 2015 (-10) (-16) 14 : 52 : 06 UTC
+  , issueCommentBody =
+      "I don't think it would be exactly 1 TB of data. Much of the data would be highly redundant and compressible. \n"
+  , issueCommentId = 148737948
+  }

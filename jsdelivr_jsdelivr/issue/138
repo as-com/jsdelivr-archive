@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-05) 15 : 09 : 41 UTC
+  , issueUpdatedAt = 2013 (-11) (-05) 15 : 17 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/138/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/138")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 138
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 820748
+        , simpleUserLogin = N "mfidemraizer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/820748?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mfidemraizer"
+        }
+  , issueTitle = "Publish jOOPL 2.4.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/138")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/138.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/138.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/138"
+  , issueCreatedAt = 2013 (-11) (-05) 15 : 08 : 27 UTC
+  , issueBody =
+      Just
+        "First of all, sorry because of the small interval since last pull request... I discovered some important issues in 2.4.0 and that's why I'm pulling 2.4.1.\n\nThis version comes with:\n- Better exception handling approach (see http://mfidemraizer.github.io/joopl/classes/Exception%20handling%20best%20practices.html)\n- Constructors were unable to call most specialized versions of class members (inheritance/polymorphism). Now this is fixed.\n- More detailed documentation!\n\nThank you for adding it to your CDN, I appreciate your effort.\n"
+  , issueState = StateClosed
+  , issueId = Id 22125791
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

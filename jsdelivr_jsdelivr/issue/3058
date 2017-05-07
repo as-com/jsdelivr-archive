@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-14) 22 : 22 : 04 UTC
+  , issueUpdatedAt = 2015 (-01) (-14) 22 : 22 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3058/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3058")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3058
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.selectric to 1.8.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3058")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3058.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3058.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3058"
+  , issueCreatedAt = 2015 (-01) (-14) 22 : 09 : 19 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.selectric to 1.8.7.\n\n@lcdsantos\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.selectric\",\n    \"repo\": \"lcdsantos/jQuery-Selectric\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"jquery.selectric.min.js\", \"selectric.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.selectric\",\n    \"localVersions\": [\"1.6.5\", \"1.8.4\"],\n    \"remoteVersions\": [\"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.4\", \"1.5.5\", \"1.5.6\", \"1.5.7\", \"1.5.8\", \"1.5.9\", \"1.6.0\", \"1.6.1\", \"1.6.2\", \"1.6.4\", \"1.6.5\", \"1.6.6\", \"1.6.7\", \"1.6.8\", \"1.7.0\", \"1.7.1\", \"1.7.2\", \"1.7.3\", \"1.8.0\", \"1.8.1\", \"1.8.2\", \"1.8.3\", \"1.8.4\", \"1.8.7\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.8.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.selectric/1.8.7\",\n  \"branch\": \"jquery.selectric/1.8.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 54384109
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

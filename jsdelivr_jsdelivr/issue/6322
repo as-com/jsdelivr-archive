@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-09) 13 : 24 : 57 UTC
+  , issueUpdatedAt = 2015 (-08) (-09) 13 : 24 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6322/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6322")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6322
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6938640
+        , simpleUserLogin = N "taijiweb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6938640?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/taijiweb"
+        }
+  , issueTitle = "fix wrong location of basePath in update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6322")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6322.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6322.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6322"
+  , issueCreatedAt = 2015 (-08) (-09) 11 : 20 : 14 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 99887783
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

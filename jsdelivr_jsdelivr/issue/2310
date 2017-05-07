@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-11) 14 : 36 : 29 UTC
+  , issueUpdatedAt = 2014 (-11) (-11) 14 : 36 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2310/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2310")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2310
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1519888
+        , simpleUserLogin = N "hufyhang"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1519888?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hufyhang"
+        }
+  , issueTitle = "new production version of ChopJS-router"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2310")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2310.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2310.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2310"
+  , issueCreatedAt = 2014 (-11) (-11) 12 : 35 : 41 UTC
+  , issueBody =
+      Just
+        "new production version of ChopJS-router\n- Fixed the \"navigate twice\" bug when calling `navigate`\n"
+  , issueState = StateClosed
+  , issueId = Id 48379747
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

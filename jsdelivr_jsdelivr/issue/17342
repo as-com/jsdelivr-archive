@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-04) 03 : 45 : 21 UTC
+  , issueUpdatedAt = 2017 (-04) (-04) 03 : 45 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17342/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17342")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17342
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1786963
+        , simpleUserLogin = N "jloiola"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1786963?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jloiola"
+        }
+  , issueTitle = "CDN config files for Axios"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17342")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17342.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17342.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17342"
+  , issueCreatedAt = 2017 (-04) (-01) 04 : 50 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 218669612
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

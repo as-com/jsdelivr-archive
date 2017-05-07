@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-15) 12 : 38 : 46 UTC
+  , issueUpdatedAt = 2014 (-09) (-15) 12 : 38 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1723/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1723")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1723
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project fuelux to 3.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1723")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1723.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1723.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1723"
+  , issueCreatedAt = 2014 (-09) (-15) 12 : 36 : 05 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project fuelux to 3.0.2.\n\n@ExactTarget\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"fuelux\",\n    \"repo\": \"ExactTarget/fuelux\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"exclude\": [\"fuelux.zip\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/jsdelivr/files/fuelux\",\n    \"localVersions\": [\"2.3.0\", \"2.3.1\", \"2.4.0\", \"3.0.1\"],\n    \"remoteVersions\": [\"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0\", \"2.1.1\", \"2.2.0\", \"2.2.1-devdeps\", \"2.2.1\", \"2.3.0\", \"2.3.1\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"2.5.0\", \"2.5.1\", \"2.5.2\", \"2.6.0\", \"2.6.1\", \"2.6.2\", \"2.6.3\", \"2.6.4\", \"3.0.0\", \"3.0.1\", \"3.0.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"3.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/fuelux/3.0.2\",\n  \"branch\": \"fuelux/3.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 42767500
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

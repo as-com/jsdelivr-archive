@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-04) 23 : 53 : 07 UTC
+  , issueUpdatedAt = 2014 (-03) (-04) 23 : 53 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/395/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/395")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/Needs%20attention/help"
+          , labelName = N "Needs attention/help"
+          }
+      ]
+  , issueNumber = 395
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Proofread README"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/395"
+  , issueCreatedAt = 2014 (-02) (-28) 01 : 55 : 36 UTC
+  , issueBody =
+      Just
+        "I need a native English speaker to check out our [README](https://github.com/jsdelivr/jsdelivr/blob/master/README.md) and fix any mistakes he finds and improve the readability of the text.\n\nCan someone help with this?\n"
+  , issueState = StateClosed
+  , issueId = Id 28472575
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

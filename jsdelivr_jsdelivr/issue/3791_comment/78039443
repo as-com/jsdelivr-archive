@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-10) 11 : 53 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/78039443"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3791#issuecomment-78039443"
+  , issueCommentCreatedAt = 2015 (-03) (-10) 11 : 53 : 46 UTC
+  , issueCommentBody =
+      "I fixed the auto-updated https://github.com/jsdelivr/jsdelivr/commit/cf5615d8ec85a63dad7ef060a5d472d937726323\nSo the bot will soon send an automated PR.\n\nThank you\n"
+  , issueCommentId = 78039443
+  }

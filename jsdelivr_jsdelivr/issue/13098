@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-05) 15 : 28 : 41 UTC
+  , issueUpdatedAt = 2016 (-08) (-05) 18 : 23 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13098/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13098")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13098
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10105141
+        , simpleUserLogin = N "the1900"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10105141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/the1900"
+        }
+  , issueTitle = "font-spoqa-han-sans"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13098")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13098.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13098.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13098"
+  , issueCreatedAt = 2016 (-08) (-05) 15 : 27 : 49 UTC
+  , issueBody =
+      Just
+        "Because of conflict https://github.com/jsdelivr/jsdelivr/pull/13094 \nI forked again and commit once.\n"
+  , issueState = StateClosed
+  , issueId = Id 169633204
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

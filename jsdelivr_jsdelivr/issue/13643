@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-07) 02 : 33 : 45 UTC
+  , issueUpdatedAt = 2016 (-09) (-07) 02 : 33 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13643/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13643")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13643
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project webui-popover to v1.2.15"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13643")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13643.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13643.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13643"
+  , issueCreatedAt = 2016 (-09) (-07) 02 : 33 : 39 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project webui-popover to v1.2.15.\n\n@sandywalker\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"webui-popover\",\n    \"repo\": \"sandywalker/webui-popover\",\n    \"files\": {\n      \"include\": [\"img/loading.gif\", \"dist/jquery.webui-popover.min.js\", \"dist/jquery.webui-popover.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.webui-popover\",\n    \"localVersions\": [\"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.2.4\", \"1.2.5\", \"1.2.6\", \"1.2.7\", \"1.2.8\", \"1.2.9\", \"1.2.10\", \"1.2.11\", \"1.2.12\", \"1.2.13\", \"1.2.14\"],\n    \"remoteVersions\": [\"1.0.0\", \"v1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.0.8\", \"1.0.9\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.1.5\", \"1.1.6\", \"1.1.7\", \"1.1.9\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.2.4\", \"1.2.5\", \"1.2.6\", \"1.2.7\", \"v1.2.7\", \"1.2.8\", \"1.2.9\", \"1.2.10\", \"1.2.11\", \"1.2.12\", \"1.2.13\", \"1.2.14\", \"v1.2.15\", \"2.1.15\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.webui-popover/update.json\",\n  \"versions\": [\"v1.2.15\", \"2.1.15\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.2.15\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.webui-popover/1.2.15\",\n  \"branch\": \"webui-popover/v1.2.15\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 175399125
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

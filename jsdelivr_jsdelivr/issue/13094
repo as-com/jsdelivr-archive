@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-05) 15 : 29 : 13 UTC
+  , issueUpdatedAt = 2016 (-08) (-05) 15 : 29 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13094/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13094")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13094
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10105141
+        , simpleUserLogin = N "the1900"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10105141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/the1900"
+        }
+  , issueTitle = "Modified update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13094")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13094.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13094.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13094"
+  , issueCreatedAt = 2016 (-08) (-05) 11 : 37 : 40 UTC
+  , issueBody =
+      Just
+        "See #12704 \nIt has been merged but font spoqa-han-sans has not been working yet. \n\nThis RP is modified only include path in `update.json`.\n\nBefore, It didn't have a current path `./` so I inserted.\n\nAfter If it still doesn't work. I have no idea what is wrong. I wish someone told me the problem but nobody yet.\n"
+  , issueState = StateClosed
+  , issueId = Id 169588701
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-12) (-03) 13 : 36 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/264639743"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15185#issuecomment-264639743"
+  , issueCommentCreatedAt = 2016 (-12) (-03) 13 : 36 : 50 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *prism* between *1.5.1* and *1.6.0* there was a change in file structure  \n    ```diff\n    + components/prism-ada.min.js\n    + components/prism-graphql.min.js\n    + components/prism-jolie.min.js\n    + components/prism-livescript.min.js\n    + components/prism-properties.min.js\n    + components/prism-reason.min.js\n    + components/prism-xojo.min.js\n    + plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js\n    + plugins/custom-class/prism-custom-class.min.js\n    + plugins/data-uri-highlight/prism-data-uri-highlight.min.js\n    + plugins/toolbar/prism-toolbar.css\n    + plugins/toolbar/prism-toolbar.min.js\n    - plugins/show-language/prism-show-language.css\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Speak like a human.*\n"
+  , issueCommentId = 264639743
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-02) 10 : 42 : 28 UTC
+  , issueUpdatedAt = 2014 (-12) (-02) 10 : 42 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2572/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2572")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2572
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 544954
+        , simpleUserLogin = N "sahat"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/544954?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sahat"
+        }
+  , issueTitle = "updated satellizer path"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2572")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2572.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2572.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2572"
+  , issueCreatedAt = 2014 (-12) (-02) 10 : 26 : 52 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 50634285
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

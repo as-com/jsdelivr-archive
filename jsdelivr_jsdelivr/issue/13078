@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-04) 16 : 37 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13078/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13078")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13078
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 375744
+        , simpleUserLogin = N "mattrobenolt"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/375744?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mattrobenolt"
+        }
+  , issueTitle =
+      "Raven also needs to also contain raven.js for sourcemap to work"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13078"
+  , issueCreatedAt = 2016 (-08) (-04) 16 : 37 : 13 UTC
+  , issueBody =
+      Just
+        "I'm not familiar with JSDeliver, but I'm a developer on Sentry/Raven, and it was brought to our attention that the raven.js being hosted here has an invalid sourcemap.\n\nFrom what I can tell, the problem is that the corresponding unminified version isn't being uploaded to go with the minified version and sourcemap.\n\nSee https://github.com/getsentry/raven-js/issues/675 for a bit more context.\n\nI'm not sure how to resolve the issue here or what the complete ramification of this issue is for uses of JSDeliver.\n\nThanks! :)\n"
+  , issueState = StateOpen
+  , issueId = Id 169418923
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

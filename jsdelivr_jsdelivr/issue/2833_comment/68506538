@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-02) 02 : 52 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 999845
+        , simpleUserLogin = N "jkrehm"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/999845?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jkrehm"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/68506538"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2833#issuecomment-68506538"
+  , issueCommentCreatedAt = 2015 (-01) (-02) 02 : 52 : 44 UTC
+  , issueCommentBody =
+      "I noticed that after I sent the pull request. The library's author has the\ndifference in case, which may make the auto update never work. I haven't\nhad time to alter the pull request. I'm actually not real sure what should\nhappen. It's sort of frustrating that the automated update can never work\nbecause of the difference in case.\nOn Jan 1, 2015 5:43 PM, \"Patrick Nommensen\" notifications@github.com\nwrote:\n\n> The change in letter case will cause issues for some users. @jimaek\n> https://github.com/jimaek thoughts?\n> \n> \8212\n> Reply to this email directly or view it on GitHub\n> https://github.com/jsdelivr/jsdelivr/pull/2833#issuecomment-68503834.\n"
+  , issueCommentId = 68506538
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-27) 19 : 44 : 02 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 09 : 10 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/708/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/708")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 708
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 30335
+        , simpleUserLogin = N "dduponchel"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/30335?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dduponchel"
+        }
+  , issueTitle = "add JSZip v2.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/708")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/708.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/708.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/708"
+  , issueCreatedAt = 2014 (-04) (-27) 19 : 40 : 11 UTC
+  , issueBody =
+      Just
+        "Add JSZip v2.2.1 from @Stuk\n\nThe js file comes from the dist folder at https://github.com/Stuk/jszip\n"
+  , issueState = StateClosed
+  , issueId = Id 32318864
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

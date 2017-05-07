@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-20) 11 : 46 : 57 UTC
+  , issueUpdatedAt = 2016 (-04) (-20) 11 : 46 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11162/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11162")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11162
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project es6-promise-polyfill to v1.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11162")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11162.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11162.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11162"
+  , issueCreatedAt = 2016 (-04) (-20) 11 : 32 : 39 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project es6-promise-polyfill to v1.1.1.\n\n@lahmatiy\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"es6-promise-polyfill\",\n    \"repo\": \"lahmatiy/es6-promise-polyfill\",\n    \"files\": {\n      \"include\": [\"promise.min.js\", \"promise.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/es6-promise-polyfill\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.1.0\", \"v1.1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/es6-promise-polyfill/update.json\",\n  \"versions\": [\"v1.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/es6-promise-polyfill/1.1.1\",\n  \"branch\": \"es6-promise-polyfill/v1.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 149741970
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

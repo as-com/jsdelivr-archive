@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 36 : 17 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 36 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16939/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16939")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16939
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1500712
+        , simpleUserLogin = N "hirako2000"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1500712?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hirako2000"
+        }
+  , issueTitle = "PR to merge whs (Whitestormjs)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16939")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16939.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16939.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16939"
+  , issueCreatedAt = 2017 (-03) (-15) 21 : 14 : 35 UTC
+  , issueBody = Just "A PR to merge WhitestormJS"
+  , issueState = StateClosed
+  , issueId = Id 214528096
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

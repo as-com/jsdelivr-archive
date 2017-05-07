@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-14) 16 : 47 : 23 UTC
+  , issueUpdatedAt = 2016 (-05) (-14) 16 : 47 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11614/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11614")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11614
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 284868
+        , simpleUserLogin = N "lindell"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/284868?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lindell"
+        }
+  , issueTitle = "Adding JsBarcode project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11614")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11614.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11614.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11614"
+  , issueCreatedAt = 2016 (-05) (-14) 15 : 00 : 56 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 154858119
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

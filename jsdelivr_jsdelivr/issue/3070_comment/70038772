@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-15) 04 : 34 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/70038772"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3070#issuecomment-70038772"
+  , issueCommentCreatedAt = 2015 (-01) (-15) 04 : 34 : 03 UTC
+  , issueCommentBody =
+      "Cool, for that auto updating to work you have to publish tags for each version on your repo @dkoes \n\nThanks!\n"
+  , issueCommentId = 70038772
+  }

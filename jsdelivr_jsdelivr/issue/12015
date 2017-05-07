@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-06) 20 : 35 : 12 UTC
+  , issueUpdatedAt = 2016 (-06) (-06) 20 : 41 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12015/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12015")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12015
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2801252
+        , simpleUserLogin = N "franciscop"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2801252?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/franciscop"
+        }
+  , issueTitle = "Updated the path"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12015")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12015.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12015.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12015"
+  , issueCreatedAt = 2016 (-06) (-06) 18 : 54 : 21 UTC
+  , issueBody =
+      Just
+        "Updated the recommended path for Picnic CSS. Now the main file is **not** inside the `/releases`, however there is a copy there for retro-compatibility.\n"
+  , issueState = StateClosed
+  , issueId = Id 158748339
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

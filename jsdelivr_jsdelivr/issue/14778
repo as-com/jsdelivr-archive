@@ -1,0 +1,31 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-18) 21 : 41 : 18 UTC
+  , issueUpdatedAt = 2016 (-11) (-18) 21 : 41 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14778/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/14778")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14778
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 13684891
+        , simpleUserLogin = N "Dog2puppy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/13684891?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Dog2puppy"
+        }
+  , issueTitle = "Pull requests are not being checked?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14778"
+  , issueCreatedAt = 2016 (-11) (-14) 19 : 01 : 17 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 189195867
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

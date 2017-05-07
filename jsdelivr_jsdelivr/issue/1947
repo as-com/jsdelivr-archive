@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-08) 03 : 07 : 10 UTC
+  , issueUpdatedAt = 2014 (-10) (-09) 07 : 52 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1947/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1947")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1947
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project slick to 1.3.11"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1947")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1947.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1947.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1947"
+  , issueCreatedAt = 2014 (-10) (-07) 22 : 03 : 58 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project slick to 1.3.11.\n\n@kenwheeler\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"slick\",\n    \"repo\": \"kenwheeler/slick\",\n    \"files\": {\n      \"basePath\": \"slick/\",\n      \"include\": [\"slick.min.js\", \"slick.css\", \"ajax-loader.gif\", \"./fonts/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.slick\",\n    \"localVersions\": [\"1.3.2\", \"1.3.4\", \"1.3.6\", \"1.3.7\", \"1.3.8\", \"1.3.9\", \"1.3.10\"],\n    \"remoteVersions\": [\"1.0.1\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.2.4\", \"1.2.5\", \"1.2.6\", \"1.2.7\", \"1.2.8\", \"1.2.9\", \"1.2.10\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.3.4\", \"1.3.5\", \"1.3.6\", \"1.3.7\", \"1.3.8\", \"1.3.9\", \"1.3.10\", \"1.3.11\"],\n    \"branchVersions\": [\"1.3.10\"]\n  },\n  \"version\": \"1.3.11\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.slick/1.3.11\",\n  \"branch\": \"slick/1.3.11\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 45175894
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

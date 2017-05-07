@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-18) 18 : 27 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6120222
+        , simpleUserLogin = N "realitydesign"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6120222?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/realitydesign"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/67531275"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2775#issuecomment-67531275"
+  , issueCommentCreatedAt = 2014 (-12) (-18) 18 : 27 : 17 UTC
+  , issueCommentBody =
+      "I squashed them, but I had to create a new branch since it was already published to github.  Will send a new pull request with that branch.\n"
+  , issueCommentId = 67531275
+  }

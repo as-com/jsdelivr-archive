@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-30) 20 : 51 : 42 UTC
+  , issueUpdatedAt = 2016 (-03) (-30) 20 : 55 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10695/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10695")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10695
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10249860
+        , simpleUserLogin = N "jackdalton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10249860?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jackdalton"
+        }
+  , issueTitle = "Remove E2D project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10695")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10695.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10695.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10695"
+  , issueCreatedAt = 2016 (-03) (-29) 21 : 31 : 54 UTC
+  , issueBody =
+      Just
+        "I'm removing this so @jtenner can use the name for [his neat project](https://github.com/jtenner/e2d).\n"
+  , issueState = StateClosed
+  , issueId = Id 144394454
+  , issueComments = 15
+  , issueMilestone = Nothing
+  }

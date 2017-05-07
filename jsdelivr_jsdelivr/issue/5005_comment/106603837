@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-28) 21 : 21 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1608730
+        , simpleUserLogin = N "tivie"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1608730?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tivie"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/106603837"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5005#issuecomment-106603837"
+  , issueCommentCreatedAt = 2015 (-05) (-28) 21 : 21 : 08 UTC
+  , issueCommentBody =
+      "I was referring to https://github.com/jsdelivr/jsdelivr/tree/master/files/showdown\n\nIt's the same library (someone must've added it to jsdelivr) but your bot complained about a non-existing minified version or something. Do you mind deleting the old reference?\n"
+  , issueCommentId = 106603837
+  }

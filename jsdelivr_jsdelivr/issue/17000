@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-18) 17 : 49 : 35 UTC
+  , issueUpdatedAt = 2017 (-03) (-18) 17 : 49 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17000/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17000")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17000
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6182099
+        , simpleUserLogin = N "felixsanz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6182099?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/felixsanz"
+        }
+  , issueTitle = "Create info.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17000")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17000.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17000.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17000"
+  , issueCreatedAt = 2017 (-03) (-18) 17 : 31 : 46 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 215208778
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

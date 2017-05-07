@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-12) 14 : 16 : 56 UTC
+  , issueUpdatedAt = 2014 (-08) (-30) 03 : 57 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1421/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1421")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1421
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 813865
+        , simpleUserLogin = N "demoneaux"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/813865?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/demoneaux"
+        }
+  , issueTitle = "Add auto-update support for Lo-Dash"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1421")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1421.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1421.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1421"
+  , issueCreatedAt = 2014 (-08) (-12) 13 : 54 : 21 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 40056859
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

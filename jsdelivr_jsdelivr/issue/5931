@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-17) 00 : 29 : 53 UTC
+  , issueUpdatedAt = 2015 (-07) (-17) 00 : 29 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5931/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5931")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5931
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 425410
+        , simpleUserLogin = N "anshumanf"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/425410?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/anshumanf"
+        }
+  , issueTitle = "Set up auto-updating for Footable"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5931")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5931.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5931.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5931"
+  , issueCreatedAt = 2015 (-07) (-16) 20 : 08 : 34 UTC
+  , issueBody = Just "Will be upgraded from 2.0.1 to 2.0.3\n"
+  , issueState = StateClosed
+  , issueId = Id 95516235
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

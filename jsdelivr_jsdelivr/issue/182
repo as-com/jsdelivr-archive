@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-02) 01 : 05 : 27 UTC
+  , issueUpdatedAt = 2014 (-02) (-16) 18 : 03 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/182/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/182")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/enhancement"
+          , labelName = N "enhancement"
+          }
+      ]
+  , issueNumber = 182
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Load multiple files with single HTTP request"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/182"
+  , issueCreatedAt = 2013 (-12) (-06) 21 : 09 : 01 UTC
+  , issueBody =
+      Just
+        "**Dependency**: https://github.com/jimaek/jsdelivr/issues/180\n\n**Idea:**\nCombine multiple projects into a single JS file based on user request.\nExample\n`//cdn.jsdelivr.net/s/jquery,jquery.cookie,alertify.js,accounting.js`\n`//cdn.jsdelivr.net/s/jquery:2.0.1,jquery.cookie,alertify.js:0.3.8,accounting.js`\n\nAll names and versions should be based on jsDelivr existing projects. \n"
+  , issueState = StateClosed
+  , issueId = Id 23885351
+  , issueComments = 17
+  , issueMilestone = Nothing
+  }

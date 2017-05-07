@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-02) (-21) 19 : 24 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1775792
+        , simpleUserLogin = N "geoperez"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1775792?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/geoperez"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/281451882"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16449#issuecomment-281451882"
+  , issueCommentCreatedAt = 2017 (-02) (-21) 19 : 24 : 12 UTC
+  , issueCommentBody =
+      "Hello, this is an expected change, we removed that files from the dist folder."
+  , issueCommentId = 281451882
+  }

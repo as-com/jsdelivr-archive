@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-02) 19 : 03 : 21 UTC
+  , issueUpdatedAt = 2016 (-03) (-02) 19 : 03 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10243/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10243")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10243
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project fuse.js to 2.1.0-beta"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10243")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10243.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10243.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10243"
+  , issueCreatedAt = 2016 (-03) (-02) 19 : 03 : 16 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project fuse.js to 2.1.0-beta.\n\n@krisk\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"fuse.js\",\n    \"repo\": \"krisk/Fuse\",\n    \"files\": {\n      \"include\": [\"src/*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/fuse\",\n    \"localVersions\": [\"1.3.0\", \"1.3.1\", \"2.0.0\", \"2.0.1\", \"2.0.2\"],\n    \"remoteVersions\": [\"1.0.2\", \"1.0.3\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.1.5\", \"1.1.6\", \"1.1.7\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.3.0\", \"1.3.1\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0-beta\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/fuse/update.json\",\n  \"versions\": [\"2.1.0-beta\"],\n  \"updateRemote\": true,\n  \"version\": \"2.1.0-beta\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/fuse/2.1.0-beta\",\n  \"branch\": \"fuse.js/2.1.0-beta\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 137961880
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

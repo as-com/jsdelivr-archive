@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-19) 14 : 54 : 53 UTC
+  , issueUpdatedAt = 2017 (-04) (-19) 14 : 54 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17626/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17626")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17626
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project seedrandom to 2.4.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17626")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17626.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17626.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17626"
+  , issueCreatedAt = 2017 (-04) (-17) 21 : 36 : 58 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project seedrandom to 2.4.3.\n\n@davidbau\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"seedrandom\",\n    \"repo\": \"davidbau/seedrandom\",\n    \"files\": {\n      \"include\": [\"seedrandom.js\", \"seedrandom.min.js\", \"lib/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/seedrandom\",\n    \"localVersions\": [\"1.0.0\", \"2.4.0\", \"2.4.2\"],\n    \"remoteVersions\": [\"v1.0\", \"v2.0\", \"v2.1\", \"v2.2\", \"v2.3\", \"2.3.1\", \"2.3.3\", \"2.3.4\", \"2.3.5\", \"2.3.6\", \"2.3.7\", \"2.3.8\", \"2.3.9\", \"2.3.10\", \"2.3.11\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"2.4.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/seedrandom/update.json\",\n  \"versions\": [\"2.4.3\"],\n  \"updateRemote\": true,\n  \"version\": \"2.4.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/seedrandom/2.4.3\",\n  \"branch\": \"seedrandom/2.4.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 222238739
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

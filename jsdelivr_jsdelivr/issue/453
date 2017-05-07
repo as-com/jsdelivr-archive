@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-13) 21 : 42 : 05 UTC
+  , issueUpdatedAt = 2014 (-03) (-13) 23 : 01 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/453/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/453")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 453
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 831389
+        , simpleUserLogin = N "lewisgoddard"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/831389?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lewisgoddard"
+        }
+  , issueTitle =
+      "File Combiner no longer adds new lines after each included file."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/453"
+  , issueCreatedAt = 2014 (-03) (-13) 21 : 38 : 41 UTC
+  , issueBody =
+      Just
+        "The latest updates to the file combiner seem to have removed a behaviour of adding a newline when combining js files that do not already end in one. As some of these may not include proper terminations, I am getting a `Uncaught SyntaxError: Unexpected end of input` on the following.\n\nhttp://cdn.jsdelivr.net/g/modernizr,prefixfree,jquery,jquery.equalize,jquery.downboy,jquery.cookie\n"
+  , issueState = StateClosed
+  , issueId = Id 29392011
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

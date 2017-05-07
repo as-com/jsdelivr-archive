@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-29) 16 : 34 : 02 UTC
+  , issueUpdatedAt = 2016 (-08) (-29) 16 : 34 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13503/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13503")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13503
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jQuery.Marquee to 1.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13503")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13503.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13503.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13503"
+  , issueCreatedAt = 2016 (-08) (-29) 16 : 33 : 55 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jQuery.Marquee to 1.4.0.\n\n@aamirafridi\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jQuery.Marquee\",\n    \"repo\": \"aamirafridi/jQuery.Marquee\",\n    \"files\": {\n      \"include\": [\"*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.marquee\",\n    \"localVersions\": [\"1.3.1\", \"1.3.3\", \"1.3.9\"],\n    \"remoteVersions\": [\"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.8\", \"0.1.9\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"1.0\", \"1.0.0\", \"1.1.0\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.3.9\", \"1.4.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.marquee/update.json\",\n  \"versions\": [\"1.4.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.4.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.marquee/1.4.0\",\n  \"branch\": \"jQuery.Marquee/1.4.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 173816070
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

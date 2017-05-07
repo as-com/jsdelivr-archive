@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-16) 18 : 18 : 00 UTC
+  , issueUpdatedAt = 2014 (-10) (-16) 18 : 18 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1886/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1886")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1886
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle = "Expiration headers for emojione assets on EXVM-SG"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1886"
+  , issueCreatedAt = 2014 (-10) (-01) 04 : 49 : 27 UTC
+  , issueBody =
+      Just
+        "Hi, can you check on the emojione assets expiration headers on EXVM-SG? It seems rather short-lived.\n\n```\ncurl -I http://cdn.jsdelivr.net/emojione/assets/png/1F495.png\n\nHTTP/1.1 200 OK\nServer: nginx/1.6.2\nDate: Wed, 01 Oct 2014 04:40:43 GMT\nContent-Type: image/png\nContent-Length: 1557\nConnection: keep-alive\nLast-Modified: Wed, 10 Sep 2014 19:07:21 GMT\nETag: \"5410a169-615\"\nExpires: Sat, 11 Oct 2014 16:01:33 GMT\nCache-Control: max-age=2592000\nAccess-Control-Allow-Origin: *\nPOP: exvm-sg\nAccept-Ranges: bytes\n```\n\nHeaders from LAX for comparison:\n\n```\nHTTP/1.1 200 OK\nDate: Wed, 01 Oct 2014 04:34:57 GMT\nContent-Type: image/png\nContent-Length: 1557\nConnection: keep-alive\nLast-Modified: Wed, 10 Sep 2014 19:07:21 GMT\nETag: \"5410a169-615\"\nExpires: Thu, 01 Oct 2015 04:34:57 GMT\nCache-Control: public, max-age=31536000\nAccess-Control-Allow-Origin: *\nCF-Cache-Status: HIT\nVary: Accept-Encoding\nAccept-Ranges: bytes\nServer: cloudflare-nginx\nCF-RAY: 1725f36608ac0d4f-LAX\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 44527969
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

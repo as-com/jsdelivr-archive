@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-13) 14 : 41 : 38 UTC
+  , issueUpdatedAt = 2016 (-09) (-13) 14 : 41 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13696/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13696")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13696
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project flexibility to 2.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13696")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13696.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13696.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13696"
+  , issueCreatedAt = 2016 (-09) (-09) 19 : 33 : 33 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project flexibility to 2.0.1.\n\n@jonathantneal\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"flexibility\",\n    \"repo\": \"jonathantneal/flexibility\",\n    \"files\": {\n      \"include\": [\"flexibility.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/flexibility\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.3.0\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"2.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/flexibility/update.json\",\n  \"versions\": [\"v1.0.6\", \"2.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"2.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/flexibility/2.0.1\",\n  \"branch\": \"flexibility/2.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 176090503
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

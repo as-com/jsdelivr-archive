@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 24 : 38 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 24 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16962/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16962")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16962
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1813603
+        , simpleUserLogin = N "mlucool"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1813603?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mlucool"
+        }
+  , issueTitle = "Fix files for latency-monitor"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16962")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16962.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16962.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16962"
+  , issueCreatedAt = 2017 (-03) (-16) 14 : 48 : 05 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 214729334
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

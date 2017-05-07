@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-18) 17 : 21 : 11 UTC
+  , issueUpdatedAt = 2014 (-02) (-18) 17 : 21 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/370/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/370")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 370
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 349621
+        , simpleUserLogin = N "XhmikosR"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/349621?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/XhmikosR"
+        }
+  , issueTitle = "Update QUnit"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/370"
+  , issueCreatedAt = 2014 (-02) (-18) 17 : 12 : 59 UTC
+  , issueBody =
+      Just "Is it possible to add QUnit 1.13.0 and 1.14.0?\n"
+  , issueState = StateClosed
+  , issueId = Id 27810279
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

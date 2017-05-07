@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-14) 02 : 07 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 8355878
+        , simpleUserLogin = N "Aranjedeath"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8355878?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Aranjedeath"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66899743"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2719#issuecomment-66899743"
+  , issueCommentCreatedAt = 2014 (-12) (-14) 02 : 07 : 15 UTC
+  , issueCommentBody =
+      "Can the bot/whatever figure out the correct filenames? I fixed that mainfile error by reverting the line, but the new js file is not named webfont.js, it's webfontloader.js.\n"
+  , issueCommentId = 66899743
+  }

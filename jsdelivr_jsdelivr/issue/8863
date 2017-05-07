@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-10) 16 : 10 : 36 UTC
+  , issueUpdatedAt = 2016 (-01) (-10) 16 : 10 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8863/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8863")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8863
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 454523
+        , simpleUserLogin = N "artberri"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/454523?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/artberri"
+        }
+  , issueTitle =
+      "Adding update.json for jquery.sidr to be updated with bower"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8863")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8863.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8863.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8863"
+  , issueCreatedAt = 2016 (-01) (-10) 01 : 59 : 17 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 125793182
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

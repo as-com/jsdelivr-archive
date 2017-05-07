@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-28) 11 : 51 : 25 UTC
+  , issueUpdatedAt = 2014 (-10) (-28) 11 : 51 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2133/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2133")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2133
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project remarkable to 1.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2133")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2133.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2133.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2133"
+  , issueCreatedAt = 2014 (-10) (-28) 03 : 33 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project remarkable to 1.2.1.\n\n@jonschlinkert\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"remarkable\",\n    \"repo\": \"jonschlinkert/remarkable\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"remarkable.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/remarkable\",\n    \"localVersions\": [\"1.0.0\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.2.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.2.0\", \"1.2.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/remarkable/1.2.1\",\n  \"branch\": \"remarkable/1.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 46986105
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

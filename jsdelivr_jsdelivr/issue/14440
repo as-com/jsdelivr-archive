@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-20) 05 : 13 : 24 UTC
+  , issueUpdatedAt = 2016 (-10) (-20) 05 : 13 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14440/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14440")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14440
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 731424
+        , simpleUserLogin = N "iwillwen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/731424?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/iwillwen"
+        }
+  , issueTitle = "Add Library MinDB"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14440")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14440.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14440.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14440"
+  , issueCreatedAt = 2016 (-10) (-20) 05 : 10 : 45 UTC
+  , issueBody = Just "Database on JavaScript\n"
+  , issueState = StateClosed
+  , issueId = Id 184136435
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

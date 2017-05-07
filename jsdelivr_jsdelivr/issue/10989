@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-12) 19 : 15 : 20 UTC
+  , issueUpdatedAt = 2016 (-04) (-12) 19 : 15 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10989/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10989")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10989
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 12504377
+        , simpleUserLogin = N "MK2018"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/12504377?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MK2018"
+        }
+  , issueTitle = "Adding Quick.JS to JSDelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10989")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10989.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10989.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10989"
+  , issueCreatedAt = 2016 (-04) (-11) 23 : 45 : 13 UTC
+  , issueBody =
+      Just
+        "This pull request is to add Quick.JS to JSDelivr. Please see http://quickjs.readthedocs.org/en/latest/ for any documentation needed about the project, or see the repo at https://github.com/MK2018/QuickJS. \n"
+  , issueState = StateClosed
+  , issueId = Id 147588437
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

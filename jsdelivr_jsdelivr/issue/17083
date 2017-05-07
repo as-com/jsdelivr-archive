@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 39 : 55 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 39 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17083/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17083")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17083
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project dat to v6.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17083")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17083.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17083.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17083"
+  , issueCreatedAt = 2017 (-03) (-21) 17 : 39 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project dat to v6.2.0.\n\n@datproject\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"dat\",\n    \"repo\": \"datproject/dat-js\",\n    \"files\": {\n      \"include\": [\"dat.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/dat\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v5.0.1\", \"v6.0.0\", \"v6.1.0\", \"v6.2.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/dat/update.json\",\n  \"versions\": [\"v1.1.2\", \"v5.0.1\", \"v6.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v6.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/dat/6.2.0\",\n  \"branch\": \"dat/v6.2.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215822136
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

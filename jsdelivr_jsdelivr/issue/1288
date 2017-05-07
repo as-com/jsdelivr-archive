@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-24) 14 : 02 : 45 UTC
+  , issueUpdatedAt = 2014 (-07) (-24) 14 : 02 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1288/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1288")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1288
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7133054
+        , simpleUserLogin = N "CodingWithClass"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7133054?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/CodingWithClass"
+        }
+  , issueTitle = "Added classcoder-material"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1288")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1288.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1288.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1288"
+  , issueCreatedAt = 2014 (-07) (-24) 12 : 37 : 20 UTC
+  , issueBody =
+      Just
+        "`classcoder-material` is the beginnings of Material Design in CSS. Currently what's styled can be seen at http://cwc-pack.handcraft.com/index.html.\n"
+  , issueState = StateClosed
+  , issueId = Id 38624376
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

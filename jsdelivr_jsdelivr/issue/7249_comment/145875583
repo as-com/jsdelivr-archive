@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-06) 14 : 35 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/145875583"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/7249#issuecomment-145875583"
+  , issueCommentCreatedAt = 2015 (-10) (-06) 14 : 35 : 03 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _parsleyjs_ between _2.2.0-rc1_ and _2.2.0-rc2_ there was a change in file structure  \n  \n  ``` diff\n  + i18n/ar.js\n  + i18n/bg.js\n  + i18n/ca.js\n  + i18n/cs.extra.js\n  + i18n/cs.js\n  + i18n/da.js\n  + i18n/de.extra.js\n  + i18n/de.js\n  + i18n/el.extra.js\n  + i18n/el.js\n  + i18n/en.extra.js\n  + i18n/en.js\n  + i18n/es.js\n  + i18n/fa.js\n  + i18n/fi.extra.js\n  + i18n/fi.js\n  + i18n/fr.extra.js\n  + i18n/fr.js\n  + i18n/he.extra.js\n  + i18n/he.js\n  + i18n/id.extra.js\n  + i18n/id.js\n  + i18n/it.extra.js\n  + i18n/it.js\n  + i18n/ja.js\n  + i18n/ko.js\n  + i18n/ms_MY.extra.js\n  + i18n/ms_MY.js\n  + i18n/nl.extra.js\n  + i18n/nl.js\n  + i18n/no.js\n  + i18n/pl.js\n  + i18n/pt-br.js\n  + i18n/pt-pt.js\n  + i18n/ro.extra.js\n  + i18n/ro.js\n  + i18n/ru.extra.js\n  + i18n/ru.js\n  + i18n/sq.js\n  + i18n/sv.extra.js\n  + i18n/sv.js\n  + i18n/th.js\n  + i18n/tr.js\n  + i18n/uk.extra.js\n  + i18n/uk.js\n  + i18n/zh_cn.extra.js\n  + i18n/zh_cn.js\n  + i18n/zh_tw.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Favor focus over features._\n"
+  , issueCommentId = 145875583
+  }

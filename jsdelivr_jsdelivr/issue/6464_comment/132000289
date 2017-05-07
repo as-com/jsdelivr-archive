@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-18) 00 : 09 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/132000289"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6464#issuecomment-132000289"
+  , issueCommentCreatedAt = 2015 (-08) (-18) 00 : 09 : 02 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @lineardevon, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` or `update.json` has some problems\n  - Where is the jquery.pickadate.js's mainfile (_ui-pickadate.min.js_) in v-_3.5.6_\n  - Where is the jquery.pickadate.js's mainfile (_ui-pickadate.min.js_) in v-_2.1.4_\n  - Where is the jquery.pickadate.js's mainfile (_ui-pickadate.min.js_) in v-_3.1.1_\n  - Where is the jquery.pickadate.js's mainfile (_ui-pickadate.min.js_) in v-_3.1.3_\n  - Where is the jquery.pickadate.js's mainfile (_ui-pickadate.min.js_) in v-_3.1.4_\n  - Where is the jquery.pickadate.js's mainfile (_ui-pickadate.min.js_) in v-_3.4.0_\n  - Where is the jquery.pickadate.js's mainfile (_ui-pickadate.min.js_) in v-_3.5.0_\n  - Where is the jquery.pickadate.js's mainfile (_ui-pickadate.min.js_) in v-_3.5.3_\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _jquery.pickadate.js_ between _4.0.0-0_ and _3.5.6_ there was a change in file structure  \n  \n  ``` diff\n  + legacy.js\n  + picker.date.js\n  + picker.js\n  + picker.time.js\n  + themes/classic.css\n  + themes/classic.date.css\n  + themes/classic.time.css\n  + themes/default.css\n  + themes/default.date.css\n  + themes/default.time.css\n  + themes/rtl.css\n  + translations/ar.js\n  + translations/bg_BG.js\n  + translations/bs_BA.js\n  + translations/ca_ES.js\n  + translations/cs_CZ.js\n  + translations/da_DK.js\n  + translations/de_DE.js\n  + translations/el_GR.js\n  + translations/es_ES.js\n  + translations/et_EE.js\n  + translations/eu_ES.js\n  + translations/fa_IR.js\n  + translations/fi_FI.js\n  + translations/fr_FR.js\n  + translations/gl_ES.js\n  + translations/he_IL.js\n  + translations/hi_IN.js\n  + translations/hr_HR.js\n  + translations/hu_HU.js\n  + translations/id_ID.js\n  + translations/is_IS.js\n  + translations/it_IT.js\n  + translations/ja_JP.js\n  + translations/ko_KR.js\n  + translations/lt_LT.js\n  + translations/lv_LV.js\n  + translations/nb_NO.js\n  + translations/ne_NP.js\n  + translations/nl_NL.js\n  + translations/no_NO.js\n  + translations/pl_PL.js\n  + translations/pt_BR.js\n  + translations/pt_PT.js\n  + translations/ro_RO.js\n  + translations/ru_RU.js\n  + translations/sk_SK.js\n  + translations/sl_SI.js\n  + translations/sv_SE.js\n  + translations/th_TH.js\n  + translations/tr_TR.js\n  + translations/uk_UA.js\n  + translations/vi_VN.js\n  + translations/zh_CN.js\n  + translations/zh_TW.js\n  - css/styles.css\n  - shadow.min.js\n  - ui-pickadate.min.js\n  - ui-picker.min.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Approachable is better than simple._\n"
+  , issueCommentId = 132000289
+  }

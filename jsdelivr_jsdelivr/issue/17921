@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-03) 18 : 07 : 47 UTC
+  , issueUpdatedAt = 2017 (-05) (-03) 18 : 07 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17921/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17921")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17921
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 321013
+        , simpleUserLogin = N "steffans"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/321013?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/steffans"
+        }
+  , issueTitle = "Add vue.event.manager project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17921")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17921.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17921.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17921"
+  , issueCreatedAt = 2017 (-05) (-03) 09 : 14 : 55 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 225925082
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

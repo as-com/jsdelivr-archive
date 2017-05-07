@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 13 : 50 : 24 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 13 : 50 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1025/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1025")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1025
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 355874
+        , simpleUserLogin = N "sancospi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/355874?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sancospi"
+        }
+  , issueTitle = "Update bootstrap-tour to 0.9.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1025")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1025.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1025.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1025"
+  , issueCreatedAt = 2014 (-06) (-27) 03 : 38 : 46 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 36633703
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

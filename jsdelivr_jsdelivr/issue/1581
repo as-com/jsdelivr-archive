@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-01) 23 : 48 : 01 UTC
+  , issueUpdatedAt = 2014 (-09) (-02) 11 : 31 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1581/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1581")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1581
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ramda to 0.4.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1581")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1581.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1581.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1581"
+  , issueCreatedAt = 2014 (-09) (-01) 23 : 38 : 04 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ramda to 0.4.3.\n\n@CrossEye\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"repo\": \"ramda\",\n    \"name\": \"ramda\",\n    \"files\": {\n      \"include\": [\"ramda.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/ramda\",\n    \"localVersions\": [\"0.2.3\", \"0.2.4\", \"0.3.0\", \"0.4.0\", \"0.4.1\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.4\", \"0.1.5\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.3.0\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.4.3\"],\n    \"branchVersions\": [\"0.4.1\"]\n  },\n  \"version\": \"0.4.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/ramda/0.4.3\",\n  \"branch\": \"ramda/0.4.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 41666071
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

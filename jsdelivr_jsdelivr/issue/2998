@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-05) 19 : 23 : 15 UTC
+  , issueUpdatedAt = 2015 (-02) (-05) 19 : 23 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2998/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2998")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2998
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2647090
+        , simpleUserLogin = N "travoltron"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2647090?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/travoltron"
+        }
+  , issueTitle = "Adding Unveil Effects library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2998")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2998.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2998.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2998"
+  , issueCreatedAt = 2015 (-01) (-08) 20 : 24 : 15 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 53796459
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

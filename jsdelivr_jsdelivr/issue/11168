@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-20) 13 : 11 : 49 UTC
+  , issueUpdatedAt = 2016 (-04) (-20) 13 : 11 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11168/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11168")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11168
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project vue.i18n to v3.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11168")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11168.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11168.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11168"
+  , issueCreatedAt = 2016 (-04) (-20) 12 : 35 : 36 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vue.i18n to v3.0.0.\n\n@kazupon\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vue.i18n\",\n    \"repo\": \"kazupon/vue-i18n\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"vue-i18n.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/vue.i18n\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.0.0\", \"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.2.0\", \"v0.11.0\", \"v1.0.0\", \"v1.1.0\", \"v1.1.1\", \"v2.0.0\", \"v2.1.0\", \"v2.2.0\", \"v2.3.0\", \"v2.3.1\", \"v2.3.2\", \"v2.3.3\", \"v2.4.0\", \"v2.4.1\", \"v3.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/vue.i18n/update.json\",\n  \"versions\": [\"v1.1.1\", \"v2.4.1\", \"v3.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/vue.i18n/3.0.0\",\n  \"branch\": \"vue.i18n/v3.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 149755009
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

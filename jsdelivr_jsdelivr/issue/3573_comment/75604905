@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-23) 18 : 46 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/75604905"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3573#issuecomment-75604905"
+  , issueCommentCreatedAt = 2015 (-02) (-23) 18 : 46 : 10 UTC
+  , issueCommentBody =
+      "My only problem is that if you change the filename we will have to update info.ini with the new filename and then upload a custom mainfile override for all previous versions to ensure any combined URLs continue to work.\n"
+  , issueCommentId = 75604905
+  }

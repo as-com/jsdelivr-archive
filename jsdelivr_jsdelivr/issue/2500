@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-25) 14 : 14 : 13 UTC
+  , issueUpdatedAt = 2014 (-11) (-25) 14 : 18 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2500/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2500")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2500
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2188425
+        , simpleUserLogin = N "jeromecharron"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2188425?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jeromecharron"
+        }
+  , issueTitle = "Added project jQuery TextFill version 0.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2500")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2500.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2500.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2500"
+  , issueCreatedAt = 2014 (-11) (-25) 14 : 12 : 01 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 50031288
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

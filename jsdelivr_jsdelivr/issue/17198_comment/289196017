@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-03) (-25) 07 : 43 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 9118707
+        , simpleUserLogin = N "obedm503"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/9118707?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/obedm503"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/289196017"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17198#issuecomment-289196017"
+  , issueCommentCreatedAt = 2017 (-03) (-25) 07 : 43 : 53 UTC
+  , issueCommentBody =
+      "I just decided to not include source file in `dist/` since I'm now including file maps, and the css is now transpiled from Sass"
+  , issueCommentId = 289196017
+  }

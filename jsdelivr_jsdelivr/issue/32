@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-06) (-12) 01 : 06 : 27 UTC
+  , issueUpdatedAt = 2013 (-10) (-10) 01 : 39 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/32/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/32")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 32
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "Version 3.2.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/32")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/32.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/32.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/32"
+  , issueCreatedAt = 2013 (-06) (-12) 01 : 03 : 50 UTC
+  , issueBody = Just "Thank you!\n"
+  , issueState = StateClosed
+  , issueId = Id 15430614
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

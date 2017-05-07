@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-19) 12 : 31 : 56 UTC
+  , issueUpdatedAt = 2015 (-05) (-19) 12 : 31 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4838/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4838")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4838
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project sweetalert to v1.0.0-beta"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4838")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4838.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4838.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4838"
+  , issueCreatedAt = 2015 (-05) (-19) 11 : 16 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project sweetalert to v1.0.0-beta.\n\n@t4t5\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"sweetalert\",\n    \"repo\": \"t4t5/sweetalert\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"sweetalert.min.js\", \"sweetalert.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/sweetalert\",\n    \"localVersions\": [\"0.1.2\", \"0.4.2\", \"0.5.0\"],\n    \"remoteVersions\": [\"v0.0.1\", \"v0.0.2\", \"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.2.0\", \"v0.2.1\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.5.0\", \"v1.0.0-beta\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.0.0-beta\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/sweetalert/1.0.0-beta\",\n  \"branch\": \"sweetalert/v1.0.0-beta\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 78044360
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

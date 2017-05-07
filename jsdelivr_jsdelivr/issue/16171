@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-05) 12 : 34 : 21 UTC
+  , issueUpdatedAt = 2017 (-02) (-05) 12 : 34 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16171/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16171")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16171
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project lg-thumbnail to 1.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16171")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16171.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16171.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16171"
+  , issueCreatedAt = 2017 (-02) (-05) 12 : 34 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project lg-thumbnail to 1.0.3.\n\n@sachinchoolur\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"lg-thumbnail\",\n    \"repo\": \"sachinchoolur/lg-thumbnail\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/lg-thumbnail\",\n    \"localVersions\": [\"1.0.1\", \"1.0.2\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/lg-thumbnail/update.json\",\n  \"versions\": [\"1.0.3\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/lg-thumbnail/1.0.3\",\n  \"branch\": \"lg-thumbnail/1.0.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 205422404
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

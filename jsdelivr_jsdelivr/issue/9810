@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-17) 01 : 02 : 18 UTC
+  , issueUpdatedAt = 2016 (-02) (-17) 01 : 02 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9810/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9810")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9810
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular.spinner to 0.8.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9810")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9810.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9810.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9810"
+  , issueCreatedAt = 2016 (-02) (-17) 01 : 02 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.spinner to 0.8.1.\n\n@urish\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.spinner\",\n    \"repo\": \"urish/angular-spinner\",\n    \"files\": {\n      \"include\": [\"angular-spinner.js\", \"angular-spinner.min.js\", \"angular-spinner.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.spinner\",\n    \"localVersions\": [\"0.8.0\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.2.0\", \"0.2.1\", \"0.3.0\", \"0.3.1\", \"0.4.0\", \"0.5.0\", \"0.5.1\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.7.0\", \"0.8.0\", \"0.8.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.spinner/update.json\",\n  \"versions\": [\"0.8.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.8.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.spinner/0.8.1\",\n  \"branch\": \"angular.spinner/0.8.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 134143791
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

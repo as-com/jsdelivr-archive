@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-09) 12 : 25 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66275029"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-66275029"
+  , issueCommentCreatedAt = 2014 (-12) (-09) 12 : 25 : 34 UTC
+  , issueCommentBody =
+      "Even if jsDelivr serves 100% of the plugin files it will never be the only hostname for the website. Dont forget the theme files, images, other crap they add. So the problem you are describing will never happen. I can only see benefits from the speed of our CDN and parallelization across multiple hostnames (jsDelivr+website domain)\n"
+  , issueCommentId = 66275029
+  }

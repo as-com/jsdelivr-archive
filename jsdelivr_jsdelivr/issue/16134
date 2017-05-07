@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-05) 01 : 42 : 10 UTC
+  , issueUpdatedAt = 2017 (-02) (-05) 01 : 42 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16134/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16134")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16134
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 879811
+        , simpleUserLogin = N "sandeep45"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/879811?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sandeep45"
+        }
+  , issueTitle = "added listenloop"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16134")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16134.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16134.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16134"
+  , issueCreatedAt = 2017 (-02) (-03) 17 : 12 : 21 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 205215874
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

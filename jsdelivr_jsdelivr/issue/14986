@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-27) 11 : 27 : 01 UTC
+  , issueUpdatedAt = 2016 (-11) (-27) 11 : 27 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14986/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14986")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14986
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15857795
+        , simpleUserLogin = N "perfectacle"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/15857795?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/perfectacle"
+        }
+  , issueTitle = "request add check-browsers file"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14986")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14986.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14986.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14986"
+  , issueCreatedAt = 2016 (-11) (-27) 11 : 20 : 31 UTC
+  , issueBody =
+      Just
+        "I add git tag for my repository(https://github.com/perfectacle/check-browsers)\r\n but bot isnt add automatically\r\n So i pulled request!"
+  , issueState = StateClosed
+  , issueId = Id 191855944
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

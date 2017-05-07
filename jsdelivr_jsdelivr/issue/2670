@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-09) 15 : 29 : 07 UTC
+  , issueUpdatedAt = 2014 (-12) (-09) 15 : 38 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2670/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2670")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2670
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "clarify new releases are not here"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2670")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2670.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2670.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2670"
+  , issueCreatedAt = 2014 (-12) (-09) 14 : 56 : 22 UTC
+  , issueBody =
+      Just
+        "http://www.jsdelivr.com/#!velocity brings up both versions; need a better way to guide users to pick the right one.\n"
+  , issueState = StateClosed
+  , issueId = Id 51436477
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

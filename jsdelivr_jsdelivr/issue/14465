@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-27) 21 : 14 : 58 UTC
+  , issueUpdatedAt = 2016 (-10) (-27) 21 : 14 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14465/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14465")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14465
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15616776
+        , simpleUserLogin = N "xXP4trickXx"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/15616776?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/xXP4trickXx"
+        }
+  , issueTitle = "Create index.html"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14465")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14465.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14465.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14465"
+  , issueCreatedAt = 2016 (-10) (-26) 21 : 15 : 53 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 185512384
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

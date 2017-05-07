@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-21) 04 : 06 : 24 UTC
+  , issueUpdatedAt = 2014 (-08) (-21) 12 : 52 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1480/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1480")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1480
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project pouchdb to 3.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1480")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1480.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1480.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1480"
+  , issueCreatedAt = 2014 (-08) (-21) 04 : 05 : 51 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project pouchdb to 3.0.2.\n\n@pouchdb\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"pouchdb\",\n    \"repo\": \"pouchdb/pouchdb\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"pouchdb.min.js\", \"pouchdb.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/pouchdb\",\n    \"localVersions\": [\"1.0.0\", \"1.1.0\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"2.2.3\", \"3.0.0\", \"3.0.1\"],\n    \"remoteVersions\": [\"v0.0.10\", \"v0.0.16\", \"0.0.17\", \"0.0.18\", \"1.0.0\", \"1.1.0\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"2.2.3\", \"3.0.0\", \"3.0.1\", \"3.0.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"3.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/pouchdb/3.0.2\",\n  \"branch\": \"pouchdb/3.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 40770799
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

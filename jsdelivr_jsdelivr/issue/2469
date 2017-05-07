@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-23) 16 : 50 : 10 UTC
+  , issueUpdatedAt = 2014 (-11) (-23) 18 : 09 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2469/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2469")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2469
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1935696
+        , simpleUserLogin = N "karlhorky"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1935696?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/karlhorky"
+        }
+  , issueTitle = "Add jquery.gray v1.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2469")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2469.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2469.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2469"
+  , issueCreatedAt = 2014 (-11) (-23) 16 : 28 : 00 UTC
+  , issueBody =
+      Just
+        "Wasn't sure if @jsdelivrbot is going to open a PR, so I did it myself.\n"
+  , issueState = StateClosed
+  , issueId = Id 49830163
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-22) 08 : 30 : 41 UTC
+  , issueUpdatedAt = 2015 (-10) (-22) 08 : 30 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7493/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7493")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7493
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1613163
+        , simpleUserLogin = N "dlueth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1613163?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dlueth"
+        }
+  , issueTitle = "[author] Please add Qoopido.nucleus"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7493")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7493.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7493.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7493"
+  , issueCreatedAt = 2015 (-10) (-21) 23 : 02 : 14 UTC
+  , issueBody = Just "Thanks, as usual :)\n"
+  , issueState = StateClosed
+  , issueId = Id 112696250
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-17) 15 : 33 : 14 UTC
+  , issueUpdatedAt = 2015 (-09) (-17) 15 : 33 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6930/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6930")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6930
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle = "Update jwplayer with 7.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6930")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6930.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6930.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6930"
+  , issueCreatedAt = 2015 (-09) (-17) 05 : 24 : 42 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 106914268
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

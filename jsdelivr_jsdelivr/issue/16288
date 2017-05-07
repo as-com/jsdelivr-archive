@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-10) 19 : 07 : 35 UTC
+  , issueUpdatedAt = 2017 (-02) (-10) 19 : 07 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16288/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16288")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16288
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6999360
+        , simpleUserLogin = N "xavierfaucon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6999360?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/xavierfaucon"
+        }
+  , issueTitle = "Project has been recreated"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16288")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16288.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16288.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16288"
+  , issueCreatedAt = 2017 (-02) (-10) 11 : 25 : 29 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 206772577
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

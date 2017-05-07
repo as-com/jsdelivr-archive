@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-29) 18 : 09 : 06 UTC
+  , issueUpdatedAt = 2016 (-07) (-29) 18 : 09 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12989/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12989")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12989
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4355715
+        , simpleUserLogin = N "abeMedia"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4355715?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/abeMedia"
+        }
+  , issueTitle = "Update jQuery Contextify homepage URL"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12989")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12989.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12989.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12989"
+  , issueCreatedAt = 2016 (-07) (-29) 17 : 55 : 54 UTC
+  , issueBody =
+      Just "Updated the URL to the current one (I'm the author).\n"
+  , issueState = StateClosed
+  , issueId = Id 168379156
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

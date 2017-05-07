@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-07) 04 : 22 : 09 UTC
+  , issueUpdatedAt = 2014 (-10) (-07) 04 : 37 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1940/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1940")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1940
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 365596
+        , simpleUserLogin = N "sourrust"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/365596?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sourrust"
+        }
+  , issueTitle = "Update file for highlight.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1940")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1940.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1940.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1940"
+  , issueCreatedAt = 2014 (-10) (-07) 04 : 18 : 01 UTC
+  , issueBody =
+      Just
+        "There is now a separate repo for cdn builds of highlight.js.\n"
+  , issueState = StateClosed
+  , issueId = Id 45065902
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

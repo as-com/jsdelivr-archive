@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-01) 19 : 03 : 46 UTC
+  , issueUpdatedAt = 2017 (-01) (-01) 19 : 03 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15584/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15584")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15584
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project dummy.js to v1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15584")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15584.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15584.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15584"
+  , issueCreatedAt = 2017 (-01) (-01) 19 : 03 : 34 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project dummy.js to v1.1.0.\n\n@shreyasminocha\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"dummy.js\",\n    \"repo\": \"shreyasminocha/dummy.js\",\n    \"files\": {\n      \"basePath\": \"dist\",\n      \"include\": [\"dummy.min.js\", \"dummy.dev.js\", \"dummy.min.js.map\", \"dummy.dev.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/dummyjs\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/dummyjs/update.json\",\n  \"versions\": [\"v1.1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/dummyjs/1.1.0\",\n  \"branch\": \"dummy.js/v1.1.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 198277756
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

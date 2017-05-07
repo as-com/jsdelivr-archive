@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-03) 13 : 01 : 22 UTC
+  , issueUpdatedAt = 2014 (-08) (-03) 13 : 01 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1348/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1348")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1348
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project domtastic to 0.7.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1348")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1348.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1348.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1348"
+  , issueCreatedAt = 2014 (-08) (-03) 12 : 34 : 37 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project domtastic to 0.7.6.\n\n@webpro\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"domtastic\",\n    \"repo\": \"webpro/DOMtastic-release\",\n    \"files\": {\n      \"basePath\": \"bundle/full/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/domtastic\",\n    \"localVersions\": [\"0.6.1\", \"0.6.2\", \"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"0.7.4\", \"0.7.5\"],\n    \"remoteVersions\": [\"0.3.4\", \"0.3.5\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.4.3\", \"0.5.0\", \"0.5.1\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"0.7.4\", \"0.7.5\", \"0.7.6\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.7.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/domtastic/0.7.6\",\n  \"branch\": \"domtastic/0.7.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 39369428
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

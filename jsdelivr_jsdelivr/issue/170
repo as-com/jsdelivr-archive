@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-01) 18 : 05 : 11 UTC
+  , issueUpdatedAt = 2013 (-12) (-02) 05 : 18 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/170/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/170")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 170
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2343856
+        , simpleUserLogin = N "sathishkpm"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2343856?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sathishkpm"
+        }
+  , issueTitle = "Repositioning the items when Items are hidden"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/170"
+  , issueCreatedAt = 2013 (-12) (-01) 17 : 34 : 31 UTC
+  , issueBody =
+      Just
+        "Thank you for the wonderful plugin :)\n\nHi,\n\nI would like to have the function to reposition the items in the pinterest-like view in jquery.freewall. Basically I am implementing the filters to filter some of the div according to its content (like free text search). When I do that, I can able to hide (display:none) the items but the items are not repositioned to the top.\n\nI know this is because freewall using position:absolute to position the items. If I use position:relative and comment the line number 272 and 273 //top: -- and //left: -- values. the blocks repositioning correctly but the blocks are not stacked one by one (there are some gaps between rows).\n\nIs there any other way to achieve this using your plugin?\n\nyour help will be appreciated!!!\n"
+  , issueState = StateClosed
+  , issueId = Id 23539854
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

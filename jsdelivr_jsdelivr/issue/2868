@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-30) 15 : 21 : 50 UTC
+  , issueUpdatedAt = 2014 (-12) (-30) 15 : 21 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2868/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2868")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2868
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 829734
+        , simpleUserLogin = N "petkaantonov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/829734?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/petkaantonov"
+        }
+  , issueTitle = "Update bluebird to 2.5.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2868")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2868.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2868.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2868"
+  , issueCreatedAt = 2014 (-12) (-30) 15 : 21 : 09 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 53122219
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-17) 00 : 18 : 10 UTC
+  , issueUpdatedAt = 2014 (-07) (-02) 09 : 00 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/366/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/366")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 366
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 924465
+        , simpleUserLogin = N "boneskull"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/924465?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/boneskull"
+        }
+  , issueTitle = "adding jquery.preempt to index"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/366")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/366.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/366.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/366"
+  , issueCreatedAt = 2014 (-02) (-17) 00 : 02 : 08 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 27685994
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-15) 00 : 13 : 22 UTC
+  , issueUpdatedAt = 2013 (-10) (-15) 00 : 13 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/113/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/113")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 113
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1469849
+        , simpleUserLogin = N "fabriziofortino"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1469849?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/fabriziofortino"
+        }
+  , issueTitle = "added backbone stickit plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/113")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/113.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/113.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/113"
+  , issueCreatedAt = 2013 (-10) (-14) 23 : 30 : 18 UTC
+  , issueBody =
+      Just "backbone plugin for model - view data binding\n"
+  , issueState = StateClosed
+  , issueId = Id 20988134
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

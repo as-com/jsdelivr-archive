@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-15) 21 : 35 : 17 UTC
+  , issueUpdatedAt = 2016 (-04) (-15) 21 : 35 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11091/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11091")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11091
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project webcomponentsjs to v0.7.22"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11091")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11091.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11091.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11091"
+  , issueCreatedAt = 2016 (-04) (-15) 21 : 35 : 13 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project webcomponentsjs to v0.7.22.\n\n@webcomponents\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"webcomponentsjs\",\n    \"repo\": \"webcomponents/webcomponentsjs\",\n    \"files\": {\n      \"include\": [\"webcomponents.min.js\", \"webcomponents-lite.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/webcomponentsjs\",\n    \"localVersions\": [\"0.5.2\", \"0.5.3\", \"0.5.4\", \"0.5.5-rc1\", \"0.5.5\", \"0.6.0\", \"0.6.1\", \"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"0.7.4\", \"0.7.5\", \"0.7.6\", \"0.7.7\", \"0.7.8\", \"0.7.9\", \"0.7.10\", \"0.7.11\", \"0.7.12\", \"0.7.13\", \"0.7.14\", \"0.7.15\", \"0.7.16\", \"0.7.17\", \"0.7.18\", \"0.7.19\", \"0.7.20\", \"0.7.21\"],\n    \"remoteVersions\": [\"v0.4.2\", \"0.5.0\", \"0.5.1-1\", \"0.5.1\", \"0.5.2\", \"0.5.3-rc\", \"0.5.3-rc2\", \"0.5.3\", \"0.5.4\", \"0.5.5-rc1\", \"0.5.5\", \"0.6.0\", \"v0.6.0\", \"v0.6.1\", \"v0.6.2\", \"v0.6.3\", \"v0.7.0\", \"v0.7.1\", \"v0.7.2\", \"v0.7.3\", \"v0.7.4\", \"v0.7.5\", \"v0.7.6\", \"v0.7.7\", \"v0.7.8\", \"v0.7.9\", \"v0.7.10\", \"v0.7.11\", \"v0.7.12\", \"v0.7.13\", \"v0.7.14\", \"v0.7.15\", \"v0.7.16\", \"v0.7.17\", \"v0.7.18\", \"v0.7.19\", \"v0.7.20\", \"v0.7.21\", \"v0.7.22\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/webcomponentsjs/update.json\",\n  \"versions\": [\"v0.7.22\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.7.22\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/webcomponentsjs/0.7.22\",\n  \"branch\": \"webcomponentsjs/v0.7.22\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 148775320
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

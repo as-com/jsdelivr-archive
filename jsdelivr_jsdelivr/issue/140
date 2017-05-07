@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-06) 20 : 34 : 37 UTC
+  , issueUpdatedAt = 2013 (-11) (-06) 20 : 34 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/140/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/140")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 140
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4228012
+        , simpleUserLogin = N "baohouse"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4228012?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/baohouse"
+        }
+  , issueTitle = "Adding jquery-caret"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/140")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/140.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/140.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/140"
+  , issueCreatedAt = 2013 (-11) (-06) 19 : 57 : 04 UTC
+  , issueBody = Just "My first pull request to jsdelivr\n"
+  , issueState = StateClosed
+  , issueId = Id 22220706
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

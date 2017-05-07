@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-25) 09 : 48 : 28 UTC
+  , issueUpdatedAt = 2015 (-05) (-25) 09 : 48 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4951/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4951")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4951
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1085899
+        , simpleUserLogin = N "SimeonC"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1085899?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/SimeonC"
+        }
+  , issueTitle = "OWNER: Update textAngular File structure."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4951")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4951.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4951.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4951"
+  , issueCreatedAt = 2015 (-05) (-24) 22 : 55 : 22 UTC
+  , issueBody =
+      Just
+        "Fixed my confusing file structure so everything is in the correct folders, now all files we need are in the dist folder, this includes non-minified files though, is that OK or would you rather I exclude them?\n"
+  , issueState = StateClosed
+  , issueId = Id 80296845
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

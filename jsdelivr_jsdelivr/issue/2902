@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-02) 16 : 45 : 42 UTC
+  , issueUpdatedAt = 2015 (-01) (-02) 16 : 45 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2902/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2902")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2902
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3662229
+        , simpleUserLogin = N "Arg0n4th"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3662229?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Arg0n4th"
+        }
+  , issueTitle = "Rate it - added 5stars ranking system"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2902")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2902.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2902.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2902"
+  , issueCreatedAt = 2015 (-01) (-02) 16 : 45 : 08 UTC
+  , issueBody = Just "Rate it - added 5stars ranking system\n"
+  , issueState = StateClosed
+  , issueId = Id 53262572
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

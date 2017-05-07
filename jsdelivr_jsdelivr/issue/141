@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-10) 16 : 11 : 10 UTC
+  , issueUpdatedAt = 2014 (-08) (-04) 16 : 31 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/141/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/141")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 141
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1361124
+        , simpleUserLogin = N "nickpierpoint"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1361124?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nickpierpoint"
+        }
+  , issueTitle = "Version 3.4.5 of select2 javascript library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/141")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/141.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/141.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/141"
+  , issueCreatedAt = 2013 (-11) (-10) 15 : 37 : 42 UTC
+  , issueBody =
+      Just
+        "Version 3.4.5 of select2 javascript library\nI removed LICENSE and README files - hope the rest of it is ok.\n"
+  , issueState = StateClosed
+  , issueId = Id 22410519
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

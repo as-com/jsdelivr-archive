@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-28) 10 : 01 : 55 UTC
+  , issueUpdatedAt = 2016 (-10) (-28) 10 : 01 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14470/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14470")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14470
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5554373
+        , simpleUserLogin = N "skokenes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5554373?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/skokenes"
+        }
+  , issueTitle = "Add rxqap library to jsdelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14470")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14470.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14470.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14470"
+  , issueCreatedAt = 2016 (-10) (-28) 01 : 29 : 21 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 185818870
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-01) 02 : 55 : 12 UTC
+  , issueUpdatedAt = 2016 (-04) (-01) 02 : 55 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10742/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10742")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10742
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5573357
+        , simpleUserLogin = N "gnuzilla"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5573357?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gnuzilla"
+        }
+  , issueTitle = "Updated to version 1.1.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10742")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10742.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10742.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10742"
+  , issueCreatedAt = 2016 (-03) (-31) 17 : 57 : 15 UTC
+  , issueBody = Just "Updated to version 1.1.7\n"
+  , issueState = StateClosed
+  , issueId = Id 144973518
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

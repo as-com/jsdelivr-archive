@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-06) 21 : 07 : 17 UTC
+  , issueUpdatedAt = 2017 (-03) (-06) 21 : 07 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16757/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16757")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16757
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tez to v2.3.42"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16757")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16757.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16757.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16757"
+  , issueCreatedAt = 2017 (-03) (-06) 21 : 07 : 13 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tez to v2.3.42.\n\n@dalisoft\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"tez\",\n    \"repo\": \"dalisoft/tez\",\n    \"files\": {\n      \"include\": [\"Tez.js\", \"Tez.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/tez.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v2.3.42\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/tez.js/update.json\",\n  \"versions\": [\"v2.3.42\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.3.42\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/tez.js/2.3.42\",\n  \"branch\": \"tez/v2.3.42\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 212250045
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

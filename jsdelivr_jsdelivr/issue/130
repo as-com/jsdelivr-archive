@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-29) 14 : 55 : 35 UTC
+  , issueUpdatedAt = 2013 (-10) (-29) 14 : 55 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/130/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/130")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 130
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1915268
+        , simpleUserLogin = N "irazasyed"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1915268?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/irazasyed"
+        }
+  , issueTitle = "Added normalize.css v2.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/130")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/130.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/130.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/130"
+  , issueCreatedAt = 2013 (-10) (-29) 14 : 48 : 06 UTC
+  , issueBody =
+      Just
+        "New version of normalize.css v2.1.3 with minified version - http://git.io/normalize\n"
+  , issueState = StateClosed
+  , issueId = Id 21761584
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

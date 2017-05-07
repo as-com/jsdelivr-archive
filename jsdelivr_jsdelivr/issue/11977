@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-07) 17 : 42 : 51 UTC
+  , issueUpdatedAt = 2016 (-06) (-07) 17 : 42 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11977/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11977")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11977
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8310677
+        , simpleUserLogin = N "julmot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8310677?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/julmot"
+        }
+  , issueTitle = "Add missing mark.js files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11977")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11977.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11977.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11977"
+  , issueCreatedAt = 2016 (-06) (-04) 08 : 53 : 05 UTC
+  , issueBody = Just "As per our discussion #11862\n"
+  , issueState = StateClosed
+  , issueId = Id 158495448
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

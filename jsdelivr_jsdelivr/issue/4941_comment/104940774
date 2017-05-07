@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-23) 20 : 15 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/104940774"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4941#issuecomment-104940774"
+  , issueCommentCreatedAt = 2015 (-05) (-23) 20 : 15 : 44 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- There are some fundamental issues with your PR :no_good:  \n  - _files/timelinejs/2.36.0/css/fancybox_sprite@2x.png_ contains illegal characters\n  - _files/timelinejs/2.36.0/css/loading@2x.gif_ contains illegal characters\n  - _files/timelinejs/2.36.0/css/themes/timeline-dark@2x.png_ contains illegal characters\n  - _files/timelinejs/2.36.0/css/timeline@2x.png_ contains illegal characters\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _timelinejs_ between _2.17_ and _2.36.0_ there was a change in file structure  \n  \n  ``` diff\n  + css/blank.gif\n  + css/fancybox_sprite.png\n  + css/fancybox_sprite@2x.png\n  + css/loading@2x.gif\n  + css/themes/timeline-dark@2x.png\n  + css/timeline@2x.png\n  + js/locale/af.js\n  + js/locale/be.js\n  + js/locale/da.js\n  + js/locale/en-24hr.js\n  + js/locale/en-week.js\n  + js/locale/eo.js\n  + js/locale/et.js\n  + js/locale/eu.js\n  + js/locale/fa.js\n  + js/locale/fi.js\n  + js/locale/fy.js\n  + js/locale/ga.js\n  + js/locale/gl.js\n  + js/locale/he.js\n  + js/locale/hi.js\n  + js/locale/hr.js\n  + js/locale/iw.js\n  + js/locale/ka.js\n  + js/locale/ko.js\n  + js/locale/lb.js\n  + js/locale/lt.js\n  + js/locale/lv.js\n  + js/locale/ms.js\n  + js/locale/ne.js\n  + js/locale/rm.js\n  + js/locale/ro.js\n  + js/locale/si.js\n  + js/locale/sr-cy.js\n  + js/locale/sr.js\n  + js/locale/sv.js\n  + js/locale/te.js\n  + js/locale/th.js\n  + js/locale/uk.js\n  + js/locale/zh-cn.js\n  + js/storyjs-embed-cdn.js\n  + js/storyjs-embed-generator.js\n  - js/locale/dk.js\n  - js/locale/kr.js\n  - js/locale/zh-ch.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Avoid administrative distraction._\n"
+  , issueCommentId = 104940774
+  }

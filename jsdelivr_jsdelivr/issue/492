@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-22) 14 : 01 : 28 UTC
+  , issueUpdatedAt = 2014 (-03) (-22) 14 : 01 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/492/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/492")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 492
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 383634
+        , simpleUserLogin = N "janpieterz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/383634?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/janpieterz"
+        }
+  , issueTitle = "jquery.rsfSlideshow 1.4.12"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/492")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/492.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/492.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/492"
+  , issueCreatedAt = 2014 (-03) (-22) 09 : 43 : 09 UTC
+  , issueBody =
+      Just
+        "Added the Really Simple Works Slideshow.\nhttp://reallysimpleworks.com/slideshow/\n"
+  , issueState = StateClosed
+  , issueId = Id 29957922
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

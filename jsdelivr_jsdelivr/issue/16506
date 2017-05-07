@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-22) 16 : 58 : 24 UTC
+  , issueUpdatedAt = 2017 (-02) (-22) 17 : 58 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16506/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16506")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16506
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1197144
+        , simpleUserLogin = N "redmunds"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1197144?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/redmunds"
+        }
+  , issueTitle = "Create info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16506")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16506.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16506.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16506"
+  , issueCreatedAt = 2017 (-02) (-22) 16 : 50 : 51 UTC
+  , issueBody =
+      Just
+        "This should be merged with PR #16454 . Not sure how to create second commit in existing branch using the web interface.\r\n"
+  , issueState = StateClosed
+  , issueId = Id 209513553
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-17) 16 : 22 : 30 UTC
+  , issueUpdatedAt = 2015 (-08) (-17) 16 : 22 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6452/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6452")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6452
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1639302
+        , simpleUserLogin = N "abishekrsrikaanth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1639302?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/abishekrsrikaanth"
+        }
+  , issueTitle = "Adding library Bootstrap Color Selector v0.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6452")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6452.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6452.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6452"
+  , issueCreatedAt = 2015 (-08) (-17) 16 : 14 : 48 UTC
+  , issueBody =
+      Just
+        "Repo: https://github.com/flaute/bootstrap-colorselector\nURL: http://bootstrap-colorselector.flaute.com/\nDescription: A colorselector for Twitter Bootstrap with which you can select a color from a predefined set of colors.\n\n@jimaek, As discussed on gitter, since this library is not currently maintained, adding the minified files manually.\n"
+  , issueState = StateClosed
+  , issueId = Id 101457050
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

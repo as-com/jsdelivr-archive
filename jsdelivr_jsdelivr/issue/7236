@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-05) 22 : 29 : 40 UTC
+  , issueUpdatedAt = 2015 (-10) (-06) 13 : 38 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7236/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7236")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7236
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 776154
+        , simpleUserLogin = N "docjojo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/776154?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/docjojo"
+        }
+  , issueTitle = "info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7236")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7236.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7236.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7236"
+  , issueCreatedAt = 2015 (-10) (-05) 22 : 27 : 32 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 109899329
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

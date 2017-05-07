@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-27) 01 : 26 : 10 UTC
+  , issueUpdatedAt = 2015 (-07) (-27) 01 : 50 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5792/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5792")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5792
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "fix project `name` in description"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5792")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5792.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5792.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5792"
+  , issueCreatedAt = 2015 (-07) (-11) 06 : 54 : 16 UTC
+  , issueBody =
+      Just
+        "I assume you want the jsDelivr folder name here?\n(Should be accurate for future bots.)\n"
+  , issueState = StateClosed
+  , issueId = Id 94446456
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-15) 17 : 37 : 15 UTC
+  , issueUpdatedAt = 2017 (-03) (-15) 17 : 37 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16863/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16863")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16863
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3511344
+        , simpleUserLogin = N "dalisoft"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3511344?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dalisoft"
+        }
+  , issueTitle = "Add Tez UI"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16863")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16863.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16863.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16863"
+  , issueCreatedAt = 2017 (-03) (-12) 17 : 44 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 213620308
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

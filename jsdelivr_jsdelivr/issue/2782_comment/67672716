@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-19) 17 : 56 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/67672716"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2782#issuecomment-67672716"
+  , issueCommentCreatedAt = 2014 (-12) (-19) 17 : 56 : 30 UTC
+  , issueCommentBody =
+      "Sorry but your minified files dont match the official ones here https://github.com/webcomponents/webcomponentsjs/tree/0.5.2\n\nIf the original repo does not have minified files then you cant use update.json, auto-updates wont work\n"
+  , issueCommentId = 67672716
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-09) 00 : 00 : 39 UTC
+  , issueUpdatedAt = 2014 (-05) (-09) 00 : 00 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/768/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/768")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 768
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 744538
+        , simpleUserLogin = N "gavinhungry"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/744538?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gavinhungry"
+        }
+  , issueTitle = "Add sass.js 0.3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/768")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/768.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/768.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/768"
+  , issueCreatedAt = 2014 (-05) (-08) 23 : 43 : 07 UTC
+  , issueBody =
+      Just "GitHub: https://github.com/medialize/sass.js/tree/v0.3.0\n"
+  , issueState = StateClosed
+  , issueId = Id 33134485
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

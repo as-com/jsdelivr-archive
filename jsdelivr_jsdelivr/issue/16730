@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-06) 20 : 55 : 22 UTC
+  , issueUpdatedAt = 2017 (-03) (-06) 20 : 55 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16730/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16730")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16730
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 21043557
+        , simpleUserLogin = N "shrikantgg"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/21043557?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/shrikantgg"
+        }
+  , issueTitle = "Create food_bootstrap.min"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16730")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16730.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16730.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16730"
+  , issueCreatedAt = 2017 (-03) (-06) 04 : 14 : 17 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 212020244
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

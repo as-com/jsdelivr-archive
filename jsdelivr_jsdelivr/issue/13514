@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 12 : 57 : 08 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 12 : 57 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13514/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13514")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13514
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7224675
+        , simpleUserLogin = N "andreamariotti83"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7224675?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/andreamariotti83"
+        }
+  , issueTitle = "Update candy-grid-system 1.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13514")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13514.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13514.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13514"
+  , issueCreatedAt = 2016 (-08) (-30) 08 : 31 : 47 UTC
+  , issueBody = Just "Update structure .json\n"
+  , issueState = StateClosed
+  , issueId = Id 173959658
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

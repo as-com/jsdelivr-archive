@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-10) 22 : 02 : 35 UTC
+  , issueUpdatedAt = 2014 (-10) (-10) 22 : 02 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1970/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1970")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1970
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1519888
+        , simpleUserLogin = N "hufyhang"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1519888?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hufyhang"
+        }
+  , issueTitle = "ChopJS: quick update to fix minor bugs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1970")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1970.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1970.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1970"
+  , issueCreatedAt = 2014 (-10) (-10) 22 : 01 : 03 UTC
+  , issueBody =
+      Just
+        "Quick update to fix minor bugs.\n\nUse jsDelivr as default CDN.\n"
+  , issueState = StateClosed
+  , issueId = Id 45528297
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

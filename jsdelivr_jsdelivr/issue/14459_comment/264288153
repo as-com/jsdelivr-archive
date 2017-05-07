@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-12) (-01) 20 : 39 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/264288153"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/14459#issuecomment-264288153"
+  , issueCommentCreatedAt = 2016 (-12) (-01) 20 : 39 : 43 UTC
+  , issueCommentBody =
+      "Hey, sorry it took so long. After reviewing everything the only solution I see right now is to avoid using SRI with /g/ URLs. Fixing it is a bit problematic and could break SRI for other websites that already use it.\r\n\r\nWe are working on jsDelivr v2 anyway right now. The problem will be fixed there and wont generate any negative effects like the current solution would"
+  , issueCommentId = 264288153
+  }

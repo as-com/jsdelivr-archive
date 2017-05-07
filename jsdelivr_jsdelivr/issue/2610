@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-05) 13 : 53 : 22 UTC
+  , issueUpdatedAt = 2014 (-12) (-05) 13 : 53 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2610/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2610")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2610
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 611185
+        , simpleUserLogin = N "CEikermann"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/611185?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/CEikermann"
+        }
+  , issueTitle = "Slow requests"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2610"
+  , issueCreatedAt = 2014 (-12) (-04) 14 : 38 : 35 UTC
+  , issueBody =
+      Just
+        "At the morning nearly every requests timed out. Currently it seems so no requests get a timeout, but the response still takes over 500ms to get a response.\n\nLocation: Cologne, Germany\nBrowser: Chrome 39.0.2171.71 (64-bit)\nURL: http://cdn.jsdelivr.net/g/jquery@2.1,angularjs@1.2.16(angular.min.js+angular-resource.min.js+angular-sanitize.min.js+angular-touch.min.js),bootstrap@3.1.1,angular.bootstrap@0.10.0(ui-bootstrap-tpls.min.js),momentjs@2.8.3,angular.moment@0.8.2\n\nping cdn.jsdelivr.net\nPING cdn.jsdelivr.net.cdn.cloudflare.net (190.93.247.228): 56 data bytes\n64 bytes from 190.93.247.228: icmp_seq=0 ttl=57 time=23.732 ms\n64 bytes from 190.93.247.228: icmp_seq=1 ttl=57 time=23.117 ms\n\nCF-RAY:1938be8ef09b089f-FRA\nNot sure, if this helps to trace a slow requests.\n\nLet me you if you need any further information.\n\nBest regards,\nChristian\n"
+  , issueState = StateClosed
+  , issueId = Id 50982501
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

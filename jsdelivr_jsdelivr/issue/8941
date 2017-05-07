@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-14) 10 : 32 : 56 UTC
+  , issueUpdatedAt = 2016 (-01) (-14) 10 : 32 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8941/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/8941")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8941
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2412637
+        , simpleUserLogin = N "mackenza"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2412637?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mackenza"
+        }
+  , issueTitle = "JSVerbalExpressions not working"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8941"
+  , issueCreatedAt = 2016 (-01) (-13) 21 : 15 : 52 UTC
+  , issueBody =
+      Just
+        "http://www.jsdelivr.com/projects/jsverbalexpressions\n\nthe links all give 404.\n"
+  , issueState = StateClosed
+  , issueId = Id 126516363
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

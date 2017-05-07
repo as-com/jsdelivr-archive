@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-07) 04 : 59 : 36 UTC
+  , issueUpdatedAt = 2014 (-09) (-07) 04 : 59 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1631/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1631")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1631
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3312990
+        , simpleUserLogin = N "darielnoel"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3312990?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/darielnoel"
+        }
+  , issueTitle = "Update to the 0.6.0 Version"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1631")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1631.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1631.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1631"
+  , issueCreatedAt = 2014 (-09) (-06) 04 : 22 : 08 UTC
+  , issueBody =
+      Just
+        "Adds custom helpers functions to the (do) definitions\n- **$addClass** classA classB\n- **$removeClass** classA classB\n- **$toggleClass** classB\n\n``` html\n<body>\n    <header data-anijs=\"if: click, do: $toggleClass animated flipInY\">\n        header (Click here)\n    </header>\n    <script type=\"text/javascript\" src=\"anijs/src/anijs.js\"></script>\n    <script type=\"text/javascript\" src=\"anijs/src/helpers/dom/anijs-helper-dom.js\"></script>\n</body>\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 42108190
+  , issueComments = 14
+  , issueMilestone = Nothing
+  }

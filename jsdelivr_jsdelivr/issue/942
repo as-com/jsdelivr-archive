@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-13) 15 : 37 : 37 UTC
+  , issueUpdatedAt = 2014 (-06) (-13) 15 : 37 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/942/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/942")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 942
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3027536
+        , simpleUserLogin = N "bradberger"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3027536?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bradberger"
+        }
+  , issueTitle = "Added https://github.com/paulmillr/es6-shim"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/942")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/942.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/942.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/942"
+  , issueCreatedAt = 2014 (-06) (-13) 12 : 57 : 51 UTC
+  , issueBody =
+      Just
+        "Named directory `es6.shim` instead of `es6-shim` to match naming of `es5.shim`.\n"
+  , issueState = StateClosed
+  , issueId = Id 35669063
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

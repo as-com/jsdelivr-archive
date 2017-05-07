@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-06) 03 : 39 : 18 UTC
+  , issueUpdatedAt = 2014 (-08) (-06) 13 : 21 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1358/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1358")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1358
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "TODO: Fix fast-json-patch"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1358"
+  , issueCreatedAt = 2014 (-08) (-05) 22 : 30 : 56 UTC
+  , issueBody =
+      Just
+        "```\n Updating fast-json-patch to 0.3.9\n[Aug  5 22:28:51.746] \ESC[32minfo\ESC[39m: Copied 4 files name=fast-json-patch, version=0.3.9, files=[/home/jsdelivr/files/fast-json-patch/0.3.9/dist/json-patch.min.js, /home/jsdelivr/files/fast-json-patch/0.3.9/dist/json-patch.min.js.map, /home/jsdelivr/files/fast-json-patch/0.3.9/dist/json-patch-duplex.min.js, /home/jsdelivr/files/fast-json-patch/0.3.9/dist/json-patch-duplex.min.js.map]\n[Aug  5 22:29:03.196] \ESC[31merror\ESC[39m: Git commit of path /home/jsdelivr/files/fast-json-patch/0.3.9 failed  name=fast-json-patch, version=0.3.9\n[Aug  5 22:29:03.200] \ESC[31merror\ESC[39m: Failed to update project /home/jsdelivr/files/fast-json-patch/update.json killed=false, code=1, signal=null\n[Aug  5 22:29:03.201] \ESC[31merror\ESC[39m: Failed to update project killed=false, code=1, signal=null\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 39572332
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

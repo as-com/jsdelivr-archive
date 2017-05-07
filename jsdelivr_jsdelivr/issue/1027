@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 07 : 17 : 12 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 07 : 17 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1027/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1027")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1027
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 947385
+        , simpleUserLogin = N "1rosehip"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/947385?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/1rosehip"
+        }
+  , issueTitle = "jplist plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1027")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1027.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1027.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1027"
+  , issueCreatedAt = 2014 (-06) (-27) 07 : 16 : 43 UTC
+  , issueBody =
+      Just
+        "Hello,\nI'd like to add jplist plugin http://jplist.com/ \nThank you\n"
+  , issueState = StateClosed
+  , issueId = Id 36641070
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-06) 11 : 52 : 50 UTC
+  , issueUpdatedAt = 2014 (-07) (-06) 11 : 52 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1126/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1126")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1126
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle =
+      "added jsdelivr performance data contribution script for CDN load"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1126")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1126.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1126.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1126"
+  , issueCreatedAt = 2014 (-07) (-06) 01 : 51 : 42 UTC
+  , issueBody =
+      Just
+        "added 'jsdelivr contribution script' for CDN load.\n\ncontribution-iframe.js and contribution.htm is for loading script from iframe.\n\ni think, loading script from iframe is more secure than loading script directly.(to secure cookie and webstorage).\n"
+  , issueState = StateClosed
+  , issueId = Id 37209852
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

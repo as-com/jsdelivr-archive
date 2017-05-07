@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-09) 11 : 27 : 36 UTC
+  , issueUpdatedAt = 2016 (-05) (-09) 11 : 27 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11514/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11514")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11514
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1005813
+        , simpleUserLogin = N "isaackwan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1005813?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaackwan"
+        }
+  , issueTitle = "Create update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11514")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11514.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11514.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11514"
+  , issueCreatedAt = 2016 (-05) (-09) 01 : 35 : 49 UTC
+  , issueBody = Just "update.json config for sjcl, JS crypto lib\n"
+  , issueState = StateClosed
+  , issueId = Id 153689330
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

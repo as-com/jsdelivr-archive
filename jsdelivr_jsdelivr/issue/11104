@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-16) 22 : 34 : 13 UTC
+  , issueUpdatedAt = 2016 (-04) (-16) 22 : 34 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11104/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11104")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11104
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project QuickJS to 0.5.0b"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11104")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11104.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11104.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11104"
+  , issueCreatedAt = 2016 (-04) (-16) 22 : 34 : 07 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project QuickJS to 0.5.0b.\n\n@mk2018\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"QuickJS\",\n    \"repo\": \"mk2018/QuickJS\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"quick.min.js\", \"quick.min.css\", \"quick.js\", \"quick.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/quickjs\",\n    \"localVersions\": [\"0.4-alpha\", \"0.4.1a\"],\n    \"remoteVersions\": [\"v0.1-alpha\", \"v0.2-alpha\", \"v0.3-alpha\", \"v0.4-alpha\", \"0.4.1a\", \"0.5.0b\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/quickjs/update.json\",\n  \"versions\": [\"0.5.0b\"],\n  \"updateRemote\": true,\n  \"version\": \"0.5.0b\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/quickjs/0.5.0b\",\n  \"branch\": \"QuickJS/0.5.0b\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 148899632
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

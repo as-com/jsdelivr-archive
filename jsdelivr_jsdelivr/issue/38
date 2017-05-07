@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2013 (-06) (-23) 01 : 38 : 51 UTC
+  , issueUpdatedAt = 2013 (-06) (-23) 09 : 33 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/38/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/38")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 38
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2921418
+        , simpleUserLogin = N "tobeportable"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/2921418?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tobeportable"
+        }
+  , issueTitle = "fontawsome and IE"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/38"
+  , issueCreatedAt = 2013 (-06) (-20) 11 : 13 : 33 UTC
+  , issueBody =
+      Just
+        "In IE (10) debugger : I get this errors in the console, which hides all the icon-fonts, when I include `//cdn.jsdelivr.net/fontawesome/3.2.0/css/font-awesome.min.css` :\n\n```\nCSS3117: @font-face failed cross-origin request. Resource access is restricted. \nfontawesome-webfont.eot\nCSS3117: @font-face failed cross-origin request. Resource access is restricted. \nfontawesome-webfont.woff\nCSS3117: @font-face failed cross-origin request. Resource access is restricted. \nfontawesome-webfont.ttf\n```\n\nThis error doesn't appear if I include : `//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/css/font-awesome.min.css`\n"
+  , issueState = StateClosed
+  , issueId = Id 15793642
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

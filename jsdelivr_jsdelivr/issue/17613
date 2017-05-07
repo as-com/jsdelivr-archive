@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2017 (-04) (-30) 04 : 04 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17613/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/17613")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17613
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 171072
+        , simpleUserLogin = N "floydpink"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/171072?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/floydpink"
+        }
+  , issueTitle = "jsdelivrbot seems to be ignoring new tags"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17613"
+  , issueCreatedAt = 2017 (-04) (-17) 04 : 32 : 39 UTC
+  , issueBody =
+      Just
+        "There have been a few new tags added on the source repo that somehow are not being picked up by `libgrabber`\r\n\r\nCan someone please guide me on the right direction to understand the issue and how it can be resolved?\r\n\r\nSource repo: https://github.com/kollavarsham/smc-webfonts\r\nInfo.ini: https://github.com/jsdelivr/jsdelivr/blob/master/files/smc-webfonts/info.ini\r\nUpdate.json: https://github.com/jsdelivr/jsdelivr/blob/master/files/smc-webfonts/update.json\r\n\r\nThanks"
+  , issueState = StateOpen
+  , issueId = Id 222063628
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

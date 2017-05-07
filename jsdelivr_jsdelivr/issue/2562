@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-06) 21 : 51 : 35 UTC
+  , issueUpdatedAt = 2014 (-12) (-06) 21 : 51 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2562/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2562")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/Discussion"
+          , labelName = N "Discussion"
+          }
+      ]
+  , issueNumber = 2562
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Reports vs More locations"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2562"
+  , issueCreatedAt = 2014 (-12) (-01) 15 : 15 : 25 UTC
+  , issueBody =
+      Just
+        "We have the opportunity to get more locations that we don't have by accepting some sponsorships by CDN companies.\nThe problem is that they dont support raw access logs that we could parse to create detailed stats for each project.\n\nWhat do you think is most important right now:\nMore locations/better performance or hit statistics for each project hosted on jsDelivr?\n\nIf we accept the sponsorships then the stats could be postponed for as long as a year or even more.\n"
+  , issueState = StateClosed
+  , issueId = Id 50534511
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

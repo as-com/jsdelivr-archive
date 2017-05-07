@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-27) 15 : 55 : 48 UTC
+  , issueUpdatedAt = 2014 (-08) (-27) 15 : 55 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1543/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1543")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1543
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle = "Is search broken on the frontpage?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1543"
+  , issueCreatedAt = 2014 (-08) (-27) 09 : 13 : 34 UTC
+  , issueBody =
+      Just
+        "I was trying to find the font-awesome links through search on the frontpage but it always returns \"No results\" when I search for \"font\" / \"awesome\" / \"font awesome\" / \"font-awesome\" / \"fontawesome\". \n\nSame thing when I tried to search for \"bootswatch\" and \"jquery\".\n\nTested with both Chrome and Firefox.\n"
+  , issueState = StateClosed
+  , issueId = Id 41262781
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

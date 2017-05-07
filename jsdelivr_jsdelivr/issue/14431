@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-20) 18 : 18 : 41 UTC
+  , issueUpdatedAt = 2016 (-10) (-20) 18 : 18 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14431/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14431")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14431
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 490870
+        , simpleUserLogin = N "samclarke"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/490870?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/samclarke"
+        }
+  , issueTitle = "Add update.json for SCEditor"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14431")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14431.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14431.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14431"
+  , issueCreatedAt = 2016 (-10) (-19) 13 : 40 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 183964690
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

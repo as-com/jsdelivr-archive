@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-29) 12 : 04 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 160618
+        , simpleUserLogin = N "ntd"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/160618?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ntd"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/116629131"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5523#issuecomment-116629131"
+  , issueCommentCreatedAt = 2015 (-06) (-29) 12 : 04 : 37 UTC
+  , issueCommentBody =
+      "I just found this [uservoice post](http://jsdelivr.uservoice.com/forums/162344-general-ideas-and-feedback/suggestions/3630136-hosted-all-css-of-plugin-as-well) talking about these very same files.\n\nIf you have already planned to support renaming in libgrabber ([issue 10](https://github.com/jsdelivr/libgrabber/issues/10) is somewhat related) I can for now disable automatic update (e.g. rename `update.json` to `update.jsoff`) and update by hand using `theme1` instead of `example1`, `theme2` instead of `example2` and so on.\n\nJust let me know.\n"
+  , issueCommentId = 116629131
+  }

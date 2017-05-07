@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-03) 10 : 22 : 13 UTC
+  , issueUpdatedAt = 2017 (-03) (-03) 10 : 22 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16690/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16690")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16690
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17918895
+        , simpleUserLogin = N "iahmedani"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/17918895?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/iahmedani"
+        }
+  , issueTitle = "gMapLeaflet"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16690")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16690.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16690.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16690"
+  , issueCreatedAt = 2017 (-03) (-03) 10 : 14 : 14 UTC
+  , issueBody =
+      Just
+        "A library for leafletjs to help have googlemap layers without api key."
+  , issueState = StateClosed
+  , issueId = Id 211647252
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

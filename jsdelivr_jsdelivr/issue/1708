@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-12) 20 : 07 : 39 UTC
+  , issueUpdatedAt = 2014 (-09) (-12) 20 : 07 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1708/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1708")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1708
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project cc-icons to 1.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1708")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1708.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1708.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1708"
+  , issueCreatedAt = 2014 (-09) (-12) 20 : 07 : 24 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project cc-icons to 1.2.0.\n\n@cc-icons\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"cc-icons\",\n    \"repo\": \"cc-icons/cc-icons\",\n    \"files\": {\n      \"include\": [\"./css/cc-icons.min.css\", \"./css/cc-icons.css\", \"./fonts/cc-icons.eot\", \"./fonts/cc-icons.otf\", \"./fonts/cc-icons.svg\", \"./fonts/cc-icons.ttf\", \"./fonts/cc-icons.woff\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/cc-icons\",\n    \"localVersions\": [\"1.0.1\"],\n    \"remoteVersions\": [\"1.0.1\", \"1.2.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/cc-icons/1.2.0\",\n  \"branch\": \"cc-icons/1.2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 42665610
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

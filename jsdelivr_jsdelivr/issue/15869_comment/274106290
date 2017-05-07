@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-01) (-20) 15 : 54 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/274106290"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15869#issuecomment-274106290"
+  , issueCommentCreatedAt = 2017 (-01) (-20) 15 : 54 : 09 UTC
+  , issueCommentBody =
+      "That error message should probably be improved, but what the bot is trying to tell you is to move errornicon.css and errornicon.min.js to a version folder. E.g.\r\n\r\nfiles/errornicon/v1.0.0/errornicon.css"
+  , issueCommentId = 274106290
+  }

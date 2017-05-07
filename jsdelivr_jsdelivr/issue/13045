@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-03) 10 : 44 : 01 UTC
+  , issueUpdatedAt = 2016 (-08) (-03) 10 : 44 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13045/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13045")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13045
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4747021
+        , simpleUserLogin = N "mjau-mjau"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4747021?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mjau-mjau"
+        }
+  , issueTitle = "Missing cache headers for png/svg"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13045"
+  , issueCreatedAt = 2016 (-08) (-03) 04 : 34 : 25 UTC
+  , issueBody =
+      Just
+        "Is there any logical reason why images delivered by jsdelivr are not assigned cache-headers?\n\nFor example:\nhttps://cdn.jsdelivr.net/emojione/assets/png/1f1eb-1f1f7.png\nhttps://cdn.jsdelivr.net/emojione/assets/svg/1f1eb-1f1f7.svg\n\n![screenshot](https://d.pr/i/1hqa7+)\n\nThis of course creates performance score penalties to any websites using these resources:\n\n![screenshot](http://d.pr/i/1gNEq+)\n"
+  , issueState = StateClosed
+  , issueId = Id 169045817
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

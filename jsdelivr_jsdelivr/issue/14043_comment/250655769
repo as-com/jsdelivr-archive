@@ -1,0 +1,22 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-09) (-30) 04 : 25 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 16397136
+        , simpleUserLogin = N "Syncfusion-JavaScript"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16397136?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/Syncfusion-JavaScript"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/250655769"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14043#issuecomment-250655769"
+  , issueCommentCreatedAt = 2016 (-09) (-30) 04 : 25 : 49 UTC
+  , issueCommentBody =
+      "Hi Team,\nWe have get error like below screenshot.I don't delete that files but its show like delete those files. \n![jsdeliver_error](https://cloud.githubusercontent.com/assets/16397136/18980553/230e5300-86f3-11e6-887f-ec3879295b0d.png)\n\nWe have already  faced this type issue and @megawac  suggest some steps like below ,it's work fine.\n\ngit checkout <branch of this pr>\ngit remote add jsdelivr git@github.com:jsdelivr/jsdelivr\ngit fetch jsdelivr\ngit reset --soft jsdelivr/master\ngit reset -q\ngit add files/syncfusion-javascript/14.2.32/\ngit commit -am \"Add sync fusion 14.2.232\"\ngit push -f origin <branch> \n\nBut now same error occurred when i have used above steps for commit in JsDelivr- master repository \n\nPlease give suggestion asap.\n"
+  , issueCommentId = 250655769
+  }

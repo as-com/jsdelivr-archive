@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-22) 20 : 34 : 09 UTC
+  , issueUpdatedAt = 2016 (-12) (-22) 20 : 34 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15473/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15473")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15473
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project goodshare.js to 4.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15473")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15473.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15473.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15473"
+  , issueCreatedAt = 2016 (-12) (-22) 20 : 34 : 02 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project goodshare.js to 4.0.2.\n\n@koddr\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"goodshare.js\",\n    \"repo\": \"koddr/goodshare.js\",\n    \"files\": {\n      \"include\": [\"goodshare.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.goodshare.js\",\n    \"localVersions\": [\"3.0.0\", \"3.1.0\", \"3.1.1\", \"3.1.2\", \"3.1.3\", \"3.1.4\", \"3.1.5\", \"3.1.6\", \"3.1.7\", \"3.1.8\", \"3.1.9\", \"3.2.0\", \"3.2.1\", \"3.2.2\", \"3.2.3\", \"3.2.4\", \"3.2.5\", \"3.2.6\", \"3.2.7\", \"3.2.8\", \"3.2.9\", \"4.0.1\"],\n    \"remoteVersions\": [\"3.0\", \"3.1\", \"3.1.1\", \"3.1.2\", \"3.1.3\", \"3.1.4\", \"3.1.5\", \"3.1.6\", \"3.1.7\", \"3.1.8\", \"3.1.9\", \"3.2.0\", \"3.2.1\", \"3.2.2\", \"3.2.3\", \"3.2.4\", \"3.2.5\", \"3.2.6\", \"3.2.7\", \"3.2.8\", \"3.2.9\", \"4.0.0\", \"4.0.1\", \"4.0.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.goodshare.js/update.json\",\n  \"versions\": [\"4.0.2\"],\n  \"updateRemote\": true,\n  \"version\": \"4.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.goodshare.js/4.0.2\",\n  \"branch\": \"goodshare.js/4.0.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 197261081
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

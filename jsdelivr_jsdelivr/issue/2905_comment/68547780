@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-02) 18 : 11 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3662229
+        , simpleUserLogin = N "Arg0n4th"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3662229?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Arg0n4th"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/68547780"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2905#issuecomment-68547780"
+  , issueCommentCreatedAt = 2015 (-01) (-02) 18 : 11 : 00 UTC
+  , issueCommentBody =
+      "The url https://gist.github.com/choyer/3278059 seems to be a github url, why the automatic check fails?\n\nThanks\n"
+  , issueCommentId = 68547780
+  }

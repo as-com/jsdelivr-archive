@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-01) 18 : 14 : 39 UTC
+  , issueUpdatedAt = 2016 (-11) (-01) 18 : 14 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14026/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14026")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14026
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2829620
+        , simpleUserLogin = N "elendirx"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2829620?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/elendirx"
+        }
+  , issueTitle =
+      "Added gateway lib for the original web2web concept (https://elendirx.github.io/web2web/)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14026")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14026.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14026.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14026"
+  , issueCreatedAt = 2016 (-09) (-28) 08 : 15 : 05 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 179707563
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

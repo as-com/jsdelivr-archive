@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-27) 10 : 12 : 39 UTC
+  , issueUpdatedAt = 2016 (-02) (-27) 10 : 12 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10151/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10151")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10151
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project 525icons to v1.7.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10151")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10151.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10151.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10151"
+  , issueCreatedAt = 2016 (-02) (-27) 10 : 02 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project 525icons to v1.7.1.\n\n@runestro\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"525icons\",\n    \"repo\": \"runestro/525icons\",\n    \"files\": {\n      \"basePath\": \"fonts/\",\n      \"include\": [\"525icons.css\", \"525icons.min.css\", \"525icons.eot\", \"525icons.svg\", \"525icons.ttf\", \"525icons.woff\", \"525icons.woff2\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/525icons\",\n    \"localVersions\": [\"1.6.0\", \"1.7\"],\n    \"remoteVersions\": [\"v1.6\", \"v1.7\", \"v1.7.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/525icons/update.json\",\n  \"versions\": [\"v1.7.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.7.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/525icons/1.7.1\",\n  \"branch\": \"525icons/v1.7.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 136903414
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

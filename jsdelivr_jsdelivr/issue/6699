@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-07) 19 : 25 : 13 UTC
+  , issueUpdatedAt = 2015 (-09) (-07) 19 : 26 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6699/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/6699")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6699
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 41597
+        , simpleUserLogin = N "mistic100"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/41597?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mistic100"
+        }
+  , issueTitle = "Files order on website"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6699"
+  , issueCreatedAt = 2015 (-09) (-03) 18 : 56 : 37 UTC
+  , issueBody =
+      Just
+        "Hello,\n\nIt would be cool if we could define in which order files are displayed on jsdelivr.com, it order to show the main files on top.\n\nExample for http://www.jsdelivr.com/#!jquery.query-builder, main JS files are at the bottom of the list, which is not very friendly.\n\nA good start would be to respect the order or `include` declaration https://github.com/jsdelivr/jsdelivr/blob/master/files/jquery.query-builder/update.json#L7\n"
+  , issueState = StateClosed
+  , issueId = Id 104759617
+  , issueComments = 11
+  , issueMilestone = Nothing
+  }

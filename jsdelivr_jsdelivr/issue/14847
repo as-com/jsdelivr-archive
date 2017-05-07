@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-18) 16 : 03 : 06 UTC
+  , issueUpdatedAt = 2016 (-11) (-18) 16 : 03 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14847/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14847")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14847
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project evil-icons to 1.9.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14847")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14847.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14847.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14847"
+  , issueCreatedAt = 2016 (-11) (-18) 16 : 03 : 02 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project evil-icons to 1.9.0.\n\n@outpunk\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"evil-icons\",\n    \"repo\": \"outpunk/evil-icons\",\n    \"files\": {\n      \"basePath\": \"assets/\",\n      \"include\": [\"evil-icons.min.js\", \"evil-icons.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/evil-icons\",\n    \"localVersions\": [\"1.5.0\", \"1.7.1\", \"1.7.2\", \"1.7.3\", \"1.7.4\", \"1.7.6\", \"1.7.7\", \"1.7.8\", \"1.8.0\"],\n    \"remoteVersions\": [\"0.1.1\", \"0.1.2\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.1.0\", \"1.2.0\", \"1.3.0\", \"1.4.0\", \"1.5.0\", \"1.6.0\", \"1.7.0\", \"1.7.1\", \"1.7.2\", \"1.7.3\", \"1.7.4\", \"1.7.5\", \"1.7.6\", \"1.7.7\", \"1.7.8\", \"1.8.0\", \"1.9.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/evil-icons/update.json\",\n  \"versions\": [\"1.9.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.9.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/evil-icons/1.9.0\",\n  \"branch\": \"evil-icons/1.9.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 190355278
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

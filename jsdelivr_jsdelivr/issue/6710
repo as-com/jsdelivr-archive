@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-05) 10 : 42 : 18 UTC
+  , issueUpdatedAt = 2015 (-09) (-05) 10 : 42 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6710/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6710")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6710
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1005813
+        , simpleUserLogin = N "isaackwan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1005813?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaackwan"
+        }
+  , issueTitle = "Update.json for socialite JS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6710")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6710.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6710.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6710"
+  , issueCreatedAt = 2015 (-09) (-04) 12 : 44 : 01 UTC
+  , issueBody =
+      Just
+        "Do I need to send a PR to update the library to its latest version as well? Plus, am I expected to keep the unminified version in new versions?\n"
+  , issueState = StateClosed
+  , issueId = Id 104883968
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

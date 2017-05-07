@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-03) 18 : 48 : 03 UTC
+  , issueUpdatedAt = 2014 (-05) (-03) 18 : 48 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/749/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/749")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 749
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 750269
+        , simpleUserLogin = N "Freezzz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/750269?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Freezzz"
+        }
+  , issueTitle = "HTTPS certificate problem in Firefox"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/749"
+  , issueCreatedAt = 2014 (-05) (-03) 18 : 03 : 36 UTC
+  , issueBody =
+      Just
+        "Trying to make https request https://cdn.jsdelivr.net/raphael/2.1.2/raphael-min.js from firefox and getting.\n\n```\ncdn.jsdelivr.net uses an invalid security certificate.\n\nThe certificate is not trusted because no issuer chain was provided. (Error code: sec_error_unknown_issuer)\n```\n\n![https_error_firefox](https://cloud.githubusercontent.com/assets/750269/2871007/37d00c28-d2ed-11e3-9361-35d381409c6a.jpg)\n"
+  , issueState = StateClosed
+  , issueId = Id 32751862
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-09) 21 : 05 : 13 UTC
+  , issueUpdatedAt = 2014 (-07) (-10) 18 : 05 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1171/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1171")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1171
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project script.js to v2.5.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1171")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1171.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1171.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1171"
+  , issueCreatedAt = 2014 (-07) (-09) 21 : 04 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project script.js to v2.5.6.\n\n@ded\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"script.js\",\n    \"repo\": \"ded/script.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"script.js\", \"script.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/script.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v2.4.1\", \"v2.5.0\", \"v2.5.1\", \"v2.5.2\", \"v2.5.3\", \"v2.5.5\", \"v2.5.6\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v2.5.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/script.js/2.5.6\",\n  \"branch\": \"script.js/v2.5.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 37508212
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

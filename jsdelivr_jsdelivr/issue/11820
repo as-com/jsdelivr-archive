@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-25) 16 : 02 : 58 UTC
+  , issueUpdatedAt = 2016 (-05) (-25) 16 : 02 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11820/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11820")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11820
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project chassis-x to 1.0.20"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11820")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11820.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11820.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11820"
+  , issueCreatedAt = 2016 (-05) (-25) 16 : 02 : 50 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project chassis-x to 1.0.20.\n\n@ngnjs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"chassis-x\",\n    \"repo\": \"ngnjs/chassis-libx\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/chassis-x\",\n    \"localVersions\": [\"1.0.5\", \"1.0.10\", \"1.0.11\", \"1.0.12\", \"1.0.15\", \"1.0.16\", \"1.0.18\", \"1.0.19\"],\n    \"remoteVersions\": [\"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.7\", \"1.0.10\", \"1.0.11\", \"1.0.12\", \"1.0.13\", \"1.0.14\", \"1.0.15\", \"1.0.16\", \"1.0.18\", \"1.0.19\", \"1.0.20\"],\n    \"branchVersions\": [\"1.0.12\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/chassis-x/update.json\",\n  \"versions\": [\"1.0.20\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.20\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/chassis-x/1.0.20\",\n  \"branch\": \"chassis-x/1.0.20\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 156788592
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-21) 13 : 43 : 02 UTC
+  , issueUpdatedAt = 2017 (-01) (-21) 13 : 43 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15889/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15889")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15889
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5614800
+        , simpleUserLogin = N "EngCode"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5614800?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/EngCode"
+        }
+  , issueTitle = "tornado-ui"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15889")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15889.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15889.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15889"
+  , issueCreatedAt = 2017 (-01) (-21) 08 : 03 : 19 UTC
+  , issueBody = Just "Tornado User interface Framework"
+  , issueState = StateClosed
+  , issueId = Id 202301527
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

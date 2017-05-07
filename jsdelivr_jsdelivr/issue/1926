@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-18) 22 : 01 : 49 UTC
+  , issueUpdatedAt = 2014 (-10) (-18) 22 : 01 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1926/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1926")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1926
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5367108
+        , simpleUserLogin = N "myeung58"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5367108?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/myeung58"
+        }
+  , issueTitle = "new - added uberquick.js and uberquick-min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1926")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1926.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1926.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1926"
+  , issueCreatedAt = 2014 (-10) (-05) 02 : 47 : 01 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 44901527
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

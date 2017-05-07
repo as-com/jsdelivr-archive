@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-18) 14 : 23 : 38 UTC
+  , issueUpdatedAt = 2016 (-07) (-18) 14 : 23 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12773/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12773")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12773
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17172363
+        , simpleUserLogin = N "DheepaKumar123"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/17172363?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DheepaKumar123"
+        }
+  , issueTitle = "Blezyy"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12773")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12773.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12773.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12773"
+  , issueCreatedAt = 2016 (-07) (-18) 05 : 00 : 46 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 166018898
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

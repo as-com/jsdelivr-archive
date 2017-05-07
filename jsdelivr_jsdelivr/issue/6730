@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-05) 10 : 34 : 21 UTC
+  , issueUpdatedAt = 2015 (-09) (-05) 10 : 34 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6730/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6730")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6730
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bootstrap-social to 4.10.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6730")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6730.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6730.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6730"
+  , issueCreatedAt = 2015 (-09) (-05) 10 : 34 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootstrap-social to 4.10.1.\n\n@lipis\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bootstrap-social\",\n    \"repo\": \"lipis/bootstrap-social\",\n    \"files\": {\n      \"include\": [\"bootstrap-social.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/bootstrap-social\",\n    \"localVersions\": [\"4.2.1\", \"4.3.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"3.0.0\", \"4.0.0\", \"4.0.1\", \"4.0.2\", \"4.0.3\", \"4.0.4\", \"4.0.5\", \"4.0.6\", \"4.1.0\", \"4.1.1\", \"4.2.0\", \"4.2.1\", \"4.3.0\", \"4.4.0\", \"4.5.0\", \"4.5.1\", \"4.6.0\", \"4.6.1\", \"4.7.0\", \"4.8.0\", \"4.9.0\", \"v4.9.1\", \"4.10.0\", \"4.10.1\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/bootstrap-social/update.json\",\n  \"version\": \"4.10.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/bootstrap-social/4.10.1\",\n  \"branch\": \"bootstrap-social/4.10.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 105019625
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

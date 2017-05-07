@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-07) 14 : 23 : 36 UTC
+  , issueUpdatedAt = 2013 (-12) (-07) 15 : 24 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/186/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/186")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 186
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5640466
+        , simpleUserLogin = N "Exacore"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5640466?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Exacore"
+        }
+  , issueTitle = "Add display-table 2011-11-25"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/186")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/186.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/186.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/186"
+  , issueCreatedAt = 2013 (-12) (-07) 10 : 32 : 05 UTC
+  , issueBody =
+      Just
+        "JavaScript polyfill library intended to emulate CSS properties of\ndisplay: table\\* family in Internet Explorer 6 and 7.\n"
+  , issueState = StateClosed
+  , issueId = Id 23903117
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

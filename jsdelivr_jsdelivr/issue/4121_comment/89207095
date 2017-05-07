@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-03) 07 : 45 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 123822
+        , simpleUserLogin = N "vvo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/123822?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vvo"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/89207095"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4121#issuecomment-89207095"
+  , issueCommentCreatedAt = 2015 (-04) (-03) 07 : 45 : 20 UTC
+  , issueCommentBody =
+      "@tomByrer Why does the bot thinks our minified file is not optimal? We are using closure compiler.\n"
+  , issueCommentId = 89207095
+  }

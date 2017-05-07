@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-18) 21 : 43 : 32 UTC
+  , issueUpdatedAt = 2014 (-04) (-18) 21 : 43 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/672/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/672")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 672
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1675418
+        , simpleUserLogin = N "rragan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1675418?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rragan"
+        }
+  , issueTitle = "Add new 2.3.4 dustjs files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/672")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/672.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/672.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/672"
+  , issueCreatedAt = 2014 (-04) (-18) 21 : 42 : 36 UTC
+  , issueBody = Just "Adding the latest version\n"
+  , issueState = StateClosed
+  , issueId = Id 31826818
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-25) 20 : 22 : 24 UTC
+  , issueUpdatedAt = 2014 (-07) (-25) 20 : 22 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1302/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1302")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1302
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8445
+        , simpleUserLogin = N "zpao"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8445?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zpao"
+        }
+  , issueTitle = "Enable autoupdate for react"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1302")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1302.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1302.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1302"
+  , issueCreatedAt = 2014 (-07) (-25) 20 : 10 : 59 UTC
+  , issueBody =
+      Just
+        "As mentioned in #1300 (and I've been meaning to do this for a while now).\n\nI don't know how to test this so I'll assume it's correct. Files are in `dist/` so it _should_ mirror the lodash example from the docs.\n"
+  , issueState = StateClosed
+  , issueId = Id 38765808
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

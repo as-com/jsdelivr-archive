@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-13) 14 : 41 : 35 UTC
+  , issueUpdatedAt = 2016 (-09) (-13) 14 : 41 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13697/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13697")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13697
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project granim.js to v1.0.31"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13697")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13697.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13697.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13697"
+  , issueCreatedAt = 2016 (-09) (-09) 19 : 33 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project granim.js to v1.0.31.\n\n@sarcadass\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"granim.js\",\n    \"repo\": \"sarcadass/granim.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"granim.js\", \"granim.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/granim.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.31\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/granim.js/update.json\",\n  \"versions\": [\"v1.0.31\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.31\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/granim.js/1.0.31\",\n  \"branch\": \"granim.js/v1.0.31\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 176090581
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

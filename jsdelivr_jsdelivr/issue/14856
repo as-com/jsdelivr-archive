@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-18) 23 : 05 : 26 UTC
+  , issueUpdatedAt = 2016 (-11) (-18) 23 : 05 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14856/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14856")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14856
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project vue2-filters to v0.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14856")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14856.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14856.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14856"
+  , issueCreatedAt = 2016 (-11) (-18) 23 : 05 : 22 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vue2-filters to v0.1.2.\n\n@freearhey\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vue2-filters\",\n    \"repo\": \"freearhey/vue2-filters\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"vue2-filters.js\", \"vue2-filters.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/vue2-filters\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/vue2-filters/update.json\",\n  \"versions\": [\"v0.1.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/vue2-filters/0.1.2\",\n  \"branch\": \"vue2-filters/v0.1.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 190443172
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

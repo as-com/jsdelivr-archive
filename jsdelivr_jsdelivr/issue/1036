@@ -1,0 +1,48 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-14) 17 : 22 : 27 UTC
+  , issueUpdatedAt = 2014 (-07) (-14) 17 : 22 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1036/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1036")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/Discussion"
+          , labelName = N "Discussion"
+          }
+      , IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/enhancement"
+          , labelName = N "enhancement"
+          }
+      ]
+  , issueNumber = 1036
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Lets build together a better public CDN: Origin"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1036"
+  , issueCreatedAt = 2014 (-06) (-27) 15 : 20 : 41 UTC
+  , issueBody =
+      Just
+        "I want to redesign our infrastructure step by step.\nAnd the first step is our origin.\nCurrently its a VPS running at DigitalOcean with Nginx+PHP-FPM+APC.\nIf it goes down all files should stay online as they are cached by our CDN providers. So DO downtime is not a big deal for us. But still we need to do everything necessary to make sure the origin wont go down.\n\nI want to build a better system to make much more reliable and tweak anything we can.\n- What provider to use? (I would like to use Linode with Load Balancing but its too expensive for me) We need to find some hosting sponsors/partners or I could switch to a $10 Linode VPS.\n- How to tweak configs? Should I create a repo to host them? And then manually upload them to our VPS? This way everybody can contribute and improve our CDN\n- What about bash scripts? Same thing?\n- How to monitor the origin? Currently I stream all Nginx logs to logentries but I would prefer a better system. Thinking about NewRelic.\n- Other?\n  Give me your best ideas. I want to start making jsDelivr even more open allowing more people to contribute and use it. \n  I see jsDelivr as the \"Enterprise grade\" CDN of Public CDNs so every component should be bulletproof.\n\nOnce we get this done we will start focusing on other components.\n"
+  , issueState = StateClosed
+  , issueId = Id 36675096
+  , issueComments = 23
+  , issueMilestone = Nothing
+  }

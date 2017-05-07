@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-01) (-16) 16 : 59 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8793/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/8793")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8793
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 541485
+        , simpleUserLogin = N "eskhool"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/541485?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/eskhool"
+        }
+  , issueTitle = "jsdelivr almost always outdated compared to cdnjs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8793"
+  , issueCreatedAt = 2016 (-01) (-05) 06 : 55 : 35 UTC
+  , issueBody =
+      Just
+        "Aren't libraries being picked up automatically by both the CDNs? I have checked multiple libraries (jquery.flexslider) and invariably jsdelivr is a few versions behind. Its my only reason for not using jsdelivr since it is otherwise so advanced in the feature set. Could someone help elaborate?\n"
+  , issueState = StateOpen
+  , issueId = Id 124908824
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

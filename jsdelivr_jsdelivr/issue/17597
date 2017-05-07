@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-15) 18 : 28 : 34 UTC
+  , issueUpdatedAt = 2017 (-04) (-15) 18 : 28 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17597/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17597")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17597
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 25555850
+        , simpleUserLogin = N "arch-master"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/25555850?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/arch-master"
+        }
+  , issueTitle = "Add Universal Stylesheet"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17597")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17597.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17597.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17597"
+  , issueCreatedAt = 2017 (-04) (-15) 18 : 13 : 41 UTC
+  , issueBody =
+      Just
+        "I followed the steps in CONTRIBUTING.md to create my basic project files. I feel like it needs more content... Please help, but merge if this is correct! If you need information:\r\n\r\n - My name is Felix Mattick\r\n - The repository URL is `https://github.com/arch-master/US/`\r\n - The filename I need to serve is called `stylesheet.css`\r\n - The current version is 1.5\r\n - The description is:  \r\nThe Universal Stylesheet: the best stylesheet in the universe (or at least I hope so)! This stylesheet is simple but beautiful. If you want fancy navbars or footers, you have to program them yourself, but this is a great starting place for your great website!"
+  , issueState = StateClosed
+  , issueId = Id 221963934
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-06) 07 : 03 : 01 UTC
+  , issueUpdatedAt = 2016 (-09) (-06) 07 : 03 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13626/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13626")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13626
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project dio to v1.1.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13626")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13626.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13626.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13626"
+  , issueCreatedAt = 2016 (-09) (-06) 07 : 02 : 56 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project dio to v1.1.5.\n\n@thysultan\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"dio\",\n    \"repo\": \"thysultan/dio.js\",\n    \"files\": {\n      \"include\": [\"dio.min.js\", \"dio.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/dio\",\n    \"localVersions\": [\"1.0.0\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.0.8\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.1.4\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.0.8\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\", \"v1.1.4\", \"v1.1.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/dio/update.json\",\n  \"versions\": [\"v1.1.5\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/dio/1.1.5\",\n  \"branch\": \"dio/v1.1.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 175174418
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

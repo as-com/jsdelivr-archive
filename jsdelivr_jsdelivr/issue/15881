@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-21) 01 : 15 : 44 UTC
+  , issueUpdatedAt = 2017 (-01) (-21) 01 : 15 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15881/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15881")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15881
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11398001
+        , simpleUserLogin = N "Henry263"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11398001?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Henry263"
+        }
+  , issueTitle = "Created pull request for add new repo."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15881")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15881.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15881.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15881"
+  , issueCreatedAt = 2017 (-01) (-20) 19 : 47 : 48 UTC
+  , issueBody =
+      Just
+        "@jsdelivrbot @megawac : Please take a look at this fresh pull request. Let me know if I am missing anything."
+  , issueState = StateClosed
+  , issueId = Id 202226341
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-26) 21 : 47 : 32 UTC
+  , issueUpdatedAt = 2016 (-10) (-26) 21 : 47 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14462/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14462")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14462
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 197471
+        , simpleUserLogin = N "thierryc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/197471?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thierryc"
+        }
+  , issueTitle = "Add angular.pressure to jsdeliver"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14462")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14462.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14462.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14462"
+  , issueCreatedAt = 2016 (-10) (-25) 19 : 50 : 53 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 185216371
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

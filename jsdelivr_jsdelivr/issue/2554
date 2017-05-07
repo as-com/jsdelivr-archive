@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-03) 17 : 31 : 52 UTC
+  , issueUpdatedAt = 2014 (-12) (-03) 17 : 31 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2554/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2554")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2554
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "RUM data fail because of timeout"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2554"
+  , issueCreatedAt = 2014 (-11) (-30) 19 : 15 : 38 UTC
+  , issueBody =
+      Just
+        "i sometimes watch rum data fail(rpt.cedexis.com) because of Timeout Error(10s).\n\ni notice this problem in PC. i guess that there might be more error in mobile network..\n- ex)problem\n  ![image](https://cloud.githubusercontent.com/assets/7894760/5238897/253f22fa-7910-11e4-9d6e-078696ee78a5.png)\n- Normal (some response time too slow(6~7s))\n  ![image](https://cloud.githubusercontent.com/assets/7894760/5238909/68582fd2-7910-11e4-8bf8-f847822a1d72.png)\n  ![image](https://cloud.githubusercontent.com/assets/7894760/5238915/7f301abc-7910-11e4-8e47-bc7ffcfb4993.png)\n"
+  , issueState = StateClosed
+  , issueId = Id 50467256
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

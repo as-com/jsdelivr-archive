@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-12) 13 : 33 : 58 UTC
+  , issueUpdatedAt = 2016 (-04) (-12) 13 : 33 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10704/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10704")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10704
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4560915
+        , simpleUserLogin = N "Eelviny"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/4560915?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Eelviny"
+        }
+  , issueTitle = "Create outdated-browser update files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10704")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10704.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10704.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10704"
+  , issueCreatedAt = 2016 (-03) (-30) 13 : 20 : 27 UTC
+  , issueBody =
+      Just
+        "Found a project over at http://outdatedbrowser.com that is publicly available, and thought it could be added to the CDN.\nFirst time doing this, let's hope it goes smoothly.\n"
+  , issueState = StateClosed
+  , issueId = Id 144591341
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-19) 00 : 12 : 10 UTC
+  , issueUpdatedAt = 2014 (-03) (-19) 00 : 12 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/469/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/469")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 469
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49051
+        , simpleUserLogin = N "mattpodwysocki"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/49051?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mattpodwysocki"
+        }
+  , issueTitle = "Updating RxJS to v2.2.17"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/469")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/469.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/469.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/469"
+  , issueCreatedAt = 2014 (-03) (-18) 23 : 58 : 00 UTC
+  , issueBody =
+      Just
+        "Updating due to bugs: https://github.com/Reactive-Extensions/RxJS/releases/tag/v.2.2.17\n\nNote: I am the author\n"
+  , issueState = StateClosed
+  , issueId = Id 29696596
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

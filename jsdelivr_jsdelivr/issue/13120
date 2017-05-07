@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-07) 06 : 03 : 33 UTC
+  , issueUpdatedAt = 2016 (-08) (-07) 06 : 03 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13120/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13120")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13120
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.add-input-area to 4.8.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13120")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13120.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13120.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13120"
+  , issueCreatedAt = 2016 (-08) (-07) 06 : 03 : 29 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.add-input-area to 4.8.4.\n\n@sutara79\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.add-input-area\",\n    \"repo\": \"sutara79/jquery.add-input-area\",\n    \"files\": {\n      \"include\": [\"jquery.add-input-area.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.add-input-area\",\n    \"localVersions\": [\"4.7.2\", \"4.8.0\", \"4.8.3\"],\n    \"remoteVersions\": [\"4.7.0\", \"4.7.1\", \"4.7.2\", \"4.8.0\", \"4.8.1\", \"4.8.2\", \"4.8.3\", \"4.8.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.add-input-area/update.json\",\n  \"versions\": [\"4.8.4\"],\n  \"updateRemote\": true,\n  \"version\": \"4.8.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.add-input-area/4.8.4\",\n  \"branch\": \"jquery.add-input-area/4.8.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 169781969
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

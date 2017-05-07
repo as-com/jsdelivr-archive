@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-04) 13 : 35 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/108900599"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/5056#issuecomment-108900599"
+  , issueCommentCreatedAt = 2015 (-06) (-04) 13 : 35 : 33 UTC
+  , issueCommentBody =
+      "Its possible that you are hitting different CDN or POP locations each time. Some never had a hit so they cached the new file and some had a hit before and have cached the old file.\nIts a small problem with low traffic files. But in any case the expiration of files was meant to be gradual and not instant. For instant upgrades I recommend using static links and simply changing the code.\n"
+  , issueCommentId = 108900599
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-27) 20 : 47 : 54 UTC
+  , issueUpdatedAt = 2014 (-04) (-27) 20 : 47 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/709/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/709")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 709
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 59401
+        , simpleUserLogin = N "Robertof"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/59401?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Robertof"
+        }
+  , issueTitle = "Update at.js to 0.4.11"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/709")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/709.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/709.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/709"
+  , issueCreatedAt = 2014 (-04) (-27) 20 : 43 : 17 UTC
+  , issueBody =
+      Just
+        "Also included the minified version of the CSS by the author.\n"
+  , issueState = StateClosed
+  , issueId = Id 32320166
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

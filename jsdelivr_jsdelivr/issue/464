@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-17) 02 : 42 : 18 UTC
+  , issueUpdatedAt = 2014 (-03) (-17) 02 : 42 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/464/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/464")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 464
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 224757
+        , simpleUserLogin = N "jrabbe"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/224757?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jrabbe"
+        }
+  , issueTitle = "Adds Angular UI Router version 0.2.10"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/464")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/464.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/464.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/464"
+  , issueCreatedAt = 2014 (-03) (-17) 02 : 18 : 05 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 29533465
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-15) 09 : 08 : 22 UTC
+  , issueUpdatedAt = 2016 (-04) (-15) 09 : 08 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11075/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11075")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11075
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project rxjs-dom to v3.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11075")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11075.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11075.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11075"
+  , issueCreatedAt = 2016 (-04) (-15) 09 : 03 : 43 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project rxjs-dom to v3.0.2.\n\n@Reactive-Extensions\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"rxjs-dom\",\n    \"repo\": \"Reactive-Extensions/RxJS-DOM\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"rx.dom.js\", \"*.min.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/rxjs-dom\",\n    \"localVersions\": [\"2.0.3\", \"2.0.6\", \"5.0.4\", \"5.0.5\", \"6.0.0\", \"7.0.0\", \"7.0.1\", \"7.0.3\"],\n    \"remoteVersions\": [\"v2.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v2.0.6\", \"v2.0.8\", \"v3.0.0\", \"v3.0.1\", \"v3.0.2\", \"v4.0.0\", \"v4.0.1\", \"v4.0.2\", \"v4.0.3\", \"v4.0.4\", \"v5.0.0\", \"v5.0.1\", \"v5.0.2\", \"v5.0.3\", \"v5.0.4\", \"v5.0.5\", \"v6.0.0\", \"v7.0.0\", \"v7.0.1\", \"v7.0.2\", \"v7.0.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/rxjs-dom/update.json\",\n  \"versions\": [\"v2.0.8\", \"v3.0.2\", \"v4.0.4\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/rxjs-dom/3.0.2\",\n  \"branch\": \"rxjs-dom/v3.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 148602522
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

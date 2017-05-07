@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-19) 15 : 45 : 59 UTC
+  , issueUpdatedAt = 2016 (-03) (-19) 15 : 45 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10537/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/10537")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10537
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4747021
+        , simpleUserLogin = N "mjau-mjau"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4747021?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mjau-mjau"
+        }
+  , issueTitle = "concat files is non-productive with http/2?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10537"
+  , issueCreatedAt = 2016 (-03) (-19) 06 : 18 : 46 UTC
+  , issueBody =
+      Just
+        "Question: Would it be fair to say that loading multiple files in a single request becomes somewhat un-productive now with http/2 support? Of course, not all browsers support http/2 yet, but it seems caching is more effective with single file requests.\n"
+  , issueState = StateClosed
+  , issueId = Id 142032765
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-18) 10 : 51 : 16 UTC
+  , issueUpdatedAt = 2016 (-01) (-18) 10 : 51 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9168/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9168")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9168
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project stream.js to v1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9168")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9168.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9168.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9168"
+  , issueCreatedAt = 2016 (-01) (-18) 10 : 33 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project stream.js to v1.1.0.\n\n@dionyziz\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"stream.js\",\n    \"repo\": \"dionyziz/stream.js\",\n    \"files\": {\n      \"include\": [\"stream.min.js\", \"stream.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/stream.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/stream.js/update.json\",\n  \"versions\": [\"v1.1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/stream.js/1.1.0\",\n  \"branch\": \"stream.js/v1.1.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127198329
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

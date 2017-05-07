@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-17) 12 : 43 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 123822
+        , simpleUserLogin = N "vvo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/123822?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vvo"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/141069388"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6942#issuecomment-141069388"
+  , issueCommentCreatedAt = 2015 (-09) (-17) 12 : 43 : 42 UTC
+  , issueCommentBody =
+      "Not yet published on npm, still the PR is good, weird but maybe ok. Gonna publish it now.\n"
+  , issueCommentId = 141069388
+  }

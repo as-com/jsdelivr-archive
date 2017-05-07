@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-27) 16 : 11 : 56 UTC
+  , issueUpdatedAt = 2014 (-03) (-27) 16 : 12 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/520/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/520")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 520
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5306636
+        , simpleUserLogin = N "lithiumjake"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5306636?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lithiumjake"
+        }
+  , issueTitle = "update vue.js to 0.10.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/520")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/520.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/520.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/520"
+  , issueCreatedAt = 2014 (-03) (-27) 16 : 10 : 41 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 30315569
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

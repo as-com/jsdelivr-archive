@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-13) 19 : 22 : 15 UTC
+  , issueUpdatedAt = 2016 (-01) (-14) 08 : 48 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8896/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8896")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8896
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3000936
+        , simpleUserLogin = N "Kcchouette"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3000936?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Kcchouette"
+        }
+  , issueTitle = "Add leaflet.routingmachine"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8896")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8896.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8896.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8896"
+  , issueCreatedAt = 2016 (-01) (-12) 11 : 41 : 24 UTC
+  , issueBody =
+      Just
+        "From https://github.com/perliedman/leaflet-routing-machine\n\nThanks\n"
+  , issueState = StateClosed
+  , issueId = Id 126160620
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-06) 00 : 27 : 42 UTC
+  , issueUpdatedAt = 2017 (-01) (-06) 00 : 27 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15644/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15644")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15644
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 24946497
+        , simpleUserLogin = N "webfirethemes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/24946497?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/webfirethemes"
+        }
+  , issueTitle = "Create Master_widg.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15644")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15644.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15644.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15644"
+  , issueCreatedAt = 2017 (-01) (-05) 22 : 57 : 14 UTC
+  , issueBody =
+      Just
+        "This is a proof of concept for a new set of centralised Widgets that can be embedded into any website. The file here will be the master CSS file which will control the core styling of the widgets, so when the html is embedded it will auto style."
+  , issueState = StateClosed
+  , issueId = Id 199081534
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

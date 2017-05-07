@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-19) 12 : 44 : 41 UTC
+  , issueUpdatedAt = 2016 (-05) (-19) 12 : 44 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11707/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11707")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11707
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project TouchSwipe-Jquery-Plugin to 1.6.17"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11707")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11707.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11707.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11707"
+  , issueCreatedAt = 2016 (-05) (-19) 12 : 33 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project TouchSwipe-Jquery-Plugin to 1.6.17.\n\n@mattbryson\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"TouchSwipe-Jquery-Plugin\",\n    \"repo\": \"mattbryson/TouchSwipe-Jquery-Plugin\",\n    \"files\": {\n      \"include\": [\"jquery.touchSwipe.min.js\", \"jquery.touchSwipe.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.touchswipe\",\n    \"localVersions\": [\"1.6.4\", \"1.6.5\", \"1.6.6\", \"1.6.8\", \"1.6.9\", \"1.6.10\", \"1.6.11\", \"1.6.12\", \"1.6.13\", \"1.6.14\", \"1.6.15\", \"1.6.16\"],\n    \"remoteVersions\": [\"1.0.1\", \"1.6.0\", \"1.6.2\", \"1.6.3\", \"1.6.4\", \"1.6.5\", \"1.6.6\", \"1.6.7\", \"v1.6.7\", \"1.6.8\", \"1.6.9\", \"1.6.10\", \"1.6.11\", \"1.6.12\", \"1.6.13\", \"1.6.14\", \"1.6.15\", \"1.6.16\", \"1.6.17\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.touchswipe/update.json\",\n  \"versions\": [\"1.6.17\"],\n  \"updateRemote\": true,\n  \"version\": \"1.6.17\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.touchswipe/1.6.17\",\n  \"branch\": \"TouchSwipe-Jquery-Plugin/1.6.17\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 155725776
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-21) 00 : 04 : 27 UTC
+  , issueUpdatedAt = 2015 (-09) (-21) 00 : 04 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6994/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6994")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6994
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project textAngular to 1.4.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6994")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6994.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6994.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6994"
+  , issueCreatedAt = 2015 (-09) (-21) 00 : 04 : 19 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project textAngular to 1.4.6.\n\n@fraywing\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"textAngular\",\n    \"repo\": \"fraywing/textAngular\",\n    \"files\": {\n      \"include\": [\"dist/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular.textangular\",\n    \"localVersions\": [\"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.3.2\", \"1.3.3\", \"1.3.4\", \"1.3.5\", \"1.3.6\", \"1.3.7\", \"1.3.8\", \"1.3.9\", \"1.3.10\", \"1.3.11\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"1.4.4\", \"1.4.5\"],\n    \"remoteVersions\": [\"1.1.0\", \"1.1.0\", \"1.1.1\", \"1.1.2-alpha\", \"1.1.2-pre2\", \"1.1.2-pre3\", \"1.1.2\", \"1.2.0-pre1\", \"1.2.0-pre2\", \"1.2.0\", \"1.2.1-pre1\", \"1.2.1-pre2\", \"1.2.1-pre3\", \"1.2.1-pre4\", \"1.2.1-pre5\", \"1.2.1-pre6\", \"1.2.1\", \"1.2.2\", \"1.3.0-16\", \"1.3.0-17\", \"1.3.0-18\", \"1.3.0-19\", \"1.3.0-20\", \"1.3.0-21\", \"1.3.0-22\", \"1.3.0-23\", \"1.3.0-pre1\", \"1.3.0-pre2\", \"1.3.0-pre3\", \"1.3.0-pre4\", \"1.3.0-pre5\", \"1.3.0-pre6\", \"1.3.0-pre7\", \"1.3.0-pre8\", \"1.3.0-pre9\", \"1.3.0-pre10\", \"1.3.0-pre11\", \"1.3.0-pre12\", \"1.3.0-pre13\", \"1.3.0-pre14\", \"1.3.0-pre15\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.3.4\", \"1.3.5\", \"1.3.6\", \"1.3.7\", \"1.3.8\", \"1.3.9\", \"1.3.10\", \"1.3.11\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"1.4.4\", \"1.4.5\", \"1.4.6\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/angular.textangular/update.json\",\n  \"version\": \"1.4.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.textangular/1.4.6\",\n  \"branch\": \"textAngular/1.4.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 107425506
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

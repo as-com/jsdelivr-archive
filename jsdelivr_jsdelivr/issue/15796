@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-16) 15 : 06 : 53 UTC
+  , issueUpdatedAt = 2017 (-01) (-16) 16 : 56 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15796/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15796")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15796
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 762639
+        , simpleUserLogin = N "teles"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/762639?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/teles"
+        }
+  , issueTitle = "Add FrontPress package to jsDeliver"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15796")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15796.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15796.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15796"
+  , issueCreatedAt = 2017 (-01) (-16) 00 : 45 : 43 UTC
+  , issueBody =
+      Just
+        "NPM package: https://www.npmjs.com/frontpress (v1.0.8)\r\nGithub repository: https://github.com/frontpressorg/frontpress"
+  , issueState = StateClosed
+  , issueId = Id 200910092
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

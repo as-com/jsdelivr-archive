@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-29) 17 : 41 : 18 UTC
+  , issueUpdatedAt = 2016 (-01) (-29) 17 : 41 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9454/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9454")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9454
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 271912
+        , simpleUserLogin = N "needim"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/271912?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/needim"
+        }
+  , issueTitle = "wdt-emoji-bundle repo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9454")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9454.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9454.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9454"
+  , issueCreatedAt = 2016 (-01) (-29) 17 : 32 : 57 UTC
+  , issueBody =
+      Just
+        "Slack like emoji selector with apple/ios, twitter/twemoji, google, emojione and custom emoji support\nAdd wdt-emoji-bundle https://github.com/needim/wdt-emoji-bundle\n"
+  , issueState = StateClosed
+  , issueId = Id 129832465
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-21) 23 : 35 : 52 UTC
+  , issueUpdatedAt = 2014 (-06) (-24) 15 : 17 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/683/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/683")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 683
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 369881
+        , simpleUserLogin = N "paazmaya"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/369881?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/paazmaya"
+        }
+  , issueTitle = "Added Chatanyara.js v0.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/683")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/683.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/683.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/683"
+  , issueCreatedAt = 2014 (-04) (-21) 12 : 35 : 35 UTC
+  , issueBody =
+      Just
+        "Add Chatanyara.js, https://github.com/paazmaya/Chatanyara.js\n"
+  , issueState = StateClosed
+  , issueId = Id 31893785
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

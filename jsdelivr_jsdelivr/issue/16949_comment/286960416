@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-03) (-16) 05 : 17 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/286960416"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16949#issuecomment-286960416"
+  , issueCommentCreatedAt = 2017 (-03) (-16) 05 : 17 : 21 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @GoToLoop, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- There are some fundamental issues with your PR :no_good:  \n    - *files/p5.collide2D/info.ini* should be lowercase\n- Looks like the `info.ini` or `update.json` has some problems\n    - The homepage property should be wrapped in double quotes (e.g. `homepage = \"http://BenMoren.com\"\"`) and contain no other double quotes\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Half measures are as bad as nothing at all.*\n"
+  , issueCommentId = 286960416
+  }

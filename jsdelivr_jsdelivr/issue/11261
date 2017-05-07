@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-26) 11 : 18 : 50 UTC
+  , issueUpdatedAt = 2016 (-04) (-26) 11 : 18 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11261/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11261")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11261
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 18014348
+        , simpleUserLogin = N "BitsyCode"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/18014348?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/BitsyCode"
+        }
+  , issueTitle = "Updated"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11261")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11261.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11261.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11261"
+  , issueCreatedAt = 2016 (-04) (-25) 12 : 10 : 08 UTC
+  , issueBody = Just "BitsyCode has been updated to version 1.0.1\n"
+  , issueState = StateClosed
+  , issueId = Id 150837128
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 14 : 21 : 12 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 14 : 21 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/963/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/963")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 963
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle =
+      "automatically minify. if minified file is not exist"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/963"
+  , issueCreatedAt = 2014 (-06) (-17) 12 : 27 : 33 UTC
+  , issueBody =
+      Just
+        "if minified file(*.min.js or *.min.css or *.min.less) does not exist, how about make jsdelivrbot to minify the js/css script automatically?\n\ni think this feature will make autoupdate feature efficient.\n"
+  , issueState = StateClosed
+  , issueId = Id 35883733
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

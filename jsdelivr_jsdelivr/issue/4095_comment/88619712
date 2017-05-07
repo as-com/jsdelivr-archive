@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-01) 20 : 17 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/88619712"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4095#issuecomment-88619712"
+  , issueCommentCreatedAt = 2015 (-04) (-01) 20 : 17 : 50 UTC
+  , issueCommentBody =
+      "1. Can you rename the directory to `angular.material` please?\n2. What is your source for these files?\n3. I dont think we need the css/ js/ folders. Just put all of them inside the version. Make sure you update info.ini as well\n4. Please squash the commits after you've done everything :)\n\nthank you\n"
+  , issueCommentId = 88619712
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-21) 22 : 02 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123490527"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6034#issuecomment-123490527"
+  , issueCommentCreatedAt = 2015 (-07) (-21) 22 : 02 : 17 UTC
+  , issueCommentBody =
+      "Looks good, you could add a rule to exclude `backbone.syphon.js` as well\n"
+  , issueCommentId = 123490527
+  }

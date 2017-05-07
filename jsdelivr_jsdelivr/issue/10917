@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-08) 18 : 23 : 50 UTC
+  , issueUpdatedAt = 2016 (-04) (-08) 18 : 23 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10917/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10917")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10917
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2342142
+        , simpleUserLogin = N "dkoes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2342142?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dkoes"
+        }
+  , issueTitle = "change to project repo - update ini file"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10917")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10917.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10917.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10917"
+  , issueCreatedAt = 2016 (-04) (-08) 18 : 23 : 20 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 147001615
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

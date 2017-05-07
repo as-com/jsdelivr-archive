@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-13) 13 : 43 : 06 UTC
+  , issueUpdatedAt = 2014 (-10) (-13) 13 : 43 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2004/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2004")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2004
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Revert \"Update project uikit to 2.11.1\""
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2004")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2004.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2004.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2004"
+  , issueCreatedAt = 2014 (-10) (-13) 13 : 43 : 02 UTC
+  , issueBody = Just "Reverts jsdelivr/jsdelivr#2000\n"
+  , issueState = StateClosed
+  , issueId = Id 45643293
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

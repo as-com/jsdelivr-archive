@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-25) 19 : 33 : 21 UTC
+  , issueUpdatedAt = 2016 (-05) (-25) 19 : 33 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11827/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11827")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11827
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ng-image-appear to v1.8.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11827")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11827.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11827.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11827"
+  , issueCreatedAt = 2016 (-05) (-25) 19 : 33 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ng-image-appear to v1.8.3.\n\n@ArunMichaelDsouza\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ng-image-appear\",\n    \"repo\": \"ArunMichaelDsouza/ng-image-appear\",\n    \"files\": {\n      \"include\": [\"dist/ng-image-appear.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.image-appear\",\n    \"localVersions\": [\"1.4.10\", \"1.5.4\", \"1.8.2\"],\n    \"remoteVersions\": [\"v1.4.10\", \"v1.5.4\", \"v1.8.2\", \"v1.8.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.image-appear/update.json\",\n  \"versions\": [\"v1.8.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.8.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.image-appear/1.8.3\",\n  \"branch\": \"ng-image-appear/v1.8.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 156831903
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-14) 13 : 53 : 51 UTC
+  , issueUpdatedAt = 2017 (-02) (-14) 13 : 53 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16356/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16356")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16356
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11521403
+        , simpleUserLogin = N "pelletierjy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/11521403?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pelletierjy"
+        }
+  , issueTitle = "Patch 4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16356")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16356.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16356.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16356"
+  , issueCreatedAt = 2017 (-02) (-14) 13 : 49 : 28 UTC
+  , issueBody =
+      Just "angulartics-google-analytics!  Thanks for asdding"
+  , issueState = StateClosed
+  , issueId = Id 207520152
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

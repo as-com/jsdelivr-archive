@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-18) 16 : 33 : 20 UTC
+  , issueUpdatedAt = 2016 (-05) (-18) 16 : 33 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11685/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11685")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11685
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 284868
+        , simpleUserLogin = N "lindell"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/284868?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lindell"
+        }
+  , issueTitle = "Changed basepath for next JsBarcode release"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11685")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11685.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11685.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11685"
+  , issueCreatedAt = 2016 (-05) (-18) 15 : 13 : 23 UTC
+  , issueBody =
+      Just
+        "The folder of the JsBarcode build has been changed from `bin/browser/` to [`dist/`](https://github.com/lindell/JsBarcode/tree/master/dist). This PR prepares jsdelivr for the next release.\n"
+  , issueState = StateClosed
+  , issueId = Id 155527842
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

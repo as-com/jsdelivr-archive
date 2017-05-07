@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-03) 17 : 10 : 19 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 20 : 46 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/568/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/568")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 568
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7112345
+        , simpleUserLogin = N "codingfriend1"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7112345?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/codingfriend1"
+        }
+  , issueTitle = "Flexgrid 1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/568")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/568.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/568.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/568"
+  , issueCreatedAt = 2014 (-04) (-03) 16 : 30 : 20 UTC
+  , issueBody =
+      Just "Removes unneeded jQuery dom writes and saves on memory.\n"
+  , issueState = StateClosed
+  , issueId = Id 30791174
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

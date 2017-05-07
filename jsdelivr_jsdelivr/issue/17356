@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-02) 11 : 05 : 30 UTC
+  , issueUpdatedAt = 2017 (-04) (-02) 11 : 05 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17356/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17356")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17356
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 171072
+        , simpleUserLogin = N "floydpink"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/171072?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/floydpink"
+        }
+  , issueTitle = "add smc-webfonts project to host some webfonts"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17356")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17356.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17356.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17356"
+  , issueCreatedAt = 2017 (-04) (-02) 05 : 12 : 18 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 218742655
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

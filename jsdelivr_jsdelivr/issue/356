@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-13) 18 : 56 : 23 UTC
+  , issueUpdatedAt = 2014 (-07) (-16) 11 : 25 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/356/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/356")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 356
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 305721
+        , simpleUserLogin = N "rdeavila"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/305721?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rdeavila"
+        }
+  , issueTitle = "Added Bootstrap Tagsinput version 0.3.9."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/356")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/356.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/356.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/356"
+  , issueCreatedAt = 2014 (-02) (-13) 18 : 44 : 05 UTC
+  , issueBody = Just "Added Bootstrap Tagsinput version 0.3.9.\n"
+  , issueState = StateClosed
+  , issueId = Id 27541711
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-11) 09 : 43 : 18 UTC
+  , issueUpdatedAt = 2014 (-09) (-11) 12 : 35 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1696/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1696")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1696
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project transportapi.js to 0.0.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1696")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1696.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1696.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1696"
+  , issueCreatedAt = 2014 (-09) (-11) 09 : 07 : 09 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project transportapi.js to 0.0.7.\n\n@transportapi\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"transportapi.js\",\n    \"repo\": \"transportapi/transportapi.js\",\n    \"files\": {\n      \"basePath\": \"dist/scripts\",\n      \"exclude\": [\"transportapi.js\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/jsdelivr/files/transportapi.js\",\n    \"localVersions\": [\"0.0.0\", \"0.0.1\", \"0.0.3\", \"0.0.4\", \"0.0.5\"],\n    \"remoteVersions\": [\"0.0.0\", \"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.0.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/transportapi.js/0.0.7\",\n  \"branch\": \"transportapi.js/0.0.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 42503454
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

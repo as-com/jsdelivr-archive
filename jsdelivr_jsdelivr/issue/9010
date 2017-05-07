@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-16) 15 : 25 : 24 UTC
+  , issueUpdatedAt = 2016 (-01) (-16) 15 : 25 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9010/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9010")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9010
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project domcom to v0.1.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9010")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9010.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9010.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9010"
+  , issueCreatedAt = 2016 (-01) (-16) 14 : 01 : 46 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project domcom to v0.1.5.\n\n@taijiweb\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"domcom\",\n    \"repo\": \"taijiweb/domcom\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"domcom.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/domcom\",\n    \"localVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\"],\n    \"remoteVersions\": [\"v0.0.1\", \"v0.0.2\", \"v0.1\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\"],\n    \"branchVersions\": [\"v0.0.2\"]\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/domcom/update.json\",\n  \"version\": \"v0.1.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/domcom/0.1.5\",\n  \"branch\": \"domcom/v0.1.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127026638
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

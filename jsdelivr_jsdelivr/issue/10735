@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-31) 16 : 03 : 26 UTC
+  , issueUpdatedAt = 2016 (-03) (-31) 16 : 03 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10735/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10735")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10735
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project e2d to v3.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10735")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10735.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10735.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10735"
+  , issueCreatedAt = 2016 (-03) (-31) 16 : 03 : 15 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project e2d to v3.2.1.\n\n@e2d\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"e2d\",\n    \"repo\": \"e2d/e2d\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"e2d.js\", \"e2d.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/e2d\",\n    \"localVersions\": [\"1.7.22\", \"2.1.0\", \"3.2.0\"],\n    \"remoteVersions\": [\"v1.1.0\", \"v1.2.0\", \"v1.2.1\", \"v1.3.0\", \"v1.3.1\", \"v1.4.0\", \"v1.4.1\", \"v1.4.2\", \"v1.4.3\", \"v1.4.4\", \"v1.4.5\", \"v1.5.0\", \"v1.6.0\", \"v1.6.1\", \"v1.7.0\", \"v1.7.1\", \"v1.7.2\", \"v1.7.3\", \"v1.7.4\", \"v1.7.5\", \"v1.7.6\", \"v1.7.7\", \"v1.7.8\", \"v1.7.9\", \"v1.7.10\", \"v1.7.11\", \"v1.7.12\", \"v1.7.13\", \"v1.7.14\", \"v1.7.15\", \"v1.7.16\", \"v1.7.17\", \"v1.7.18\", \"v1.7.19\", \"v1.7.20\", \"v1.7.21\", \"v1.7.22\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v2.1.0\", \"v3.0.0\", \"v3.0.1\", \"v3.0.2\", \"v3.0.3\", \"v3.0.4\", \"v3.1.0\", \"v3.1.1\", \"v3.1.2\", \"v3.2.0\", \"v3.2.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/e2d/update.json\",\n  \"versions\": [\"v3.2.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/e2d/3.2.1\",\n  \"branch\": \"e2d/v3.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 144944131
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-25) 19 : 27 : 56 UTC
+  , issueUpdatedAt = 2013 (-12) (-25) 19 : 45 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/234/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/234")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 234
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 766031
+        , simpleUserLogin = N "Zverik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/766031?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Zverik"
+        }
+  , issueTitle = "MapBBCode 1.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/234")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/234.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/234.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/234"
+  , issueCreatedAt = 2013 (-12) (-25) 19 : 12 : 12 UTC
+  , issueBody =
+      Just
+        "This is today's version of MapBBCode Library. A major release, followed by quite a lot of libraries.\n"
+  , issueState = StateClosed
+  , issueId = Id 24772164
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

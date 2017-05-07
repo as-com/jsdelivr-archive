@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-08) 19 : 33 : 06 UTC
+  , issueUpdatedAt = 2016 (-12) (-08) 19 : 33 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15259/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15259")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15259
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4296898
+        , simpleUserLogin = N "shawnjohnson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4296898?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/shawnjohnson"
+        }
+  , issueTitle = "Create update.info"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15259")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15259.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15259.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15259"
+  , issueCreatedAt = 2016 (-12) (-08) 19 : 20 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 194421031
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

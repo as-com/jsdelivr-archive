@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-12) 15 : 18 : 03 UTC
+  , issueUpdatedAt = 2016 (-01) (-12) 15 : 18 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8901/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8901")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8901
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8389542
+        , simpleUserLogin = N "thekondrashov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/8389542?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thekondrashov"
+        }
+  , issueTitle = "Replaced package manager for jquery"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8901")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8901.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8901.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8901"
+  , issueCreatedAt = 2016 (-01) (-12) 13 : 06 : 43 UTC
+  , issueBody =
+      Just
+        "Now there are no dist files in the repository on github. So I believe that libgrabber bot will be able to grab a latest version from npm.\n"
+  , issueState = StateClosed
+  , issueId = Id 126175884
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

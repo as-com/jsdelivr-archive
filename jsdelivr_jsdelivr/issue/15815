@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2017 (-01) (-17) 09 : 19 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15815/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/15815")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15815
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10503999
+        , simpleUserLogin = N "amatzen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/10503999?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/amatzen"
+        }
+  , issueTitle = "Unselect everything button?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15815"
+  , issueCreatedAt = 2017 (-01) (-17) 09 : 19 : 42 UTC
+  , issueBody =
+      Just
+        "Hi jsDelivr.\r\n\r\nDo you have an unselect everything button, and how do you even store the selected data? I tried to clear cookies, it didn't help and it would be much easier to clear all selections button :)\r\n\r\nThank you \128516 \r\n\r\nAlexander"
+  , issueState = StateOpen
+  , issueId = Id 201214613
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

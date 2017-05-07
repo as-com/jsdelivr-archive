@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-31) 21 : 21 : 41 UTC
+  , issueUpdatedAt = 2016 (-10) (-31) 21 : 21 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14475/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14475")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14475
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2853630
+        , simpleUserLogin = N "ascartabelli"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2853630?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ascartabelli"
+        }
+  , issueTitle = "Adds Lamb"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14475")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14475.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14475.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14475"
+  , issueCreatedAt = 2016 (-10) (-31) 11 : 43 : 26 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 186263948
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

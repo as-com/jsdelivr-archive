@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-20) 12 : 16 : 37 UTC
+  , issueUpdatedAt = 2014 (-10) (-20) 12 : 16 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2067/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2067")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2067
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project remarkable to 1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2067")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2067.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2067.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2067"
+  , issueCreatedAt = 2014 (-10) (-20) 06 : 34 : 34 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project remarkable to 1.1.0.\n\n@jonschlinkert\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"remarkable\",\n    \"repo\": \"jonschlinkert/remarkable\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"remarkable.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/remarkable\",\n    \"localVersions\": [\"1.0.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/remarkable/1.1.0\",\n  \"branch\": \"remarkable/1.1.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 46235710
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

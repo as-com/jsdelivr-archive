@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-10) 10 : 21 : 21 UTC
+  , issueUpdatedAt = 2014 (-11) (-10) 10 : 21 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2297/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2297")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2297
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 460302
+        , simpleUserLogin = N "faisalman"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/460302?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/faisalman"
+        }
+  , issueTitle =
+      "Fix jsdelivr/jsdelivr#2292 : update.json new directory structure"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2297")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2297.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2297.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2297"
+  , issueCreatedAt = 2014 (-11) (-10) 08 : 29 : 10 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 48240518
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

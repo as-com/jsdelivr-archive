@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-09) 04 : 36 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/138777404"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6411#issuecomment-138777404"
+  , issueCommentCreatedAt = 2015 (-09) (-09) 04 : 36 : 53 UTC
+  , issueCommentBody =
+      "@oller Yeah, I see what happened. \n\nYou can remove the files the bot is yelling about and add the correct files for the version(s) you'd like to add. This message from the bot is mainly a FYI. \n"
+  , issueCommentId = 138777404
+  }

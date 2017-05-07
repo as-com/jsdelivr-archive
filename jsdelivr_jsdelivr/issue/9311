@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-24) 15 : 04 : 48 UTC
+  , issueUpdatedAt = 2016 (-01) (-24) 15 : 04 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9311/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9311")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9311
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project qoopido.nucleus to 1.0.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9311")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9311.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9311.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9311"
+  , issueCreatedAt = 2016 (-01) (-24) 15 : 03 : 50 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project qoopido.nucleus to 1.0.7.\n\n@dlueth\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"qoopido.nucleus\",\n    \"repo\": \"dlueth/qoopido.nucleus\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/qoopido.nucleus\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/qoopido.nucleus/update.json\",\n  \"versions\": [\"1.0.7\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/qoopido.nucleus/1.0.7\",\n  \"branch\": \"qoopido.nucleus/1.0.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 128402862
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

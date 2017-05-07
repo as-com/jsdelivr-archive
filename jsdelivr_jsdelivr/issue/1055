@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-29) 01 : 04 : 04 UTC
+  , issueUpdatedAt = 2014 (-06) (-29) 01 : 04 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1055/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1055")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1055
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bootstrap-hover-dropdown to 2.0.11"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1055")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1055.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1055.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1055"
+  , issueCreatedAt = 2014 (-06) (-29) 01 : 04 : 01 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootstrap-hover-dropdown to 2.0.11.\n\n@CWSpear\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bootstrap-hover-dropdown\",\n    \"repo\": \"CWSpear/bootstrap-hover-dropdown\",\n    \"files\": {\n      \"include\": [\"bootstrap-hover-dropdown.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/bootstrap.hover-dropdown\",\n    \"localVersions\": [\"2.0.10\"],\n    \"remoteVersions\": [\"v1.4.0\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v2.0.6\", \"v2.0.7\", \"v2.0.8\", \"v2.0.9\", \"v2.0.10\", \"2.0.11\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.0.11\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/bootstrap.hover-dropdown/2.0.11\",\n  \"branch\": \"bootstrap-hover-dropdown/2.0.11\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 36736881
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

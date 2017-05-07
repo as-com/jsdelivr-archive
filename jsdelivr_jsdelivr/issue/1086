@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-04) 14 : 52 : 56 UTC
+  , issueUpdatedAt = 2014 (-07) (-04) 16 : 56 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1086/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1086")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1086
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 701520
+        , simpleUserLogin = N "mostafasoufi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/701520?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mostafasoufi"
+        }
+  , issueTitle = "chsen file"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1086")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1086.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1086.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1086"
+  , issueCreatedAt = 2014 (-07) (-01) 18 : 55 : 46 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 36921479
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

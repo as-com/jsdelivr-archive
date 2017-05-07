@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-21) 09 : 52 : 19 UTC
+  , issueUpdatedAt = 2015 (-02) (-22) 12 : 38 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3549/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3549")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3549
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project wavesurfer.js to 1.0.17"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3549")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3549.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3549.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3549"
+  , issueCreatedAt = 2015 (-02) (-21) 09 : 52 : 18 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project wavesurfer.js to 1.0.17.\n\n@katspaugh\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"wavesurfer.js\",\n    \"repo\": \"katspaugh/wavesurfer.js\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"wavesurfer.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/wavesurfer.js\",\n    \"localVersions\": [\"1.0.15\", \"1.0.16\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.6\", \"0.0.7\", \"0.0.8\", \"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.8\", \"0.1.9\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.0.8\", \"1.0.9\", \"1.0.10\", \"1.0.13\", \"1.0.15\", \"1.0.16\", \"1.0.17\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.0.17\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/wavesurfer.js/1.0.17\",\n  \"branch\": \"wavesurfer.js/1.0.17\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 58452887
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

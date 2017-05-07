@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-06) 06 : 22 : 58 UTC
+  , issueUpdatedAt = 2016 (-08) (-06) 06 : 22 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13108/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13108")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13108
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10105141
+        , simpleUserLogin = N "the1900"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10105141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/the1900"
+        }
+  , issueTitle = "Can you add these files directly?"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13108")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13108.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13108.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13108"
+  , issueCreatedAt = 2016 (-08) (-06) 06 : 20 : 46 UTC
+  , issueBody =
+      Just
+        "#13098\n#13094\n#12880\n#12704\n\nAfter those issues. I decided to add font files in jsDelivr directly. I totally give up automating.\n"
+  , issueState = StateClosed
+  , issueId = Id 169732460
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

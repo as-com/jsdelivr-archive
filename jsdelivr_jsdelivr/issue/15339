@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-13) 22 : 05 : 36 UTC
+  , issueUpdatedAt = 2016 (-12) (-13) 22 : 05 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15339/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15339")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15339
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project reactive-var-std to v1.1.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15339")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15339.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15339.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15339"
+  , issueCreatedAt = 2016 (-12) (-13) 22 : 05 : 34 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project reactive-var-std to v1.1.4.\n\n@nlhuykhang\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"reactive-var-std\",\n    \"repo\": \"nlhuykhang/reactive-var-std\",\n    \"files\": {\n      \"basePath\": \"dist/umd/\",\n      \"include\": [\"reactive-var-std.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/reactive-var-std\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.1.4\", \"v1.1.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/reactive-var-std/update.json\",\n  \"versions\": [\"v1.1.4\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/reactive-var-std/1.1.4\",\n  \"branch\": \"reactive-var-std/v1.1.4\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 195382224
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

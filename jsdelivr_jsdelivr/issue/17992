@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-06) 20 : 05 : 23 UTC
+  , issueUpdatedAt = 2017 (-05) (-06) 22 : 48 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17992/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17992")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17992
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10521803
+        , simpleUserLogin = N "Asaf-S"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/10521803?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Asaf-S"
+        }
+  , issueTitle = "sparkly"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17992")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17992.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17992.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17992"
+  , issueCreatedAt = 2017 (-05) (-06) 19 : 22 : 01 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 226797050
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

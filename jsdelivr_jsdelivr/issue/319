@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-31) 01 : 21 : 55 UTC
+  , issueUpdatedAt = 2014 (-07) (-16) 05 : 51 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/319/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/319")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 319
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1068978
+        , simpleUserLogin = N "hnrch02"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1068978?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hnrch02"
+        }
+  , issueTitle = "Update Bootstrap to v3.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/319")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/319.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/319.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/319"
+  , issueCreatedAt = 2014 (-01) (-30) 17 : 00 : 09 UTC
+  , issueBody =
+      Just
+        "[v3.1.0](https://github.com/twbs/bootstrap/releases/tag/v3.1.0) has just been released.\n"
+  , issueState = StateClosed
+  , issueId = Id 26613697
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

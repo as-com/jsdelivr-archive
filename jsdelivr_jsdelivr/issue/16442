@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-22) 16 : 03 : 14 UTC
+  , issueUpdatedAt = 2017 (-02) (-22) 16 : 03 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16442/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16442")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16442
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 196831
+        , simpleUserLogin = N "jonthornton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/196831?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jonthornton"
+        }
+  , issueTitle = "Add autoupdate for jquery-timepicker"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16442")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16442.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16442.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16442"
+  , issueCreatedAt = 2017 (-02) (-20) 00 : 01 : 57 UTC
+  , issueBody =
+      Just
+        "Close https://github.com/jonthornton/jquery-timepicker/issues/583"
+  , issueState = StateClosed
+  , issueId = Id 208758121
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

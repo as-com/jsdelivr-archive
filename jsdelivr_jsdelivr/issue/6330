@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-09) 18 : 47 : 07 UTC
+  , issueUpdatedAt = 2015 (-08) (-09) 18 : 47 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6330/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6330")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6330
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 742498
+        , simpleUserLogin = N "onokumus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/742498?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/onokumus"
+        }
+  , issueTitle = "rename metismenu project name"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6330")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6330.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6330.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6330"
+  , issueCreatedAt = 2015 (-08) (-09) 18 : 34 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 99918333
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-29) 15 : 15 : 35 UTC
+  , issueUpdatedAt = 2016 (-05) (-29) 15 : 15 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11881/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11881")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11881
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Revert \"Update project mousetrap to 1.6.3\""
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11881")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11881.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11881.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11881"
+  , issueCreatedAt = 2016 (-05) (-29) 15 : 15 : 29 UTC
+  , issueBody = Just "Reverts jsdelivr/jsdelivr#11879\n"
+  , issueState = StateClosed
+  , issueId = Id 157390750
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

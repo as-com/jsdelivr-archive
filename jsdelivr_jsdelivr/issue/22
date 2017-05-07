@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-05) (-25) 22 : 04 : 57 UTC
+  , issueUpdatedAt = 2013 (-05) (-25) 22 : 48 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/22/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/22")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 22
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 820748
+        , simpleUserLogin = N "mfidemraizer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/820748?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mfidemraizer"
+        }
+  , issueTitle = "Adding jOOPL to jsdelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/22")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/22.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/22.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/22"
+  , issueCreatedAt = 2013 (-05) (-25) 20 : 24 : 06 UTC
+  , issueBody =
+      Just
+        "I'm the founder and lead developer for jOOPL (a class-based object-oriented programming library for JavaScript), and I'd like to add this\nlibrary to your CDN as I find it can be very useful to others.\n\nThank you in advance!\n"
+  , issueState = StateClosed
+  , issueId = Id 14762518
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-27) 11 : 05 : 13 UTC
+  , issueUpdatedAt = 2016 (-05) (-27) 11 : 05 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11859/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11859")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11859
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project SyncanoJS to v1.0.12"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11859")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11859.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11859.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11859"
+  , issueCreatedAt = 2016 (-05) (-27) 11 : 05 : 05 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project SyncanoJS to v1.0.12.\n\n@Syncano\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"SyncanoJS\",\n    \"repo\": \"Syncano/syncano-js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"syncano.min.js\", \"syncano.min.js.map\", \"syncano.js\", \"syncano.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/syncano\",\n    \"localVersions\": [\"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.0.8\", \"1.0.9\", \"1.0.10\", \"1.0.11\"],\n    \"remoteVersions\": [\"v0.1.9\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.2.3\", \"v0.2.4\", \"v0.2.5\", \"v0.2.6\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.3.4\", \"v0.4.0\", \"v0.4.1\", \"v0.4.3\", \"v0.4.4\", \"v.0.4.4\", \"v0.4.5\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.0.8\", \"v1.0.9\", \"v1.0.10\", \"v1.0.11\", \"v1.0.12\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/syncano/update.json\",\n  \"versions\": [\"v1.0.12\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.12\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/syncano/1.0.12\",\n  \"branch\": \"SyncanoJS/v1.0.12\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 157183018
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

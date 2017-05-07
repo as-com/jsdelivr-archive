@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-22) 17 : 19 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/95271333"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4439#issuecomment-95271333"
+  , issueCommentCreatedAt = 2015 (-04) (-22) 17 : 19 : 10 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @as-com, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Might be nothing but I have some concerns about the files in your submission...  \n  - Expected _modules/assets.js_ to be static content; found binary\n  - Expected _modules/assets.min.js_ to be static content; found binary\n  - Expected _modules/callbacks.js_ to be static content; found binary\n  - Expected _modules/callbacks.min.js_ to be static content; found binary\n  - Expected _modules/data.js_ to be static content; found binary\n  - Expected _modules/data.min.js_ to be static content; found binary\n  - Expected _modules/deferred.js_ to be static content; found binary\n  - Expected _modules/deferred.min.js_ to be static content; found binary\n  - Expected _modules/detect.js_ to be static content; found binary\n  - Expected _modules/detect.min.js_ to be static content; found binary\n  - Expected _modules/fx.js_ to be static content; found binary\n  - Expected _modules/fx.min.js_ to be static content; found binary\n  - Expected _modules/fx_methods.js_ to be static content; found binary\n  - Expected _modules/fx_methods.min.js_ to be static content; found binary\n  - Expected _modules/gesture.js_ to be static content; found binary\n  - Expected _modules/gesture.min.js_ to be static content; found binary\n  - Expected _modules/ios3.js_ to be static content; found binary\n  - Expected _modules/ios3.min.js_ to be static content; found binary\n  - Expected _modules/selector.js_ to be static content; found binary\n  - Expected _modules/selector.min.js_ to be static content; found binary\n  - Expected _modules/stack.js_ to be static content; found binary\n  - Expected _modules/stack.min.js_ to be static content; found binary\n  - Expected _modules/touch.js_ to be static content; found binary\n  - Expected _modules/touch.min.js_ to be static content; found binary\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Keep it logically awesome._\n"
+  , issueCommentId = 95271333
+  }

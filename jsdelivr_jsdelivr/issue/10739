@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-01) 09 : 26 : 04 UTC
+  , issueUpdatedAt = 2016 (-04) (-01) 09 : 26 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10739/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10739")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10739
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7330400
+        , simpleUserLogin = N "misterzik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7330400?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/misterzik"
+        }
+  , issueTitle = "Update BrowJS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10739")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10739.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10739.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10739"
+  , issueCreatedAt = 2016 (-03) (-31) 16 : 51 : 04 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 144955676
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

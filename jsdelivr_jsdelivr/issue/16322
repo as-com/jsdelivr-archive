@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-13) 13 : 16 : 47 UTC
+  , issueUpdatedAt = 2017 (-02) (-13) 13 : 16 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16322/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16322")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16322
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2269530
+        , simpleUserLogin = N "sreym"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/2269530?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sreym"
+        }
+  , issueTitle = "Add hola_player"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16322")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16322.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16322.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16322"
+  , issueCreatedAt = 2017 (-02) (-13) 09 : 25 : 11 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 207160937
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

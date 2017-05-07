@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-03) 11 : 14 : 42 UTC
+  , issueUpdatedAt = 2016 (-10) (-03) 14 : 16 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14043/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14043")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14043
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16397136
+        , simpleUserLogin = N "Syncfusion-JavaScript"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16397136?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/Syncfusion-JavaScript"
+        }
+  , issueTitle = "Add sync fusion 14.2.32 css and script files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14043")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14043.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14043.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14043"
+  , issueCreatedAt = 2016 (-09) (-29) 10 : 21 : 25 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 180009697
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

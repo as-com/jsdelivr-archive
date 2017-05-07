@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-04) (-02) 12 : 46 : 00 UTC
+  , issueUpdatedAt = 2014 (-08) (-22) 17 : 11 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "SlimStat JavaScript 3.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4"
+  , issueCreatedAt = 2013 (-04) (-02) 12 : 43 : 00 UTC
+  , issueBody =
+      Just
+        "Hi there,\n\nI'm posting the new files for version 3.0.1, which I'm planning to release on Friday.\n"
+  , issueState = StateClosed
+  , issueId = Id 12703148
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

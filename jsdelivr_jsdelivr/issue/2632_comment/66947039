@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-15) 03 : 52 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66947039"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-66947039"
+  , issueCommentCreatedAt = 2014 (-12) (-15) 03 : 52 : 48 UTC
+  , issueCommentBody =
+      "It looks stable enough to me :) I've been testing it under various scenarios, and so far it's working as expected. Let me know when you think it's ready for prime time! I can't wait to implement it in Slimstat.\n"
+  , issueCommentId = 66947039
+  }

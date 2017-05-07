@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-04) 12 : 08 : 39 UTC
+  , issueUpdatedAt = 2014 (-11) (-04) 12 : 08 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2202/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2202")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2202
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project terra to 1.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2202")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2202.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2202.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2202"
+  , issueCreatedAt = 2014 (-11) (-04) 10 : 05 : 21 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project terra to 1.4.0.\n\n@rileyjshaw\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"terra\",\n    \"repo\": \"rileyjshaw/terra\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"terra.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/terra\",\n    \"localVersions\": [\"1.3.0-beta\", \"1.3.1-beta\"],\n    \"remoteVersions\": [\"1.0.0-alpha\", \"1.0.0-beta\", \"1.1.0-beta\", \"1.2.0-beta\", \"1.3.0-beta\", \"1.3.1-beta\", \"1.4.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.4.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/terra/1.4.0\",\n  \"branch\": \"terra/1.4.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 47696181
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

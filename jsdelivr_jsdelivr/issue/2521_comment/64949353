@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-29) 11 : 46 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64949353"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2521#issuecomment-64949353"
+  , issueCommentCreatedAt = 2014 (-11) (-29) 11 : 46 : 48 UTC
+  , issueCommentBody =
+      "you mean this http://cdn.jsdelivr.net/qoopido.js/latest/base.js ?\n`/latest/` is still getting cached on our CDN, the change is not instant. It should purge automatically in a few days and re-cache the new file.\nThis is necessary for performance reasons.\n"
+  , issueCommentId = 64949353
+  }

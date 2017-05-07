@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-12) 17 : 49 : 36 UTC
+  , issueUpdatedAt = 2016 (-08) (-12) 17 : 49 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13197/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13197")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13197
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3855149
+        , simpleUserLogin = N "RestingCoder"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3855149?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/RestingCoder"
+        }
+  , issueTitle = "discord-widget: added"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13197")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13197.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13197.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13197"
+  , issueCreatedAt = 2016 (-08) (-11) 23 : 55 : 35 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 170773363
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

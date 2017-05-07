@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-16) 13 : 29 : 02 UTC
+  , issueUpdatedAt = 2014 (-08) (-05) 13 : 17 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/662/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/662")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 662
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1443911
+        , simpleUserLogin = N "lpinca"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1443911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lpinca"
+        }
+  , issueTitle = "add jPlayer v2.6.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/662")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/662.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/662.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/662"
+  , issueCreatedAt = 2014 (-04) (-16) 07 : 39 : 07 UTC
+  , issueBody = Just "Update jPlayer to version 2.6.1\n"
+  , issueState = StateClosed
+  , issueId = Id 31619045
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

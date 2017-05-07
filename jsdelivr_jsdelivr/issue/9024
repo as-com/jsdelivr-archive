@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-18) 11 : 11 : 19 UTC
+  , issueUpdatedAt = 2016 (-01) (-18) 11 : 11 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9024/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9024")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9024
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6803264
+        , simpleUserLogin = N "JohnnyTheTank"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6803264?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/JohnnyTheTank"
+        }
+  , issueTitle = "Added two angular tools"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9024")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9024.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9024.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9024"
+  , issueCreatedAt = 2016 (-01) (-17) 10 : 20 : 56 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 127086439
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

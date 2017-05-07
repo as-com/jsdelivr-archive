@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-26) 14 : 09 : 14 UTC
+  , issueUpdatedAt = 2016 (-01) (-26) 14 : 16 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9331/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9331")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9331
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1473227
+        , simpleUserLogin = N "nehakadam"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1473227?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nehakadam"
+        }
+  , issueTitle = "Patch 3 - CalenStyle"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9331")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9331.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9331.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9331"
+  , issueCreatedAt = 2016 (-01) (-25) 13 : 57 : 26 UTC
+  , issueBody =
+      Just
+        "Created info.ini and update.json files inside newly created calenstyle folder.\n"
+  , issueState = StateClosed
+  , issueId = Id 128542330
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

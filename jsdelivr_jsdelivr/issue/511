@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-25) 22 : 02 : 38 UTC
+  , issueUpdatedAt = 2014 (-03) (-25) 22 : 11 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/511/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/511")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 511
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2361099
+        , simpleUserLogin = N "Nagriar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2361099?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Nagriar"
+        }
+  , issueTitle = "Add algoliasearch 2.4.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/511")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/511.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/511.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/511"
+  , issueCreatedAt = 2014 (-03) (-25) 22 : 00 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 30168076
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

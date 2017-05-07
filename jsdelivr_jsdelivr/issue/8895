@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-12) 21 : 31 : 51 UTC
+  , issueUpdatedAt = 2016 (-01) (-13) 08 : 28 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8895/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8895")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8895
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 946315
+        , simpleUserLogin = N "Aymkdn"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/946315?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Aymkdn"
+        }
+  , issueTitle = "Sharepoint v3.0.11"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8895")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8895.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8895.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8895"
+  , issueCreatedAt = 2016 (-01) (-12) 11 : 37 : 00 UTC
+  , issueBody = Just "New release of my library\n"
+  , issueState = StateClosed
+  , issueId = Id 126159927
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

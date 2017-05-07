@@ -1,0 +1,22 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-21) 22 : 51 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 338988
+        , simpleUserLogin = N "jonathanKingston"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/338988?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/jonathanKingston"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123501845"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123501845"
+  , issueCommentCreatedAt = 2015 (-07) (-21) 22 : 51 : 35 UTC
+  , issueCommentBody =
+      "@jimaek the risk is that the developer would be responsible for checking and verifying the content much as they are now that it is not malicious content. The code would load at the point they visit the site. In a supporting browser once the CDN fixes the code then it would break their site when the code was actually correct. - I see this as an improvement of not having SRI at all and still promoting its usage.\n\nHowever verifying the content based upon the actual code would be far better. I'm currently raising a support request with GitHub as they would be able to verify on code upload.\n"
+  , issueCommentId = 123501845
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-25) 22 : 07 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 32864
+        , simpleUserLogin = N "lucasmundim"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/32864?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lucasmundim"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/86232773"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4001#issuecomment-86232773"
+  , issueCommentCreatedAt = 2015 (-03) (-25) 22 : 07 : 29 UTC
+  , issueCommentBody =
+      "$ curl -I http://cdn.jsdelivr.net/clappr/latest/clappr.min.js\nHTTP/1.1 200 OK\nDate: Wed, 25 Mar 2015 22:06:41 GMT\nContent-Type: application/x-javascript; charset=utf-8\nContent-Length: 203793\nConnection: keep-alive\nX-Version: 0.0.107\nCache-Control: public, max-age=604800\nLast-Modified: Mon, 13 Jan 2014 18:17:35 GMT\nAccess-Control-Allow-Origin: *\nVary: Accept-Encoding\nCF-Cache-Status: HIT\nServer: cloudflare-nginx\nCF-RAY: 1ccdeca5a5d207c1-MIA\n"
+  , issueCommentId = 86232773
+  }

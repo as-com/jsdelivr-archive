@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-28) 07 : 37 : 15 UTC
+  , issueUpdatedAt = 2017 (-04) (-28) 07 : 37 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17850/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17850")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17850
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project mdbootstrap to 4.3.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17850")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17850.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17850.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17850"
+  , issueCreatedAt = 2017 (-04) (-28) 07 : 37 : 04 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project mdbootstrap to 4.3.2.\n\n@mdbootstrap\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"mdbootstrap\",\n    \"repo\": \"mdbootstrap/bootstrap-material-design\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"css/bootstrap.css\", \"css/bootstrap.min.css\", \"css/mdb.css\", \"css/mdb.min.css\", \"js/bootstrap.js\", \"js/bootstrap.min.js\", \"js/jquery-2.2.3.js\", \"js/jquery-2.2.3.min.js\", \"js/mdb.js\", \"js/mdb.min.js\", \"js/tether.js\", \"js/tether.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/mdbootstrap\",\n    \"localVersions\": [\"4.1.1\", \"4.3.0\", \"4.3.1\"],\n    \"remoteVersions\": [\"4.1.1\", \"4.2.0\", \"4.3.0\", \"4.3.1\", \"4.3.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/mdbootstrap/update.json\",\n  \"versions\": [\"4.3.2\"],\n  \"updateRemote\": true,\n  \"version\": \"4.3.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/mdbootstrap/4.3.2\",\n  \"branch\": \"mdbootstrap/4.3.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 225002729
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-15) 19 : 55 : 49 UTC
+  , issueUpdatedAt = 2017 (-03) (-15) 19 : 55 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16903/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16903")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16903
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4527529
+        , simpleUserLogin = N "jsmrcaga"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4527529?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsmrcaga"
+        }
+  , issueTitle = "Added workshop.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16903")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16903.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16903.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16903"
+  , issueCreatedAt = 2017 (-03) (-14) 12 : 15 : 27 UTC
+  , issueBody =
+      Just
+        "Added `info.ini` file and `update.json` file for jsdelivr to add `workshop.js`."
+  , issueState = StateClosed
+  , issueId = Id 214053626
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

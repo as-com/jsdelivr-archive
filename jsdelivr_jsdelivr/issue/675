@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-19) 11 : 54 : 56 UTC
+  , issueUpdatedAt = 2014 (-06) (-16) 19 : 13 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/675/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/675")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 675
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 892318
+        , simpleUserLogin = N "urish"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/892318?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/urish"
+        }
+  , issueTitle = "Add angular-moment version 0.7.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/675")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/675.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/675.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/675"
+  , issueCreatedAt = 2014 (-04) (-19) 01 : 30 : 54 UTC
+  , issueBody = Just "https://github.com/urish/angular-moment\n"
+  , issueState = StateClosed
+  , issueId = Id 31835052
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

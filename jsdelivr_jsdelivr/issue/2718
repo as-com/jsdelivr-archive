@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-13) 19 : 14 : 13 UTC
+  , issueUpdatedAt = 2014 (-12) (-13) 19 : 14 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2718/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2718")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2718
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 409328
+        , simpleUserLogin = N "dtao"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/409328?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dtao"
+        }
+  , issueTitle = "added lazy.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2718")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2718.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2718.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2718"
+  , issueCreatedAt = 2014 (-12) (-13) 19 : 09 : 40 UTC
+  , issueBody =
+      Just
+        "This adds Lazy.js starting w/ 0.4.0, which has a minified version. I think this addresses the issues with #2212.\n"
+  , issueState = StateClosed
+  , issueId = Id 51896554
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

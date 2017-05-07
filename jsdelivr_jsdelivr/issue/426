@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-08) 17 : 06 : 43 UTC
+  , issueUpdatedAt = 2014 (-08) (-07) 02 : 26 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/426/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/426")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 426
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 705574
+        , simpleUserLogin = N "millionbonus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/705574?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/millionbonus"
+        }
+  , issueTitle = "The javascript library \"Sly\" was added."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/426")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/426.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/426.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/426"
+  , issueCreatedAt = 2014 (-03) (-08) 16 : 39 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 29024893
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

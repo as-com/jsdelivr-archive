@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-13) 09 : 33 : 45 UTC
+  , issueUpdatedAt = 2016 (-08) (-13) 09 : 33 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13219/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13219")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13219
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery-popup-window to v1.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13219")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13219.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13219.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13219"
+  , issueCreatedAt = 2016 (-08) (-13) 09 : 33 : 40 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery-popup-window to v1.0.3.\n\n@gasparesganga\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery-popup-window\",\n    \"repo\": \"gasparesganga/jquery-popup-window\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"src/*.js\", \"src/*.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.popupwindow\",\n    \"localVersions\": [\"1.0.1\", \"1.0.2\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.popupwindow/update.json\",\n  \"versions\": [\"v1.0.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.popupwindow/1.0.3\",\n  \"branch\": \"jquery-popup-window/v1.0.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 171001439
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-29) 11 : 06 : 09 UTC
+  , issueUpdatedAt = 2015 (-10) (-29) 11 : 06 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7631/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7631")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7631
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11852894
+        , simpleUserLogin = N "yumeixxx"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11852894?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/yumeixxx"
+        }
+  , issueTitle = "Add update.json for Sugar"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7631")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7631.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7631.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7631"
+  , issueCreatedAt = 2015 (-10) (-29) 04 : 35 : 08 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 113978342
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

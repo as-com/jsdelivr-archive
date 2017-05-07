@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-10) 21 : 20 : 43 UTC
+  , issueUpdatedAt = 2016 (-02) (-10) 21 : 20 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9641/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9641")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9641
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5705890
+        , simpleUserLogin = N "Ting-y"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5705890?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Ting-y"
+        }
+  , issueTitle = "Astro updates the new file name"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9641")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9641.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9641.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9641"
+  , issueCreatedAt = 2016 (-02) (-08) 15 : 50 : 28 UTC
+  , issueBody =
+      Just
+        "- info.json and update.json both updated the new main file name \n"
+  , issueState = StateClosed
+  , issueId = Id 132178915
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-20) 16 : 15 : 37 UTC
+  , issueUpdatedAt = 2017 (-04) (-20) 16 : 15 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17715/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17715")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17715
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueTitle = "Add all versions of MathJax"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17715")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17715.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17715.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17715"
+  , issueCreatedAt = 2017 (-04) (-20) 15 : 35 : 22 UTC
+  , issueBody =
+      Just
+        "Since MathJax's CDN is shutting down, it would be nice to have a complete copy of all of the versions of MathJax, so jsDelivr could be a drop-in replacement for it.\r\n\r\nI have added a copy of the important files from MathJax's Git repository, based on the files already hosted on cdnjs. I have also replaced the \"2.0\" and \"2.1\" folders with \"2.0.0\" and \"2.1.0,\" respectively. This should not break anything, since the CDN should automatically alias requests from \"2.1\" to \"2.1.0.\"\r\n\r\n@jsdelivrbot will not like this pull request..."
+  , issueState = StateClosed
+  , issueId = Id 223109245
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

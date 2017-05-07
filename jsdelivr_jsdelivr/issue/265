@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-13) 18 : 17 : 44 UTC
+  , issueUpdatedAt = 2014 (-01) (-13) 18 : 17 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/265/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/265")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 265
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 578333
+        , simpleUserLogin = N "dkraczkowski"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/578333?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dkraczkowski"
+        }
+  , issueTitle = "Added dom.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/265")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/265.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/265.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/265"
+  , issueCreatedAt = 2014 (-01) (-13) 14 : 58 : 46 UTC
+  , issueBody =
+      Just
+        "DOM.js is a lightweight, fast and cross browser library for DOM traversal, manipulation and event handling.\n"
+  , issueState = StateClosed
+  , issueId = Id 25502209
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

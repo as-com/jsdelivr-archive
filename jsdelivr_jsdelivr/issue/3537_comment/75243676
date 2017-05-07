@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-20) 14 : 14 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/75243676"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/3537#issuecomment-75243676"
+  , issueCommentCreatedAt = 2015 (-02) (-20) 14 : 14 : 57 UTC
+  , issueCommentBody =
+      "Its already there:\n\n```\ncurl -I http://cdn.jsdelivr.net/wp/wp-slimstat/trunk/wp-slimstat.min.js\nHTTP/1.1 200 OK\nServer: keycdn-engine\nDate: Fri, 20 Feb 2015 14:14:27 GMT\nContent-Type: application/javascript; charset=utf-8\nContent-Length: 11217\nConnection: keep-alive\nVary: Accept-Encoding\nLast-Modified: Thu, 19 Feb 2015 00:40:03 GMT\nExpires: Fri, 19 Feb 2016 01:25:41 GMT\nCache-Control: public, max-age=31536000\nAccess-Control-Allow-Origin: *\nTiming-Allow-Origin: *\nX-Cache: HIT\nX-Edge-Location: defr\nAccept-Ranges: bytes\n```\n"
+  , issueCommentId = 75243676
+  }

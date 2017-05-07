@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 17 : 27 : 31 UTC
+  , issueUpdatedAt = 2017 (-03) (-31) 22 : 53 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17196/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17196")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17196
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 190833
+        , simpleUserLogin = N "Golodhros"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/190833?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Golodhros"
+        }
+  , issueTitle = "Creating Britecharts files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17196")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17196.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17196.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17196"
+  , issueCreatedAt = 2017 (-03) (-24) 23 : 47 : 25 UTC
+  , issueBody =
+      Just "Creating setup for Britecharts charting library"
+  , issueState = StateClosed
+  , issueId = Id 216930577
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

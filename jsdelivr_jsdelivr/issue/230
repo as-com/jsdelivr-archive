@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-23) 20 : 11 : 03 UTC
+  , issueUpdatedAt = 2013 (-12) (-23) 20 : 11 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/230/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/230")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 230
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1785641
+        , simpleUserLogin = N "grappler"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1785641?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/grappler"
+        }
+  , issueTitle = "Add Dashicons"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/230")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/230.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/230.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/230"
+  , issueCreatedAt = 2013 (-12) (-23) 20 : 06 : 41 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 24722144
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

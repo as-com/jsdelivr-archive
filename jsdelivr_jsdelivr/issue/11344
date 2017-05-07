@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-06) 09 : 18 : 33 UTC
+  , issueUpdatedAt = 2016 (-05) (-06) 09 : 18 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11344/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11344")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11344
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 18712025
+        , simpleUserLogin = N "naeserikawa"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/18712025?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/naeserikawa"
+        }
+  , issueTitle = "Add iiwii.cvt"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11344")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11344.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11344.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11344"
+  , issueCreatedAt = 2016 (-04) (-28) 16 : 52 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 151691914
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

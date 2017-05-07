@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-10) 17 : 04 : 44 UTC
+  , issueUpdatedAt = 2014 (-12) (-23) 10 : 43 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2687/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2687")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2687
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project globalize to 1.0.0-alpha.13"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2687")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2687.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2687.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2687"
+  , issueCreatedAt = 2014 (-12) (-10) 17 : 04 : 27 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project globalize to 1.0.0-alpha.13.\n\n@jquery\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"globalize\",\n    \"repo\": \"jquery/globalize\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"globalize.js\", \"globalize.min.js\", \"globalize/date.min.js\", \"globalize/message.min.js\", \"globalize/number.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/globalize\",\n    \"localVersions\": [\"0.1.1\", \"1.0.0-alpha.3\", \"1.0.0-alpha.4\", \"1.0.0-alpha.5\", \"1.0.0-alpha.6\", \"1.0.0-alpha.7\", \"1.0.0-alpha.8\"],\n    \"remoteVersions\": [\"v0.1.0a1\", \"v0.1.0a2\", \"v0.1.1\", \"1.0.0-alpha.1\", \"1.0.0-alpha.2\", \"1.0.0-alpha.3\", \"1.0.0-alpha.4\", \"1.0.0-alpha.5\", \"1.0.0-alpha.6\", \"1.0.0-alpha.7\", \"1.0.0-alpha.8\", \"1.0.0-alpha.9\", \"1.0.0-alpha.10\", \"1.0.0-alpha.11\", \"1.0.0-alpha.12\", \"1.0.0-alpha.13\"],\n    \"branchVersions\": [\"1.0.0-alpha.11\", \"1.0.0-alpha.12\"]\n  },\n  \"version\": \"1.0.0-alpha.13\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/globalize/1.0.0-alpha.13\",\n  \"branch\": \"globalize/1.0.0-alpha.13\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 51583529
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

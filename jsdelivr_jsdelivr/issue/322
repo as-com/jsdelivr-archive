@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-31) 15 : 30 : 40 UTC
+  , issueUpdatedAt = 2014 (-01) (-31) 15 : 30 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/322/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/322")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 322
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 305721
+        , simpleUserLogin = N "rdeavila"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/305721?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rdeavila"
+        }
+  , issueTitle = "Added jquery validation 1.11.1;"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/322")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/322.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/322.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/322"
+  , issueCreatedAt = 2014 (-01) (-31) 11 : 43 : 33 UTC
+  , issueBody =
+      Just "Added jQuery Validation Plugin, from J\246rn Zaefferer.\n"
+  , issueState = StateClosed
+  , issueId = Id 26676031
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

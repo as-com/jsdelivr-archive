@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-16) 11 : 37 : 42 UTC
+  , issueUpdatedAt = 2014 (-10) (-16) 11 : 37 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1961/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1961")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1961
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2475150
+        , simpleUserLogin = N "hamchapman"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2475150?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hamchapman"
+        }
+  , issueTitle = "Added pusher-angular 0.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1961")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1961.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1961.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1961"
+  , issueCreatedAt = 2014 (-10) (-09) 15 : 31 : 39 UTC
+  , issueBody = Just "Added pusher-angular 0.1.1 with update.json\n"
+  , issueState = StateClosed
+  , issueId = Id 45380518
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

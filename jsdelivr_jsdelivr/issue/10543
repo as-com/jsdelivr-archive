@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-19) 21 : 51 : 10 UTC
+  , issueUpdatedAt = 2016 (-03) (-19) 21 : 51 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10543/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10543")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10543
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 770982
+        , simpleUserLogin = N "coreybutler"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/770982?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coreybutler"
+        }
+  , issueTitle = "New Project: chassis-components"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10543")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10543.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10543.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10543"
+  , issueCreatedAt = 2016 (-03) (-19) 15 : 31 : 35 UTC
+  , issueBody =
+      Just
+        "We've been forced to rename a project due to some naming conflicts. What was `ngn-components` is now `chassis-components`. This PR contains the latest info.ini/update.json files. I will submit another PR to remove the old directory (ngn-components).\n"
+  , issueState = StateClosed
+  , issueId = Id 142072067
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-26) 18 : 05 : 27 UTC
+  , issueUpdatedAt = 2017 (-03) (-26) 18 : 05 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17216/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17216")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17216
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project planck to v0.1.26"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17216")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17216.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17216.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17216"
+  , issueCreatedAt = 2017 (-03) (-26) 18 : 05 : 22 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project planck to v0.1.26.\n\n@shakiba\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"planck\",\n    \"repo\": \"shakiba/planck.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/planck\",\n    \"localVersions\": [\"0.1.16\", \"0.1.18\", \"0.1.20\", \"0.1.22\", \"0.1.24\"],\n    \"remoteVersions\": [\"v0.1.16\", \"v0.1.18\", \"v0.1.20\", \"v0.1.22\", \"v0.1.24\", \"v0.1.26\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/planck/update.json\",\n  \"versions\": [\"v0.1.26\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1.26\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/planck/0.1.26\",\n  \"branch\": \"planck/v0.1.26\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 217073263
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

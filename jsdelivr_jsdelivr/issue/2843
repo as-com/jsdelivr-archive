@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-28) 14 : 16 : 01 UTC
+  , issueUpdatedAt = 2014 (-12) (-28) 14 : 16 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2843/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2843")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2843
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1820367
+        , simpleUserLogin = N "robertsky"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1820367?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/robertsky"
+        }
+  , issueTitle =
+      "Add version 3.1.0 of instantclick (released on 25 December 2014)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2843")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2843.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2843.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2843"
+  , issueCreatedAt = 2014 (-12) (-26) 16 : 55 : 06 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 52931488
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

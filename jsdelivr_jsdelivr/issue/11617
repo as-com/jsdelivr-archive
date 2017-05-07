@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-15) 13 : 06 : 06 UTC
+  , issueUpdatedAt = 2016 (-05) (-15) 13 : 06 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11617/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11617")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11617
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17485765
+        , simpleUserLogin = N "ArthurSimas1"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/17485765?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ArthurSimas1"
+        }
+  , issueTitle = "Create info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11617")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11617.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11617.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11617"
+  , issueCreatedAt = 2016 (-05) (-14) 19 : 35 : 53 UTC
+  , issueBody =
+      Just
+        "Created necessary documents that were missing, sorry about that. Warn me if I should add something else.\n"
+  , issueState = StateClosed
+  , issueId = Id 154871585
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

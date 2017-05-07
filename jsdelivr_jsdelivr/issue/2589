@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-06) 21 : 51 : 12 UTC
+  , issueUpdatedAt = 2014 (-12) (-06) 21 : 51 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2589/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2589")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2589
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 313744
+        , simpleUserLogin = N "asurak"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/313744?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/asurak"
+        }
+  , issueTitle = "Major version issue"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2589"
+  , issueCreatedAt = 2014 (-12) (-03) 08 : 49 : 18 UTC
+  , issueBody =
+      Just
+        "Currently the url: http://cdn.jsdelivr.net/algoliasearch/2/algoliasearch.min.js serves client version 2.7.5 (latest one is 2.8.0) and reports \"Last-Modified:Mon, 13 Jan 2014 18:17:35 GMT\" (modified 25 November 2014, and version 2.8.0 on 29 November)\n"
+  , issueState = StateClosed
+  , issueId = Id 50803809
+  , issueComments = 11
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2015 (-06) (-11) 07 : 26 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5264/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/5264")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5264
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 33569
+        , simpleUserLogin = N "dandv"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/33569?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dandv"
+        }
+  , issueTitle = "Add Asteroid (Meteor DDP client)"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5264"
+  , issueCreatedAt = 2015 (-06) (-11) 06 : 38 : 39 UTC
+  , issueBody =
+      Just
+        "CC @pscanf, @mondora - https://github.com/mondora/asteroid/issues/65\n\nAsteroid is a [DDP](https://en.wikipedia.org/wiki/Distributed_Data_Protocol) client for [Meteor.js](https://github.com/meteor/meteor).\n"
+  , issueState = StateOpen
+  , issueId = Id 87231639
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-05) (-27) 18 : 41 : 29 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 16 : 40 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/23/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/23")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 23
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8064
+        , simpleUserLogin = N "user00265"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8064?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/user00265"
+        }
+  , issueTitle = "Added touchSwipe and carouFredSel"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/23")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/23.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/23.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/23"
+  , issueCreatedAt = 2013 (-05) (-25) 20 : 50 : 53 UTC
+  , issueBody =
+      Just
+        "Added jQuery plugins touchSwipe (alternative to touchwipe, which is already in jsdelivr) and carouFredSel\n"
+  , issueState = StateClosed
+  , issueId = Id 14762751
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

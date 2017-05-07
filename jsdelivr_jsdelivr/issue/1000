@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-24) 15 : 30 : 31 UTC
+  , issueUpdatedAt = 2014 (-06) (-24) 15 : 34 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1000/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1000")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1000
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1005813
+        , simpleUserLogin = N "isaackwan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1005813?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaackwan"
+        }
+  , issueTitle = "libgrabber config for mediaelement.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1000")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1000.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1000.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1000"
+  , issueCreatedAt = 2014 (-06) (-23) 12 : 35 : 06 UTC
+  , issueBody =
+      Just
+        "The current version of mediaelement.js is actually few versions behind the latest release - please let me know if I am expected to update the current version first.\n"
+  , issueState = StateClosed
+  , issueId = Id 36286505
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-13) 11 : 19 : 21 UTC
+  , issueUpdatedAt = 2014 (-10) (-13) 13 : 41 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1996/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1996")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1996
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6029907
+        , simpleUserLogin = N "rockers007"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6029907?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rockers007"
+        }
+  , issueTitle = "Halfevent style Css file"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1996")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1996.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1996.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1996"
+  , issueCreatedAt = 2014 (-10) (-13) 07 : 01 : 00 UTC
+  , issueBody = Just "Halfevent style Css file\n"
+  , issueState = StateClosed
+  , issueId = Id 45613723
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

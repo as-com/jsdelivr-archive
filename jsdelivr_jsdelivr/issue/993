@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-02) 00 : 53 : 08 UTC
+  , issueUpdatedAt = 2014 (-07) (-16) 15 : 43 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/993/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/993")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 993
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1939456
+        , simpleUserLogin = N "EnigmaSolved"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1939456?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/EnigmaSolved"
+        }
+  , issueTitle = "Gzip Not Enabled for HTTPS?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/993"
+  , issueCreatedAt = 2014 (-06) (-21) 18 : 31 : 06 UTC
+  , issueBody =
+      Just
+        "Greetings,\n\nI'm not seeing `gzip` working on `https` requests.  For example, the following are gziped via `http`, but not `https`:\nhttps://cdn.jsdelivr.net/g/jquery@1.11.1,jquery.migrate@1.2.1 (35.3KB vs 100.6KB)\nhttps://cdn.jsdelivr.net/headroomjs/0.6.0/headroom.min.js\n(1.4KB vs 3.8KB)\n\nIs this a bug, or am I perhaps missing something obvious?\n\nI've been really liking jsDelivr, but the abscence of `gzip` over `https` would unfortunately be a deal breaker.  However, my assumption is that this is not the intended setup (ie, that it is intended that `gzip` **should** work for both protocols).\n\nThanks!\nSean\n\nEdit (6/24): It is looking like this is only happening with the Cloudflare servers. Read below for more details.\n"
+  , issueState = StateClosed
+  , issueId = Id 36229360
+  , issueComments = 37
+  , issueMilestone = Nothing
+  }

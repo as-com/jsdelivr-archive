@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-27) 00 : 47 : 52 UTC
+  , issueUpdatedAt = 2014 (-08) (-27) 00 : 48 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1537/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1537")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1537
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1055782
+        , simpleUserLogin = N "ppavlov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1055782?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ppavlov"
+        }
+  , issueTitle = "Enchantments to the cldrjs lib."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1537")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1537.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1537.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1537"
+  , issueCreatedAt = 2014 (-08) (-26) 19 : 21 : 25 UTC
+  , issueBody =
+      Just
+        "Adding update.json file for the cldrjs library and also adding the minified version of the update plugin for it.\n"
+  , issueState = StateClosed
+  , issueId = Id 41210531
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-22) 22 : 34 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/133760124"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6539#issuecomment-133760124"
+  , issueCommentCreatedAt = 2015 (-08) (-22) 22 : 34 : 14 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Might be nothing but I have some concerns about the files in your submission...  \n  - Is clappr.min.js (0.2.6) properly minimized?\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _clappr_ between _0.2.5_ and _0.2.6_ there was a change in file structure  \n  \n  ``` diff\n  + 22c62aaa70cf273ced96cdd0ab9e4e72.woff\n  + 38861cba61c66739c1452c3a71e39852.ttf\n  + 3e43a5d764f841e7e78896de82cd6c50.ttf\n  + 4b76590b32dab62bc95c1b7951efae78.swf\n  + 53cd406a16a857e2face1365a18cc729.eot\n  + 57e740a84980042b2b659da22fc9c4ab.svg\n  + 5d7ec830fd8d1c440f165111719aa4a0.svg\n  + 6ac1074c3ad60163d6d52ecfd346e950.ttf\n  + 96f944f0104ee30b8fce6cffd89e13aa.swf\n  + clappr.min.js.map\n  + ed8735c27adb521e625717506cfcfb04.eot\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Favor focus over features._\n"
+  , issueCommentId = 133760124
+  }

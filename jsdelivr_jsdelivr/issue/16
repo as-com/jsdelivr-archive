@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-05) (-09) 20 : 10 : 57 UTC
+  , issueUpdatedAt = 2013 (-05) (-09) 20 : 10 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 44679
+        , simpleUserLogin = N "seanthegeek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/44679?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/seanthegeek"
+        }
+  , issueTitle = "Add jPlayer 2.3.0 and skins"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16"
+  , issueCreatedAt = 2013 (-05) (-09) 19 : 42 : 28 UTC
+  , issueBody =
+      Just
+        "Adds jPlayer 2.3.0, and three skins that are a part of the release, but are distributed in separate zips. The skins are needed to be able to use jPlayer as a media player \"out of the box\".\n"
+  , issueState = StateClosed
+  , issueId = Id 14162353
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-08) 17 : 14 : 21 UTC
+  , issueUpdatedAt = 2014 (-04) (-08) 19 : 56 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/602/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/602")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 602
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "Adds fullPage.js plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/602")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/602.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/602.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/602"
+  , issueCreatedAt = 2014 (-04) (-08) 17 : 13 : 49 UTC
+  , issueBody =
+      Just
+        "Adds the fullPage.js plugin to the jsDelivr CDN by @alvarotrigo\n\nhttps://github.com/alvarotrigo/fullPage.js\n"
+  , issueState = StateClosed
+  , issueId = Id 31090003
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

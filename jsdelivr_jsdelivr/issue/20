@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-05) (-23) 18 : 08 : 42 UTC
+  , issueUpdatedAt = 2014 (-06) (-18) 09 : 09 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/20/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/20")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 20
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 723723
+        , simpleUserLogin = N "mgonto"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/723723?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mgonto"
+        }
+  , issueTitle = "Restangular v0.6.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/20")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/20.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/20.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/20"
+  , issueCreatedAt = 2013 (-05) (-23) 18 : 06 : 06 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 14687492
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

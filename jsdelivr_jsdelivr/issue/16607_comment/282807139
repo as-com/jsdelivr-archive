@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-02) (-27) 18 : 30 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/282807139"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16607#issuecomment-282807139"
+  , issueCommentCreatedAt = 2017 (-02) (-27) 18 : 30 : 44 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @OlegKi, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- Looks like the `info.ini` or `update.json` has some problems\n    - Potentially confusing file path *./css/** with `basePath` set. Consider using *././css/**\n    - Potentially confusing file path *./js/** with `basePath` set. Consider using *././js/**\n    - Potentially confusing file path *./js/i18n/** with `basePath` set. Consider using *././js/i18n/**\n    - Potentially confusing file path *./js/i18n/min/** with `basePath` set. Consider using *././js/i18n/min/**\n    - Potentially confusing file path *./js/min/** with `basePath` set. Consider using *././js/min/**\n    - Potentially confusing file path *./ts/*.d.ts* with `basePath` set. Consider using *././ts/*.d.ts*\n    - Potentially confusing file path *./plugins/css/** with `basePath` set. Consider using *././plugins/css/**\n    - Potentially confusing file path *./plugins/min/** with `basePath` set. Consider using *././plugins/min/**\n    - Potentially confusing file path *./plugins/** with `basePath` set. Consider using *././plugins/**\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Responsive is better than fast.*\n"
+  , issueCommentId = 282807139
+  }

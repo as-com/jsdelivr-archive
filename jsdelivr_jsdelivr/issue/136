@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-04) 13 : 12 : 09 UTC
+  , issueUpdatedAt = 2013 (-11) (-04) 13 : 12 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/136/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/136")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 136
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 192167
+        , simpleUserLogin = N "ahagenbruch"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/192167?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ahagenbruch"
+        }
+  , issueTitle = "Added the nunjucks templating engine."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/136")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/136.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/136.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/136"
+  , issueCreatedAt = 2013 (-11) (-04) 11 : 01 : 07 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 22044845
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

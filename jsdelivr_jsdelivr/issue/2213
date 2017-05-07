@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-04) 21 : 21 : 34 UTC
+  , issueUpdatedAt = 2014 (-11) (-04) 21 : 21 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2213/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2213")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2213
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 50300
+        , simpleUserLogin = N "scyclops"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/50300?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/scyclops"
+        }
+  , issueTitle = "add jquery v1.4.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2213")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2213.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2213.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2213"
+  , issueCreatedAt = 2014 (-11) (-04) 20 : 43 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 47762688
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

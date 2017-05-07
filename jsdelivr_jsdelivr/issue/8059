@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-22) 23 : 05 : 32 UTC
+  , issueUpdatedAt = 2015 (-11) (-22) 23 : 05 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8059/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8059")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8059
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project alertifyjs to 1.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8059")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8059.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8059.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8059"
+  , issueCreatedAt = 2015 (-11) (-22) 23 : 05 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project alertifyjs to 1.6.0.\n\n@mohammadyounes\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"alertifyjs\",\n    \"repo\": \"mohammadyounes/alertifyjs\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"*.min.js\", \"./css/**/*.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/alertifyjs\",\n    \"localVersions\": [\"1.4.0\", \"1.4.1\", \"1.5.0\"],\n    \"remoteVersions\": [\"0.0.0\", \"0.1.0\", \"0.1.1\", \"0.2.0\", \"0.3.0\", \"0.3.1\", \"0.4.0\", \"0.5.0\", \"0.6.0\", \"0.6.1\", \"0.7.0\", \"0.8.0\", \"0.9.0\", \"0.10.0\", \"0.10.1\", \"0.10.2\", \"1.0.0\", \"1.0.1\", \"1.1.0\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.4.0\", \"1.4.1\", \"1.5.0\", \"1.6.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/alertifyjs/update.json\",\n  \"version\": \"1.6.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/alertifyjs/1.6.0\",\n  \"branch\": \"alertifyjs/1.6.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 118296981
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

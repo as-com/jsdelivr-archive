@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-04) 14 : 39 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/98734135"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4614#issuecomment-98734135"
+  , issueCommentCreatedAt = 2015 (-05) (-04) 14 : 39 : 53 UTC
+  , issueCommentBody =
+      "@tom2strobl: The non-minified file doesn't seem necessary for production use. If this is the case, please update the update.json accordingly. Thx. \n"
+  , issueCommentId = 98734135
+  }

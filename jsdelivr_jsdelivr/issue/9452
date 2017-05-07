@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-09) 22 : 19 : 21 UTC
+  , issueUpdatedAt = 2016 (-02) (-09) 22 : 19 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9452/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9452")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9452
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project lodash to 4.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9452")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9452.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9452.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9452"
+  , issueCreatedAt = 2016 (-01) (-29) 17 : 03 : 36 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project lodash to 4.1.0.\n\n@lodash\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"lodash\",\n    \"repo\": \"lodash/lodash\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/lodash\",\n    \"localVersions\": [\"1.0.1\", \"1.3.1\", \"2.1.0\", \"2.2.1\", \"2.3.0\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"3.0.0\", \"3.2.0\", \"3.3.0\", \"3.4.0\", \"3.5.0\", \"3.6.0\", \"3.7.0\", \"3.8.0\", \"3.9.3\", \"3.10.0\", \"3.10.1\", \"4.0.1\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.5.0\", \"0.5.1\", \"0.5.2\", \"0.6.0\", \"0.6.1\", \"0.7.0\", \"0.8.0\", \"0.8.1\", \"0.8.2\", \"0.9.0\", \"0.9.1\", \"0.9.2\", \"0.10.0\", \"1.0.0-rc.1\", \"1.0.0-rc.2\", \"1.0.0-rc.3\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.1.0\", \"1.1.1\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.3.1\", \"2.0.0\", \"2.1.0\", \"2.2.0\", \"2.2.1\", \"2.3.0\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"3.0.0-amd\", \"3.0.0-es\", \"3.0.0-npm\", \"3.0.0-npm-packages\", \"3.0.0\", \"3.0.1-amd\", \"3.0.1-es\", \"3.0.1-npm\", \"3.0.1-npm-packages\", \"3.0.1\", \"3.0.2-npm-packages\", \"3.0.3-npm-packages\", \"3.0.4-npm-packages\", \"3.0.5-npm-packages\", \"3.0.6-npm-packages\", \"3.0.7-npm-packages\", \"3.0.8-npm-packages\", \"3.0.9-npm-packages\", \"3.1.0-amd\", \"3.1.0-es\", \"3.1.0-npm\", \"3.1.0-npm-packages\", \"3.1.0\", \"3.1.1-npm-packages\", \"3.1.2-npm-packages\", \"3.1.3-npm-packages\", \"3.1.4-npm-packages\", \"3.1.5-npm-packages\", \"3.2.0-amd\", \"3.2.0-es\", \"3.2.0-npm\", \"3.2.0-npm-packages\", \"3.2.0\", \"3.2.1-npm-packages\", \"3.2.2-npm-packages\", \"3.2.3-npm-packages\", \"3.3.0-amd\", \"3.3.0-es\", \"3.3.0-npm\", \"3.3.0-npm-packages\", \"3.3.0\", \"3.3.1-amd\", \"3.3.1-es\", \"3.3.1-npm\", \"3.3.1-npm-packages\", \"3.3.1\", \"3.3.2-npm-packages\", \"3.4.0-amd\", \"3.4.0-es\", \"3.4.0-npm\", \"3.4.0-npm-packages\", \"3.4.0\", \"3.4.1-npm-packages\", \"3.4.2-npm-packages\", \"3.4.3-npm-packages\", \"3.4.4-npm-packages\", \"3.5.0-amd\", \"3.5.0-es\", \"3.5.0-npm\", \"3.5.0-npm-packages\", \"3.5.0\", \"3.5.1-npm-packages\", \"3.5.2-npm-packages\", \"3.5.3-npm-packages\", \"3.6.0-amd\", \"3.6.0-es\", \"3.6.0-npm\", \"3.6.0-npm-packages\", \"3.6.0\", \"3.6.1-npm-packages\", \"3.6.2-npm-packages\", \"3.7.0-amd\", \"3.7.0-es\", \"3.7.0-npm\", \"3.7.0-npm-packages\", \"3.7.0\", \"3.7.1-npm-packages\", \"3.7.2-npm-packages\", \"3.7.3-npm-packages\", \"3.7.4-npm-packages\", \"3.8.0-amd\", \"3.8.0-es\", \"3.8.0-npm\", \"3.8.0-npm-packages\", \"3.8.0\", \"3.8.1-npm-packages\", \"3.8.2-npm-packages\", \"3.9.0-amd\", \"3.9.0-es\", \"3.9.0-npm\", \"3.9.0-npm-packages\", \"3.9.0\", \"3.9.1-npm\", \"3.9.1-npm-packages\", \"3.9.2-amd\", \"3.9.2-es\", \"3.9.2-npm\", \"3.9.2\", \"3.9.3-amd\", \"3.9.3-es\", \"3.9.3-npm\", \"3.9.3\", \"3.10.0-amd\", \"3.10.0-es\", \"3.10.0-npm\", \"3.10.0-npm-packages\", \"3.10.0\", \"3.10.1-amd\", \"3.10.1-es\", \"3.10.1-npm\", \"3.10.1-npm-packages\", \"3.10.1\", \"3.10.2-npm-packages\", \"4.0.0-amd\", \"4.0.0-es\", \"4.0.0-npm\", \"4.0.0-npm-packages\", \"4.0.0\", \"4.0.1-amd\", \"4.0.1-es\", \"4.0.1-npm\", \"4.0.1-npm-packages\", \"4.0.1\", \"4.0.2-npm-packages\", \"4.1.0-amd\", \"4.1.0-es\", \"4.1.0-npm\", \"4.1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/lodash/update.json\",\n  \"versions\": [\"3.10.2-npm-packages\", \"4.1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"4.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/lodash/4.1.0\",\n  \"branch\": \"lodash/4.1.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 129825157
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

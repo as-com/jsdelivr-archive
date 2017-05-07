@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-24) 04 : 37 : 12 UTC
+  , issueUpdatedAt = 2015 (-03) (-24) 04 : 37 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3978/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3978")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3978
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11605848
+        , simpleUserLogin = N "topvd"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/11605848?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/topvd"
+        }
+  , issueTitle = "added php melody"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3978")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3978.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3978.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3978"
+  , issueCreatedAt = 2015 (-03) (-24) 04 : 26 : 49 UTC
+  , issueBody = Just "added php melody template files .\n"
+  , issueState = StateClosed
+  , issueId = Id 63900671
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-05) 13 : 12 : 39 UTC
+  , issueUpdatedAt = 2013 (-12) (-05) 16 : 52 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/175/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/175")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 175
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1733915
+        , simpleUserLogin = N "cmaurer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1733915?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/cmaurer"
+        }
+  , issueTitle = "v0.0.4-beta"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/175")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/175.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/175.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/175"
+  , issueCreatedAt = 2013 (-12) (-05) 13 : 07 : 01 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 23785663
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

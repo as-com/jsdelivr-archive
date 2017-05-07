@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-25) 14 : 51 : 24 UTC
+  , issueUpdatedAt = 2016 (-02) (-25) 14 : 51 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9918/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9918")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9918
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1837621
+        , simpleUserLogin = N "pithu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1837621?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pithu"
+        }
+  , issueTitle = "add project js-joda"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9918")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9918.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9918.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9918"
+  , issueCreatedAt = 2016 (-02) (-22) 21 : 13 : 31 UTC
+  , issueBody =
+      Just "add the javascript date and time lib to jsdelivr\n"
+  , issueState = StateClosed
+  , issueId = Id 135545734
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

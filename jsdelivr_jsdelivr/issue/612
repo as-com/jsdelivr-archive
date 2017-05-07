@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-09) 14 : 48 : 57 UTC
+  , issueUpdatedAt = 2014 (-04) (-09) 14 : 48 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/612/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/612")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 612
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 252923
+        , simpleUserLogin = N "meulie"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/252923?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/meulie"
+        }
+  , issueTitle = "AWStats"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/612")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/612.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/612.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/612"
+  , issueCreatedAt = 2014 (-04) (-09) 06 : 44 : 18 UTC
+  , issueBody = Just "AWStats tracking script. More to follow.\n"
+  , issueState = StateClosed
+  , issueId = Id 31133211
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-05) (-09) 12 : 15 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11521/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/11521")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11521
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3259993
+        , simpleUserLogin = N "tjenkinson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3259993?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tjenkinson"
+        }
+  , issueTitle = "Hlsjs version 0.5.x and handling beta versions"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11521"
+  , issueCreatedAt = 2016 (-05) (-09) 12 : 15 : 33 UTC
+  , issueBody =
+      Just
+        "At the moment there is only 0.6.x hosted here. Would it be possible to sync 0.5.x as well?\n\nBoth are being updated at the moment as 0.6.x is considered as 'beta'.\n\nAlso could you provide some information on how jsdelivr handles prerelease versions if they were formatted like 0.5.0-beta.1, 0.5.0-beta.2 etc. Would \"latest\" still point to 0.4.x then?\n\nThanks!\n\nhttps://github.com/jsdelivr/jsdelivr/tree/master/files/hls.js\n"
+  , issueState = StateOpen
+  , issueId = Id 153763108
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

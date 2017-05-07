@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-30) 18 : 03 : 28 UTC
+  , issueUpdatedAt = 2016 (-09) (-30) 18 : 03 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14062/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14062")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14062
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-gantt to v1.2.14"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14062")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14062.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14062.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14062"
+  , issueCreatedAt = 2016 (-09) (-30) 18 : 02 : 57 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-gantt to v1.2.14.\n\n@angular-gantt\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular-gantt\",\n    \"repo\": \"angular-gantt/angular-gantt\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.gantt\",\n    \"localVersions\": [\"1.0.0-rc4\", \"1.0.0-rc5\", \"1.0.0-rc6\", \"1.0.0-rc7\", \"1.0.0\", \"1.0.1\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.2.4\", \"1.2.5\", \"1.2.6\", \"1.2.7\", \"1.2.8\", \"1.2.9\", \"1.2.10\", \"1.2.11\", \"1.2.12\", \"1.2.13\"],\n    \"remoteVersions\": [\"v0.1\", \"v0.2\", \"v0.3\", \"v0.4\", \"v0.4.2\", \"v0.4.3\", \"v0.5\", \"v0.5.0\", \"v0.5.1\", \"v0.6.0\", \"v0.6.1\", \"v.0.6.1\", \"v0.6.2\", \"v0.6.3\", \"v0.6.4\", \"v0.7.0\", \"v1.0.0-rc1\", \"v1.0.0-rc2\", \"v1.0.0-rc3\", \"v1.0.0-rc4\", \"v1.0.0-rc5\", \"v1.0.0-rc6\", \"v1.0.0-rc7\", \"v1.0.0-rc8\", \"v1.0.0-rc.9\", \"v1.0.0\", \"v1.0.1\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.3\", \"v1.2.4\", \"v1.2.5\", \"v1.2.6\", \"v1.2.7\", \"v1.2.8\", \"v1.2.9\", \"v1.2.10\", \"v1.2.11\", \"v1.2.12\", \"v1.2.13\", \"v1.2.14\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.gantt/update.json\",\n  \"versions\": [\"v1.2.14\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.2.14\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.gantt/1.2.14\",\n  \"branch\": \"angular-gantt/v1.2.14\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 180365860
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

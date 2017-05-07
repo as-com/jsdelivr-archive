@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-01) 16 : 48 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/88550927"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4057#issuecomment-88550927"
+  , issueCommentCreatedAt = 2015 (-04) (-01) 16 : 48 : 18 UTC
+  , issueCommentBody =
+      "Although I like your changes I don't like how you made \"Advanced\" look easier than the web method.\nMaybe we can add more instructions there? Because it looks too small right now.\n\nRegarding maps I agree that they are useless but a fair amount of projects still uses them. I dont think its our place to define coding standards. If the source code loads the map file then I would prefer to have it hosted. It doesnt take much space, it ensures there are no errors and it is what the author wanted.\nPlus we already have so many of them that its too late to stop adding them.\n"
+  , issueCommentId = 88550927
+  }

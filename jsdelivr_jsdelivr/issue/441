@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-11) 00 : 52 : 03 UTC
+  , issueUpdatedAt = 2014 (-03) (-11) 00 : 52 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/441/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/441")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 441
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1915268
+        , simpleUserLogin = N "irazasyed"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1915268?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/irazasyed"
+        }
+  , issueTitle = "How to add the Modules of a library?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/441"
+  , issueCreatedAt = 2014 (-03) (-11) 00 : 02 : 47 UTC
+  , issueBody =
+      Just
+        "I wanted to add [Zepto Modules](http://zeptojs.com/#modules) but i was wondering, should it go separately (Ex: zepto.ie, zepto.data, etc.) or it can be added to the Zepto project itself?\n\nI think it would be good if it's within the Zepto project as they don't have any version for each module and are mostly depended on the main file and should be used with the main anyway.\n\nWhat you think about this? I'm gonna send the PR today after you confirm. \n"
+  , issueState = StateClosed
+  , issueId = Id 29143846
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

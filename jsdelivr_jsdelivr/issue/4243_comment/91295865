@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-09) 17 : 13 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/91295865"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4243#issuecomment-91295865"
+  , issueCommentCreatedAt = 2015 (-04) (-09) 17 : 13 : 46 UTC
+  , issueCommentBody =
+      "Its correct, but you are over our limit of 2 commits. Either squash your commits into 1 or create a new PR\n"
+  , issueCommentId = 91295865
+  }

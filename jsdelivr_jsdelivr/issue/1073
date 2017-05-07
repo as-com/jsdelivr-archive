@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-29) 13 : 23 : 27 UTC
+  , issueUpdatedAt = 2014 (-06) (-29) 18 : 03 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1073/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1073")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1073
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7957859
+        , simpleUserLogin = N "zalmoxisus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7957859?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zalmoxisus"
+        }
+  , issueTitle = "Update ekko-lightbox to 3.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1073")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1073.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1073.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1073"
+  , issueCreatedAt = 2014 (-06) (-29) 13 : 20 : 27 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 36745807
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

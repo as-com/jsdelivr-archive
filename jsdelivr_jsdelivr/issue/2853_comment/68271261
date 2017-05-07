@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-29) 16 : 21 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 4747021
+        , simpleUserLogin = N "mjau-mjau"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4747021?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mjau-mjau"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/68271261"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2853#issuecomment-68271261"
+  , issueCommentCreatedAt = 2014 (-12) (-29) 16 : 20 : 23 UTC
+  , issueCommentBody =
+      "X3 is a recent version yes, but the project itself has been around more than 10 years and hosted on several thousand websites. Since the new X3 version is mainly javascript/css, there are countless benefits for all users if the main assets are hosted on a CDN. We wanted to launch the main js/css files on CDN, not only for optimal performance, but also to deal with hosted misconfigured servers that are incapable of compressing text-based assets.\n\nWe searched around for a while, and considered CDN providers like cloudfront, maxcdn and cloudflare, but honestly since it was only a few asset files, jsdelivr seemed ideal according to how it is being promoted.\n\nIf you don't accept serious projects with well-made script combinations, then perhaps you should consider changing the wording used to promote jsDelivr? I have read all the docs on the website, github and other review pages.\n\n> jsDelivr is a free CDN (Content Delivery Network) where any web developer can host their files, including CSS, fonts, JavaScript, jQuery plugins, etc.\n> \n> jsDelivr is a public open-source CDN where anyone can submit a project to be hosted and delivered by our network.\n> \n> We don\8217t look at the popularity of the project to approve it for inclusion in jsDelivr.\n> \n> Similar to Google Hosted Libraries, jsDelivr is an open source CDN that allows developers to host their own projects and anyone to link to our hosted files in their websites.\n\nThere seems to be some flaws in all the above statements, and I can't seem to find a valid reason why our submission is not beneficial. If it is going to be subject to validation criteria that we are not aware of, then perhaps this should be made public knowledge so teams can plan properly?\n\nThank you\n"
+  , issueCommentId = 68271261
+  }

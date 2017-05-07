@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 13 : 58 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 13 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9467/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9467")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9467
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2483249
+        , simpleUserLogin = N "tylerbhughes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2483249?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tylerbhughes"
+        }
+  , issueTitle = "Adding sinon.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9467")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9467.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9467.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9467"
+  , issueCreatedAt = 2016 (-01) (-31) 01 : 00 : 31 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 130059648
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

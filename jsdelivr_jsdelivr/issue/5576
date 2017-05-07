@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-01) 21 : 15 : 52 UTC
+  , issueUpdatedAt = 2015 (-07) (-01) 21 : 15 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5576/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5576")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5576
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project js-data to 2.0.0-rc.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5576")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5576.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5576.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5576"
+  , issueCreatedAt = 2015 (-07) (-01) 21 : 15 : 44 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project js-data to 2.0.0-rc.3.\n\n@js-data\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"js-data\",\n    \"repo\": \"js-data/js-data\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"js-data.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/js-data\",\n    \"localVersions\": [\"1.5.10\", \"1.5.11\", \"1.5.12\", \"1.5.13\", \"1.6.0\", \"1.6.1\", \"1.6.2\", \"1.6.3\", \"1.7.0\", \"1.8.0\", \"2.0.0-beta.1\", \"2.0.0-beta.3\", \"2.0.0-beta.4\", \"2.0.0-beta.5\", \"2.0.0-beta.6\", \"2.0.0-beta.7\", \"2.0.0-beta.8\", \"2.0.0-beta.9\", \"2.0.0-beta.10\", \"2.0.0-beta.11\", \"2.0.0-rc.1\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.2.0\", \"0.3.1\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"1.0.0-alpha.1-0\", \"1.0.0-alpha.1-1\", \"1.0.0-alpha.1-2\", \"1.0.0-alpha.2\", \"1.0.0-alpha.3-0\", \"1.0.0-alpha.4-0\", \"1.0.0-alpha.4-1\", \"1.0.0-alpha.4-2\", \"1.0.0-alpha.4-3\", \"1.0.0-alpha.5-0\", \"1.0.0-alpha.5-1\", \"1.0.0-alpha.5-2\", \"1.0.0-alpha.5-4\", \"1.0.0-alpha.5-5\", \"1.0.0-alpha.5-6\", \"1.0.0-alpha.5-7\", \"1.0.0-alpha.5-8\", \"1.0.0-beta.1\", \"1.0.0-beta.2\", \"1.0.0\", \"1.1.0\", \"1.1.1\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.4.0\", \"1.4.1\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.4\", \"1.5.5\", \"1.5.6\", \"1.5.7\", \"1.5.8\", \"1.5.9\", \"1.5.10\", \"1.5.11\", \"1.5.12\", \"1.5.13\", \"1.6.0\", \"1.6.1\", \"1.6.2\", \"1.6.3\", \"1.7.0\", \"1.8.0\", \"2.0.0-beta.1\", \"2.0.0-beta.2\", \"2.0.0-beta.3\", \"2.0.0-beta.4\", \"2.0.0-beta.5\", \"2.0.0-beta.6\", \"2.0.0-beta.7\", \"2.0.0-beta.8\", \"2.0.0-beta.9\", \"2.0.0-beta.10\", \"2.0.0-beta.11\", \"2.0.0-rc.1\", \"2.0.0-rc.2\", \"2.0.0-rc.3\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/js-data/update.json\",\n  \"version\": \"2.0.0-rc.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/js-data/2.0.0-rc.3\",\n  \"branch\": \"js-data/2.0.0-rc.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 92486842
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

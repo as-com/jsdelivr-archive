@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-25) 20 : 24 : 32 UTC
+  , issueUpdatedAt = 2014 (-07) (-25) 20 : 24 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1303/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1303")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1303
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5818982
+        , simpleUserLogin = N "mikewgd"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5818982?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mikewgd"
+        }
+  , issueTitle =
+      "- major updates to console script. included in pull request."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1303")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1303.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1303.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1303"
+  , issueCreatedAt = 2014 (-07) (-25) 20 : 23 : 40 UTC
+  , issueBody =
+      Just
+        "- Added ability to change height of console\n- changed position of elements added in dom\n- stylistic changes to make sure logs are black, decrease font sizes, width of console\n- scroll to latest log\n- messaging for logging complex objects like window, document etc...\n"
+  , issueState = StateClosed
+  , issueId = Id 38766770
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

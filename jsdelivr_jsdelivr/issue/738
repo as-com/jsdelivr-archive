@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-02) 19 : 59 : 48 UTC
+  , issueUpdatedAt = 2014 (-06) (-21) 00 : 40 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/738/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/738")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 738
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1892880
+        , simpleUserLogin = N "s-lip"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1892880?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/s-lip"
+        }
+  , issueTitle = "Add the Oppia player script."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/738")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/738.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/738.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/738"
+  , issueCreatedAt = 2014 (-05) (-02) 06 : 21 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 32670773
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-04) 20 : 21 : 11 UTC
+  , issueUpdatedAt = 2016 (-10) (-04) 20 : 21 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14211/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14211")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14211
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1639302
+        , simpleUserLogin = N "abishekrsrikaanth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1639302?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/abishekrsrikaanth"
+        }
+  , issueTitle = "Adding Library Vue-Table"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14211")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14211.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14211.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14211"
+  , issueCreatedAt = 2016 (-10) (-04) 20 : 14 : 17 UTC
+  , issueBody =
+      Just
+        "**Description:** vuetable is a Vue.js component that will automatically request (JSON) data from the server and display them nicely in html table with swappable/extensible pagination component.\n\n**URL:** https://github.com/ratiw/vue-table\n**Repo:** https://github.com/ratiw/vue-table\n"
+  , issueState = StateClosed
+  , issueId = Id 180993102
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-02) 15 : 59 : 26 UTC
+  , issueUpdatedAt = 2016 (-04) (-02) 15 : 59 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10786/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/10786")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10786
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 72989
+        , simpleUserLogin = N "kazupon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/72989?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kazupon"
+        }
+  , issueTitle = "vue-validator 2.0.0 not published to jsdelivr"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10786"
+  , issueCreatedAt = 2016 (-04) (-02) 15 : 01 : 41 UTC
+  , issueBody =
+      Just
+        "The following version is pointing to the old version.\nWhy ?\nhttps://cdn.jsdelivr.net/vue.validator/2.0.0/vue-validator.min.js\n\nI hope that vue-validator is pointing correct version. :)\n"
+  , issueState = StateClosed
+  , issueId = Id 145381657
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

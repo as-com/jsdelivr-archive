@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-12) 17 : 00 : 24 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 17 : 00 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/940/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/940")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 940
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6051867
+        , simpleUserLogin = N "monto100"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6051867?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/monto100"
+        }
+  , issueTitle = "Create gridebboot"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/940")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/940.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/940.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/940"
+  , issueCreatedAt = 2014 (-06) (-12) 16 : 57 : 41 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 35603082
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

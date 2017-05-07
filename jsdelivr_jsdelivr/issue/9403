@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-27) 22 : 03 : 42 UTC
+  , issueUpdatedAt = 2016 (-01) (-27) 22 : 03 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9403/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9403")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9403
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project offline to v0.7.15"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9403")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9403.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9403.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9403"
+  , issueCreatedAt = 2016 (-01) (-27) 22 : 03 : 37 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project offline to v0.7.15.\n\n@HubSpot\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"offline\",\n    \"repo\": \"HubSpot/offline\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"offline.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/offline\",\n    \"localVersions\": [\"0.4.7\", \"0.7.13\", \"0.7.14\"],\n    \"remoteVersions\": [\"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\", \"v0.4.5\", \"v0.4.6\", \"v0.4.7\", \"v0.5.0\", \"v0.6.0\", \"v0.7.0\", \"v0.7.1\", \"v0.7.2\", \"v0.7.3\", \"v0.7.4\", \"v0.7.5\", \"v0.7.6\", \"v0.7.7\", \"v0.7.8\", \"v0.7.9\", \"v0.7.10\", \"v0.7.11\", \"v0.7.12\", \"v0.7.13\", \"v0.7.14\", \"v0.7.15\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/offline/update.json\",\n  \"versions\": [\"v0.7.15\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.7.15\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/offline/0.7.15\",\n  \"branch\": \"offline/v0.7.15\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 129284789
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-07) 07 : 33 : 10 UTC
+  , issueUpdatedAt = 2017 (-04) (-07) 07 : 33 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17449/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17449")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17449
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project autoNumeric to v2.0.12"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17449")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17449.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17449.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17449"
+  , issueCreatedAt = 2017 (-04) (-07) 07 : 33 : 02 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project autoNumeric to v2.0.12.\n\n@autoNumeric\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"autoNumeric\",\n    \"repo\": \"autoNumeric/autoNumeric\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"autoNumeric.js\", \"autoNumeric.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/autonumeric\",\n    \"localVersions\": [\"1.9.46\", \"2.0-beta.0\", \"2.0-beta.15\", \"2.0.0\", \"2.0.7\", \"2.0.9\", \"2.0.10\"],\n    \"remoteVersions\": [\"1.8.2\", \"1.8.3\", \"1.8.4\", \"1.8.5\", \"1.8.6\", \"1.8.7\", \"1.8.8\", \"1.8.9\", \"1.9.0\", \"1.9.1\", \"1.9.2\", \"1.9.3\", \"1.9.4\", \"1.9.5\", \"1.9.6\", \"1.9.7\", \"1.9.8\", \"1.9.9\", \"1.9.10\", \"1.9.11\", \"1.9.12\", \"1.9.13\", \"1.9.14\", \"1.9.15\", \"1.9.16\", \"1.9.17\", \"1.9.18\", \"1.9.19\", \"1.9.20\", \"1.9.21\", \"1.9.22\", \"1.9.23\", \"1.9.24\", \"1.9.25\", \"1.9.26\", \"1.9.27\", \"1.9.28\", \"1.9.29\", \"1.9.30\", \"v1.9.31\", \"v1.9.32\", \"v1.9.33\", \"v1.9.34\", \"v1.9.35\", \"v1.9.36\", \"v1.9.37\", \"v1.9.38\", \"v1.9.39\", \"v1.9.40\", \"v1.9.41\", \"v1.9.42\", \"1.9.43\", \"1.9.46\", \"2.0.0-beta.23\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v2.0.7\", \"v2.0.8\", \"v2.0.9\", \"v2.0.10\", \"v2.0.12\", \"v3.0.0-beta.1\", \"v3.0.0-beta.2\", \"v3.0.0-beta.3\", \"v3.0.0-beta.4\", \"v3.0.0-beta.5\", \"v3.0.0-beta.6\", \"v3.0.0-beta.7\", \"v3.0.0-beta.8\", \"v3.0.0-beta.9\", \"v3.0.0-beta.10\", \"v3.0.0-beta.11\", \"v3.0.0-beta.12\", \"v3.0.0-beta.13\", \"v3.0.0-beta.14\", \"v4.0.0-beta.1\", \"v4.0.0-beta.2\", \"v4.0.0-beta.3\", \"v4.0.0-beta.4\", \"v4.0.0-beta.5\", \"v4.0.0-beta.6\", \"v4.0.0-beta.7\", \"v4.0.0-beta.8\", \"v4.0.0-beta.9\", \"v4.0.0-beta.10\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/autonumeric/update.json\",\n  \"versions\": [\"v2.0.12\", \"v3.0.0-beta.14\", \"v4.0.0-beta.10\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.0.12\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/autonumeric/2.0.12\",\n  \"branch\": \"autoNumeric/v2.0.12\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 220134053
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

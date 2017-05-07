@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-29) 14 : 52 : 54 UTC
+  , issueUpdatedAt = 2013 (-10) (-29) 14 : 52 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/129/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/129")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 129
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1915268
+        , simpleUserLogin = N "irazasyed"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1915268?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/irazasyed"
+        }
+  , issueTitle = "Added threejs r62"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/129")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/129.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/129.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/129"
+  , issueCreatedAt = 2013 (-10) (-29) 14 : 32 : 34 UTC
+  , issueBody =
+      Just "Threejs r62 - https://github.com/mrdoob/three.js\n"
+  , issueState = StateClosed
+  , issueId = Id 21760480
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

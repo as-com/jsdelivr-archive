@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-15) 22 : 21 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6761246
+        , simpleUserLogin = N "thednp"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6761246?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thednp"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/93585741"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4338#issuecomment-93585741"
+  , issueCommentCreatedAt = 2015 (-04) (-15) 22 : 21 : 27 UTC
+  , issueCommentBody =
+      "from my experience, you should delete these last 2 commits, delete your fork, and redo everything again, you can only commit ONCE those 2 files, see my last merged commit here.\n"
+  , issueCommentId = 93585741
+  }

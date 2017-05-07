@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-22) 22 : 27 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 46023
+        , simpleUserLogin = N "jtmueller"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/46023?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jtmueller"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/95353495"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4442#issuecomment-95353495"
+  , issueCommentCreatedAt = 2015 (-04) (-22) 22 : 11 : 10 UTC
+  , issueCommentBody =
+      "@megawac @jimaek The official lodash site still has a compat build for 3.7.0 so I don't think it's correct to say that compat builds have been removed.\n\nHowever, I'm fine if jsdelivr wants to consider `lodash-compat` a separate library. It means I won't have to specify a filename in parens on the jsdelivr URL anymore.\n\nI'm not concerned about it breaking `http://cdn.jsdelivr.net/lodash/3/lodash-compat.js` type links, because those links have been broken ever since someone added lodash 3.6 without any compat files 11 days ago. If putting the compat build in its own folder on jsdelivr means it won't suddenly vanish on me, and will have timely updates, I'm all for it!\n\nBut, as a matter of policy, I think it's a bad idea for jsdelivr to allow one minor revision to have fewer files than the previous minor revision, because that's exactly the sort of thing that makes url's like `http://cdn.jsdelivr.net/lodash/3/lodash-compat.js` unreliable and not to be trusted. Every version of lodash on jsdelivr prior to 3.6 included a compat file, and breaking public URL's that are already in use is one of the worst sins a CDN can commit.\n"
+  , issueCommentId = 95353495
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-03) 23 : 05 : 21 UTC
+  , issueUpdatedAt = 2014 (-10) (-03) 23 : 05 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1912/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1912")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1912
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bootstrap.select to v1.6.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1912")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1912.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1912.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1912"
+  , issueCreatedAt = 2014 (-10) (-03) 23 : 02 : 28 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootstrap.select to v1.6.3.\n\n@silviomoreto\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bootstrap.select\",\n    \"repo\": \"silviomoreto/bootstrap-select\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/bootstrap.select\",\n    \"localVersions\": [\"1.3.4\", \"1.4.3\", \"1.5.2\", \"1.5.4\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.2.0\", \"1.3.0\", \"1.3.1\", \"1.3.3\", \"1.3.4\", \"1.3.5\", \"1.3.6\", \"1.3.7\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.4\", \"v1.6.0\", \"v1.6.1\", \"v1.6.2\", \"v1.6.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.6.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/bootstrap.select/1.6.3\",\n  \"branch\": \"bootstrap.select/v1.6.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 44859099
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

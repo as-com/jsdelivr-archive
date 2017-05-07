@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 17 : 32 : 20 UTC
+  , issueUpdatedAt = 2017 (-03) (-29) 17 : 38 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17233/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17233")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17233
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 440298
+        , simpleUserLogin = N "jhabdas"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/440298?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jhabdas"
+        }
+  , issueTitle = "Update Fetch Inject Package Manager"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17233")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17233.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17233.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17233"
+  , issueCreatedAt = 2017 (-03) (-27) 16 : 29 : 31 UTC
+  , issueBody = Just "Removed `dist` from repo, moved to NPM."
+  , issueState = StateClosed
+  , issueId = Id 217302479
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

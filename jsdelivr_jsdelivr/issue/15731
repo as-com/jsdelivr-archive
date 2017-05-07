@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-09) 14 : 25 : 47 UTC
+  , issueUpdatedAt = 2017 (-02) (-09) 14 : 25 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15731/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/15731")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15731
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3435852
+        , simpleUserLogin = N "sunnykgupta"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3435852?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sunnykgupta"
+        }
+  , issueTitle = "Semantic UI new version not being fetched."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15731"
+  , issueCreatedAt = 2017 (-01) (-11) 06 : 35 : 19 UTC
+  , issueBody =
+      Just
+        "The update.json file seems to be in order. Release 2.2.7 not yet available."
+  , issueState = StateClosed
+  , issueId = Id 200014749
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

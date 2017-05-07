@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-08) (-23) 09 : 00 : 30 UTC
+  , issueUpdatedAt = 2014 (-07) (-20) 01 : 38 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/82/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/82")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 82
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49051
+        , simpleUserLogin = N "mattpodwysocki"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/49051?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mattpodwysocki"
+        }
+  , issueTitle = "Adding RxJS-DOM v2.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/82")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/82.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/82.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/82"
+  , issueCreatedAt = 2013 (-08) (-23) 04 : 28 : 05 UTC
+  , issueBody =
+      Just
+        "Adding RxJS-DOM from the following location: https://github.com/Reactive-Extensions/RxJS-DOM/releases\n"
+  , issueState = StateClosed
+  , issueId = Id 18453451
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

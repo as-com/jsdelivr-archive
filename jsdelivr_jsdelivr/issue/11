@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-05) (-03) 20 : 19 : 56 UTC
+  , issueUpdatedAt = 2014 (-07) (-24) 18 : 49 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 723723
+        , simpleUserLogin = N "mgonto"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/723723?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mgonto"
+        }
+  , issueTitle = "Added version 0.6.1 of Restangular"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11"
+  , issueCreatedAt = 2013 (-05) (-03) 20 : 19 : 18 UTC
+  , issueBody = Just "https://github.com/mgonto/restangular\n"
+  , issueState = StateClosed
+  , issueId = Id 13950892
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

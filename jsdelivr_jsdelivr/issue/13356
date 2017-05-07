@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-21) 06 : 02 : 40 UTC
+  , issueUpdatedAt = 2016 (-08) (-21) 06 : 02 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13356/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13356")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13356
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-bootstrap to 2.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13356")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13356.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13356.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13356"
+  , issueCreatedAt = 2016 (-08) (-21) 06 : 02 : 36 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-bootstrap to 2.1.1.\n\n@angular-ui\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"angular-bootstrap\",\n    \"repo\": \"angular-ui/bootstrap-bower\",\n    \"files\": {\n      \"include\": [\"ui-bootstrap.min.js\", \"ui-bootstrap-tpls.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.bootstrap\",\n    \"localVersions\": [\"0.4.0\", \"0.6.0\", \"0.7.0\", \"0.9.0\", \"0.10.0\", \"0.11.0\", \"0.12.0\", \"0.12.1\", \"0.13.0\", \"0.13.3\", \"1.1.2\", \"1.2.2\", \"1.3.2\", \"1.3.3\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.2.0\", \"0.3.0\", \"0.4.0\", \"0.5.0\", \"0.6.0\", \"0.7.0\", \"0.8.0\", \"0.9.0\", \"0.10.0\", \"0.11.0\", \"0.11.1\", \"0.11.2\", \"0.12.0\", \"0.12.1\", \"0.13.0\", \"0.13.1\", \"0.13.2\", \"0.13.3\", \"0.13.4\", \"0.14.0\", \"0.14.1\", \"0.14.2\", \"0.14.3\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.2.4\", \"1.2.5\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0\", \"2.1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.bootstrap/update.json\",\n  \"versions\": [\"2.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"2.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.bootstrap/2.1.1\",\n  \"branch\": \"angular-bootstrap/2.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 172306507
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

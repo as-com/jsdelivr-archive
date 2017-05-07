@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-09) 00 : 47 : 16 UTC
+  , issueUpdatedAt = 2014 (-03) (-09) 00 : 47 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/428/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/428")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 428
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 305721
+        , simpleUserLogin = N "rdeavila"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/305721?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rdeavila"
+        }
+  , issueTitle = "Updated bootstrap.select v1.5.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/428")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/428.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/428.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/428"
+  , issueCreatedAt = 2014 (-03) (-08) 23 : 15 : 14 UTC
+  , issueBody =
+      Just
+        "Updated bootstrap.select v1.5.2\n\nSorry; I don't know how to make a new PR with only one commit.\n"
+  , issueState = StateClosed
+  , issueId = Id 29032452
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-12) 18 : 39 : 09 UTC
+  , issueUpdatedAt = 2017 (-03) (-12) 18 : 39 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16866/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16866")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16866
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6177621
+        , simpleUserLogin = N "bogas04"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6177621?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bogas04"
+        }
+  , issueTitle = "add khajana-js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16866")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16866.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16866.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16866"
+  , issueCreatedAt = 2017 (-03) (-12) 18 : 38 : 33 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 213623879
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

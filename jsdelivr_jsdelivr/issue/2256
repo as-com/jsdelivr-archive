@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-07) 20 : 08 : 12 UTC
+  , issueUpdatedAt = 2014 (-11) (-07) 23 : 00 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2256/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2256")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2256
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1079646
+        , simpleUserLogin = N "jtsay362"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1079646?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jtsay362"
+        }
+  , issueTitle = "Add jQuery UI 1.11.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2256")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2256.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2256.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2256"
+  , issueCreatedAt = 2014 (-11) (-07) 00 : 04 : 52 UTC
+  , issueBody =
+      Just
+        "Compared to 1.11.0, all component JS was added in UI subdir, so we can\nget only the necessary pieces of jQuery UI instead of whole thing.\n"
+  , issueState = StateClosed
+  , issueId = Id 48031865
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

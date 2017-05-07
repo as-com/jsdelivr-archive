@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 20 : 02 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 20 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13381/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13381")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13381
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5713062
+        , simpleUserLogin = N "nicolashefti"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5713062?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nicolashefti"
+        }
+  , issueTitle = "Add formula.js to jsdeliver"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13381")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13381.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13381.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13381"
+  , issueCreatedAt = 2016 (-08) (-22) 21 : 08 : 25 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nThis a PR to add formula.js library to jsDeliver. Thanks in advance for your time and review.\n\nFYI: @jalateras, @hmalphettes\n"
+  , issueState = StateClosed
+  , issueId = Id 172555415
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

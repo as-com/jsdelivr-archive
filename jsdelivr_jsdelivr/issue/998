@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 14 : 14 : 15 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 14 : 14 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/998/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/998")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 998
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7957859
+        , simpleUserLogin = N "zalmoxisus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7957859?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zalmoxisus"
+        }
+  , issueTitle = "gsap version error"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/998"
+  , issueCreatedAt = 2014 (-06) (-22) 18 : 31 : 46 UTC
+  , issueBody =
+      Just
+        "There is indicated that you have version 12 of gsap (//cdn.jsdelivr.net/gsap/12/TweenMax.min.js), but if you open it, you'll see that it is version beta 1.36 (released on 2012-06-23). It is very old and absolutely incompatible with other libraries. Please include the latest release (1.11.9) - https://github.com/greensock/GreenSock-JS/blob/master/src/minified/TweenMax.min.js (http://www.greensock.com/gsap-js/).\n"
+  , issueState = StateClosed
+  , issueId = Id 36249138
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

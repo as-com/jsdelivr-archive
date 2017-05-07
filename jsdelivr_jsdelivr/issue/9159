@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-18) 09 : 58 : 34 UTC
+  , issueUpdatedAt = 2016 (-01) (-18) 11 : 47 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9159/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9159")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9159
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4249591
+        , simpleUserLogin = N "chrissimpkins"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4249591?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/chrissimpkins"
+        }
+  , issueTitle = "updated Hack web font release to v2.019"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9159")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9159.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9159.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9159"
+  , issueCreatedAt = 2016 (-01) (-18) 01 : 22 : 18 UTC
+  , issueBody =
+      Just "Font files and CSS files updated for the v2.019 release\n"
+  , issueState = StateClosed
+  , issueId = Id 127138425
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

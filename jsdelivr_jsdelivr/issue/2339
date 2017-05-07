@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-13) 10 : 16 : 09 UTC
+  , issueUpdatedAt = 2014 (-11) (-13) 10 : 16 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2339/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2339")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2339
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project polymer to 0.5.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2339")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2339.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2339.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2339"
+  , issueCreatedAt = 2014 (-11) (-12) 23 : 07 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project polymer to 0.5.1.\n\n@polymer\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"polymer\",\n    \"repo\": \"polymer/polymer\",\n    \"files\": {\n      \"include\": [\"polymer.js\", \"polymer.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/polymer\",\n    \"localVersions\": [\"0.2.2\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.3.5\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.5.0\"],\n    \"remoteVersions\": [\"v0.0.20130711\", \"v0.0.20130801\", \"v0.0.20130808\", \"v0.0.20130815\", \"v0.0.20130816\", \"v0.0.20130829\", \"v0.0.20130905\", \"v0.0.20130912\", \"v0.0.20131003\", \"v0.0.20131010\", \"v0.0.20131025\", \"v0.0.20131107\", \"0.1.4\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.3.5\", \"0.3.6\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.5.0\", \"0.5.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.5.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/polymer/0.5.1\",\n  \"branch\": \"polymer/0.5.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 48575803
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

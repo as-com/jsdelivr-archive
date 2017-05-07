@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 19 : 27 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 19 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13490/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13490")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13490
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10251683
+        , simpleUserLogin = N "SimeoneVilardo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/10251683?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/SimeoneVilardo"
+        }
+  , issueTitle = "Patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13490")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13490.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13490.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13490"
+  , issueCreatedAt = 2016 (-08) (-28) 23 : 38 : 51 UTC
+  , issueBody =
+      Just
+        "Added the Bootstrap plugin \"bootstrap-toggle\" with the standard file structure.\nHere more info: http://www.bootstraptoggle.com/\n"
+  , issueState = StateClosed
+  , issueId = Id 173674560
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

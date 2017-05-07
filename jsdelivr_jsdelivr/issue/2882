@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-31) 16 : 06 : 25 UTC
+  , issueUpdatedAt = 2014 (-12) (-31) 16 : 06 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2882/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2882")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2882
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.snowfall to 1.7.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2882")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2882.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2882.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2882"
+  , issueCreatedAt = 2014 (-12) (-31) 16 : 06 : 07 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.snowfall to 1.7.4.\n\n@loktar00\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.snowfall\",\n    \"repo\": \"loktar00/JQuery-Snowfall\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.snowfall\",\n    \"localVersions\": [\"1.5.0\"],\n    \"remoteVersions\": [\"1.7\", \"1.7.1\", \"1.7.2\", \"1.7.3\", \"1.7.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.7.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.snowfall/1.7.4\",\n  \"branch\": \"jquery.snowfall/1.7.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 53190245
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

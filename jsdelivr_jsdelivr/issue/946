@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-14) 14 : 01 : 04 UTC
+  , issueUpdatedAt = 2014 (-06) (-14) 14 : 01 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/946/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/946")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 946
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7888101
+        , simpleUserLogin = N "Hobbs1210"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7888101?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Hobbs1210"
+        }
+  , issueTitle = "updated jetpack to 3.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/946")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/946.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/946.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/946"
+  , issueCreatedAt = 2014 (-06) (-14) 13 : 41 : 14 UTC
+  , issueBody = Just "updated jetpack to 3.0.1\n"
+  , issueState = StateClosed
+  , issueId = Id 35728525
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

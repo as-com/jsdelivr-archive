@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-29) 23 : 05 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/87493785"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4066#issuecomment-87493785"
+  , issueCommentCreatedAt = 2015 (-03) (-29) 23 : 05 : 25 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` has a few problems\n  - Where is the cyber-font's mainfile (_otf/OpenDyslexic-Regular.otf_) in v-_3.0.0_\n- Might be nothing but I have some concerns about the files in your submission...  \n  - _.woff2_ (on _woff2/cyber-font-bold.woff2_) seems odd to want to host?\n  - _.woff2_ (on _woff2/cyber-font.woff2_) seems odd to want to host?\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _cyber-font_ between _2.0.0_ and _3.0.0_ there was a change in file structure  \n  \n  ``` diff\n  + eot/cyber-font-bold.eot\n  + eot/cyber-font.eot\n  + svg/cyber-font-bold.svg\n  + svg/cyber-font.svg\n  + ttf/cyber-font-bold.ttf\n  + ttf/cyber-font.ttf\n  + woff/cyber-font-bold.woff\n  + woff/cyber-font.woff\n  + woff2/cyber-font-bold.woff2\n  + woff2/cyber-font.woff2\n  - eot/OpenDyslexic-Bold.eot\n  - eot/OpenDyslexic-BoldItalic.eot\n  - eot/OpenDyslexic-Italic.eot\n  - eot/OpenDyslexic-Regular.eot\n  - otf/OpenDyslexic-Bold.otf\n  - otf/OpenDyslexic-BoldItalic.otf\n  - otf/OpenDyslexic-Italic.otf\n  - otf/OpenDyslexic-Regular.otf\n  - otf/OpenDyslexicAlta-Bold.otf\n  - otf/OpenDyslexicAlta-BoldItalic.otf\n  - otf/OpenDyslexicAlta-Italic.otf\n  - otf/OpenDyslexicAlta-Regular.otf\n  - otf/OpenDyslexicMono-Regular.otf\n  - svg/OpenDyslexic-Bold.svg\n  - svg/OpenDyslexic-BoldItalic.svg\n  - svg/OpenDyslexic-Italic.svg\n  - svg/OpenDyslexic-Regular.svg\n  - ttf/OpenDyslexic-Bold.ttf\n  - ttf/OpenDyslexic-BoldItalic.ttf\n  - ttf/OpenDyslexic-Italic.ttf\n  - ttf/OpenDyslexic-Regular.ttf\n  - ttf/OpenDyslexicAlta-Bold.ttf\n  - ttf/OpenDyslexicAlta-BoldItalic.ttf\n  - ttf/OpenDyslexicAlta-Italic.ttf\n  - ttf/OpenDyslexicAlta-Regular.ttf\n  - ttf/OpenDyslexicMono-Regular.ttf\n  - woff/OpenDyslexic-Bold.woff\n  - woff/OpenDyslexic-BoldItalic.woff\n  - woff/OpenDyslexic-Italic.woff\n  - woff/OpenDyslexic-Regular.woff\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Avoid administrative distraction._\n"
+  , issueCommentId = 87493785
+  }

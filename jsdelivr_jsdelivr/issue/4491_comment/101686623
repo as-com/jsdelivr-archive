@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-13) 14 : 29 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5274747
+        , simpleUserLogin = N "hubdotcom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5274747?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hubdotcom"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/101686623"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4491#issuecomment-101686623"
+  , issueCommentCreatedAt = 2015 (-05) (-13) 14 : 29 : 47 UTC
+  , issueCommentBody =
+      "Author changed the name of the core file from the .min.js to the .pkdg.min.js in v3.1.5. Anyone that continues to use the /latest/ min.js will have their scripts break anyway\n"
+  , issueCommentId = 101686623
+  }

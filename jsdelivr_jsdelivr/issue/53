@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2013 (-07) (-19) 23 : 50 : 40 UTC
+  , issueUpdatedAt = 2013 (-07) (-19) 23 : 50 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/53/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/53")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 53
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "Multiple project pulls?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/53"
+  , issueCreatedAt = 2013 (-07) (-19) 21 : 06 : 13 UTC
+  , issueBody =
+      Just
+        "If an individual had several projects to update or add, would you prefer a single pull request for changes done at once?  Or break apart into 1 pull = 1 project?\n\nI can go either way, though I think my laptop HD would be happier with a single pull request for many packages ;)\n"
+  , issueState = StateClosed
+  , issueId = Id 16992923
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

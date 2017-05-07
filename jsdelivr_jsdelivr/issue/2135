@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-29) 22 : 45 : 33 UTC
+  , issueUpdatedAt = 2014 (-10) (-29) 22 : 45 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2135/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2135")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2135
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 361591
+        , simpleUserLogin = N "LandonSchropp"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/361591?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/LandonSchropp"
+        }
+  , issueTitle = "Added Waffle to the repository"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2135")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2135.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2135.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2135"
+  , issueCreatedAt = 2014 (-10) (-28) 06 : 32 : 40 UTC
+  , issueBody =
+      Just
+        "I added the Waffle CSS library to jSDelivr using auto-update. Please let me know if I did anything wrong!\n"
+  , issueState = StateClosed
+  , issueId = Id 46994043
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

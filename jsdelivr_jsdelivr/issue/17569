@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-13) 22 : 33 : 39 UTC
+  , issueUpdatedAt = 2017 (-04) (-13) 22 : 33 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17569/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17569")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17569
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project embedo to v0.7.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17569")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17569.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17569.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17569"
+  , issueCreatedAt = 2017 (-04) (-13) 22 : 33 : 32 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project embedo to v0.7.0.\n\n@shobhitsharma\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"embedo\",\n    \"repo\": \"shobhitsharma/embedo\",\n    \"files\": {\n      \"include\": [\"embedo.js\", \"embedo.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/embedo\",\n    \"localVersions\": [\"0.2.0\", \"0.2.2\", \"0.3.0\", \"0.3.2\", \"0.3.3\", \"0.3.5\", \"0.3.6\", \"0.4.0\", \"0.5.0\", \"0.5.1\", \"0.5.2\"],\n    \"remoteVersions\": [\"v0.1.1\", \"v0.1.2\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.3.4\", \"v0.3.5\", \"v0.3.6\", \"v0.4.0\", \"v0.5.0\", \"v0.5.1\", \"v0.5.2\", \"v0.6.0\", \"v0.7.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/embedo/update.json\",\n  \"versions\": [\"v0.7.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.7.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/embedo/0.7.0\",\n  \"branch\": \"embedo/v0.7.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 221699714
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

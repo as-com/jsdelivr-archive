@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-10) 15 : 01 : 39 UTC
+  , issueUpdatedAt = 2014 (-01) (-10) 15 : 01 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/256/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/256")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 256
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1836017
+        , simpleUserLogin = N "owenversteeg"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1836017?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/owenversteeg"
+        }
+  , issueTitle = "Min not visible on home page"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/256"
+  , issueCreatedAt = 2014 (-01) (-10) 13 : 37 : 55 UTC
+  , issueBody =
+      Just
+        "For some reason, whenever I search for min on jsdelivr it doesn't show up. I don't know why, because it's definitely there.\n"
+  , issueState = StateClosed
+  , issueId = Id 25395091
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-30) 14 : 34 : 44 UTC
+  , issueUpdatedAt = 2014 (-10) (-30) 14 : 37 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2164/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2164")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2164
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 169885
+        , simpleUserLogin = N "maxgrass"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/169885?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/maxgrass"
+        }
+  , issueTitle = "bootstrap3-dialog library added"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2164")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2164.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2164.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2164"
+  , issueCreatedAt = 2014 (-10) (-30) 12 : 08 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 47262171
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

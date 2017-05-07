@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-26) 18 : 39 : 55 UTC
+  , issueUpdatedAt = 2015 (-10) (-26) 18 : 39 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7554/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7554")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7554
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jsrsasign to 5.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7554")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7554.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7554.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7554"
+  , issueCreatedAt = 2015 (-10) (-26) 18 : 35 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jsrsasign to 5.0.1.\n\n@kjur\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"jsrsasign\",\n    \"repo\": \"kjur/jsrsasign\",\n    \"files\": {\n      \"basePath\": \"lib/\",\n      \"include\": [\"jsrsasign.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jsrsasign\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"4.8.2\", \"4.8.3\", \"4.8.4\", \"4.8.5\", \"4.8.6\", \"4.9.0\", \"4.9.1\", \"4.9.2\", \"5.0.0\", \"5.0.1\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/jsrsasign/update.json\",\n  \"version\": \"5.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jsrsasign/5.0.1\",\n  \"branch\": \"jsrsasign/5.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 113422117
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

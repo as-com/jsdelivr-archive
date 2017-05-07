@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-17) 07 : 34 : 26 UTC
+  , issueUpdatedAt = 2016 (-12) (-17) 07 : 34 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15392/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15392")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15392
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project numeral to 2.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15392")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15392.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15392.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15392"
+  , issueCreatedAt = 2016 (-12) (-17) 07 : 34 : 22 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project numeral to 2.0.2.\n\n@adamwdraper\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"numeral\",\n    \"repo\": \"adamwdraper/Numeral-js\",\n    \"files\": {\n      \"basePath\": \"min\",\n      \"include\": [\"numeral.min.js\", \"languages.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/numeraljs\",\n    \"localVersions\": [\"1.4.7\", \"1.4.9\", \"1.5.0\", \"1.5.4\", \"1.5.5\", \"1.5.6\", \"2.0.0\"],\n    \"remoteVersions\": [\"1.3.2\", \"1.4.0\", \"1.4.1\", \"1.4.5\", \"1.5.0\", \"1.5.2\", \"1.5.3\", \"1.5.4\", \"1.5.5\", \"1.5.6\", \"2.0.0\", \"2.0.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/numeraljs/update.json\",\n  \"versions\": [\"2.0.2\"],\n  \"updateRemote\": true,\n  \"version\": \"2.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/numeraljs/2.0.2\",\n  \"branch\": \"numeral/2.0.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 196208342
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

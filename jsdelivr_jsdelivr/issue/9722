@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-12) 15 : 49 : 07 UTC
+  , issueUpdatedAt = 2016 (-02) (-12) 15 : 49 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9722/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9722")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9722
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16865795
+        , simpleUserLogin = N "InputSimilar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/16865795?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/InputSimilar"
+        }
+  , issueTitle = "Add Project: similar input"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9722")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9722.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9722.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9722"
+  , issueCreatedAt = 2016 (-02) (-12) 08 : 39 : 33 UTC
+  , issueBody = Just "Add Project: similar input.\n"
+  , issueState = StateClosed
+  , issueId = Id 133184933
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-05) (-27) 19 : 51 : 42 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 03 : 30 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/19/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/19")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 19
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4261989
+        , simpleUserLogin = N "baoquandinh93"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4261989?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/baoquandinh93"
+        }
+  , issueTitle = "Globalize"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/19")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/19.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/19.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/19"
+  , issueCreatedAt = 2013 (-05) (-19) 09 : 13 : 07 UTC
+  , issueBody = Just "Added in globalize.min.js\n"
+  , issueState = StateClosed
+  , issueId = Id 14494079
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

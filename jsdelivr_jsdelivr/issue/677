@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-28) 05 : 29 : 50 UTC
+  , issueUpdatedAt = 2014 (-04) (-28) 05 : 29 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/677/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/677")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 677
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 512573
+        , simpleUserLogin = N "SamWhited"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/512573?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/SamWhited"
+        }
+  , issueTitle = "Add mapbox.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/677")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/677.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/677.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/677"
+  , issueCreatedAt = 2014 (-04) (-20) 12 : 03 : 06 UTC
+  , issueBody =
+      Just
+        "Add the Mapbox Leaflet plugin, [Mapbox.js](https://www.mapbox.com/mapbox.js/api/v1.6.2/)\n"
+  , issueState = StateClosed
+  , issueId = Id 31864522
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

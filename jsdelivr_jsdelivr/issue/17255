@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-19) 15 : 07 : 58 UTC
+  , issueUpdatedAt = 2017 (-04) (-19) 15 : 07 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17255/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17255")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17255
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 26114915
+        , simpleUserLogin = N "mboosh"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/26114915?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mboosh"
+        }
+  , issueTitle = "emailservice"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17255")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17255.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17255.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17255"
+  , issueCreatedAt = 2017 (-03) (-28) 20 : 00 : 09 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 217675308
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

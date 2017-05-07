@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-16) 07 : 31 : 47 UTC
+  , issueUpdatedAt = 2016 (-01) (-16) 07 : 31 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9003/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9003")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9003
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project dna.js to v0.4.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9003")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9003.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9003.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9003"
+  , issueCreatedAt = 2016 (-01) (-16) 07 : 31 : 43 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project dna.js to v0.4.3.\n\n@dnajs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"dna.js\",\n    \"repo\": \"dnajs/dna.js\",\n    \"files\": {\n      \"include\": [\"dna.min.js\", \"dna.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/dna.js\",\n    \"localVersions\": [\"0.3.8\", \"0.3.9\", \"0.4.0\", \"0.4.1\", \"0.4.2\"],\n    \"remoteVersions\": [\"current\", \"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\", \"v0.1.6\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.2.3\", \"v0.2.4\", \"v0.2.5\", \"v0.2.6\", \"v0.2.7\", \"v0.2.8\", \"v0.2.9\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.3.4\", \"v0.3.5\", \"v0.3.6\", \"v0.3.7\", \"v0.3.8\", \"v0.3.9\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/dna.js/update.json\",\n  \"version\": \"v0.4.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/dna.js/0.4.3\",\n  \"branch\": \"dna.js/v0.4.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127008230
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

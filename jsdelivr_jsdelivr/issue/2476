@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-24) 02 : 40 : 20 UTC
+  , issueUpdatedAt = 2014 (-11) (-24) 02 : 41 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2476/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2476")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2476
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 336433
+        , simpleUserLogin = N "kevinoid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/336433?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kevinoid"
+        }
+  , issueTitle = "Update project angular.bootstrap to 0.12.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2476")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2476.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2476.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2476"
+  , issueCreatedAt = 2014 (-11) (-24) 02 : 39 : 11 UTC
+  , issueBody =
+      Just
+        "This pull request adds the 0.12.0 release of UI Bootstrap from AngularUI.  The files are the versions downloaded from https://angular-ui.github.io/bootstrap/ as the project does not keep built files in their repository.\n\nI hope you find it useful,\nKevin\n"
+  , issueState = StateClosed
+  , issueId = Id 49851197
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

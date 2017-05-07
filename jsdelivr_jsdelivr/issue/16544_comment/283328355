@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-03) (-01) 12 : 34 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6192491
+        , simpleUserLogin = N "MartinKolarik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6192491?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MartinKolarik"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/283328355"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16544#issuecomment-283328355"
+  , issueCommentCreatedAt = 2017 (-03) (-01) 12 : 33 : 28 UTC
+  , issueCommentBody =
+      "Project data are loaded via JS directly from Algolia and not cached. For some reason Algolia data don't get updated (it's still showing the old values)."
+  , issueCommentId = 283328355
+  }

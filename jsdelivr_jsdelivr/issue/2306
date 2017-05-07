@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-10) 23 : 24 : 36 UTC
+  , issueUpdatedAt = 2014 (-11) (-10) 23 : 24 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2306/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2306")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2306
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1102138
+        , simpleUserLogin = N "sdr0x07b6"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1102138?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sdr0x07b6"
+        }
+  , issueTitle =
+      "Registered \"jQuery.inview 0.1\" issues an error. It was replaced."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2306")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2306.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2306.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2306"
+  , issueCreatedAt = 2014 (-11) (-10) 23 : 22 : 48 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 48327815
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

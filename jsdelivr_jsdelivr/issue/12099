@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-10) 01 : 20 : 14 UTC
+  , issueUpdatedAt = 2016 (-06) (-10) 01 : 20 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12099/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12099")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12099
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 55913
+        , simpleUserLogin = N "leandromoreira"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/55913?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/leandromoreira"
+        }
+  , issueTitle = "adds support for clappr stats"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12099")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12099.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12099.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12099"
+  , issueCreatedAt = 2016 (-06) (-10) 01 : 19 : 36 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 159541659
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

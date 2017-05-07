@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-05) 13 : 01 : 44 UTC
+  , issueUpdatedAt = 2016 (-03) (-05) 13 : 01 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10191/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/10191")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10191
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17548159
+        , simpleUserLogin = N "alexeenka"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/17548159?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/alexeenka"
+        }
+  , issueTitle = "Please, add more libs for angular bootstrap "
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10191"
+  , issueCreatedAt = 2016 (-02) (-29) 14 : 15 : 25 UTC
+  , issueBody =
+      Just
+        "On https://www.jsdelivr.com/projects/angular.bootstrap last version is **0.13.3**\nBut it's already **1.2.1** version on https://angular-ui.github.io/bootstrap/\n\nThanks\n"
+  , issueState = StateClosed
+  , issueId = Id 137266336
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

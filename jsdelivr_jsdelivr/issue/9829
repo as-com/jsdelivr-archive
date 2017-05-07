@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-17) 20 : 42 : 58 UTC
+  , issueUpdatedAt = 2016 (-02) (-17) 20 : 42 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9829/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9829")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9829
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 512724
+        , simpleUserLogin = N "slackersoft"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/512724?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/slackersoft"
+        }
+  , issueTitle = "Add auto-update config for jasmine"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9829")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9829.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9829.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9829"
+  , issueCreatedAt = 2016 (-02) (-17) 18 : 57 : 41 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 134367688
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

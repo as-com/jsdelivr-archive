@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-22) 01 : 59 : 22 UTC
+  , issueUpdatedAt = 2014 (-01) (-22) 01 : 59 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/275/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/275")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 275
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5234061
+        , simpleUserLogin = N "kavingct"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5234061?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kavingct"
+        }
+  , issueTitle = "Create date-rules.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/275")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/275.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/275.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/275"
+  , issueCreatedAt = 2014 (-01) (-21) 17 : 10 : 17 UTC
+  , issueBody =
+      Just "Added initial version of date-rules.js library.\n"
+  , issueState = StateClosed
+  , issueId = Id 26016313
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

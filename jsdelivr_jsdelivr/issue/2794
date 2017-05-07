@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-20) 14 : 43 : 30 UTC
+  , issueUpdatedAt = 2014 (-12) (-20) 14 : 43 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2794/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2794")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2794
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 188254
+        , simpleUserLogin = N "aFarkas"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/188254?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aFarkas"
+        }
+  , issueTitle = "add respimage to jsdelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2794")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2794.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2794.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2794"
+  , issueCreatedAt = 2014 (-12) (-19) 23 : 49 : 51 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 52541656
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

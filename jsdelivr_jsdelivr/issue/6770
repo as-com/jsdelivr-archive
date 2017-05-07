@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-08) 19 : 33 : 35 UTC
+  , issueUpdatedAt = 2015 (-09) (-08) 19 : 33 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6770/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6770")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6770
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1037458
+        , simpleUserLogin = N "justincy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1037458?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/justincy"
+        }
+  , issueTitle = "Add fs-traversal"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6770")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6770.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6770.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6770"
+  , issueCreatedAt = 2015 (-09) (-08) 19 : 31 : 10 UTC
+  , issueBody =
+      Just
+        "[fs-traversal](https://github.com/genealogysystems/fs-traversal)\n"
+  , issueState = StateClosed
+  , issueId = Id 105453562
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

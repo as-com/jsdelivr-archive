@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 28 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10788/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10788")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10788
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2637810
+        , simpleUserLogin = N "Cople"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/2637810?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Cople"
+        }
+  , issueTitle = "Add material-design-icons"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10788")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10788.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10788.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10788"
+  , issueCreatedAt = 2016 (-04) (-03) 04 : 31 : 26 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 145451667
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-13) 18 : 06 : 46 UTC
+  , issueUpdatedAt = 2014 (-09) (-13) 18 : 06 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1712/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1712")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1712
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1519888
+        , simpleUserLogin = N "hufyhang"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1519888?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hufyhang"
+        }
+  , issueTitle =
+      "Updated to version 0.1.2. New features: .require now returns the returned value of module(s)."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1712")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1712.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1712.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1712"
+  , issueCreatedAt = 2014 (-09) (-13) 17 : 23 : 08 UTC
+  , issueBody =
+      Just
+        "Updated to version 0.1.2.\nNew features: .require now returns the returned value of module(s).\n"
+  , issueState = StateClosed
+  , issueId = Id 42700954
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

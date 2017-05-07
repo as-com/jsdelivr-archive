@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-20) 17 : 23 : 55 UTC
+  , issueUpdatedAt = 2016 (-04) (-20) 17 : 23 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11170/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11170")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11170
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project timrjs to v0.7.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11170")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11170.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11170.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11170"
+  , issueCreatedAt = 2016 (-04) (-20) 16 : 34 : 32 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project timrjs to v0.7.3.\n\n@joesmith100\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"timrjs\",\n    \"repo\": \"joesmith100/timrjs\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"timr.js\", \"timr.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/timrjs\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.2\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.3.0\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\", \"v0.4.5\", \"v0.4.6\", \"v0.5.0\", \"v0.5.1\", \"v0.6.0\", \"v0.6.1\", \"v0.6.2\", \"v0.7.0\", \"v0.7.1\", \"v0.7.2\", \"v0.7.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/timrjs/update.json\",\n  \"versions\": [\"v0.7.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.7.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/timrjs/0.7.3\",\n  \"branch\": \"timrjs/v0.7.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 149821474
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

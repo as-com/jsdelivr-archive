@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-06) 21 : 13 : 44 UTC
+  , issueUpdatedAt = 2016 (-05) (-06) 21 : 13 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11416/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11416")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11416
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4730431
+        , simpleUserLogin = N "aaroniker"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4730431?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aaroniker"
+        }
+  , issueTitle = "Add project framy css 0.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11416")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11416.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11416.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11416"
+  , issueCreatedAt = 2016 (-05) (-03) 09 : 46 : 15 UTC
+  , issueBody = Just "Initial commit\n"
+  , issueState = StateClosed
+  , issueId = Id 152736407
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

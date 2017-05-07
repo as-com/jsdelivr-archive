@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-07) 11 : 37 : 56 UTC
+  , issueUpdatedAt = 2014 (-09) (-07) 11 : 37 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1596/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1596")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1596
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8562798
+        , simpleUserLogin = N "Animated2Monkey"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/8562798?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/Animated2Monkey"
+        }
+  , issueTitle = "Create leechkiller.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1596")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1596.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1596.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1596"
+  , issueCreatedAt = 2014 (-09) (-03) 00 : 11 : 29 UTC
+  , issueBody =
+      Just
+        "Javascript that prevents right clicking within the site. Has the ability to generate a custom message upon right click.\n"
+  , issueState = StateClosed
+  , issueId = Id 41769892
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

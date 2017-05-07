@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-12) 16 : 48 : 14 UTC
+  , issueUpdatedAt = 2016 (-03) (-12) 16 : 48 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9887/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/9887")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9887
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 249117
+        , simpleUserLogin = N "OlegKi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/249117?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/OlegKi"
+        }
+  , issueTitle = "Automatic update of free-jqgrid was incorrect"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9887"
+  , issueCreatedAt = 2016 (-02) (-20) 21 : 36 : 32 UTC
+  , issueBody =
+      Just
+        "The most files of free-jqgrid v4.13.0 (see [the pull request](https://github.com/jsdelivr/jsdelivr/pull/9885)) were not placed under https://cdn.jsdelivr.net/free-jqgrid/4.13.0/. The main reason of that is [the changes](https://github.com/jsdelivr/jsdelivr/commit/bc593f7d67a70f0ce7da13fc847390af42417532) in `update.json`.\n\nSince many last versions of free-jqgrid all files have low case only. The JavaScript files will be provided in two forms: as separate modules which can be loaded via RequireJS for example and as commulative file `jquery.jqgrid.src.js` or `jquery.jqgrid.src.js`. All min files are generated with source map files. Thus all non-minimized files could be needed during debugging. The correct `update.json` now will be the following:\n\n``` JavaScript\n{\n  \"packageManager\": \"github\",\n  \"name\": \"free-jqgrid\",\n  \"repo\": \"free-jqgrid/jqGrid\",\n  \"files\": {\n    \"basePath\": \"/\",\n    \"include\": [\n      \"./css/*\",\n      \"./js/*\",\n      \"./js/i18n/*\",\n      \"./js/min/*\",\n      \"./plugins/*\"\n    ]\n  }\n}\n```\n\nAll files from above directories contains the files which will be required either during main loading or could be required for debugging (.map and non-minimized .js).\n\nIf the file `info.ini` is used too, then one should change `mainfile` entry to\n\n``` JavaScript\nmainfile = \"js/jquery.jqgrid.min.js\"\n```\n\n(to fix the case of all files).\n\nI posted the pull request https://github.com/jsdelivr/jsdelivr/pull/9888 with the changes of `update.json`.\n\nThanks in advance!\n"
+  , issueState = StateClosed
+  , issueId = Id 135122984
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

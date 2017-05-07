@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-09) 15 : 59 : 50 UTC
+  , issueUpdatedAt = 2014 (-05) (-09) 16 : 02 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/780/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/780")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 780
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "add html5shiv v 3.7.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/780")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/780.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/780.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/780"
+  , issueCreatedAt = 2014 (-05) (-09) 15 : 59 : 26 UTC
+  , issueBody =
+      Just "add 3.7.2 https://github.com/jsdelivr/jsdelivr/issues/684\n"
+  , issueState = StateClosed
+  , issueId = Id 33184569
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

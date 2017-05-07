@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-31) 23 : 41 : 29 UTC
+  , issueUpdatedAt = 2016 (-10) (-31) 23 : 41 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14554/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14554")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14554
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project dinamical to v0.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14554")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14554.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14554.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14554"
+  , issueCreatedAt = 2016 (-10) (-31) 23 : 41 : 25 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project dinamical to v0.0.1.\n\n@estebanrfp\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"dinamical\",\n    \"repo\": \"estebanrfp/dinamical-rcms\",\n    \"files\": {\n      \"include\": [\"dinamical.client.min.js\", \"dinamical.admin.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/dinamical\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/dinamical/update.json\",\n  \"versions\": [\"v0.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/dinamical/0.0.1\",\n  \"branch\": \"dinamical/v0.0.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 186429720
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

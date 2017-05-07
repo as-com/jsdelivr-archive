@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-07) 12 : 25 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/90532299"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4205#issuecomment-90532299"
+  , issueCommentCreatedAt = 2015 (-04) (-07) 12 : 25 : 01 UTC
+  , issueCommentBody =
+      "Yes, you changed the path without updating our update.json\nThe bot has:\n\n```\nbasePath\": \"dist/\",\n    \"include\": [\"m8tro.min.css\"]\n```\n\nWhile the correct path is dist/css/\n"
+  , issueCommentId = 90532299
+  }

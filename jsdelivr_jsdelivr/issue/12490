@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 10 : 31 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 10 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12490/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12490")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12490
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 757431
+        , simpleUserLogin = N "DanCollinz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/757431?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DanCollinz"
+        }
+  , issueTitle = "Adding animate css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12490")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12490.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12490.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12490"
+  , issueCreatedAt = 2016 (-06) (-30) 17 : 10 : 48 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 163216886
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

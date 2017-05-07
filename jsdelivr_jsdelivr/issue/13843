@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-16) 22 : 34 : 04 UTC
+  , issueUpdatedAt = 2016 (-09) (-16) 22 : 34 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13843/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13843")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13843
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project hello.js to v1.14.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13843")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13843.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13843.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13843"
+  , issueCreatedAt = 2016 (-09) (-16) 22 : 34 : 00 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project hello.js to v1.14.0.\n\n@MrSwitch\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"hello.js\",\n    \"repo\": \"MrSwitch/hello.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/hello.js\",\n    \"localVersions\": [\"1.13.3\", \"1.13.4\", \"1.13.5\", \"1.13.6\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\", \"v0.1.6\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.2.3\", \"v0.2.4\", \"v0.2.5\", \"v0.2.6\", \"v0.2.7\", \"v0.2.8\", \"v0.2.9\", \"v0.2.10\", \"v0.2.11\", \"0.2.12\", \"v1.0.0\", \"v1.0.1\", \"v1.1.1\", \"v1.1.3\", \"v1.1.4\", \"v1.1.5\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.4\", \"v1.2.5\", \"v1.3.0\", \"v1.3.1\", \"v1.3.2\", \"v1.3.3\", \"v1.3.4\", \"v1.3.5\", \"v1.3.6\", \"v1.3.7\", \"v1.4\", \"v1.4.1\", \"v1.4.2\", \"v1.4.3\", \"v1.5.0\", \"v1.5.1\", \"v1.6.0\", \"v1.7.0\", \"v1.7.1\", \"v1.7.2\", \"v1.7.3\", \"v1.7.4\", \"v1.7.5\", \"v1.8.0\", \"v1.8.1\", \"v1.8.2\", \"v1.8.3\", \"v1.8.4\", \"v1.9.0\", \"v1.9.1\", \"v1.9.2\", \"v1.9.3\", \"1.9.4\", \"v1.9.4\", \"v1.9.5\", \"v1.9.6\", \"v1.9.7\", \"v1.9.8\", \"v1.9.9\", \"v1.10.0\", \"1.10.1\", \"v1.11.0\", \"v1.11.1\", \"v1.11.2\", \"v1.12.0\", \"v1.13.0\", \"v1.13.1\", \"v1.13.2\", \"v1.13.3\", \"v1.13.4\", \"v1.13.5\", \"v1.13.6\", \"v1.14.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/hello.js/update.json\",\n  \"versions\": [\"v1.14.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.14.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/hello.js/1.14.0\",\n  \"branch\": \"hello.js/v1.14.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 177533777
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

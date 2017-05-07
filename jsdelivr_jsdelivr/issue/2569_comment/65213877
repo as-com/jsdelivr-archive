@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-02) 10 : 59 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1165758
+        , simpleUserLogin = N "Toilal"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1165758?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Toilal"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65213877"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2569#issuecomment-65213877"
+  , issueCommentCreatedAt = 2014 (-12) (-02) 10 : 59 : 23 UTC
+  , issueCommentBody =
+      "Maybe rc9 is not seen because i've change format from `1.0.0-rc9` to `1.0.0-rc.9` (note the `.`) to be more [semver](http://semver.org/) compliant. But rc8 has not been updated too.\n"
+  , issueCommentId = 65213877
+  }

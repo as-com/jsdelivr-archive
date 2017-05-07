@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 17 : 34 : 09 UTC
+  , issueUpdatedAt = 2017 (-03) (-29) 18 : 40 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17249/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17249")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17249
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5474337
+        , simpleUserLogin = N "GPavlovic"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5474337?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GPavlovic"
+        }
+  , issueTitle = "Add Rrose leaflet plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17249")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17249.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17249.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17249"
+  , issueCreatedAt = 2017 (-03) (-28) 15 : 18 : 39 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 217596229
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

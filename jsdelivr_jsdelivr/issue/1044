@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-28) 17 : 31 : 48 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 17 : 36 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1044/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1044")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1044
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5982829
+        , simpleUserLogin = N "Todd-Werelius"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5982829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Todd-Werelius"
+        }
+  , issueTitle =
+      "Submitting a concated and minified version of AngularJS with all extention modules included"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1044")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1044.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1044.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1044"
+  , issueCreatedAt = 2014 (-06) (-28) 06 : 38 : 10 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 36719488
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

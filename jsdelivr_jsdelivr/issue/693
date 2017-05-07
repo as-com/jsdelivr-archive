@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-23) 20 : 03 : 09 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 06 : 54 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/693/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/693")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 693
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4458721
+        , simpleUserLogin = N "pyramids"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4458721?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pyramids"
+        }
+  , issueTitle = "added bitcoinjs-min.js v0.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/693")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/693.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/693.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/693"
+  , issueCreatedAt = 2014 (-04) (-23) 17 : 38 : 44 UTC
+  , issueBody =
+      Just
+        "Compiled from sources:\n\n```\ngit clone https://github.com/bitcoinjs/bitcoinjs-lib.git\ncd bitcoinjs-lib\ngit checkout tags/0.2.0\nnpm install\nnpm run-script compile\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 32082454
+  , issueComments = 13
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-23) 12 : 17 : 58 UTC
+  , issueUpdatedAt = 2016 (-02) (-23) 12 : 17 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9983/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9983")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9983
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project juicy-html to Polymer_0.5_deprecated"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9983")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9983.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9983.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9983"
+  , issueCreatedAt = 2016 (-02) (-23) 12 : 17 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project juicy-html to Polymer_0.5_deprecated.\n\n@Juicy\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"juicy-html\",\n    \"repo\": \"Juicy/juicy-html\",\n    \"files\": {\n      \"include\": [\"juicy-html.html\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/juicy-html\",\n    \"localVersions\": [\"0.0.20140720\", \"0.0.20141119\", \"1.0.0-pre.1\", \"1.0.0\", \"1.0.1\"],\n    \"remoteVersions\": [\"Polymer_0.5_deprecated\", \"v0.0.20131118\", \"v0.0.20131126\", \"v0.0.20131213\", \"v0.0.20131220\", \"v0.0.20140122\", \"v0.0.20140210\", \"0.0.20140221\", \"0.0.20140326\", \"0.0.20140429\", \"0.0.20140720\", \"0.0.20141119\", \"1.0.0-pre.1\", \"1.0.0\", \"1.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/juicy-html/update.json\",\n  \"versions\": [\"Polymer_0.5_deprecated\"],\n  \"updateRemote\": true,\n  \"version\": \"Polymer_0.5_deprecated\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/juicy-html/Polymer_0.5_deprecated\",\n  \"branch\": \"juicy-html/Polymer_0.5_deprecated\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 135721850
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

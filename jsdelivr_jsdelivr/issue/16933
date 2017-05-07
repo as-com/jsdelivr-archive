@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-15) 18 : 06 : 56 UTC
+  , issueUpdatedAt = 2017 (-03) (-15) 18 : 06 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16933/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16933")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16933
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tez-ui to v0.0.1-alpha"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16933")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16933.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16933.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16933"
+  , issueCreatedAt = 2017 (-03) (-15) 18 : 06 : 51 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tez-ui to v0.0.1-alpha.\n\n@dalisoft\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"tez-ui\",\n    \"repo\": \"dalisoft/tez-ui\",\n    \"files\": {\n      \"include\": [\"Tez.UI.js\", \"Tez.UI.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/tez-ui\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.0.1-alpha\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/tez-ui/update.json\",\n  \"versions\": [\"v0.0.1-alpha\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.0.1-alpha\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/tez-ui/0.0.1-alpha\",\n  \"branch\": \"tez-ui/v0.0.1-alpha\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 214478366
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

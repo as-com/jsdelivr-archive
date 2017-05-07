@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-13) 19 : 05 : 26 UTC
+  , issueUpdatedAt = 2015 (-04) (-13) 19 : 29 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4292/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4292")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4292
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5274747
+        , simpleUserLogin = N "hubdotcom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5274747?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hubdotcom"
+        }
+  , issueTitle = "Add update.json for isotope"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4292")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4292.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4292.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4292"
+  , issueCreatedAt = 2015 (-04) (-13) 19 : 04 : 30 UTC
+  , issueBody =
+      Just "Automatically update to latest releases of isotope\n"
+  , issueState = StateClosed
+  , issueId = Id 68169369
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

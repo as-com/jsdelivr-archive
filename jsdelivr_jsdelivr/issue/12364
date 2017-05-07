@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 13 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12364/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12364")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12364
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1440134
+        , simpleUserLogin = N "ashlinallen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1440134?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ashlinallen"
+        }
+  , issueTitle = "merge videogular"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12364")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12364.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12364.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12364"
+  , issueCreatedAt = 2016 (-06) (-24) 00 : 19 : 36 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 162051224
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-02) 23 : 02 : 04 UTC
+  , issueUpdatedAt = 2014 (-04) (-02) 23 : 02 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/559/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/559")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 559
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 145648
+        , simpleUserLogin = N "m242"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/145648?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/m242"
+        }
+  , issueTitle = "Add CORS-enabled Flash files."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/559")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/559.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/559.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/559"
+  , issueCreatedAt = 2014 (-04) (-02) 22 : 55 : 01 UTC
+  , issueBody =
+      Just
+        "Adding the cross-origin-enabled flash files from SoundManager2 distribution.\n"
+  , issueState = StateClosed
+  , issueId = Id 30733228
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

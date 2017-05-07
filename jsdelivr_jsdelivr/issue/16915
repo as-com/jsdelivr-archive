@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-15) 00 : 05 : 57 UTC
+  , issueUpdatedAt = 2017 (-03) (-15) 00 : 05 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16915/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16915")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16915
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project quicksettings to 3.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16915")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16915.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16915.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16915"
+  , issueCreatedAt = 2017 (-03) (-15) 00 : 05 : 51 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project quicksettings to 3.0.2.\n\n@bit101\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"quicksettings\",\n    \"repo\": \"bit101/quicksettings\",\n    \"files\": {\n      \"include\": [\"quicksettings.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/quicksettings\",\n    \"localVersions\": [\"1.0\", \"1.1\", \"1.2\", \"1.3\", \"1.4\", \"1.5\", \"2.0\", \"2.1\", \"2.2\", \"2.2.1\", \"3.0\", \"3.0.1\"],\n    \"remoteVersions\": [\"v1.0\", \"v1.1\", \"v1.2\", \"v1.3\", \"1.4\", \"1.5\", \"2.0\", \"2.1\", \"2.2\", \"2.2.1\", \"3.0\", \"3.0.1\", \"3.0.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/quicksettings/update.json\",\n  \"versions\": [\"3.0.2\"],\n  \"updateRemote\": true,\n  \"version\": \"3.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/quicksettings/3.0.2\",\n  \"branch\": \"quicksettings/3.0.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 214244234
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

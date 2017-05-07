@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-17) 17 : 44 : 42 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 18 : 52 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/966/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/966")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 966
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add jquery.pjax v1.9.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/966")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/966.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/966.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/966"
+  , issueCreatedAt = 2014 (-06) (-17) 17 : 44 : 06 UTC
+  , issueBody =
+      Just
+        "source : https://github.com/defunkt/jquery-pjax/archive/v1.9.1.tar.gz\n"
+  , issueState = StateClosed
+  , issueId = Id 35913732
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

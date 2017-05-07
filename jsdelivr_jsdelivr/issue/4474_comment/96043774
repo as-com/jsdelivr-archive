@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 19 : 39 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 378557
+        , simpleUserLogin = N "patrickarlt"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/378557?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/patrickarlt"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/96043774"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4474#issuecomment-96043774"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 19 : 39 : 41 UTC
+  , issueCommentBody =
+      "@jimaek Going to close and reopen with the proper directory name this since its taking forever to pull down the repo so i can squash commits.\n\nYes `esri-leaflet.js` is a minified file. I'm just following leaflets pattern for minified/unminified file names.\n"
+  , issueCommentId = 96043774
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-02) 08 : 39 : 08 UTC
+  , issueUpdatedAt = 2016 (-08) (-02) 08 : 39 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13024/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13024")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13024
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16397136
+        , simpleUserLogin = N "Syncfusion-JavaScript"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16397136?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/Syncfusion-JavaScript"
+        }
+  , issueTitle = "Update javascript files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13024")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13024.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13024.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13024"
+  , issueCreatedAt = 2016 (-08) (-02) 08 : 38 : 44 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 168829459
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

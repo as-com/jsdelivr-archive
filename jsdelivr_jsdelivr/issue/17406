@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-04) 15 : 08 : 51 UTC
+  , issueUpdatedAt = 2017 (-04) (-04) 15 : 08 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17406/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17406")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17406
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2373228
+        , simpleUserLogin = N "FordSoft"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2373228?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/FordSoft"
+        }
+  , issueTitle = "Add chatbotlab"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17406")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17406.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17406.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17406"
+  , issueCreatedAt = 2017 (-04) (-04) 14 : 59 : 53 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 219280356
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

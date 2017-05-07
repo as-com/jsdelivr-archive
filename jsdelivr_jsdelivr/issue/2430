@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-19) 20 : 09 : 40 UTC
+  , issueUpdatedAt = 2014 (-11) (-19) 20 : 09 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2430/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2430")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2430
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project particles.js to 1.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2430")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2430.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2430.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2430"
+  , issueCreatedAt = 2014 (-11) (-19) 20 : 07 : 06 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project particles.js to 1.0.3.\n\n@VincentGarreau\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"particles.js\",\n    \"repo\": \"VincentGarreau/particles.js\",\n    \"files\": {\n      \"include\": [\"particles.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/particles.js\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/particles.js/1.0.3\",\n  \"branch\": \"particles.js/1.0.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 49446526
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

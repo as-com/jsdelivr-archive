@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-30) 20 : 53 : 42 UTC
+  , issueUpdatedAt = 2014 (-06) (-30) 20 : 53 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1078/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1078")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1078
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 383634
+        , simpleUserLogin = N "janpieterz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/383634?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/janpieterz"
+        }
+  , issueTitle = "Added jquery hoverdir and jquery.simpleweather"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1078")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1078.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1078.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1078"
+  , issueCreatedAt = 2014 (-06) (-30) 12 : 51 : 02 UTC
+  , issueBody =
+      Just
+        "Added the jquery.hoverdir plugin and the simpleweather plugin.\n"
+  , issueState = StateClosed
+  , issueId = Id 36794318
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 31 : 11 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 31 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12774/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12774")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12774
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6207427
+        , simpleUserLogin = N "kalitine"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/6207427?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kalitine"
+        }
+  , issueTitle = "Patch 1 - Netflux"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12774")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12774.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12774.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12774"
+  , issueCreatedAt = 2016 (-07) (-18) 08 : 48 : 32 UTC
+  , issueBody =
+      Just
+        "Netflux is an abstract peer to peer client transport API based on WebRTC and WebSocket.\n"
+  , issueState = StateClosed
+  , issueId = Id 166047122
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-24) 05 : 35 : 25 UTC
+  , issueUpdatedAt = 2017 (-01) (-24) 05 : 35 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15939/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15939")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15939
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1010430
+        , simpleUserLogin = N "brycekahle"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1010430?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/brycekahle"
+        }
+  , issueTitle = "sockjs: Add sourcemaps and non-minified files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15939")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15939.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15939.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15939"
+  , issueCreatedAt = 2017 (-01) (-23) 23 : 50 : 03 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 202685449
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

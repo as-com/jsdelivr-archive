@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-22) 10 : 14 : 57 UTC
+  , issueUpdatedAt = 2014 (-07) (-24) 15 : 24 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/842/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/842")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 842
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4448836
+        , simpleUserLogin = N "jbutko"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4448836?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jbutko"
+        }
+  , issueTitle = "Added stickyNavbar.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/842")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/842.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/842.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/842"
+  , issueCreatedAt = 2014 (-05) (-22) 10 : 08 : 04 UTC
+  , issueBody =
+      Just
+        "stickyNavbar.js: Fancy sticky navigation jQuery plugin with smart anchor link highlighting\n\nmore info: https://github.com/jbutko/stickyNavbar.js\ndemo: http://www.jozefbutko.com/stickynavbar/\n"
+  , issueState = StateClosed
+  , issueId = Id 34067615
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-05) 19 : 34 : 21 UTC
+  , issueUpdatedAt = 2016 (-10) (-05) 19 : 34 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14233/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14233")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14233
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project mojs-curve-editor to 1.4.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14233")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14233.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14233.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14233"
+  , issueCreatedAt = 2016 (-10) (-05) 19 : 34 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project mojs-curve-editor to 1.4.3.\n\n@legomushroom\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"mojs-curve-editor\",\n    \"repo\": \"legomushroom/mojs-curve-editor\",\n    \"files\": {\n      \"include\": [\"app/build/mojs-curve-editor.js\", \"app/build/mojs-curve-editor.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/mojs-curve-editor\",\n    \"localVersions\": [\"1.0.2\"],\n    \"remoteVersions\": [\"0.1.0\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.4.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/mojs-curve-editor/update.json\",\n  \"versions\": [\"1.4.3\"],\n  \"updateRemote\": true,\n  \"version\": \"1.4.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/mojs-curve-editor/1.4.3\",\n  \"branch\": \"mojs-curve-editor/1.4.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 181245183
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-11) 19 : 17 : 42 UTC
+  , issueUpdatedAt = 2014 (-05) (-11) 19 : 17 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/736/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/736")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 736
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle =
+      "Not found when using single HTTP request method when Authors change file names/structures"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/736"
+  , issueCreatedAt = 2014 (-05) (-01) 05 : 27 : 05 UTC
+  , issueBody =
+      Just
+        "Thanks to @apeckham for reporting this issue here: https://github.com/jsdelivr/jsdelivr/commit/3af194c61b6d377604cb1ef7d2c3a2bc782653d3#commitcomment-6178858\n\nWhen a library is first added a mainfile is set in info.ini. However, if the author changes the filename in future versions then the jsDelivr method of using 1 HTTP request for loading multiple files fails because the specific mainfile is not present.\n\nThanks to the new bot, we will spot when the mainfile is missing in new Pull Requests. However, we need to define a protocol on how to handle author changes in filenames. Renaming the files to match the old structure is not a long-term solution. Essentially we need to say starting at version X \"fileB.min.js\" is the mainfile and not \"fileA.min.js.\"\n"
+  , issueState = StateClosed
+  , issueId = Id 32595603
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-11) 21 : 57 : 38 UTC
+  , issueUpdatedAt = 2014 (-10) (-13) 21 : 10 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1937/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1937")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1937
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6333719
+        , simpleUserLogin = N "lineardevon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6333719?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lineardevon"
+        }
+  , issueTitle = "Create update.json for REM-unit-polyfill"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1937")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1937.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1937.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1937"
+  , issueCreatedAt = 2014 (-10) (-07) 02 : 58 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 45062216
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

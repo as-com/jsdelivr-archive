@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-23) 18 : 14 : 53 UTC
+  , issueUpdatedAt = 2016 (-02) (-23) 18 : 23 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10073/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10073")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10073
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 249117
+        , simpleUserLogin = N "OlegKi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/249117?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/OlegKi"
+        }
+  , issueTitle = "Add missing files of free jqGrid 4.13.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10073")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10073.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10073.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10073"
+  , issueCreatedAt = 2016 (-02) (-23) 18 : 05 : 46 UTC
+  , issueBody =
+      Just
+        "Add files, which was not added by automatic update of free-jqgrid. See https://github.com/jsdelivr/jsdelivr/issues/9887 for more details.\n"
+  , issueState = StateClosed
+  , issueId = Id 135815893
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

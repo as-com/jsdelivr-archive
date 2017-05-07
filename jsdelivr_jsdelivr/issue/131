@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-29) 15 : 17 : 19 UTC
+  , issueUpdatedAt = 2013 (-10) (-29) 15 : 17 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/131/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/131")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 131
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1915268
+        , simpleUserLogin = N "irazasyed"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1915268?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/irazasyed"
+        }
+  , issueTitle = "Corrected files - threejs r62"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/131")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/131.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/131.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/131"
+  , issueCreatedAt = 2013 (-10) (-29) 15 : 10 : 20 UTC
+  , issueBody =
+      Just "Sorry about the previous pull, Updated with correct files.\n"
+  , issueState = StateClosed
+  , issueId = Id 21763175
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

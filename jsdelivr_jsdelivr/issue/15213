@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-07) 22 : 27 : 08 UTC
+  , issueUpdatedAt = 2016 (-12) (-07) 22 : 27 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15213/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15213")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15213
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1068356
+        , simpleUserLogin = N "benallfree"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1068356?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/benallfree"
+        }
+  , issueTitle = "Add bootstrap-richarea-images"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15213")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15213.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15213.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15213"
+  , issueCreatedAt = 2016 (-12) (-05) 20 : 19 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 193599792
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

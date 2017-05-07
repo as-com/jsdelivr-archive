@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-05) 11 : 14 : 49 UTC
+  , issueUpdatedAt = 2014 (-11) (-05) 11 : 14 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2218/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2218")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2218
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jstat to 1.0.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2218")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2218.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2218.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2218"
+  , issueCreatedAt = 2014 (-11) (-05) 08 : 04 : 35 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jstat to 1.0.8.\n\n@jstat\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jstat\",\n    \"repo\": \"jstat/jstat\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"jstat.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jstat\",\n    \"localVersions\": [\"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\"],\n    \"remoteVersions\": [\"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.0.8\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.0.8\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jstat/1.0.8\",\n  \"branch\": \"jstat/1.0.8\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 47809430
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

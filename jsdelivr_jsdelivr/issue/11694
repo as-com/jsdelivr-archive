@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-19) 19 : 09 : 54 UTC
+  , issueUpdatedAt = 2016 (-05) (-19) 19 : 09 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11694/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11694")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11694
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1402524
+        , simpleUserLogin = N "AlessandroMenti"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1402524?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/AlessandroMenti"
+        }
+  , issueTitle = "Add missing genetic.js reference in update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11694")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11694.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11694.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11694"
+  , issueCreatedAt = 2016 (-05) (-18) 22 : 22 : 11 UTC
+  , issueBody =
+      Just
+        "The Genetic.js library requires **both** files in the lib/ directory of the source repository (dist.js and genetic.js) to be redistributed; however, in my last merge request (#11668), I mistakenly specified only the first one in update.json.\n\nThis merge request adds the second one.\n"
+  , issueState = StateClosed
+  , issueId = Id 155615117
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

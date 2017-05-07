@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-03) 13 : 12 : 33 UTC
+  , issueUpdatedAt = 2014 (-08) (-06) 08 : 42 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/407/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/407")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 407
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1423566
+        , simpleUserLogin = N "johngeorgewright"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1423566?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/johngeorgewright"
+        }
+  , issueTitle = "Added angular.xml v1.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/407")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/407.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/407.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/407"
+  , issueCreatedAt = 2014 (-03) (-03) 10 : 52 : 15 UTC
+  , issueBody =
+      Just
+        "Please except [the new release of angular.xml](https://github.com/johngeorgewright/angular-xml/releases/tag/v1.0.2) to [patch the integration of ActiveXObject](https://github.com/johngeorgewright/angular-xml/pull/16).\n\nThanks,\njohngeorgewright.\n"
+  , issueState = StateClosed
+  , issueId = Id 28612903
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

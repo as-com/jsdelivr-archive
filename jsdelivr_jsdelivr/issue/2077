@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-21) 12 : 01 : 39 UTC
+  , issueUpdatedAt = 2014 (-10) (-21) 12 : 01 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2077/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2077")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2077
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1813359
+        , simpleUserLogin = N "malihu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1813359?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/malihu"
+        }
+  , issueTitle = "Created update.json for jquery.mcustomscrollbar"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2077")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2077.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2077.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2077"
+  , issueCreatedAt = 2014 (-10) (-21) 02 : 25 : 07 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 46348106
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

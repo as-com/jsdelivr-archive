@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-09) 04 : 04 : 45 UTC
+  , issueUpdatedAt = 2017 (-01) (-10) 00 : 32 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15662/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15662")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15662
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4303
+        , simpleUserLogin = N "jdalton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4303?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jdalton"
+        }
+  , issueTitle = "Add inferno"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15662")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15662.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15662.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15662"
+  , issueCreatedAt = 2017 (-01) (-06) 21 : 32 : 44 UTC
+  , issueBody =
+      Just
+        "This PR adds [inferno](https://infernojs.org/), the extremely fast React-like JavaScript library for building modern user interfaces."
+  , issueState = StateClosed
+  , issueId = Id 199294408
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

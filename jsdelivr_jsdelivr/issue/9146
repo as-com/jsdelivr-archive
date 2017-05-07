@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-17) 16 : 07 : 43 UTC
+  , issueUpdatedAt = 2016 (-01) (-17) 16 : 07 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9146/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9146")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9146
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project yasgui-yasr to 2.6.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9146")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9146.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9146.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9146"
+  , issueCreatedAt = 2016 (-01) (-17) 16 : 07 : 35 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project yasgui-yasr to 2.6.5.\n\n@YASGUI\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"yasgui-yasr\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\", \"*.min.js.map\", \"*.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/yasr\",\n    \"localVersions\": [\"1.2.3\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"2.2.4\", \"2.3.1\", \"2.3.2\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"2.4.3\", \"2.4.4\", \"2.4.5\", \"2.4.6\", \"2.4.8\", \"2.4.9\", \"2.4.10\", \"2.4.11\", \"2.4.12\", \"2.4.13\", \"2.4.14\", \"2.4.15\", \"2.5.0\", \"2.5.1\", \"2.5.2\", \"2.5.3\", \"2.5.4\", \"2.5.5\", \"2.6.0\", \"2.6.1\", \"2.6.2\", \"2.6.3\"],\n    \"remoteVersions\": [\"0.0.0\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.1.6\", \"1.1.7\", \"1.1.8\", \"1.1.9\", \"1.1.10\", \"1.2.1\", \"1.2.3\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"2.2.4\", \"2.3.0\", \"2.3.1\", \"2.3.2\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"2.4.3\", \"2.4.4\", \"2.4.5\", \"2.4.6\", \"2.4.7\", \"2.4.8\", \"2.4.9\", \"2.4.10\", \"2.4.11\", \"2.4.12\", \"2.4.13\", \"2.4.14\", \"2.4.15\", \"2.5.0\", \"2.5.1\", \"2.5.2\", \"2.5.3\", \"2.5.4\", \"2.5.5\", \"2.6.0\", \"2.6.1\", \"2.6.2\", \"2.6.3\", \"2.6.4\", \"2.6.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/yasr/update.json\",\n  \"versions\": [\"2.6.5\"],\n  \"updateRemote\": true,\n  \"version\": \"2.6.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/yasr/2.6.5\",\n  \"branch\": \"yasgui-yasr/2.6.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127104866
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

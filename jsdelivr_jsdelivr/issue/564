@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-03) 13 : 21 : 14 UTC
+  , issueUpdatedAt = 2014 (-04) (-03) 13 : 21 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/564/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/564")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 564
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3757971
+        , simpleUserLogin = N "ymatuhin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3757971?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ymatuhin"
+        }
+  , issueTitle = "update to bookmarklet"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/564")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/564.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/564.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/564"
+  , issueCreatedAt = 2014 (-04) (-03) 13 : 20 : 25 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 30774257
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

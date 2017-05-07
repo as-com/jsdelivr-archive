@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-07) 08 : 40 : 47 UTC
+  , issueUpdatedAt = 2015 (-05) (-07) 08 : 40 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4658/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4658")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4658
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project mojs to 0.117.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4658")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4658.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4658.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4658"
+  , issueCreatedAt = 2015 (-05) (-07) 08 : 40 : 38 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project mojs to 0.117.5.\n\n@legomushroom\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"mojs\",\n    \"repo\": \"legomushroom/mojs\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"mo.js\", \"mo.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/mojs\",\n    \"localVersions\": [\"0.110.0\", \"0.110.1\", \"0.114.4\", \"0.117.0\"],\n    \"remoteVersions\": [\"0.110.0\", \"0.110.1\", \"0.114.4\", \"0.117.0\", \"0.117.5\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.117.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/mojs/0.117.5\",\n  \"branch\": \"mojs/0.117.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 73899601
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

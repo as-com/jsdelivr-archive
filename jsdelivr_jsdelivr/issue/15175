@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-05) 16 : 52 : 38 UTC
+  , issueUpdatedAt = 2016 (-12) (-05) 16 : 52 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15175/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15175")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15175
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4296898
+        , simpleUserLogin = N "shawnjohnson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4296898?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/shawnjohnson"
+        }
+  , issueTitle = "Add files for regsgov-comment-widget"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15175")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15175.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15175.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15175"
+  , issueCreatedAt = 2016 (-12) (-02) 21 : 47 : 48 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 193225748
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

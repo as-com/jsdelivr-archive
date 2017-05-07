@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-10) 23 : 05 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 32864
+        , simpleUserLogin = N "lucasmundim"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/32864?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lucasmundim"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/78167849"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/3809#issuecomment-78167849"
+  , issueCommentCreatedAt = 2015 (-03) (-10) 23 : 05 : 12 UTC
+  , issueCommentBody =
+      "Is there a way to force the purge of this cache? Because this can be problematic for users linking to the \"latest\" if a broken version is cached.\n"
+  , issueCommentId = 78167849
+  }

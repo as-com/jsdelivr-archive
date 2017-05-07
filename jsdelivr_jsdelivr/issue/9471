@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-31) 09 : 34 : 20 UTC
+  , issueUpdatedAt = 2016 (-01) (-31) 09 : 34 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9471/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9471")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9471
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project renuo-upload to 1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9471")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9471.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9471.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9471"
+  , issueCreatedAt = 2016 (-01) (-31) 09 : 33 : 35 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project renuo-upload to 1.0.0.\n\n@renuo\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"renuo-upload\",\n    \"repo\": \"renuo/renuo-upload\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/renuo-upload\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/renuo-upload/update.json\",\n  \"versions\": [\"1.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/renuo-upload/1.0.0\",\n  \"branch\": \"renuo-upload/1.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 130106933
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

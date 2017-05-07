@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-23) 05 : 33 : 16 UTC
+  , issueUpdatedAt = 2016 (-04) (-23) 05 : 33 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11229/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11229")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11229
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jwarby to v0.3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11229")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11229.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11229.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11229"
+  , issueCreatedAt = 2016 (-04) (-23) 05 : 33 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jwarby to v0.3.1.\n\n@jwarby\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jwarby\",\n    \"repo\": \"jwarby/jquery-awesome-cursor\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.awesome.cursor\",\n    \"localVersions\": [\"0.1.4\", \"0.1.5\", \"0.2.0\", \"0.3.0\"],\n    \"remoteVersions\": [\"v0.0.1\", \"v0.0.2\", \"v0.0.3\", \"v0.0.4\", \"v0.0.5\", \"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\", \"v0.2.0\", \"v0.3.0\", \"v0.3.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.awesome.cursor/update.json\",\n  \"versions\": [\"v0.3.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.3.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.awesome.cursor/0.3.1\",\n  \"branch\": \"jwarby/v0.3.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 150519591
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-04) 14 : 10 : 10 UTC
+  , issueUpdatedAt = 2016 (-02) (-04) 14 : 10 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9577/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9577")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9577
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tastytabs to 2.0.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9577")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9577.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9577.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9577"
+  , issueCreatedAt = 2016 (-02) (-04) 14 : 03 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tastytabs to 2.0.6.\n\n@maT7ew\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"tastytabs\",\n    \"repo\": \"maT7ew/TastyTabs\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"TastyTabs.min.js\", \"TastyTabs.min.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.tastytabs\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.0.4\", \"2.0.5\", \"2.0.6\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.tastytabs/update.json\",\n  \"versions\": [\"2.0.6\"],\n  \"updateRemote\": true,\n  \"version\": \"2.0.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.tastytabs/2.0.6\",\n  \"branch\": \"tastytabs/2.0.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 131356370
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

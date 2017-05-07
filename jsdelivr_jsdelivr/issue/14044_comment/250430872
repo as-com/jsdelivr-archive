@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-09) (-29) 10 : 38 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/250430872"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14044#issuecomment-250430872"
+  , issueCommentCreatedAt = 2016 (-09) (-29) 10 : 38 : 03 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _highcharts_ between _highmaps-v1.1.10_ and _5.0.0_ there was a change in file structure  \n  \n  ``` diff\n  + modules/series-label.js\n  + modules/series-label.src.js\n  - highcharts-3d.js\n  - highcharts-more.js\n  - highcharts.js\n  - highmaps.js\n  - highstock.js\n  - adapters/standalone-framework.js\n  - adapters/standalone-framework.src.js\n  - modules/broken-axis.js\n  - modules/funnel.js\n  - modules/funnel.src.js\n  - themes/dark-blue.js\n  - themes/dark-green.js\n  - themes/dark-unica.js\n  - themes/gray.js\n  - themes/grid-light.js\n  - themes/grid.js\n  - themes/sand-signika.js\n  - themes/skies.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_It's not fully shipped until it's fast._\n"
+  , issueCommentId = 250430872
+  }

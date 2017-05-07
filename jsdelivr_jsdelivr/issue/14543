@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-31) 23 : 03 : 41 UTC
+  , issueUpdatedAt = 2016 (-10) (-31) 23 : 03 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14543/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14543")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14543
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project clappr-stats to 0.0.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14543")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14543.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14543.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14543"
+  , issueCreatedAt = 2016 (-10) (-31) 23 : 03 : 37 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project clappr-stats to 0.0.6.\n\n@leandromoreira\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"clappr-stats\",\n    \"repo\": \"leandromoreira/clappr-stats\",\n    \"files\": {\n      \"include\": [\"clappr-stats.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/clappr.stats\",\n    \"localVersions\": [\"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/clappr.stats/update.json\",\n  \"versions\": [\"0.0.6\"],\n  \"updateRemote\": true,\n  \"version\": \"0.0.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/clappr.stats/0.0.6\",\n  \"branch\": \"clappr-stats/0.0.6\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 186424230
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

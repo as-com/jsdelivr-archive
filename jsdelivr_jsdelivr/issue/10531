@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-19) 10 : 37 : 51 UTC
+  , issueUpdatedAt = 2016 (-03) (-19) 10 : 37 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10531/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10531")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10531
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 13163206
+        , simpleUserLogin = N "borkus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/13163206?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/borkus"
+        }
+  , issueTitle = "New pull request"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10531")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10531.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10531.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10531"
+  , issueCreatedAt = 2016 (-03) (-18) 22 : 20 : 19 UTC
+  , issueBody =
+      Just
+        "Good Afternoon! New pull request for my js file: combo1.js - it is a combination of Cufon font and JQuery  Smooth Navigational Menu effects.\nThank you!\n"
+  , issueState = StateClosed
+  , issueId = Id 141991548
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

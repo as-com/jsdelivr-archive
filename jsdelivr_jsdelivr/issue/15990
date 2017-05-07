@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-25) 23 : 05 : 18 UTC
+  , issueUpdatedAt = 2017 (-01) (-25) 23 : 05 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15990/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15990")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15990
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project mrmrs_colors to 3.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15990")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15990.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15990.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15990"
+  , issueCreatedAt = 2017 (-01) (-25) 23 : 05 : 14 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project mrmrs_colors to 3.0.0.\n\n@mrmrs\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"mrmrs_colors\",\n    \"repo\": \"mrmrs/colors\",\n    \"files\": {\n      \"include\": [\"css/colors.min.css\", \"css/colors.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/mrmrs_colors\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.2.0\", \"2.0.0\", \"v2.2.0\", \"3.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/mrmrs_colors/update.json\",\n  \"versions\": [\"v2.2.0\", \"3.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"3.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/mrmrs_colors/3.0.0\",\n  \"branch\": \"mrmrs_colors/3.0.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 203249261
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

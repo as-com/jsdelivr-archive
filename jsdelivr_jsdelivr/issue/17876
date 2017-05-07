@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2017 (-04) (-30) 05 : 09 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17876/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/17876")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17876
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 20853987
+        , simpleUserLogin = N "msivakr"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/20853987?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/msivakr"
+        }
+  , issueTitle = "SSL Certificate SHA1 issue on Chrome"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17876"
+  , issueCreatedAt = 2017 (-04) (-30) 05 : 09 : 44 UTC
+  , issueBody =
+      Just
+        "> You attempted to reach cdn.jsdelivr.net, but the server presented a certificate signed using a weak signature algorithm (such as SHA-1). This means that the security credentials the server presented could have been forged, and the server may not be the server you expected (you may be communicating with an attacker).\r\n\r\nI am getting this error message over 15 days, how to sort this?"
+  , issueState = StateOpen
+  , issueId = Id 225304831
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

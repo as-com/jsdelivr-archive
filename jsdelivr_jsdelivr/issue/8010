@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-19) 14 : 39 : 34 UTC
+  , issueUpdatedAt = 2015 (-11) (-19) 14 : 39 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8010/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8010")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8010
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1639302
+        , simpleUserLogin = N "abishekrsrikaanth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1639302?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/abishekrsrikaanth"
+        }
+  , issueTitle = "Adding Library Magnifier.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8010")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8010.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8010.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8010"
+  , issueCreatedAt = 2015 (-11) (-19) 14 : 34 : 30 UTC
+  , issueBody =
+      Just
+        "Repo: https://github.com/mark-rolich/Magnifier.js\nURL: http://mark-rolich.github.io/Magnifier.js/\n\nThis repo does have releases but they haven't made a release in the last 2 years but there have been fixes on the master so I created a release folder `1.2` and added the files in here minified. Hope it is OK.\n"
+  , issueState = StateClosed
+  , issueId = Id 117826211
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

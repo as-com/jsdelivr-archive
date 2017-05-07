@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-19) 18 : 34 : 16 UTC
+  , issueUpdatedAt = 2016 (-12) (-19) 18 : 34 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15417/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15417")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15417
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.fullpage to 2.9.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15417")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15417.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15417.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15417"
+  , issueCreatedAt = 2016 (-12) (-19) 18 : 34 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.fullpage to 2.9.2.\n\n@alvarotrigo\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.fullpage\",\n    \"repo\": \"alvarotrigo/fullPage.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"jquery.fullpage.min.js\", \"jquery.fullpage.min.css\", \"jquery.fullpage.extensions.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.fullpage\",\n    \"localVersions\": [\"2.0.2\", \"2.1.8\", \"2.4.1\", \"2.5.0\", \"2.5.9\", \"2.8.8\", \"2.8.9\", \"2.9.0\", \"2.9.1\"],\n    \"remoteVersions\": [\"v1.7\", \"v1.7.5\", \"v1.7.6\", \"v.2.0.1\", \"2.0.7\", \"2.2.1\", \"v.2.2.8\", \"2.4.1\", \"2.4.3\", \"2.4.6\", \"2.4.7\", \"2.4.8\", \"2.4.8.1\", \"2.4.9\", \"2.5.0\", \"2.5.1\", \"2.5.2\", \"2.5.3\", \"2.5.4\", \"2.5.5\", \"2.5.6\", \"2.5.7\", \"2.5.8\", \"2.5.9\", \"2.6.0\", \"2.6.1\", \"2.6.2\", \"2.6.3\", \"2.6.4\", \"2.6.5\", \"2.6.6\", \"2.6.7\", \"2.6.8\", \"2.6.9\", \"2.7.0\", \"2.7.1\", \"2.7.2\", \"2.7.3\", \"2.7.4\", \"2.7.5\", \"v.2.7.5\", \"2.7.6\", \"2.7.7\", \"2.7.8\", \"2.7.9\", \"2.8.0\", \"2.8.1\", \"2.8.2\", \"2.8.3\", \"2.8.4\", \"2.8.5\", \"2.8.6\", \"2.8.7\", \"2.8.8\", \"2.8.9\", \"2.9.0\", \"2.9.1\", \"2.9.1.1\", \"2.9.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.fullpage/update.json\",\n  \"versions\": [\"v1.7.6\", \"2.9.2\"],\n  \"updateRemote\": true,\n  \"version\": \"2.9.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.fullpage/2.9.2\",\n  \"branch\": \"jquery.fullpage/2.9.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 196488417
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

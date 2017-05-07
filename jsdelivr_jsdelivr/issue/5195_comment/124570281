@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-24) 16 : 14 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/124570281"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5195#issuecomment-124570281"
+  , issueCommentCreatedAt = 2015 (-07) (-24) 16 : 14 : 41 UTC
+  , issueCommentBody =
+      "Is this PR still accurate? Are you sure that no websites will break if we remove some of the old files?\nIf someone is using them they will get 404 errors\n"
+  , issueCommentId = 124570281
+  }

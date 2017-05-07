@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-10) 09 : 56 : 49 UTC
+  , issueUpdatedAt = 2015 (-07) (-10) 09 : 56 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5737/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5737")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5737
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4570908
+        , simpleUserLogin = N "sms200207"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4570908?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sms200207"
+        }
+  , issueTitle = "Compressed Jquery 1.10.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5737")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5737.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5737.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5737"
+  , issueCreatedAt = 2015 (-07) (-10) 05 : 58 : 31 UTC
+  , issueBody =
+      Just "min.js was not compressed.\nSo I re-compressed it\n"
+  , issueState = StateClosed
+  , issueId = Id 94222147
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

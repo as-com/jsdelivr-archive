@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-15) 17 : 53 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 108273
+        , simpleUserLogin = N "mgcrea"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/108273?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mgcrea"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/102471023"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4792#issuecomment-102471023"
+  , issueCommentCreatedAt = 2015 (-05) (-15) 17 : 53 : 57 UTC
+  , issueCommentBody =
+      "@megawac I unfortunately pushed a bad release (with `v2.2.1` dist files). Any chance you could pull the latest files from [the updated tag](https://github.com/mgcrea/angular-strap/commit/f0b04febb1491ea4104ff1217842d24009891b08)?\n"
+  , issueCommentId = 102471023
+  }

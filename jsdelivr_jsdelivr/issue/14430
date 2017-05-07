@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-20) 16 : 21 : 30 UTC
+  , issueUpdatedAt = 2016 (-10) (-20) 18 : 20 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14430/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14430")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14430
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3340262
+        , simpleUserLogin = N "tlvenn"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3340262?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tlvenn"
+        }
+  , issueTitle = "Add graphql-toolbox"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14430")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14430.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14430.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14430"
+  , issueCreatedAt = 2016 (-10) (-19) 13 : 28 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 183961781
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

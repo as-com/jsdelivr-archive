@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-15) 18 : 33 : 51 UTC
+  , issueUpdatedAt = 2014 (-04) (-15) 18 : 33 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/656/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/656")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 656
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 59507
+        , simpleUserLogin = N "bdukes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/59507?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bdukes"
+        }
+  , issueTitle = "Add knockout.validation (version 1.0.1 and 1.0.2)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/656")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/656.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/656.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/656"
+  , issueCreatedAt = 2014 (-04) (-15) 14 : 54 : 55 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 31560305
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

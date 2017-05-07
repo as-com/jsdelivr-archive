@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-31) 11 : 50 : 15 UTC
+  , issueUpdatedAt = 2016 (-03) (-31) 11 : 50 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10723/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10723")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10723
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5382443
+        , simpleUserLogin = N "FezVrasta"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5382443?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/FezVrasta"
+        }
+  , issueTitle = "Popper.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10723")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10723.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10723.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10723"
+  , issueCreatedAt = 2016 (-03) (-31) 09 : 39 : 56 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 144844876
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

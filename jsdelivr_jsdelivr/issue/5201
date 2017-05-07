@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-07) 09 : 17 : 12 UTC
+  , issueUpdatedAt = 2015 (-06) (-07) 09 : 17 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5201/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5201")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5201
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project slimscroll to v1.3.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5201")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5201.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5201.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5201"
+  , issueCreatedAt = 2015 (-06) (-07) 04 : 43 : 26 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project slimscroll to v1.3.6.\n\n@rochal\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"slimscroll\",\n    \"repo\": \"rochal/jQuery-slimScroll\",\n    \"files\": {\n      \"include\": [\"jquery.slimscroll.js\", \"jquery.slimscroll.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/slimscroll\",\n    \"localVersions\": [\"0.5.0\", \"0.6.5\", \"1.3.1\", \"1.3.2\", \"1.3.3\"],\n    \"remoteVersions\": [\"v0.1\", \"v0.2.1\", \"v0.2.3\", \"v0.2.4\", \"v0.2.5\", \"v0.2.6\", \"v0.2.7\", \"v0.3.0\", \"v0.4.0\", \"v0.4.3\", \"v0.4.4\", \"v0.5.0\", \"v0.6.0\", \"v0.6.5\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.0.8\", \"v1.0.9\", \"v1.1.0\", \"v1.1.1\", \"v1.2.0\", \"v1.3.0\", \"v1.3.1\", \"v1.3.2\", \"v1.3.3\", \"v1.3.4\", \"v1.3.5\", \"v1.3.6\"],\n    \"branchVersions\": [\"v1.3.4\"]\n  },\n  \"version\": \"v1.3.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/slimscroll/1.3.6\",\n  \"branch\": \"slimscroll/v1.3.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 85855659
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

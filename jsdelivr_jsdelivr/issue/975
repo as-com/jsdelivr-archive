@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-19) 03 : 36 : 33 UTC
+  , issueUpdatedAt = 2014 (-06) (-19) 03 : 36 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/975/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/975")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 975
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3504255
+        , simpleUserLogin = N "nooblike"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3504255?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nooblike"
+        }
+  , issueTitle = "Create info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/975")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/975.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/975.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/975"
+  , issueCreatedAt = 2014 (-06) (-18) 19 : 09 : 42 UTC
+  , issueBody = Just "info file for bootstrap-hover-dropdown\n"
+  , issueState = StateClosed
+  , issueId = Id 36017513
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

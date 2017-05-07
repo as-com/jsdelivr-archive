@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-29) 06 : 30 : 16 UTC
+  , issueUpdatedAt = 2017 (-01) (-29) 06 : 30 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16052/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16052")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16052
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 25410647
+        , simpleUserLogin = N "Alecgcast"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/25410647?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Alecgcast"
+        }
+  , issueTitle = "CDN"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16052")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16052.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16052.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16052"
+  , issueCreatedAt = 2017 (-01) (-29) 05 : 50 : 07 UTC
+  , issueBody = Just "upload files for CDN"
+  , issueState = StateClosed
+  , issueId = Id 203852540
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

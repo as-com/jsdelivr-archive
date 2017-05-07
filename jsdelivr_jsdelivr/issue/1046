@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-28) 14 : 15 : 49 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 23 : 31 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1046/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1046")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1046
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6192491
+        , simpleUserLogin = N "MartinKolarik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6192491?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MartinKolarik"
+        }
+  , issueTitle = "Missing charset for URLs with version aliasing"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1046"
+  , issueCreatedAt = 2014 (-06) (-28) 13 : 39 : 15 UTC
+  , issueBody =
+      Just
+        "Version aliased URLs send `Content-Type:application/x-javascript` header instead of `Content-Type:application/javascript; charset=utf-8` which means that non ASCII characters are not interpreted correctly.\n"
+  , issueState = StateClosed
+  , issueId = Id 36725287
+  , issueComments = 11
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-31) 10 : 21 : 43 UTC
+  , issueUpdatedAt = 2016 (-03) (-31) 10 : 21 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10716/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10716")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10716
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3761339
+        , simpleUserLogin = N "jtenner"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3761339?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jtenner"
+        }
+  , issueTitle = "e2d.js!  Hopefully this is done right..."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10716")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10716.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10716.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10716"
+  , issueCreatedAt = 2016 (-03) (-30) 22 : 08 : 14 UTC
+  , issueBody =
+      Just
+        "Can someone please check my work to see if it conforms to the spec?  I've done my best, and I'm sure I missed _something_.\n\nRegards,\n-Josh\n"
+  , issueState = StateClosed
+  , issueId = Id 144734610
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

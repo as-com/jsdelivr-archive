@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-19) 14 : 02 : 46 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 06 : 09 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/368/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/368")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 368
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add jquery.ztree v3.5.15"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/368")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/368.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/368.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/368"
+  , issueCreatedAt = 2014 (-02) (-18) 16 : 24 : 07 UTC
+  , issueBody =
+      Just
+        "Hello,\nI wanna add a jQuery tree plugin - zTree to this project, \"zTree is a multi-functional 'tree plug-ins.' based on jQuery. The main advantages of zTree includes excellent performance, flexible configuration, and the combination of multiple functions., you can find more detail about it on http://www.ztree.me/ & https://github.com/zTree/zTree_v3/ (though I think there are some problems on their website now)\nIf I need to do something more to match this project's format, please tell me.\nThanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 27806009
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

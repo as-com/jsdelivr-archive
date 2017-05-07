@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-30) 16 : 05 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/72223937"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3232#issuecomment-72223937"
+  , issueCommentCreatedAt = 2015 (-01) (-30) 16 : 05 : 09 UTC
+  , issueCommentBody =
+      "```\ngit reset --soft HEAD~9\ngit commit -am \"Add Rupyainr\"\ngit push -f origin master\n```\n"
+  , issueCommentId = 72223937
+  }

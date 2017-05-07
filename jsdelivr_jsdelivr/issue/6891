@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-15) 12 : 37 : 50 UTC
+  , issueUpdatedAt = 2015 (-09) (-15) 12 : 37 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6891/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6891")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6891
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1918350
+        , simpleUserLogin = N "ndamofli"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1918350?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ndamofli"
+        }
+  , issueTitle = "Create beenoise"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6891")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6891.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6891.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6891"
+  , issueCreatedAt = 2015 (-09) (-15) 12 : 22 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 106544041
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

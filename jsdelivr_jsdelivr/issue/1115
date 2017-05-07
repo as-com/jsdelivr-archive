@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-04) 22 : 02 : 07 UTC
+  , issueUpdatedAt = 2014 (-07) (-04) 22 : 02 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1115/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1115")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1115
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1939456
+        , simpleUserLogin = N "EnigmaSolved"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1939456?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/EnigmaSolved"
+        }
+  , issueTitle =
+      "Idea for Enabling .map File Support in Grouped Requests"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1115"
+  , issueCreatedAt = 2014 (-07) (-04) 18 : 58 : 01 UTC
+  , issueBody =
+      Just
+        "I was thinking about the Issue raised previously (https://github.com/jsdelivr/api/issues/27) of how to handle `.map` files in Grouped requests (since the relative path ends up being incorrect in that context).  I'm wondering if an automated process could be added to the processing of files when they are added/updated in jsDelivr such that the `sourceMappingURL`  data were changed to be a full path, instead of the relative path that would normally be in a given file?  For example, with [jQuery](http://www.jsdelivr.com/#!jquery) the `.map` declaration is normally: \n`//# sourceMappingURL=jquery.min.map`  \nUsing my idea, an automated, one-time process would change that to: \n`//# sourceMappingURL=//cdn.jsdelivr.net/jquery/2.1.1/jquery.min.map` \nIt seems that making that change when the file is _added_ to jsDelivr should be much more achievable as the full path can be known at that point (versus the problem with Grouped requests where there's no way to know what the full path should be, per the above Issue). \nIn theory, with a hard-coded full path browsers (and services that make use of .map files, such as error catching services [eg, https://qbaka.com ]) should then be able to find the `.map` file.  Note that I have _not_ done any testing on this yet (eg, like ensuring that a full, protocol-relative path will work with Chrome, etc.).  I'm just working with this idea conceptually at the moment.\n\nI don't know enough about how files which are added/updated to jsDelivr are currently processed to know if the above idea is at all feasible.  But given that there's some discussion going on about reworking/improving the architecture (https://github.com/jsdelivr/jsdelivr/issues/1036) perhaps (if the above idea has merit) this could be incorporated into future improvements.  :)\n\nPersonally I don't see `.map` support for Grouped requests being a _huge_ need, as they are for debugging, which ideally you're not doing on a production/live site (where you'd most want to use Grouped requests). However, what did get me thinking a bit about `.map` files is that some error monitoring services have support for them, and it is precisely when an error is reported that it is nice to have as much info as possible.  Percolating on that is what then led me to the above idea.  :)\n\nSean\n"
+  , issueState = StateClosed
+  , issueId = Id 37183071
+  , issueComments = 12
+  , issueMilestone = Nothing
+  }

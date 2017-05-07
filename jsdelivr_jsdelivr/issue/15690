@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-09) 04 : 36 : 12 UTC
+  , issueUpdatedAt = 2017 (-01) (-09) 04 : 36 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15690/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15690")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15690
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.tablesort to v0.0.11"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15690")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15690.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15690.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15690"
+  , issueCreatedAt = 2017 (-01) (-09) 04 : 36 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.tablesort to v0.0.11.\n\n@kylefox\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.tablesort\",\n    \"repo\": \"kylefox/jquery-tablesort\",\n    \"files\": {\n      \"include\": [\"jquery.tablesort.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.tablesort\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.0.5\", \"v0.0.6\", \"v0.0.7\", \"v0.0.8\", \"v0.0.9\", \"v0.0.10\", \"v0.0.11\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.tablesort/update.json\",\n  \"versions\": [\"v0.0.11\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.0.11\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.tablesort/0.0.11\",\n  \"branch\": \"jquery.tablesort/v0.0.11\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 199476432
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

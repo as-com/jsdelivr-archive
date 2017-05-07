@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 18 : 31 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 18 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13537/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13537")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13537
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4730431
+        , simpleUserLogin = N "aaroniker"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4730431?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aaroniker"
+        }
+  , issueTitle = "Add project gearUpload.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13537")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13537.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13537.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13537"
+  , issueCreatedAt = 2016 (-08) (-31) 13 : 19 : 09 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 174270931
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

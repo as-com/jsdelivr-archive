@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-13) 02 : 29 : 35 UTC
+  , issueUpdatedAt = 2015 (-07) (-13) 02 : 30 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5822/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/5822")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5822
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11050286
+        , simpleUserLogin = N "a-moses"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/11050286?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/a-moses"
+        }
+  , issueTitle = "why jsdelivr blocked  for 5 days"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5822"
+  , issueCreatedAt = 2015 (-07) (-12) 20 : 01 : 01 UTC
+  , issueBody =
+      Just
+        "https://cdn.jsdelivr.net/riot/2.2.2-beta/compiler.js\n\n Server not found  :(\n"
+  , issueState = StateClosed
+  , issueId = Id 94595259
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-16) 04 : 48 : 57 UTC
+  , issueUpdatedAt = 2016 (-09) (-16) 04 : 48 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13799/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13799")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13799
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11554109
+        , simpleUserLogin = N "salimmejdoub"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/11554109?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/salimmejdoub"
+        }
+  , issueTitle = "Create salimtest"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13799")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13799.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13799.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13799"
+  , issueCreatedAt = 2016 (-09) (-15) 14 : 03 : 18 UTC
+  , issueBody = Just "it just a test\n"
+  , issueState = StateClosed
+  , issueId = Id 177185905
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

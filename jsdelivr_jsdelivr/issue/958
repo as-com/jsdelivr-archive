@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-16) 17 : 11 : 39 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 21 : 44 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/958/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/958")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 958
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project require-css to 0.1.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/958")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/958.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/958.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/958"
+  , issueCreatedAt = 2014 (-06) (-16) 17 : 04 : 03 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project require-css to 0.1.4.\n\n@guybedford\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"require-css\",\n    \"repo\": \"guybedford/require-css\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"css.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/require-css\",\n    \"localVersions\": [\"0.1.3\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"0.0.8\", \"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.1.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/require-css/0.1.4\",\n  \"branch\": \"require-css/0.1.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 35815814
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-11) 18 : 38 : 24 UTC
+  , issueUpdatedAt = 2015 (-10) (-11) 18 : 41 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7281/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/7281")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7281
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6820
+        , simpleUserLogin = N "spicyj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6820?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/spicyj"
+        }
+  , issueTitle =
+      "React lastversion shows 0.14.0-rc1 instead of 0.14.0"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7281"
+  , issueCreatedAt = 2015 (-10) (-07) 23 : 46 : 52 UTC
+  , issueBody =
+      Just
+        "Can we make this show 0.14.0? Not sure if this is a stupid question.\n\nhttp://www.jsdelivr.com/projects/react\n"
+  , issueState = StateClosed
+  , issueId = Id 110342463
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

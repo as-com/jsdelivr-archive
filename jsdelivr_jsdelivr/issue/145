@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-13) 15 : 01 : 09 UTC
+  , issueUpdatedAt = 2013 (-11) (-13) 15 : 01 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/145/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/145")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 145
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 946315
+        , simpleUserLogin = N "Aymkdn"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/946315?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Aymkdn"
+        }
+  , issueTitle = "SharepointPlus v3.0.5 and v3.0.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/145")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/145.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/145.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/145"
+  , issueCreatedAt = 2013 (-11) (-13) 11 : 40 : 11 UTC
+  , issueBody =
+      Just "Two releases of SharepointPlus to add to jsDelivr. Thanks\n"
+  , issueState = StateClosed
+  , issueId = Id 22585952
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

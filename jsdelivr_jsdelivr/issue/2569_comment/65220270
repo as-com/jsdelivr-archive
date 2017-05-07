@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-02) 11 : 55 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65220270"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2569#issuecomment-65220270"
+  , issueCommentCreatedAt = 2014 (-12) (-02) 11 : 55 : 01 UTC
+  , issueCommentBody =
+      "I closed the rc8 update because I wanted to upload directly rc9.\nBut I believe the dot is messing things up.\n\nIf you see this:\n`\"remoteVersions\": [\"v0.1\", \"v0.2\", \"v0.3\", \"v0.4\", \"v0.4.2\", \"v0.4.3\", \"v0.5\", \"v0.5.0\", \"v0.5.1\", \"v0.6.0\", \"v.0.6.1\", \"v0.6.1\", \"v0.6.2\", \"v0.6.3\", \"v0.6.4\", \"v0.7.0\", \"v1.0.0-rc.9\", \"v1.0.0-rc1\", \"v1.0.0-rc2\", \"v1.0.0-rc3\", \"v1.0.0-rc4\", \"v1.0.0-rc5\", \"v1.0.0-rc6\", \"v1.0.0-rc7\", \"v1.0.0-rc8\"],`\n\nThe bot thinks that rc.9 is older than rc1\n"
+  , issueCommentId = 65220270
+  }

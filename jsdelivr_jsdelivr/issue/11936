@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 17 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11936/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11936")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11936
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3609772
+        , simpleUserLogin = N "richmilns"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3609772?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/richmilns"
+        }
+  , issueTitle = "Add select2-bootstrap-theme"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11936")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11936.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11936.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11936"
+  , issueCreatedAt = 2016 (-06) (-01) 14 : 22 : 19 UTC
+  , issueBody =
+      Just
+        "Adding select2-bootstrap-theme - a Select2 V4 theme for Twitter Bootstrap 3\n"
+  , issueState = StateClosed
+  , issueId = Id 157919484
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

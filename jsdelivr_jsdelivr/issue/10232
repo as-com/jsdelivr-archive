@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-02) 11 : 31 : 21 UTC
+  , issueUpdatedAt = 2016 (-03) (-02) 11 : 31 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10232/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10232")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10232
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10571881
+        , simpleUserLogin = N "jonataswalker"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/10571881?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jonataswalker"
+        }
+  , issueTitle = "Add watch-element-resize.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10232")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10232.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10232.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10232"
+  , issueCreatedAt = 2016 (-03) (-02) 11 : 04 : 12 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nWould you please add `watch-element-resize.js` to your servers?\n\nHave a good day.\n"
+  , issueState = StateClosed
+  , issueId = Id 137842735
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

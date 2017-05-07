@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-03) 14 : 50 : 29 UTC
+  , issueUpdatedAt = 2016 (-10) (-03) 20 : 44 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14138/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14138")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14138
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 993318
+        , simpleUserLogin = N "douglasdeodato"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/993318?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/douglasdeodato"
+        }
+  , issueTitle = "lovely-icons updates"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14138")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14138.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14138.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14138"
+  , issueCreatedAt = 2016 (-10) (-03) 14 : 47 : 30 UTC
+  , issueBody =
+      Just
+        "lovely-icons updates\n\nlooks like my PR was not merged by @jsdelivrbot  : https://github.com/jsdelivr/jsdelivr/pull/14032\n\nI did a new released and did not update, am I doing something wrong? thanks. \n"
+  , issueState = StateClosed
+  , issueId = Id 180659684
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-09) 20 : 43 : 03 UTC
+  , issueUpdatedAt = 2017 (-02) (-09) 20 : 43 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16220/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16220")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16220
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 147451
+        , simpleUserLogin = N "humancopy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/147451?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/humancopy"
+        }
+  , issueTitle = "Add map files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16220")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16220.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16220.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16220"
+  , issueCreatedAt = 2017 (-02) (-07) 09 : 31 : 33 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 205832209
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

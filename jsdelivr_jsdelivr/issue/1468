@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-19) 17 : 52 : 13 UTC
+  , issueUpdatedAt = 2014 (-08) (-19) 18 : 09 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1468/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1468")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1468
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 645758
+        , simpleUserLogin = N "bzmw"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/645758?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bzmw"
+        }
+  , issueTitle =
+      "Added version 2.0.3 of Parsley.js and added auto-updates"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1468")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1468.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1468.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1468"
+  , issueCreatedAt = 2014 (-08) (-19) 17 : 29 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 40615624
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

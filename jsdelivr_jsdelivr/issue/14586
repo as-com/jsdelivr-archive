@@ -1,0 +1,35 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-03) 05 : 53 : 47 UTC
+  , issueUpdatedAt = 2016 (-11) (-03) 05 : 53 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14586/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/14586")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14586
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16397136
+        , simpleUserLogin = N "Syncfusion-JavaScript"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16397136?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/Syncfusion-JavaScript"
+        }
+  , issueTitle =
+      "Autoupdater did not update syncfusion-javascript -version 14.3.52"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14586"
+  , issueCreatedAt = 2016 (-11) (-01) 12 : 27 : 30 UTC
+  , issueBody =
+      Just
+        "We have added release tag 14.3.52 in Syncfusion github repository - \"https://github.com/syncfusion/JavaScript-Widgets\" . But autoupdater did not update package \"syncfusion-javascript\" in below github link.\r\n\r\nhttps://github.com/jsdelivr/jsdelivr/tree/master/files/syncfusion-javascript\r\n\r\nCan you please update syncfusion-javascript library files asap?"
+  , issueState = StateClosed
+  , issueId = Id 186522409
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

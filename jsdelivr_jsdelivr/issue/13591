@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-04) 08 : 46 : 53 UTC
+  , issueUpdatedAt = 2016 (-09) (-04) 08 : 46 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13591/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13591")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13591
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8310677
+        , simpleUserLogin = N "julmot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8310677?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/julmot"
+        }
+  , issueTitle = "Updated mark.js v8.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13591")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13591.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13591.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13591"
+  , issueCreatedAt = 2016 (-09) (-04) 06 : 40 : 28 UTC
+  , issueBody =
+      Just
+        "I've forgot to increase the minor version before creating the tag.\n"
+  , issueState = StateClosed
+  , issueId = Id 174934475
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

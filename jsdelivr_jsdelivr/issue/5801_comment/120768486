@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-12) 22 : 19 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/120768486"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5801#issuecomment-120768486"
+  , issueCommentCreatedAt = 2015 (-07) (-12) 22 : 19 : 24 UTC
+  , issueCommentBody =
+      "`/latest` should be expected to break. It would be safer to use `/1/` instead of `/latest`\n"
+  , issueCommentId = 120768486
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 28 : 30 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 28 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17011/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17011")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17011
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3511344
+        , simpleUserLogin = N "dalisoft"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3511344?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dalisoft"
+        }
+  , issueTitle = "Add es6-tween"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17011")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17011.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17011.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17011"
+  , issueCreatedAt = 2017 (-03) (-19) 17 : 51 : 55 UTC
+  , issueBody =
+      Just
+        "* Adding es6-tween library. Thanks to @jsdelivr and contributors"
+  , issueState = StateClosed
+  , issueId = Id 215281283
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

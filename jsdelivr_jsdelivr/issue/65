@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-08) (-03) 07 : 59 : 40 UTC
+  , issueUpdatedAt = 2013 (-08) (-03) 07 : 59 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/65/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/65")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 65
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 355874
+        , simpleUserLogin = N "sancospi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/355874?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sancospi"
+        }
+  , issueTitle = "Update to 0.2 version"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/65")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/65.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/65.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/65"
+  , issueCreatedAt = 2013 (-08) (-03) 02 : 32 : 39 UTC
+  , issueBody = Just "Update to 0.2 version\n"
+  , issueState = StateClosed
+  , issueId = Id 17589888
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

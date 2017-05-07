@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-27) 18 : 14 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 221166
+        , simpleUserLogin = N "outpunk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/221166?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/outpunk"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/71698007"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3220#issuecomment-71698007"
+  , issueCommentCreatedAt = 2015 (-01) (-27) 18 : 14 : 54 UTC
+  , issueCommentBody =
+      "Nope, we don't need the svg files \8212 the sprite is built into the js.\n"
+  , issueCommentId = 71698007
+  }

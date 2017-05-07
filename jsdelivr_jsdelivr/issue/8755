@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-03) 11 : 32 : 59 UTC
+  , issueUpdatedAt = 2016 (-01) (-03) 11 : 33 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8755/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8755")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8755
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project watermarkjs to 1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8755")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8755.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8755.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8755"
+  , issueCreatedAt = 2016 (-01) (-03) 11 : 32 : 18 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project watermarkjs to 1.1.0.\n\n@brianium\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"watermarkjs\",\n    \"repo\": \"brianium/watermarkjs\",\n    \"files\": {\n      \"include\": [\"dist/*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/watermarkjs\",\n    \"localVersions\": [\"1.0.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/watermarkjs/update.json\",\n  \"version\": \"1.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/watermarkjs/1.1.0\",\n  \"branch\": \"watermarkjs/1.1.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 124644171
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

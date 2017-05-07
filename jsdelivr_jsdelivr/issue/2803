@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-21) 09 : 32 : 19 UTC
+  , issueUpdatedAt = 2014 (-12) (-21) 09 : 32 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2803/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2803")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2803
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1840854
+        , simpleUserLogin = N "rileyjshaw"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1840854?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rileyjshaw"
+        }
+  , issueTitle = "Add tinyterm"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2803")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2803.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2803.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2803"
+  , issueCreatedAt = 2014 (-12) (-20) 21 : 37 : 45 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 52577373
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

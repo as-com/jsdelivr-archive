@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-04) 16 : 09 : 21 UTC
+  , issueUpdatedAt = 2016 (-10) (-04) 16 : 09 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14208/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14208")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14208
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17800145
+        , simpleUserLogin = N "RoteMinecraftIL"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/17800145?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/RoteMinecraftIL"
+        }
+  , issueTitle = "Add fonts to the CDN."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14208")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14208.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14208.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14208"
+  , issueCreatedAt = 2016 (-10) (-04) 16 : 04 : 17 UTC
+  , issueBody =
+      Just
+        "Yes, I know that you already have these fonts hosted:\n\n``` html\n<link rel=\"stylesheet href=\"https://cdn.jsdelivr.net/ionicons/2.0.1/css/ionicons.min.css\">\n```\n\nBut I still need them for my CSS framework.\nPLEASE\n"
+  , issueState = StateClosed
+  , issueId = Id 180936030
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

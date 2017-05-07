@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-16) 03 : 20 : 46 UTC
+  , issueUpdatedAt = 2017 (-04) (-16) 03 : 20 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17601/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17601")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17601
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6182099
+        , simpleUserLogin = N "felixsanz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6182099?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/felixsanz"
+        }
+  , issueTitle = "Update project photon-themes to v0.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17601")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17601.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17601.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17601"
+  , issueCreatedAt = 2017 (-04) (-15) 22 : 11 : 27 UTC
+  , issueBody =
+      Just
+        "I think manual intervention is needed to fix https://github.com/jsdelivr/jsdelivr/pull/17556. So i've created this PR to save you some time/effort. Please tell me if something is wrong so i can fix it.\r\n\r\nThanks!\r\n\r\nTL;DR: This should be merged instead of the automatic update from PR #17556. (I made a mistake and the bot PR is the bad one)"
+  , issueState = StateClosed
+  , issueId = Id 221975747
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

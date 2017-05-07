@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-13) 12 : 35 : 23 UTC
+  , issueUpdatedAt = 2014 (-12) (-13) 12 : 36 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2715/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2715")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2715
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "Change version number to 3.9 (no trailing zero)"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2715"
+  , issueCreatedAt = 2014 (-12) (-13) 12 : 28 : 57 UTC
+  , issueBody =
+      Just
+        "Hi, could you please update the version number of the latest release to be 3.9 instead of 3.9.0? WordPress recommends this format for plugins and themes, and I'd like to avoid a 404 error when the plugin tries to load the JavaScript from the CDN.\n\nThank you for your help, as always :)\n"
+  , issueState = StateClosed
+  , issueId = Id 51886412
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

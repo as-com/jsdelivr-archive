@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-29) 23 : 44 : 23 UTC
+  , issueUpdatedAt = 2014 (-10) (-29) 23 : 44 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2156/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2156")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2156
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1211390
+        , simpleUserLogin = N "wlindner"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1211390?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wlindner"
+        }
+  , issueTitle = "Updated Zoomdata.js to v1.4.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2156")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2156.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2156.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2156"
+  , issueCreatedAt = 2014 (-10) (-29) 19 : 46 : 07 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 47194631
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

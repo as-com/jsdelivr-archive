@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-08) 23 : 45 : 27 UTC
+  , issueUpdatedAt = 2014 (-07) (-08) 23 : 45 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1081/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1081")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1081
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 349968
+        , simpleUserLogin = N "iosoft"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/349968?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/iosoft"
+        }
+  , issueTitle = "Create WebRupee.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1081")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1081.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1081.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1081"
+  , issueCreatedAt = 2014 (-07) (-01) 08 : 05 : 45 UTC
+  , issueBody = Just "JS implementation of WebRupee.\n"
+  , issueState = StateClosed
+  , issueId = Id 36870514
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

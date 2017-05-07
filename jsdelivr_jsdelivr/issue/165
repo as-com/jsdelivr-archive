@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-25) 13 : 45 : 01 UTC
+  , issueUpdatedAt = 2013 (-11) (-25) 15 : 15 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/165/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/165")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 165
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1423566
+        , simpleUserLogin = N "johngeorgewright"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1423566?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/johngeorgewright"
+        }
+  , issueTitle = "Patched angular.xml 1.0.0 -> 1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/165")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/165.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/165.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/165"
+  , issueCreatedAt = 2013 (-11) (-25) 13 : 37 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 23242525
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

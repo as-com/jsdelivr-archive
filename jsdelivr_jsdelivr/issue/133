@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-31) 15 : 46 : 12 UTC
+  , issueUpdatedAt = 2013 (-10) (-31) 15 : 46 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/133/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/133")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 133
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5823646
+        , simpleUserLogin = N "ojasray"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5823646?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ojasray"
+        }
+  , issueTitle = "WP-Jupiter"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/133")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/133.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/133.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/133"
+  , issueCreatedAt = 2013 (-10) (-31) 15 : 18 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 21902969
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

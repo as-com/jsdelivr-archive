@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 13 : 56 : 41 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 13 : 56 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1024/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1024")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1024
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1055782
+        , simpleUserLogin = N "ppavlov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1055782?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ppavlov"
+        }
+  , issueTitle =
+      "Adding new version of backbone-relational and adding backbone modelbinde..."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1024")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1024.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1024.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1024"
+  , issueCreatedAt = 2014 (-06) (-27) 00 : 34 : 48 UTC
+  , issueBody =
+      Just
+        "Adding new version of backbone-relational and adding backbone modelbinder\n"
+  , issueState = StateClosed
+  , issueId = Id 36627354
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

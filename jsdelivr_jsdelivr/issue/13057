@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-03) 17 : 05 : 10 UTC
+  , issueUpdatedAt = 2016 (-08) (-03) 17 : 05 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13057/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13057")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13057
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project trianglify to v1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13057")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13057.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13057.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13057"
+  , issueCreatedAt = 2016 (-08) (-03) 17 : 05 : 04 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project trianglify to v1.0.0.\n\n@qrohlf\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"trianglify\",\n    \"repo\": \"qrohlf/trianglify\",\n    \"files\": {\n      \"include\": [\"dist/trianglify.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/trianglify\",\n    \"localVersions\": [\"0.3.1\", \"0.4.0\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\", \"v0.2.0\", \"v0.2.1\", \"v0.3.0\", \"v0.3.1\", \"v0.4.0\", \"v1.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/trianglify/update.json\",\n  \"versions\": [\"v1.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/trianglify/1.0.0\",\n  \"branch\": \"trianglify/v1.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 169182764
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

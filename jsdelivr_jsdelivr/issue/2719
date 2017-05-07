@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-14) 22 : 02 : 20 UTC
+  , issueUpdatedAt = 2014 (-12) (-14) 22 : 02 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2719/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2719")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2719
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8355878
+        , simpleUserLogin = N "Aranjedeath"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8355878?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Aranjedeath"
+        }
+  , issueTitle = "update webfontloader, add conditionizr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2719")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2719.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2719.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2719"
+  , issueCreatedAt = 2014 (-12) (-14) 01 : 11 : 04 UTC
+  , issueBody =
+      Just
+        "First time at this!\n\nFor webfontloader: added update.json, and fixed the mainfile line of info.ini. Did not add the newest release of the library, as the grabber will handle that (and I can't figure out how to add a folder on github webui).\n"
+  , issueState = StateClosed
+  , issueId = Id 51905258
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

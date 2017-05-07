@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-16) 05 : 23 : 17 UTC
+  , issueUpdatedAt = 2017 (-03) (-16) 05 : 24 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16949/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16949")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16949
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6551569
+        , simpleUserLogin = N "GoToLoop"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6551569?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GoToLoop"
+        }
+  , issueTitle = "New lib: p5.collide2D"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16949")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16949.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16949.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16949"
+  , issueCreatedAt = 2017 (-03) (-16) 05 : 17 : 15 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 214601309
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

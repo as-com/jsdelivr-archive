@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-28) 10 : 06 : 07 UTC
+  , issueUpdatedAt = 2015 (-10) (-28) 10 : 06 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7602/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7602")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7602
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project gmaps.js to 0.4.21"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7602")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7602.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7602.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7602"
+  , issueCreatedAt = 2015 (-10) (-28) 10 : 04 : 57 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project gmaps.js to 0.4.21.\n\n@hpneo\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"gmaps.js\",\n    \"repo\": \"hpneo/gmaps\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"gmaps.min.js\", \"gmaps.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/gmaps\",\n    \"localVersions\": [\"0.2.1\", \"0.2.4\", \"0.2.11\", \"0.3.1\", \"0.4.4\", \"0.4.11\", \"0.4.15\"],\n    \"remoteVersions\": [\"0.2.30\", \"0.3\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.3.5\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.4.3\", \"0.4.4\", \"0.4.5\", \"0.4.6\", \"0.4.7\", \"0.4.8\", \"0.4.9\", \"0.4.11\", \"0.4.12\", \"0.4.13\", \"0.4.14\", \"0.4.15\", \"0.4.16\", \"0.4.17\", \"0.4.18\", \"0.4.19\", \"0.4.20\", \"0.4.21\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/gmaps/update.json\",\n  \"version\": \"0.4.21\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/gmaps/0.4.21\",\n  \"branch\": \"gmaps.js/0.4.21\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 113783345
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

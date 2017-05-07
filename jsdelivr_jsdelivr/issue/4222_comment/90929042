@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-08) 14 : 12 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/90929042"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4222#issuecomment-90929042"
+  , issueCommentCreatedAt = 2015 (-04) (-08) 14 : 12 : 54 UTC
+  , issueCommentBody =
+      "@masdarno Is the official source of this file at https://github.com/masdarno/wil? If so, that needs to be references in the info.ini file. The best practice here is to include an update.json and tag releases in your repository. See the readme file for more information.\n"
+  , issueCommentId = 90929042
+  }

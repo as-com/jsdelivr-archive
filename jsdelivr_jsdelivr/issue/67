@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-08) (-05) 15 : 10 : 53 UTC
+  , issueUpdatedAt = 2013 (-08) (-05) 15 : 10 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/67/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/67")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 67
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1495196
+        , simpleUserLogin = N "mramato"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1495196?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mramato"
+        }
+  , issueTitle = "Add Cesium b19"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/67")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/67.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/67.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/67"
+  , issueCreatedAt = 2013 (-08) (-05) 14 : 23 : 33 UTC
+  , issueBody = Just "Thanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 17637155
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

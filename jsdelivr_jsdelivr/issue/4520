@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-28) 18 : 23 : 37 UTC
+  , issueUpdatedAt = 2015 (-04) (-28) 18 : 23 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4520/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4520")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4520
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5095856
+        , simpleUserLogin = N "Jerskouille"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5095856?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Jerskouille"
+        }
+  , issueTitle = "jQuery block_ellipsis plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4520")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4520.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4520.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4520"
+  , issueCreatedAt = 2015 (-04) (-28) 13 : 02 : 20 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 71583201
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

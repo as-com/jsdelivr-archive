@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-27) 21 : 19 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/71730111"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3221#issuecomment-71730111"
+  , issueCommentCreatedAt = 2015 (-01) (-27) 21 : 19 : 46 UTC
+  , issueCommentBody =
+      "I cant, 1 project can have 1 git/npm/bower source. If you want we could create a separate project called `lodash.compat` on jsDelivr but I dont really like the idea, it will be confusing for people.\nThe other alternative is doing manual updates.\n\nWhat do you guys think?\n"
+  , issueCommentId = 71730111
+  }

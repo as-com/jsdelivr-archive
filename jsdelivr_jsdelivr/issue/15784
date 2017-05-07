@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-14) 13 : 33 : 50 UTC
+  , issueUpdatedAt = 2017 (-01) (-14) 13 : 33 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15784/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15784")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15784
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project inferno to 1.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15784")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15784.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15784.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15784"
+  , issueCreatedAt = 2017 (-01) (-14) 13 : 33 : 31 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project inferno to 1.2.0.\n\n@infernojs\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"inferno\",\n    \"repo\": \"infernojs/inferno\",\n    \"files\": {\n      \"basePath\": \"packages/inferno/dist/\",\n      \"include\": [\"*.js\"],\n      \"exclude\": [\"*.node.js\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/inferno\",\n    \"localVersions\": [\"1.1.1\", \"1.1.2\"],\n    \"remoteVersions\": [\"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.4.4\", \"0.5.5\", \"0.5.13\", \"0.5.17\", \"0.5.20\", \"0.5.21\", \"0.5.22\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.6.3\", \"0.6.4\", \"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"0.7.5\", \"0.7.7\", \"0.7.8\", \"0.7.9\", \"0.7.10\", \"0.7.11\", \"0.7.12\", \"0.7.13\", \"0.7.14\", \"0.7.15\", \"0.7.16\", \"0.7.17\", \"0.7.20\", \"0.7.21\", \"0.7.22\", \"0.7.23\", \"0.7.24\", \"0.7.25\", \"0.7.26\", \"0.7.27\", \"1.0.0-beta13\", \"1.0.0-beta22\", \"1.0.0-beta25\", \"1.0.0-beta26\", \"1.0.0-beta32\", \"1.0.0-beta45\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.2.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/inferno/update.json\",\n  \"versions\": [\"1.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/inferno/1.2.0\",\n  \"branch\": \"inferno/1.2.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 200803810
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

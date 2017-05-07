@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-02) (-27) 12 : 30 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 249117
+        , simpleUserLogin = N "OlegKi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/249117?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/OlegKi"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/282707127"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16578#issuecomment-282707127"
+  , issueCommentCreatedAt = 2017 (-02) (-27) 12 : 30 : 30 UTC
+  , issueCommentBody =
+      "Please, commit the \"Update project free-jqgrid to v4.14.0\" manually and remove  \"5.1.1\" from \"localVersions\" of the \"Metadata information\". All versions of free jqGrid have notation v4.x.y. No v5.x.y version exists!!! I suppose if could be some bug in libgrabber/jsdelivrbot which get the version of https://github.com/tonytomov/jqGrid instead of https://github.com/free-jqgrid/jqGrid."
+  , issueCommentId = 282707127
+  }

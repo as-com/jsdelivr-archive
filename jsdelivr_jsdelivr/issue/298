@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-24) 13 : 48 : 17 UTC
+  , issueUpdatedAt = 2014 (-03) (-03) 10 : 47 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/298/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/298")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 298
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1423566
+        , simpleUserLogin = N "johngeorgewright"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1423566?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/johngeorgewright"
+        }
+  , issueTitle = "New module: angular.auto-value"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/298")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/298.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/298.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/298"
+  , issueCreatedAt = 2014 (-01) (-24) 11 : 53 : 38 UTC
+  , issueBody =
+      Just "I'd like to submit a new module: angular.auto-value.\n"
+  , issueState = StateClosed
+  , issueId = Id 26235967
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-09) 04 : 21 : 39 UTC
+  , issueUpdatedAt = 2014 (-07) (-09) 04 : 21 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1151/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1151")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1151
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 39958
+        , simpleUserLogin = N "nemtsov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/39958?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nemtsov"
+        }
+  , issueTitle = "jsonmask: add v0.3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1151")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1151.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1151.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1151"
+  , issueCreatedAt = 2014 (-07) (-09) 03 : 28 : 16 UTC
+  , issueBody = Just "New version (v0.3.0) of the lib jsonmask.\n"
+  , issueState = StateClosed
+  , issueId = Id 37431191
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

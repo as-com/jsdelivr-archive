@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-14) 14 : 14 : 56 UTC
+  , issueUpdatedAt = 2015 (-04) (-14) 14 : 14 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4310/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4310")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4310
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5274747
+        , simpleUserLogin = N "hubdotcom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5274747?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hubdotcom"
+        }
+  , issueTitle = "Fix link redirect"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4310")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4310.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4310.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4310"
+  , issueCreatedAt = 2015 (-04) (-14) 10 : 45 : 49 UTC
+  , issueBody =
+      Just "http://refresh-sf.com/yui/ > http://refresh-sf.com/\n"
+  , issueState = StateClosed
+  , issueId = Id 68337155
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

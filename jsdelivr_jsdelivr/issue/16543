@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 02 : 34 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 02 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16543/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16543")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16543
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 25029274
+        , simpleUserLogin = N "Seig-Physics"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/25029274?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Seig-Physics"
+        }
+  , issueTitle = "Add lg-thumbnail.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16543")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16543.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16543.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16543"
+  , issueCreatedAt = 2017 (-02) (-24) 13 : 17 : 23 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 210045886
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-04) 04 : 07 : 29 UTC
+  , issueUpdatedAt = 2017 (-04) (-04) 04 : 07 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17392/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17392")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17392
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project spa to v2.0.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17392")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17392.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17392.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17392"
+  , issueCreatedAt = 2017 (-04) (-04) 04 : 07 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project spa to v2.0.6.\n\n@zhaoda\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"spa\",\n    \"repo\": \"zhaoda/spa\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/spa\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.2.0\", \"v0.2.1\", \"v0.3.0\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v2.0.6\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/spa/update.json\",\n  \"versions\": [\"v1.0.7\", \"v2.0.6\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.0.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/spa/2.0.6\",\n  \"branch\": \"spa/v2.0.6\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 219135045
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-09) 11 : 52 : 03 UTC
+  , issueUpdatedAt = 2016 (-02) (-09) 11 : 52 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9619/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9619")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9619
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 41597
+        , simpleUserLogin = N "mistic100"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/41597?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mistic100"
+        }
+  , issueTitle = "Add Photo-Sphere-Viewer"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9619")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9619.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9619.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9619"
+  , issueCreatedAt = 2016 (-02) (-06) 17 : 09 : 07 UTC
+  , issueBody =
+      Just
+        "http://mistic100.github.io/Photo-Sphere-Viewer (page is broken waiting for dns.js.org approval)\n"
+  , issueState = StateClosed
+  , issueId = Id 131876547
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

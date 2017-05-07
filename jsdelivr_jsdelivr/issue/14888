@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-22) 04 : 41 : 17 UTC
+  , issueUpdatedAt = 2016 (-11) (-22) 04 : 41 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14888/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14888")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14888
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 23524002
+        , simpleUserLogin = N "janplexust"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/23524002?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/janplexust"
+        }
+  , issueTitle = "Add ndgevnt"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14888")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14888.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14888.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14888"
+  , issueCreatedAt = 2016 (-11) (-21) 11 : 38 : 45 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 190692035
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

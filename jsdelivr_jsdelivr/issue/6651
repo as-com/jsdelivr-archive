@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-03) 09 : 24 : 51 UTC
+  , issueUpdatedAt = 2015 (-09) (-03) 09 : 24 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6651/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6651")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6651
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 900545
+        , simpleUserLogin = N "barisaydinoglu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/900545?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/barisaydinoglu"
+        }
+  , issueTitle = "Added Detectizr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6651")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6651.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6651.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6651"
+  , issueCreatedAt = 2015 (-09) (-01) 12 : 02 : 15 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 104250002
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

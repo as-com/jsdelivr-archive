@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-07) 14 : 21 : 37 UTC
+  , issueUpdatedAt = 2014 (-07) (-21) 20 : 07 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/345/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/345")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 345
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3951646
+        , simpleUserLogin = N "vmlm"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3951646?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vmlm"
+        }
+  , issueTitle = "Added files/jqgrid/4.5.4/"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/345")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/345.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/345.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/345"
+  , issueCreatedAt = 2014 (-02) (-07) 10 : 40 : 20 UTC
+  , issueBody =
+      Just
+        "I'm using the latest version of jqgrid, and would find it really helpful to have it hosted on jsdelivr.\nI'm including all i18n files, in case someone else needs to use them. \nThanks :).\n"
+  , issueState = StateClosed
+  , issueId = Id 27126195
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

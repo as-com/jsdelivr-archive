@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-31) 19 : 27 : 41 UTC
+  , issueUpdatedAt = 2016 (-07) (-31) 19 : 27 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9980/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9980")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9980
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jRumble to v1.3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9980")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9980.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9980.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9980"
+  , issueCreatedAt = 2016 (-02) (-23) 12 : 17 : 19 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jRumble to v1.3.0.\n\n@jackrugile\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jRumble\",\n    \"repo\": \"jackrugile/jrumble\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"jquery.jrumble.min.js\", \"jquery.jrumble.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.jrumble\",\n    \"localVersions\": [\"1.3\"],\n    \"remoteVersions\": [\"v1.3.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.jrumble/update.json\",\n  \"versions\": [\"v1.3.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.3.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.jrumble/1.3.0\",\n  \"branch\": \"jRumble/v1.3.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 135721717
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

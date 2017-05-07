@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-13) 02 : 53 : 13 UTC
+  , issueUpdatedAt = 2017 (-03) (-13) 02 : 53 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16769/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16769")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16769
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1300141
+        , simpleUserLogin = N "LeoWinterDE"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1300141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/LeoWinterDE"
+        }
+  , issueTitle = "Fix #16664"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16769")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16769.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16769.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16769"
+  , issueCreatedAt = 2017 (-03) (-07) 09 : 46 : 42 UTC
+  , issueBody = Just "Fix for #16664"
+  , issueState = StateClosed
+  , issueId = Id 212379730
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

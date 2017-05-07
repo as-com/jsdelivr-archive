@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 02 : 41 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 02 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16100/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16100")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16100
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19478360
+        , simpleUserLogin = N "talonbragg"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/19478360?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/talonbragg"
+        }
+  , issueTitle = "Create cm.min.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16100")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16100.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16100.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16100"
+  , issueCreatedAt = 2017 (-02) (-01) 19 : 37 : 55 UTC
+  , issueBody = Just "I'm adding a new package"
+  , issueState = StateClosed
+  , issueId = Id 204682963
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

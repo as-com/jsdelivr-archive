@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-10) 07 : 44 : 28 UTC
+  , issueUpdatedAt = 2016 (-04) (-10) 09 : 52 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10939/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10939")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10939
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3259993
+        , simpleUserLogin = N "tjenkinson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3259993?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tjenkinson"
+        }
+  , issueTitle = "Update clappr update.json to use npm"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10939")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10939.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10939.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10939"
+  , issueCreatedAt = 2016 (-04) (-09) 19 : 10 : 46 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 147154476
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

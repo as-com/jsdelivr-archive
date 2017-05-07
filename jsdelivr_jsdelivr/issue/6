@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-04) (-11) 14 : 14 : 41 UTC
+  , issueUpdatedAt = 2014 (-07) (-01) 04 : 41 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 922051
+        , simpleUserLogin = N "robocoder"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/922051?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/robocoder"
+        }
+  , issueTitle = "add 1.11.x versions of piwik.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6"
+  , issueCreatedAt = 2013 (-04) (-11) 14 : 13 : 10 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 13069120
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

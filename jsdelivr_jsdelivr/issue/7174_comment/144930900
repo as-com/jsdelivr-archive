@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-02) 05 : 43 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1505013
+        , simpleUserLogin = N "fatbattk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1505013?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/fatbattk"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/144930900"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/7174#issuecomment-144930900"
+  , issueCommentCreatedAt = 2015 (-10) (-02) 05 : 43 : 22 UTC
+  , issueCommentBody =
+      "@jimaek Agree and updated. But why is auto-check failing for this?\n\n```\nIssues validating update.json for mousetrap: No JSON object could be decoded\n```\n"
+  , issueCommentId = 144930900
+  }

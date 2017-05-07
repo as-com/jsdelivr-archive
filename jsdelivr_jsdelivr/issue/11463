@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-06) 09 : 30 : 19 UTC
+  , issueUpdatedAt = 2016 (-05) (-06) 09 : 30 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11463/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11463")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11463
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 18752619
+        , simpleUserLogin = N "wdub"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/18752619?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wdub"
+        }
+  , issueTitle = "jSpine library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11463")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11463.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11463.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11463"
+  , issueCreatedAt = 2016 (-05) (-05) 21 : 14 : 39 UTC
+  , issueBody = Just "Added jSpine Javascript library\n"
+  , issueState = StateClosed
+  , issueId = Id 153327747
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

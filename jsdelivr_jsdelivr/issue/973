@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-24) 04 : 41 : 36 UTC
+  , issueUpdatedAt = 2014 (-06) (-24) 04 : 41 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/973/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/973")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 973
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1055782
+        , simpleUserLogin = N "ppavlov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1055782?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ppavlov"
+        }
+  , issueTitle = "Adding the latest 2.1.14 requirejs version"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/973")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/973.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/973.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/973"
+  , issueCreatedAt = 2014 (-06) (-18) 17 : 38 : 41 UTC
+  , issueBody = Just "Adding the latest 2.1.14 requirejs version\n"
+  , issueState = StateClosed
+  , issueId = Id 36009203
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

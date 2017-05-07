@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-01) 18 : 45 : 11 UTC
+  , issueUpdatedAt = 2014 (-07) (-01) 18 : 45 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1053/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1053")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1053
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5982829
+        , simpleUserLogin = N "Todd-Werelius"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5982829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Todd-Werelius"
+        }
+  , issueTitle = "Discussion - gzip levels"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1053"
+  , issueCreatedAt = 2014 (-06) (-28) 23 : 21 : 07 UTC
+  , issueBody =
+      Just
+        "This is more of a question than an issue, I have been doing some timings and noticed a couple of things, I am not trying to nit pick just wondering what others might have seen and if this is 'typical' \n\ngzip sizes\nSeems like the CDN hosts gzip the contents at only a moderate level, hey it's free so I am not complaining but it does skew the timings when I am comparing to a public read-only CDN ( like google ) that hosts the same files \n\nOn the project I submitted when I gzip the project I get about 50K, then it comes back from the CDN it's ~60K\n\nIt's not a bit deal I just wondered if there was a way we could provide gz'd files instead of letting them do it, probably not ... \n\nTimings\nAs far as total times go it seems to be all over the place, for my particual use angular-all it's a great savings since it takes almost 500ms to load all the scripts from google, mostly because the previous script blocks.\n\nLooking at 1:1 is not totally possible but a 40K file ( google angular on their CDN ) takes about 40ms, a 60K file ( mine from one of your CDN hosts ) takes about 120ms most of this seems to be in DNS lookup time and of course the file is 50% bigger\n\nAnyway great service, and I am going to check things out from a better network on Monday to make sure this is not just my comcast account mucking things up \n"
+  , issueState = StateClosed
+  , issueId = Id 36735632
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

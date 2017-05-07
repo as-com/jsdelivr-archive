@@ -1,0 +1,44 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-20) 12 : 45 : 54 UTC
+  , issueUpdatedAt = 2015 (-04) (-20) 12 : 47 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4419/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4419")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4419
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1639302
+        , simpleUserLogin = N "abishekrsrikaanth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1639302?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/abishekrsrikaanth"
+        }
+  , issueTitle =
+      "Updating Library Masory v 3.3.0 and setting up update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4419")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4419.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4419.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4419"
+  , issueCreatedAt = 2015 (-04) (-20) 12 : 45 : 21 UTC
+  , issueBody =
+      Just
+        "Repo: https://github.com/desandro/masonry\nURL: http://masonry.desandro.com/\n"
+  , issueState = StateClosed
+  , issueId = Id 69579025
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

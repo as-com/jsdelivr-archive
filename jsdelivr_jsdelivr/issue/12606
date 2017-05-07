@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-07) 20 : 53 : 21 UTC
+  , issueUpdatedAt = 2016 (-07) (-07) 20 : 53 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12606/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12606")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12606
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project clappr-pip-plugin to 2.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12606")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12606.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12606.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12606"
+  , issueCreatedAt = 2016 (-07) (-07) 20 : 33 : 00 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project clappr-pip-plugin to 2.0.1.\n\n@tjenkinson\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"clappr-pip-plugin\",\n    \"repo\": \"tjenkinson/clappr-pip-plugin\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/clappr.pip-plugin\",\n    \"localVersions\": [\"1.0.1-0\", \"2.0.0\"],\n    \"remoteVersions\": [\"1.0.0-alpha.1\", \"1.0.1-0\", \"2.0.0\", \"2.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/clappr.pip-plugin/update.json\",\n  \"versions\": [\"2.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"2.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/clappr.pip-plugin/2.0.1\",\n  \"branch\": \"clappr-pip-plugin/2.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 164400766
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

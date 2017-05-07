@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-22) 05 : 10 : 31 UTC
+  , issueUpdatedAt = 2016 (-12) (-22) 05 : 10 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15457/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15457")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15457
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15077095
+        , simpleUserLogin = N "wsngamerz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/15077095?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wsngamerz"
+        }
+  , issueTitle = "Update Webfunk framework repo location"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15457")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15457.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15457.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15457"
+  , issueCreatedAt = 2016 (-12) (-21) 22 : 14 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 197045996
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

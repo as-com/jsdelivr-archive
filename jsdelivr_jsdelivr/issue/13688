@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-09) 19 : 07 : 06 UTC
+  , issueUpdatedAt = 2016 (-09) (-09) 19 : 07 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13688/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13688")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13688
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11000048
+        , simpleUserLogin = N "ilyalyo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/11000048?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ilyalyo"
+        }
+  , issueTitle = "Add jquery.rotate plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13688")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13688.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13688.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13688"
+  , issueCreatedAt = 2016 (-09) (-09) 09 : 48 : 12 UTC
+  , issueBody = Just "https://github.com/jcubic/jquery.rotate\n"
+  , issueState = StateClosed
+  , issueId = Id 175970442
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

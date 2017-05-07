@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-06) 16 : 05 : 30 UTC
+  , issueUpdatedAt = 2016 (-12) (-06) 16 : 05 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15222/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15222")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15222
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project sceditor to v1.5.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15222")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15222.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15222.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15222"
+  , issueCreatedAt = 2016 (-12) (-06) 16 : 05 : 18 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project sceditor to v1.5.2.\n\n@samclarke\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"sceditor\",\n    \"repo\": \"samclarke/SCEditor-bower\",\n    \"files\": {\n      \"basePath\": \"minified/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/sceditor\",\n    \"localVersions\": [\"1.4.3\", \"1.5.0\", \"1.5.1\"],\n    \"remoteVersions\": [\"v1.4.7\", \"v1.4.7.1\", \"v1.5.0\", \"v1.5.1\", \"v1.5.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/sceditor/update.json\",\n  \"versions\": [\"v1.5.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.5.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/sceditor/1.5.2\",\n  \"branch\": \"sceditor/v1.5.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 193811930
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

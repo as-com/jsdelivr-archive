@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-17) 20 : 34 : 56 UTC
+  , issueUpdatedAt = 2017 (-03) (-17) 20 : 34 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16989/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16989")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16989
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project Alorel/node-ms-util to 0.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16989")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16989.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16989.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16989"
+  , issueCreatedAt = 2017 (-03) (-17) 20 : 34 : 51 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project Alorel/node-ms-util to 0.1.2.\n\n@Alorel\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"Alorel/node-ms-util\",\n    \"repo\": \"Alorel/node-ms-util\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"ms-util.js\", \"ms-util.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/ms-util\",\n    \"localVersions\": [\"0.1.1\"],\n    \"remoteVersions\": [\"0.1.1\", \"0.1.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/ms-util/update.json\",\n  \"versions\": [\"0.1.2\"],\n  \"updateRemote\": true,\n  \"version\": \"0.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/ms-util/0.1.2\",\n  \"branch\": \"Alorel/node-ms-util/0.1.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215115293
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

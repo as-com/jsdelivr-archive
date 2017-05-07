@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-03) (-03) 11 : 59 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1094306
+        , simpleUserLogin = N "inc2734"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1094306?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/inc2734"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/283936472"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16688#issuecomment-283936472"
+  , issueCommentCreatedAt = 2017 (-03) (-03) 11 : 59 : 27 UTC
+  , issueCommentBody =
+      "> We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...\r\n\r\nSorry, there was a mistake in info.ini and update.json that I first registered(6.2.1). The 6.3.1 file structure is correct. Would you merge this?"
+  , issueCommentId = 283936472
+  }

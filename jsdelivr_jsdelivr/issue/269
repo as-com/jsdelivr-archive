@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-17) 23 : 50 : 02 UTC
+  , issueUpdatedAt = 2014 (-01) (-17) 23 : 50 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/269/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/269")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 269
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4213124
+        , simpleUserLogin = N "Kylob"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4213124?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Kylob"
+        }
+  , issueTitle = "Bootswatch themes missing font folders"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/269"
+  , issueCreatedAt = 2014 (-01) (-17) 05 : 09 : 36 UTC
+  , issueBody =
+      Just
+        "None of the Bootswatch themes have '../fonts/glyphicons-halflings-regular.[type]' as called for in the css, hence none of the glyphicons work.  Also, is it also too much to ask for bootbox.js to be included?  (From bootboxjs.com)  It is being offered at MaxCDN I noticed.  Thank you!\n"
+  , issueState = StateClosed
+  , issueId = Id 25787748
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

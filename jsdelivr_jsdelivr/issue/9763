@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-15) 13 : 40 : 07 UTC
+  , issueUpdatedAt = 2016 (-02) (-15) 13 : 40 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9763/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9763")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9763
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 132946
+        , simpleUserLogin = N "danrichman"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/132946?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/danrichman"
+        }
+  , issueTitle = "Added floating-label repo."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9763")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9763.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9763.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9763"
+  , issueCreatedAt = 2016 (-02) (-15) 01 : 27 : 27 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 133600940
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

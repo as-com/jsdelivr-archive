@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-24) 05 : 37 : 17 UTC
+  , issueUpdatedAt = 2017 (-01) (-24) 05 : 37 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15937/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15937")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15937
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 166269
+        , simpleUserLogin = N "ahopkins"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/166269?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ahopkins"
+        }
+  , issueTitle = "Patch 1 - PorterJS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15937")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15937.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15937.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15937"
+  , issueCreatedAt = 2017 (-01) (-23) 22 : 17 : 48 UTC
+  , issueBody = Just "Approval for PorterJS"
+  , issueState = StateClosed
+  , issueId = Id 202667341
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

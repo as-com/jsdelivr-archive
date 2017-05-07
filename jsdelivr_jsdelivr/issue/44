@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-07) (-02) 00 : 36 : 56 UTC
+  , issueUpdatedAt = 2013 (-08) (-05) 13 : 36 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/44/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/44")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 44
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1495196
+        , simpleUserLogin = N "mramato"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1495196?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mramato"
+        }
+  , issueTitle = "Add Cesium b18"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/44")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/44.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/44.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/44"
+  , issueCreatedAt = 2013 (-07) (-01) 23 : 42 : 14 UTC
+  , issueBody = Just "Thanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 16241448
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 35 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9900/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9900")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9900
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6580668
+        , simpleUserLogin = N "lazabogdan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6580668?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lazabogdan"
+        }
+  , issueTitle = "Add AdminPlus Lite"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9900")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9900.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9900.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9900"
+  , issueCreatedAt = 2016 (-02) (-22) 02 : 17 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 135293571
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

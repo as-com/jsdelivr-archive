@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-22) 13 : 02 : 37 UTC
+  , issueUpdatedAt = 2015 (-12) (-22) 13 : 02 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8617/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8617")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8617
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project deltadb to 0.0.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8617")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8617.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8617.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8617"
+  , issueCreatedAt = 2015 (-12) (-22) 13 : 01 : 52 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project deltadb to 0.0.9.\n\n@delta-db\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"deltadb\",\n    \"repo\": \"delta-db/deltadb\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"deltadb.js\", \"deltadb.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/deltadb\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"0.0.8\", \"0.0.9\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/deltadb/update.json\",\n  \"version\": \"0.0.9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/deltadb/0.0.9\",\n  \"branch\": \"deltadb/0.0.9\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 123477827
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

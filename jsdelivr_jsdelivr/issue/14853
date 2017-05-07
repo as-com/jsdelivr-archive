@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-21) 18 : 26 : 52 UTC
+  , issueUpdatedAt = 2016 (-11) (-21) 18 : 26 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14853/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14853")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14853
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project store2 to 2.3.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14853")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14853.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14853.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14853"
+  , issueCreatedAt = 2016 (-11) (-18) 20 : 35 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project store2 to 2.3.2.\n\n@nbubna\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"store2\",\n    \"files\": {\n      \"include\": [\"dist/store2.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/store\",\n    \"localVersions\": [\"2.1.2\"],\n    \"remoteVersions\": [\"2.0.2\", \"2.0.3\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.1.3\", \"2.1.4\", \"2.1.5\", \"2.1.6\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"2.3.0\", \"2.3.1\", \"2.3.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/store/update.json\",\n  \"versions\": [\"2.3.2\"],\n  \"updateRemote\": true,\n  \"version\": \"2.3.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/store/2.3.2\",\n  \"branch\": \"store2/2.3.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 190415807
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

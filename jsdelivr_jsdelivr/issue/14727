@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-11) 04 : 15 : 58 UTC
+  , issueUpdatedAt = 2016 (-11) (-11) 04 : 15 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14727/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14727")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14727
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4679377
+        , simpleUserLogin = N "maoosi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/4679377?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/maoosi"
+        }
+  , issueTitle = "Snakle.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14727")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14727.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14727.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14727"
+  , issueCreatedAt = 2016 (-11) (-10) 01 : 06 : 43 UTC
+  , issueBody = Just "https://github.com/maoosi/snakle.js"
+  , issueState = StateClosed
+  , issueId = Id 188394693
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

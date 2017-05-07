@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-02) 20 : 56 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/89042488"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4057#issuecomment-89042488"
+  , issueCommentCreatedAt = 2015 (-04) (-02) 20 : 56 : 04 UTC
+  , issueCommentBody =
+      "Exactly, web has detailed instructions in 5 steps while git has very little text in just 2 steps. It makes it look the easiest and fastest way. We need to either remove the prepare part or heavily improve the git part\n"
+  , issueCommentId = 89042488
+  }

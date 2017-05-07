@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-06) 17 : 35 : 56 UTC
+  , issueUpdatedAt = 2015 (-01) (-06) 17 : 36 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2954/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2954")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2954
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 235208
+        , simpleUserLogin = N "barbosa"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/235208?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/barbosa"
+        }
+  , issueTitle = "Add clappr-playback-name-plugin version 0.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2954")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2954.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2954.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2954"
+  , issueCreatedAt = 2015 (-01) (-06) 16 : 48 : 53 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 53534920
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

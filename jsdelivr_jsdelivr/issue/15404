@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-19) 17 : 18 : 55 UTC
+  , issueUpdatedAt = 2016 (-12) (-19) 17 : 18 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15404/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15404")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15404
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4441638
+        , simpleUserLogin = N "pdroll"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4441638?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pdroll"
+        }
+  , issueTitle = "Improved description of WindowEvents package."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15404")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15404.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15404.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15404"
+  , issueCreatedAt = 2016 (-12) (-18) 07 : 16 : 54 UTC
+  , issueBody =
+      Just
+        "Provided an updated description to reflect recent additions to the library."
+  , issueState = StateClosed
+  , issueId = Id 196262234
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

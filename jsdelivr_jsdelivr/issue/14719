@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-09) 15 : 20 : 06 UTC
+  , issueUpdatedAt = 2016 (-11) (-09) 15 : 20 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14719/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/14719")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14719
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 371814
+        , simpleUserLogin = N "louisameline"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/371814?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/louisameline"
+        }
+  , issueTitle = "File removed from my project"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14719"
+  , issueCreatedAt = 2016 (-11) (-09) 15 : 16 : 22 UTC
+  , issueBody =
+      Just
+        "Hello,\r\n\r\na useless file has been removed from my project on purpose and so the bot won't pull the latest version. Could an admin please accept the PR? Thank you.\r\n\r\nhttps://github.com/jsdelivr/jsdelivr/pull/14585"
+  , issueState = StateClosed
+  , issueId = Id 188271824
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

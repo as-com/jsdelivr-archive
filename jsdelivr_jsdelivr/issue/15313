@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-12) 19 : 33 : 03 UTC
+  , issueUpdatedAt = 2016 (-12) (-12) 19 : 33 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15313/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15313")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15313
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bw-js-sdk to 0.0.10"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15313")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15313.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15313.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15313"
+  , issueCreatedAt = 2016 (-12) (-12) 19 : 33 : 00 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bw-js-sdk to 0.0.10.\n\n@TeamBrightWork\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"bw-js-sdk\",\n    \"files\": {\n      \"include\": [\"dist/*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/bw-js-sdk\",\n    \"localVersions\": [\"0.0.6\", \"0.0.7\", \"0.0.8\", \"0.0.9\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"0.0.8\", \"0.0.9\", \"0.0.10\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/bw-js-sdk/update.json\",\n  \"versions\": [\"0.0.10\"],\n  \"updateRemote\": true,\n  \"version\": \"0.0.10\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/bw-js-sdk/0.0.10\",\n  \"branch\": \"bw-js-sdk/0.0.10\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 195064172
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

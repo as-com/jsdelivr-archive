@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 21 : 48 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 21 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13364/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13364")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13364
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 20294526
+        , simpleUserLogin = N "fly-light"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/20294526?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/fly-light"
+        }
+  , issueTitle = "Create spoqahansans-kr.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13364")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13364.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13364.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13364"
+  , issueCreatedAt = 2016 (-08) (-22) 04 : 35 : 29 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 172368179
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

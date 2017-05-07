@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-06) (-18) 18 : 20 : 16 UTC
+  , issueUpdatedAt = 2014 (-06) (-18) 14 : 48 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/35/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/35")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 35
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 44679
+        , simpleUserLogin = N "seanthegeek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/44679?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/seanthegeek"
+        }
+  , issueTitle = "Rename jQuery 1.9.1 map"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/35")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/35.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/35.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/35"
+  , issueCreatedAt = 2013 (-06) (-18) 17 : 51 : 40 UTC
+  , issueBody =
+      Just
+        "Turns out, the map I got from jQuery needs to be renamed before it can be properly used.\n"
+  , issueState = StateClosed
+  , issueId = Id 15701699
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

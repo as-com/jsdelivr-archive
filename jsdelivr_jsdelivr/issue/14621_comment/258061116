@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-11) (-03) 04 : 11 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/258061116"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14621#issuecomment-258061116"
+  , issueCommentCreatedAt = 2016 (-11) (-03) 04 : 11 : 15 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @megawac, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _prettify_ between _0.1_ and _1.1_ there was a change in file structure  \n  \n  ``` diff\n  + desert.css\n  + doxy.css\n  + lang-Splus.js\n  + lang-aea.js\n  + lang-agc.js\n  + lang-basic.js\n  + lang-cbm.js\n  + lang-cl.js\n  + lang-dart.js\n  + lang-el.js\n  + lang-erl.js\n  + lang-erlang.js\n  + lang-fs.js\n  + lang-lasso.js\n  + lang-lassoscript.js\n  + lang-latex.js\n  + lang-lgt.js\n  + lang-ll.js\n  + lang-llvm.js\n  + lang-logtalk.js\n  + lang-ls.js\n  + lang-lsp.js\n  + lang-matlab.js\n  + lang-mumps.js\n  + lang-nemerle.js\n  + lang-pascal.js\n  + lang-r.js\n  + lang-rd.js\n  + lang-rkt.js\n  + lang-rust.js\n  + lang-s.js\n  + lang-scm.js\n  + lang-ss.js\n  + lang-swift.js\n  + lang-tcl.js\n  + lang-vbs.js\n  + lang-vhd.js\n  + lang-xquery.js\n  + lang-yml.js\n  + run_prettify.js\n  + sons-of-obsidian.css\n  + sunburst.css\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Speak like a human._\n"
+  , issueCommentId = 258061116
+  }

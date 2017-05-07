@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-30) 20 : 31 : 55 UTC
+  , issueUpdatedAt = 2015 (-01) (-27) 11 : 36 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2872/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2872")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2872
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.formvalidation to v0.5.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2872")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2872.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2872.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2872"
+  , issueCreatedAt = 2014 (-12) (-30) 18 : 05 : 36 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.formvalidation to v0.5.3.\n\n@formvalidation\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.formvalidation\",\n    \"repo\": \"formvalidation/formvalidation\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"./css/*.min.css\", \"./js/**/*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.formvalidation\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\", \"v0.4.5\", \"v0.5.0\", \"v0.5.1\", \"v0.5.2\", \"v0.5.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.5.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.formvalidation/0.5.3\",\n  \"branch\": \"jquery.formvalidation/v0.5.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 53134294
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

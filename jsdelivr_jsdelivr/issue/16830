@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-13) 02 : 47 : 47 UTC
+  , issueUpdatedAt = 2017 (-03) (-13) 02 : 47 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16830/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16830")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16830
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 23395820
+        , simpleUserLogin = N "sashiba042"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/23395820?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sashiba042"
+        }
+  , issueTitle = "Add project seto font"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16830")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16830.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16830.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16830"
+  , issueCreatedAt = 2017 (-03) (-10) 13 : 54 : 15 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 213346608
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-13) 16 : 04 : 52 UTC
+  , issueUpdatedAt = 2014 (-07) (-13) 16 : 05 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1201/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1201")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1201
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project gmap3 to v6.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1201")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1201.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1201.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1201"
+  , issueCreatedAt = 2014 (-07) (-13) 16 : 04 : 34 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project gmap3 to v6.0.0.\n\n@jbdemonte\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"gmap3\",\n    \"repo\": \"jbdemonte/gmap3\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"gmap3.min.js\", \"gmap3.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/gmap3\",\n    \"localVersions\": [\"5.1.1\"],\n    \"remoteVersions\": [\"v5.1.1\", \"v6.0.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v6.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/gmap3/6.0.0\",\n  \"branch\": \"gmap3/v6.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 37744059
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

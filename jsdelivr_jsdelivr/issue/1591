@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-02) 18 : 48 : 02 UTC
+  , issueUpdatedAt = 2014 (-09) (-02) 18 : 48 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1591/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1591")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1591
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 742498
+        , simpleUserLogin = N "onokumus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/742498?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/onokumus"
+        }
+  , issueTitle = "fixed metismenu repository"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1591")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1591.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1591.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1591"
+  , issueCreatedAt = 2014 (-09) (-02) 18 : 25 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 41739179
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

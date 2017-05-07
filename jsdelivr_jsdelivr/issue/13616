@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-05) 18 : 05 : 35 UTC
+  , issueUpdatedAt = 2016 (-09) (-05) 18 : 05 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13616/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13616")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13616
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project pouchdb to 6.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13616")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13616.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13616.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13616"
+  , issueCreatedAt = 2016 (-09) (-05) 18 : 05 : 30 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project pouchdb to 6.0.3.\n\n@pouchdb\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"pouchdb\",\n    \"repo\": \"pouchdb/pouchdb\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"pouchdb.min.js\", \"pouchdb.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/pouchdb\",\n    \"localVersions\": [\"1.0.0\", \"1.1.0\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"2.2.3\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.1.0\", \"3.2.0\", \"3.2.1\", \"3.3.0\", \"3.3.1\", \"3.4.0\", \"3.5.0\", \"3.6.0\", \"4.0.0\", \"4.0.2-prerelease\", \"4.0.2\", \"4.0.3\", \"5.0.0\", \"5.1.0\", \"5.2.0\", \"5.2.1\", \"5.3.0\", \"5.3.1\", \"5.3.2\", \"5.4.0\", \"5.4.1\", \"5.4.2\", \"5.4.3\", \"5.4.4\", \"5.4.5\"],\n    \"remoteVersions\": [\"v0.0.10\", \"v0.0.16\", \"0.0.17\", \"0.0.18\", \"1.0.0\", \"1.1.0\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"2.2.3\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.1.0\", \"3.2.0\", \"3.2.1\", \"3.3.0\", \"3.3.1\", \"3.4.0\", \"3.5.0\", \"3.6.0\", \"4.0.0\", \"4.0.1\", \"4.0.2\", \"4.0.3\", \"5.0.0\", \"5.1.0\", \"5.2.0\", \"5.2.1\", \"5.3.0\", \"5.3.1\", \"5.3.2\", \"5.4.0\", \"5.4.1\", \"5.4.2\", \"5.4.3\", \"5.4.4\", \"5.4.5\", \"6.0.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/pouchdb/update.json\",\n  \"versions\": [\"6.0.3\"],\n  \"updateRemote\": true,\n  \"version\": \"6.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/pouchdb/6.0.3\",\n  \"branch\": \"pouchdb/6.0.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 175112368
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

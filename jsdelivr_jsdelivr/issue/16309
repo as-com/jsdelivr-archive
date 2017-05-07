@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-11) 23 : 06 : 07 UTC
+  , issueUpdatedAt = 2017 (-02) (-11) 23 : 06 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16309/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16309")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16309
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 772855
+        , simpleUserLogin = N "shobhitsharma"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/772855?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/shobhitsharma"
+        }
+  , issueTitle = "Added info.init for embedo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16309")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16309.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16309.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16309"
+  , issueCreatedAt = 2017 (-02) (-11) 23 : 02 : 33 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 207014652
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

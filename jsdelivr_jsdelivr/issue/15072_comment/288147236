@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-03) (-21) 17 : 03 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/288147236"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15072#issuecomment-288147236"
+  , issueCommentCreatedAt = 2017 (-03) (-21) 17 : 03 : 22 UTC
+  , issueCommentBody =
+      "\nAs an effort to clean up the amount of backlog jsdelivr is currently facing we're closing all stale pull requests (pull requests with no activity in the past week).\n\nFeel free to re-open if this happened to a pull-request you'd like to get in. It may also be a good opportunity to verify that the pull request was setup correctly as described in the [Contributing.md](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md).\n\nThanks, sorry about letting this go stale like this.\n"
+  , issueCommentId = 288147236
+  }

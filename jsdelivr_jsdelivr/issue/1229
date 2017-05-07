@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-17) 20 : 26 : 25 UTC
+  , issueUpdatedAt = 2014 (-07) (-17) 20 : 26 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1229/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1229")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1229
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 68859
+        , simpleUserLogin = N "MrSaints"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/68859?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MrSaints"
+        }
+  , issueTitle = "Enabled auto-updating for Animate.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1229")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1229.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1229.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1229"
+  , issueCreatedAt = 2014 (-07) (-17) 20 : 25 : 06 UTC
+  , issueBody =
+      Just "Self-explanatory. I hope I'm doing this right.\n"
+  , issueState = StateClosed
+  , issueId = Id 38122309
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

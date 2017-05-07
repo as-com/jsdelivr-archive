@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-28) 10 : 06 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/71809235"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3221#issuecomment-71809235"
+  , issueCommentCreatedAt = 2015 (-01) (-28) 10 : 06 : 17 UTC
+  , issueCommentBody =
+      "Nah, a script wont work, we have a universal auto-updating solution https://github.com/jsdelivr/libgrabber\n\nI guess for now manual updates will work just fine.\n"
+  , issueCommentId = 71809235
+  }

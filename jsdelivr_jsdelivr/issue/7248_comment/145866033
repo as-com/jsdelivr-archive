@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-06) 14 : 05 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/145866033"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/7248#issuecomment-145866033"
+  , issueCommentCreatedAt = 2015 (-10) (-06) 14 : 05 : 33 UTC
+  , issueCommentBody =
+      "1. No documentation\n2. Too fresh\n3. No stable versions\n4. No tagged versions\n\nSorry, but I cant accept it. Please develop it further and if it goes well we can re-open this PR in the future.\n"
+  , issueCommentId = 145866033
+  }

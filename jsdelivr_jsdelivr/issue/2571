@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-02) 11 : 16 : 55 UTC
+  , issueUpdatedAt = 2014 (-12) (-02) 11 : 16 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2571/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2571")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2571
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 566463
+        , simpleUserLogin = N "warpech"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/566463?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/warpech"
+        }
+  , issueTitle = "add Handsontable (autoupdate)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2571")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2571.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2571.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2571"
+  , issueCreatedAt = 2014 (-12) (-02) 10 : 14 : 06 UTC
+  , issueBody =
+      Just
+        "Added Handsontable (https://github.com/handsontable/handsontable) with autoupdate\n"
+  , issueState = StateClosed
+  , issueId = Id 50633098
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

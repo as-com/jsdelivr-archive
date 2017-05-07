@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-26) 01 : 16 : 38 UTC
+  , issueUpdatedAt = 2014 (-07) (-26) 02 : 28 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1299/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1299")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1299
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 812398
+        , simpleUserLogin = N "sebbo2002"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/812398?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sebbo2002"
+        }
+  , issueTitle = "added webmail-linker.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1299")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1299.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1299.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1299"
+  , issueCreatedAt = 2014 (-07) (-25) 15 : 08 : 56 UTC
+  , issueBody =
+      Just
+        "#### About\n\nThis is a JavaScript implementation of [Webmail Linker](https://github.com/thomasbachem/webmail-linker). It can be used as a node.js module or in a browser.\n##### What's Webmail Linker?\n\n> Many websites require an email double opt-in during user registration. This project wants to fix the resulting break in user flow when users have to manually switch to their email providers' website to receive the confirmation email.\n> \n> With Webmail Linker, you can offer a direct link to the user's webmail interface. In addition to the webmail URL, you'll get the name of the email provider and a favicon URL, so you can offer a button like \"Check your email on [name and icon of the provider]\".\n"
+  , issueState = StateClosed
+  , issueId = Id 38740347
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

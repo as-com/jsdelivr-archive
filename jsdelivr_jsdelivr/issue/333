@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-05) 00 : 17 : 59 UTC
+  , issueUpdatedAt = 2014 (-02) (-05) 00 : 17 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/333/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/333")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 333
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 831389
+        , simpleUserLogin = N "lewisgoddard"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/831389?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lewisgoddard"
+        }
+  , issueTitle = "Add jQuery.Touch (0.2)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/333")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/333.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/333.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/333"
+  , issueCreatedAt = 2014 (-02) (-05) 00 : 10 : 16 UTC
+  , issueBody =
+      Just
+        "Done much better this time. Now you have everything my personal site requires.\n"
+  , issueState = StateClosed
+  , issueId = Id 26927812
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

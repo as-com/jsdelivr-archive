@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-16) 16 : 53 : 58 UTC
+  , issueUpdatedAt = 2014 (-06) (-16) 16 : 54 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/957/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/957")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 957
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 598730
+        , simpleUserLogin = N "guybedford"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/598730?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/guybedford"
+        }
+  , issueTitle = "add require-css update file"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/957")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/957.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/957.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/957"
+  , issueCreatedAt = 2014 (-06) (-16) 15 : 48 : 58 UTC
+  , issueBody =
+      Just
+        "Is the update file enough on its own, or should I include the first file from RequireCSS too?\n"
+  , issueState = StateClosed
+  , issueId = Id 35809142
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

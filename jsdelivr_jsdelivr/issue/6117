@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-26) 08 : 57 : 19 UTC
+  , issueUpdatedAt = 2015 (-07) (-26) 08 : 57 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6117/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6117")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6117
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "manually updated font-notosans-kr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6117")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6117.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6117.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6117"
+  , issueCreatedAt = 2015 (-07) (-26) 04 : 28 : 22 UTC
+  , issueBody =
+      Just
+        "i don't know why libgrabber didn't update the repo.\nanyway, i'll update it manually\n\nhttps://github.com/ajkj/NotoSansKR/releases/tag/1.0.0-v1004 (tag was uploaded 6 hours ago)\n"
+  , issueState = StateClosed
+  , issueId = Id 97284909
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

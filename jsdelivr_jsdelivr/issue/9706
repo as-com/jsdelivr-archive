@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-21) 15 : 20 : 17 UTC
+  , issueUpdatedAt = 2016 (-02) (-21) 21 : 18 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9706/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9706")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9706
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4147513
+        , simpleUserLogin = N "runestro"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4147513?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/runestro"
+        }
+  , issueTitle = "Adding file 525icons"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9706")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9706.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9706.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9706"
+  , issueCreatedAt = 2016 (-02) (-11) 13 : 22 : 48 UTC
+  , issueBody =
+      Just "I hope I have done it right. Thanks!\nrunestro@gmail.com\n"
+  , issueState = StateClosed
+  , issueId = Id 132972097
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

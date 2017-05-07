@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-24) 09 : 58 : 03 UTC
+  , issueUpdatedAt = 2014 (-08) (-24) 09 : 58 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1512/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1512")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1512
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project GreenSock-JS to 1.13.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1512")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1512.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1512.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1512"
+  , issueCreatedAt = 2014 (-08) (-24) 09 : 36 : 48 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project GreenSock-JS to 1.13.2.\n\n@greensock\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"GreenSock-JS\",\n    \"repo\": \"greensock/GreenSock-JS\",\n    \"files\": {\n      \"basePath\": \"src/minified\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/gsap\",\n    \"localVersions\": [\"1.11.8\", \"1.12.1\", \"1.13.0\", \"1.13.1\"],\n    \"remoteVersions\": [\"1.8.2\", \"1.8.3\", \"1.8.4\", \"1.9.0\", \"1.9.1\", \"1.9.2\", \"1.9.3\", \"1.9.4\", \"1.9.5\", \"1.9.6\", \"1.9.7\", \"1.9.8\", \"1.10.0\", \"1.10.1\", \"1.10.2\", \"1.10.3\", \"1.11.0\", \"1.11.1\", \"1.11.2\", \"1.11.3\", \"1.11.4\", \"1.11.5\", \"1.11.6\", \"1.11.7\", \"1.11.8\", \"1.12.0\", \"1.12.1\", \"1.13.0\", \"1.13.1\", \"1.13.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.13.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/gsap/1.13.2\",\n  \"branch\": \"GreenSock-JS/1.13.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 41002934
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-09) 12 : 12 : 31 UTC
+  , issueUpdatedAt = 2014 (-07) (-09) 12 : 18 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1155/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1155")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1155
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6192491
+        , simpleUserLogin = N "MartinKolarik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6192491?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MartinKolarik"
+        }
+  , issueTitle = "Add ractive-events-hover"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1155")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1155.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1155.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1155"
+  , issueCreatedAt = 2014 (-07) (-09) 11 : 13 : 01 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 37454559
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

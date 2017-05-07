@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-05) 03 : 48 : 09 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 20 : 08 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/750/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/750")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 750
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 76308
+        , simpleUserLogin = N "kristoferjoseph"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/76308?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/kristoferjoseph"
+        }
+  , issueTitle = "Adding flexboxgrid"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/750")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/750.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/750.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/750"
+  , issueCreatedAt = 2014 (-05) (-05) 03 : 44 : 33 UTC
+  , issueBody =
+      Just
+        "http://flexboxgrid.com\nhttps://github.com/kristoferjoseph/flexboxgrid\n"
+  , issueState = StateClosed
+  , issueId = Id 32785595
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-03) 14 : 56 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/251129081"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14169#issuecomment-251129081"
+  , issueCommentCreatedAt = 2016 (-10) (-03) 14 : 56 : 26 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _threejs_ between _0.0.0-r9_ and _r33_ there was a change in file structure  \n  \n  ``` diff\n  + Three.js\n  + custom/ThreeCanvas.js\n  + custom/ThreeDOM.js\n  + custom/ThreeExtras.js\n  + custom/ThreeSVG.js\n  + custom/ThreeWebGL.js\n  - three.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_It's not fully shipped until it's fast._\n"
+  , issueCommentId = 251129081
+  }

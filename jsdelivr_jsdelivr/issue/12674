@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-11) 16 : 04 : 39 UTC
+  , issueUpdatedAt = 2016 (-07) (-11) 16 : 04 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12674/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12674")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12674
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project quicksettings to v1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12674")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12674.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12674.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12674"
+  , issueCreatedAt = 2016 (-07) (-11) 16 : 04 : 33 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project quicksettings to v1.1.\n\n@bit101\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"quicksettings\",\n    \"repo\": \"bit101/quicksettings\",\n    \"files\": {\n      \"include\": [\"quicksettings.min.js\", \"quicksettings.css\", \"quicksettings_minimal.css\", \"quicksettings_minimal_dark.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/quicksettings\",\n    \"localVersions\": [\"1.0\"],\n    \"remoteVersions\": [\"v1.0\", \"v1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/quicksettings/update.json\",\n  \"versions\": [\"v1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/quicksettings/1.1\",\n  \"branch\": \"quicksettings/v1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 164873976
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-22) 11 : 50 : 58 UTC
+  , issueUpdatedAt = 2014 (-10) (-22) 11 : 50 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2090/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2090")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2090
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "better fallback cdn in Asia Region"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2090"
+  , issueCreatedAt = 2014 (-10) (-22) 11 : 40 : 19 UTC
+  , issueBody =
+      Just
+        "looks like MaxCDN dns setting in not working properly.\n\nwhen i nslookup the jsdelivr3.dak.netdna-cdn.com with South Korea Local DNS(Seoul, ICN). or OpenDNS or Google DNS. \nit shows US(LA, LAX) ip address. and ping(from Seoul) is approximately 200ms;\n\nwhen i nslookup the jsdelivr3.dak.netdna-cdn.com with China Telecom DNS.\nit shows US(LA, LAX) ip address.\n\nwhen i nslookup same host with japan/hongkong DNS server.\nit show tokyo/hongkong ip address. and ping(from Seoul) is approximately 40ms/60m.\n\nis it better to route korea traffic to Tokyo/Hongkong edge((in case of Cloudflare perforamnce degration (today there ware large performance degration in Cloudflare Seoul edge)) and route china traffic to MaxCDN hongkong edge or toyko edge not to exvm-sg edge?\n"
+  , issueState = StateClosed
+  , issueId = Id 46500074
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

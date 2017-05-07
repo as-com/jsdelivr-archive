@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-08) (-19) 21 : 12 : 44 UTC
+  , issueUpdatedAt = 2013 (-09) (-14) 20 : 22 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/76/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/76")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 76
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 657831
+        , simpleUserLogin = N "asimihsan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/657831?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/asimihsan"
+        }
+  , issueTitle = "jquery.tablequeryjs - v0.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/76")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/76.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/76.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/76"
+  , issueCreatedAt = 2013 (-08) (-19) 21 : 06 : 05 UTC
+  , issueBody = Just "Just applying a LICENSE to my project.\n"
+  , issueState = StateClosed
+  , issueId = Id 18263732
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-29) 13 : 33 : 04 UTC
+  , issueUpdatedAt = 2015 (-12) (-29) 13 : 33 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8694/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8694")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8694
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project leaflet.markercluster to 1.0.0-beta.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8694")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8694.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8694.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8694"
+  , issueCreatedAt = 2015 (-12) (-29) 13 : 31 : 57 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project leaflet.markercluster to 1.0.0-beta.2.0.\n\n@Leaflet\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"leaflet.markercluster\",\n    \"repo\": \"Leaflet/Leaflet.markercluster\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/leaflet.markercluster\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.4.0-hotfix.1\", \"0.4.0\", \"1.0.0-beta.2.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/leaflet.markercluster/update.json\",\n  \"version\": \"1.0.0-beta.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/leaflet.markercluster/1.0.0-beta.2.0\",\n  \"branch\": \"leaflet.markercluster/1.0.0-beta.2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 124211499
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

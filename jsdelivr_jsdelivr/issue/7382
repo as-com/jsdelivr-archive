@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-14) 18 : 51 : 40 UTC
+  , issueUpdatedAt = 2015 (-10) (-14) 18 : 51 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7382/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/7382")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7382
+  , issueAssignees =
+      [ SimpleUser
+          { simpleUserId = Id 1834071
+          , simpleUserLogin = N "jimaek"
+          , simpleUserAvatarUrl =
+              URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+          , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+          }
+      ]
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Fix broken projects"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7382"
+  , issueCreatedAt = 2015 (-10) (-14) 13 : 08 : 52 UTC
+  , issueBody =
+      Just
+        "```\n2015-10-14T13:06:36.928Z] Error syncing library! [Error: Request to sync cborjs-typedarray-decoder from http://144.76.57.166:8000/data/jsdelivr/cborjs-typedarray-decoder/library.json failed]\n[2015-10-14T13:06:42.528Z] Error syncing library! [Error: Request to sync diejs from http://144.76.57.166:8000/data/jsdelivr/diejs/library.json failed]\n[2015-10-14T13:06:42.871Z] Error syncing library! [Error: Request to sync domcom from http://144.76.57.166:8000/data/jsdelivr/domcom/library.json failed]\n[2015-10-14T13:06:51.705Z] Error syncing library! [Error: Request to sync ion.rangeslider from http://144.76.57.166:8000/data/jsdelivr/ion.rangeslider/library.json failed]\n[2015-10-14T13:06:54.724Z] Error syncing library! [Error: Request to sync jquery.bootgrid from http://144.76.57.166:8000/data/jsdelivr/jquery.bootgrid/library.json failed]\n[2015-10-14T13:07:26.165Z] Error syncing library! [Error: Request to sync request-frame from http://144.76.57.166:8000/data/jsdelivr/request-frame/library.json failed]\n[2015-10-14T13:07:30.777Z] Error syncing library! [Error: Request to sync smartquotes from http://144.76.57.166:8000/data/jsdelivr/smartquotes/library.json failed]\n[2015-10-14T13:07:34.405Z] Error syncing library! [Error: Request to sync timezonedb from http://144.76.57.166:8000/data/jsdelivr/timezonedb/library.json failed]\n[2015-10-14T13:07:39.545Z] Error syncing library! [Error: Request to sync wp-jupiter from http://144.76.57.166:8000/data/jsdelivr/wp-jupiter/library.json failed]\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 111394390
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

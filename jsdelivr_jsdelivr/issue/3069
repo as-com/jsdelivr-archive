@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-15) 02 : 50 : 57 UTC
+  , issueUpdatedAt = 2015 (-01) (-15) 19 : 45 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3069/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3069")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3069
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project shepherd to v0.6.12"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3069")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3069.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3069.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3069"
+  , issueCreatedAt = 2015 (-01) (-15) 02 : 49 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project shepherd to v0.6.12.\n\n@HubSpot\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"shepherd\",\n    \"repo\": \"HubSpot/shepherd\",\n    \"files\": {\n      \"include\": [\"shepherd.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/shepherd\",\n    \"localVersions\": [\"0.5.1\", \"0.6.4\", \"0.6.7\"],\n    \"remoteVersions\": [\"v0.2.0\", \"v0.2.1\", \"v0.3.0\", \"v0.3.1\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\", \"v0.4.5\", \"v0.4.6\", \"v0.4.7\", \"v0.5.0\", \"v0.5.1\", \"v0.6.0\", \"v0.6.1\", \"v0.6.2\", \"v0.6.3\", \"v0.6.4\", \"v0.6.5\", \"v0.6.6\", \"v0.6.7\", \"v0.6.8\", \"v0.6.9\", \"v0.6.10\", \"v0.6.11\", \"v0.6.12\"],\n    \"branchVersions\": [\"v0.6.4\", \"v0.6.7\", \"v0.6.10\"]\n  },\n  \"version\": \"v0.6.12\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/shepherd/0.6.12\",\n  \"branch\": \"shepherd/v0.6.12\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 54406452
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

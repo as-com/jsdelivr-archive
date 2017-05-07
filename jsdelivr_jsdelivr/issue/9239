@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-20) 20 : 23 : 16 UTC
+  , issueUpdatedAt = 2016 (-01) (-20) 21 : 40 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9239/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9239")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9239
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5345836
+        , simpleUserLogin = N "YoungCatChen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5345836?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/YoungCatChen"
+        }
+  , issueTitle = "Adds danialfarid's ng-file-upload library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9239")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9239.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9239.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9239"
+  , issueCreatedAt = 2016 (-01) (-20) 19 : 03 : 11 UTC
+  , issueBody =
+      Just
+        "This PR adds danialfarid's ng-file-upload library for AngularJS into the jsdelivr project.\nThank you!\n"
+  , issueState = StateClosed
+  , issueId = Id 127759899
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

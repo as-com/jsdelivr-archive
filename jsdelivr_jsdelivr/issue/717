@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-28) 17 : 31 : 25 UTC
+  , issueUpdatedAt = 2014 (-04) (-28) 18 : 26 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/717/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/717")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 717
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add jquery.cookie v1.4.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/717")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/717.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/717.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/717"
+  , issueCreatedAt = 2014 (-04) (-28) 17 : 30 : 02 UTC
+  , issueBody =
+      Just
+        "source : https://github.com/carhartl/jquery-cookie/archive/v1.4.1.tar.gz\n"
+  , issueState = StateClosed
+  , issueId = Id 32380245
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-04) 13 : 50 : 00 UTC
+  , issueUpdatedAt = 2017 (-05) (-04) 13 : 50 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17859/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17859")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17859
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6694194
+        , simpleUserLogin = N "nathanforce"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6694194?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nathanforce"
+        }
+  , issueTitle = "Adding react-albus"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17859")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17859.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17859.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17859"
+  , issueCreatedAt = 2017 (-04) (-28) 15 : 22 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 225113485
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

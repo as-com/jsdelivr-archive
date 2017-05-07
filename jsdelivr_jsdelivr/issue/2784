@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-19) 17 : 27 : 37 UTC
+  , issueUpdatedAt = 2014 (-12) (-19) 17 : 27 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2784/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2784")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2784
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-gantt to v1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2784")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2784.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2784.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2784"
+  , issueCreatedAt = 2014 (-12) (-19) 16 : 42 : 03 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-gantt to v1.0.1.\n\n@angular-gantt\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular-gantt\",\n    \"repo\": \"angular-gantt/angular-gantt\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular.gantt\",\n    \"localVersions\": [\"1.0.0-rc4\", \"1.0.0-rc5\", \"1.0.0-rc6\", \"1.0.0-rc7\", \"1.0.0\"],\n    \"remoteVersions\": [\"v0.1\", \"v0.2\", \"v0.3\", \"v0.4\", \"v0.4.2\", \"v0.4.3\", \"v0.5\", \"v0.5.0\", \"v0.5.1\", \"v0.6.0\", \"v.0.6.1\", \"v0.6.1\", \"v0.6.2\", \"v0.6.3\", \"v0.6.4\", \"v0.7.0\", \"v1.0.0-rc.9\", \"v1.0.0-rc1\", \"v1.0.0-rc2\", \"v1.0.0-rc3\", \"v1.0.0-rc4\", \"v1.0.0-rc5\", \"v1.0.0-rc6\", \"v1.0.0-rc7\", \"v1.0.0-rc8\", \"v1.0.0\", \"v1.0.1\"],\n    \"branchVersions\": [\"v1.0.0-rc8\"]\n  },\n  \"version\": \"v1.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.gantt/1.0.1\",\n  \"branch\": \"angular-gantt/v1.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 52502954
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

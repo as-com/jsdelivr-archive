@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-07) (-12) 12 : 56 : 57 UTC
+  , issueUpdatedAt = 2013 (-07) (-12) 12 : 57 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/51/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/51")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 51
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 192167
+        , simpleUserLogin = N "ahagenbruch"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/192167?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ahagenbruch"
+        }
+  , issueTitle = "Updated tinymce to 4.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/51")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/51.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/51.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/51"
+  , issueCreatedAt = 2013 (-07) (-12) 12 : 19 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 16678864
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

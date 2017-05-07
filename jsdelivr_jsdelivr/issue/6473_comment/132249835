@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-18) 15 : 26 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/132249835"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6473#issuecomment-132249835"
+  , issueCommentCreatedAt = 2015 (-08) (-18) 15 : 26 : 51 UTC
+  , issueCommentBody =
+      "Its a problem with the origin server of the polyfill project. jsDelivr proxies and caches their files, but it cant work indefinitely if their server is down. You need to ping the owners of polyfill.\nThere is nothing we can do\n"
+  , issueCommentId = 132249835
+  }

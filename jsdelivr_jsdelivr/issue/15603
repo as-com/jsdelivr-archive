@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-03) 15 : 03 : 57 UTC
+  , issueUpdatedAt = 2017 (-01) (-03) 15 : 03 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15603/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15603")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15603
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.actual to v1.0.19"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15603")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15603.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15603.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15603"
+  , issueCreatedAt = 2017 (-01) (-03) 15 : 03 : 52 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.actual to v1.0.19.\n\n@dreamerslab\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.actual\",\n    \"repo\": \"dreamerslab/jquery.actual\",\n    \"files\": {\n      \"include\": [\"jquery.actual.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.actual\",\n    \"localVersions\": [\"1.0.16\", \"1.0.17\", \"1.0.18\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.0.8\", \"v1.0.9\", \"v1.0.10\", \"v1.0.11\", \"v1.0.15\", \"v1.0.16\", \"v1.0.17\", \"v1.0.18\", \"v1.0.19\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.actual/update.json\",\n  \"versions\": [\"v1.0.19\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.19\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.actual/1.0.19\",\n  \"branch\": \"jquery.actual/v1.0.19\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 198492792
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

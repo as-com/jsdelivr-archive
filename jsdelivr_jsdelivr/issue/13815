@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-15) 18 : 04 : 10 UTC
+  , issueUpdatedAt = 2016 (-09) (-15) 18 : 04 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13815/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13815")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13815
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project frontexpress to v0.1.10"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13815")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13815.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13815.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13815"
+  , issueCreatedAt = 2016 (-09) (-15) 18 : 04 : 05 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project frontexpress to v0.1.10.\n\n@camelaissani\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"frontexpress\",\n    \"repo\": \"camelaissani/frontexpress\",\n    \"files\": {\n      \"include\": [\"frontexpress.js\", \"frontexpress.min.js\", \"frontexpress.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/frontexpress\",\n    \"localVersions\": [\"0.1.9\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\", \"v0.1.6\", \"v0.1.7\", \"v0.1.8\", \"v0.1.9\", \"v0.1.10\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/frontexpress/update.json\",\n  \"versions\": [\"v0.1.10\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1.10\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/frontexpress/0.1.10\",\n  \"branch\": \"frontexpress/v0.1.10\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 177246243
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

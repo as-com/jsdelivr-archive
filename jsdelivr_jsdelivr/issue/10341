@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-08) 12 : 27 : 49 UTC
+  , issueUpdatedAt = 2016 (-03) (-08) 12 : 27 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10341/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10341")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10341
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 55896
+        , simpleUserLogin = N "aamirafridi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/55896?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aamirafridi"
+        }
+  , issueTitle = "1.3.3 added"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10341")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10341.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10341.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10341"
+  , issueCreatedAt = 2016 (-03) (-07) 22 : 43 : 06 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 139117040
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

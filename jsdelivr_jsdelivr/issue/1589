@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-02) 17 : 31 : 28 UTC
+  , issueUpdatedAt = 2014 (-09) (-02) 17 : 35 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1589/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1589")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1589
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1250308
+        , simpleUserLogin = N "eKIK"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1250308?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/eKIK"
+        }
+  , issueTitle = "Added angular.ui-router 0.2.11"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1589")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1589.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1589.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1589"
+  , issueCreatedAt = 2014 (-09) (-02) 17 : 29 : 40 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 41733888
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

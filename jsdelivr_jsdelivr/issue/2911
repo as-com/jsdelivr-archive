@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-03) 20 : 54 : 46 UTC
+  , issueUpdatedAt = 2015 (-01) (-03) 20 : 54 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2911/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2911")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2911
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10374924
+        , simpleUserLogin = N "Fede72"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10374924?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Fede72"
+        }
+  , issueTitle = "Added version 3.8.1 of the plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2911")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2911.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2911.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2911"
+  , issueCreatedAt = 2015 (-01) (-02) 22 : 26 : 45 UTC
+  , issueBody = Just "Added version 3.8.1 of the plugin\n"
+  , issueState = StateClosed
+  , issueId = Id 53282504
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

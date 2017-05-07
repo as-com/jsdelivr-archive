@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-14) 16 : 36 : 41 UTC
+  , issueUpdatedAt = 2016 (-07) (-14) 16 : 36 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12630/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12630")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12630
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 422158
+        , simpleUserLogin = N "naikus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/422158?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/naikus"
+        }
+  , issueTitle = "Revert \"Patch 1\""
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12630")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12630.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12630.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12630"
+  , issueCreatedAt = 2016 (-07) (-08) 18 : 14 : 18 UTC
+  , issueBody =
+      Just
+        "Reverts jsdelivr/jsdelivr#12617\nExtremely sorry. I mispelled the word gauge. I'll submit the PR again. Again sorry about this\n"
+  , issueState = StateClosed
+  , issueId = Id 164586328
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

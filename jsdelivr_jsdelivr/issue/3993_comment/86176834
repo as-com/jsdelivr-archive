@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-25) 19 : 09 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/86176834"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3993#issuecomment-86176834"
+  , issueCommentCreatedAt = 2015 (-03) (-25) 19 : 09 : 24 UTC
+  , issueCommentBody =
+      "Fine if adding a brand-new project.  Might want to mention prefixes for lib-dependant projects (`angular.thing`, `jquery.widget`).\nIf updating existing lib, need to have workaround for \"Sorry, we had to truncate this directory to 1,000 files. 403 entries were omitted from the list. \" error.\n\nREADME is getting long, +1 `CONTRIBUTING.md`.\n"
+  , issueCommentId = 86176834
+  }

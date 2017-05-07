@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-21) 14 : 29 : 06 UTC
+  , issueUpdatedAt = 2014 (-10) (-21) 14 : 50 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2080/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2080")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2080
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1422344
+        , simpleUserLogin = N "ali-bugdayci"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1422344?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ali-bugdayci"
+        }
+  , issueTitle = "Update project restangular to 1.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2080")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2080.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2080.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2080"
+  , issueCreatedAt = 2014 (-10) (-21) 09 : 30 : 31 UTC
+  , issueBody = Just "Adding the 1.4.0 version of restangular \n"
+  , issueState = StateClosed
+  , issueId = Id 46372840
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

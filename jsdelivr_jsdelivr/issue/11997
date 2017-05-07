@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-05) 13 : 33 : 42 UTC
+  , issueUpdatedAt = 2016 (-06) (-05) 13 : 33 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11997/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11997")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11997
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.formstyler to 1.7.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11997")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11997.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11997.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11997"
+  , issueCreatedAt = 2016 (-06) (-05) 13 : 33 : 32 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.formstyler to 1.7.6.\n\n@Dimox\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.formstyler\",\n    \"repo\": \"Dimox/jQueryFormStyler\",\n    \"files\": {\n      \"include\": [\"jquery.formstyler.min.js\", \"jquery.formstyler.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.formstyler\",\n    \"localVersions\": [\"1.5.4\", \"1.5.5\", \"1.5.6\", \"1.6.0\", \"1.6.1\", \"1.6.2\", \"1.6.3\", \"1.6.4\", \"1.7.0\", \"1.7.1\", \"1.7.2\", \"1.7.3\", \"1.7.4\", \"1.7.5\"],\n    \"remoteVersions\": [\"v1.5.5\", \"v1.5.6\", \"1.6\", \"1.6.1\", \"1.6.2\", \"1.6.3\", \"1.6.4\", \"1.7\", \"1.7.0\", \"1.7.1\", \"1.7.2\", \"1.7.3\", \"1.7.4\", \"1.7.5\", \"1.7.6\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.formstyler/update.json\",\n  \"versions\": [\"1.7.6\"],\n  \"updateRemote\": true,\n  \"version\": \"1.7.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.formstyler/1.7.6\",\n  \"branch\": \"jquery.formstyler/1.7.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 158554627
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

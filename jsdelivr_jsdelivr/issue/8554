@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-18) 14 : 19 : 55 UTC
+  , issueUpdatedAt = 2016 (-01) (-18) 14 : 19 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8554/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/8554")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8554
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "more POPs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8554"
+  , issueCreatedAt = 2015 (-12) (-18) 06 : 08 : 03 UTC
+  , issueBody =
+      Just
+        "If you want to make the map's updates monthly, that's cool:\n- [x] [vancouver-montreal-canada](https://blog.cloudflare.com/vancouver-montreal-canada-cloudflares-70th-71st-data-center/)\n- [x] [Hamburg, GE](https://blog.cloudflare.com/unser-neues-72-rechenzentrum-hamu/)\n- [x] [Sofia, Bulgaria](https://blog.cloudflare.com/sofia/)\n- [x] [Cairo, Egypt](https://blog.cloudflare.com/cairo/)\n"
+  , issueState = StateClosed
+  , issueId = Id 122885082
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

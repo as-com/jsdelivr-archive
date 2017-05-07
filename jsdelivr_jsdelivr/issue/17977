@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-06) 19 : 14 : 36 UTC
+  , issueUpdatedAt = 2017 (-05) (-06) 19 : 14 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17977/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17977")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17977
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 21169606
+        , simpleUserLogin = N "mridah"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/21169606?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mridah"
+        }
+  , issueTitle = "Create new datepicker plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17977")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17977.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17977.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17977"
+  , issueCreatedAt = 2017 (-05) (-05) 09 : 37 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 226521042
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

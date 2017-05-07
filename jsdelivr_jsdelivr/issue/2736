@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-15) 15 : 49 : 22 UTC
+  , issueUpdatedAt = 2014 (-12) (-15) 15 : 49 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2736/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2736")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2736
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project sizzle to 2.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2736")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2736.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2736.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2736"
+  , issueCreatedAt = 2014 (-12) (-15) 15 : 49 : 06 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project sizzle to 2.1.1.\n\n@jquery\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"repo\": \"jquery/sizzle\",\n    \"name\": \"sizzle\",\n    \"files\": {\n      \"basePath\": \"dist\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/sizzle\",\n    \"localVersions\": [\"0.1.0\", \"1.8.3-b\", \"1.9.1\", \"2.0.0\", \"2.1.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.1.0\", \"2.0.0\", \"2.1.0\", \"2.1.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/sizzle/2.1.1\",\n  \"branch\": \"sizzle/2.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 52001388
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

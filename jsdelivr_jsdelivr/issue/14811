@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 16 : 52 : 40 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 16 : 52 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14811/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14811")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14811
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5941263
+        , simpleUserLogin = N "jefftham"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5941263?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jefftham"
+        }
+  , issueTitle = "update - corrected mistake for wsm.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14811")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14811.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14811.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14811"
+  , issueCreatedAt = 2016 (-11) (-16) 16 : 39 : 05 UTC
+  , issueBody = Just "added minified version"
+  , issueState = StateClosed
+  , issueId = Id 189763684
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

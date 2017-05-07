@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-12) 13 : 31 : 30 UTC
+  , issueUpdatedAt = 2016 (-04) (-12) 13 : 31 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10972/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10972")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10972
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4950036
+        , simpleUserLogin = N "deltaidea"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4950036?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/deltaidea"
+        }
+  , issueTitle = "Update project jhtmlarea to 0.8.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10972")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10972.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10972.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10972"
+  , issueCreatedAt = 2016 (-04) (-11) 12 : 12 : 02 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 147408146
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

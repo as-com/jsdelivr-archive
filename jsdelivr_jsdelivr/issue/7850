@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-10) 11 : 35 : 51 UTC
+  , issueUpdatedAt = 2015 (-11) (-10) 11 : 35 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7850/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7850")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7850
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular.ngtable to 1.0.0-beta.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7850")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7850.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7850.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7850"
+  , issueCreatedAt = 2015 (-11) (-10) 11 : 35 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.ngtable to 1.0.0-beta.9.\n\n@esvit\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.ngtable\",\n    \"repo\": \"esvit/ng-table\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"ng-table.js\", \"ng-table.css\", \"ng-table.min.js\", \"ng-table.min.css\", \"ng-table.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular.ngtable\",\n    \"localVersions\": [\"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.5.4\", \"0.5.5\", \"0.6.0\", \"0.7.0\", \"0.7.1\", \"0.8.0\", \"0.8.1\", \"0.8.2\", \"0.8.3\", \"1.0.0-alpha\", \"1.0.0-alpha.1\", \"1.0.0-alpha.2\", \"1.0.0-alpha.3\", \"1.0.0-alpha.4\", \"1.0.0-alpha.5\", \"1.0.0-alpha.6\", \"1.0.0-alpha.7\", \"1.0.0-alpha.8\", \"1.0.0-beta.1\", \"1.0.0-beta.4\", \"1.0.0-beta.5\", \"1.0.0-beta.7\"],\n    \"remoteVersions\": [\"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"0.5.0\", \"v0.5.1\", \"v0.5.2\", \"v0.5.3\", \"v0.5.4\", \"v0.5.5\", \"v0.6.0\", \"v0.7.0\", \"v0.7.1\", \"v0.8.0\", \"v0.8.1\", \"v0.8.2\", \"v0.8.3\", \"v1.0.0-alpha\", \"v1.0.0-alpha.1\", \"v1.0.0-alpha.2\", \"v1.0.0-alpha.3\", \"1.0.0-alpha.4\", \"1.0.0-alpha.5\", \"1.0.0-alpha.6\", \"1.0.0-alpha.7\", \"1.0.0-alpha.8\", \"1.0.0-beta.1\", \"1.0.0-beta.2\", \"1.0.0-beta.3\", \"1.0.0-beta.4\", \"1.0.0-beta.5\", \"1.0.0-beta.6\", \"1.0.0-beta.7\", \"1.0.0-beta.8\", \"1.0.0-beta.9\"],\n    \"branchVersions\": [\"1.0.0-beta.2\", \"1.0.0-beta.3\", \"1.0.0-beta.4\", \"1.0.0-beta.5\", \"1.0.0-beta.6\", \"1.0.0-beta.8\"]\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/angular.ngtable/update.json\",\n  \"version\": \"1.0.0-beta.9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.ngtable/1.0.0-beta.9\",\n  \"branch\": \"angular.ngtable/1.0.0-beta.9\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 116089245
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

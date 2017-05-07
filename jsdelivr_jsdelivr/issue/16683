@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-03) 18 : 39 : 49 UTC
+  , issueUpdatedAt = 2017 (-03) (-03) 18 : 39 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16683/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16683")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16683
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9327071
+        , simpleUserLogin = N "Chaoste"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9327071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Chaoste"
+        }
+  , issueTitle = "Add jquery.product-slider module (v0.1.0)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16683")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16683.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16683.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16683"
+  , issueCreatedAt = 2017 (-03) (-02) 21 : 25 : 59 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 211522684
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

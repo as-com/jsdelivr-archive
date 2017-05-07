@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-17) 14 : 29 : 53 UTC
+  , issueUpdatedAt = 2016 (-01) (-17) 14 : 29 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9078/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9078")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9078
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project Hover.css to 1.1.10"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9078")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9078.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9078.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9078"
+  , issueCreatedAt = 2016 (-01) (-17) 14 : 29 : 51 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project Hover.css to 1.1.10.\n\n@IanLunn\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"Hover.css\",\n    \"repo\": \"IanLunn/Hover\",\n    \"files\": {\n      \"basePath\": \"css/\",\n      \"include\": [\"hover-min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/hover.css\",\n    \"localVersions\": [\"2.0.2\"],\n    \"remoteVersions\": [\"1.0.8\", \"1.0.9\", \"1.1.10\", \"2.0.0\", \"2.0.1\", \"2.0.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/hover.css/update.json\",\n  \"versions\": [\"1.1.10\"],\n  \"updateRemote\": true,\n  \"version\": \"1.1.10\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/hover.css/1.1.10\",\n  \"branch\": \"Hover.css/1.1.10\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127098164
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

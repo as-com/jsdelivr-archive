@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-08) 20 : 33 : 17 UTC
+  , issueUpdatedAt = 2016 (-02) (-08) 20 : 33 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9468/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/9468")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9468
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1119883
+        , simpleUserLogin = N "SamuelEnglard"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1119883?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/SamuelEnglard"
+        }
+  , issueTitle = "About Page Not Working"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9468"
+  , issueCreatedAt = 2016 (-01) (-31) 01 : 52 : 56 UTC
+  , issueBody =
+      Just
+        "In IE11 on Windows 10 the About page just redirects to the home page.\n"
+  , issueState = StateClosed
+  , issueId = Id 130063013
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

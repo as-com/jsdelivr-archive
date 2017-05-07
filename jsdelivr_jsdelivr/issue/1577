@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-01) 13 : 58 : 38 UTC
+  , issueUpdatedAt = 2014 (-09) (-02) 11 : 31 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1577/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1577")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1577
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5323806
+        , simpleUserLogin = N "meownosaurus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5323806?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/meownosaurus"
+        }
+  , issueTitle = "Update fontawesome 4.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1577")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1577.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1577.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1577"
+  , issueCreatedAt = 2014 (-09) (-01) 10 : 49 : 58 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 41627076
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

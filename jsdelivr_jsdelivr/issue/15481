@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-25) 20 : 30 : 58 UTC
+  , issueUpdatedAt = 2016 (-12) (-25) 20 : 30 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15481/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15481")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15481
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 24697422
+        , simpleUserLogin = N "bitbytebot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/24697422?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bitbytebot"
+        }
+  , issueTitle = "Patch 2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15481")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15481.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15481.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15481"
+  , issueCreatedAt = 2016 (-12) (-23) 11 : 45 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 197356540
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

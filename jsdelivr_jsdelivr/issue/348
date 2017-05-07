@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-10) 16 : 05 : 52 UTC
+  , issueUpdatedAt = 2014 (-05) (-01) 17 : 48 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/348/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/348")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 348
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 305721
+        , simpleUserLogin = N "rdeavila"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/305721?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rdeavila"
+        }
+  , issueTitle = "Added Typeahead.js 0.10.0 and 0.10.1."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/348")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/348.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/348.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/348"
+  , issueCreatedAt = 2014 (-02) (-10) 15 : 39 : 37 UTC
+  , issueBody = Just "Added Typeahead.js 0.10.0 and 0.10.1.\n"
+  , issueState = StateClosed
+  , issueId = Id 27275367
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

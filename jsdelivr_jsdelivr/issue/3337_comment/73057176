@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-05) 14 : 45 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/73057176"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3337#issuecomment-73057176"
+  , issueCommentCreatedAt = 2015 (-02) (-05) 14 : 45 : 58 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help ammending your PR...\n- Might be nothing but I have some concerns about the files in your submission...  \n  - Unescaped unicode characters in _css/ink-flex.css_ (at pos 152205)\n  - Unescaped unicode characters in _css/ink-flex.min.css_ (at pos 108551)\n  - Unescaped unicode characters in _css/ink.css_ (at pos 122387)\n  - Unescaped unicode characters in _css/ink.min.css_ (at pos 84664)\n  - Unescaped unicode characters in _js/ink-all.js_ (at pos 332425)\n  - Unescaped unicode characters in _js/ink-all.min.js_ (at pos 96473)\n  - Unescaped unicode characters in _js/ink-ui.js_ (at pos 67740)\n  - Unescaped unicode characters in _js/ink-ui.min.js_ (at pos 18679)\n  - Unescaped unicode characters in _js/ink.datepicker.js_ (at pos 2746)\n  - Unescaped unicode characters in _js/ink.formvalidator-2.js_ (at pos 15395)\n  - Unescaped unicode characters in _js/ink.js_ (at pos 332425)\n  - Unescaped unicode characters in _js/ink.min.js_ (at pos 84841)\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _ink_ between _3.1.2_ and _3.1.3_ there was a change in file structure  \n  \n  ``` diff\n  + js/ink-all.min.js.map\n  + js/ink-ui.min.js.map\n  + js/ink.min.js.map\n  - js/autoload.min.map\n  - js/ink-all.min.map\n  - js/ink-ui.min.map\n  - js/ink.min.map\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Keep it logically awesome._\n"
+  , issueCommentId = 73057176
+  }

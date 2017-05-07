@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-27) 22 : 18 : 08 UTC
+  , issueUpdatedAt = 2015 (-01) (-27) 22 : 18 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3222/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3222")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3222
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project textAngular to 1.3.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3222")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3222.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3222.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3222"
+  , issueCreatedAt = 2015 (-01) (-27) 22 : 03 : 37 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project textAngular to 1.3.3.\n\n@fraywing\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"textAngular\",\n    \"repo\": \"fraywing/textAngular\",\n    \"files\": {\n      \"include\": [\"src/textAngular.css\", \"dist/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular.textangular\",\n    \"localVersions\": [\"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.3.2\"],\n    \"remoteVersions\": [\"1.1.0\", \"1.1.0\", \"1.1.1\", \"1.1.2-alpha\", \"1.1.2-pre2\", \"1.1.2-pre3\", \"1.1.2\", \"1.2.0-pre1\", \"1.2.0-pre2\", \"1.2.0\", \"1.2.1-pre1\", \"1.2.1-pre2\", \"1.2.1-pre3\", \"1.2.1-pre4\", \"1.2.1-pre5\", \"1.2.1-pre6\", \"1.2.1\", \"1.2.2\", \"1.3.0-16\", \"1.3.0-17\", \"1.3.0-18\", \"1.3.0-19\", \"1.3.0-20\", \"1.3.0-21\", \"1.3.0-22\", \"1.3.0-23\", \"1.3.0-pre1\", \"1.3.0-pre2\", \"1.3.0-pre3\", \"1.3.0-pre4\", \"1.3.0-pre5\", \"1.3.0-pre6\", \"1.3.0-pre7\", \"1.3.0-pre8\", \"1.3.0-pre9\", \"1.3.0-pre10\", \"1.3.0-pre11\", \"1.3.0-pre12\", \"1.3.0-pre13\", \"1.3.0-pre14\", \"1.3.0-pre15\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.3.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.textangular/1.3.3\",\n  \"branch\": \"textAngular/1.3.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 55681126
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

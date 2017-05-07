@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-24) 16 : 34 : 35 UTC
+  , issueUpdatedAt = 2014 (-08) (-24) 16 : 34 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1515/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1515")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1515
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3091087
+        , simpleUserLogin = N "artfuldev"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3091087?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/artfuldev"
+        }
+  , issueTitle = "Updated steno.js description"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1515")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1515.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1515.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1515"
+  , issueCreatedAt = 2014 (-08) (-24) 16 : 32 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 41013214
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-22) 14 : 29 : 00 UTC
+  , issueUpdatedAt = 2017 (-03) (-22) 14 : 29 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17123/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17123")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17123
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 13473521
+        , simpleUserLogin = N "PaulaoDeveloper"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/13473521?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/PaulaoDeveloper"
+        }
+  , issueTitle = "Novo Agora Porra"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17123")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17123.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17123.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17123"
+  , issueCreatedAt = 2017 (-03) (-22) 00 : 14 : 48 UTC
+  , issueBody = Just "fawfawf"
+  , issueState = StateClosed
+  , issueId = Id 215916866
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

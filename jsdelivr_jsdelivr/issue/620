@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-10) 14 : 44 : 51 UTC
+  , issueUpdatedAt = 2014 (-04) (-11) 00 : 06 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/620/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/620")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 620
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 883887
+        , simpleUserLogin = N "eldy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/883887?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/eldy"
+        }
+  , issueTitle = "Add awstats js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/620")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/620.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/620.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/620"
+  , issueCreatedAt = 2014 (-04) (-10) 12 : 46 : 10 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 31238694
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

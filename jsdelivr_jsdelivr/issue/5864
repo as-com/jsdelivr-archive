@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-14) 17 : 53 : 24 UTC
+  , issueUpdatedAt = 2015 (-07) (-15) 17 : 57 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5864/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5864")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5864
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3011734
+        , simpleUserLogin = N "jgravois"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3011734?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jgravois"
+        }
+  , issueTitle = "change packageManager of leaflet.esri.gp"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5864")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5864.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5864.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5864"
+  , issueCreatedAt = 2015 (-07) (-14) 17 : 39 : 31 UTC
+  , issueBody =
+      Just
+        "i'm not sure why, but the bot wasn't triggered yesterday when i tagged version [1.0.1](https://www.npmjs.com/package/esri-leaflet-gp) of my plugin on github and npm, so i thought i'd try updating the packageManager...\n\ni'm assuming i'll need to tag another release after this PR is merged.  let me know if i'm missing anything else.\n"
+  , issueState = StateClosed
+  , issueId = Id 94998292
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

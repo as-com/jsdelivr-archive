@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-11) 20 : 08 : 57 UTC
+  , issueUpdatedAt = 2014 (-04) (-11) 20 : 08 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/630/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/630")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 630
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7112345
+        , simpleUserLogin = N "codingfriend1"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7112345?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/codingfriend1"
+        }
+  , issueTitle = "Flexgrid 1.3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/630")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/630.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/630.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/630"
+  , issueCreatedAt = 2014 (-04) (-11) 20 : 08 : 35 UTC
+  , issueBody =
+      Just
+        "Removed push and pull classes from flexgrid.min.css to reduce file size.\n"
+  , issueState = StateClosed
+  , issueId = Id 31358053
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

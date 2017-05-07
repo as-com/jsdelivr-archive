@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-11) (-23) 19 : 49 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/262614215"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14897#issuecomment-262614215"
+  , issueCommentCreatedAt = 2016 (-11) (-23) 19 : 49 : 19 UTC
+  , issueCommentBody =
+      "if you were to try to use a url that maps to th emainfile, such as below, it won't map correctly, as the mainfile tells our servers to get `Button.min.css` whereas we want `button.min.css`\r\n\r\nhttps://cdn.jsdelivr.net/g/buttons.css"
+  , issueCommentId = 262614215
+  }

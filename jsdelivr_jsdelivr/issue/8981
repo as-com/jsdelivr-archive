@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-15) 18 : 24 : 57 UTC
+  , issueUpdatedAt = 2016 (-01) (-15) 18 : 24 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8981/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8981")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8981
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 825836
+        , simpleUserLogin = N "sarunast"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/825836?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sarunast"
+        }
+  , issueTitle =
+      "Add buttons project (https://github.com/alexwolfe/Buttons/)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8981")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8981.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8981.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8981"
+  , issueCreatedAt = 2016 (-01) (-15) 10 : 37 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 126848217
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

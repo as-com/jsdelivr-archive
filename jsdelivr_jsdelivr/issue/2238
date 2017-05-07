@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-06) 02 : 42 : 09 UTC
+  , issueUpdatedAt = 2014 (-11) (-06) 02 : 51 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2238/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2238")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2238
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 336433
+        , simpleUserLogin = N "kevinoid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/336433?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kevinoid"
+        }
+  , issueTitle = "Add r2d3 0.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2238")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2238.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2238.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2238"
+  , issueCreatedAt = 2014 (-11) (-06) 02 : 34 : 04 UTC
+  , issueBody =
+      Just
+        "This pull request adds the r2d3 library, a customized build of D3 powered by RaphaelJS.\n\nI hope you find it useful,\nKevin\n"
+  , issueState = StateClosed
+  , issueId = Id 47916521
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

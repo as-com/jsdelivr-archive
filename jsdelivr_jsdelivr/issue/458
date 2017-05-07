@@ -1,0 +1,44 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-14) 20 : 35 : 06 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 06 : 00 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/458/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/458")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 458
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1920405
+        , simpleUserLogin = N "moderndeveloperllc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1920405?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/moderndeveloperllc"
+        }
+  , issueTitle =
+      "[html5shiv] .ini file change - no .min file for this lib"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/458")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/458.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/458.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/458"
+  , issueCreatedAt = 2014 (-03) (-14) 20 : 31 : 43 UTC
+  , issueBody =
+      Just
+        "https://github.com/aFarkas/html5shiv/tree/3.7.0/src - There is no .min file for the lib.\n"
+  , issueState = StateClosed
+  , issueId = Id 29467797
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

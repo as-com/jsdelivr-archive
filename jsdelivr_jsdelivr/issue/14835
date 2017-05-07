@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-18) 20 : 24 : 01 UTC
+  , issueUpdatedAt = 2016 (-11) (-18) 20 : 24 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14835/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14835")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14835
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3459542
+        , simpleUserLogin = N "gswalden"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3459542?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gswalden"
+        }
+  , issueTitle = "Create update.json for \"store\""
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14835")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14835.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14835.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14835"
+  , issueCreatedAt = 2016 (-11) (-17) 16 : 34 : 22 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 190097067
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

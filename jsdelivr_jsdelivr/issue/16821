@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-13) 02 : 49 : 00 UTC
+  , issueUpdatedAt = 2017 (-03) (-13) 02 : 49 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16821/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16821")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16821
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19142554
+        , simpleUserLogin = N "kygn1998"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/19142554?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kygn1998"
+        }
+  , issueTitle =
+      "font-spoqa-han-sans  fixed 'Failed automatic validation' #16790"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16821")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16821.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16821.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16821"
+  , issueCreatedAt = 2017 (-03) (-10) 00 : 14 : 16 UTC
+  , issueBody = Just "#16790 "
+  , issueState = StateClosed
+  , issueId = Id 213205852
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

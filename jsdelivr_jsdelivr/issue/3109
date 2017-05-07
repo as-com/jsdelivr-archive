@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-17) 23 : 08 : 48 UTC
+  , issueUpdatedAt = 2015 (-01) (-18) 11 : 18 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3109/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3109")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3109
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.scrollTo to 1.4.14"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3109")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3109.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3109.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3109"
+  , issueCreatedAt = 2015 (-01) (-17) 23 : 08 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.scrollTo to 1.4.14.\n\n@flesler\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"jquery.scrollTo\",\n    \"repo\": \"flesler/jquery.scrollTo\",\n    \"files\": {\n      \"include\": [\"jquery.scrollTo.min.js\", \"jquery.scrollTo.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.scrollto\",\n    \"localVersions\": [\"1.4.2\", \"1.4.3\", \"1.4.6\", \"1.4.7\", \"1.4.8\", \"1.4.13\"],\n    \"remoteVersions\": [\"1.4.3\", \"1.4.4\", \"1.4.5\", \"1.4.6\", \"1.4.7\", \"1.4.8\", \"1.4.9\", \"1.4.10\", \"1.4.11\", \"1.4.12\", \"1.4.13\", \"1.4.14\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.4.14\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.scrollto/1.4.14\",\n  \"branch\": \"jquery.scrollTo/1.4.14\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 54679129
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

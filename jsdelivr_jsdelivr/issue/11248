@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 24 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11248/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11248")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11248
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1206361
+        , simpleUserLogin = N "leongersen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1206361?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/leongersen"
+        }
+  , issueTitle = "Update info.ini for noUiSlider"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11248")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11248.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11248.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11248"
+  , issueCreatedAt = 2016 (-04) (-24) 14 : 14 : 15 UTC
+  , issueBody = Just "Automatic merges keep failing\n"
+  , issueState = StateClosed
+  , issueId = Id 150664428
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

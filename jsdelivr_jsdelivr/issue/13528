@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-13) 14 : 43 : 21 UTC
+  , issueUpdatedAt = 2016 (-09) (-13) 14 : 43 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13528/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13528")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13528
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2214504
+        , simpleUserLogin = N "ecarriou"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2214504?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ecarriou"
+        }
+  , issueTitle = "Adding system-runtime project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13528")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13528.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13528.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13528"
+  , issueCreatedAt = 2016 (-08) (-30) 21 : 24 : 46 UTC
+  , issueBody =
+      Just
+        "I have added the needed _conf.ini_ and _package.json_ file.\n\nInformations about the lib: https://system-runtime.github.io\n"
+  , issueState = StateClosed
+  , issueId = Id 174129874
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-24) 18 : 14 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 14615
+        , simpleUserLogin = N "edrex"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/14615?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/edrex"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/114966556"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3156#issuecomment-114966556"
+  , issueCommentCreatedAt = 2015 (-06) (-24) 18 : 14 : 29 UTC
+  , issueCommentBody =
+      "Is there a policy for releases requiring post processing (minification etc)? It seems safer if the actual post processing happened on the project's infrastructure. Also more repeatable. \n\n3.1.0 is out, do the same manual steps?\n"
+  , issueCommentId = 114966556
+  }

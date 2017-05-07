@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-14) 16 : 40 : 52 UTC
+  , issueUpdatedAt = 2014 (-10) (-14) 20 : 18 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2014/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2014")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2014
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 838758
+        , simpleUserLogin = N "pattyland"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/838758?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pattyland"
+        }
+  , issueTitle = "file referencs & /g/"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2014"
+  , issueCreatedAt = 2014 (-10) (-14) 15 : 57 : 23 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nthe feature to load multiple files with single HTTP request is really awesome. There are problems with file referecnes. Example with fontaweseome:\n\nI load http://cdn.jsdelivr.net/g/normalize@3,fontawesome@4(css/font-awesome.min.css),jquery.supersized@3.2.7(slideshow/css/supersized.css+slideshow/theme/supersized.shutter.css) in my page. \nFA says \"src:url('../fonts/fontawesome-webfont.eot?v=4.2.0')\", so my browser look for it on http://cdn.jsdelivr.net/g/normalize@3,fontawesome@4.0.3(css/font-awesome.min.css),jquery.supersized@3.2.7(slideshow/css/supersized.css+slideshow/fonts/fontawesome-webfont.woff?v=4.0.3; Which returns 404, as it is really is here: http://cdn.jsdelivr.net/fontawesome/4.2.0/fonts/fontawesome-webfont.woff\n\nAny idea how to fix that? I guess it's a problem with every file that references other file...\n\nGreets, pattyland\n"
+  , issueState = StateClosed
+  , issueId = Id 45767406
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

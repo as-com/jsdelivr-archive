@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-17) 15 : 17 : 51 UTC
+  , issueUpdatedAt = 2017 (-04) (-17) 15 : 17 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17557/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17557")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17557
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project reclabox-icons to v1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17557")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17557.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17557.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17557"
+  , issueCreatedAt = 2017 (-04) (-13) 06 : 06 : 58 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project reclabox-icons to v1.1.0.\n\n@white-ice\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"reclabox-icons\",\n    \"repo\": \"white-ice/reclabox-icons\",\n    \"files\": {\n      \"basePath\": \"fonts/\",\n      \"include\": [\"reclabox-icon.css\", \"fontello.eot\", \"fontello.svg\", \"fontello.ttf\", \"fontello.woff\", \"fontello.woff2\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/reclabox-icons\",\n    \"localVersions\": [\"1.0.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.1.0\", \"v1.1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/reclabox-icons/update.json\",\n  \"versions\": [\"v1.1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/reclabox-icons/1.1.0\",\n  \"branch\": \"reclabox-icons/v1.1.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 221466688
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

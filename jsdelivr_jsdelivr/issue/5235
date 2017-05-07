@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-09) 09 : 09 : 22 UTC
+  , issueUpdatedAt = 2015 (-06) (-09) 09 : 09 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5235/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5235")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5235
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project TouchSwipe-Jquery-Plugin to 1.6.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5235")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5235.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5235.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5235"
+  , issueCreatedAt = 2015 (-06) (-09) 09 : 09 : 16 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project TouchSwipe-Jquery-Plugin to 1.6.9.\n\n@mattbryson\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"TouchSwipe-Jquery-Plugin\",\n    \"repo\": \"mattbryson/TouchSwipe-Jquery-Plugin\",\n    \"files\": {\n      \"include\": [\"jquery.touchSwipe.min.js\", \"jquery.touchSwipe.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.touchswipe\",\n    \"localVersions\": [\"1.6.4\", \"1.6.5\", \"1.6.6\", \"1.6.8\"],\n    \"remoteVersions\": [\"1.0.1\", \"1.6.0\", \"1.6.2\", \"1.6.3\", \"1.6.4\", \"1.6.5\", \"1.6.6\", \"1.6.7\", \"v1.6.7\", \"1.6.8\", \"1.6.9\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.6.9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.touchswipe/1.6.9\",\n  \"branch\": \"TouchSwipe-Jquery-Plugin/1.6.9\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 86519223
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

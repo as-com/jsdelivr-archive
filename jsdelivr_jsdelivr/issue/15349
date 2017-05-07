@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-15) 15 : 04 : 41 UTC
+  , issueUpdatedAt = 2016 (-12) (-15) 15 : 04 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15349/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15349")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15349
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10731781
+        , simpleUserLogin = N "CosmicWebServices"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/10731781?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/CosmicWebServices"
+        }
+  , issueTitle = "Add Gravatar.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15349")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15349.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15349.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15349"
+  , issueCreatedAt = 2016 (-12) (-14) 20 : 05 : 49 UTC
+  , issueBody =
+      Just
+        "Official Page: https://github.com/CosmicWebServices/gravatar.js"
+  , issueState = StateClosed
+  , issueId = Id 195632265
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

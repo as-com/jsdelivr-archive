@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-30) 22 : 32 : 53 UTC
+  , issueUpdatedAt = 2016 (-09) (-30) 22 : 32 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14074/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14074")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14074
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular.local-storage to v0.5.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14074")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14074.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14074.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14074"
+  , issueCreatedAt = 2016 (-09) (-30) 22 : 32 : 48 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.local-storage to v0.5.2.\n\n@grevory\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.local-storage\",\n    \"repo\": \"grevory/angular-local-storage\",\n    \"files\": {\n      \"basePath\": \"dist\",\n      \"include\": [\"angular-local-storage.js\", \"angular-local-storage.min.js\", \"angular-local-storage.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.local-storage\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"v0.2.6\", \"0.2.6\", \"v0.2.7\", \"v0.3.0\", \"v0.4.0\", \"v0.5.0\", \"v0.5.1\", \"v0.5.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.local-storage/update.json\",\n  \"versions\": [\"v0.5.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.5.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.local-storage/0.5.2\",\n  \"branch\": \"angular.local-storage/v0.5.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 180415810
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

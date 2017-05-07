@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-24) 20 : 12 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/114996708"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5454#issuecomment-114996708"
+  , issueCommentCreatedAt = 2015 (-06) (-24) 20 : 12 : 29 UTC
+  , issueCommentBody =
+      "I could easily add warning (it checks files) I avoided it originally in case we wanted to add files like `Contributing.md`, etc to `/`\n"
+  , issueCommentId = 114996708
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-30) 14 : 10 : 14 UTC
+  , issueUpdatedAt = 2014 (-04) (-30) 14 : 10 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/726/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/726")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 726
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9873
+        , simpleUserLogin = N "szimek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/9873?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/szimek"
+        }
+  , issueTitle = "Ember 1.5.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/726")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/726.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/726.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/726"
+  , issueCreatedAt = 2014 (-04) (-30) 07 : 41 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 32513043
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

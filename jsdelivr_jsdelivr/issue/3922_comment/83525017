@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-19) 12 : 03 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 158011
+        , simpleUserLogin = N "spektom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/158011?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/spektom"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/83525017"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3922#issuecomment-83525017"
+  , issueCommentCreatedAt = 2015 (-03) (-19) 12 : 03 : 50 UTC
+  , issueCommentBody =
+      "The check is wrong! Even though the content of these files was not empty, it was erroneous: sometimes it was empty, sometimes it was from the previous version.\n"
+  , issueCommentId = 83525017
+  }

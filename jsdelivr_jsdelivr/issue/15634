@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-05) 18 : 07 : 19 UTC
+  , issueUpdatedAt = 2017 (-01) (-05) 18 : 07 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15634/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15634")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15634
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 589034
+        , simpleUserLogin = N "domoritz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/589034?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/domoritz"
+        }
+  , issueTitle = "Vega has moved"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15634")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15634.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15634.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15634"
+  , issueCreatedAt = 2017 (-01) (-05) 09 : 26 : 41 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 198910399
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

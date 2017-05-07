@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-09) 19 : 22 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 515142
+        , simpleUserLogin = N "bruth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/515142?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bruth"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/69384386"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3008#issuecomment-69384386"
+  , issueCommentCreatedAt = 2015 (-01) (-09) 19 : 22 : 01 UTC
+  , issueCommentBody =
+      "@jimaek No more `css/style.css.map`. In fact [it should have never been there](https://github.com/chop-dbhi/cilantro/blob/2.3.x/Gruntfile.js#L129).. but I it may have been a bug in the node sass module.\n"
+  , issueCommentId = 69384386
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-01) 13 : 15 : 36 UTC
+  , issueUpdatedAt = 2014 (-04) (-01) 13 : 15 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/542/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/542")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 542
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 932088
+        , simpleUserLogin = N "jeremejazz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/932088?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jeremejazz"
+        }
+  , issueTitle = "Merge pull request #1 from jimaek/master"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/542")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/542.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/542.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/542"
+  , issueCreatedAt = 2014 (-04) (-01) 01 : 47 : 30 UTC
+  , issueBody = Just "updates to libraries\n"
+  , issueState = StateClosed
+  , issueId = Id 30565251
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

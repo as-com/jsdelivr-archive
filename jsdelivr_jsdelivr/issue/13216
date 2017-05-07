@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 27 : 32 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 27 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13216/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13216")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13216
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7188826
+        , simpleUserLogin = N "mirohristov-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7188826?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/mirohristov-com"
+        }
+  , issueTitle = "Update project queryloader2 to 3.2.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13216")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13216.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13216.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13216"
+  , issueCreatedAt = 2016 (-08) (-13) 01 : 45 : 04 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 170986976
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-01) 05 : 35 : 51 UTC
+  , issueUpdatedAt = 2014 (-05) (-01) 10 : 31 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/734/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/734")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 734
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add modernizr v2.8.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/734")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/734.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/734.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/734"
+  , issueCreatedAt = 2014 (-05) (-01) 04 : 30 : 27 UTC
+  , issueBody =
+      Just
+        "source:https://github.com/Modernizr/Modernizr/archive/v2.8.0.tar.gz\n"
+  , issueState = StateClosed
+  , issueId = Id 32593851
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-22) 16 : 02 : 49 UTC
+  , issueUpdatedAt = 2017 (-02) (-22) 16 : 02 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16445/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16445")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16445
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6551569
+        , simpleUserLogin = N "GoToLoop"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6551569?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GoToLoop"
+        }
+  , issueTitle = "Add P5.gif.js lib"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16445")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16445.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16445.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16445"
+  , issueCreatedAt = 2017 (-02) (-20) 06 : 58 : 22 UTC
+  , issueBody =
+      Just
+        "Due to lack of tags, or even versioning, creating new CDN w/o \"update.json\". =("
+  , issueState = StateClosed
+  , issueId = Id 208798520
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

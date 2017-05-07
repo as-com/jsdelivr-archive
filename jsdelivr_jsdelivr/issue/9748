@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 36 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9748/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9748")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9748
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8074163
+        , simpleUserLogin = N "pzmarzly"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8074163?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pzmarzly"
+        }
+  , issueTitle = "Add d2bk/MaterialRipple"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9748")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9748.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9748.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9748"
+  , issueCreatedAt = 2016 (-02) (-13) 17 : 40 : 33 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 133452377
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

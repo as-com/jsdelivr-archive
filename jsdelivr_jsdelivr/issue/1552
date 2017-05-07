@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-28) 15 : 29 : 12 UTC
+  , issueUpdatedAt = 2015 (-03) (-12) 14 : 10 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1552/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1552")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1552
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "update xe-core 1.7.5.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1552")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1552.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1552.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1552"
+  , issueCreatedAt = 2014 (-08) (-28) 11 : 08 : 34 UTC
+  , issueBody =
+      Just
+        "update xe-core 1.7.5.7 with image files(button, etc)\n\nif minified version is not exist, it means, combined minifeid version is exist.\n\nex) xe.min js = common.js + js_app.js + xml_handler.js +xml_js_filter.js (in /commons/js folde\n"
+  , issueState = StateClosed
+  , issueId = Id 41379276
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

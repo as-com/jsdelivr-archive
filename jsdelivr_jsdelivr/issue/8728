@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-01) 18 : 31 : 43 UTC
+  , issueUpdatedAt = 2016 (-01) (-01) 18 : 31 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8728/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8728")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8728
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-pouchdb to v4.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8728")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8728.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8728.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8728"
+  , issueCreatedAt = 2016 (-01) (-01) 18 : 31 : 40 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-pouchdb to v4.1.0.\n\n@angular-pouchdb\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular-pouchdb\",\n    \"repo\": \"angular-pouchdb/bower-angular-pouchdb\",\n    \"files\": {\n      \"include\": [\"angular-pouchdb.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.pouchdb\",\n    \"localVersions\": [\"3.0.0\", \"4.0.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v2.0.6\", \"v2.0.7\", \"v2.0.8\", \"v2.1.0\", \"v2.1.1\", \"v2.1.2\", \"v3.0.0\", \"v4.0.0\", \"v4.0.1\", \"v4.1.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.pouchdb/update.json\",\n  \"version\": \"v4.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.pouchdb/4.1.0\",\n  \"branch\": \"angular-pouchdb/v4.1.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 124555058
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-03) (-31) 16 : 58 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/290768858"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/17325#issuecomment-290768858"
+  , issueCommentCreatedAt = 2017 (-03) (-31) 16 : 58 : 21 UTC
+  , issueCommentBody =
+      "You should be getting notifications of the bot trying to update the versions (https://github.com/jsdelivr/jsdelivr/pull/17303). If not feel free to look through the pull requests to see if your repo has changes queued. Unfortunately your repo will always fail automatic merging due to Github limitations regarding pull requests with a lot of files."
+  , issueCommentId = 290768858
+  }

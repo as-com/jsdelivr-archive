@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-06) 21 : 06 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65913935"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2630#issuecomment-65913935"
+  , issueCommentCreatedAt = 2014 (-12) (-06) 21 : 06 : 59 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @as-com, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help ammending your PR...\n- Might be nothing but I have some concerns about the files in your submission...  \n  - _.db_ (on _themes/totallylookslike/Thumbs.db_) seems odd to want to host?\n  - _.db_ (on _shims/jpicker/images/Thumbs.db_) seems odd to want to host?\n  - _.db_ (on _bhittani-framework/admin/js/colorpicker/images/Thumbs.db_) seems odd to want to host?\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _webshim_ between _1.10.1_ and _1.10.9_ there was a change in file structure  \n  \n  ``` diff\n  + shims/jpicker/images/Thumbs.db\n  + shims/color-picker.js\n  + shims/combos/24.js\n  + shims/combos/25.js\n  + shims/combos/26.js\n  + shims/combos/27.js\n  + shims/combos/28.js\n  + shims/combos/29.js\n  + shims/combos/30.js\n  + shims/combos/31.js\n  + shims/filereader.js\n  + shims/form-datalist-lazy.js\n  + shims/form-validation.js\n  + shims/form-validators.js\n  + shims/forms-picker.js\n  + shims/i18n/formcfg-lt.js\n  + shims/jpicker/ChangeLog.txt\n  + shims/jpicker/ReadMe.txt\n  + shims/jpicker/images/AlphaBar.png\n  + shims/jpicker/images/Bars.png\n  + shims/jpicker/images/Maps.png\n  + shims/jpicker/images/NoColor.png\n  + shims/jpicker/images/bar-opacity.png\n  + shims/jpicker/images/map-opacity.png\n  + shims/jpicker/images/mappoint.gif\n  + shims/jpicker/images/picker.gif\n  + shims/jpicker/images/preview-opacity.png\n  + shims/jpicker/images/rangearrows.gif\n  + shims/jpicker/jpicker.css\n  + shims/styles/range-track.png\n  + shims/swf/filereader.swf\n  - extras/custom-validity.js\n  - shims/jwplayer/license.txt\n  - shims/jwplayer/player.swf\n  - shims/jwplayer/readme.html\n  - shims/mediaelement-swf.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Approachable is better than simple._\n"
+  , issueCommentId = 65913935
+  }

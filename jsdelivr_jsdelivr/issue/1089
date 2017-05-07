@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-02) 01 : 30 : 11 UTC
+  , issueUpdatedAt = 2014 (-07) (-02) 01 : 36 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1089/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1089")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1089
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add jquery v1.4.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1089")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1089.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1089.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1089"
+  , issueCreatedAt = 2014 (-07) (-01) 23 : 03 : 20 UTC
+  , issueBody =
+      Just
+        "source : http://jquerymobile.com/resources/download/jquery.mobile-1.4.3.zip\n"
+  , issueState = StateClosed
+  , issueId = Id 36938851
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

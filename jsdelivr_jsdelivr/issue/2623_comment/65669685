@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-04) 17 : 32 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65669685"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2623#issuecomment-65669685"
+  , issueCommentCreatedAt = 2014 (-12) (-04) 17 : 32 : 51 UTC
+  , issueCommentBody =
+      "Since this project is auto-updated these files need to be in update.json.\nI added them so the bot will automatically add these files in the next version https://github.com/jsdelivr/jsdelivr/commit/d123e168e0bb4f7ed5505b722cf58e92997121d9\n\nTo add them to the current one you will need to remove the unminified files from this PR.\n"
+  , issueCommentId = 65669685
+  }

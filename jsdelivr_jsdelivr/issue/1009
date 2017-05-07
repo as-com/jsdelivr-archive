@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-28) 17 : 35 : 27 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 17 : 35 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1009/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1009")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1009
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7957859
+        , simpleUserLogin = N "zalmoxisus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7957859?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zalmoxisus"
+        }
+  , issueTitle =
+      "Added 1.11.8 version of gsap (https://github.com/greensock/GreenSock-JS)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1009")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1009.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1009.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1009"
+  , issueCreatedAt = 2014 (-06) (-24) 19 : 33 : 38 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 36417849
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

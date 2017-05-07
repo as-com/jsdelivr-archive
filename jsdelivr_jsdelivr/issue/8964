@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-14) 13 : 40 : 53 UTC
+  , issueUpdatedAt = 2016 (-01) (-14) 13 : 40 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8964/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8964")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8964
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project apiNG-plugin-tumblr to v0.7.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8964")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8964.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8964.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8964"
+  , issueCreatedAt = 2016 (-01) (-14) 13 : 40 : 35 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project apiNG-plugin-tumblr to v0.7.6.\n\n@JohnnyTheTank\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"apiNG-plugin-tumblr\",\n    \"repo\": \"JohnnyTheTank/apiNG-plugin-tumblr\",\n    \"files\": {\n      \"include\": [\"dist/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/aping.plugin-tumblr\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.7.0\", \"v0.7.6\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/aping.plugin-tumblr/update.json\",\n  \"version\": \"v0.7.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/aping.plugin-tumblr/0.7.6\",\n  \"branch\": \"apiNG-plugin-tumblr/v0.7.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 126656727
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

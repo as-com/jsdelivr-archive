@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-04) 13 : 34 : 45 UTC
+  , issueUpdatedAt = 2014 (-04) (-04) 13 : 41 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/574/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/574")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 574
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 252923
+        , simpleUserLogin = N "meulie"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/252923?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/meulie"
+        }
+  , issueTitle = "webtrees"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/574")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/574.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/574.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/574"
+  , issueCreatedAt = 2014 (-04) (-04) 12 : 10 : 24 UTC
+  , issueBody =
+      Just "I hope I did it all right...? (My first time)  :-)\n"
+  , issueState = StateClosed
+  , issueId = Id 30854949
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-04) (-18) 13 : 54 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 221473
+        , simpleUserLogin = N "andrewgioia"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/221473?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/andrewgioia"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/294851728"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17625#issuecomment-294851728"
+  , issueCommentCreatedAt = 2017 (-04) (-18) 13 : 54 : 40 UTC
+  , issueCommentBody =
+      "Hi, I changed the structure for this update to correctly mirror our directory structure (in /css and /font folders), but it looks like automatic merging failed. Is there anyway I can correct this or does it need to be manually approved? Sorry, I couldn't find anything in the issues or contributing doc on how to handle this. Thanks!"
+  , issueCommentId = 294851728
+  }

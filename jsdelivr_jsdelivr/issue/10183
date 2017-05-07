@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-29) 06 : 18 : 55 UTC
+  , issueUpdatedAt = 2016 (-02) (-29) 06 : 18 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10183/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10183")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10183
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17537302
+        , simpleUserLogin = N "withblog"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/17537302?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/withblog"
+        }
+  , issueTitle = "Create nanumbarungothic.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10183")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10183.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10183.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10183"
+  , issueCreatedAt = 2016 (-02) (-29) 05 : 15 : 27 UTC
+  , issueBody = Just "fontface add\n"
+  , issueState = StateClosed
+  , issueId = Id 137153129
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

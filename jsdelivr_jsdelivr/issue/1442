@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-15) 11 : 01 : 13 UTC
+  , issueUpdatedAt = 2014 (-08) (-15) 11 : 01 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1442/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1442")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1442
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project proact.js to 1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1442")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1442.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1442.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1442"
+  , issueCreatedAt = 2014 (-08) (-15) 07 : 34 : 44 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project proact.js to 1.0.0.\n\n@proactjs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"proact.js\",\n    \"repo\": \"proactjs/proactjs\",\n    \"files\": {\n      \"basePath\": \"dist/js\",\n      \"exclude\": [\"proact.js\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/jsdelivr/files/proact.js\",\n    \"localVersions\": [\"0.4.2\", \"0.4.3\"],\n    \"remoteVersions\": [\"0.4.1\", \"0.4.2\", \"0.4.3\", \"1.0.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/proact.js/1.0.0\",\n  \"branch\": \"proact.js/1.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 40329101
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

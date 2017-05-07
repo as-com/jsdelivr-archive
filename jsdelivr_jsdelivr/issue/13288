@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 25 : 35 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 25 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13288/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13288")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13288
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 355874
+        , simpleUserLogin = N "sancospi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/355874?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sancospi"
+        }
+  , issueTitle = "Updated to 1.5.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13288")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13288.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13288.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13288"
+  , issueCreatedAt = 2016 (-08) (-17) 13 : 40 : 14 UTC
+  , issueBody = Just "Updated to 1.5.8\n"
+  , issueState = StateClosed
+  , issueId = Id 171659879
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

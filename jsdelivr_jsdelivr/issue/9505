@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-02) 07 : 04 : 04 UTC
+  , issueUpdatedAt = 2016 (-02) (-02) 07 : 04 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9505/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9505")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9505
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project StopSovetnik.ru to v1.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9505")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9505.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9505.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9505"
+  , issueCreatedAt = 2016 (-02) (-02) 07 : 03 : 58 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project StopSovetnik.ru to v1.0.3.\n\n@teplov\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"StopSovetnik.ru\",\n    \"repo\": \"teplov/stopsovetnik\",\n    \"files\": {\n      \"include\": [\"lib/ss.min.js\", \"lib/ss.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/stopsovetnik\",\n    \"localVersions\": [\"0.1.0\", \"1.0.0\", \"1.0.1\", \"1.0.2\"],\n    \"remoteVersions\": [\"v1.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/stopsovetnik/update.json\",\n  \"versions\": [\"v1.0.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/stopsovetnik/1.0.3\",\n  \"branch\": \"StopSovetnik.ru/v1.0.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 130595852
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

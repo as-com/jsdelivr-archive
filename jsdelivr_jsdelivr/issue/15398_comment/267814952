@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-12) (-18) 10 : 59 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5703402
+        , simpleUserLogin = N "yannickebongue"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5703402?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/yannickebongue"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/267814952"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15398#issuecomment-267814952"
+  , issueCommentCreatedAt = 2016 (-12) (-18) 10 : 59 : 33 UTC
+  , issueCommentBody =
+      "@jsdelivrbot\r\n\r\nThe file structure has not been changed. I just added a new feature in new files which are located in the same directory of the previous release.\r\n\r\nHow can I bring new files with the automatic update tool on new project versions?"
+  , issueCommentId = 267814952
+  }

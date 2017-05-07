@@ -1,0 +1,22 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-28) 21 : 40 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 338988
+        , simpleUserLogin = N "jonathanKingston"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/338988?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/jonathanKingston"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/143881990"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-143881990"
+  , issueCommentCreatedAt = 2015 (-09) (-28) 21 : 40 : 22 UTC
+  , issueCommentBody =
+      "@jimaek thank you for checking.\n\nSo this has gone with the compile time calculation of SRI by the developer right? (I think the interface is actually fairly clear this is happening with the add to collection functionality despite my attitude to this direction).\n\nIs there any advantage to \"enable SRI\" as an option (I mean it is delete key friendly anyway)?\n\nThis looks really good as an improved UI.\n\nThe other encoding problem of Chrome still exists which either blocks putting this live or will have to have a similar solution to mine:\n\n```\nFailed to find a valid digest in the 'integrity' attribute for resource 'https://cdn.jsdelivr.net/momentjs/2.10.6/moment-with-locales.min.js' with computed SHA-256 integrity 's5RZ9eaNmf4BxYp9HNsjgeqmQD5H-2O6w6mpu6Roq-k='. The resource has been blocked.\n```\n- [Chrome issue](https://code.google.com/p/chromium/issues/detail?id=527286)\n- [ember-cli-sri tracking issue](https://github.com/jonathanKingston/ember-cli-sri/issues/5)\n  - The solution I used as an interim to fix is checking for UTF8 chars to disable the SRI attributes (It is a little overzealous but without a full list of offending chars it seemed easier).\n"
+  , issueCommentId = 143881990
+  }

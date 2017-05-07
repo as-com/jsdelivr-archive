@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-11) 15 : 04 : 12 UTC
+  , issueUpdatedAt = 2017 (-04) (-11) 15 : 13 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17412/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17412")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17412
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 171072
+        , simpleUserLogin = N "floydpink"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/171072?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/floydpink"
+        }
+  , issueTitle = "Delete webfonts.min.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17412")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17412.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17412.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17412"
+  , issueCreatedAt = 2017 (-04) (-04) 21 : 56 : 20 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 219396651
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

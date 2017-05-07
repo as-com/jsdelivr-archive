@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-18) 13 : 40 : 10 UTC
+  , issueUpdatedAt = 2014 (-04) (-18) 21 : 08 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/669/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/669")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 669
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 35603
+        , simpleUserLogin = N "wardbekker"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/35603?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wardbekker"
+        }
+  , issueTitle = "Safari SSL warning"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/669"
+  , issueCreatedAt = 2014 (-04) (-18) 13 : 14 : 30 UTC
+  , issueBody =
+      Just
+        "When visiting https://cdn.jsdelivr.net/foundation/5.2.2/js/vendor/jquery.js with Safari on OSX mavericks I get a SSL error. \n\n![untitled](https://cloud.githubusercontent.com/assets/35603/2742033/591adf1e-c6fb-11e3-9c7b-eea62ca08ff4.png)\n"
+  , issueState = StateClosed
+  , issueId = Id 31798039
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

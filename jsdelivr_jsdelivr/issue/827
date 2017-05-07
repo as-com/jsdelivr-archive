@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-20) 13 : 27 : 55 UTC
+  , issueUpdatedAt = 2014 (-07) (-15) 09 : 54 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/827/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/827")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 827
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3027536
+        , simpleUserLogin = N "bradberger"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3027536?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bradberger"
+        }
+  , issueTitle = "Added holder-ipsum.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/827")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/827.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/827.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/827"
+  , issueCreatedAt = 2014 (-05) (-20) 08 : 06 : 21 UTC
+  , issueBody =
+      Just
+        "Added [holder-ipsum.js](https://github.com/euangoddard/holder-ipsum) library. Just a single, minimized JavaScript file.\n"
+  , issueState = StateClosed
+  , issueId = Id 33866319
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

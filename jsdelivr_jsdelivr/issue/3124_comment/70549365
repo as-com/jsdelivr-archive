@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-19) 19 : 43 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/70549365"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3124#issuecomment-70549365"
+  , issueCommentCreatedAt = 2015 (-01) (-19) 19 : 43 : 54 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help ammending your PR...\n- Looks like the `info.ini` has a few problems\n  - Where is the bootstrap.select's mainfile (_js/bootstrap-select.min.js_) in v-_0.1_\n  - Where is the bootstrap.select's mainfile (_js/bootstrap-select.min.js_) in v-_1.3.4_\n- Might be nothing but I have some concerns about the files in your submission...  \n  - Unescaped unicode characters in _js/i18n/defaults-cs_CZ.js_ (at pos 299)\n  - Unescaped unicode characters in _js/i18n/defaults-cs_CZ.min.js_ (at pos 286)\n  - Unescaped unicode characters in _js/i18n/defaults-de_DE.js_ (at pos 299)\n  - Unescaped unicode characters in _js/i18n/defaults-de_DE.min.js_ (at pos 286)\n  - Unescaped unicode characters in _js/i18n/defaults-es_CL.js_ (at pos 306)\n  - Unescaped unicode characters in _js/i18n/defaults-es_CL.min.js_ (at pos 293)\n  - Unescaped unicode characters in _js/i18n/defaults-hu_HU.js_ (at pos 293)\n  - Unescaped unicode characters in _js/i18n/defaults-hu_HU.min.js_ (at pos 280)\n  - Unescaped unicode characters in _js/i18n/defaults-pl_PL.js_ (at pos 345)\n  - Unescaped unicode characters in _js/i18n/defaults-pl_PL.min.js_ (at pos 326)\n  - Unescaped unicode characters in _js/i18n/defaults-pt_BR.js_ (at pos 453)\n  - Unescaped unicode characters in _js/i18n/defaults-pt_BR.min.js_ (at pos 422)\n  - Unescaped unicode characters in _js/i18n/defaults-ru_RU.js_ (at pos 292)\n  - Unescaped unicode characters in _js/i18n/defaults-ru_RU.min.js_ (at pos 279)\n  - Unescaped unicode characters in _js/i18n/defaults-sv_SE.js_ (at pos 334)\n  - Unescaped unicode characters in _js/i18n/defaults-sv_SE.min.js_ (at pos 315)\n  - Unescaped unicode characters in _js/i18n/defaults-tr_TR.js_ (at pos 294)\n  - Unescaped unicode characters in _js/i18n/defaults-tr_TR.min.js_ (at pos 281)\n  - Unescaped unicode characters in _js/i18n/defaults-ua_UA.js_ (at pos 292)\n  - Unescaped unicode characters in _js/i18n/defaults-ua_UA.min.js_ (at pos 279)\n  - Unescaped unicode characters in _js/i18n/defaults-zh_CN.js_ (at pos 292)\n  - Unescaped unicode characters in _js/i18n/defaults-zh_CN.min.js_ (at pos 279)\n  - Unescaped unicode characters in _js/i18n/defaults-zh_TW.js_ (at pos 292)\n  - Unescaped unicode characters in _js/i18n/defaults-zh_TW.min.js_ (at pos 279)\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _bootstrap.select_ between _1.6.3_ and _2.0.0-beta1_ there was a change in file structure  \n  \n  ``` diff\n  + js/i18n/defaults-hu_HU.js\n  + js/i18n/defaults-hu_HU.min.js\n  + js/i18n/defaults-sv_SE.js\n  + js/i18n/defaults-sv_SE.min.js\n  + js/i18n/defaults-tr_TR.js\n  + js/i18n/defaults-tr_TR.min.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Anything added dilutes everything else._\n"
+  , issueCommentId = 70549365
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-17) 18 : 32 : 01 UTC
+  , issueUpdatedAt = 2015 (-07) (-17) 22 : 21 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5953/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/5953")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5953
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle = "Emojione assets not updated for 1.5.0 release"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5953"
+  , issueCreatedAt = 2015 (-07) (-17) 15 : 24 : 58 UTC
+  , issueBody =
+      Just
+        "The latest emojione 1.5.0 release has been updated (#5949), but the assets don't seem to be. Existing images that were updated have not been refreshed, and new ones are not available.\n\nExample: https://github.com/Ranks/emojione/blob/v1.5.0/assets/png/1F5FA.png\n\n$ curl -I \"https://cdn.jsdelivr.net/emojione/assets/png/1F5FA.png\"\nHTTP/1.1 404 Not Found\nDate: Fri, 17 Jul 2015 15:18:46 GMT\nContent-Type: text/html; charset=utf-8\nContent-Length: 168\nConnection: keep-alive\nServer: NetDNA-cache/2.2\n\n$ curl -I \"https://cdn.jsdelivr.net/emojione/assets/png/1F5FA.png\"\nHTTP/1.1 404 Not Found\nServer: cloudflare-nginx\nDate: Fri, 17 Jul 2015 15:19:08 GMT\nContent-Type: text/html; charset=utf-8\nConnection: keep-alive\nCF-Cache-Status: HIT\nCF-RAY: 2076ec63d2c21792-SIN\n"
+  , issueState = StateClosed
+  , issueId = Id 95678987
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

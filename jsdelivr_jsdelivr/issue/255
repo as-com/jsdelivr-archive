@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-10) 14 : 18 : 53 UTC
+  , issueUpdatedAt = 2014 (-01) (-10) 14 : 18 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/255/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/255")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 255
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 378044
+        , simpleUserLogin = N "dryabov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/378044?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dryabov"
+        }
+  , issueTitle = "Add jQuery Lazy Load XT plugin 0.8.11"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/255")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/255.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/255.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/255"
+  , issueCreatedAt = 2014 (-01) (-10) 12 : 50 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 25392972
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

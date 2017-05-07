@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-16) 09 : 21 : 32 UTC
+  , issueUpdatedAt = 2015 (-08) (-16) 09 : 22 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6432/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6432")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6432
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 41597
+        , simpleUserLogin = N "mistic100"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/41597?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mistic100"
+        }
+  , issueTitle = "Add jQuery-QueryBuilder"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6432")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6432.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6432.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6432"
+  , issueCreatedAt = 2015 (-08) (-16) 09 : 20 : 39 UTC
+  , issueBody =
+      Just "Add https://github.com/mistic100/jQuery-QueryBuilder\n"
+  , issueState = StateClosed
+  , issueId = Id 101245462
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

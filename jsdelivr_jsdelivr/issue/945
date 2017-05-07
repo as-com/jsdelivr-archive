@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-14) 01 : 34 : 19 UTC
+  , issueUpdatedAt = 2014 (-06) (-14) 01 : 34 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/945/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/945")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 945
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1312733
+        , simpleUserLogin = N "Akurganow"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1312733?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Akurganow"
+        }
+  , issueTitle = "Add project jquery.pursuing-nav 0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/945")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/945.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/945.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/945"
+  , issueCreatedAt = 2014 (-06) (-14) 00 : 52 : 22 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 35717731
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

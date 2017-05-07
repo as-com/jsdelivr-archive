@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-27) 10 : 30 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64772458"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2515#issuecomment-64772458"
+  , issueCommentCreatedAt = 2014 (-11) (-27) 10 : 30 : 33 UTC
+  , issueCommentBody =
+      "Im sorry but if you want auto-updates then you will need to tune the config to upload only production files and not everything.\n"
+  , issueCommentId = 64772458
+  }

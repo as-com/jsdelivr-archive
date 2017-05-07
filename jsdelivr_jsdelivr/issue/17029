@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 26 : 26 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 26 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17029/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17029")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17029
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 456426
+        , simpleUserLogin = N "webpro"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/456426?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/webpro"
+        }
+  , issueTitle = "Update domtastic dist files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17029")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17029.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17029.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17029"
+  , issueCreatedAt = 2017 (-03) (-20) 22 : 21 : 26 UTC
+  , issueBody =
+      Just
+        "I've moved back to a single repo for this project. Are existing tags still picked up, or only the latest one?"
+  , issueState = StateClosed
+  , issueId = Id 215573268
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

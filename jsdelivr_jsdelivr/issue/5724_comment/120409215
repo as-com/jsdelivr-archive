@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-10) 13 : 20 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/120409215"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5724#issuecomment-120409215"
+  , issueCommentCreatedAt = 2015 (-07) (-10) 13 : 20 : 02 UTC
+  , issueCommentBody =
+      "The unminified files in other projects are mostly because of legacy reasons. We try to host only minified files now. There is no benefit to them. For debugging its best to load the file locally or directly from Github\n"
+  , issueCommentId = 120409215
+  }

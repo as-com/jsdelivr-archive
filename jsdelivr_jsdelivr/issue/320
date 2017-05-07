@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-31) 14 : 06 : 56 UTC
+  , issueUpdatedAt = 2014 (-03) (-30) 16 : 22 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/320/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/320")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 320
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1310554
+        , simpleUserLogin = N "mediochrea"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1310554?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mediochrea"
+        }
+  , issueTitle =
+      "Would you consider adding the Vary: Accept-Encoding header?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/320"
+  , issueCreatedAt = 2014 (-01) (-30) 19 : 09 : 05 UTC
+  , issueBody = Just "For those poor souls without gzip support.\n"
+  , issueState = StateClosed
+  , issueId = Id 26623314
+  , issueComments = 14
+  , issueMilestone = Nothing
+  }

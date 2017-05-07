@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-29) 08 : 03 : 27 UTC
+  , issueUpdatedAt = 2015 (-06) (-29) 08 : 03 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5532/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5532")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5532
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project algoliasearch.helper to 2.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5532")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5532.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5532.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5532"
+  , issueCreatedAt = 2015 (-06) (-29) 08 : 03 : 19 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project algoliasearch.helper to 2.1.2.\n\n@algolia\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"algoliasearch.helper\",\n    \"repo\": \"algolia/algoliasearch-helper-js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/algoliasearch.helper\",\n    \"localVersions\": [\"1.0.0\", \"1.1.0\", \"2.0.0-beta\", \"2.0.0-rc5\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.0.4\", \"2.1.0\", \"2.1.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\", \"2.0.0-beta\", \"2.0.0-rc5\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.0.4\", \"2.1.0\", \"2.1.1\", \"2.1.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/algoliasearch.helper/2.1.2\",\n  \"branch\": \"algoliasearch.helper/2.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 91730581
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

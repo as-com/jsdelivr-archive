@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-07) (-23) 04 : 14 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12880/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/12880")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12880
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10105141
+        , simpleUserLogin = N "the1900"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10105141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/the1900"
+        }
+  , issueTitle = "JSDelivr still doesn't add font-SpoqaHanSans PR"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12880"
+  , issueCreatedAt = 2016 (-07) (-23) 04 : 14 : 10 UTC
+  , issueBody =
+      Just
+        "First I requested to merge and It merged see #12704. \n\nNow I wonder why JSDelivr's bot doesn't add files in the PR? even I added `info.ini` and `update.json` correctly,\n\nThe PR I want to add is a webfont [SpoqaHanSans ](https://github.com/spoqa/spoqa-han-sans). It has  tags can automatically management by bot.\n"
+  , issueState = StateOpen
+  , issueId = Id 167166342
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

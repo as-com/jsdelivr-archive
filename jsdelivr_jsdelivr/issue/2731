@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-15) 12 : 01 : 09 UTC
+  , issueUpdatedAt = 2014 (-12) (-18) 16 : 08 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2731/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2731")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2731
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project laroux.js to v1.5pre"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2731")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2731.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2731.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2731"
+  , issueCreatedAt = 2014 (-12) (-15) 11 : 06 : 42 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project laroux.js to v1.5pre.\n\n@larukedi\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"laroux.js\",\n    \"repo\": \"larukedi/laroux.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"laroux.min.js\", \"laroux.base.min.js\", \"laroux.ext.min.js\", \"laroux.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/laroux.js\",\n    \"localVersions\": [\"1.4.0\"],\n    \"remoteVersions\": [\"0.9\", \"v1.0\", \"v1.1\", \"v1.2\", \"v1.3b\", \"v1.4c\", \"v1.5pre\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.5pre\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/laroux.js/1.5.0-pre\",\n  \"branch\": \"laroux.js/v1.5pre\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 51973566
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

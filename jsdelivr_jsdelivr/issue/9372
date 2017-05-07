@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-26) 16 : 12 : 03 UTC
+  , issueUpdatedAt = 2016 (-01) (-26) 16 : 12 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9372/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9372")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9372
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project calenstyle to 1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9372")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9372.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9372.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9372"
+  , issueCreatedAt = 2016 (-01) (-26) 14 : 33 : 43 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project calenstyle to 1.0.0.\n\n@CuriousSolutions\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"calenstyle\",\n    \"repo\": \"CuriousSolutions/CalenStyle\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.*\", \"calenstyle-jquery-ui-override.css\", \"calenstyle-iconfont.css\", \"./fonts/calenstyle-iconfont.ttf\", \"./fonts/calenstyle-iconfont.woff\", \"./fonts/calenstyle-iconfont.svg\", \"./fonts/calenstyle-iconfont.eot\", \"./images/resize-handle.png\", \"./i18n/calenstyle-i18n.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.calenstyle\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"2.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.calenstyle/update.json\",\n  \"versions\": [\"1.0.0\", \"2.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.calenstyle/1.0.0\",\n  \"branch\": \"calenstyle/1.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 128838167
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

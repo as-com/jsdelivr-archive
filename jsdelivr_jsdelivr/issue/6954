@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-17) 17 : 50 : 22 UTC
+  , issueUpdatedAt = 2015 (-09) (-17) 17 : 50 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6954/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6954")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6954
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10571881
+        , simpleUserLogin = N "jonataswalker"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/10571881?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jonataswalker"
+        }
+  , issueTitle = "Sync from original"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6954")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6954.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6954.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6954"
+  , issueCreatedAt = 2015 (-09) (-17) 17 : 50 : 04 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 107037011
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

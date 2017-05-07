@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-31) 11 : 34 : 06 UTC
+  , issueUpdatedAt = 2016 (-05) (-31) 11 : 34 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11874/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11874")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11874
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3459542
+        , simpleUserLogin = N "gswalden"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3459542?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gswalden"
+        }
+  , issueTitle = "add materialize css framework"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11874")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11874.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11874.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11874"
+  , issueCreatedAt = 2016 (-05) (-28) 17 : 58 : 40 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 157349942
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

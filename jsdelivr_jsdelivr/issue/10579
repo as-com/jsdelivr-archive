@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-21) 20 : 15 : 08 UTC
+  , issueUpdatedAt = 2016 (-03) (-21) 20 : 15 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10579/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10579")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10579
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9119269
+        , simpleUserLogin = N "samueleaton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/9119269?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/samueleaton"
+        }
+  , issueTitle = "adds finalform project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10579")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10579.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10579.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10579"
+  , issueCreatedAt = 2016 (-03) (-21) 17 : 05 : 01 UTC
+  , issueBody = Just "adds finalform 0.0.12\n"
+  , issueState = StateClosed
+  , issueId = Id 142411259
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

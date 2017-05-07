@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-09) (-16) 20 : 02 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3378986
+        , simpleUserLogin = N "redgeoff"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3378986?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/redgeoff"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/247694890"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/13830#issuecomment-247694890"
+  , issueCommentCreatedAt = 2016 (-09) (-16) 20 : 02 : 03 UTC
+  , issueCommentBody =
+      "Yes, that is correct. If you do a `bower install paste-image` you'll see\nthe dist directory and the built js files. Better to keep build files out\nof github when possible ;)\n\nOn Fri, Sep 16, 2016 at 12:56 PM Graeme Yeates notifications@github.com\nwrote:\n\n> ## _@megawac_ commented on this pull request.\n> \n> In files/paste-image/update.json\n> https://github.com/jsdelivr/jsdelivr/pull/13830#pullrequestreview-417724\n> :\n> \n> > @@ -0,0 +1,9 @@\n> > +{\n> > -  \"packageManager\": \"bower\",\n> > -  \"name\": \"paste-image\",\n> > -  \"repo\": \"redgeoff/paste-image\",\n> > -  \"files\": {\n> > -    \"basePath\": \"dist/\",\n> \n> is dist present on bower only?\n> \n> \8212\n> You are receiving this because you authored the thread.\n> Reply to this email directly, view it on GitHub\n> https://github.com/jsdelivr/jsdelivr/pull/13830#pullrequestreview-417724,\n> or mute the thread\n> https://github.com/notifications/unsubscribe-auth/ADOPKr7pCkFgDTDoHwz-ApuelUTfgSBlks5qqvRagaJpZM4J-o3Z\n> .\n"
+  , issueCommentId = 247694890
+  }

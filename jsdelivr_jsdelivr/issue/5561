@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-01) 13 : 40 : 37 UTC
+  , issueUpdatedAt = 2015 (-07) (-01) 13 : 53 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5561/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5561")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5561
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 982752
+        , simpleUserLogin = N "perosb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/982752?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/perosb"
+        }
+  , issueTitle = "Add auto update for URI.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5561")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5561.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5561.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5561"
+  , issueCreatedAt = 2015 (-07) (-01) 12 : 51 : 43 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 92374146
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-16) 09 : 05 : 23 UTC
+  , issueUpdatedAt = 2015 (-10) (-16) 09 : 06 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7419/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7419")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7419
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 14110
+        , simpleUserLogin = N "apeckham"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/14110?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/apeckham"
+        }
+  , issueTitle = "Update snowplow js to 2.5.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7419")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7419.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7419.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7419"
+  , issueCreatedAt = 2015 (-10) (-15) 23 : 02 : 23 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 111725251
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

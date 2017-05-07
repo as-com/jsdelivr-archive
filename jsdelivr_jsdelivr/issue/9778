@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-21) 14 : 53 : 30 UTC
+  , issueUpdatedAt = 2016 (-02) (-21) 14 : 53 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9778/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9778")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9778
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5688923
+        , simpleUserLogin = N "lwakefield"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5688923?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lwakefield"
+        }
+  , issueTitle = "Added wp-woocommerce 2.5.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9778")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9778.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9778.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9778"
+  , issueCreatedAt = 2016 (-02) (-15) 18 : 08 : 02 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 133781768
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

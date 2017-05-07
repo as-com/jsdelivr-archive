@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-26) 15 : 13 : 50 UTC
+  , issueUpdatedAt = 2014 (-08) (-26) 15 : 13 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1504/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1504")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1504
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2938444
+        , simpleUserLogin = N "mortzdk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2938444?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mortzdk"
+        }
+  , issueTitle = "Added localStorage polyfil"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1504")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1504.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1504.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1504"
+  , issueCreatedAt = 2014 (-08) (-23) 09 : 35 : 49 UTC
+  , issueBody =
+      Just
+        "Added localStorage polyfill that makes the window object localStorage available in both modern and old browsers.\n\nTo use the polyfill please https://github.com/mortzdk/localStorage/blob/master/README.md\n"
+  , issueState = StateClosed
+  , issueId = Id 40971876
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

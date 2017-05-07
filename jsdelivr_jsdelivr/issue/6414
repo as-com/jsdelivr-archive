@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-14) 16 : 43 : 45 UTC
+  , issueUpdatedAt = 2015 (-08) (-14) 16 : 43 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6414/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6414")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6414
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jsonmask to v0.3.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6414")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6414.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6414.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6414"
+  , issueCreatedAt = 2015 (-08) (-14) 16 : 35 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jsonmask to v0.3.5.\n\n@nemtsov\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jsonmask\",\n    \"repo\": \"nemtsov/json-mask\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jsonmask\",\n    \"localVersions\": [\"0.1.1-a\", \"0.3.0\", \"0.3.2\", \"0.3.4\"],\n    \"remoteVersions\": [\"v0.1.1-alpha\", \"v0.3.0\", \"v0.3.3\", \"v0.3.4\", \"v0.3.5\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/jsonmask/update.json\",\n  \"version\": \"v0.3.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jsonmask/0.3.5\",\n  \"branch\": \"jsonmask/v0.3.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 101049045
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-20) 06 : 03 : 01 UTC
+  , issueUpdatedAt = 2016 (-09) (-20) 06 : 03 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13886/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13886")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13886
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bootstrap-fileinput to 4.3.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13886")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13886.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13886.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13886"
+  , issueCreatedAt = 2016 (-09) (-20) 06 : 02 : 56 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootstrap-fileinput to 4.3.5.\n\n@kartik-v\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"bootstrap-fileinput\",\n    \"repo\": \"kartik-v/bootstrap-fileinput\",\n    \"files\": {\n      \"include\": [\"./css/fileinput.min.css\", \"./js/fileinput.min.js\", \"./img/loading.gif\", \"./img/loading-sm.gif\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/bootstrap.fileinput\",\n    \"localVersions\": [\"1.9.0\", \"2.9.0\", \"3.0.0\", \"4.2.7\", \"4.2.8\", \"4.2.9\", \"4.3.0\", \"4.3.1\", \"4.3.2\", \"4.3.3\", \"4.3.4\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.5.0\", \"1.6.0\", \"1.7.0\", \"1.8.0\", \"1.9.0\", \"2.0.0\", \"2.1.0\", \"2.2.0\", \"2.3.0\", \"2.4.0\", \"2.5.0\", \"2.6.0\", \"2.7.0\", \"2.8.0\", \"2.9.0\", \"3.0.0\", \"4.0.0\", \"4.1.0\", \"4.1.1\", \"4.1.2\", \"4.1.3\", \"4.1.4\", \"4.1.5\", \"4.1.6\", \"4.1.7\", \"4.1.8\", \"4.1.9\", \"4.2.0\", \"4.2.1\", \"4.2.2\", \"4.2.3\", \"4.2.4\", \"4.2.5\", \"4.2.6\", \"4.2.7\", \"4.2.8\", \"4.2.9\", \"4.3.0\", \"4.3.1\", \"4.3.2\", \"4.3.3\", \"4.3.4\", \"4.3.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/bootstrap.fileinput/update.json\",\n  \"versions\": [\"4.3.5\"],\n  \"updateRemote\": true,\n  \"version\": \"4.3.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/bootstrap.fileinput/4.3.5\",\n  \"branch\": \"bootstrap-fileinput/4.3.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 177972185
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

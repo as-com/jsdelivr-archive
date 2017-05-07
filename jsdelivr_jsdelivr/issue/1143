@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-07) 16 : 54 : 01 UTC
+  , issueUpdatedAt = 2014 (-07) (-07) 16 : 54 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1143/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1143")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1143
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 742498
+        , simpleUserLogin = N "onokumus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/742498?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/onokumus"
+        }
+  , issueTitle = "update metismenu v1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1143")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1143.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1143.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1143"
+  , issueCreatedAt = 2014 (-07) (-07) 16 : 49 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 37287596
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-24) 14 : 48 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/85537408"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3981#issuecomment-85537408"
+  , issueCommentCreatedAt = 2015 (-03) (-24) 14 : 48 : 44 UTC
+  , issueCommentBody =
+      "Hello, the non minified file is not necessary for production. Perhaps it's best to specify the .min.js file. Then, please squash your commits. Thanks \n"
+  , issueCommentId = 85537408
+  }

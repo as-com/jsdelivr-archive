@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-29) 14 : 58 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 80772
+        , simpleUserLogin = N "aurri"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/80772?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aurri"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/72038070"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3242#issuecomment-72038070"
+  , issueCommentCreatedAt = 2015 (-01) (-29) 14 : 58 : 04 UTC
+  , issueCommentBody =
+      "Well, you're right. Thanks for explaining!\n\nSeems we could get the same result by just including `riot.min.js` and `compiler.min.js` and requesting them both with: http://cdn.jsdelivr.net/g/riot@2.0(riot.min.js+compiler.min.js)\n\nGoing to make that change then in a moment.\n\nThanks again.\n"
+  , issueCommentId = 72038070
+  }

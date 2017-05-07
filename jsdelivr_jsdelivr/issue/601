@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-08) 16 : 32 : 53 UTC
+  , issueUpdatedAt = 2014 (-06) (-13) 01 : 26 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/601/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/601")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 601
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6738367
+        , simpleUserLogin = N "enginnr"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6738367?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/enginnr"
+        }
+  , issueTitle = "Req."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/601"
+  , issueCreatedAt = 2014 (-04) (-08) 16 : 29 : 16 UTC
+  , issueBody =
+      Just
+        "Request for Polymer\n\n`//cdnjs.cloudflare.com/ajax/libs/polymer/0.2.2/polymer.js`\n\n`http://www.polymer-project.org/`\n"
+  , issueState = StateClosed
+  , issueId = Id 31086591
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

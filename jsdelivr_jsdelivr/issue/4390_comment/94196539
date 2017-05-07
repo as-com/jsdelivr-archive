@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-18) 19 : 57 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/94196539"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4390#issuecomment-94196539"
+  , issueCommentCreatedAt = 2015 (-04) (-18) 19 : 57 : 39 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @as-com, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Might be nothing but I have some concerns about the files in your submission...  \n  - _.woff2_ (on _fonts/KaTeX_AMS-Regular.woff2_) seems odd to want to host?\n  - _.woff2_ (on _fonts/KaTeX_Main-Bold.woff2_) seems odd to want to host?\n  - _.woff2_ (on _fonts/KaTeX_Main-Italic.woff2_) seems odd to want to host?\n  - _.woff2_ (on _fonts/KaTeX_Main-Regular.woff2_) seems odd to want to host?\n  - _.woff2_ (on _fonts/KaTeX_Math-BoldItalic.woff2_) seems odd to want to host?\n  - _.woff2_ (on _fonts/KaTeX_Math-Italic.woff2_) seems odd to want to host?\n  - _.woff2_ (on _fonts/KaTeX_Math-Regular.woff2_) seems odd to want to host?\n  - _.woff2_ (on _fonts/KaTeX_Size1-Regular.woff2_) seems odd to want to host?\n  - _.woff2_ (on _fonts/KaTeX_Size2-Regular.woff2_) seems odd to want to host?\n  - _.woff2_ (on _fonts/KaTeX_Size3-Regular.woff2_) seems odd to want to host?\n  - _.woff2_ (on _fonts/KaTeX_Size4-Regular.woff2_) seems odd to want to host?\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Half measures are as bad as nothing at all._\n"
+  , issueCommentId = 94196539
+  }

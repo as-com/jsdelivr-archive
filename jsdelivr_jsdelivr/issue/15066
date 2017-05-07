@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 39 : 30 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 39 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15066/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15066")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15066
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project font-d2coding to v1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15066")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15066.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15066.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15066"
+  , issueCreatedAt = 2016 (-11) (-29) 19 : 39 : 26 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project font-d2coding to v1.2.\n\n@Joungkyun\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"font-d2coding\",\n    \"repo\": \"Joungkyun/font-d2coding\",\n    \"files\": {\n      \"include\": [\"d2coding.css\", \"d2coding.eot\", \"d2coding.ttf\", \"d2coding.woff\", \"d2coding.woff2\", \"d2codingbold.eot\", \"d2codingbold.ttf\", \"d2codingbold.woff\", \"d2codingbold.woff2\"],\n      \"exclude\": [\"readme.md\", \"license\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/font-d2coding\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.1\", \"v1.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/font-d2coding/update.json\",\n  \"versions\": [\"v1.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/font-d2coding/1.2\",\n  \"branch\": \"font-d2coding/v1.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 192378790
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

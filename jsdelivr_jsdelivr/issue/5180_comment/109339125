@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-05) 15 : 53 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 25086
+        , simpleUserLogin = N "RobLoach"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/25086?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/RobLoach"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/109339125"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5180#issuecomment-109339125"
+  , issueCommentCreatedAt = 2015 (-06) (-05) 15 : 53 : 07 UTC
+  , issueCommentBody =
+      "> @jimaek  Please rename the directory to jquery.once\n\nRenamed... Does this conflict with module loading? It is named `jquery-once` everywhere else.\n"
+  , issueCommentId = 109339125
+  }

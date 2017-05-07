@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-11) 15 : 07 : 49 UTC
+  , issueUpdatedAt = 2017 (-04) (-11) 15 : 07 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17504/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17504")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17504
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5474337
+        , simpleUserLogin = N "GPavlovic"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5474337?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GPavlovic"
+        }
+  , issueTitle = "Moving to new repository"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17504")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17504.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17504.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17504"
+  , issueCreatedAt = 2017 (-04) (-10) 19 : 23 : 56 UTC
+  , issueBody =
+      Just
+        "Updating to a repository that I will maintain as it seems the library has been abandoned."
+  , issueState = StateClosed
+  , issueId = Id 220744653
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-16) 16 : 35 : 18 UTC
+  , issueUpdatedAt = 2017 (-03) (-16) 16 : 35 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16965/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16965")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16965
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project octobat-checkout.js to 2.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16965")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16965.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16965.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16965"
+  , issueCreatedAt = 2017 (-03) (-16) 16 : 35 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project octobat-checkout.js to 2.0.0.\n\n@0ctobat\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"octobat-checkout.js\",\n    \"repo\": \"0ctobat/octobat-checkout.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/octobat-checkout.js\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"2.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/octobat-checkout.js/update.json\",\n  \"versions\": [\"2.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"2.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/octobat-checkout.js/2.0.0\",\n  \"branch\": \"octobat-checkout.js/2.0.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 214764970
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

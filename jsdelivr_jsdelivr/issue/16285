@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-10) 15 : 53 : 40 UTC
+  , issueUpdatedAt = 2017 (-02) (-10) 15 : 53 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16285/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16285")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16285
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11300323
+        , simpleUserLogin = N "TheLegendaryMarc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11300323?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/TheLegendaryMarc"
+        }
+  , issueTitle = "Added Missing \"Fonts\" in Simple-Linie-Icons"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16285")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16285.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16285.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16285"
+  , issueCreatedAt = 2017 (-02) (-10) 09 : 04 : 19 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 206742245
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

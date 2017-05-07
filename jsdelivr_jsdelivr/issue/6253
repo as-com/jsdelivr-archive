@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-04) 09 : 48 : 06 UTC
+  , issueUpdatedAt = 2015 (-08) (-04) 09 : 48 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6253/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6253")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6253
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jQuery-PodPicker to v0.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6253")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6253.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6253.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6253"
+  , issueCreatedAt = 2015 (-08) (-04) 02 : 04 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jQuery-PodPicker to v0.1.2.\n\n@RoberMac\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jQuery-PodPicker\",\n    \"repo\": \"RoberMac/jQuery-PodPicker\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"jquery.podpicker.min.js\", \"PodPicker.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.podpicker\",\n    \"localVersions\": [\"0.1.1\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/jquery.podpicker/update.json\",\n  \"version\": \"v0.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.podpicker/0.1.2\",\n  \"branch\": \"jQuery-PodPicker/v0.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 98873562
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

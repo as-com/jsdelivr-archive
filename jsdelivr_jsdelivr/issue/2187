@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-01) 21 : 00 : 21 UTC
+  , issueUpdatedAt = 2014 (-11) (-01) 21 : 02 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2187/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2187")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2187
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8389542
+        , simpleUserLogin = N "thekondrashov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/8389542?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thekondrashov"
+        }
+  , issueTitle = "Replace the mainfile on a compressed version."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2187")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2187.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2187.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2187"
+  , issueCreatedAt = 2014 (-11) (-01) 20 : 31 : 44 UTC
+  , issueBody =
+      Just
+        "Only rename \"html5shiv.js\" into \"html5shiv.min.js\" in mainfile field.\n"
+  , issueState = StateClosed
+  , issueId = Id 47516187
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

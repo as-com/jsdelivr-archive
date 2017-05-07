@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-30) 17 : 28 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 4747021
+        , simpleUserLogin = N "mjau-mjau"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4747021?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mjau-mjau"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/68376330"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2853#issuecomment-68376330"
+  , issueCommentCreatedAt = 2014 (-12) (-30) 17 : 24 : 53 UTC
+  , issueCommentBody =
+      "Appreciate that you take the time to respond.\n\nFor many reasons, we have no intention of hosting the app on Github. Therefore, it is pretty pointless to setup a formal github repo with full documentation and instructions, when it serves no purpose to any crowd of people. The only reason we have a new repo in the first place called \"x3**assets**\", is to serve a method of updates to jsdelivr as outlined in the docs.\n\n> When I review projects I only read the info.ini file. You point here https://github.com/mjau-mjau/x3assets\n\nWell, that is the \"github\" var in the info.ini file ...\n\nWhat you seem to insinuate, is that \"If this app is not an active maintained github repo, then it doesn't belong on JSDelivr\". I don't see any problem in that, but it should perhaps be clarified in some guidelines of what projects JSDelivr will accept. There _is_ of course a fair amount of documentation as you must have seen if you visited the page yourself [x3docs](http://imagevuex.com/x3docs). I am mostly curious as to what criteria it is rejected, as it must be clear through the docs that it is serious (so _1._ can be ignored), leaving:\n\n> There is no way to confirm if its the official repo of the project. http://imagevuex.com/x3docs does not point to the repo and its not a real doc. I still dont know what X3 is.\n\nSo basically if we add a link to github x3assets page, and an explanation in the docs about what X3 is, then it might pass criteria? As mentioned, this project is NOT hosted on github.\n\nWe already signed up for maxcdn to serve these few files, as it seems easier to manage the files, and is probably a better choice for us.\n"
+  , issueCommentId = 68376330
+  }

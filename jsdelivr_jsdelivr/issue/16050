@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-29) 21 : 49 : 07 UTC
+  , issueUpdatedAt = 2017 (-01) (-29) 21 : 49 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16050/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16050")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16050
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 25410647
+        , simpleUserLogin = N "Alecgcast"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/25410647?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Alecgcast"
+        }
+  , issueTitle = "Create logo-animedescarga.svg"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16050")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16050.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16050.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16050"
+  , issueCreatedAt = 2017 (-01) (-29) 05 : 05 : 45 UTC
+  , issueBody = Just "create logo for animedescarga site"
+  , issueState = StateClosed
+  , issueId = Id 203850987
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

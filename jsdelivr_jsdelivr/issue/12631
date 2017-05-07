@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-08) 19 : 49 : 10 UTC
+  , issueUpdatedAt = 2016 (-07) (-08) 19 : 49 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12631/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12631")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12631
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 422158
+        , simpleUserLogin = N "naikus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/422158?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/naikus"
+        }
+  , issueTitle = "Corrected svg-gauge PR"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12631")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12631.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12631.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12631"
+  , issueCreatedAt = 2016 (-07) (-08) 18 : 30 : 16 UTC
+  , issueBody =
+      Just "PR for [svg-gauge](https://github.com/naikus/svg-gauge)\n"
+  , issueState = StateClosed
+  , issueId = Id 164589320
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

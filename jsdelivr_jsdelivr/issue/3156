@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-23) 16 : 06 : 55 UTC
+  , issueUpdatedAt = 2015 (-06) (-24) 19 : 04 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3156/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3156")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3156
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1005813
+        , simpleUserLogin = N "isaackwan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1005813?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaackwan"
+        }
+  , issueTitle = "Revealjs v3.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3156")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3156.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3156.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3156"
+  , issueCreatedAt = 2015 (-01) (-22) 16 : 00 : 24 UTC
+  , issueBody =
+      Just
+        "If I am not mistaken, the author is no longer producing a compressed version.\n\nThe PR contains the css, js, lib and plugin folders unextracted from the GitHub release, with:\n- minified js by UglifyJS2 by refresh-sf.com\n- minified css by clean-css by refresh-sf.com\n- deleted some readme / license type files\n\nPlease bear with me if I had made a mistake coz I'm in need of coffeeeeeee. \n\n-Isaac\n"
+  , issueState = StateClosed
+  , issueId = Id 55170702
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

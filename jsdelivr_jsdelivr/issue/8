@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-04) (-14) 21 : 04 : 16 UTC
+  , issueUpdatedAt = 2014 (-06) (-13) 07 : 28 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 922051
+        , simpleUserLogin = N "robocoder"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/922051?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/robocoder"
+        }
+  , issueTitle = "add twitter flight 1.0.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8"
+  , issueCreatedAt = 2013 (-04) (-14) 20 : 59 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 13178756
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

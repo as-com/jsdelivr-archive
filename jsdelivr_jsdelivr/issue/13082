@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-05) 14 : 55 : 35 UTC
+  , issueUpdatedAt = 2016 (-08) (-05) 14 : 55 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13082/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13082")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13082
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 858868
+        , simpleUserLogin = N "billymoon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/858868?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/billymoon"
+        }
+  , issueTitle = "add sql.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13082")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13082.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13082.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13082"
+  , issueCreatedAt = 2016 (-08) (-05) 02 : 03 : 23 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 169513551
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-17) 10 : 09 : 27 UTC
+  , issueUpdatedAt = 2016 (-02) (-17) 10 : 09 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9819/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9819")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9819
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6859057
+        , simpleUserLogin = N "jaszhix"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6859057?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jaszhix"
+        }
+  , issueTitle = "Update vquery info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9819")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9819.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9819.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9819"
+  , issueCreatedAt = 2016 (-02) (-17) 09 : 06 : 24 UTC
+  , issueBody = Just "Updated website URL\n"
+  , issueState = StateClosed
+  , issueId = Id 134221162
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

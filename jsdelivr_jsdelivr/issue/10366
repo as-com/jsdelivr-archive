@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-03) (-14) 17 : 50 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10366/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/10366")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10366
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3150233
+        , simpleUserLogin = N "devinivy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3150233?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/devinivy"
+        }
+  , issueTitle = "Adding missing versions"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10366"
+  , issueCreatedAt = 2016 (-03) (-09) 14 : 51 : 19 UTC
+  , issueBody =
+      Just
+        "I recently updated the location of a repo that moved from a personal account to a github organization.  JsDelivr has pulled-in the most recent version from the new repo location, but several other versions have also been released since the repo was moved, and jsDelivr hasn't pulled them in.  Will jsDelivr eventually sync with past releases, or should I make a PR to manually add those versions to jsDelivr?\n"
+  , issueState = StateOpen
+  , issueId = Id 139597957
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

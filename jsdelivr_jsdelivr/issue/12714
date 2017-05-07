@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-13) 19 : 04 : 56 UTC
+  , issueUpdatedAt = 2016 (-07) (-13) 19 : 04 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12714/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12714")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12714
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project t3 to v2.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12714")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12714.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12714.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12714"
+  , issueCreatedAt = 2016 (-07) (-13) 19 : 04 : 52 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project t3 to v2.6.0.\n\n@box\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"t3\",\n    \"repo\": \"box/t3js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"t3.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/t3\",\n    \"localVersions\": [\"1.1.1\", \"1.2.0\", \"1.3.0\", \"1.4.0\", \"1.4.1\", \"1.5.0\", \"1.5.1\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.1.0\", \"2.2.0\", \"2.3.0\", \"2.4.0\", \"2.5.0\"],\n    \"remoteVersions\": [\"0.2.1\", \"0.3.0\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"v1.1.0\", \"v1.1.1\", \"v1.2.0\", \"v1.3.0\", \"v1.4.0\", \"v1.4.1\", \"v1.5.0\", \"v1.5.1\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.1.0\", \"v2.2.0\", \"v2.3.0\", \"v2.4.0\", \"v2.5.0\", \"v2.6.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/t3/update.json\",\n  \"versions\": [\"v2.6.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.6.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/t3/2.6.0\",\n  \"branch\": \"t3/v2.6.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 165397219
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

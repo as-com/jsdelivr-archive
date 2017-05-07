@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-03) 18 : 38 : 46 UTC
+  , issueUpdatedAt = 2017 (-03) (-03) 18 : 38 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16695/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16695")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16695
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project processing.js to v1.6.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16695")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16695.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16695.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16695"
+  , issueCreatedAt = 2017 (-03) (-03) 18 : 05 : 35 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project processing.js to v1.6.5.\n\n@processing-js\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"processing.js\",\n    \"repo\": \"processing-js/processing-js\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"processing.js\", \"processing.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/processing.js\",\n    \"localVersions\": [\"1.4.1\", \"1.4.2\", \"1.4.8\"],\n    \"remoteVersions\": [\"v0.4.0\", \"v0.5.0\", \"v0.6.0\", \"v0.7.0\", \"v0.7.1\", \"v0.8.0\", \"v0.9.0\", \"v0.9.1\", \"v0.9.3\", \"v0.9.4\", \"v0.9.6\", \"v0.9.7\", \"v1.0.0\", \"v1.1.0\", \"v1.1.1\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.3\", \"v1.3.0\", \"v1.3.5\", \"v1.3.6\", \"v1.4.0\", \"v1.4.1\", \"v1.4.2\", \"v1.4.3\", \"v1.4.4\", \"v1.4.5\", \"v1.4.6\", \"v1.4.7\", \"v1.4.8\", \"v1.4.9\", \"v1.4.10\", \"v1.4.11\", \"v1.4.12\", \"v1.4.13\", \"v1.4.14\", \"v1.4.15\", \"v1.4.16\", \"v1.4.17\", \"v1.4.18\", \"v1.5.0\", \"v1.5.1\", \"v1.5.2\", \"v1.6.0\", \"v1.6.1\", \"v1.6.2\", \"v1.6.3\", \"v1.6.4\", \"v1.6.5\"],\n    \"branchVersions\": [\"v1.6.4\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/processing.js/update.json\",\n  \"versions\": [\"v1.6.5\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.6.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/processing.js/1.6.5\",\n  \"branch\": \"processing.js/v1.6.5\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 211760683
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

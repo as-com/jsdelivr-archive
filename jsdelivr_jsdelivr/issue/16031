@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-27) 21 : 20 : 36 UTC
+  , issueUpdatedAt = 2017 (-01) (-27) 21 : 20 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16031/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16031")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16031
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1521971
+        , simpleUserLogin = N "jojo5716"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1521971?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jojo5716"
+        }
+  , issueTitle = "Adding a new library call FoozleJS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16031")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16031.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16031.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16031"
+  , issueCreatedAt = 2017 (-01) (-27) 10 : 45 : 53 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 203605264
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

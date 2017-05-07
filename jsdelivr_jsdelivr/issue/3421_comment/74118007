@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-12) 17 : 52 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/74118007"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3421#issuecomment-74118007"
+  , issueCommentCreatedAt = 2015 (-02) (-12) 17 : 52 : 18 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Might be nothing but I have some concerns about the files in your submission...  \n  - _.scss_ (on _themes/_base/css/uniform._base.scss_) seems odd to want to host?\n  - _.scss_ (on _themes/agent/css/uniform.agent.scss_) seems odd to want to host?\n  - _.scss_ (on _themes/aristo/css/uniform.aristo.scss_) seems odd to want to host?\n  - _.scss_ (on _themes/default/css/uniform.default.scss_) seems odd to want to host?\n  - _.scss_ (on _themes/jeans/css/uniform.jeans.scss_) seems odd to want to host?\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _uniformjs_ between _2.1.1_ and _2.1.2_ there was a change in file structure  \n  \n  ``` diff\n  + themes/_base/css/uniform._base.css\n  + themes/_base/css/uniform._base.min.css\n  + themes/_base/css/uniform._base.scss\n  + themes/agent/css/uniform.agent.css\n  + themes/agent/css/uniform.agent.min.css\n  + themes/agent/css/uniform.agent.scss\n  + themes/agent/images/bg-input-agent.png\n  + themes/agent/images/bg-input-focus-agent.png\n  + themes/agent/images/sprite-agent.png\n  + themes/aristo/css/uniform.aristo.css\n  + themes/aristo/css/uniform.aristo.min.css\n  + themes/aristo/css/uniform.aristo.scss\n  + themes/aristo/images/bg-input-aristo.png\n  + themes/aristo/images/bg-input-focus-aristo.png\n  + themes/aristo/images/sprite-aristo.png\n  + themes/default/css/uniform.default.css\n  + themes/default/css/uniform.default.min.css\n  + themes/default/css/uniform.default.scss\n  + themes/default/images/bg-input-focus.png\n  + themes/default/images/bg-input.png\n  + themes/default/images/sprite.png\n  + themes/jeans/css/uniform.jeans.css\n  + themes/jeans/css/uniform.jeans.min.css\n  + themes/jeans/css/uniform.jeans.scss\n  + themes/jeans/images/bg-input-focus-jeans.png\n  + themes/jeans/images/bg-input-focus-retina-jeans.png\n  + themes/jeans/images/bg-input-jeans.png\n  + themes/jeans/images/bg-input-retina-jeans.png\n  + themes/jeans/images/sprite-jeans.png\n  + themes/jeans/images/sprite-retina-jeans.png\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Avoid administrative distraction._\n"
+  , issueCommentId = 74118007
+  }

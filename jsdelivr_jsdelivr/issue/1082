@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-01) 14 : 18 : 27 UTC
+  , issueUpdatedAt = 2014 (-07) (-01) 14 : 26 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1082/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1082")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1082
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1005813
+        , simpleUserLogin = N "isaackwan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1005813?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaackwan"
+        }
+  , issueTitle = "webshim 1.14.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1082")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1082.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1082.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1082"
+  , issueCreatedAt = 2014 (-07) (-01) 09 : 15 : 52 UTC
+  , issueBody =
+      Just
+        "downloaded from https://github.com/aFarkas/webshim/releases\n"
+  , issueState = StateClosed
+  , issueId = Id 36875006
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

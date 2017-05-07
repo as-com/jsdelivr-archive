@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-19) 08 : 52 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 38454
+        , simpleUserLogin = N "akkumar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/38454?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/akkumar"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/103402718"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4809#issuecomment-103402718"
+  , issueCommentCreatedAt = 2015 (-05) (-19) 08 : 52 : 11 UTC
+  , issueCommentBody =
+      "Seems like the author had renamed the package since then . ( The info.ini link for angular-file-upload redirects to the new name ) \n\nAnd the filenames are renamed as well.  \n\nSo - submitted another pull request here  -  https://github.com/jsdelivr/jsdelivr/pull/4822 . \n\njsdelivr bot is not happy for the reason mentioned above.  Let me suggest what are the options now  ? ( a new package vs existing package ) ? \n"
+  , issueCommentId = 103402718
+  }

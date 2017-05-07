@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-09) 00 : 56 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/138742463"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6762#issuecomment-138742463"
+  , issueCommentCreatedAt = 2015 (-09) (-09) 00 : 55 : 59 UTC
+  , issueCommentBody =
+      "@ludens think you got the folder paths a bit messed up, e.g.  `files/font-nanum/1.1/nanummyeongjo/v2/NanumMyeongjo-Regular.woff`\n\nshould be `/2.0/Nun...` no?\n"
+  , issueCommentId = 138742463
+  }

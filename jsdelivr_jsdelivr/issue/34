@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-06) (-17) 20 : 23 : 34 UTC
+  , issueUpdatedAt = 2014 (-07) (-03) 20 : 28 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/34/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/34")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 34
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 44679
+        , simpleUserLogin = N "seanthegeek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/44679?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/seanthegeek"
+        }
+  , issueTitle = "Add jQuery 1.9.1 map"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/34")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/34.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/34.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/34"
+  , issueCreatedAt = 2013 (-06) (-17) 20 : 10 : 31 UTC
+  , issueBody =
+      Just
+        "jQuery map files are required in some cases when using the minifed jQuery. I'll work on adding them for the other versions too.\n\nhttp://jquerybyexample.blogspot.com/2013/01/all-you-need-to-know-about-jquery-source-maps.html\n"
+  , issueState = StateClosed
+  , issueId = Id 15653126
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

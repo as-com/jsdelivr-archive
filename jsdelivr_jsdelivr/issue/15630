@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-05) 18 : 06 : 52 UTC
+  , issueUpdatedAt = 2017 (-01) (-05) 18 : 06 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15630/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15630")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15630
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9387503
+        , simpleUserLogin = N "hkwu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/9387503?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hkwu"
+        }
+  , issueTitle = "Update update.json for Wargamer."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15630")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15630.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15630.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15630"
+  , issueCreatedAt = 2017 (-01) (-04) 21 : 11 : 09 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 198811822
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

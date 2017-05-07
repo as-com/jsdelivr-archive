@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-02) 11 : 22 : 13 UTC
+  , issueUpdatedAt = 2016 (-02) (-02) 11 : 22 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9498/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9498")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9498
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 184284
+        , simpleUserLogin = N "thasmo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/184284?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thasmo"
+        }
+  , issueTitle = "Add gridable files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9498")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9498.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9498.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9498"
+  , issueCreatedAt = 2016 (-02) (-01) 20 : 54 : 18 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 130480207
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 14 : 10 : 06 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 14 : 10 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1017/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1017")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1017
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueTitle = "Add update.json for gsap"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1017")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1017.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1017.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1017"
+  , issueCreatedAt = 2014 (-06) (-25) 22 : 55 : 25 UTC
+  , issueBody =
+      Just "I hope jsdelivrbot doesn't get angry at itself again....\n"
+  , issueState = StateClosed
+  , issueId = Id 36530449
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

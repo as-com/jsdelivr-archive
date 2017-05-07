@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-20) 23 : 03 : 19 UTC
+  , issueUpdatedAt = 2014 (-07) (-20) 23 : 12 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1251/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1251")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1251
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project better-dom to v1.7.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1251")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1251.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1251.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1251"
+  , issueCreatedAt = 2014 (-07) (-20) 23 : 02 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project better-dom to v1.7.6.\n\n@chemerisuk\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"better-dom\",\n    \"repo\": \"chemerisuk/better-dom\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"better-dom.min.js\", \"better-dom-legacy.min.js\", \"better-dom-legacy.htc\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/better-dom\",\n    \"localVersions\": [\"1.7.5\"],\n    \"remoteVersions\": [\"v1.5.0\", \"v1.5.5\", \"v1.6.0\", \"v1.6.6\", \"v1.7.0\", \"v1.7.1\", \"v1.7.2\", \"v1.7.3\", \"v1.7.4\", \"v1.7.5\", \"v1.7.6\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.7.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/better-dom/1.7.6\",\n  \"branch\": \"better-dom/v1.7.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 38268739
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

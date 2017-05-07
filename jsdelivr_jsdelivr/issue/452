@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-13) 22 : 36 : 49 UTC
+  , issueUpdatedAt = 2014 (-03) (-23) 16 : 05 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/452/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/452")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 452
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1915268
+        , simpleUserLogin = N "irazasyed"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1915268?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/irazasyed"
+        }
+  , issueTitle = "Problem with File combiner CSS"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/452"
+  , issueCreatedAt = 2014 (-03) (-13) 19 : 48 : 29 UTC
+  , issueBody =
+      Just
+        "The file combiner seems to be having some issues, after several tests i can confirm there is really some issue.\n\nI'm trying to load this:\n`http://cdn.jsdelivr.net/g/fontawesome,normalize`\n\nWhen you load this:\n    `<link rel=\"stylesheet\" href=\"//cdn.jsdelivr.net/g/fontawesome,normalize\">`\n\nThis sometimes returns the type as `text/css` which is the expected response, but most of the time it returns `application/javascript` which is wrong obviously and sometimes it doesn't even return any type at all. Although the response content is present, but browser doesn't seem to understand the type of file if the content type header isn't present.\n\nAnother problem with this is that, the additional files it has (For example the fonts file), it loads a wrong URL. In my case when i tried loading font-awesome, it loads the following URLs and throws 404 not found error.\n\n```\nhttp://cdn.jsdelivr.net/fonts/fontawesome-webfont.woff?v=4.0.3\nhttp://cdn.jsdelivr.net/fonts/fontawesome-webfont.ttf?v=4.0.3\nhttp://cdn.jsdelivr.net/fonts/fontawesome-webfont.svg?v=4.0.3\n```\n\nHere are the response headers:\n\n```\nAccess-Control-Allow-Origin:*\nCache-Control:public, max-age=16070400\nCF-Cache-Status:HIT\nCF-RAY: Randomstring\nConnection:keep-alive\nContent-Encoding:gzip\nContent-Type:application/javascript\nDate:Thu, 13 Mar 2014 19:39:53 GMT\nExpires:Mon, 15 Sep 2014 19:39:53 GMT\nServer:cloudflare-nginx\nTransfer-Encoding:chunked\nVary:Accept-Encoding\n```\n\nLet me know what's the problem. Also, I just need the main file latest version, So i don't think i need to specify version or brackets, etc.\n"
+  , issueState = StateClosed
+  , issueId = Id 29383239
+  , issueComments = 19
+  , issueMilestone = Nothing
+  }

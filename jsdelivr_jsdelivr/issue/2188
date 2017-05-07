@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-01) 21 : 09 : 18 UTC
+  , issueUpdatedAt = 2014 (-11) (-01) 21 : 09 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2188/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2188")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2188
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8389542
+        , simpleUserLogin = N "thekondrashov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/8389542?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thekondrashov"
+        }
+  , issueTitle = "Change html5shiv files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2188")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2188.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2188.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2188"
+  , issueCreatedAt = 2014 (-11) (-01) 20 : 57 : 08 UTC
+  , issueBody =
+      Just
+        "Renamed file names without changes and replace the mainfile on a compressed version.\n"
+  , issueState = StateClosed
+  , issueId = Id 47516830
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

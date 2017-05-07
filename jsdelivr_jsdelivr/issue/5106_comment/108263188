@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-03) 09 : 21 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 38454
+        , simpleUserLogin = N "akkumar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/38454?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/akkumar"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/108263188"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5106#issuecomment-108263188"
+  , issueCommentCreatedAt = 2015 (-06) (-03) 09 : 21 : 18 UTC
+  , issueCommentBody =
+      "Ok - So I am only adding a new version of lodash here , as needed by bower_components of webcomponents.\n\nI am not changing the info.ini of lodash as part of this commit.\n\nThe message reported is - \"hostname 'lodash.com' doesn't match either of '*.fronteers.nl', 'fronteers.nl'\" .\n\nCan someone suggest what needs to be done here ? Thanks !\n"
+  , issueCommentId = 108263188
+  }

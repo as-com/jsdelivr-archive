@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-25) 17 : 20 : 36 UTC
+  , issueUpdatedAt = 2015 (-02) (-25) 18 : 23 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3590/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/3590")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3590
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 302358
+        , simpleUserLogin = N "chauncey-garrett"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/302358?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/chauncey-garrett"
+        }
+  , issueTitle = "Foundation JS not providing minified version"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3590"
+  , issueCreatedAt = 2015 (-02) (-24) 20 : 21 : 32 UTC
+  , issueBody =
+      Just
+        "`//cdn.jsdelivr.net/foundation/5.5/js/foundation.min.js` does not give the minified version of the JS file.\n"
+  , issueState = StateClosed
+  , issueId = Id 58798036
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-17) 14 : 04 : 13 UTC
+  , issueUpdatedAt = 2016 (-09) (-17) 14 : 04 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13849/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13849")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13849
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project paste-image to 0.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13849")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13849.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13849.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13849"
+  , issueCreatedAt = 2016 (-09) (-17) 14 : 04 : 09 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project paste-image to 0.0.3.\n\n@redgeoff\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"paste-image\",\n    \"repo\": \"redgeoff/paste-image\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"paste-image.js\", \"paste-image.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/paste-image\",\n    \"localVersions\": [\"0.0.2\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/paste-image/update.json\",\n  \"versions\": [\"0.0.3\"],\n  \"updateRemote\": true,\n  \"version\": \"0.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/paste-image/0.0.3\",\n  \"branch\": \"paste-image/0.0.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 177578443
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

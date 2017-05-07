@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-26) 15 : 34 : 07 UTC
+  , issueUpdatedAt = 2017 (-04) (-26) 15 : 34 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17814/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17814")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17814
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bootstrap-modallery to v0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17814")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17814.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17814.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17814"
+  , issueCreatedAt = 2017 (-04) (-26) 15 : 33 : 59 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootstrap-modallery to v0.1.\n\n@lhcgoncalves\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bootstrap-modallery\",\n    \"repo\": \"lhcgoncalves/bootstrap-modallery\",\n    \"files\": {\n      \"basePath\": \"/src\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/bootstrap-modallery\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/bootstrap-modallery/update.json\",\n  \"versions\": [\"v0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/bootstrap-modallery/0.1\",\n  \"branch\": \"bootstrap-modallery/v0.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 224510323
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

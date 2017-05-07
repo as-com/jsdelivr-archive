@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-04) 14 : 10 : 37 UTC
+  , issueUpdatedAt = 2016 (-02) (-04) 14 : 10 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9566/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9566")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9566
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5705890
+        , simpleUserLogin = N "Ting-y"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5705890?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Ting-y"
+        }
+  , issueTitle =
+      "Update the project info after the repository being transferred owner "
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9566")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9566.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9566.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9566"
+  , issueCreatedAt = 2016 (-02) (-04) 05 : 31 : 25 UTC
+  , issueBody = Just "Updated the new path for Astro, see 4bf61a1 \n"
+  , issueState = StateClosed
+  , issueId = Id 131248539
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

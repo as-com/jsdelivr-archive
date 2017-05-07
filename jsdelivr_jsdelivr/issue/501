@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-23) 19 : 45 : 36 UTC
+  , issueUpdatedAt = 2014 (-03) (-24) 08 : 08 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/501/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/501")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 501
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1820367
+        , simpleUserLogin = N "robertsky"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1820367?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/robertsky"
+        }
+  , issueTitle = "Add instantclick.io"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/501")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/501.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/501.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/501"
+  , issueCreatedAt = 2014 (-03) (-23) 19 : 07 : 23 UTC
+  , issueBody = Just "Adding instantclick.io to the cdn.\n"
+  , issueState = StateClosed
+  , issueId = Id 29995256
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-31) 20 : 28 : 24 UTC
+  , issueUpdatedAt = 2016 (-01) (-31) 20 : 28 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9478/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9478")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9478
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2373
+        , simpleUserLogin = N "pfefferle"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2373?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pfefferle"
+        }
+  , issueTitle = "openwebicons - fixed typo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9478")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9478.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9478.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9478"
+  , issueCreatedAt = 2016 (-01) (-31) 20 : 22 : 26 UTC
+  , issueBody = Just "sorry!\n"
+  , issueState = StateClosed
+  , issueId = Id 130177071
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

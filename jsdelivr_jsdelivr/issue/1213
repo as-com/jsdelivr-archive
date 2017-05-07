@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-15) 13 : 47 : 27 UTC
+  , issueUpdatedAt = 2014 (-07) (-25) 18 : 53 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1213/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1213")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1213
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle =
+      "Add to jquery.fullpage vendors/jquery.easings.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1213")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1213.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1213.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1213"
+  , issueCreatedAt = 2014 (-07) (-15) 05 : 41 : 56 UTC
+  , issueBody =
+      Just
+        "https://github.com/jsdelivr/jsdelivr/pull/1192#issuecomment-48811950\nSorry, [different files](http://www.diffchecker.com/ould8o9o)\n"
+  , issueState = StateClosed
+  , issueId = Id 37852904
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

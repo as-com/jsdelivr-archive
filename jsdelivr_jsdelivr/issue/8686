@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-28) 21 : 10 : 28 UTC
+  , issueUpdatedAt = 2015 (-12) (-28) 21 : 10 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8686/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8686")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8686
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project leaflet.esri.clustered-feature-layer to v2.0.0-beta.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8686")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8686.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8686.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8686"
+  , issueCreatedAt = 2015 (-12) (-28) 21 : 01 : 50 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project leaflet.esri.clustered-feature-layer to v2.0.0-beta.1.\n\n@esri\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"leaflet.esri.clustered-feature-layer\",\n    \"repo\": \"esri/esri-leaflet-clustered-feature-layer\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"exclude\": [\"README.md\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/leaflet.esri.clustered-feature-layer\",\n    \"localVersions\": [\"1.0.0-rc.4\", \"1.0.2\"],\n    \"remoteVersions\": [\"v0.0.1-beta.1\", \"v0.0.1-beta.2\", \"v1.0.0-rc.1\", \"v1.0.0-rc.2\", \"v1.0.0-rc.3\", \"v1.0.0-rc.4\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v2.0.0-beta.1\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/leaflet.esri.clustered-feature-layer/update.json\",\n  \"version\": \"v2.0.0-beta.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/leaflet.esri.clustered-feature-layer/2.0.0-beta.1\",\n  \"branch\": \"leaflet.esri.clustered-feature-layer/v2.0.0-beta.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 124126158
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

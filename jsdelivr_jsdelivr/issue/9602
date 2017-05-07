@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 13 : 57 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 13 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9602/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9602")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9602
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9158180
+        , simpleUserLogin = N "kaniwari"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/9158180?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kaniwari"
+        }
+  , issueTitle = "Adding web fonts"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9602")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9602.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9602.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9602"
+  , issueCreatedAt = 2016 (-02) (-05) 13 : 47 : 35 UTC
+  , issueBody =
+      Just
+        "It is Korean-English web fonts, 'KoPub Dotum' and 'Roboto'.\n"
+  , issueState = StateClosed
+  , issueId = Id 131649280
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

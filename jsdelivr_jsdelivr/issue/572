@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-04) 01 : 12 : 14 UTC
+  , issueUpdatedAt = 2014 (-04) (-04) 02 : 31 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/572/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/572")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 572
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 283842
+        , simpleUserLogin = N "nolanlawson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/283842?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nolanlawson"
+        }
+  , issueTitle = "Add PouchDB 1.0.0-2.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/572")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/572.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/572.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/572"
+  , issueCreatedAt = 2014 (-04) (-04) 00 : 36 : 19 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 30826223
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

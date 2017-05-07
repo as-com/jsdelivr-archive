@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-24) 14 : 33 : 51 UTC
+  , issueUpdatedAt = 2016 (-08) (-24) 14 : 33 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13418/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13418")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13418
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project Gridlex to 2.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13418")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13418.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13418.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13418"
+  , issueCreatedAt = 2016 (-08) (-24) 14 : 33 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project Gridlex to 2.2.0.\n\n@devlint\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"Gridlex\",\n    \"repo\": \"devlint/gridlex\",\n    \"files\": {\n      \"include\": [\"docs/gridlex.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/gridlex\",\n    \"localVersions\": [\"2.0.0\", \"2.0.3\", \"2.0.6\", \"2.0.7\", \"2.0.8\", \"2.0.9\", \"2.1.0\", \"2.1.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.0.4\", \"2.0.5\", \"2.0.6\", \"2.0.7\", \"2.0.8\", \"2.0.9\", \"2.1.0\", \"2.1.1\", \"2.2.0\"],\n    \"branchVersions\": [\"2.0.5\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/gridlex/update.json\",\n  \"versions\": [\"1.0.1\", \"2.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"2.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/gridlex/2.2.0\",\n  \"branch\": \"Gridlex/2.2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 172968424
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

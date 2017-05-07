@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-03) 15 : 29 : 57 UTC
+  , issueUpdatedAt = 2016 (-02) (-03) 15 : 29 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9530/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9530")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9530
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 152279
+        , simpleUserLogin = N "GiancarloGomez"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/152279?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GiancarloGomez"
+        }
+  , issueTitle = "Adding simple javascript.validation project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9530")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9530.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9530.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9530"
+  , issueCreatedAt = 2016 (-02) (-03) 05 : 18 : 14 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 130916006
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

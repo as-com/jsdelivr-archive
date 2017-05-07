@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-09) 13 : 20 : 23 UTC
+  , issueUpdatedAt = 2016 (-04) (-09) 13 : 20 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10932/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10932")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10932
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project flexpoint to 1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10932")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10932.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10932.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10932"
+  , issueCreatedAt = 2016 (-04) (-09) 13 : 02 : 39 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project flexpoint to 1.0.1.\n\n@franciscop\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"flexpoint\",\n    \"repo\": \"franciscop/flexpoint\",\n    \"files\": {\n      \"include\": [\"flexpoint.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/flexpoint\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\"],\n    \"branchVersions\": [\"1.0.0\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/flexpoint/update.json\",\n  \"versions\": [\"1.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/flexpoint/1.0.1\",\n  \"branch\": \"flexpoint/1.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 147127858
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-08) 12 : 33 : 59 UTC
+  , issueUpdatedAt = 2017 (-03) (-08) 12 : 34 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16794/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16794")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16794
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery-musketeer to 0.3.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16794")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16794.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16794.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16794"
+  , issueCreatedAt = 2017 (-03) (-08) 12 : 33 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery-musketeer to 0.3.4.\n\n@grenouille220\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery-musketeer\",\n    \"repo\": \"grenouille220/jquery-musketeer\",\n    \"files\": {\n      \"include\": [\"jquery.musketeer.js\", \"jquery.musketeer.min.js\", \"jquery.musketeer.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery-musketeer\",\n    \"localVersions\": [\"0.2.2\", \"0.3.2\"],\n    \"remoteVersions\": [\"0.2.2\", \"0.3.2\", \"0.3.3\", \"0.3.4\"],\n    \"branchVersions\": [\"0.3.3\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery-musketeer/update.json\",\n  \"versions\": [\"0.3.4\"],\n  \"updateRemote\": true,\n  \"version\": \"0.3.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery-musketeer/0.3.4\",\n  \"branch\": \"jquery-musketeer/0.3.4\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 212722030
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

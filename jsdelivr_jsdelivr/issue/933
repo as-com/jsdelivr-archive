@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-13) 20 : 41 : 26 UTC
+  , issueUpdatedAt = 2014 (-07) (-04) 19 : 05 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/933/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/933")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 933
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3504255
+        , simpleUserLogin = N "nooblike"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3504255?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nooblike"
+        }
+  , issueTitle =
+      "Single HTTP multiple files [error in loading all the files]"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/933"
+  , issueCreatedAt = 2014 (-06) (-11) 14 : 33 : 56 UTC
+  , issueBody =
+      Just
+        "Let's take for example : //cdn.jsdelivr.net/g/bootstrap@3.1.1(css/bootstrap.min.css),fontawesome@4.1.0(css/font-awesome.min.css) \n\nThe css files are loaded ok, the problem is the fonts inside the css files, that cannot be loaded.\n\nError:\nCross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://cdn.jsdelivr.net/g/bootstrap@3.1.1%28css/fonts/glyphicons-halflings-regular.woff. This can be fixed by moving the resource to the same domain or enabling CORS.\nCross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://cdn.jsdelivr.net/g/bootstrap@3.1.1%28css/fonts/glyphicons-halflings-regular.ttf. This can be fixed by moving the resource to the same domain or enabling CORS.\nCross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://cdn.jsdelivr.net/g/bootstrap@3.1.1%28css/fonts/fontawesome-webfont.ttf?v=4.1.0. This can be fixed by moving the resource to the same domain or enabling CORS.\n"
+  , issueState = StateClosed
+  , issueId = Id 35489543
+  , issueComments = 16
+  , issueMilestone = Nothing
+  }

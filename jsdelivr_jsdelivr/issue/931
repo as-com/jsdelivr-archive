@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-11) 12 : 27 : 24 UTC
+  , issueUpdatedAt = 2014 (-07) (-14) 11 : 15 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/931/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/931")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 931
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project maxmertkit to 1.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/931")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/931.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/931.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/931"
+  , issueCreatedAt = 2014 (-06) (-11) 12 : 04 : 56 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project maxmertkit to 1.0.5.\n\n@maxmert\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"maxmertkit\",\n    \"repo\": \"maxmert/maxmertkit\",\n    \"files\": {\n      \"basePath\": \"build\",\n      \"include\": [\"css/maxmertkit.css\", \"css/maxmertkit.min.css\", \"js/maxmertkit.js\", \"js/maxmertkit.min.js\"],\n      \"exclude\": [\"css/maxmertkit.gzip.css\", \"js/maxmertkit.gzip.js\"]\n    },\n    \"path\": \"/home/jsdelivr/files/maxmertkit\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.0.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/maxmertkit/1.0.5\",\n  \"branch\": \"maxmertkit/1.0.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 35476374
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

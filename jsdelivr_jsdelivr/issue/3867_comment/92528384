@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-13) 23 : 04 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/92528384"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3867#issuecomment-92528384"
+  , issueCommentCreatedAt = 2015 (-04) (-13) 23 : 04 : 38 UTC
+  , issueCommentBody =
+      "@hubdotcom what do you mean? Do you mean for auto-merging?\n\n`libgrabber` in charge of creating these pull requests respects patch releases and the version style `threejs` and almost every other lib uses through https://github.com/megawac/SemVish but its a bit more complicated for auto merging cause that bot can't use this package\n"
+  , issueCommentId = 92528384
+  }

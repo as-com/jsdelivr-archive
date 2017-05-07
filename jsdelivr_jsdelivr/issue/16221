@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-07) 09 : 34 : 52 UTC
+  , issueUpdatedAt = 2017 (-02) (-07) 09 : 34 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16221/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16221")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16221
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project peace.js to v1.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16221")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16221.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16221.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16221"
+  , issueCreatedAt = 2017 (-02) (-07) 09 : 34 : 48 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project peace.js to v1.1.2.\n\n@humancopy\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"peace.js\",\n    \"repo\": \"humancopy/peace.js\",\n    \"files\": {\n      \"include\": [\"dist/peace.min.js\", \"dist/peace.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/peace.js\",\n    \"localVersions\": [\"1.1.0\"],\n    \"remoteVersions\": [\"v1.0\", \"v1.1.0\", \"1.1.1\", \"v1.1.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/peace.js/update.json\",\n  \"versions\": [\"v1.1.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/peace.js/1.1.2\",\n  \"branch\": \"peace.js/v1.1.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 205833078
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

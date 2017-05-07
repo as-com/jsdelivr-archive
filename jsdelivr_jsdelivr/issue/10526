@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-19) 10 : 39 : 15 UTC
+  , issueUpdatedAt = 2016 (-03) (-19) 10 : 39 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10526/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10526")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10526
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1837621
+        , simpleUserLogin = N "pithu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1837621?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pithu"
+        }
+  , issueTitle = "add timaschew/auto-toc.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10526")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10526.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10526.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10526"
+  , issueCreatedAt = 2016 (-03) (-18) 19 : 15 : 06 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 141955090
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

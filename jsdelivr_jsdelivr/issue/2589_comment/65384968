@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-03) 10 : 18 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 313744
+        , simpleUserLogin = N "asurak"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/313744?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/asurak"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65384968"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2589#issuecomment-65384968"
+  , issueCommentCreatedAt = 2014 (-12) (-03) 10 : 18 : 40 UTC
+  , issueCommentBody =
+      "So far still getting the 2.7.5\n\nThe use case is that we want to keep our clients up to date. We do not introduce any breaking changes into the client on dot versions.\n\nSince using http://cdn.jsdelivr.net/algoliasearch/latest/algoliasearch.min.js (btw, also broken :)...returning 2.7.4 ) might not be acceptable for some of our customers, we are looking for a solution.\n"
+  , issueCommentId = 65384968
+  }

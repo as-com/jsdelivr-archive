@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-02) (-23) 15 : 40 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/282027161"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16497#issuecomment-282027161"
+  , issueCommentCreatedAt = 2017 (-02) (-23) 15 : 40 : 04 UTC
+  , issueCommentBody =
+      "20 or 30 minutes. In this case its not syncing because the update.json points at a `lib/` folder which doesnt exist\r\n\r\nhttps://github.com/Syncano/syncano-client-js/tree/v.0.13.2-0"
+  , issueCommentId = 282027161
+  }

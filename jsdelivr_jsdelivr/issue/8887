@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-12) 15 : 13 : 02 UTC
+  , issueUpdatedAt = 2016 (-01) (-12) 17 : 03 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8887/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/8887")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8887
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9892479
+        , simpleUserLogin = N "GihGis"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9892479?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GihGis"
+        }
+  , issueTitle = "update jcanvas"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8887"
+  , issueCreatedAt = 2016 (-01) (-11) 21 : 51 : 13 UTC
+  , issueBody =
+      Just
+        "version 13.01.19 to v15.12.12\n\nhttps://github.com/caleb531/jcanvas/blob/master/jcanvas.js\n"
+  , issueState = StateClosed
+  , issueId = Id 126044942
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

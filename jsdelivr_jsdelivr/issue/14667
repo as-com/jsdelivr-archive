@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-07) 04 : 51 : 22 UTC
+  , issueUpdatedAt = 2016 (-11) (-07) 13 : 01 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14667/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14667")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14667
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project open-iconic to 1.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14667")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14667.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14667.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14667"
+  , issueCreatedAt = 2016 (-11) (-05) 19 : 05 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project open-iconic to 1.1.1.\n\n@iconic\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"open-iconic\",\n    \"repo\": \"iconic/open-iconic\",\n    \"files\": {\n      \"include\": [\"**/*.eot\", \"**/*.otf\", \"**/*.svg\", \"**/*.ttf\", \"**/*.woff\", \"**/*.css\", \"**/*.less\", \"**/*.styl\", \"**/*.scss\", \"**/*.png\", \"**/*.webp\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/open-iconic\",\n    \"localVersions\": [\"1.1.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\", \"1.1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/open-iconic/update.json\",\n  \"versions\": [\"1.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"1.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/open-iconic/1.1.1\",\n  \"branch\": \"open-iconic/1.1.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 187516280
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

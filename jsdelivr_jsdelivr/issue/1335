@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-31) 15 : 33 : 08 UTC
+  , issueUpdatedAt = 2014 (-07) (-31) 15 : 44 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1335/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1335")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1335
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17435
+        , simpleUserLogin = N "tomalec"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/17435?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomalec"
+        }
+  , issueTitle = "Add github-markdown-css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1335")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1335.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1335.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1335"
+  , issueCreatedAt = 2014 (-07) (-31) 14 : 02 : 22 UTC
+  , issueBody =
+      Just
+        "https://github.com/sindresorhus/github-markdown-css\nThe minimal amount of CSS to replicate the GitHub Markdown style\n"
+  , issueState = StateClosed
+  , issueId = Id 39197058
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

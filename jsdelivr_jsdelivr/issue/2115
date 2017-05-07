@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-26) 16 : 24 : 47 UTC
+  , issueUpdatedAt = 2014 (-10) (-26) 16 : 24 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2115/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2115")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2115
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project backbone.radio to v0.8.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2115")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2115.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2115.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2115"
+  , issueCreatedAt = 2014 (-10) (-26) 02 : 04 : 48 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project backbone.radio to v0.8.0.\n\n@marionettejs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"backbone.radio\",\n    \"repo\": \"marionettejs/backbone.radio\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/backbone.radio\",\n    \"localVersions\": [\"0.6.0\", \"0.7.0\"],\n    \"remoteVersions\": [\"v0.2.0\", \"v0.3.0\", \"v0.4.0\", \"v0.4.1\", \"v0.5.0\", \"v0.5.1\", \"v0.5.2\", \"v0.6.0\", \"v0.7.0\", \"v0.7.1\", \"v0.7.2\", \"v0.8.0\"],\n    \"branchVersions\": [\"v0.7.2\"]\n  },\n  \"version\": \"v0.8.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/backbone.radio/0.8.0\",\n  \"branch\": \"backbone.radio/v0.8.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 46829691
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-03) 14 : 48 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/251126368"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14139#issuecomment-251126368"
+  , issueCommentCreatedAt = 2016 (-10) (-03) 14 : 48 : 41 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _highcharts_ between _highstock-v2.1.10_ and _highstock-v1.3.10_ there was a change in file structure  \n  \n  ``` diff\n  + canvg-1.1/MIT-LICENSE.txt\n  + canvg-1.1/canvg.js\n  + canvg-1.1/rgbcolor.js\n  + jquery-1.10.1.js\n  + jquery-1.2.6.js\n  + jquery-1.3.2.js\n  + jquery-1.4.4.js\n  + jquery-1.5.2.js\n  + jquery-1.6.4.js\n  + jquery-1.7.2.js\n  + jquery-1.8.0.js\n  + jquery-1.9.1.js\n  + mootools-1.2.5-core-nc.js\n  + mootools-core-1.3.2-full-compat.js\n  + mootools-core-1.4.5-full-nocompat.js\n  + prototype-1.6.1.js\n  + prototype-1.7.0.0.js\n  - highcharts-3d.js\n  - highcharts-more.js\n  - highcharts.js\n  - highmaps.js\n  - highstock.js\n  - adapters/standalone-framework.js\n  - adapters/standalone-framework.src.js\n  - modules/boost.js\n  - modules/boost.src.js\n  - modules/broken-axis.js\n  - modules/broken-axis.src.js\n  - modules/canvas-tools.js\n  - modules/canvas-tools.src.js\n  - modules/data.js\n  - modules/data.src.js\n  - modules/drilldown.js\n  - modules/drilldown.src.js\n  - modules/exporting.js\n  - modules/exporting.src.js\n  - modules/funnel.js\n  - modules/funnel.src.js\n  - modules/heatmap.js\n  - modules/heatmap.src.js\n  - modules/map.js\n  - modules/map.src.js\n  - modules/no-data-to-display.js\n  - modules/no-data-to-display.src.js\n  - modules/offline-exporting.js\n  - modules/offline-exporting.src.js\n  - modules/solid-gauge.js\n  - modules/solid-gauge.src.js\n  - modules/treemap.js\n  - modules/treemap.src.js\n  - themes/dark-blue.js\n  - themes/dark-green.js\n  - themes/dark-unica.js\n  - themes/gray.js\n  - themes/grid-light.js\n  - themes/grid.js\n  - themes/sand-signika.js\n  - themes/skies.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Responsive is better than fast._\n"
+  , issueCommentId = 251126368
+  }

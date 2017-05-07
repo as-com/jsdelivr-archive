@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-25) 07 : 44 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/75918446"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3586#issuecomment-75918446"
+  , issueCommentCreatedAt = 2015 (-02) (-25) 07 : 43 : 16 UTC
+  , issueCommentBody =
+      "Is the non minified file necessary for production use? Please add https://github.com/hossein361224/IranAddressJS to the github param in info.ini.  Also, can you squash your commits into 1?\n"
+  , issueCommentId = 75918446
+  }

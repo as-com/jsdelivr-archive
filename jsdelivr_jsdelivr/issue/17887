@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-03) 18 : 10 : 33 UTC
+  , issueUpdatedAt = 2017 (-05) (-03) 18 : 10 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17887/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17887")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17887
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bootstrap-datepicker to v1.7.0-RC3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17887")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17887.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17887.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17887"
+  , issueCreatedAt = 2017 (-05) (-01) 11 : 33 : 53 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootstrap-datepicker to v1.7.0-RC3.\n\n@uxsolutions\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bootstrap-datepicker\",\n    \"repo\": \"uxsolutions/bootstrap-datepicker\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/bootstrap.datepicker-fork\",\n    \"localVersions\": [\"1.1.3\", \"1.2.0\", \"1.3.0\", \"1.6.4\", \"1.7.0-RC1\", \"1.7.0-RC2\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"1.0.2-rc.1\", \"1.0.2-rc.1.1\", \"1.0.2-rc.2\", \"1.0.2\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.2.0-rc.1\", \"1.2.0\", \"1.3.0-rc.1\", \"1.3.0-rc.2\", \"1.3.0-rc.3\", \"1.3.0-rc.4\", \"1.3.0-rc.5\", \"1.3.0-rc.6\", \"1.3.0\", \"1.3.1\", \"v1.4.0\", \"v1.4.1\", \"v1.5.0-RC1\", \"v1.5.0\", \"v1.5.1\", \"v1.6.0-alpha\", \"v1.6.0\", \"v1.6.1\", \"v1.6.2\", \"v1.6.3\", \"v1.6.4\", \"v1.7.0-RC1\", \"v1.7.0-RC2\", \"v1.7.0-RC3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/bootstrap.datepicker-fork/update.json\",\n  \"versions\": [\"v1.7.0-RC3\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.7.0-RC3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/bootstrap.datepicker-fork/1.7.0-RC3\",\n  \"branch\": \"bootstrap-datepicker/v1.7.0-RC3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 225422217
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

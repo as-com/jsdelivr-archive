@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-24) 23 : 32 : 40 UTC
+  , issueUpdatedAt = 2016 (-05) (-24) 23 : 32 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11805/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11805")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11805
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project audero-sticky to 0.3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11805")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11805.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11805.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11805"
+  , issueCreatedAt = 2016 (-05) (-24) 23 : 32 : 35 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project audero-sticky to 0.3.1.\n\n@AurelioDeRosa\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"audero-sticky\",\n    \"repo\": \"AurelioDeRosa/audero-sticky\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/audero-sticky\",\n    \"localVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.2.0\", \"0.3.0\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.2.0\", \"0.3.0\", \"0.3.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/audero-sticky/update.json\",\n  \"versions\": [\"0.3.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.3.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/audero-sticky/0.3.1\",\n  \"branch\": \"audero-sticky/0.3.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 156632349
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-21) 15 : 16 : 21 UTC
+  , issueUpdatedAt = 2015 (-06) (-21) 15 : 16 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5373/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5373")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5373
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1538288
+        , simpleUserLogin = N "NightOwl888"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1538288?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/NightOwl888"
+        }
+  , issueTitle = "Added jquery.dirtyforms"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5373")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5373.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5373.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5373"
+  , issueCreatedAt = 2015 (-06) (-20) 01 : 10 : 41 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 89696307
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

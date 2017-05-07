@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-09) 15 : 50 : 51 UTC
+  , issueUpdatedAt = 2017 (-01) (-09) 15 : 50 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15703/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15703")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15703
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 254784
+        , simpleUserLogin = N "ethanpil"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/254784?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ethanpil"
+        }
+  , issueTitle = "Add Semantic-UI-Calendar library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15703")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15703.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15703.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15703"
+  , issueCreatedAt = 2017 (-01) (-09) 15 : 50 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 199586448
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-02) 22 : 26 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/68568555"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2911#issuecomment-68568555"
+  , issueCommentCreatedAt = 2015 (-01) (-02) 22 : 26 : 47 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @Fede72, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help ammending your PR...\n- Looks like the `info.ini` has a few problems\n  - Where is the jquery.fileupload's mainfile (_js/jquery.fileupload.js_) in v-_3.8.1_\n  - Where is the jquery.fileupload's mainfile (_js/jquery.fileupload.js_) in v-_5.19.7_\n  - Where is the jquery.fileupload's mainfile (_js/jquery.fileupload.js_) in v-_7.2.1_\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _jquery.fileupload_ between _5.19.7_ and _3.8.1_ there was a change in file structure  \n  \n  ``` diff\n  + jquery/js/jquery.fileupload.min.js\n  - bootstrap/css/jquery.fileupload-ui-noscript.css\n  - bootstrap/css/jquery.fileupload-ui.css\n  - bootstrap/css/style.css\n  - bootstrap/img/loading.gif\n  - bootstrap/img/progressbar.gif\n  - bootstrap/js/cors/jquery.postmessage-transport.js\n  - bootstrap/js/cors/jquery.xdr-transport.js\n  - bootstrap/js/jquery.fileupload-fp.js\n  - bootstrap/js/jquery.fileupload-ui.js\n  - bootstrap/js/jquery.fileupload.js\n  - bootstrap/js/jquery.iframe-transport.js\n  - bootstrap/js/main.js\n  - bootstrap/js/vendor/jquery.ui.widget.js\n  - jquery/css/jquery.fileupload-ui-noscript.css\n  - jquery/css/jquery.fileupload-ui.css\n  - jquery/css/style.css\n  - jquery/img/loading.gif\n  - jquery/img/progressbar.gif\n  - jquery/js/cors/jquery.postmessage-transport.js\n  - jquery/js/cors/jquery.xdr-transport.js\n  - jquery/js/jquery.fileupload-fp.js\n  - jquery/js/jquery.fileupload-jui.js\n  - jquery/js/jquery.fileupload-ui.js\n  - jquery/js/jquery.fileupload.js\n  - jquery/js/jquery.iframe-transport.js\n  - jquery/js/main.js\n  - jquery/js/vendor/jquery.ui.widget.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Practicality beats purity._\n"
+  , issueCommentId = 68568555
+  }

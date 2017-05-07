@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-08) 16 : 27 : 05 UTC
+  , issueUpdatedAt = 2014 (-09) (-08) 16 : 27 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1664/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1664")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1664
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7481783
+        , simpleUserLogin = N "dejanstojanovic"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7481783?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/dejanstojanovic"
+        }
+  , issueTitle = "Required changes made"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1664")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1664.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1664.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1664"
+  , issueCreatedAt = 2014 (-09) (-08) 04 : 53 : 01 UTC
+  , issueBody =
+      Just
+        "Included only minified files (html, css, js)\nBoth versions (minified-production and unminified-development) js files of plugin included\n"
+  , issueState = StateClosed
+  , issueId = Id 42164355
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

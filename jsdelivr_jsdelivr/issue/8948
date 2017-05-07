@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-14) 12 : 17 : 37 UTC
+  , issueUpdatedAt = 2016 (-01) (-14) 12 : 17 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8948/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8948")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8948
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 506447
+        , simpleUserLogin = N "ecoslado"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/506447?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ecoslado"
+        }
+  , issueTitle = "mainfile"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8948")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8948.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8948.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8948"
+  , issueCreatedAt = 2016 (-01) (-14) 12 : 15 : 49 UTC
+  , issueBody =
+      Just
+        "Hi, I think I mistyped the mainfile so my project in your cdn is empty. I correct it in this PR. Thanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 126643506
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

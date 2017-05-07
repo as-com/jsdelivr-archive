@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-12) (-14) 13 : 44 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 123822
+        , simpleUserLogin = N "vvo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/123822?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vvo"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/267036904"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15343#issuecomment-267036904"
+  , issueCommentCreatedAt = 2016 (-12) (-14) 13 : 44 : 18 UTC
+  , issueCommentBody =
+      "cc @jimaek we changed the repository url of algoliasearch package. I did push a new js client afterwards (before modifying this). Do I need to do smg special?\r\n\r\nAlso this PR is failing I failed at seeing why (edited on github)"
+  , issueCommentId = 267036904
+  }

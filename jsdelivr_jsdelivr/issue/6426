@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-15) 12 : 33 : 54 UTC
+  , issueUpdatedAt = 2015 (-08) (-15) 12 : 33 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6426/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6426")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6426
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ISO8601-Localizer to v1.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6426")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6426.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6426.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6426"
+  , issueCreatedAt = 2015 (-08) (-15) 12 : 33 : 50 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ISO8601-Localizer to v1.2.1.\n\n@avielfedida\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ISO8601-Localizer\",\n    \"repo\": \"avielfedida/ISO8601-Localizer\",\n    \"files\": {\n      \"include\": [\"iso8601-localizer.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/iso8601-localizer\",\n    \"localVersions\": [\"1.0.4\", \"1.0.8\", \"1.0.9\", \"1.1.0\", \"1.2.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.0.8\", \"v1.0.9\", \"v1.1.0\", \"v1.2.0\", \"v1.2.1\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/iso8601-localizer/update.json\",\n  \"version\": \"v1.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/iso8601-localizer/1.2.1\",\n  \"branch\": \"ISO8601-Localizer/v1.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 101171991
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

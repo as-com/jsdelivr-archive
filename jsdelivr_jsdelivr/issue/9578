@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-04) 14 : 11 : 06 UTC
+  , issueUpdatedAt = 2016 (-02) (-04) 14 : 11 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9578/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9578")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9578
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5705890
+        , simpleUserLogin = N "Ting-y"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5705890?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Ting-y"
+        }
+  , issueTitle =
+      "Fix the merge issues in #9566 Update the project info"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9578")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9578.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9578.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9578"
+  , issueCreatedAt = 2016 (-02) (-04) 14 : 05 : 09 UTC
+  , issueBody =
+      Just
+        "Hi @jimaek, i have made the changes in web interface its ready now.\n\nSorry for the messed up in the last pull request.\n"
+  , issueState = StateClosed
+  , issueId = Id 131356746
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

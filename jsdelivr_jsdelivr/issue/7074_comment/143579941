@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-27) 17 : 32 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/143579941"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/7074#issuecomment-143579941"
+  , issueCommentCreatedAt = 2015 (-09) (-27) 17 : 32 : 07 UTC
+  , issueCommentBody =
+      "@megawac @UnbounDev Any idea why libgrabber failed to add the files? When I run libgrabber manually I dont even see the error for this project. Its like the bot thinks it already has the latest version\n"
+  , issueCommentId = 143579941
+  }

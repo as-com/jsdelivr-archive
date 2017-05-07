@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-10) 10 : 08 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/91504936"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4256#issuecomment-91504936"
+  , issueCommentCreatedAt = 2015 (-04) (-10) 10 : 08 : 55 UTC
+  , issueCommentBody =
+      "@megawac The bot died I think (Heroku limits?). How about we move it to DigitalOcean? \n"
+  , issueCommentId = 91504936
+  }

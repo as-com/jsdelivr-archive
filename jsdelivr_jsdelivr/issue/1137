@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-06) 17 : 02 : 13 UTC
+  , issueUpdatedAt = 2014 (-07) (-06) 17 : 02 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1137/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1137")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1137
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project typeboost.css to v0.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1137")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1137.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1137.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1137"
+  , issueCreatedAt = 2014 (-07) (-06) 17 : 01 : 52 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project typeboost.css to v0.1.1.\n\n@englishextra\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"typeboost.css\",\n    \"repo\": \"englishextra/typeboost.css\",\n    \"files\": {\n      \"basePath\": \"CDN/typeboost.css/latest/css/\",\n      \"include\": [\"typeboost.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/typeboost.css\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/typeboost.css/0.1.1\",\n  \"branch\": \"typeboost.css/v0.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 37222979
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

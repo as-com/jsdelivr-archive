@@ -1,0 +1,44 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-13) 11 : 23 : 24 UTC
+  , issueUpdatedAt = 2014 (-10) (-13) 11 : 42 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1997/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1997")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1997
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1423566
+        , simpleUserLogin = N "johngeorgewright"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1423566?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/johngeorgewright"
+        }
+  , issueTitle =
+      "Added an `update.json` file to `angular-auto-value`"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1997")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1997.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1997.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1997"
+  , issueCreatedAt = 2014 (-10) (-13) 10 : 07 : 09 UTC
+  , issueBody =
+      Just
+        "Hi there,\n\nHere's an `update.json` file for `angular-auto-value`.\n\nThanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 45627007
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

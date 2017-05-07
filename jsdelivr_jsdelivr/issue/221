@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-19) 03 : 09 : 38 UTC
+  , issueUpdatedAt = 2015 (-10) (-28) 02 : 02 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/221/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/221")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/enhancement"
+          , labelName = N "enhancement"
+          }
+      ]
+  , issueNumber = 221
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Report performance issues here"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/221"
+  , issueCreatedAt = 2013 (-12) (-17) 15 : 10 : 14 UTC
+  , issueBody =
+      Just
+        "If you believe jsDelivr is slow please report your findings and data over here.\nI will do my best to fix the problem.\n\nPlease include your IP address and any other information you have.\n"
+  , issueState = StateClosed
+  , issueId = Id 24426561
+  , issueComments = 52
+  , issueMilestone = Nothing
+  }

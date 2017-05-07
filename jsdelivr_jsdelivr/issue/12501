@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-01) 09 : 33 : 50 UTC
+  , issueUpdatedAt = 2016 (-07) (-01) 09 : 33 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12501/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12501")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12501
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.trip.js to v3.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12501")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12501.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12501.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12501"
+  , issueCreatedAt = 2016 (-07) (-01) 09 : 33 : 44 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.trip.js to v3.2.0.\n\n@eragonj\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"repo\": \"eragonj/trip.js\",\n    \"name\": \"jquery.trip.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"trip.min.js\", \"trip.min.css\", \"trip.nodep.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.trip.js\",\n    \"localVersions\": [\"1.3.0\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"3.0.0\", \"3.1.0\", \"3.1.1\", \"3.1.2\", \"3.1.3\", \"3.1.4\", \"3.1.5\", \"3.1.6\", \"3.1.7\"],\n    \"remoteVersions\": [\"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.2.0\", \"v1.2.2\", \"v1.2.3\", \"v1.2.4\", \"v1.2.5\", \"v1.3.0\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v3.0.0\", \"v3.1.0\", \"v3.1.1\", \"v3.1.2\", \"v3.1.3\", \"v3.1.4\", \"v3.1.5\", \"v3.1.6\", \"v3.1.7\", \"v3.2.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.trip.js/update.json\",\n  \"versions\": [\"v3.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.trip.js/3.2.0\",\n  \"branch\": \"jquery.trip.js/v3.2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 163356971
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

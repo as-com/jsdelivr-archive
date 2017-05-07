@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 00 : 33 : 08 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 00 : 33 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14974/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/14974")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14974
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15857795
+        , simpleUserLogin = N "perfectacle"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/15857795?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/perfectacle"
+        }
+  , issueTitle = "Hey, is my lib correct...?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14974"
+  , issueCreatedAt = 2016 (-11) (-26) 11 : 33 : 47 UTC
+  , issueBody =
+      Just
+        "I pulled request https://github.com/jsdelivr/jsdelivr/pull/14958\r\nthen I add git tag for my repository(https://github.com/perfectacle/check-browsers/tags)\r\nthen... is it finish??\r\nI dont have to anything else??\r\nthe bot update automatic??"
+  , issueState = StateClosed
+  , issueId = Id 191801457
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

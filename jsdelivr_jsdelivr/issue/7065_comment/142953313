@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-24) 14 : 54 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6734090
+        , simpleUserLogin = N "osxi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6734090?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/osxi"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/142953313"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/7065#issuecomment-142953313"
+  , issueCommentCreatedAt = 2015 (-09) (-24) 14 : 54 : 21 UTC
+  , issueCommentBody =
+      "Failing check says that that fancy-maps.min.js might not be properly minified. Ran it through `yuicompressor` and it looks/feels good to me.\n"
+  , issueCommentId = 142953313
+  }

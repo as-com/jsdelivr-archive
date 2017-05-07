@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-05) 00 : 32 : 00 UTC
+  , issueUpdatedAt = 2016 (-01) (-05) 00 : 32 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8790/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8790")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8790
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project p5 to 0.4.21"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8790")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8790.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8790.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8790"
+  , issueCreatedAt = 2016 (-01) (-05) 00 : 31 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project p5 to 0.4.21.\n\n@processing\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"p5\",\n    \"repo\": \"processing/p5.js\",\n    \"files\": {\n      \"basePath\": \"lib/\",\n      \"include\": [\"p5.min.js\", \"./addons/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/p5.js\",\n    \"localVersions\": [\"0.3.0\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.3.5\", \"0.3.6\", \"0.3.7\", \"0.3.8\", \"0.3.9\", \"0.3.11\", \"0.3.12\", \"0.3.13\", \"0.3.14\", \"0.3.15\", \"0.3.16\", \"0.4.0\", \"0.4.1\", \"0.4.3\", \"0.4.4\", \"0.4.5\", \"0.4.6\", \"0.4.10\", \"0.4.11\", \"0.4.12\", \"0.4.13\", \"0.4.14\", \"0.4.15\", \"0.4.16\", \"0.4.17\", \"0.4.18\", \"0.4.19\", \"0.4.20\"],\n    \"remoteVersions\": [\"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.2.8\", \"0.2.9\", \"0.2.10\", \"0.2.11\", \"0.2.12\", \"0.2.13\", \"0.2.14\", \"0.2.15\", \"0.2.16\", \"0.2.17\", \"0.2.18\", \"0.2.19\", \"0.2.20\", \"0.2.21\", \"0.2.22\", \"0.2.23\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.3.5\", \"0.3.6\", \"0.3.7\", \"0.3.8\", \"0.3.9\", \"0.3.10\", \"0.3.11\", \"0.3.12\", \"0.3.13\", \"0.3.14\", \"0.3.15\", \"0.3.16\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.4.3\", \"0.4.4\", \"0.4.5\", \"0.4.6\", \"0.4.7\", \"0.4.8\", \"0.4.9\", \"0.4.10\", \"0.4.11\", \"0.4.12\", \"0.4.13\", \"0.4.14\", \"0.4.15\", \"0.4.16\", \"0.4.17\", \"0.4.18\", \"0.4.19\", \"0.4.20\", \"0.4.21\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/p5.js/update.json\",\n  \"version\": \"0.4.21\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/p5.js/0.4.21\",\n  \"branch\": \"p5/0.4.21\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 124869663
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

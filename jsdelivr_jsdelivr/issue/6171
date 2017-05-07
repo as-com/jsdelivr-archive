@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-29) 16 : 11 : 03 UTC
+  , issueUpdatedAt = 2015 (-07) (-29) 16 : 11 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6171/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6171")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6171
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 744360
+        , simpleUserLogin = N "mrkindy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/744360?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mrkindy"
+        }
+  , issueTitle = "please update to v 2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6171")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6171.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6171.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6171"
+  , issueCreatedAt = 2015 (-07) (-29) 13 : 49 : 08 UTC
+  , issueBody = Just "please update to v 2\n"
+  , issueState = StateClosed
+  , issueId = Id 97940162
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

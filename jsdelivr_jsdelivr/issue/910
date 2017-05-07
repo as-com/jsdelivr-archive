@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-09) 12 : 15 : 07 UTC
+  , issueUpdatedAt = 2014 (-06) (-21) 06 : 03 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/910/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/910")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 910
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 864232
+        , simpleUserLogin = N "maxmert"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/864232?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/maxmert"
+        }
+  , issueTitle = "Added update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/910")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/910.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/910.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/910"
+  , issueCreatedAt = 2014 (-06) (-09) 12 : 12 : 14 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 35279758
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

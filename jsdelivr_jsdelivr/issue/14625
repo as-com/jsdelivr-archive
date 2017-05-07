@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-03) 09 : 33 : 45 UTC
+  , issueUpdatedAt = 2016 (-11) (-03) 09 : 33 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14625/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14625")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14625
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project lamb to 0.43.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14625")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14625.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14625.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14625"
+  , issueCreatedAt = 2016 (-11) (-03) 09 : 33 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project lamb to 0.43.0.\n\n@ascartabelli\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"lamb\",\n    \"repo\": \"ascartabelli/lamb\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"lamb.js\", \"lamb.min.js\", \"lamb.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/lamb\",\n    \"localVersions\": [\"0.42.0\"],\n    \"remoteVersions\": [\"0.6.2\", \"0.6.3\", \"0.7.0\", \"0.8.0\", \"0.9.0\", \"0.10.0\", \"0.11.0\", \"0.12.0\", \"0.13.0\", \"0.14.0\", \"0.15.0\", \"0.15.1\", \"0.15.2\", \"0.15.3\", \"0.16.0\", \"0.17.0\", \"0.18.0\", \"0.19.0\", \"0.20.0\", \"0.21.0\", \"0.22.0\", \"0.23.0\", \"0.24.0\", \"0.25.1\", \"0.26.0\", \"0.27.0\", \"0.28.0\", \"0.28.1\", \"0.29.0\", \"0.30.0\", \"0.31.0\", \"0.32.0\", \"0.33.0\", \"0.34.0\", \"0.34.1\", \"0.35.0\", \"0.36.0\", \"0.37.0\", \"0.38.0\", \"0.39.0\", \"0.40.0\", \"0.41.0\", \"0.42.0\", \"0.43.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/lamb/update.json\",\n  \"versions\": [\"0.43.0\"],\n  \"updateRemote\": true,\n  \"version\": \"0.43.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/lamb/0.43.0\",\n  \"branch\": \"lamb/0.43.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 187011129
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

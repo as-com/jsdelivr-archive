@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-01) 08 : 50 : 06 UTC
+  , issueUpdatedAt = 2016 (-04) (-01) 08 : 50 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10760/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10760")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10760
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1837621
+        , simpleUserLogin = N "pithu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1837621?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pithu"
+        }
+  , issueTitle = "Moved js-joda to an Open Source organisation repo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10760")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10760.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10760.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10760"
+  , issueCreatedAt = 2016 (-04) (-01) 06 : 11 : 07 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 145095859
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

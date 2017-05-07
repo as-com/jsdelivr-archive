@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-11) 15 : 08 : 11 UTC
+  , issueUpdatedAt = 2017 (-04) (-11) 15 : 08 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17506/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17506")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17506
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2896371
+        , simpleUserLogin = N "markentingh"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/2896371?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/markentingh"
+        }
+  , issueTitle = "added github.com/websilk/selector to CDN"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17506")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17506.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17506.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17506"
+  , issueCreatedAt = 2017 (-04) (-10) 23 : 25 : 02 UTC
+  , issueBody =
+      Just
+        "Please include my javascript framework within your CDN library"
+  , issueState = StateClosed
+  , issueId = Id 220797918
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

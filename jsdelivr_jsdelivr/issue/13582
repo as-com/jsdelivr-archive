@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-09) 19 : 16 : 14 UTC
+  , issueUpdatedAt = 2016 (-09) (-09) 19 : 16 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13582/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13582")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13582
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 736931
+        , simpleUserLogin = N "kkestell"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/736931?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kkestell"
+        }
+  , issueTitle = "Adds Violet"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13582")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13582.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13582.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13582"
+  , issueCreatedAt = 2016 (-09) (-03) 11 : 24 : 36 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 174892374
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

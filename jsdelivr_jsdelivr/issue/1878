@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-30) 21 : 07 : 03 UTC
+  , issueUpdatedAt = 2014 (-09) (-30) 21 : 09 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1878/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1878")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1878
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.midnight to 1.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1878")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1878.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1878.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1878"
+  , issueCreatedAt = 2014 (-09) (-30) 21 : 06 : 31 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.midnight to 1.0.3.\n\n@Aerolab\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.midnight\",\n    \"repo\": \"Aerolab/midnight.js\",\n    \"files\": {\n      \"include\": [\"midnight.jquery.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.midnight\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.midnight/1.0.3\",\n  \"branch\": \"jquery.midnight/1.0.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 44499881
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-07) (-06) 18 : 52 : 57 UTC
+  , issueUpdatedAt = 2013 (-07) (-15) 08 : 39 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/48/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/48")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 48
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 192167
+        , simpleUserLogin = N "ahagenbruch"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/192167?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ahagenbruch"
+        }
+  , issueTitle = "Updated jQuery 1.x and 2.x"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/48")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/48.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/48.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/48"
+  , issueCreatedAt = 2013 (-07) (-06) 18 : 16 : 29 UTC
+  , issueBody =
+      Just "Hi,\nI've added the 1.10.2 and 2.0.3 versions of jQuery...\n"
+  , issueState = StateClosed
+  , issueId = Id 16433806
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

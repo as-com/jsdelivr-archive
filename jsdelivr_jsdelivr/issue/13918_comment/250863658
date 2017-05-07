@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-09) (-30) 22 : 08 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/250863658"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/13918#issuecomment-250863658"
+  , issueCommentCreatedAt = 2016 (-09) (-30) 22 : 07 : 25 UTC
+  , issueCommentBody =
+      "usually you do this through creating a new version. I'll merge this time but note some users might be on a stale version for 90 days due to caching. I highly suggest you just bump the version\n"
+  , issueCommentId = 250863658
+  }

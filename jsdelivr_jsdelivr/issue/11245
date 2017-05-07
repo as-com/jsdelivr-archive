@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-24) 12 : 03 : 45 UTC
+  , issueUpdatedAt = 2016 (-04) (-24) 12 : 03 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11245/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11245")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11245
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project leaflet-routing-machine to 3.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11245")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11245.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11245.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11245"
+  , issueCreatedAt = 2016 (-04) (-24) 12 : 03 : 36 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project leaflet-routing-machine to 3.0.1.\n\n@perliedman\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"leaflet-routing-machine\",\n    \"repo\": \"perliedman/leaflet-routing-machine\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/leaflet.routingmachine\",\n    \"localVersions\": [\"1.0.0\", \"2.6.1\", \"2.6.2\", \"3.0.0-beta.1\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.2.0\", \"0.2.1\", \"1.0.0\", \"2.1.0\", \"2.1.1\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"2.2.3\", \"2.2.4\", \"2.3.0\", \"2.4.0\", \"2.5.0\", \"2.6.0\", \"2.6.1\", \"2.6.2\", \"3.0.0-beta.1\", \"3.0.0\", \"3.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/leaflet.routingmachine/update.json\",\n  \"versions\": [\"3.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"3.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/leaflet.routingmachine/3.0.1\",\n  \"branch\": \"leaflet-routing-machine/3.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 150655673
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

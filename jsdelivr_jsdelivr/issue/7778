@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-06) 09 : 21 : 19 UTC
+  , issueUpdatedAt = 2015 (-11) (-07) 17 : 57 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7778/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/7778")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7778
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "CloudFlare network.geojson needs updating"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7778"
+  , issueCreatedAt = 2015 (-11) (-06) 01 : 06 : 01 UTC
+  , issueBody =
+      Just
+        "[network-map.png](https://www.cloudflare.com/media/network-map.png)\n[text list](https://support.cloudflare.com/hc/en-us/articles/200169986-Which-CloudFlare-data-centre-do-I-reach-)\n- Africa\n  - MBA: Mombasa, KE\n- Asia\n  - [KUL: Kuala Lumpur, MY](https://blog.cloudflare.com/kuala-lumpur-malaysia-cloudflares-45th-data-center/)\n- Europe\n  - [DUB: Dublin, IE](https://blog.cloudflare.com/dublin-ireland-cloudflares-38th-data-center/)\n  - [Manchester, UK](https://blog.cloudflare.com/manchester-uk-cloudflares-63rd-data-center/)\n  - [OTP: Bucharest, RO](https://blog.cloudflare.com/bucharest-datacenter/)\n- Middle East\n  - DOH: Doha, QA\n  - DXB: Dubai, AE\n  - KWI: Kuwait City, KW\n  - MCT, Muscat, OM\n- USA\n  - PHX: Phoenix, AZ (\"Phoenix has not been announced officially yet, but it is online for some traffic~John Roberts of CF & on map)\n- [Beadu's CDN in China](https://blog.cloudflare.com/how-we-extended-cloudflares-performance-and-security-into-mainland-china/)\n\nMight want to update PoP count.\n\nI was going to edit the geojson by hand, but unsure of the IDs.  I'm assuming you use a tool?\n"
+  , issueState = StateClosed
+  , issueId = Id 115412107
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

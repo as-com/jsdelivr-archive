@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-13) 14 : 40 : 33 UTC
+  , issueUpdatedAt = 2016 (-09) (-13) 14 : 40 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13730/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13730")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13730
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7079471
+        , simpleUserLogin = N "camelaissani"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7079471?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/camelaissani"
+        }
+  , issueTitle = "submitted frontexpress framework"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13730")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13730.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13730.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13730"
+  , issueCreatedAt = 2016 (-09) (-11) 10 : 53 : 49 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 176238185
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

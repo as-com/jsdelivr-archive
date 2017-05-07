@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-25) 22 : 49 : 53 UTC
+  , issueUpdatedAt = 2017 (-01) (-25) 22 : 49 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15960/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15960")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15960
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 705574
+        , simpleUserLogin = N "millionbonus"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/705574?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/millionbonus"
+        }
+  , issueTitle = "Patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15960")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15960.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15960.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15960"
+  , issueCreatedAt = 2017 (-01) (-24) 19 : 13 : 16 UTC
+  , issueBody = Just "Add \"mrmrs_colors\""
+  , issueState = StateClosed
+  , issueId = Id 202912130
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-10) 20 : 30 : 21 UTC
+  , issueUpdatedAt = 2014 (-04) (-10) 20 : 30 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/623/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/623")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 623
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7112345
+        , simpleUserLogin = N "codingfriend1"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7112345?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/codingfriend1"
+        }
+  , issueTitle = "Flexgrid 1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/623")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/623.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/623.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/623"
+  , issueCreatedAt = 2014 (-04) (-10) 20 : 11 : 21 UTC
+  , issueBody =
+      Just
+        "Removed ordering capabilities, increased page load speed 2x and\nresponsiveness by 50%\n"
+  , issueState = StateClosed
+  , issueId = Id 31276636
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

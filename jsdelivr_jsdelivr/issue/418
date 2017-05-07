@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-06) 13 : 39 : 23 UTC
+  , issueUpdatedAt = 2014 (-03) (-06) 13 : 50 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/418/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/418")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 418
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add foundation v5.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/418")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/418.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/418.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/418"
+  , issueCreatedAt = 2014 (-03) (-06) 08 : 03 : 54 UTC
+  , issueBody =
+      Just
+        "A new version of foundation just released, hope it can be added into this project, thanks.\nsource : https://github.com/zurb/foundation/archive/v5.2.0.tar.gz\n"
+  , issueState = StateClosed
+  , issueId = Id 28856418
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

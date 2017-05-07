@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-04) 15 : 50 : 25 UTC
+  , issueUpdatedAt = 2014 (-12) (-04) 15 : 50 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2343/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2343")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2343
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 538779
+        , simpleUserLogin = N "zhuwenxuan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/538779?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zhuwenxuan"
+        }
+  , issueTitle = "add qyer lib"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2343")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2343.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2343.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2343"
+  , issueCreatedAt = 2014 (-11) (-13) 08 : 43 : 11 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 48610770
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

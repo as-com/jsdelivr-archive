@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-21) 23 : 13 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123505109"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123505109"
+  , issueCommentCreatedAt = 2015 (-07) (-21) 23 : 13 : 39 UTC
+  , issueCommentBody =
+      "It depends on where the trust issue relies. If the dev doesn't trust jsDelivr then it doesnt matter if its front-end or backend SRI, he still wont trust it. \nIf the dev is afraid of jsDelivr getting hacked(impossible) then the frontend generated SRI should be enough for him. \n\nThe Github API wont help at all in this case. We would need to make HTTP requests ourselves directly to the raw files https://raw.githubusercontent.com/jsdelivr/jsdelivr/master/files/alertify.js/0.3.9/alertify.min.js and process them. This would take a lot of time, a lot of CPU and would slow everything down.\n"
+  , issueCommentId = 123505109
+  }

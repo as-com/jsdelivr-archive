@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-12) 19 : 05 : 01 UTC
+  , issueUpdatedAt = 2016 (-12) (-12) 19 : 05 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15311/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15311")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15311
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project prowl to 1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15311")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15311.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15311.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15311"
+  , issueCreatedAt = 2016 (-12) (-12) 19 : 04 : 58 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project prowl to 1.0.0.\n\n@aotik\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"prowl\",\n    \"repo\": \"aotik/prowl\",\n    \"files\": {\n      \"include\": [\"dist/prowl.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/prowljs\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/prowljs/update.json\",\n  \"versions\": [\"1.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/prowljs/1.0.0\",\n  \"branch\": \"prowl/1.0.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 195057522
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

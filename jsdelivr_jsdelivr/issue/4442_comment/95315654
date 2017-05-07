@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-22) 19 : 51 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/95315654"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4442#issuecomment-95315654"
+  , issueCommentCreatedAt = 2015 (-04) (-22) 19 : 51 : 10 UTC
+  , issueCommentBody =
+      "Well its up to each developer. We cant decline an update because of some decisions the author himself made. When an update that is missing files arrives it is manually reviewed. \nIf required we create the correct mainfile overrides and updates to info.ini to ensure /g/ functionality doesnt break.\nBut we cant do anything about anything else. \nIf you have any ideas let me know.\n\nRegarding this PR. lodash removed compat builds from his repo https://github.com/lodash/lodash/tree/3.7.0 so I dont think it makes sense to manually add these files every single time.\nlodash is auto-updated by our bot\n"
+  , issueCommentId = 95315654
+  }

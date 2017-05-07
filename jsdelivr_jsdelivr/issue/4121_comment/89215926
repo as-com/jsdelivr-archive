@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-03) 08 : 20 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/89215926"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4121#issuecomment-89215926"
+  , issueCommentCreatedAt = 2015 (-04) (-03) 08 : 20 : 03 UTC
+  , issueCommentBody =
+      "Yes, unfortunately thats the only way. But your PR wont be auto-merged, is that ok or its extremely important to have instant merge?\n\nBtw here is the fix for the minification bug https://github.com/jsdelivr/bot/pull/37\n"
+  , issueCommentId = 89215926
+  }

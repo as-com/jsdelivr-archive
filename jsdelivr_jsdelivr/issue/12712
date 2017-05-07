@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-14) 16 : 27 : 52 UTC
+  , issueUpdatedAt = 2016 (-07) (-14) 16 : 27 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12712/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12712")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12712
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project Likely to v2.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12712")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12712.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12712.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12712"
+  , issueCreatedAt = 2016 (-07) (-13) 18 : 33 : 59 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project Likely to v2.1.1.\n\n@ilyabirman\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"Likely\",\n    \"repo\": \"ilyabirman/Likely\",\n    \"files\": {\n      \"basePath\": \"release/\",\n      \"include\": [\"likely.js\", \"likely.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/likely\",\n    \"localVersions\": [\"2.0.7\", \"2.0.8\", \"2.1.0\"],\n    \"remoteVersions\": [\"v0.9\", \"v0.91\", \"v0.92\", \"v0.93\", \"v0.94\", \"v2.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v2.0.6\", \"v2.0.7\", \"v2.0.8\", \"v2.1.0\", \"v2.1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/likely/update.json\",\n  \"versions\": [\"v2.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/likely/2.1.1\",\n  \"branch\": \"Likely/v2.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 165390661
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

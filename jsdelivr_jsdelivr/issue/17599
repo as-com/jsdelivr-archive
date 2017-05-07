@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-15) 19 : 03 : 24 UTC
+  , issueUpdatedAt = 2017 (-04) (-15) 19 : 03 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17599/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17599")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17599
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project chatbotlab to 1.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17599")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17599.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17599.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17599"
+  , issueCreatedAt = 2017 (-04) (-15) 19 : 03 : 15 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project chatbotlab to 1.0.3.\n\n@FordSoft\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"chatbotlab\",\n    \"repo\": \"FordSoft/chatbotlab\",\n    \"files\": {\n      \"include\": [\"scripts/app.js\", \"scripts/vendor.js\", \"scripts/d2d.lib.js\", \"scripts/kendo.js\", \"scripts/vendor.datatables.js\", \"scripts/vendor.graphs.js\", \"scripts/vendor.ui.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/chatbotlab\",\n    \"localVersions\": [\"1.0.0\", \"1.0.2\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/chatbotlab/update.json\",\n  \"versions\": [\"1.0.3\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/chatbotlab/1.0.3\",\n  \"branch\": \"chatbotlab/1.0.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 221966427
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

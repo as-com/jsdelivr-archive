@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-27) 21 : 02 : 24 UTC
+  , issueUpdatedAt = 2016 (-07) (-27) 21 : 02 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12936/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12936")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12936
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1573141
+        , simpleUserLogin = N "coderaiser"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1573141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coderaiser"
+        }
+  , issueTitle = "ace v1.2.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12936")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12936.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12936.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12936"
+  , issueCreatedAt = 2016 (-07) (-27) 08 : 57 : 00 UTC
+  , issueBody =
+      Just
+        "Added [ace v1.2.4](https://github.com/ajaxorg/ace-builds/releases/tag/v1.2.4)\n"
+  , issueState = StateClosed
+  , issueId = Id 167804137
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

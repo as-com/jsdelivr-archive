@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-19) 21 : 25 : 04 UTC
+  , issueUpdatedAt = 2014 (-11) (-19) 22 : 17 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2404/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2404")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2404
+  , issueAssignees =
+      [ SimpleUser
+          { simpleUserId = Id 1834071
+          , simpleUserLogin = N "jimaek"
+          , simpleUserAvatarUrl =
+              URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+          , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+          }
+      ]
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 295778
+        , simpleUserLogin = N "klml"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/295778?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/klml"
+        }
+  , issueTitle = "ignore all sent GET-parameters"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2404"
+  , issueCreatedAt = 2014 (-11) (-17) 22 : 46 : 29 UTC
+  , issueBody =
+      Just
+        "In some cases GET Parameters are sent, so jsdelivr.net [does not work](http://cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox-1.3.4.js?_=1416158054309)\n\nThis occurs in:\n- [jquery getScript](http://api.jquery.com/jquery.getscript/) with an unix timestamp `?_=14161....`\n- automatic asset versioning to force browser cache to reload. Despit it is not [recommendable](http://www.stevesouders.com/blog/2008/08/23/revving-filenames-dont-use-querystring/)\n\nSo, can you ignore all sent GET-parameters?\n\n(from [/issues/2304](./2304))\n"
+  , issueState = StateClosed
+  , issueId = Id 49156228
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

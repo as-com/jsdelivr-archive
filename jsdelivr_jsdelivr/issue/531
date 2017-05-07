@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-29) 21 : 26 : 21 UTC
+  , issueUpdatedAt = 2014 (-03) (-29) 21 : 26 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/531/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/531")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 531
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3965
+        , simpleUserLogin = N "simo2409"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3965?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/simo2409"
+        }
+  , issueTitle =
+      "Added jquery.visible (missing version so used 0.0.1)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/531")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/531.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/531.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/531"
+  , issueCreatedAt = 2014 (-03) (-29) 21 : 01 : 59 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 30452653
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

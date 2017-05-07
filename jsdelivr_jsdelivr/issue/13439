@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-26) 17 : 20 : 39 UTC
+  , issueUpdatedAt = 2016 (-08) (-26) 17 : 20 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13439/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13439")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13439
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 45862
+        , simpleUserLogin = N "modethirteen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/45862?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/modethirteen"
+        }
+  , issueTitle = "Delete 1.0.0/geniuslink.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13439")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13439.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13439.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13439"
+  , issueCreatedAt = 2016 (-08) (-25) 17 : 50 : 21 UTC
+  , issueBody =
+      Just
+        "/mindtouch-geniuslink/1.0.0/geniuslink.min.js was incorrectly built on our side, and it being a 1.0.0 release it would be in poor form to release it incomplete. We have confirmed that no one is using this release.\n"
+  , issueState = StateClosed
+  , issueId = Id 173268099
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

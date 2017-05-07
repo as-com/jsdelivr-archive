@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-06) 02 : 02 : 06 UTC
+  , issueUpdatedAt = 2016 (-04) (-06) 02 : 02 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10852/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10852")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10852
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular.recaptcha to 2.5.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10852")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10852.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10852.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10852"
+  , issueCreatedAt = 2016 (-04) (-06) 02 : 02 : 00 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.recaptcha to 2.5.1.\n\n@VividCortex\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.recaptcha\",\n    \"repo\": \"VividCortex/angular-recaptcha\",\n    \"files\": {\n      \"basePath\": \"release/\",\n      \"include\": [\"angular-recaptcha.min.js\", \"angular-recaptcha.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.recaptcha\",\n    \"localVersions\": [\"1.0.5\", \"2.2.5\", \"2.3.0\", \"2.4.0\", \"2.4.1\", \"2.5.0\", \"3.0.0\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"v1.0.0\", \"v1.0.1\", \"v1.0.3\", \"1.0.4\", \"1.0.5\", \"2.0.0\", \"2.0.1\", \"2.1.0\", \"2.1.1\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"2.2.3\", \"2.2.4\", \"2.2.5\", \"2.3.0\", \"2.4.0\", \"2.4.1\", \"2.5.0\", \"2.5.1\", \"3.0.0\", \"3.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.recaptcha/update.json\",\n  \"versions\": [\"2.5.1\", \"3.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"2.5.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.recaptcha/2.5.1\",\n  \"branch\": \"angular.recaptcha/2.5.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 146162250
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

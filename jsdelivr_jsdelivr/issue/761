@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-08) 06 : 11 : 45 UTC
+  , issueUpdatedAt = 2014 (-05) (-08) 10 : 45 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/761/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/761")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 761
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1005813
+        , simpleUserLogin = N "isaackwan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1005813?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaackwan"
+        }
+  , issueTitle = "swfobject is not shown on the website"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/761"
+  , issueCreatedAt = 2014 (-05) (-08) 05 : 07 : 09 UTC
+  , issueBody =
+      Just
+        "The swfobject library is not shown on the website although it exists in the repository and can be accessed at http://cdn.jsdelivr.net/swfobject/2.2/swfobject.js\n"
+  , issueState = StateClosed
+  , issueId = Id 33054938
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

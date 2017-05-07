@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 23 : 53 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 23 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13321/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13321")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13321
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3011734
+        , simpleUserLogin = N "jgravois"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3011734?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jgravois"
+        }
+  , issueTitle =
+      "relocate leaflet.esri.clustered-feature-layer to a directory thats less of a mouthful"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13321")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13321.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13321.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13321"
+  , issueCreatedAt = 2016 (-08) (-19) 00 : 45 : 08 UTC
+  , issueBody =
+      Just
+        "hello friends! sorry to be a pain, but i've updated the name of a github repo and npm package while publishing a new version of a leaflet plugin for clustering.  \n\nin this PR i am attempting to:\n- move the metadata files into a new, more concise directory that matches the `npm` package name\n- update the contents of the files to point at the updated url of the repo\n- leave the versions of the library you've already cached where they already are\n\nyou can find the contents of my latest tag here:\nhttps://github.com/Esri/esri-leaflet-cluster/tree/v2.0.0/dist\n\nthanks so much for your help!\n"
+  , issueState = StateClosed
+  , issueId = Id 172032365
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

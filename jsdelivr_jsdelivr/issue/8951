@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-14) 13 : 10 : 23 UTC
+  , issueUpdatedAt = 2016 (-01) (-14) 13 : 10 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8951/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8951")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8951
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6803264
+        , simpleUserLogin = N "JohnnyTheTank"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6803264?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/JohnnyTheTank"
+        }
+  , issueTitle = "Adding aping.plugin-instagram"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8951")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8951.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8951.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8951"
+  , issueCreatedAt = 2016 (-01) (-14) 13 : 05 : 00 UTC
+  , issueBody =
+      Just
+        "Added https://github.com/JohnnyTheTank/apiNG-plugin-instagram\n"
+  , issueState = StateClosed
+  , issueId = Id 126650706
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-24) 05 : 01 : 16 UTC
+  , issueUpdatedAt = 2015 (-02) (-24) 05 : 01 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3577/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3577")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3577
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 39958
+        , simpleUserLogin = N "nemtsov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/39958?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nemtsov"
+        }
+  , issueTitle = "jsonmask: update to v0.3.4 and set-up auto-updates"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3577")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3577.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3577.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3577"
+  , issueCreatedAt = 2015 (-02) (-24) 04 : 50 : 58 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 58693392
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-12) 14 : 19 : 56 UTC
+  , issueUpdatedAt = 2017 (-01) (-12) 14 : 19 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15744/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15744")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15744
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6999360
+        , simpleUserLogin = N "xavierfaucon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6999360?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/xavierfaucon"
+        }
+  , issueTitle = "Added bootstrap.pretty-tables css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15744")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15744.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15744.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15744"
+  , issueCreatedAt = 2017 (-01) (-11) 23 : 24 : 27 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 200237369
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-11) 09 : 36 : 59 UTC
+  , issueUpdatedAt = 2016 (-10) (-11) 09 : 36 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14308/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14308")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14308
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16568567
+        , simpleUserLogin = N "dalikewara"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/16568567?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dalikewara"
+        }
+  , issueTitle =
+      "Request new project (petis). Create info.ini and update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14308")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14308.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14308.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14308"
+  , issueCreatedAt = 2016 (-10) (-10) 08 : 16 : 08 UTC
+  , issueBody =
+      Just
+        "I want to add my project to use jsdelivr CDN. I have follow the instruction on CONTRIBUTING.md. So, what's next?\n"
+  , issueState = StateClosed
+  , issueId = Id 181957834
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

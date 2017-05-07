@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-06) 22 : 07 : 50 UTC
+  , issueUpdatedAt = 2017 (-02) (-06) 22 : 07 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16183/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16183")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16183
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8439728
+        , simpleUserLogin = N "OscarDCorbalan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/8439728?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/OscarDCorbalan"
+        }
+  , issueTitle = "Add missing basePath"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16183")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16183.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16183.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16183"
+  , issueCreatedAt = 2017 (-02) (-05) 18 : 59 : 56 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 205445459
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

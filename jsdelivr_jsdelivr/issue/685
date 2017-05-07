@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-23) 21 : 38 : 01 UTC
+  , issueUpdatedAt = 2014 (-04) (-23) 21 : 38 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/685/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/685")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 685
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 38454
+        , simpleUserLogin = N "akkumar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/38454?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/akkumar"
+        }
+  , issueTitle = "flatstrap 3.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/685")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/685.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/685.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/685"
+  , issueCreatedAt = 2014 (-04) (-22) 06 : 46 : 43 UTC
+  , issueBody = Just "flat themes off bootstrap\n"
+  , issueState = StateClosed
+  , issueId = Id 31949239
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

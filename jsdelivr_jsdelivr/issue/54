@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-07) (-20) 19 : 36 : 26 UTC
+  , issueUpdatedAt = 2014 (-08) (-03) 15 : 31 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/54/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/54")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 54
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5055141
+        , simpleUserLogin = N "ecartdk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5055141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ecartdk"
+        }
+  , issueTitle = "Create custom-niceedit-with-plugins"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/54")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/54.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/54.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/54"
+  , issueCreatedAt = 2013 (-07) (-20) 19 : 34 : 37 UTC
+  , issueBody =
+      Just
+        "cool small wysiwyg editor, in this file some additional 3rd party plugins are implemented. such as a html insert, youtube and table plugins\n"
+  , issueState = StateClosed
+  , issueId = Id 17010408
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

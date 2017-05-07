@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-01) 20 : 54 : 41 UTC
+  , issueUpdatedAt = 2016 (-06) (-01) 20 : 54 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11944/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11944")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11944
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10346004
+        , simpleUserLogin = N "etsms"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10346004?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/etsms"
+        }
+  , issueTitle =
+      "Adds ETS's Hosted Payments jQuery plugin to JSDelivr! Yay!"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11944")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11944.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11944.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11944"
+  , issueCreatedAt = 2016 (-06) (-01) 20 : 53 : 29 UTC
+  , issueBody =
+      Just
+        "(line-ending changes were automatically applied to scroll-reveal... Sorry?!)\n"
+  , issueState = StateClosed
+  , issueId = Id 158004495
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

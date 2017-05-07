@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-12) 12 : 16 : 40 UTC
+  , issueUpdatedAt = 2014 (-05) (-12) 12 : 44 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/792/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/792")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 792
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 537127
+        , simpleUserLogin = N "englishextra"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/537127?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/englishextra"
+        }
+  , issueTitle = "Please add typeboost.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/792")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/792.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/792.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/792"
+  , issueCreatedAt = 2014 (-05) (-12) 10 : 09 : 02 UTC
+  , issueBody =
+      Just
+        "Typeboost.css is a set of CSS rules to ensure readable, scalable and responsive typography. No dependencies. REMs are used for font sizes, paddings, and margins. Wrap your HTML content with class .col and you are done.\n\nhttp://englishextra.github.io/libs/typeboost.css/\n"
+  , issueState = StateClosed
+  , issueId = Id 33294961
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-24) 20 : 07 : 42 UTC
+  , issueUpdatedAt = 2014 (-06) (-25) 08 : 40 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1012/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1012")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1012
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "Ink v3.0.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1012")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1012.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1012.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1012"
+  , issueCreatedAt = 2014 (-06) (-24) 19 : 58 : 54 UTC
+  , issueBody =
+      Just
+        "source : https://github.com/sapo/Ink/releases/download/3.0.4/ink-3.0.4.zip\n"
+  , issueState = StateClosed
+  , issueId = Id 36420077
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

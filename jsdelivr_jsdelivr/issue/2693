@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-11) 10 : 00 : 08 UTC
+  , issueUpdatedAt = 2014 (-12) (-11) 10 : 00 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2693/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2693")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2693
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "need update cloudflare new edge."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2693"
+  , issueCreatedAt = 2014 (-12) (-11) 08 : 08 : 59 UTC
+  , issueBody =
+      Just
+        "https://blog.cloudflare.com/johannesburg-cloudflares-30th-data-center/\nhttps://blog.cloudflare.com/lima-peru-cloudflares-29th-data-center/\n"
+  , issueState = StateClosed
+  , issueId = Id 51657632
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

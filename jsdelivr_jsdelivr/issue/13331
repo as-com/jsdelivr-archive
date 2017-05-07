@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-19) 13 : 43 : 12 UTC
+  , issueUpdatedAt = 2016 (-08) (-19) 13 : 47 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13331/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13331")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13331
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 376980
+        , simpleUserLogin = N "bit101"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/376980?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bit101"
+        }
+  , issueTitle = "Changes to update.json never merged."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13331"
+  , issueCreatedAt = 2016 (-08) (-19) 12 : 50 : 32 UTC
+  , issueBody =
+      Just
+        "The mechanism for updating a library based on tagged releases in github works fine. The pull request goes through and the library is updated within 10 minutes generally, in my experience.\n\nBut recently I changed the structure of my project and added a couple of files. I updated the update.json to reflect the new files and submitted a pull request for that. Weeks went by and it was never touched. I finally cancelled the pull request.\n\nIn the mean time, I released a v2.0 version of my library. It actually didn't need some of the files that were originally included, so I deleted them and again put in a pull request for update.json.\n\nBut now my 2.0 changes pull request has failed because the files are not available. If I can't get update.json to update, then I need to add back in useless files to make jsdelivr update the package. \n\nAm I missing something on how to correctly change update.json?\n"
+  , issueState = StateClosed
+  , issueId = Id 172124482
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

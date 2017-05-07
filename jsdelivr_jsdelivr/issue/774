@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-09) 07 : 56 : 45 UTC
+  , issueUpdatedAt = 2014 (-05) (-09) 15 : 52 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/774/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/774")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 774
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "add peity plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/774")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/774.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/774.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/774"
+  , issueCreatedAt = 2014 (-05) (-09) 07 : 54 : 17 UTC
+  , issueBody =
+      Just
+        "Add Peity jquery plugin from @benpickles. \n\nv 2.0.3 https://github.com/benpickles/peity/archive/v2.0.3.tar.gz \n"
+  , issueState = StateClosed
+  , issueId = Id 33152356
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

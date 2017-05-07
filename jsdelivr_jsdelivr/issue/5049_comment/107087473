@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-30) 21 : 24 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6295761
+        , simpleUserLogin = N "vousk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6295761?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vousk"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/107087473"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5049#issuecomment-107087473"
+  , issueCommentCreatedAt = 2015 (-05) (-30) 21 : 24 : 59 UTC
+  , issueCommentBody =
+      "This file is in commit 4a3be3405d5679449dde1ccce2f1849f2dec2e07 of the actual repo.\nWe are updating the beta file at (almost) each commit, but the latest beta file cannot be put in CDN because it is not enough tested in production environnement, that's why the candidate for CDN always comes from an older commit.\n"
+  , issueCommentId = 107087473
+  }

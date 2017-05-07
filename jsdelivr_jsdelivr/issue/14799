@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-16) 15 : 12 : 55 UTC
+  , issueUpdatedAt = 2016 (-11) (-16) 15 : 12 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14799/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14799")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14799
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3259993
+        , simpleUserLogin = N "tjenkinson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3259993?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tjenkinson"
+        }
+  , issueTitle = "Add URL Toolkit"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14799")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14799.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14799.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14799"
+  , issueCreatedAt = 2016 (-11) (-15) 21 : 58 : 35 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 189518918
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

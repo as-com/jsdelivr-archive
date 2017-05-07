@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-28) 09 : 58 : 48 UTC
+  , issueUpdatedAt = 2015 (-10) (-28) 11 : 37 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7594/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7594")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7594
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11852894
+        , simpleUserLogin = N "yumeixxx"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11852894?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/yumeixxx"
+        }
+  , issueTitle = "Add WOW.js v0.1.12"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7594")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7594.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7594.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7594"
+  , issueCreatedAt = 2015 (-10) (-27) 23 : 41 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 113712553
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

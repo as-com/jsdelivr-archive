@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-15) 10 : 06 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5274747
+        , simpleUserLogin = N "hubdotcom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5274747?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hubdotcom"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/93301190"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4296#issuecomment-93301190"
+  , issueCommentCreatedAt = 2015 (-04) (-15) 10 : 06 : 03 UTC
+  , issueCommentBody =
+      "Essentially the main file has changed from imagesloaded.js to imagesloaded.pkgd.js - this was changed in the 3.1.5 release https://github.com/desandro/imagesloaded/releases/tag/v3.1.5\n\nA core developer has stated there is no use for the imagesloaded.min.js in a production environment and therefore he prefers not to include it. So we would have to manually include a minified script that has no use indefinitely\n"
+  , issueCommentId = 93301190
+  }

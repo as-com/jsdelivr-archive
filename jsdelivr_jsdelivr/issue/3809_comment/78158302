@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-10) 22 : 02 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/78158302"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/3809#issuecomment-78158302"
+  , issueCommentCreatedAt = 2015 (-03) (-10) 22 : 02 : 18 UTC
+  , issueCommentBody =
+      "This is expected behavior. For performance reasons we cache the `/latest/` files for 1 week. I believe its a good balance between speed and having the latest version.\n"
+  , issueCommentId = 78158302
+  }

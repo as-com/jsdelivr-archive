@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-06) 16 : 40 : 13 UTC
+  , issueUpdatedAt = 2016 (-09) (-06) 16 : 40 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13636/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13636")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13636
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10346004
+        , simpleUserLogin = N "etsms"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10346004?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/etsms"
+        }
+  , issueTitle =
+      "Update v3.5.31 - Adds recurssion to tokenization process."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13636")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13636.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13636.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13636"
+  , issueCreatedAt = 2016 (-09) (-06) 16 : 38 : 49 UTC
+  , issueBody =
+      Just
+        "More work in the transaction space. Adding recursion and better tokenization.\n"
+  , issueState = StateClosed
+  , issueId = Id 175294240
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

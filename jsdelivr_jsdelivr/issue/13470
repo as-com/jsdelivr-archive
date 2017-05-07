@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-27) 18 : 44 : 59 UTC
+  , issueUpdatedAt = 2016 (-08) (-27) 18 : 44 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13470/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13470")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13470
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project js-cookie to latest"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13470")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13470.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13470.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13470"
+  , issueCreatedAt = 2016 (-08) (-27) 18 : 44 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project js-cookie to latest.\n\n@js-cookie\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"js-cookie\",\n    \"repo\": \"js-cookie/js-cookie\",\n    \"files\": {\n      \"include\": [\"src/js.cookie.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/js-cookie\",\n    \"localVersions\": [\"1.5.1\", \"2.0.4\", \"2.1.0\", \"2.2.0\"],\n    \"remoteVersions\": [\"latest\", \"v1.0\", \"v1.1\", \"v1.2.0\", \"v1.3.0\", \"v1.3.1\", \"v1.4.0\", \"v1.4.1\", \"v1.5.0\", \"v1.5.1\", \"v2.0.0-beta.1\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.1.0\", \"v2.1.1\", \"v2.1.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/js-cookie/update.json\",\n  \"versions\": [\"latest\"],\n  \"updateRemote\": true,\n  \"version\": \"latest\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/js-cookie/latest\",\n  \"branch\": \"js-cookie/latest\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 173609710
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

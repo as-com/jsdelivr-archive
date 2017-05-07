@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-31) 04 : 17 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/87930141"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4057#issuecomment-87930141"
+  , issueCommentCreatedAt = 2015 (-03) (-31) 04 : 17 : 18 UTC
+  , issueCommentBody =
+      "> Yeah completely disagree. .min.map is a good fallback in case something goes wrong\n\nI don't want to stir up a debate, but I am truly interested in finding out how many big (& not so big, like 1000 hits/day) websites would hot-edit their JS on a production server?  I would think most would edit offline & push after testing.\n\nI could see live editing something on Codepen or jsFiddle, but you could serve uncompressed files via https://rawgit.com/  They can mirror GitHub files on this great CDN called [MaxCDN](https://www.maxcdn.com/), you might have heard of it?  ;)\n"
+  , issueCommentId = 87930141
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-22) 18 : 48 : 59 UTC
+  , issueUpdatedAt = 2014 (-06) (-14) 18 : 32 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/682/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/682")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 682
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "add jquery.mmenu plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/682")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/682.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/682.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/682"
+  , issueCreatedAt = 2014 (-04) (-21) 03 : 41 : 59 UTC
+  , issueBody =
+      Just
+        "@jimaek Let me know if this format is good. There's also SCSS in this project. Version control for this project is great. https://github.com/BeSite/jQuery.mmenu/releases\n"
+  , issueState = StateClosed
+  , issueId = Id 31879155
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

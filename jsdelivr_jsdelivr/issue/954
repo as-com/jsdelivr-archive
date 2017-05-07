@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-15) 20 : 32 : 01 UTC
+  , issueUpdatedAt = 2014 (-06) (-18) 11 : 40 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/954/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/954")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 954
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "added xe-core"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/954")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/954.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/954.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/954"
+  , issueCreatedAt = 2014 (-06) (-15) 18 : 06 : 06 UTC
+  , issueBody =
+      Just
+        "this is common js, css, mp3(for sound captcha), swf, png, jpg, gif(for default image button, etc..) of xe-core(Xpressengine).\n\nif there is not minified version of js or css, that means combined and minified version is exist.\nex) in common/js directory\nxe.min.js  == (minified)[ common.js + js_app.js + xml_handler.js + xml_js_filter.js ]\n\nin normal status, xe-core loads only minified and combined js and css file for performance.\nnot combined or not minified file is loaded only when xe-core is in debug mode(set by developer).\n\ni set auto update for .js .css .swf .jpg. jpeg .png .gif\nhttps://github.com/xpressengine/xe-core\nhttp://www.xpressengine.com (offcial site, Korea)\n\nLicense : LGPLv2\n"
+  , issueState = StateClosed
+  , issueId = Id 35754549
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

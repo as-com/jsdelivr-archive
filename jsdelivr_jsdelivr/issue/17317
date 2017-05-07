@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-30) 21 : 13 : 56 UTC
+  , issueUpdatedAt = 2017 (-03) (-30) 21 : 13 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17317/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17317")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17317
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3855149
+        , simpleUserLogin = N "RestingCoder"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3855149?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/RestingCoder"
+        }
+  , issueTitle = "Merged a pull request and added update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17317")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17317.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17317.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17317"
+  , issueCreatedAt = 2017 (-03) (-30) 21 : 12 : 23 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 218329602
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

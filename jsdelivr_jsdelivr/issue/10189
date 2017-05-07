@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-29) 13 : 08 : 14 UTC
+  , issueUpdatedAt = 2016 (-02) (-29) 13 : 21 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10189/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10189")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10189
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10571881
+        , simpleUserLogin = N "jonataswalker"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/10571881?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jonataswalker"
+        }
+  , issueTitle = "Update info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10189")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10189.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10189.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10189"
+  , issueCreatedAt = 2016 (-02) (-29) 11 : 41 : 43 UTC
+  , issueBody = Just "Fix for a broken link.\n"
+  , issueState = StateClosed
+  , issueId = Id 137229756
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

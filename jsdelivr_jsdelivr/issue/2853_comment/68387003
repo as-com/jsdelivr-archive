@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-30) 19 : 13 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/68387003"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2853#issuecomment-68387003"
+  , issueCommentCreatedAt = 2014 (-12) (-30) 19 : 13 : 24 UTC
+  , issueCommentBody =
+      "Let me be clear, Github is not even a requirement to be hosted but since you listed it in the info.ini I used it as the main source of information. Also that link is going to be used on our website too so if someone goes there he needs to know what he is looking at.\n\nAnd yes if you add more info to the Github readme about what the project is and link to it from the official website it will be good.\n\nAlso maybe rename the project to `imagevuex3` or something like that. It seems that X3 is simple the version of the project Imagevue. So you should rename the directory accordingly.\n"
+  , issueCommentId = 68387003
+  }

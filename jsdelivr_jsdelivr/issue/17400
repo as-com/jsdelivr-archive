@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-04) 12 : 05 : 45 UTC
+  , issueUpdatedAt = 2017 (-04) (-04) 12 : 05 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17400/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17400")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17400
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project qrjs2 to v0.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17400")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17400.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17400.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17400"
+  , issueCreatedAt = 2017 (-04) (-04) 12 : 05 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project qrjs2 to v0.1.3.\n\n@englishextra\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"qrjs2\",\n    \"repo\": \"englishextra/qrjs2\",\n    \"files\": {\n      \"basePath\": \"\",\n      \"include\": [\"qrjs2.js\", \"qrjs2.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/qrjs2\",\n    \"localVersions\": [\"0.1.2\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/qrjs2/update.json\",\n  \"versions\": [\"v0.1.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/qrjs2/0.1.3\",\n  \"branch\": \"qrjs2/v0.1.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 219228369
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

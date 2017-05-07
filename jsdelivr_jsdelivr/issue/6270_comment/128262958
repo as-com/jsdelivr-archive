@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-06) 06 : 19 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/128262958"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6270#issuecomment-128262958"
+  , issueCommentCreatedAt = 2015 (-08) (-06) 06 : 19 : 27 UTC
+  , issueCommentBody =
+      "There is no way to do that on your side. I can do it manually but I prefer not to to make sure no websites will break in case someone is using this version\n"
+  , issueCommentId = 128262958
+  }

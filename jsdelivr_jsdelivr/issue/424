@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-07) 15 : 29 : 00 UTC
+  , issueUpdatedAt = 2014 (-03) (-07) 15 : 29 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/424/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/424")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 424
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1686556
+        , simpleUserLogin = N "patrickkunka"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1686556?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/patrickkunka"
+        }
+  , issueTitle = "Added MixItUp v2.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/424")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/424.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/424.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/424"
+  , issueCreatedAt = 2014 (-03) (-07) 15 : 28 : 38 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 28973250
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

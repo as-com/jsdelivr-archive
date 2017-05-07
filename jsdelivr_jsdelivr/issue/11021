@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-13) 13 : 16 : 56 UTC
+  , issueUpdatedAt = 2016 (-04) (-13) 13 : 17 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11021/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11021")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11021
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6579655
+        , simpleUserLogin = N "wesselgrift"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6579655?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wesselgrift"
+        }
+  , issueTitle = "add project: pavilion"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11021")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11021.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11021.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11021"
+  , issueCreatedAt = 2016 (-04) (-13) 12 : 00 : 02 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 148038019
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

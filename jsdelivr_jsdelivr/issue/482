@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-20) 13 : 55 : 27 UTC
+  , issueUpdatedAt = 2014 (-03) (-20) 13 : 55 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/482/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/482")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 482
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 20234
+        , simpleUserLogin = N "brettz9"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/20234?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/brettz9"
+        }
+  , issueTitle = "Caching HTML (indefinitely)"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/482"
+  , issueCreatedAt = 2014 (-03) (-20) 01 : 42 : 36 UTC
+  , issueBody =
+      Just
+        "Might you be open to:\n1. Allow URLs which prevent expiration entirely.\n2. Caching HTML with offline cache manifests (though the manifests themselves would not be cached, however, as the browser may periodically check them for updates)\n\nI had been hoping for such a resource in my desire to see a (hopefully temporary) workaround for browsers abandoning `globalStorage`: a way websites could insert an iframe whose source is an offline-cached HTML page (ideally first served via a fast CDN) and to which they could send `window.postMessage()` calls, whose JS code would prompt the user for permission to read, or, if allowed, write shared data (and perhaps send publish-subscribe events as well upon updates), in order to provide site-neutral namespaced data or read-only (write-by-origin) access to other sites for locally stored data, and also overcome same-domain storage limits if the calling library would hop across different domains to reassemble its data.\n\nDespite talk of \8220open data\8221, and despite the fact that OS file systems flourish because their files are file-creator-independent, there is no good way currently for projects, especially open source ones, non-profits, etc. to provide their data in manner which doesn\8217t make them the gate-keeper and single point of failure and which provides an API out-of-the-box for reading and optionally writing their generated data in such a way that pure client-side-JS apps can use them. Besides the site-neutral storage of documents such as say HTML document drafts or social media posts, one interesting use case is an add-on infrastructure for a certain type of tool (such as a web-based IDE) which worked independently of the specific tool implementation.\n\nWhile I started some preliminary work at https://gist.github.com/brettz9/8876920 , it is not yet tested, documented, or ready, but I wanted to ask the questions now.\n\nThanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 29787942
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

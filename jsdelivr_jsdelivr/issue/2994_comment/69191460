@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-08) 15 : 07 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/69191460"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2994#issuecomment-69191460"
+  , issueCommentCreatedAt = 2015 (-01) (-08) 15 : 07 : 37 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help ammending your PR...\n- Might be nothing but I have some concerns about the files in your submission...  \n  - Unescaped unicode characters in _locales.js_ (at pos 1607)\n  - Unescaped unicode characters in _locales.min.js_ (at pos 886)\n  - Unescaped unicode characters in _moment-with-locales.js_ (at pos 99299)\n  - Unescaped unicode characters in _moment-with-locales.min.js_ (at pos 35270)\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Non-blocking is better than blocking._\n"
+  , issueCommentId = 69191460
+  }

@@ -1,0 +1,31 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-22) 15 : 44 : 11 UTC
+  , issueUpdatedAt = 2015 (-02) (-22) 15 : 44 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3335/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/3335")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3335
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4386097
+        , simpleUserLogin = N "carlosdv4"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/4386097?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/carlosdv4"
+        }
+  , issueTitle = "blast.js not showing"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3335"
+  , issueCreatedAt = 2015 (-02) (-05) 13 : 00 : 13 UTC
+  , issueBody = Just "Is part of velocity.js\n"
+  , issueState = StateClosed
+  , issueId = Id 56667054
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

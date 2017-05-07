@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-19) 16 : 03 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/254859252"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14434#issuecomment-254859252"
+  , issueCommentCreatedAt = 2016 (-10) (-19) 16 : 03 : 23 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _bootstrap_ between _3.3.7_ and _4.0.0-alpha.5_ there was a change in file structure  \n  \n  ``` diff\n  + css/bootstrap-flex.css\n  + css/bootstrap-flex.css.map\n  + css/bootstrap-flex.min.css\n  + css/bootstrap-flex.min.css.map\n  + css/bootstrap-grid.css\n  + css/bootstrap-grid.css.map\n  + css/bootstrap-grid.min.css\n  + css/bootstrap-grid.min.css.map\n  + css/bootstrap-reboot.css\n  + css/bootstrap-reboot.css.map\n  + css/bootstrap-reboot.min.css\n  + css/bootstrap-reboot.min.css.map\n  - css/bootstrap-theme.css\n  - css/bootstrap-theme.css.map\n  - css/bootstrap-theme.min.css\n  - css/bootstrap-theme.min.css.map\n  - fonts/glyphicons-halflings-regular.eot\n  - fonts/glyphicons-halflings-regular.svg\n  - fonts/glyphicons-halflings-regular.ttf\n  - fonts/glyphicons-halflings-regular.woff\n  - fonts/glyphicons-halflings-regular.woff2\n  - js/npm.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Anything added dilutes everything else._\n"
+  , issueCommentId = 254859252
+  }

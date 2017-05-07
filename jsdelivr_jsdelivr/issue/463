@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-16) 22 : 55 : 37 UTC
+  , issueUpdatedAt = 2014 (-03) (-16) 22 : 55 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/463/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/463")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 463
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 204259
+        , simpleUserLogin = N "willdady"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/204259?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/willdady"
+        }
+  , issueTitle = "Added missing source map for underscore v1.6.0."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/463")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/463.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/463.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/463"
+  , issueCreatedAt = 2014 (-03) (-16) 22 : 54 : 16 UTC
+  , issueBody = Just "Underscore source map was missing. Added.\n"
+  , issueState = StateClosed
+  , issueId = Id 29528980
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

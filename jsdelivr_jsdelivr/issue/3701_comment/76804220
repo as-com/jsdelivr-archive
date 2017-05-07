@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-02) 20 : 09 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/76804220"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3701#issuecomment-76804220"
+  , issueCommentCreatedAt = 2015 (-03) (-02) 20 : 09 : 36 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _pure_ between _0.5.0_ and _0.6.0_ there was a change in file structure  \n  \n  ``` diff\n  + menus-dropdown-min.css\n  + menus-dropdown.css\n  + menus-horizontal-min.css\n  + menus-horizontal.css\n  + menus-scrollable-min.css\n  + menus-scrollable.css\n  + menus-skin-min.css\n  + menus-skin.css\n  - menus-nr-min.css\n  - menus-nr.css\n  - menus-paginator-min.css\n  - menus-paginator.css\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Keep it logically awesome._\n"
+  , issueCommentId = 76804220
+  }

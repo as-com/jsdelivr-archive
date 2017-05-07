@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-24) 12 : 33 : 55 UTC
+  , issueUpdatedAt = 2017 (-02) (-24) 12 : 33 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16542/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16542")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16542
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project docsify to 3.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16542")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16542.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16542.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16542"
+  , issueCreatedAt = 2017 (-02) (-24) 12 : 33 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project docsify to 3.1.1.\n\n@QingWei-Li\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"docsify\",\n    \"repo\": \"QingWei-Li/docsify\",\n    \"files\": {\n      \"include\": [\"./lib/**/*\", \"./themes/**.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/docsify\",\n    \"localVersions\": [\"1.1.7\", \"1.2.0\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.3.4\", \"1.3.5\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.6.1\", \"1.7.0\", \"1.7.1\", \"1.7.2\", \"1.7.3\", \"1.7.4\", \"1.8.0\", \"1.9.0\", \"1.10.0\", \"1.10.1\", \"1.10.2\", \"1.10.3\", \"1.10.4\", \"1.10.5\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.1.0\", \"2.2.0\", \"2.2.1\", \"2.3.0\", \"2.4.1\", \"2.4.2\", \"2.4.3\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.1.0\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.1.0\", \"0.2.0\", \"0.2.1\", \"0.3.0\", \"0.3.1\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.5.0\", \"0.6.0\", \"0.6.1\", \"0.7.0\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.1.5\", \"1.1.6\", \"1.1.7\", \"1.2.0\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.3.4\", \"1.3.5\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.6.0\", \"1.6.1\", \"1.7.0\", \"1.7.1\", \"1.7.2\", \"1.7.3\", \"1.7.4\", \"1.8.0\", \"1.9.0\", \"1.10.0\", \"1.10.1\", \"1.10.2\", \"1.10.3\", \"1.10.4\", \"1.10.5\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.1.0\", \"2.2.0\", \"2.2.1\", \"2.3.0\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"2.4.3\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.1.0\", \"3.1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/docsify/update.json\",\n  \"versions\": [\"3.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"3.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/docsify/3.1.1\",\n  \"branch\": \"docsify/3.1.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 210037715
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

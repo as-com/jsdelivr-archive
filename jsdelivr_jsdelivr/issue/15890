@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-24) 06 : 00 : 33 UTC
+  , issueUpdatedAt = 2017 (-01) (-24) 06 : 00 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15890/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15890")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15890
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5614800
+        , simpleUserLogin = N "EngCode"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5614800?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/EngCode"
+        }
+  , issueTitle = "Tornado User Interface Framework"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15890")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15890.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15890.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15890"
+  , issueCreatedAt = 2017 (-01) (-21) 08 : 11 : 39 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 202302024
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-03) 18 : 07 : 19 UTC
+  , issueUpdatedAt = 2017 (-05) (-03) 18 : 07 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17922/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17922")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17922
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 187350
+        , simpleUserLogin = N "sutara79"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/187350?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sutara79"
+        }
+  , issueTitle = "Patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17922")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17922.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17922.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17922"
+  , issueCreatedAt = 2017 (-05) (-03) 09 : 21 : 32 UTC
+  , issueBody =
+      Just
+        "Update info.ini and update.json for jquery.add-input-area v4.9.0."
+  , issueState = StateClosed
+  , issueId = Id 225926590
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

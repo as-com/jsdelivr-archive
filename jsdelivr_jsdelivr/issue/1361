@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-06) 03 : 39 : 04 UTC
+  , issueUpdatedAt = 2014 (-08) (-06) 13 : 21 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1361/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1361")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1361
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project fast-json-patch to 0.3.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1361")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1361.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1361.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1361"
+  , issueCreatedAt = 2014 (-08) (-06) 03 : 34 : 25 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project fast-json-patch to 0.3.9.\n\n@Starcounter-Jack\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"fast-json-patch\",\n    \"repo\": \"Starcounter-Jack/JSON-Patch\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"json-patch.min.js\", \"json-patch.min.js.map\", \"json-patch-duplex.min.js\", \"json-patch-duplex.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/fast-json-patch\",\n    \"localVersions\": [\"0.3.8\"],\n    \"remoteVersions\": [\"v0.3.3\", \"v0.3.4\", \"v0.3.5\", \"v0.3.6\", \"v0.3.7\", \"0.3.8\", \"0.3.9\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.3.9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/fast-json-patch/0.3.9\",\n  \"branch\": \"fast-json-patch/0.3.9\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 39586893
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

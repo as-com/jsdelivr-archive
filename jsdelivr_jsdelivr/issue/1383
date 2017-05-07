@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-08) 10 : 56 : 13 UTC
+  , issueUpdatedAt = 2014 (-08) (-08) 10 : 58 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1383/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1383")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1383
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3048916
+        , simpleUserLogin = N "marcoslin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3048916?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/marcoslin"
+        }
+  , issueTitle = "Enabling Auto-Updating"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1383")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1383.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1383.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1383"
+  , issueCreatedAt = 2014 (-08) (-08) 08 : 11 : 58 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 39801303
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

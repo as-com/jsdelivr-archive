@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-09) (-07) 10 : 32 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13631/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13631")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13631
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2801252
+        , simpleUserLogin = N "franciscop"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2801252?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/franciscop"
+        }
+  , issueTitle = "Make it scalable through reviews"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13631"
+  , issueCreatedAt = 2016 (-09) (-06) 10 : 59 : 37 UTC
+  , issueBody =
+      Just
+        "Following on https://github.com/jsdelivr/jsdelivr/issues/13136, I'd like to propose something new. I was going to offer reviewing few PR when I saw my project still not merged to help with the load. But that would be only one-off, so maybe you could ask that for each PR or project someone wants to add, they have to review 5-10 other open PR and give a :+1: or :-1: for moderation and maybe point out some improvements. This way the more PR, the more reviews of other projects that are generated (thus making it scalable).\n\nAlso, there is a project called [Up For Grabs](https://github.com/jsdelivr/jsdelivr/issues/13136) where many people new to OSS get started contributing, so maybe you are interested on plugging it in so they can review projects. I've found [many people that contribute a bit each](https://github.com/umbrellajs/umbrella/issues?utf8=%E2%9C%93&q=is%3Aissue%20label%3Aup-for-grabs%20) through there.\n\nI don't know if the language would be better _requiring_ or _recommending_ to do this, but I think that would be up to you and how much load you are getting (I suggest strongly recommending it, in the end of the day most open source contributors just want to help, even more an amazing project like jsdelivr).\n"
+  , issueState = StateOpen
+  , issueId = Id 175218816
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

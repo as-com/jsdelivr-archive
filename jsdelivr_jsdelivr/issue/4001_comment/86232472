@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-25) 22 : 05 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/86232472"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4001#issuecomment-86232472"
+  , issueCommentCreatedAt = 2015 (-03) (-25) 22 : 05 : 47 UTC
+  , issueCommentBody =
+      "I am seeing the correct version, ref: https://www.dropbox.com/s/m5swsphso6pv7cs/Screenshot%202015-03-25%2015.03.39.png https://www.dropbox.com/s/m5swsphso6pv7cs/Screenshot%202015-03-25%2015.03.39.png\n\nCould you share output of curl -I http://cdn.jsdelivr.net/clappr/latest/clappr.min.js http://cdn.jsdelivr.net/clappr/latest/clappr.min.js \n\n## \n\nPatrick Nommensen\nhttp://nginx.com\n\n> On Mar 25, 2015, at 2:32 PM, Lucas Mundim notifications@github.com wrote:\n> \n> When I hit http://cdn.jsdelivr.net/clappr/latest/clappr.min.js http://cdn.jsdelivr.net/clappr/latest/clappr.min.js it returns the 0.0.107 version, although the latest version currently is 0.0.114.\n> \n> I know that it caches the latest entrypoint for about a week, but version 0.0.108 was released 11 days ago.\n> \n> \8212\n> Reply to this email directly or view it on GitHub https://github.com/jsdelivr/jsdelivr/issues/4001.\n"
+  , issueCommentId = 86232472
+  }

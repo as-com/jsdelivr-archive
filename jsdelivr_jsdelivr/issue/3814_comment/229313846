@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-29) 10 : 05 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/229313846"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/3814#issuecomment-229313846"
+  , issueCommentCreatedAt = 2016 (-06) (-29) 10 : 05 : 02 UTC
+  , issueCommentBody =
+      "A 404 jumps into eyes too much making people think something is VERY wrong. Especially since not everyone knows that that error appears only when the dev tools are open and not every single time. \nA simple console error does not create that fear. \nRight now I believe the current way is the best for the majority of users. \nIf you find more people that believe your way is better then I am willing to rethink this.\n\nThe alternative is to simply use all files directly without /g/. Then the maps will be loaded correctly.\n"
+  , issueCommentId = 229313846
+  }

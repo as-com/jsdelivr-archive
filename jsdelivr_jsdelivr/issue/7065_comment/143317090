@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-25) 18 : 35 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6734090
+        , simpleUserLogin = N "osxi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6734090?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/osxi"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/143317090"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/7065#issuecomment-143317090"
+  , issueCommentCreatedAt = 2015 (-09) (-25) 18 : 35 : 43 UTC
+  , issueCommentBody =
+      "The project is not a React plugin but a library that wraps Leaflet.js _using_ React with JSX.\n\nIs it OK to place this PR on hold until I figure out a better way to build/minify the JS?\n"
+  , issueCommentId = 143317090
+  }

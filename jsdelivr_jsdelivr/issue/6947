@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-17) 14 : 34 : 35 UTC
+  , issueUpdatedAt = 2015 (-09) (-17) 14 : 34 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6947/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6947")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6947
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10571881
+        , simpleUserLogin = N "jonataswalker"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/10571881?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jonataswalker"
+        }
+  , issueTitle = "Updated update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6947")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6947.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6947.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6947"
+  , issueCreatedAt = 2015 (-09) (-17) 14 : 24 : 32 UTC
+  , issueBody =
+      Just
+        "Updated update.json to include `ol3-geocoder.css` file. In current tag (v1.1) the bot can't find `ol3-geocoder.min.css` by a little mess here.\n"
+  , issueState = StateClosed
+  , issueId = Id 106996512
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

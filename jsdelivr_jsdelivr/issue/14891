@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-21) 18 : 24 : 56 UTC
+  , issueUpdatedAt = 2016 (-11) (-21) 18 : 24 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14891/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14891")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14891
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project syncfusion-javascript to 14.4.15"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14891")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14891.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14891.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14891"
+  , issueCreatedAt = 2016 (-11) (-21) 13 : 35 : 04 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project syncfusion-javascript to 14.4.15.\n\n@syncfusion\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"syncfusion-javascript\",\n    \"repo\": \"syncfusion/JavaScript-Widgets\",\n    \"files\": {\n      \"include\": [\"./Content/**/*\", \"./Scripts/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/syncfusion-javascript\",\n    \"localVersions\": [\"14.2.26\", \"14.2.28\", \"14.2.32\", \"14.3.49\", \"14.3.52\"],\n    \"remoteVersions\": [\"13.3.0.18\", \"13.4.0.53\", \"13.4.0.58\", \"13.4.0.63\", \"14.1.41\", \"14.1.46\", \"14.2.26\", \"14.2.28\", \"14.2.32\", \"14.3.49\", \"14.3.52\", \"14.4.15\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/syncfusion-javascript/update.json\",\n  \"versions\": [\"13.4.0.63\", \"14.4.15\"],\n  \"updateRemote\": true,\n  \"version\": \"14.4.15\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/syncfusion-javascript/14.4.15\",\n  \"branch\": \"syncfusion-javascript/14.4.15\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 190718491
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

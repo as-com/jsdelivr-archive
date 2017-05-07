@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-23) 15 : 30 : 29 UTC
+  , issueUpdatedAt = 2014 (-08) (-23) 16 : 48 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1506/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1506")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1506
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 516484
+        , simpleUserLogin = N "superlukas"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/516484?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/superlukas"
+        }
+  , issueTitle = "Add sole/tween.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1506")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1506.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1506.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1506"
+  , issueCreatedAt = 2014 (-08) (-23) 13 : 07 : 24 UTC
+  , issueBody = Just "Your robot friend is kind of a bully :P\n"
+  , issueState = StateClosed
+  , issueId = Id 40975309
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

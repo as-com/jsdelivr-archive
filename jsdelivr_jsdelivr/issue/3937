@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-20) 16 : 03 : 15 UTC
+  , issueUpdatedAt = 2015 (-03) (-20) 16 : 03 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3937/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3937")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3937
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1213510
+        , simpleUserLogin = N "jmdobry"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1213510?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jmdobry"
+        }
+  , issueTitle = "Add js-data."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3937")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3937.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3937.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3937"
+  , issueCreatedAt = 2015 (-03) (-20) 15 : 48 : 53 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 63252555
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

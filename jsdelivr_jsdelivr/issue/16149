@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-05) 01 : 46 : 01 UTC
+  , issueUpdatedAt = 2017 (-02) (-05) 02 : 02 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16149/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/16149")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16149
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 910829
+        , simpleUserLogin = N "rafa8626"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/910829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rafa8626"
+        }
+  , issueTitle = "Moving repo to organization repository breaks CDN?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16149"
+  , issueCreatedAt = 2017 (-02) (-04) 18 : 05 : 15 UTC
+  , issueBody =
+      Just
+        "Currently, John Dyer's repositories (mediaelement ones) are under his name but he's considering moving them into an organization repo. Would that break anything on your side?"
+  , issueState = StateClosed
+  , issueId = Id 205363582
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

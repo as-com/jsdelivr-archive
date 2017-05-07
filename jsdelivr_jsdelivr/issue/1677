@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-08) 18 : 38 : 33 UTC
+  , issueUpdatedAt = 2014 (-09) (-09) 04 : 11 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1677/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1677")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1677
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7481783
+        , simpleUserLogin = N "dejanstojanovic"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7481783?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/dejanstojanovic"
+        }
+  , issueTitle = "Minified version of jquery.googlemaps plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1677")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1677.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1677.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1677"
+  , issueCreatedAt = 2014 (-09) (-08) 17 : 52 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 42223768
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

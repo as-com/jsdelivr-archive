@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 19 : 34 : 52 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 19 : 34 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17086/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17086")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17086
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project font-SpoqaHanSans to origin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17086")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17086.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17086.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17086"
+  , issueCreatedAt = 2017 (-03) (-21) 17 : 41 : 34 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project font-SpoqaHanSans to origin.\n\n@spoqa\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"font-SpoqaHanSans\",\n    \"repo\": \"spoqa/spoqa-han-sans\",\n    \"files\": {\n      \"include\": [\"Subset/**/*\", \"css/**/*\"],\n      \"exclude\": [\"Subset/**/glyphs.txt\", \"Subset/**/LICENSE_OFL.txt\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/font-spoqa-han-sans\",\n    \"localVersions\": [\"css\", \"subset\", \"2.0.0\", \"2.0.1\", \"2.1.0\"],\n    \"remoteVersions\": [\"origin\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"2.0.0\", \"2.0.1\", \"2.1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/font-spoqa-han-sans/update.json\",\n  \"versions\": [\"1.0.4\", \"origin\"],\n  \"updateRemote\": true,\n  \"version\": \"origin\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/font-spoqa-han-sans/origin\",\n  \"branch\": \"font-SpoqaHanSans/origin\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215822637
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

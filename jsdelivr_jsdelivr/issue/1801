@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-23) 12 : 35 : 23 UTC
+  , issueUpdatedAt = 2014 (-09) (-23) 12 : 35 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1801/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1801")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1801
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project algoliasearch to 2.6.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1801")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1801.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1801.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1801"
+  , issueCreatedAt = 2014 (-09) (-23) 12 : 35 : 06 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project algoliasearch to 2.6.3.\n\n@algolia\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"algoliasearch\",\n    \"repo\": \"algolia/algoliasearch-client-js\",\n    \"files\": {\n      \"basePath\": \"dist\",\n      \"include\": [\"algoliasearch.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/algoliasearch\",\n    \"localVersions\": [\"2.4.4\", \"2.4.6\", \"2.4.7\", \"2.5.1\", \"2.5.2\", \"2.5.3\", \"2.6.0\", \"2.6.1\", \"2.6.2\"],\n    \"remoteVersions\": [\"2.0.0\", \"2.0.1\", \"2.1.0\", \"2.2.0\", \"2.3.0\", \"2.3.1\", \"2.3.2\", \"2.3.3\", \"2.3.4\", \"2.3.6\", \"2.3.7\", \"2.3.8\", \"2.4.0\", \"2.4.1\", \"2.4.3\", \"2.4.4\", \"2.4.6\", \"2.4.7\", \"2.5.0\", \"2.5.1\", \"2.5.2\", \"2.5.3\", \"2.6.0\", \"2.6.1\", \"2.6.2\", \"2.6.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.6.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/algoliasearch/2.6.3\",\n  \"branch\": \"algoliasearch/2.6.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 43623576
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

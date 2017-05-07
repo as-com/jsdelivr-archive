@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-16) 15 : 05 : 59 UTC
+  , issueUpdatedAt = 2017 (-01) (-16) 15 : 05 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15798/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15798")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15798
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15077095
+        , simpleUserLogin = N "wsngamerz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/15077095?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wsngamerz"
+        }
+  , issueTitle = "Update update.json for WebFunk Framework"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15798")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15798.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15798.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15798"
+  , issueCreatedAt = 2017 (-01) (-16) 07 : 31 : 55 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 200948261
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

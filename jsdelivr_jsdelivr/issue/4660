@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-07) 12 : 03 : 58 UTC
+  , issueUpdatedAt = 2015 (-05) (-07) 12 : 03 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4660/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4660")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4660
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project AudioFX to v0.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4660")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4660.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4660.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4660"
+  , issueCreatedAt = 2015 (-05) (-07) 12 : 03 : 53 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project AudioFX to v0.0.2.\n\n@madebywild\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"AudioFX\",\n    \"repo\": \"madebywild/audioFX\",\n    \"files\": {\n      \"include\": [\"dist/AudioFX.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/audiofx\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.0.1\", \"v0.0.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/audiofx/0.0.2\",\n  \"branch\": \"AudioFX/v0.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 73960276
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

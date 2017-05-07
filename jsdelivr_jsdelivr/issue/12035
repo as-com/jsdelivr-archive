@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-13) 05 : 28 : 26 UTC
+  , issueUpdatedAt = 2016 (-06) (-13) 05 : 28 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12035/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12035")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12035
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1938082
+        , simpleUserLogin = N "vsaravind007"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1938082?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vsaravind007"
+        }
+  , issueTitle = "Patch 3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12035")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12035.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12035.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12035"
+  , issueCreatedAt = 2016 (-06) (-07) 11 : 51 : 42 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 158903956
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

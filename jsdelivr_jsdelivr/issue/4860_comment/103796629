@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-20) 07 : 39 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/103796629"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4860#issuecomment-103796629"
+  , issueCommentCreatedAt = 2015 (-05) (-20) 07 : 39 : 30 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` has a few problems\n  - Where is the highlight.js's mainfile (_,highlight.min.js_) in v-_7.3_\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _highlight.js_ between _8.5.0_ and _8.6.0_ there was a change in file structure  \n  \n  ``` diff\n  + languages/armasm.min.js\n  + languages/cal.min.js\n  + languages/ceylon.min.js\n  + languages/dns.min.js\n  + languages/inform7.min.js\n  + languages/openscad.min.js\n  + languages/tp.min.js\n  + styles/atelier-cave.dark.min.css\n  + styles/atelier-cave.light.min.css\n  + styles/atelier-estuary.dark.min.css\n  + styles/atelier-estuary.light.min.css\n  + styles/atelier-plateau.dark.min.css\n  + styles/atelier-plateau.light.min.css\n  + styles/atelier-savanna.dark.min.css\n  + styles/atelier-savanna.light.min.css\n  + styles/github-gist.min.css\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Half measures are as bad as nothing at all._\n"
+  , issueCommentId = 103796629
+  }

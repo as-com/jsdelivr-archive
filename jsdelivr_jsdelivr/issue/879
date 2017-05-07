@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-02) 14 : 39 : 01 UTC
+  , issueUpdatedAt = 2014 (-07) (-21) 22 : 40 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/879/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/879")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 879
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1010430
+        , simpleUserLogin = N "brycekahle"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1010430?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/brycekahle"
+        }
+  , issueTitle = "Add SockJS 0.3.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/879")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/879.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/879.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/879"
+  , issueCreatedAt = 2014 (-06) (-02) 14 : 29 : 07 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 34777673
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

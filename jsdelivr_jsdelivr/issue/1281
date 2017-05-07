@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-23) 18 : 53 : 10 UTC
+  , issueUpdatedAt = 2014 (-07) (-23) 21 : 05 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1281/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1281")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1281
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project typeahead.js to v0.10.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1281")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1281.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1281.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1281"
+  , issueCreatedAt = 2014 (-07) (-23) 17 : 06 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project typeahead.js to v0.10.4.\n\n@twitter\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"typeahead.js\",\n    \"repo\": \"twitter/typeahead.js\",\n    \"files\": {\n      \"basePath\": \"dist\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/typeahead.js\",\n    \"localVersions\": [\"0.8.2\", \"0.9.2\", \"0.9.3\", \"0.10.0\", \"0.10.1\", \"0.10.2\"],\n    \"remoteVersions\": [\"v0.8.0\", \"v0.8.1\", \"v0.8.2\", \"v0.9.0\", \"v0.9.1\", \"v0.9.2\", \"v0.9.3\", \"v0.10.0\", \"v0.10.1\", \"v0.10.2\", \"v0.10.3\", \"v0.10.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.10.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/typeahead.js/0.10.4\",\n  \"branch\": \"typeahead.js/v0.10.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 38550008
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

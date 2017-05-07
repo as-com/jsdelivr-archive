@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-02) 22 : 16 : 20 UTC
+  , issueUpdatedAt = 2016 (-11) (-02) 22 : 16 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14606/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14606")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14606
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4086163
+        , simpleUserLogin = N "pettarin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4086163?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pettarin"
+        }
+  , issueTitle = "Add espeakng.js project to jsdelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14606")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14606.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14606.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14606"
+  , issueCreatedAt = 2016 (-11) (-02) 13 : 19 : 38 UTC
+  , issueBody = Just "Created with info.ini and update.json only."
+  , issueState = StateClosed
+  , issueId = Id 186798389
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

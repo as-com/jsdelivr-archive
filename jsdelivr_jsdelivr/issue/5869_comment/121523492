@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-15) 08 : 06 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/121523492"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/5869#issuecomment-121523492"
+  , issueCommentCreatedAt = 2015 (-07) (-15) 08 : 06 : 42 UTC
+  , issueCommentBody =
+      "Before the release of `1.0.0` if you entered `1.0.0` it would be aliased to `1.0.0-rc8`. This function is cached for 7 days for performance reasons. \nSo what you see now is probably the still old cache of that version. These changes are not supposed to be instant and get purged gradually across all CDNs. \n\nRegardless I purged the cache manually for your file. check it out\n"
+  , issueCommentId = 121523492
+  }

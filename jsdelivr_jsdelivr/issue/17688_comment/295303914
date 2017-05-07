@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-04) (-19) 15 : 10 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/295303914"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17688#issuecomment-295303914"
+  , issueCommentCreatedAt = 2017 (-04) (-19) 15 : 10 : 08 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *fontawesome* between *3.0* and *2.0.0* there was a change in file structure  \n    ```diff\n    - css/font-awesome-ie7.min.css\n    - css/font-awesome.min.css\n    - font/FontAwesome.otf\n    - font/fontawesome-webfont.eot\n    - font/fontawesome-webfont.ttf\n    - font/fontawesome-webfont.woff\n    - less/font-awesome-ie7.less\n    - less/font-awesome.less\n    - sass/font-awesome.sass\n    - sass/font-awesome.scss\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Half measures are as bad as nothing at all.*\n"
+  , issueCommentId = 295303914
+  }

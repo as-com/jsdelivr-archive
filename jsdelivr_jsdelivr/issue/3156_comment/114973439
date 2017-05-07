@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-24) 18 : 29 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/114973439"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3156#issuecomment-114973439"
+  , issueCommentCreatedAt = 2015 (-06) (-24) 18 : 28 : 59 UTC
+  , issueCommentBody =
+      "Actually @edrex it looks like their grunt file contains scripts to minify the code - they just don't publish it to github. Two options, a) file an issue asking them to push the built code (and we can setup auto updating) b) build it yourself and submit a PR here\n\nhttps://github.com/hakimel/reveal.js/blob/3.1.0/Gruntfile.js\n\nLooks like it would be these commands to build the minified files\n\n```\ngrunt js\ngrunt css\n```\n\n/cc @hakimel\n"
+  , issueCommentId = 114973439
+  }

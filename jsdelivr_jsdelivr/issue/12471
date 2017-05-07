@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-30) 05 : 34 : 15 UTC
+  , issueUpdatedAt = 2016 (-06) (-30) 05 : 34 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12471/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12471")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12471
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ol3-contextmenu to 2.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12471")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12471.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12471.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12471"
+  , issueCreatedAt = 2016 (-06) (-30) 05 : 34 : 09 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ol3-contextmenu to 2.2.1.\n\n@jonataswalker\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ol3-contextmenu\",\n    \"repo\": \"jonataswalker/ol3-contextmenu\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"ol3-contextmenu.js\", \"ol3-contextmenu.css\", \"ol3-contextmenu.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/openlayers.contextmenu\",\n    \"localVersions\": [\"0.1.0\", \"1.0.0\", \"1.0.1\", \"1.1.0\", \"1.2.0\", \"2.0.0\", \"2.0.1\", \"2.1.0\", \"2.2.0\"],\n    \"remoteVersions\": [\"v0.1\", \"1.0.0\", \"1.0.1\", \"1.1.0\", \"1.2.0\", \"2.0.0\", \"2.0.1\", \"2.1.0\", \"2.2.0\", \"2.2.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/openlayers.contextmenu/update.json\",\n  \"versions\": [\"2.2.1\"],\n  \"updateRemote\": true,\n  \"version\": \"2.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/openlayers.contextmenu/2.2.1\",\n  \"branch\": \"ol3-contextmenu/2.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 163084289
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

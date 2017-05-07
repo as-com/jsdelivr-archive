@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-05) 20 : 34 : 13 UTC
+  , issueUpdatedAt = 2015 (-07) (-05) 20 : 34 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5649/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5649")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5649
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project gridjs to 0.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5649")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5649.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5649.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5649"
+  , issueCreatedAt = 2015 (-07) (-05) 20 : 34 : 07 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project gridjs to 0.1.1.\n\n@gridjs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"gridjs\",\n    \"repo\": \"gridjs/gridjs\",\n    \"files\": {\n      \"include\": [\"gridjs.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/gridjs\",\n    \"localVersions\": [\"0.1.0\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/gridjs/update.json\",\n  \"version\": \"0.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/gridjs/0.1.1\",\n  \"branch\": \"gridjs/0.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 93145190
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

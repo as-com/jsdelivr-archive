@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2017 (-04) (-02) 11 : 07 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17248/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/17248")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17248
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5389035
+        , simpleUserLogin = N "ritz078"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5389035?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ritz078"
+        }
+  , issueTitle = "Taking built files from npm."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17248"
+  , issueCreatedAt = 2017 (-03) (-28) 14 : 18 : 51 UTC
+  , issueBody =
+      Just
+        "Hi,\r\n\r\nI am the creator of [embed.js](https://github.com/ritz078/embed.js).\r\n\r\nEarlier the `dist` folder was available on github and the cdn was working fine. Then I removed it from github and added the `build` script to `prepublish` hook of npm. So currently the folder is available on npm but not github. So due to jsdelivr isn't updating. I there anything I need to do ? Any help is appreciated."
+  , issueState = StateOpen
+  , issueId = Id 217575783
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-01) 13 : 24 : 14 UTC
+  , issueUpdatedAt = 2015 (-06) (-01) 13 : 26 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5064/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5064")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5064
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 62333
+        , simpleUserLogin = N "j0k3r"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/62333?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/j0k3r"
+        }
+  , issueTitle = "Add medium-editor"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5064")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5064.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5064.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5064"
+  , issueCreatedAt = 2015 (-06) (-01) 12 : 31 : 37 UTC
+  , issueBody = Just "https://github.com/yabwe/medium-editor\n"
+  , issueState = StateClosed
+  , issueId = Id 83468787
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

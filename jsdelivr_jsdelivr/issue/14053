@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-24) 20 : 43 : 27 UTC
+  , issueUpdatedAt = 2016 (-10) (-24) 20 : 43 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14053/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/14053")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14053
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 993318
+        , simpleUserLogin = N "douglasdeodato"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/993318?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/douglasdeodato"
+        }
+  , issueTitle =
+      "how long does take to get to jsdelivr update a new release?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14053"
+  , issueCreatedAt = 2016 (-09) (-29) 21 : 39 : 55 UTC
+  , issueBody =
+      Just
+        "Hi guys,\n\nhow long does take to get to jsdelivr update a new release?\n\nI did a new release  36 minutes ago in my github project and still not publish.\n\nI have info and update running. \n\nthanks\n"
+  , issueState = StateClosed
+  , issueId = Id 180170178
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

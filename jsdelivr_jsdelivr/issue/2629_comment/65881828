@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-06) 02 : 45 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65881828"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2629#issuecomment-65881828"
+  , issueCommentCreatedAt = 2014 (-12) (-06) 02 : 24 : 32 UTC
+  , issueCommentBody =
+      "`Thumbs.db` & `.DS_Store` are system files, we definitely do not host those.\n\nI'm not sure why the `*.less` & `*.scss` files are needed?  Typically you don't distribute uncompiled & not-minified CSS source files via production websites.  You can in-browser-compile with LESS & a few do for 'live' LESS editing, but rare enough.  SCSS requires libsass C++ transpiled into JS; I doubt anyone would use that, & those should all be removed.\n\n[Instructions](http://bootswatch.com/):\n\n> Simply download a CSS file and replace the one in Bootstrap. \n"
+  , issueCommentId = 65881828
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-22) 01 : 31 : 59 UTC
+  , issueUpdatedAt = 2016 (-01) (-22) 01 : 32 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9267/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9267")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9267
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular.angular-cache to 4.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9267")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9267.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9267.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9267"
+  , issueCreatedAt = 2016 (-01) (-22) 01 : 31 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.angular-cache to 4.5.0.\n\n@jmdobry\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.angular-cache\",\n    \"repo\": \"jmdobry/angular-cache\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"angular-cache.js\", \"angular-cache.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.angular-cache\",\n    \"localVersions\": [\"2.3.0\", \"2.4.1\", \"3.1.1\", \"3.2.0\", \"3.2.1\", \"3.2.2\", \"3.2.3\", \"3.2.4\", \"3.2.5\", \"4.0.0\", \"4.0.1\", \"4.0.2\", \"4.1.0\", \"4.2.0\", \"4.2.2\", \"4.3.0\", \"4.3.1\", \"4.3.2\", \"4.4.0\", \"4.4.2\", \"4.4.3\"],\n    \"remoteVersions\": [\"0.8.1\", \"0.8.2\", \"0.9.0\", \"0.9.1\", \"1.0.0-rc.1\", \"1.0.0\", \"1.1.0\", \"1.2.0\", \"1.2.1\", \"2.0.0-rc.1\", \"2.0.0\", \"2.1.0\", \"2.1.1\", \"2.2.0\", \"2.3.0\", \"2.3.1\", \"2.3.2\", \"2.3.3\", \"2.3.4\", \"2.3.5\", \"2.3.6\", \"2.3.7\", \"2.4.0\", \"2.4.1\", \"3.0.0-beta.1\", \"3.0.0-beta.2\", \"3.0.0-beta.3\", \"3.0.0-beta.4\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.1.0\", \"3.1.1\", \"3.2.0\", \"3.2.1\", \"3.2.2\", \"3.2.3\", \"3.2.4\", \"3.2.5\", \"4.0.0\", \"4.0.1\", \"4.0.2\", \"4.1.0\", \"4.2.0\", \"4.2.1\", \"4.2.2\", \"4.3.0\", \"4.3.1\", \"4.3.2\", \"4.4.0\", \"4.4.1\", \"4.4.2\", \"4.4.3\", \"4.5.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.angular-cache/update.json\",\n  \"versions\": [\"1.2.1\", \"4.5.0\"],\n  \"updateRemote\": true,\n  \"version\": \"4.5.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.angular-cache/4.5.0\",\n  \"branch\": \"angular.angular-cache/4.5.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 128061340
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

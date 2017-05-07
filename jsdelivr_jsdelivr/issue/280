@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-22) 18 : 31 : 09 UTC
+  , issueUpdatedAt = 2014 (-01) (-23) 02 : 07 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/280/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/280")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 280
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 38454
+        , simpleUserLogin = N "akkumar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/38454?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/akkumar"
+        }
+  , issueTitle = "ngtable 0.3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/280")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/280.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/280.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/280"
+  , issueCreatedAt = 2014 (-01) (-22) 12 : 11 : 47 UTC
+  , issueBody =
+      Just
+        "ngTable available at:  https://github.com/esvit/ng-table\n\nAssets downloaded from: \nhttp://bazalt-cms.com/assets/ng-table/0.3.1/ng-table.js   / .css . \n"
+  , issueState = StateClosed
+  , issueId = Id 26084989
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

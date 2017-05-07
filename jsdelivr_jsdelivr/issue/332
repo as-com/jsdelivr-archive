@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-04) 23 : 47 : 41 UTC
+  , issueUpdatedAt = 2014 (-02) (-05) 00 : 09 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/332/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/332")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 332
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 831389
+        , simpleUserLogin = N "lewisgoddard"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/831389?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lewisgoddard"
+        }
+  , issueTitle = "Added jQuery.equalize (1.7)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/332")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/332.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/332.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/332"
+  , issueCreatedAt = 2014 (-02) (-04) 23 : 26 : 05 UTC
+  , issueBody =
+      Just
+        "[jQuery.equalize](http://github.com/eustasy/jquery.equalize) is a small jQuery plugin to equalize the height of elements within groups, or the entire page.\n"
+  , issueState = StateClosed
+  , issueId = Id 26925289
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

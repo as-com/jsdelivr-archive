@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-10) 01 : 36 : 40 UTC
+  , issueUpdatedAt = 2015 (-08) (-12) 16 : 19 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6334/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6334")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6334
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 95381
+        , simpleUserLogin = N "mstenta"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/95381?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mstenta"
+        }
+  , issueTitle = "Add OpenLayers 3.8.2."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6334")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6334.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6334.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6334"
+  , issueCreatedAt = 2015 (-08) (-10) 01 : 34 : 03 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 99948484
+  , issueComments = 15
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-05) (-04) 09 : 52 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/299141910"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17956#issuecomment-299141910"
+  , issueCommentCreatedAt = 2017 (-05) (-04) 09 : 52 : 06 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @deetail, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- There are some fundamental issues with your PR :no_good:  \n    - *files/moonball-custom/README.md* should be lowercase\n    - Unexpected file, *files/moonball-custom/README.md*\n- Looks like the `info.ini` or `update.json` has some problems\n    - The repository appears to have no tagged versions (https://github.com/deetail/moonball-custom/tags).\nSee [Github Creating Releases](https://help.github.com/articles/creating-releases/) or [Git tagging basics](https://git-scm.com/book/en/v2/Git-Basics-Tagging). Auto updating of the library will only take place when `tags` are created.\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*It's not fully shipped until it's fast.*\n"
+  , issueCommentId = 299141910
+  }

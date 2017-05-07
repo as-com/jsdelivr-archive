@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-21) 20 : 17 : 43 UTC
+  , issueUpdatedAt = 2016 (-12) (-21) 20 : 17 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15450/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15450")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15450
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9118707
+        , simpleUserLogin = N "obedm503"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/9118707?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/obedm503"
+        }
+  , issueTitle = "add bootmark"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15450")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15450.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15450.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15450"
+  , issueCreatedAt = 2016 (-12) (-21) 19 : 59 : 38 UTC
+  , issueBody =
+      Just "jquery plugin for client side markdown rendering"
+  , issueState = StateClosed
+  , issueId = Id 197019808
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

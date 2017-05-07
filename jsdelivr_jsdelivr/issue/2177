@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-31) 17 : 04 : 56 UTC
+  , issueUpdatedAt = 2014 (-10) (-31) 17 : 04 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2177/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2177")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2177
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6033531
+        , simpleUserLogin = N "misantronic"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6033531?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/misantronic"
+        }
+  , issueTitle = "added framewreck v.1.2.6a"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2177")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2177.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2177.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2177"
+  , issueCreatedAt = 2014 (-10) (-31) 17 : 04 : 08 UTC
+  , issueBody = Just "added framewreck v.1.2.6a\n"
+  , issueState = StateClosed
+  , issueId = Id 47418176
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

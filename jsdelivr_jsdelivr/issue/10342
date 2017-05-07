@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-08) 00 : 42 : 30 UTC
+  , issueUpdatedAt = 2016 (-03) (-08) 00 : 42 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10342/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10342")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10342
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3979555
+        , simpleUserLogin = N "sbwp"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3979555?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sbwp"
+        }
+  , issueTitle = "parallax.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10342")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10342.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10342.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10342"
+  , issueCreatedAt = 2016 (-03) (-07) 23 : 18 : 56 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 139124088
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

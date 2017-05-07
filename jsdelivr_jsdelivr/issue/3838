@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-12) 20 : 54 : 25 UTC
+  , issueUpdatedAt = 2015 (-03) (-12) 21 : 00 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3838/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3838")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3838
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 160161
+        , simpleUserLogin = N "JoshMock"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/160161?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/JoshMock"
+        }
+  , issueTitle = "Support for svg4everybody"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3838")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3838.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3838.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3838"
+  , issueCreatedAt = 2015 (-03) (-12) 20 : 47 : 40 UTC
+  , issueBody =
+      Just
+        "Adds files for the [svg4everybody](https://github.com/jonathantneal/svg4everybody) library, a polyfill for serving external SVG spritemaps.\n"
+  , issueState = StateClosed
+  , issueId = Id 60898606
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

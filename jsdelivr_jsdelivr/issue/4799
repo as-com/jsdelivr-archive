@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-16) 17 : 12 : 15 UTC
+  , issueUpdatedAt = 2015 (-05) (-16) 17 : 12 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4799/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4799")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4799
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project picnicss to 3.4.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4799")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4799.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4799.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4799"
+  , issueCreatedAt = 2015 (-05) (-16) 17 : 12 : 07 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project picnicss to 3.4.1.\n\n@picnicss\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"picnicss\",\n    \"repo\": \"picnicss/picnic\",\n    \"files\": {\n      \"basePath\": \"releases\",\n      \"include\": [\"picnic.min.css\", \"plugins.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/picnicss\",\n    \"localVersions\": [\"3.3.2\", \"3.4.0\"],\n    \"remoteVersions\": [\"v3.0\", \"3.1.0\", \"3.1.1\", \"3.3.0\", \"3.3.1\", \"3.3.2\", \"3.4.0\", \"3.4.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"3.4.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/picnicss/3.4.1\",\n  \"branch\": \"picnicss/3.4.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 77083371
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

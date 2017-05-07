@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-24) 22 : 00 : 57 UTC
+  , issueUpdatedAt = 2014 (-08) (-24) 22 : 02 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1519/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1519")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1519
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.velocity to 0.11.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1519")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1519.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1519.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1519"
+  , issueCreatedAt = 2014 (-08) (-24) 21 : 05 : 31 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.velocity to 0.11.9.\n\n@julianshapiro\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.velocity\",\n    \"repo\": \"julianshapiro/velocity\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"jquery.velocity.min.js\", \"velocity.ui.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.velocity\",\n    \"localVersions\": [\"0.0.0\", \"0.0.16\", \"0.0.22\", \"0.0.23\", \"0.1.0\", \"0.2.0\", \"0.2.1\", \"0.3.0\", \"0.4.0\", \"0.4.1\", \"0.5.0\", \"0.5.1\", \"0.5.2\", \"0.5.3\", \"0.6.0\", \"0.7.0\", \"0.8.0\", \"0.9.0\", \"0.10.0\", \"0.10.1\", \"0.11.0\", \"0.11.1\", \"0.11.2\", \"0.11.5\", \"0.11.6\", \"0.11.7\", \"0.11.8\"],\n    \"remoteVersions\": [\"0.0.18\", \"0.0.19\", \"0.0.20\", \"0.0.21\", \"0.0.22\", \"0.0.23\", \"0.1.0\", \"0.2.0\", \"0.2.1\", \"0.3.0\", \"0.4.0\", \"0.4.1\", \"0.5.0\", \"0.5.1\", \"0.5.2\", \"0.5.3\", \"0.6.0\", \"0.7.0\", \"0.8.0\", \"0.9.0\", \"0.10.0\", \"0.10.1\", \"0.11.0\", \"0.11.1\", \"0.11.2\", \"0.11.5\", \"0.11.6\", \"0.11.7\", \"0.11.8\", \"0.11.9\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.11.9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.velocity/0.11.9\",\n  \"branch\": \"jquery.velocity/0.11.9\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 41019658
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

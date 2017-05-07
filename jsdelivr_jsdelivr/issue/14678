@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-07) 04 : 47 : 03 UTC
+  , issueUpdatedAt = 2016 (-11) (-07) 05 : 19 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14678/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14678")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14678
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6586706
+        , simpleUserLogin = N "sachinchoolur"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6586706?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sachinchoolur"
+        }
+  , issueTitle = "Add lightgallery and its plugins"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14678")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14678.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14678.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14678"
+  , issueCreatedAt = 2016 (-11) (-06) 14 : 58 : 06 UTC
+  , issueBody =
+      Just
+        "lightGallery: A customizable, modular, responsive, lightbox gallery plugin\r\nGitHub: https://github.com/sachinchoolur/lightGallery\r\nDemo: http://sachinchoolur.github.io/lightGallery/"
+  , issueState = StateClosed
+  , issueId = Id 187566237
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

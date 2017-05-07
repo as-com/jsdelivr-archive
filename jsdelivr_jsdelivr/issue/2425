@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-19) 16 : 36 : 54 UTC
+  , issueUpdatedAt = 2014 (-11) (-19) 16 : 36 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2425/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2425")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2425
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project juicy-html to 0.0.20141119"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2425")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2425.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2425.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2425"
+  , issueCreatedAt = 2014 (-11) (-19) 16 : 36 : 00 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project juicy-html to 0.0.20141119.\n\n@Juicy\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"juicy-html\",\n    \"repo\": \"Juicy/juicy-html\",\n    \"files\": {\n      \"include\": [\"juicy-html.html\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/juicy-html\",\n    \"localVersions\": [\"0.0.20140720\"],\n    \"remoteVersions\": [\"v0.0.20131118\", \"v0.0.20131126\", \"v0.0.20131213\", \"v0.0.20131220\", \"v0.0.20140122\", \"v0.0.20140210\", \"0.0.20140221\", \"0.0.20140326\", \"0.0.20140429\", \"0.0.20140720\", \"0.0.20141119\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.0.20141119\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/juicy-html/0.0.20141119\",\n  \"branch\": \"juicy-html/0.0.20141119\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 49418253
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

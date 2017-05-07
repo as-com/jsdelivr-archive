@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-13) 02 : 51 : 08 UTC
+  , issueUpdatedAt = 2017 (-03) (-13) 02 : 51 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16811/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16811")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16811
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 64342
+        , simpleUserLogin = N "Spiralis"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/64342?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Spiralis"
+        }
+  , issueTitle =
+      "Adding IntelliSearch SearchClient javascript library to the jsdelivr CDN network"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16811")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16811.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16811.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16811"
+  , issueCreatedAt = 2017 (-03) (-09) 09 : 42 : 09 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 212983241
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

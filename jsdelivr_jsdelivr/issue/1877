@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-30) 20 : 51 : 07 UTC
+  , issueUpdatedAt = 2014 (-09) (-30) 20 : 51 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1877/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1877")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1877
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "Update jquery.midnight update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1877")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1877.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1877.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1877"
+  , issueCreatedAt = 2014 (-09) (-30) 20 : 50 : 44 UTC
+  , issueBody =
+      Just
+        "Made \"include\" into [array], fixing [libgrabber's globiness](https://github.com/jsdelivr/jsdelivr/pull/1875#issuecomment-57365456).\n"
+  , issueState = StateClosed
+  , issueId = Id 44498262
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

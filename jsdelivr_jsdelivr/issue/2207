@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-04) 17 : 18 : 13 UTC
+  , issueUpdatedAt = 2014 (-11) (-04) 20 : 55 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2207/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2207")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2207
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "Slimstat 3.8"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2207"
+  , issueCreatedAt = 2014 (-11) (-04) 16 : 07 : 51 UTC
+  , issueBody =
+      Just
+        "Hi guys, I updated my project as usual, but the autopull didn't work today :( Could you take a look?\n\nhttps://github.com/getusedtoit/wp-slimstat/releases\n\nThanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 47730200
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

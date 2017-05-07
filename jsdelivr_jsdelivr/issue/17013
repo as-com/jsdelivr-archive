@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 27 : 34 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 27 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17013/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17013")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17013
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery-form to v4.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17013")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17013.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17013.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17013"
+  , issueCreatedAt = 2017 (-03) (-19) 19 : 04 : 05 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery-form to v4.2.0.\n\n@jquery-form\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery-form\",\n    \"repo\": \"jquery-form/form\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.form\",\n    \"localVersions\": [\"3.09\", \"3.18\", \"3.24\", \"3.36\", \"3.45\", \"3.46\", \"3.48\", \"3.49\", \"3.50\", \"3.51\", \"4.0.1\", \"4.1.0\"],\n    \"remoteVersions\": [\"v3.19\", \"3.25.0-2013.01.18\", \"3.32.0-2013.04.09\", \"3.36\", \"3.37.0\", \"3.45.0\", \"3.46.0\", \"3.49\", \"3.50\", \"3.51\", \"v4.0.0\", \"v4.0.1\", \"v4.1.0\", \"v4.2.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.form/update.json\",\n  \"versions\": [\"v4.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v4.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.form/4.2.0\",\n  \"branch\": \"jquery-form/v4.2.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215286166
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

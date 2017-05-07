@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-26) 19 : 52 : 07 UTC
+  , issueUpdatedAt = 2016 (-08) (-26) 19 : 52 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13402/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13402")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13402
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2908209
+        , simpleUserLogin = N "delmicio"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2908209?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/delmicio"
+        }
+  , issueTitle = "Create update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13402")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13402.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13402.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13402"
+  , issueCreatedAt = 2016 (-08) (-23) 19 : 14 : 27 UTC
+  , issueBody =
+      Just
+        "I'm not sure if this is the correct way for this project. \nMay be could be grabbed from https://github.com/cdnjs/cdnjs/tree/master/ajax/libs/chosen\n"
+  , issueState = StateClosed
+  , issueId = Id 172782509
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

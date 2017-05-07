@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-11) (-14) 03 : 48 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14772/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/14772")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14772
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 44454
+        , simpleUserLogin = N "indolering"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/44454?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/indolering"
+        }
+  , issueTitle = "Flag mirrors"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14772"
+  , issueCreatedAt = 2016 (-11) (-14) 03 : 48 : 08 UTC
+  , issueBody =
+      Just
+        "I've found a few repos that are out-of-date (YDN-DB and StackTrace.js).  It would be nice if there was a way to flag this problem."
+  , issueState = StateOpen
+  , issueId = Id 189023187
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

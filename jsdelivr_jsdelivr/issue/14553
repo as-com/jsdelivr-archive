@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-31) 23 : 41 : 13 UTC
+  , issueUpdatedAt = 2016 (-10) (-31) 23 : 41 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14553/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14553")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14553
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project clipboard.js to v1.5.15"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14553")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14553.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14553.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14553"
+  , issueCreatedAt = 2016 (-10) (-31) 23 : 41 : 09 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project clipboard.js to v1.5.15.\n\n@zenorocha\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"clipboard.js\",\n    \"repo\": \"zenorocha/clipboard.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/clipboard.js\",\n    \"localVersions\": [\"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.4\", \"1.5.5\", \"1.5.6\", \"1.5.7\", \"1.5.8\", \"1.5.9\", \"1.5.10\", \"1.5.11\", \"1.5.12\", \"1.5.13\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.1.0\", \"v1.2.0\", \"v1.3.0\", \"v1.3.1\", \"v1.4.0\", \"v1.4.1\", \"v1.4.2\", \"v1.4.3\", \"v1.5.0\", \"v1.5.1\", \"v1.5.2\", \"v1.5.3\", \"v1.5.4\", \"v1.5.5\", \"v1.5.6\", \"v1.5.7\", \"v1.5.8\", \"v1.5.9\", \"v1.5.10\", \"v1.5.11\", \"v1.5.12\", \"v1.5.13\", \"v1.5.14\", \"v1.5.15\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/clipboard.js/update.json\",\n  \"versions\": [\"v1.5.15\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.5.15\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/clipboard.js/1.5.15\",\n  \"branch\": \"clipboard.js/v1.5.15\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 186429670
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

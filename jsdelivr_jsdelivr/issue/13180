@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-10) 22 : 04 : 16 UTC
+  , issueUpdatedAt = 2016 (-08) (-10) 22 : 04 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13180/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13180")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13180
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project mojs to 0.265.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13180")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13180.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13180.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13180"
+  , issueCreatedAt = 2016 (-08) (-10) 22 : 04 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project mojs to 0.265.8.\n\n@legomushroom\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"mojs\",\n    \"repo\": \"legomushroom/mojs\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"mo.js\", \"mo.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/mojs\",\n    \"localVersions\": [\"0.110.0\", \"0.110.1\", \"0.114.4\", \"0.117.0\", \"0.117.5\", \"0.119.0\", \"0.146.9\", \"0.147.3\", \"0.174.4\", \"0.265.6\"],\n    \"remoteVersions\": [\"0.110.0\", \"0.110.1\", \"0.114.4\", \"0.117.0\", \"0.117.5\", \"0.119.0\", \"0.146.9\", \"0.147.3\", \"0.174.4\", \"0.265.6\", \"0.265.8\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/mojs/update.json\",\n  \"versions\": [\"0.265.8\"],\n  \"updateRemote\": true,\n  \"version\": \"0.265.8\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/mojs/0.265.8\",\n  \"branch\": \"mojs/0.265.8\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 170529895
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

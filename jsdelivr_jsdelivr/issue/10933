@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-09) 14 : 08 : 22 UTC
+  , issueUpdatedAt = 2016 (-04) (-09) 14 : 08 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10933/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10933")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10933
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2342142
+        , simpleUserLogin = N "dkoes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2342142?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dkoes"
+        }
+  , issueTitle =
+      "manual update of release since libgrabber isn't working"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10933")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10933.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10933.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10933"
+  , issueCreatedAt = 2016 (-04) (-09) 13 : 58 : 18 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 147131104
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

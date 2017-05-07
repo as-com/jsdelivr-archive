@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 20 : 23 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 20 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13380/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13380")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13380
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 810601
+        , simpleUserLogin = N "thysultan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/810601?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thysultan"
+        }
+  , issueTitle = "Update update.json to use npm auto-updates for dio"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13380")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13380.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13380.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13380"
+  , issueCreatedAt = 2016 (-08) (-22) 19 : 13 : 48 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 172531079
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

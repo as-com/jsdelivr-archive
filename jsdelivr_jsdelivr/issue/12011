@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-11) 12 : 30 : 13 UTC
+  , issueUpdatedAt = 2016 (-06) (-11) 12 : 30 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12011/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/12011")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12011
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 280241
+        , simpleUserLogin = N "jcubic"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/280241?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jcubic"
+        }
+  , issueTitle = "Update jQuery Terminal"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12011"
+  , issueCreatedAt = 2016 (-06) (-06) 18 : 17 : 34 UTC
+  , issueBody =
+      Just
+        "jsdelivr have version 0.8.8 which is the last version from plugins.jquery.com but the last version of jQuery Terminal is 0.10.11 and is available from [npm](https://www.npmjs.com/package/jquery.terminal) and [github](https://github.com/jcubic/jquery.terminal).\n"
+  , issueState = StateClosed
+  , issueId = Id 158740879
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-06) 13 : 52 : 54 UTC
+  , issueUpdatedAt = 2016 (-06) (-06) 13 : 52 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11722/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11722")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11722
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 721309
+        , simpleUserLogin = N "bishtawi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/721309?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bishtawi"
+        }
+  , issueTitle = "Add node-uuid"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11722")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11722.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11722.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11722"
+  , issueCreatedAt = 2016 (-05) (-20) 06 : 28 : 26 UTC
+  , issueBody =
+      Just
+        "Add `node-uuid`, a library that generates RFC-compliant UUIDs. Can run in web browser, its not just node.\n"
+  , issueState = StateClosed
+  , issueId = Id 155895857
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 07 : 19 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 07 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17052/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17052")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17052
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project require-vuejs to 1.0.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17052")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17052.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17052.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17052"
+  , issueCreatedAt = 2017 (-03) (-21) 17 : 07 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project require-vuejs to 1.0.4.\n\n@edgardleal\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"require-vuejs\",\n    \"repo\": \"edgardleal/require-vuejs\",\n    \"files\": {\n      \"include\": [\"dist/require-vuejs.min.js\", \"dist/require-vuejs.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/require-vuejs\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/require-vuejs/update.json\",\n  \"versions\": [\"1.0.4\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/require-vuejs/1.0.4\",\n  \"branch\": \"require-vuejs/1.0.4\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215812091
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

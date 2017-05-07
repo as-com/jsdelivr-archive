@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-01) 17 : 09 : 36 UTC
+  , issueUpdatedAt = 2017 (-03) (-01) 17 : 09 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16647/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16647")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16647
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19142554
+        , simpleUserLogin = N "kygn1998"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/19142554?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kygn1998"
+        }
+  , issueTitle = "spoqaHanSans added missing font file"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16647")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16647.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16647.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16647"
+  , issueCreatedAt = 2017 (-03) (-01) 05 : 10 : 10 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 210981602
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

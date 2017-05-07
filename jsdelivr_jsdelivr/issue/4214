@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-07) 15 : 47 : 41 UTC
+  , issueUpdatedAt = 2015 (-04) (-08) 01 : 20 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4214/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4214")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4214
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6030646
+        , simpleUserLogin = N "c8seki"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6030646?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/c8seki"
+        }
+  , issueTitle = "Korean-Webfonts  - Fonts Update 20150407"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4214")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4214.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4214.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4214"
+  , issueCreatedAt = 2015 (-04) (-07) 14 : 21 : 28 UTC
+  , issueBody =
+      Just "Please review and merge this commit.\nThanks :)\n"
+  , issueState = StateClosed
+  , issueId = Id 66899141
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

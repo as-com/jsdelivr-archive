@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-17) 14 : 15 : 37 UTC
+  , issueUpdatedAt = 2013 (-12) (-17) 14 : 15 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/217/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/217")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 217
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 509790
+        , simpleUserLogin = N "pid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/509790?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pid"
+        }
+  , issueTitle = "add speakingurl v0.8.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/217")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/217.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/217.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/217"
+  , issueCreatedAt = 2013 (-12) (-17) 07 : 58 : 48 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 24405195
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

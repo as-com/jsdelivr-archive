@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-11) (-29) 19 : 34 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/263674241"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15041#issuecomment-263674241"
+  , issueCommentCreatedAt = 2016 (-11) (-29) 19 : 34 : 26 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *countdown* between *2.0.2* and *2.1.0* there was a change in file structure  \n    ```diff\n    + Gruntfile.js\n    - jquery.countdown-ar.js\n    - jquery.countdown-bg.js\n    - jquery.countdown-bn.js\n    - jquery.countdown-bs.js\n    - jquery.countdown-ca.js\n    - jquery.countdown-cs.js\n    - jquery.countdown-cy.js\n    - jquery.countdown-da.js\n    - jquery.countdown-de.js\n    - jquery.countdown-el.js\n    - jquery.countdown-es.js\n    - jquery.countdown-et.js\n    - jquery.countdown-fa.js\n    - jquery.countdown-fi.js\n    - jquery.countdown-fo.js\n    - jquery.countdown-fr.js\n    - jquery.countdown-gl.js\n    - jquery.countdown-gu.js\n    - jquery.countdown-he.js\n    - jquery.countdown-hr.js\n    - jquery.countdown-hu.js\n    - jquery.countdown-hy.js\n    - jquery.countdown-id.js\n    - jquery.countdown-is.js\n    - jquery.countdown-it.js\n    - jquery.countdown-ja.js\n    - jquery.countdown-kn.js\n    - jquery.countdown-ko.js\n    - jquery.countdown-lt.js\n    - jquery.countdown-lv.js\n    - jquery.countdown-ml.js\n    - jquery.countdown-ms.js\n    - jquery.countdown-my.js\n    - jquery.countdown-nb.js\n    - jquery.countdown-nl.js\n    - jquery.countdown-pl.js\n    - jquery.countdown-pt-BR.js\n    - jquery.countdown-ro.js\n    - jquery.countdown-ru.js\n    - jquery.countdown-sk.js\n    - jquery.countdown-sl.js\n    - jquery.countdown-sq.js\n    - jquery.countdown-sr-SR.js\n    - jquery.countdown-sr.js\n    - jquery.countdown-sv.js\n    - jquery.countdown-th.js\n    - jquery.countdown-tr.js\n    - jquery.countdown-uk.js\n    - jquery.countdown-ur.js\n    - jquery.countdown-uz.js\n    - jquery.countdown-vi.js\n    - jquery.countdown-zh-CN.js\n    - jquery.countdown-zh-TW.js\n    - jquery.countdown.css\n    - jquery.countdown.js\n    - jquery.countdown.min.js\n    - jquery.plugin.js\n    - jquery.plugin.min.js\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Responsive is better than fast.*\n"
+  , issueCommentId = 263674241
+  }

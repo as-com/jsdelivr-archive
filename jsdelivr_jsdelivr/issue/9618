@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-06) 17 : 02 : 07 UTC
+  , issueUpdatedAt = 2016 (-02) (-06) 17 : 02 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9618/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9618")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9618
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project covjson-reader to 0.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9618")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9618.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9618.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9618"
+  , issueCreatedAt = 2016 (-02) (-06) 17 : 02 : 00 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project covjson-reader to 0.6.0.\n\n@Reading-eScience-Centre\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"covjson-reader\",\n    \"repo\": \"Reading-eScience-Centre/covjson-reader\",\n    \"files\": {\n      \"include\": [\"*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/covjson-reader\",\n    \"localVersions\": [\"0.1.0\", \"0.1.1\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.3.5\", \"0.4.0\", \"0.5.0\", \"0.5.1\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.3.5\", \"0.4.0\", \"0.5.0\", \"0.5.1\", \"0.6.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/covjson-reader/update.json\",\n  \"versions\": [\"0.6.0\"],\n  \"updateRemote\": true,\n  \"version\": \"0.6.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/covjson-reader/0.6.0\",\n  \"branch\": \"covjson-reader/0.6.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 131876027
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

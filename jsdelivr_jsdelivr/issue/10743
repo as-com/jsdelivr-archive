@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-31) 19 : 54 : 44 UTC
+  , issueUpdatedAt = 2016 (-03) (-31) 19 : 54 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10743/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10743")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10743
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10674240
+        , simpleUserLogin = N "TheTannerRyan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/10674240?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/TheTannerRyan"
+        }
+  , issueTitle = "Add Climacons"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10743")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10743.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10743.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10743"
+  , issueCreatedAt = 2016 (-03) (-31) 19 : 54 : 21 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 145001335
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

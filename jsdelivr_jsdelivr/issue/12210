@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-18) 11 : 10 : 20 UTC
+  , issueUpdatedAt = 2016 (-06) (-18) 11 : 10 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12210/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12210")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12210
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 371814
+        , simpleUserLogin = N "louisameline"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/371814?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/louisameline"
+        }
+  , issueTitle = "Update jquery-tooltipster to v4.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12210")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12210.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12210.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12210"
+  , issueCreatedAt = 2016 (-06) (-15) 13 : 18 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 160419788
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

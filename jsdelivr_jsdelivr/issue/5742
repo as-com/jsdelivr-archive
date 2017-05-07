@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-10) 14 : 59 : 49 UTC
+  , issueUpdatedAt = 2015 (-07) (-10) 15 : 56 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5742/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5742")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5742
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1639302
+        , simpleUserLogin = N "abishekrsrikaanth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1639302?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/abishekrsrikaanth"
+        }
+  , issueTitle = "Adding Library Jquery.UI.Rotatable"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5742")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5742.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5742.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5742"
+  , issueCreatedAt = 2015 (-07) (-10) 10 : 36 : 38 UTC
+  , issueBody =
+      Just
+        "Repo: https://github.com/godswearhats/jquery-ui-rotatable\nDesc:  Adds a small handle to an HTML element to allow it to be rotated\n"
+  , issueState = StateClosed
+  , issueId = Id 94279749
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

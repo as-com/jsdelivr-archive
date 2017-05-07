@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-10) 13 : 44 : 13 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 13 : 58 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/782/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/782")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 782
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "add sigma.js vs 1.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/782")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/782.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/782.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/782"
+  , issueCreatedAt = 2014 (-05) (-10) 03 : 09 : 33 UTC
+  , issueBody =
+      Just
+        "This is a popular Javascript library for graphs. https://twitter.com/sigmajs\n\n@jimaek please confirm it's correct to include /files/sigma.js/plugins as well? They are important and also ship with the release download https://github.com/jacomyal/sigma.js/releases .\n\nThe filenames with uppercase letters are from the original version, no alterations.\n"
+  , issueState = StateClosed
+  , issueId = Id 33226311
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

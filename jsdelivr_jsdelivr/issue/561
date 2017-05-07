@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-03) 23 : 19 : 23 UTC
+  , issueUpdatedAt = 2014 (-09) (-03) 23 : 19 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/561/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/561")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 561
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "The Future of jsDelivr & Creating a Board"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/561"
+  , issueCreatedAt = 2014 (-04) (-03) 01 : 04 : 46 UTC
+  , issueBody =
+      Just
+        "Without a doubt, jsDelivr has made huge strides in the past 1+ year. It has grown from a small idea to a large open source project with 1,600 commits from 125 fellow community members. There has been a lot of work involved and @jimaek has done an amazing job. \n\nIn order for jsDelivr to keep growing, I believe creating a board of passionate and dedicated people should be considered. jsDelivr, for me, is really about making the web faster for people in all corners of the world. I have no doubt that if a team of people closely collaborate then jsDelivr will become even better.\n\nWith a project that has the potential of huge scale, I think the following roles can be considered. Founder/project manager (@jimaek), sponsorship outreach, web designer, web developer, api developer, networking and performance analyst, social media, and marketing. There are likely other roles that can be very useful too. Having people of different interests and experiences also helps greatly. For example, a group of developers that are highly involved doesn't necessarily help if there's no marketing or social media folks involved.\n\nI look forward to starting a conversation here with the intent of gauging the possibility of creating a board, potential interest, and roles. \n"
+  , issueState = StateClosed
+  , issueId = Id 30739319
+  , issueComments = 60
+  , issueMilestone = Nothing
+  }

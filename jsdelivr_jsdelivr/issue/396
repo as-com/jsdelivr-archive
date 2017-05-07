@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-28) 18 : 33 : 57 UTC
+  , issueUpdatedAt = 2014 (-07) (-04) 18 : 47 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/396/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/396")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 396
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueTitle = "Create proper Mootools file names and reminify"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/396")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/396.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/396.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/396"
+  , issueCreatedAt = 2014 (-02) (-28) 18 : 01 : 02 UTC
+  , issueBody =
+      Just
+        "Reminification using uglify (cdnjs and osscdn reminified with uglify as well) --- saves 6 kB per file over the yui compressed version\n\nThese names have bugged me ever since I started pulling Mootools from your cdn but I gotcha if you're against this\n"
+  , issueState = StateClosed
+  , issueId = Id 28520662
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

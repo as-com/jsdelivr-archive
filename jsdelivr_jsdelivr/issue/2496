@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-25) 12 : 32 : 30 UTC
+  , issueUpdatedAt = 2014 (-11) (-25) 12 : 32 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2496/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2496")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2496
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5516214
+        , simpleUserLogin = N "robman87"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5516214?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/robman87"
+        }
+  , issueTitle = " angular.flow test update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2496")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2496.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2496.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2496"
+  , issueCreatedAt = 2014 (-11) (-25) 11 : 55 : 29 UTC
+  , issueBody =
+      Just
+        "Removed latest version of angular.flow files to test update.json\n"
+  , issueState = StateClosed
+  , issueId = Id 50016516
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

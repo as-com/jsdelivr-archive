@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-14) 09 : 48 : 31 UTC
+  , issueUpdatedAt = 2015 (-05) (-14) 09 : 48 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4776/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4776")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4776
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project twix.js to 0.6.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4776")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4776.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4776.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4776"
+  , issueCreatedAt = 2015 (-05) (-14) 09 : 45 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project twix.js to 0.6.4.\n\n@icambron\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"twix.js\",\n    \"repo\": \"icambron/twix.js\",\n    \"files\": {\n      \"basePath\": \"bin/\",\n      \"include\": [\"*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/twix.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.3.0\", \"0.4.0\", \"0.5.0\", \"0.5.1\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.6.3\", \"0.6.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.6.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/twix.js/0.6.4\",\n  \"branch\": \"twix.js/0.6.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 76302821
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

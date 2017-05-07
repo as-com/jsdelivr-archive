@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-09) 10 : 15 : 18 UTC
+  , issueUpdatedAt = 2014 (-12) (-09) 10 : 15 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2665/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2665")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2665
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tweene to v0.5.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2665")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2665.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2665.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2665"
+  , issueCreatedAt = 2014 (-12) (-09) 10 : 09 : 38 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tweene to v0.5.4.\n\n@SkidX\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"tweene\",\n    \"repo\": \"SkidX/tweene\",\n    \"files\": {\n      \"basePath\": \"minified/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/tweene\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.5.2\", \"v0.5.3\", \"v0.5.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.5.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/tweene/0.5.4\",\n  \"branch\": \"tweene/v0.5.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 51409214
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-18) 19 : 52 : 03 UTC
+  , issueUpdatedAt = 2015 (-10) (-18) 19 : 52 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1814/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1814")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1814
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6118940
+        , simpleUserLogin = N "makyen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6118940?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/makyen"
+        }
+  , issueTitle =
+      "Add excanvas.js and excanvas.min.js from current, 1.0.8r1250, jqPlot release"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1814")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1814.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1814.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1814"
+  , issueCreatedAt = 2014 (-09) (-24) 19 : 42 : 26 UTC
+  , issueBody =
+      Just
+        "While these files could be obtained by the user from a different location, they are provided in the 1.0.8 release of jqPlot (https://bitbucket.org/cleonello/jqplot/downloads/jquery.jqplot.1.0.8r1250.zip) and referenced in the instructions/examples (http://www.jqplot.com/docs/files/usage-txt.html). Thus, this is where most users would be expecting to find them.  They probably don't notice that the files are missing because they don't test in older versions of IE.\n"
+  , issueState = StateClosed
+  , issueId = Id 43806290
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

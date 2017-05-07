@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-13) 19 : 48 : 16 UTC
+  , issueUpdatedAt = 2015 (-01) (-13) 19 : 48 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3050/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3050")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3050
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6156012
+        , simpleUserLogin = N "Artur-A"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6156012?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Artur-A"
+        }
+  , issueTitle = "Fixed font bugs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3050")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3050.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3050.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3050"
+  , issueCreatedAt = 2015 (-01) (-13) 19 : 04 : 58 UTC
+  , issueBody =
+      Just
+        "1) Chrome Mobile disturbs fonts if font base size is small. Base size\nwas 16 points, now extended to more than 2048 points.\n\n2) Some circled icons wrongly was moved to the left side. This affected\nonly Firefox which cuts off left part of this icons. Now fixed.\n"
+  , issueState = StateClosed
+  , issueId = Id 54233581
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-22) 17 : 34 : 27 UTC
+  , issueUpdatedAt = 2016 (-09) (-22) 17 : 34 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13940/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13940")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13940
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project miq to 1.11.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13940")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13940.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13940.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13940"
+  , issueCreatedAt = 2016 (-09) (-22) 17 : 34 : 24 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project miq to 1.11.0.\n\n@edwinm\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"miq\",\n    \"repo\": \"edwinm/miq\",\n    \"files\": {\n      \"include\": [\"miq-min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/miq\",\n    \"localVersions\": [\"1.2.0\", \"1.4.0\", \"1.7.0\", \"1.8.0\", \"1.9.0\", \"1.10.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.1.0\", \"1.2.0\", \"1.4.0\", \"1.7.0\", \"1.8.0\", \"1.9.0\", \"1.10.1\", \"1.11.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/miq/update.json\",\n  \"versions\": [\"1.11.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.11.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/miq/1.11.0\",\n  \"branch\": \"miq/1.11.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 178672962
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

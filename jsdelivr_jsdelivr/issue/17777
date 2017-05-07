@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-26) 15 : 19 : 07 UTC
+  , issueUpdatedAt = 2017 (-04) (-26) 15 : 19 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17777/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17777")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17777
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 41597
+        , simpleUserLogin = N "mistic100"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/41597?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mistic100"
+        }
+  , issueTitle = "Update project jQuery-QueryBuilder to 2.4.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17777")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17777.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17777.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17777"
+  , issueCreatedAt = 2017 (-04) (-24) 16 : 53 : 09 UTC
+  , issueBody =
+      Just
+        "I had to manually upload files because the bot didn't pick the tag for some reason"
+  , issueState = StateClosed
+  , issueId = Id 223884485
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

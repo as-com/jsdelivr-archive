@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-20) 15 : 51 : 44 UTC
+  , issueUpdatedAt = 2014 (-06) (-20) 17 : 05 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/978/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/978")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 978
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 93563
+        , simpleUserLogin = N "styloa"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/93563?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/styloa"
+        }
+  , issueTitle = "Adding Crafty Clicks JS v4.9.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/978")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/978.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/978.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/978"
+  , issueCreatedAt = 2014 (-06) (-19) 08 : 12 : 03 UTC
+  , issueBody =
+      Just
+        "This JS allows quick integration of UK postcode lookup functionality on a web page. Uses the Crafty Clicks API (based on the Royal Mail PAF).\n"
+  , issueState = StateClosed
+  , issueId = Id 36057612
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

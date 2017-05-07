@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-27) 16 : 07 : 49 UTC
+  , issueUpdatedAt = 2015 (-01) (-27) 16 : 07 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3216/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3216")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3216
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1504938
+        , simpleUserLogin = N "idleberg"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1504938?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/idleberg"
+        }
+  , issueTitle = "added m8tro-bootstrap"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3216")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3216.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3216.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3216"
+  , issueCreatedAt = 2015 (-01) (-27) 14 : 05 : 01 UTC
+  , issueBody =
+      Just "something went wrong squashing, so here's a clean PR\n"
+  , issueState = StateClosed
+  , issueId = Id 55621344
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-31) 16 : 54 : 32 UTC
+  , issueUpdatedAt = 2017 (-03) (-31) 16 : 54 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17307/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17307")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17307
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 221473
+        , simpleUserLogin = N "andrewgioia"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/221473?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/andrewgioia"
+        }
+  , issueTitle = "Correcting directory structure in update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17307")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17307.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17307.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17307"
+  , issueCreatedAt = 2017 (-03) (-30) 13 : 56 : 42 UTC
+  , issueBody =
+      Just
+        "Adding the necessary `./` prepending the asset files to maintain the directory structure."
+  , issueState = StateClosed
+  , issueId = Id 218205890
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

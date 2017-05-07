@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-21) 13 : 15 : 18 UTC
+  , issueUpdatedAt = 2016 (-03) (-21) 13 : 17 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10574/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/10574")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10574
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2727620
+        , simpleUserLogin = N "witoldszpur"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2727620?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/witoldszpur"
+        }
+  , issueTitle = "Minify version "
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10574"
+  , issueCreatedAt = 2016 (-03) (-21) 13 : 14 : 09 UTC
+  , issueBody =
+      Just
+        "Hi Guys,\n\nI add plugin to Jsdelivr (https://cdn.jsdelivr.net/jquery.cropit/0.5.1/jquery.cropit.js) CDN\n\nIs nice, because will be automatically update with new version and available for everyone.\n\nI want to thank you for your work in first place, but will be even better when you create also minify version of JS, which will be for those who use this CDN. Thank you very much \n"
+  , issueState = StateClosed
+  , issueId = Id 142343258
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

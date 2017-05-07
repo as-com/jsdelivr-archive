@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-24) 19 : 05 : 10 UTC
+  , issueUpdatedAt = 2015 (-04) (-24) 19 : 05 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1268/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1268")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1268
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "TODO: Update readme"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1268"
+  , issueCreatedAt = 2014 (-07) (-21) 23 : 55 : 03 UTC
+  , issueBody =
+      Just
+        "We should update our readme and include the part that its not required to fork the repo anymore to submit a project.\nA user can simply use the github GUI to create an info.ini and update.json files and allow the bot to handle the rest.\n"
+  , issueState = StateClosed
+  , issueId = Id 38356947
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

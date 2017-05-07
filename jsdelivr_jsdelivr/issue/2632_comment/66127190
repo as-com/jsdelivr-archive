@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-08) 15 : 02 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66127190"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-66127190"
+  , issueCommentCreatedAt = 2014 (-12) (-08) 15 : 00 : 41 UTC
+  , issueCommentBody =
+      "there might be broken img/font/etc issue. which use relative img/font path in css file.\ni experienced same issue in [xe-core](https://github.com/jsdelivr/jsdelivr/issues?q=xe-core)(CMS) and fixed it by adding image/swf/font files.\n"
+  , issueCommentId = 66127190
+  }

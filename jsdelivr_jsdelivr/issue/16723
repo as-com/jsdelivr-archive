@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-05) 20 : 54 : 09 UTC
+  , issueUpdatedAt = 2017 (-03) (-05) 20 : 59 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16723/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16723")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16723
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3511344
+        , simpleUserLogin = N "dalisoft"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3511344?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dalisoft"
+        }
+  , issueTitle = "Add Tez.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16723")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16723.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16723.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16723"
+  , issueCreatedAt = 2017 (-03) (-05) 20 : 51 : 08 UTC
+  , issueBody = Just "https://github.com/dalisoft/tez"
+  , issueState = StateClosed
+  , issueId = Id 211982910
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

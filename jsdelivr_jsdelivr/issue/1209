@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-14) 18 : 38 : 47 UTC
+  , issueUpdatedAt = 2014 (-07) (-14) 18 : 38 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1209/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1209")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1209
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5521045
+        , simpleUserLogin = N "astrolince"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5521045?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/astrolince"
+        }
+  , issueTitle = "add iframe-resizer"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1209")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1209.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1209.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1209"
+  , issueCreatedAt = 2014 (-07) (-14) 09 : 27 : 27 UTC
+  , issueBody =
+      Just
+        "iframe-resizer v2.5.1\n\nKeep same and cross domain iFrames sized to their content with support for window/content resizing, nesting and multiple iFrames. (Dependancy free, IE8+)\n\nhttp://davidjbradshaw.github.io/iframe-resizer/\n"
+  , issueState = StateClosed
+  , issueId = Id 37771070
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

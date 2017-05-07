@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-13) 11 : 27 : 17 UTC
+  , issueUpdatedAt = 2016 (-08) (-13) 11 : 27 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13207/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13207")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13207
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project persisto to v1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13207")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13207.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13207.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13207"
+  , issueCreatedAt = 2016 (-08) (-12) 18 : 04 : 40 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project persisto to v1.0.0.\n\n@mar10\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"persisto\",\n    \"repo\": \"mar10/persisto\",\n    \"files\": {\n      \"basePath\": \"dist\",\n      \"include\": [\"persisto.js\", \"persisto.min.js\", \"persisto.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/persisto\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.0.0\", \"v0.0.2\", \"v0.0.3\", \"v0.0.4\", \"v1.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/persisto/update.json\",\n  \"versions\": [\"v1.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/persisto/1.0.0\",\n  \"branch\": \"persisto/v1.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 170926480
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 19 : 59 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 19 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17039/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17039")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17039
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 23209608
+        , simpleUserLogin = N "Prebid-Vertoz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/23209608?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Prebid-Vertoz"
+        }
+  , issueTitle = "Pull request for vzscreentime.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17039")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17039.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17039.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17039"
+  , issueCreatedAt = 2017 (-03) (-21) 13 : 32 : 23 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 215740312
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

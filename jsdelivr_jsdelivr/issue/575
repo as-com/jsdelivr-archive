@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-04) 15 : 27 : 06 UTC
+  , issueUpdatedAt = 2014 (-04) (-04) 15 : 27 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/575/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/575")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 575
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3027536
+        , simpleUserLogin = N "bradberger"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3027536?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bradberger"
+        }
+  , issueTitle = "Added Topcoat"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/575")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/575.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/575.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/575"
+  , issueCreatedAt = 2014 (-04) (-04) 15 : 00 : 20 UTC
+  , issueBody =
+      Just
+        "Added Topcoat (from http://topcoat.io) v. 0.8.0 by Adobe Systems Inc.\n"
+  , issueState = StateClosed
+  , issueId = Id 30867527
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

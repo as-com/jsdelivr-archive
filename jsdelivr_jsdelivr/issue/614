@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-10) 12 : 22 : 30 UTC
+  , issueUpdatedAt = 2014 (-04) (-10) 12 : 22 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/614/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/614")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 614
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3512672
+        , simpleUserLogin = N "DannyCork"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3512672?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DannyCork"
+        }
+  , issueTitle = "adding CODEF JS library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/614")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/614.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/614.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/614"
+  , issueCreatedAt = 2014 (-04) (-09) 13 : 11 : 39 UTC
+  , issueBody =
+      Just "initial commit of http://codef.santo.fr/ library\n"
+  , issueState = StateClosed
+  , issueId = Id 31155504
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

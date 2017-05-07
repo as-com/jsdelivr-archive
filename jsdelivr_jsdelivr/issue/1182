@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-11) 15 : 59 : 31 UTC
+  , issueUpdatedAt = 2014 (-07) (-12) 05 : 29 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1182/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1182")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1182
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1005813
+        , simpleUserLogin = N "isaackwan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1005813?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaackwan"
+        }
+  , issueTitle = "webshim 1.14.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1182")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1182.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1182.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1182"
+  , issueCreatedAt = 2014 (-07) (-11) 06 : 26 : 39 UTC
+  , issueBody =
+      Just
+        "downloaded from: https://github.com/aFarkas/webshim/releases\nnote: modernizr is no longer included\n\n> removed dependency to Modernizr (still needed html5shiv or Modernizr to use semantic elements like section/article/main etc.), but not needed for video/audio/form and so on\n"
+  , issueState = StateClosed
+  , issueId = Id 37631041
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

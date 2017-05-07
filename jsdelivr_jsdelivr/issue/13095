@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-05) 14 : 49 : 25 UTC
+  , issueUpdatedAt = 2016 (-08) (-05) 14 : 49 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13095/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13095")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13095
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8983200
+        , simpleUserLogin = N "gasparesganga"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/8983200?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gasparesganga"
+        }
+  , issueTitle = "Add jQuery LoadingOverlay"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13095")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13095.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13095.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13095"
+  , issueCreatedAt = 2016 (-08) (-05) 14 : 23 : 41 UTC
+  , issueBody =
+      Just
+        "### jQuery LoadingOverlay\n- Shows a loading overlay on the whole page or over single DOM elements\n- Tracks a _counter_ to allow multiple calls on single target\n- Can auto resize according to its container (very useful if used over a DOM element being filled meanwhile)\n- Compatible with [Font Awesome](https://fortawesome.github.io/Font-Awesome/)\n- Can show a custom element to provide feedback to the user\n- Completely configurable\n- No external CSS, small footprint\n\nCurrently has **53** stars on [GitHub](https://github.com/gasparesganga/jquery-loading-overlay). \nComplete documentation [here](http://gasparesganga.com/labs/jquery-loading-overlay/).\n"
+  , issueState = StateClosed
+  , issueId = Id 169618809
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

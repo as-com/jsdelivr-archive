@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-21) 18 : 51 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 671836
+        , simpleUserLogin = N "viljamis"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/671836?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/viljamis"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/94903113"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4432#issuecomment-94903113"
+  , issueCommentCreatedAt = 2015 (-04) (-21) 18 : 51 : 27 UTC
+  , issueCommentBody =
+      "Noticed this popping up in my notifications. v1.12 is actually two years old already, current latest version is 1.0.39. Seems I\8217ve switched the way the releases are numbered and tagged at some point after releasing the plugin. So, what I did now, is that I went through the whole history of releases and cleaned up everything manually so there\8217s no more v1.12 at all and 1.0.39 should now be the latest.\n\nSorry about this!\n"
+  , issueCommentId = 94903113
+  }

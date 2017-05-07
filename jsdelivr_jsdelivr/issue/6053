@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-22) 16 : 54 : 09 UTC
+  , issueUpdatedAt = 2015 (-07) (-22) 16 : 54 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6053/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6053")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6053
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueTitle = "Create backbone.babysitter"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6053")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6053.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6053.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6053"
+  , issueCreatedAt = 2015 (-07) (-22) 16 : 16 : 23 UTC
+  , issueBody =
+      Just "Created via https://github.com/megawac/cdn-it\n"
+  , issueState = StateClosed
+  , issueId = Id 96606872
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

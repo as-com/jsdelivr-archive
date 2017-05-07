@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-16) 17 : 42 : 34 UTC
+  , issueUpdatedAt = 2014 (-11) (-17) 09 : 17 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2304/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2304")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2304
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 295778
+        , simpleUserLogin = N "klml"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/295778?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/klml"
+        }
+  , issueTitle = "add '.js' extension to load-multiple-files"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2304"
+  , issueCreatedAt = 2014 (-11) (-10) 22 : 01 : 24 UTC
+  , issueBody =
+      Just
+        "Can we add an optional '.js' extension to [load-multiple-files function](https://github.com/jsdelivr/jsdelivr/#load-multiple-files-with-single-http-request), additionally to the Content-Type: application/javascript header.\n\nSometimes there is a problem if you load JavaScript dynamically without trailing .js \n\n`//cdn.jsdelivr.net/g/jquery@2.1.0,fancybox@2.1.4` works, but\n\n`//cdn.jsdelivr.net/g/jquery@2.1.0,fancybox@2.1.4.js` or similar could be useful.\n"
+  , issueState = StateClosed
+  , issueId = Id 48319962
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

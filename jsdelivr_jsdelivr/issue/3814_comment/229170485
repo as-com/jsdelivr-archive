@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-28) 20 : 20 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 193816
+        , simpleUserLogin = N "brgrz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/193816?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/brgrz"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/229170485"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/3814#issuecomment-229170485"
+  , issueCommentCreatedAt = 2016 (-06) (-28) 20 : 20 : 46 UTC
+  , issueCommentBody =
+      "If the map doesn't exist the logical and semantical correct thing to do is to return a 404. Not \"The map is in an other castle\". No matter how cool that might sound.\n\nIf it is as you say that the request for the .map file only happens when opening Developer tools than I don't see how the 404 could present problems.\n\nOn the contrary, as it is now, my developer tools now open the console each and every time with a JS error which \"Failed to parse SourceMap\" clearly is. When I have my code error free I find it troublesome that the console keeps popping up because someone wrongfully decided to return some cool sentence which doesn't parse.\n\nMaybe you could put that sentence in a JS function so the response could get parsed by the browser?\n"
+  , issueCommentId = 229170485
+  }

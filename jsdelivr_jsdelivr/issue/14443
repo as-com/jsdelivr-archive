@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-20) 19 : 38 : 42 UTC
+  , issueUpdatedAt = 2016 (-10) (-21) 11 : 37 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14443/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14443")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14443
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 22962402
+        , simpleUserLogin = N "exactsales"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/22962402?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/exactsales"
+        }
+  , issueTitle = "Add Library Spotter_Tools"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14443")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14443.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14443.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14443"
+  , issueCreatedAt = 2016 (-10) (-20) 16 : 40 : 02 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 184280803
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

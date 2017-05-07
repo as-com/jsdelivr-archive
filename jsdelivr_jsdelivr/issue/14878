@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-21) 06 : 13 : 33 UTC
+  , issueUpdatedAt = 2016 (-11) (-21) 06 : 13 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14878/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14878")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14878
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 864393
+        , simpleUserLogin = N "bigtimebuddy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/864393?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bigtimebuddy"
+        }
+  , issueTitle = "Update for Pixi.js for v4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14878")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14878.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14878.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14878"
+  , issueCreatedAt = 2016 (-11) (-20) 20 : 44 : 14 UTC
+  , issueBody =
+      Just
+        "Pixi.js has been reorganized to remove the built files from Github. This switches the auto-update mechanism to use \"npm\" instead for \"github\" in the config.json."
+  , issueState = StateClosed
+  , issueId = Id 190582289
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

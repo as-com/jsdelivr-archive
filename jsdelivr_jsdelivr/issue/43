@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-06) (-27) 20 : 46 : 30 UTC
+  , issueUpdatedAt = 2014 (-07) (-13) 05 : 54 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/43/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/43")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 43
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1495196
+        , simpleUserLogin = N "mramato"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1495196?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mramato"
+        }
+  , issueTitle = "Add Cesium version b17"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/43")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/43.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/43.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/43"
+  , issueCreatedAt = 2013 (-06) (-27) 20 : 15 : 54 UTC
+  , issueBody =
+      Just
+        "@jimaek As you suggested, here's a pull request for [Cesium](AnalyticalGraphicsInc/cesium).  The Cesium community plans to put all new releases moving forward onto jsdelivr, so expect a pull request from us on the 1st or 2nd of every month.\n\nI think I got the format and structure of everything correct, let me know if I did something wrong.\n\nThanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 16111933
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

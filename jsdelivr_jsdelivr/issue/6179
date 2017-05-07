@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-30) 10 : 08 : 53 UTC
+  , issueUpdatedAt = 2015 (-07) (-30) 10 : 08 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6179/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6179")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6179
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8074163
+        , simpleUserLogin = N "pzmarzly"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8074163?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pzmarzly"
+        }
+  , issueTitle =
+      "Added background-size-polyfill (backgroundsize.htc)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6179")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6179.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6179.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6179"
+  , issueCreatedAt = 2015 (-07) (-29) 18 : 05 : 56 UTC
+  , issueBody =
+      Just
+        "Original: https://github.com/louisremi/background-size-polyfill\n"
+  , issueState = StateClosed
+  , issueId = Id 97995695
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

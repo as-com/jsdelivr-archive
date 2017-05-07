@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-21) 19 : 59 : 11 UTC
+  , issueUpdatedAt = 2014 (-11) (-21) 19 : 59 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2435/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2435")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2435
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = ".map file not gzipped and cached in cloudflare"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2435"
+  , issueCreatedAt = 2014 (-11) (-20) 06 : 16 : 18 UTC
+  , issueBody =
+      Just
+        "![image](https://cloud.githubusercontent.com/assets/7894760/5120279/f56cefda-70c2-11e4-8f17-621978122140.png)\n![image](https://cloud.githubusercontent.com/assets/7894760/5120569/1ad9a920-70c8-11e4-89b4-aebb0e74eecb.png)\n![image](https://cloud.githubusercontent.com/assets/7894760/5120572/2bc087a4-70c8-11e4-9144-cd6a9c49210e.png)\n\nit seems .map file is not cached or gzipped in cloudflrare.\n(there is no CF-cache-status header, and very slow, maxcdn is okay(gzipped and cached))\n\ni think it's because origin server does not gzip for .map file\nhttps://support.cloudflare.com/hc/en-us/articles/200168086-Does-CloudFlare-gzip-resources-\n\ncould you add gzip for .map in origin server?\n\n\\+ duplicated Vary:Accept-Encoding header in origin server, maxcdn.\n"
+  , issueState = StateClosed
+  , issueId = Id 49498570
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

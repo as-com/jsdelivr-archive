@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-15) 15 : 23 : 54 UTC
+  , issueUpdatedAt = 2016 (-08) (-15) 15 : 23 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13244/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13244")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13244
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jstree to 3.3.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13244")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13244.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13244.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13244"
+  , issueCreatedAt = 2016 (-08) (-15) 11 : 03 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jstree to 3.3.2.\n\n@vakata\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jstree\",\n    \"repo\": \"vakata/jstree\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.jstree\",\n    \"localVersions\": [\"pre1.0\", \"2.0.0a\", \"2.0.0-alpha\", \"3.0.0-beta3\", \"3.0.0-beta10\", \"3.1.1\", \"3.2.0\", \"3.2.1\", \"3.3.0\", \"3.3.1\"],\n    \"remoteVersions\": [\"2.0.0-alpha\", \"3.0.0-beta\", \"3.0.0-beta2\", \"3.0.0-beta3\", \"3.0.0-beta4\", \"3.0.0-beta5\", \"3.0.0-beta6\", \"3.0.0-beta7\", \"3.0.0-beta8\", \"3.0.0-beta9\", \"3.0.0-beta10\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.0.7\", \"3.0.8\", \"3.0.9\", \"3.1.0\", \"3.1.1\", \"3.2.0\", \"3.2.1\", \"3.3.0\", \"3.3.1\", \"3.3.2\"],\n    \"branchVersions\": [\"3.3.1\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.jstree/update.json\",\n  \"versions\": [\"3.3.2\"],\n  \"updateRemote\": true,\n  \"version\": \"3.3.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.jstree/3.3.2\",\n  \"branch\": \"jstree/3.3.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 171150297
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

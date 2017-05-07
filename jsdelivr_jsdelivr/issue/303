@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-26) 14 : 01 : 48 UTC
+  , issueUpdatedAt = 2014 (-01) (-26) 14 : 01 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/303/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/303")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 303
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1482938
+        , simpleUserLogin = N "xles"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1482938?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/xles"
+        }
+  , issueTitle = "Added Zurb Foundation 5.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/303")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/303.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/303.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/303"
+  , issueCreatedAt = 2014 (-01) (-26) 00 : 34 : 08 UTC
+  , issueBody =
+      Just
+        "Foundation 5.0.3 contains the fix for the sticky topbar, among other things.\n"
+  , issueState = StateClosed
+  , issueId = Id 26304591
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

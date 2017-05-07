@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-02) 08 : 57 : 22 UTC
+  , issueUpdatedAt = 2015 (-01) (-02) 08 : 57 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2833/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2833")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2833
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 999845
+        , simpleUserLogin = N "jkrehm"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/999845?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jkrehm"
+        }
+  , issueTitle = "Update metisMenu"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2833")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2833.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2833.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2833"
+  , issueCreatedAt = 2014 (-12) (-24) 00 : 14 : 37 UTC
+  , issueBody =
+      Just
+        "Also add update.json (there's a pull request that seems to have done this, but I don't see it in the repository).\n"
+  , issueState = StateClosed
+  , issueId = Id 52785793
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

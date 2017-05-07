@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-11) 17 : 34 : 32 UTC
+  , issueUpdatedAt = 2016 (-03) (-11) 17 : 34 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10400/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10400")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10400
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project primer to v2.7.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10400")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10400.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10400.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10400"
+  , issueCreatedAt = 2016 (-03) (-11) 17 : 34 : 29 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project primer to v2.7.1.\n\n@primer\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"primer\",\n    \"repo\": \"primer/primer\",\n    \"files\": {\n      \"basePath\": \"css/\",\n      \"include\": [\"primer.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/primer\",\n    \"localVersions\": [\"2.0.2\", \"2.0.3\", \"2.1.0\", \"2.2.0\", \"2.2.1\", \"2.3.0\", \"2.3.1\", \"2.3.2\", \"2.3.3\", \"2.3.4\", \"2.3.5\", \"2.4.0\", \"2.5.0\", \"2.6.0\", \"2.7.0\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.2.3\", \"v0.2.4\", \"v0.2.5\", \"v0.2.6\", \"v0.2.7\", \"v0.2.8\", \"v0.2.9\", \"v0.2.10\", \"v0.2.11\", \"v0.2.12\", \"v0.2.13\", \"v0.2.14\", \"v0.2.15\", \"v0.2.16\", \"v0.2.17\", \"v0.2.18\", \"v0.2.19\", \"v0.2.20\", \"v0.2.21\", \"v0.2.22\", \"v0.2.25\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"0.4.0\", \"0.5.0\", \"0.6.0\", \"0.6.1\", \"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"v0.7.4\", \"v0.8.0\", \"v0.8.1\", \"v0.8.2\", \"v0.8.3\", \"v0.8.4\", \"v0.8.5\", \"v0.9.0\", \"v0.10.0\", \"v0.11.0\", \"v0.12.0\", \"v0.13.0\", \"0.14.0\", \"0.15.0\", \"v0.16.0\", \"v0.16.1\", \"v0.16.2\", \"v0.17.0\", \"v0.17.1\", \"v0.18.0\", \"v0.19.0\", \"v0.20.0\", \"v0.21.0\", \"v0.22.0\", \"0.23.0\", \"0.24.0\", \"v0.25.0\", \"v0.26.0\", \"v0.27.0\", \"v0.28.0\", \"v0.29.0\", \"v0.30.0\", \"v0.31.0\", \"v0.32.0\", \"v0.33.0\", \"v0.34.0\", \"v0.35.0\", \"v0.36.0\", \"v0.37.0\", \"v0.38.0\", \"v0.39.0\", \"v1.0.1\", \"v1.1.3\", \"v2.0.2\", \"v2.0.3\", \"v2.1.0\", \"v2.2.0\", \"v2.2.1\", \"v2.3.0\", \"v2.3.1\", \"v2.3.2\", \"v2.3.3\", \"v2.3.4\", \"v2.3.5\", \"v2.4.0\", \"v2.5.0\", \"v2.6.0\", \"v2.7.0\", \"v2.7.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/primer/update.json\",\n  \"versions\": [\"v1.1.3\", \"v2.7.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.7.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/primer/2.7.1\",\n  \"branch\": \"primer/v2.7.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 140245342
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

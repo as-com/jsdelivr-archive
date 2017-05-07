@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-18) 20 : 08 : 22 UTC
+  , issueUpdatedAt = 2015 (-06) (-18) 20 : 08 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5363/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5363")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5363
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.ioslist to 2.0.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5363")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5363.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5363.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5363"
+  , issueCreatedAt = 2015 (-06) (-18) 20 : 08 : 18 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.ioslist to 2.0.6.\n\n@brianhadaway\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.ioslist\",\n    \"repo\": \"brianhadaway/iOSList\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"js/jquery.ioslist.min.js\", \"css/jquery.ioslist.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.ioslist\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v2.0.0\", \"v2.0.1\", \"2.0.2\", \"2.0.4\", \"2.0.5\", \"2.0.6\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.0.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.ioslist/2.0.6\",\n  \"branch\": \"jquery.ioslist/2.0.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 89385369
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

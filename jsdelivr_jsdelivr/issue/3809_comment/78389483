@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-11) 22 : 47 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/78389483"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/3809#issuecomment-78389483"
+  , issueCommentCreatedAt = 2015 (-03) (-11) 22 : 47 : 00 UTC
+  , issueCommentBody =
+      "We do have a way to purge the files, but to avoid abuse we dont make it public.\nFor now only 2 big companies know how to do it. \nIf you need this functionality then send me an email, otherwise in the future you can create a new ticket asking to purge a URL and I will do it asap.\n"
+  , issueCommentId = 78389483
+  }

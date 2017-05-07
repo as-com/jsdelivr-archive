@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-17) 15 : 50 : 49 UTC
+  , issueUpdatedAt = 2014 (-07) (-17) 17 : 24 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1228/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1228")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1228
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 645758
+        , simpleUserLogin = N "bzmw"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/645758?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bzmw"
+        }
+  , issueTitle = "Added Placeholder.js by James Allardice"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1228")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1228.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1228.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1228"
+  , issueCreatedAt = 2014 (-07) (-17) 15 : 21 : 23 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 38092729
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

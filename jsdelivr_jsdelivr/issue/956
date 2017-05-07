@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-16) 15 : 18 : 29 UTC
+  , issueUpdatedAt = 2014 (-06) (-16) 16 : 31 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/956/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/956")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 956
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1423566
+        , simpleUserLogin = N "johngeorgewright"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1423566?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/johngeorgewright"
+        }
+  , issueTitle = "Latest version of angular-auto-value"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/956")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/956.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/956.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/956"
+  , issueCreatedAt = 2014 (-06) (-16) 14 : 54 : 14 UTC
+  , issueBody =
+      Just
+        "Here be the latest version of angular-auto-value.\n\nhttps://github.com/johngeorgewright/angular-auto-value/issues/1\n\nThanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 35803833
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-12) (-19) 14 : 34 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5703402
+        , simpleUserLogin = N "yannickebongue"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5703402?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/yannickebongue"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/267978351"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15398#issuecomment-267978351"
+  , issueCommentCreatedAt = 2016 (-12) (-19) 14 : 34 : 44 UTC
+  , issueCommentBody =
+      "@megawac I'm trying to update the project jquery-ui-pinpad to 1.4.0 which comes with 4 new files mentioned by @jsdelivrbot above.\r\n\r\nThe aim is to keep the core with generic stuff, while the extensions contain only specific features.\r\n\r\nHave you any suggestions to realize this?\r\n\r\nKing regards!"
+  , issueCommentId = 267978351
+  }

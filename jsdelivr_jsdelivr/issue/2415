@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-18) 18 : 00 : 39 UTC
+  , issueUpdatedAt = 2014 (-11) (-18) 18 : 00 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2415/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2415")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2415
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project sparkjs to v0.2.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2415")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2415.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2415.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2415"
+  , issueCreatedAt = 2014 (-11) (-18) 17 : 38 : 51 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project sparkjs to v0.2.3.\n\n@spark\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"sparkjs\",\n    \"repo\": \"spark/sparkjs\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"spark.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/sparkjs\",\n    \"localVersions\": [\"0.1.0\", \"0.2.0\", \"0.2.1\", \"0.2.2\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.2.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.2.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/sparkjs/0.2.3\",\n  \"branch\": \"sparkjs/v0.2.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 49267047
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

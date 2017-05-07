@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-02) (-28) 16 : 49 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3468013
+        , simpleUserLogin = N "kevindb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3468013?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kevindb"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/283096076"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16544#issuecomment-283096076"
+  , issueCommentCreatedAt = 2017 (-02) (-28) 16 : 49 : 39 UTC
+  , issueCommentBody =
+      "Thank you for the merge! I hope I set up the auto-update feature properly.\r\n\r\nHow long should it take from the PR merge to see the updated library on the CDN? This line from the README indicates that it's pretty quick:\r\n> All changes made to this repo are synced to the CDN. It can take a few minutes for the changes to appear on the website.\r\n\r\nThe CDN is still showing an old version: http://www.jsdelivr.com/projects/jquery.form"
+  , issueCommentId = 283096076
+  }

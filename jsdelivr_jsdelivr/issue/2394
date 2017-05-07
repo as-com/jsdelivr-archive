@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-23) 17 : 00 : 48 UTC
+  , issueUpdatedAt = 2014 (-11) (-23) 17 : 00 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2394/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2394")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2394
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8555202
+        , simpleUserLogin = N "ZarinaIskakova"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8555202?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ZarinaIskakova"
+        }
+  , issueTitle =
+      "Fonts (go-2-old-western, hand-of-sean, ifc-insane-rodeo, ifc-insane-rodeo-bold, nexa-bold)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2394")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2394.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2394.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2394"
+  , issueCreatedAt = 2014 (-11) (-17) 05 : 22 : 26 UTC
+  , issueBody =
+      Just
+        "Fonts (go-2-old-western, hand-of-sean, ifc-insane-rodeo, ifc-insane-rodeo-bold, nexa-bold)\n"
+  , issueState = StateClosed
+  , issueId = Id 49040652
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

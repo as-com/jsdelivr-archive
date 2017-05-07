@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-01) 09 : 17 : 55 UTC
+  , issueUpdatedAt = 2014 (-04) (-01) 09 : 17 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/536/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/536")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 536
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3989019
+        , simpleUserLogin = N "drugsmouse"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3989019?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/drugsmouse"
+        }
+  , issueTitle = "add valums-fileuploader v2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/536")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/536.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/536.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/536"
+  , issueCreatedAt = 2014 (-03) (-31) 10 : 31 : 03 UTC
+  , issueBody =
+      Just
+        "Hi! A want to add valums-fileuploader library. Please look at my pool request.\n"
+  , issueState = StateClosed
+  , issueId = Id 30501312
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

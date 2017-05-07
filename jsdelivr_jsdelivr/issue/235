@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-25) 20 : 10 : 07 UTC
+  , issueUpdatedAt = 2013 (-12) (-25) 20 : 28 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/235/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/235")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 235
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 766031
+        , simpleUserLogin = N "Zverik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/766031?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Zverik"
+        }
+  , issueTitle = "MapBBCode Loader"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/235")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/235.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/235.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/235"
+  , issueCreatedAt = 2013 (-12) (-25) 19 : 48 : 55 UTC
+  , issueBody =
+      Just
+        "Hi! This is a supplemental script for MapBBCode library, which loads that library only when it's needed. It is possible to create map plugins for forums with this file alone \8212 and if it's uploaded to a CDN, with no files and no editing at all! There will be an article on habrahabr on that tomorrow :)\n\nThe catch is, I'd like to update files in this project when minor versions of MapBBCode are released, so users won't have to worry about those releases. Is it possible, or I will have to create new version every time?\n\nIf it's ok, please merge this project to your CDN. Thanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 24772482
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

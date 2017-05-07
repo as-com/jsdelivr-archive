@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-04) 07 : 19 : 46 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 18 : 48 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/884/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/884")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 884
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3435852
+        , simpleUserLogin = N "sunnykgupta"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3435852?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sunnykgupta"
+        }
+  , issueTitle = "Create history.adapter.extjs.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/884")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/884.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/884.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/884"
+  , issueCreatedAt = 2014 (-06) (-03) 11 : 29 : 05 UTC
+  , issueBody = Just "Added ext.js adapter to jsdelivr\n"
+  , issueState = StateClosed
+  , issueId = Id 34854561
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

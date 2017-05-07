@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-07) 14 : 26 : 49 UTC
+  , issueUpdatedAt = 2016 (-10) (-07) 14 : 26 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14267/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14267")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14267
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1233546
+        , simpleUserLogin = N "patros"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1233546?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/patros"
+        }
+  , issueTitle = "environment-indicator"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14267")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14267.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14267.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14267"
+  , issueCreatedAt = 2016 (-10) (-07) 14 : 16 : 59 UTC
+  , issueBody =
+      Just
+        "Visual environment indicator for web apps (i.e. dev, uat, staging, etc)\n"
+  , issueState = StateClosed
+  , issueId = Id 181680432
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-09) 04 : 12 : 47 UTC
+  , issueUpdatedAt = 2017 (-01) (-09) 04 : 12 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15643/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15643")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15643
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 254784
+        , simpleUserLogin = N "ethanpil"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/254784?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ethanpil"
+        }
+  , issueTitle = "Add kylefox/jquery-tablesort package."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15643")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15643.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15643.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15643"
+  , issueCreatedAt = 2017 (-01) (-05) 22 : 15 : 21 UTC
+  , issueBody =
+      Just
+        "This is a very useful and popular table sorter. Its also an optional inclusion for semantic-ui to be able to sort tables."
+  , issueState = StateClosed
+  , issueId = Id 199073805
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

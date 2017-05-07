@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-27) 10 : 00 : 56 UTC
+  , issueUpdatedAt = 2016 (-12) (-27) 10 : 00 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15518/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15518")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15518
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19267400
+        , simpleUserLogin = N "grenouille220"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/19267400?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/grenouille220"
+        }
+  , issueTitle = "New jQuery Musketeer Plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15518")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15518.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15518.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15518"
+  , issueCreatedAt = 2016 (-12) (-27) 09 : 54 : 14 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 197677460
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

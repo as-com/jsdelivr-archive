@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-16) 19 : 55 : 32 UTC
+  , issueUpdatedAt = 2016 (-12) (-16) 19 : 55 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15380/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15380")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15380
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5703402
+        , simpleUserLogin = N "yannickebongue"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5703402?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/yannickebongue"
+        }
+  , issueTitle = "Create project jquery-ui-pinpad"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15380")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15380.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15380.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15380"
+  , issueCreatedAt = 2016 (-12) (-16) 19 : 19 : 40 UTC
+  , issueBody = Just "Initial commit"
+  , issueState = StateClosed
+  , issueId = Id 196134650
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

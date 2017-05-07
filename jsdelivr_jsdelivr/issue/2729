@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-15) 09 : 04 : 16 UTC
+  , issueUpdatedAt = 2014 (-12) (-15) 09 : 04 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2729/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2729")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2729
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project conditionizr to 4.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2729")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2729.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2729.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2729"
+  , issueCreatedAt = 2014 (-12) (-15) 09 : 03 : 38 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project conditionizr to 4.5.0.\n\n@conditionizr\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"conditionizr\",\n    \"repo\": \"conditionizr/conditionizr\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"conditionizr.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/conditionizr\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v3.0.0\", \"v4.0.0\", \"v4.2.0\", \"v4.3.0\", \"v4.4.0\", \"4.5.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"4.5.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/conditionizr/4.5.0\",\n  \"branch\": \"conditionizr/4.5.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 51962580
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

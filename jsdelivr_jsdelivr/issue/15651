@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-09) 04 : 10 : 44 UTC
+  , issueUpdatedAt = 2017 (-01) (-09) 04 : 10 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15651/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15651")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15651
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1212885
+        , simpleUserLogin = N "coliff"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1212885?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coliff"
+        }
+  , issueTitle = "Update copyright year"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15651")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15651.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15651.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15651"
+  , issueCreatedAt = 2017 (-01) (-06) 08 : 53 : 20 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 199151221
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

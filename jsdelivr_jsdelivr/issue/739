@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-02) 06 : 56 : 18 UTC
+  , issueUpdatedAt = 2014 (-06) (-15) 16 : 47 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/739/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/739")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 739
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "Jquery update"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/739")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/739.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/739.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/739"
+  , issueCreatedAt = 2014 (-05) (-02) 06 : 28 : 27 UTC
+  , issueBody =
+      Just
+        "source:\n\n https://github.com/jquery/jquery/archive/1.11.1.tar.gz\n https://github.com/jquery/jquery/archive/2.1.1.tar.gz\n"
+  , issueState = StateClosed
+  , issueId = Id 32671032
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

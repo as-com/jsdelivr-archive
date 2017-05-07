@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-12) 21 : 02 : 56 UTC
+  , issueUpdatedAt = 2015 (-07) (-12) 21 : 02 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5823/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5823")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5823
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project maskjs to v0.52.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5823")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5823.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5823.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5823"
+  , issueCreatedAt = 2015 (-07) (-12) 20 : 34 : 15 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project maskjs to v0.52.0.\n\n@atmajs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"maskjs\",\n    \"repo\": \"atmajs/maskjs\",\n    \"files\": {\n      \"basePath\": \"lib/\",\n      \"include\": [\"mask.min.js\", \"mask.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/maskjs\",\n    \"localVersions\": [\"0.9.2\", \"0.9.3\", \"0.9.4\", \"0.9.5\", \"0.9.8\", \"0.9.9\", \"0.9.10\", \"0.9.11\", \"0.9.12\", \"0.9.13\", \"0.9.14\", \"0.10.1\", \"0.11.2\", \"0.12.3\", \"0.12.4\", \"0.12.5\", \"0.12.6\", \"0.12.7\", \"0.12.8\", \"0.12.10\", \"0.12.11\", \"0.12.14\", \"0.12.15\", \"0.12.16\", \"0.12.17\", \"0.12.18\", \"0.12.19\", \"0.12.20\", \"0.12.21\", \"0.12.22\", \"0.12.23\", \"0.51.24\", \"0.51.25\", \"0.51.26\", \"0.51.27\", \"0.51.28\", \"0.51.31\", \"0.51.32\", \"0.51.34\", \"0.51.35\", \"0.51.36\", \"0.51.37\"],\n    \"remoteVersions\": [\"v0.5.5\", \"v0.6.0\", \"v0.9.3\", \"v0.9.4\", \"v0.9.5\", \"v0.9.6\", \"v0.9.8\", \"v0.9.9\", \"v0.9.10\", \"v0.9.11\", \"v0.9.12\", \"v0.9.13\", \"v0.9.14\", \"v0.10.1\", \"v0.11.2\", \"v0.12.3\", \"v0.12.4\", \"v0.12.5\", \"v0.12.6\", \"v0.12.7\", \"v0.12.8\", \"v0.12.10\", \"v0.12.11\", \"v0.12.14\", \"v0.12.15\", \"v0.12.16\", \"v0.12.17\", \"v0.12.18\", \"v0.12.19\", \"v0.12.20\", \"v0.12.21\", \"v0.12.22\", \"v0.12.23\", \"v0.51.24\", \"v0.51.25\", \"v0.51.26\", \"v0.51.27\", \"v0.51.28\", \"v0.51.30\", \"v0.51.31\", \"v0.51.32\", \"v0.51.33\", \"v0.51.34\", \"v0.51.35\", \"v0.51.36\", \"v0.51.37\", \"v0.52.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/maskjs/update.json\",\n  \"version\": \"v0.52.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/maskjs/0.52.0\",\n  \"branch\": \"maskjs/v0.52.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 94597175
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

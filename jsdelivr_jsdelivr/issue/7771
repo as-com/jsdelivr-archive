@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-06) 09 : 11 : 47 UTC
+  , issueUpdatedAt = 2015 (-11) (-06) 12 : 30 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7771/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7771")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7771
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 55913
+        , simpleUserLogin = N "leandromoreira"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/55913?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/leandromoreira"
+        }
+  , issueTitle = "Patch 1 -  adds clappr dash playback"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7771")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7771.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7771.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7771"
+  , issueCreatedAt = 2015 (-11) (-05) 17 : 08 : 06 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 115329728
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

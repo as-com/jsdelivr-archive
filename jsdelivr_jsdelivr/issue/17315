@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-30) 20 : 34 : 33 UTC
+  , issueUpdatedAt = 2017 (-03) (-30) 20 : 34 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17315/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17315")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17315
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.ui-contextmenu to v1.16.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17315")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17315.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17315.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17315"
+  , issueCreatedAt = 2017 (-03) (-30) 20 : 34 : 29 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.ui-contextmenu to v1.16.0.\n\n@mar10\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.ui-contextmenu\",\n    \"repo\": \"mar10/jquery-ui-contextmenu\",\n    \"files\": {\n      \"include\": [\"jquery.ui-contextmenu.min.js\", \"jquery.ui-contextmenu.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.ui-contextmenu\",\n    \"localVersions\": [\"1.6.1\", \"1.7.0\", \"1.8.0\", \"1.8.1\", \"1.8.2\", \"1.9.0\", \"1.10.0\", \"1.11.0\", \"1.12.0\", \"1.13.0\", \"1.13.1\", \"1.14.0\", \"1.15.0\"],\n    \"remoteVersions\": [\"0.2.0\", \"0.3.0\", \"0.4.0\", \"0.5.0\", \"1.0.0\", \"1.1.0\", \"1.2.0\", \"1.2.2\", \"1.2.3\", \"1.2.4\", \"1.3.0\", \"v1.4.0\", \"v1.4.1\", \"v1.4.2\", \"v1.5.0\", \"v1.6.1\", \"v1.7.0\", \"v1.8.0\", \"v1.8.1\", \"v1.8.2\", \"v1.9.0\", \"v1.10.0\", \"v1.11.0\", \"v1.12.0\", \"v1.13.0\", \"v1.13.1\", \"v1.14.0\", \"v1.15.0\", \"v1.16.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.ui-contextmenu/update.json\",\n  \"versions\": [\"v1.16.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.16.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.ui-contextmenu/1.16.0\",\n  \"branch\": \"jquery.ui-contextmenu/v1.16.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 218319822
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

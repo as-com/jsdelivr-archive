@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-11) 06 : 36 : 36 UTC
+  , issueUpdatedAt = 2014 (-08) (-11) 10 : 35 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1400/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1400")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1400
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project pace to v0.5.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1400")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1400.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1400.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1400"
+  , issueCreatedAt = 2014 (-08) (-11) 06 : 35 : 22 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project pace to v0.5.6.\n\n@HubSpot\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"pace\",\n    \"repo\": \"HubSpot/pace\",\n    \"files\": {\n      \"include\": [\"pace.min.js\", \"pace.js\", \"./themes/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/pace\",\n    \"localVersions\": [\"0.4.10\", \"0.4.16\", \"0.4.17\", \"0.5.5\"],\n    \"remoteVersions\": [\"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\", \"v0.4.5\", \"v0.4.6\", \"v0.4.7\", \"v0.4.8\", \"v0.4.9\", \"v0.4.10\", \"v0.4.11\", \"v0.4.12\", \"v0.4.13\", \"v0.4.14\", \"v0.4.15\", \"v0.4.16\", \"v0.4.17\", \"v0.4.18\", \"v0.5.0\", \"v0.5.1\", \"v0.5.2\", \"v0.5.3\", \"v0.5.4\", \"v0.5.5\", \"v0.5.6\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.5.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/pace/0.5.6\",\n  \"branch\": \"pace/v0.5.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 39931630
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

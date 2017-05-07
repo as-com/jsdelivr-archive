@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-19) 14 : 13 : 26 UTC
+  , issueUpdatedAt = 2016 (-03) (-19) 14 : 13 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10539/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10539")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10539
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project auto-toc.js to 0.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10539")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10539.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10539.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10539"
+  , issueCreatedAt = 2016 (-03) (-19) 11 : 02 : 13 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project auto-toc.js to 0.0.1.\n\n@timaschew\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"auto-toc.js\",\n    \"repo\": \"timaschew/auto-toc.js\",\n    \"files\": {\n      \"include\": [\"index.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/auto-toc.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/auto-toc.js/update.json\",\n  \"versions\": [\"0.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/auto-toc.js/0.0.1\",\n  \"branch\": \"auto-toc.js/0.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 142051638
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

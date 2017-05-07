@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-23) 11 : 42 : 45 UTC
+  , issueUpdatedAt = 2016 (-02) (-23) 11 : 42 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9933/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9933")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9933
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project smooth-scroll to v9.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9933")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9933.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9933.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9933"
+  , issueCreatedAt = 2016 (-02) (-23) 11 : 42 : 42 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project smooth-scroll to v9.0.0.\n\n@cferdinandi\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"smooth-scroll\",\n    \"repo\": \"cferdinandi/smooth-scroll\",\n    \"files\": {\n      \"basePath\": \"dist/js/\",\n      \"include\": [\"smooth-scroll.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/smooth-scroll\",\n    \"localVersions\": [\"5.3.3\", \"5.3.7\", \"6.0.0\", \"7.0.0\", \"7.0.1\", \"7.0.2\", \"7.1.0\", \"7.1.1\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.1.0\", \"v2.0.0\", \"v2.2.0\", \"v2.3.0\", \"v2.4.0\", \"v2.8.0\", \"v2.9.0\", \"v2.10.0\", \"v2.11.0\", \"v3.0.0\", \"v3.3.0\", \"v4.0.0\", \"v4.8.2\", \"v5.0.0\", \"v5.0.1\", \"v5.0.4\", \"v5.1.0\", \"v5.1.4\", \"v5.2.0\", \"v5.3.3\", \"v5.3.6\", \"v5.3.7\", \"v6.0.0\", \"v7.0.0\", \"v7.0.1\", \"v7.0.2\", \"v7.1.0\", \"v7.1.1\", \"v8.0.0\", \"v8.1.0\", \"v9.0.0\", \"v9.0.1\", \"v9.1.0\", \"v9.1.1\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/smooth-scroll/update.json\",\n  \"versions\": [\"v8.0.0\", \"v8.1.0\", \"v9.0.0\", \"v9.0.1\", \"v9.1.0\", \"v9.1.1\"],\n  \"version\": \"v9.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/smooth-scroll/9.0.0\",\n  \"branch\": \"smooth-scroll/v9.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 135714282
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

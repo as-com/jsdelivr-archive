@@ -1,0 +1,31 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-18) 22 : 53 : 19 UTC
+  , issueUpdatedAt = 2014 (-09) (-19) 10 : 44 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1728/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1728")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1728
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4039372
+        , simpleUserLogin = N "mzf"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4039372?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mzf"
+        }
+  , issueTitle = "leap-ua.jsdelivr.net is down"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1728"
+  , issueCreatedAt = 2014 (-09) (-16) 03 : 48 : 18 UTC
+  , issueBody = Just "leap-ua.jsdelivr.net is down\n"
+  , issueState = StateClosed
+  , issueId = Id 42841955
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

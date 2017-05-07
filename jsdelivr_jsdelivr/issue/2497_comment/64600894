@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-26) 13 : 02 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64600894"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2497#issuecomment-64600894"
+  , issueCommentCreatedAt = 2014 (-11) (-26) 13 : 02 : 01 UTC
+  , issueCommentBody =
+      "You can change the remote to https but you'd be better off if you add a\nssh-key for git to use. (Can someone link the GitHub instructions?)\nOn Nov 26, 2014 7:46 AM, \"Robert Michalski\" notifications@github.com\nwrote:\n\n> git fetch upstream\n> \n> Permission denied (publickey).\n> fatal: Could not read from remote repository.\n> \n> Please make sure you have the correct access rights\n> and the repository exists.\n> \n> Should I just delete my repo and fork again?\n> \n> \8212\n> Reply to this email directly or view it on GitHub\n> https://github.com/jsdelivr/jsdelivr/pull/2497#issuecomment-64599176.\n"
+  , issueCommentId = 64600894
+  }

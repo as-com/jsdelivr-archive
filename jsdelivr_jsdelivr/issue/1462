@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-18) 18 : 55 : 19 UTC
+  , issueUpdatedAt = 2014 (-08) (-18) 18 : 56 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1462/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1462")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1462
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 330895
+        , simpleUserLogin = N "imsky"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/330895?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/imsky"
+        }
+  , issueTitle = "Update Holder.js to 2.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1462")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1462.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1462.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1462"
+  , issueCreatedAt = 2014 (-08) (-18) 18 : 53 : 05 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 40519455
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

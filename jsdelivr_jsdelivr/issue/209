@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-15) 12 : 32 : 30 UTC
+  , issueUpdatedAt = 2014 (-07) (-19) 12 : 39 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/209/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/209")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 209
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5640466
+        , simpleUserLogin = N "Exacore"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5640466?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Exacore"
+        }
+  , issueTitle = "Add jQuery jVanilla"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/209")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/209.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/209.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/209"
+  , issueCreatedAt = 2013 (-12) (-15) 10 : 11 : 09 UTC
+  , issueBody =
+      Just
+        "jVanilla is a menu jQuery plugin that takes an existing pure CSS\ndrop-down menu (so it degrades gracefully without JavaScript) and adds\nthe following enhancements.\n"
+  , issueState = StateClosed
+  , issueId = Id 24308734
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

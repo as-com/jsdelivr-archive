@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-07) 11 : 40 : 34 UTC
+  , issueUpdatedAt = 2014 (-09) (-07) 15 : 14 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1648/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1648")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1648
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "+ picturefill update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1648")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1648.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1648.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1648"
+  , issueCreatedAt = 2014 (-09) (-07) 07 : 29 : 48 UTC
+  , issueBody =
+      Just
+        "Important & popular polyfill.  Seems to be on track for a [new release](https://github.com/scottjehl/picturefill/releases) every 1-2 months now.\n\n@megawac I assume we don't need an array for `include` if it is only 1 file?\n"
+  , issueState = StateClosed
+  , issueId = Id 42136828
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

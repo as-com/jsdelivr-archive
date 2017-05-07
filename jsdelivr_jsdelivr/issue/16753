@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-06) 21 : 05 : 28 UTC
+  , issueUpdatedAt = 2017 (-03) (-06) 21 : 05 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16753/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16753")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16753
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project fabric.js to v1.7.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16753")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16753.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16753.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16753"
+  , issueCreatedAt = 2017 (-03) (-06) 21 : 03 : 45 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project fabric.js to v1.7.7.\n\n@kangax\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"fabric.js\",\n    \"repo\": \"kangax/fabric.js\",\n    \"files\": {\n      \"include\": [\"dist/fabric.min.js\", \"dist/fabric.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/fabric.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.9.35\", \"v1.0.13\", \"v1.1.0\", \"v1.2.0\", \"v1.3.0\", \"v1.3.7\", \"v1.4.0\", \"v1.4.4\", \"v1.4.5\", \"v1.4.6\", \"v1.4.7\", \"v1.4.8\", \"v1.4.9\", \"v1.4.10\", \"v1.4.11\", \"v1.4.12\", \"v1.4.13\", \"v1.5.0\", \"v1.6.0-rc.1\", \"v1.6.0\", \"v1.6.1\", \"1.6.2\", \"1.6.3\", \"1.6.4\", \"v1.6.5\", \"v1.6.6\", \"v1.6.7\", \"1.7.0\", \"v1.7.1\", \"v1.7.2\", \"v1.7.3\", \"1.7.4\", \"v1.7.5\", \"v1.7.6\", \"v1.7.7\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/fabric.js/update.json\",\n  \"versions\": [\"v1.7.7\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.7.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/fabric.js/1.7.7\",\n  \"branch\": \"fabric.js/v1.7.7\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 212249200
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

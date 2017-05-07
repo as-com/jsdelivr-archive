@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-19) 01 : 36 : 50 UTC
+  , issueUpdatedAt = 2017 (-03) (-19) 01 : 36 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17005/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17005")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17005
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project wingcss to 1.0.0-beta"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17005")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17005.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17005.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17005"
+  , issueCreatedAt = 2017 (-03) (-19) 01 : 36 : 46 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project wingcss to 1.0.0-beta.\n\n@kingpixil\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"wingcss\",\n    \"repo\": \"KingPixil/wing\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"wing.css\", \"wing.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/wing\",\n    \"localVersions\": [\"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.8\", \"0.1.9\"],\n    \"remoteVersions\": [\"0.0.2\", \"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.8\", \"0.1.9\", \"1.0.0-beta\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/wing/update.json\",\n  \"versions\": [\"1.0.0-beta\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.0-beta\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/wing/1.0.0-beta\",\n  \"branch\": \"wingcss/1.0.0-beta\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215234384
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

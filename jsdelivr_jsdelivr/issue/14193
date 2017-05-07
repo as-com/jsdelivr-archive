@@ -1,0 +1,44 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-03) 20 : 06 : 16 UTC
+  , issueUpdatedAt = 2016 (-10) (-05) 08 : 57 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14193/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14193")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14193
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16397136
+        , simpleUserLogin = N "Syncfusion-JavaScript"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16397136?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/Syncfusion-JavaScript"
+        }
+  , issueTitle =
+      "EXT-2121 - 2016 Volume 3 and Volume 2 SP-2 release changes merged."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14193")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14193.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14193.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14193"
+  , issueCreatedAt = 2016 (-10) (-03) 16 : 13 : 42 UTC
+  , issueBody =
+      Just
+        "Hi Team,\n\nWe have moved our latest version CSS and Script files. Please move this to jsDelivr master. \n\nThanks\n"
+  , issueState = StateClosed
+  , issueId = Id 180681634
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

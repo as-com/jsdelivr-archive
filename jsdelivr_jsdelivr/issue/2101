@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-23) 20 : 33 : 40 UTC
+  , issueUpdatedAt = 2014 (-10) (-23) 20 : 33 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2101/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2101")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2101
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-xml to 1.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2101")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2101.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2101.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2101"
+  , issueCreatedAt = 2014 (-10) (-23) 20 : 32 : 35 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-xml to 1.0.5.\n\n@johngeorgewright\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"angular-xml\",\n    \"repo\": \"johngeorgewright/angular-xml\",\n    \"files\": {\n      \"include\": [\"angular-xml.js\", \"angular-xml.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular.xml\",\n    \"localVersions\": [\"0.1.3\", \"0.1.4\", \"0.2.0\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.2.0\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.0.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.xml/1.0.5\",\n  \"branch\": \"angular-xml/1.0.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 46673296
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

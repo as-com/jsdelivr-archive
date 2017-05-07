@@ -1,0 +1,31 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-04) 08 : 25 : 34 UTC
+  , issueUpdatedAt = 2016 (-05) (-04) 08 : 25 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11326/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/11326")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11326
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 123822
+        , simpleUserLogin = N "vvo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/123822?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vvo"
+        }
+  , issueTitle = "places.js 0.20.0 is not available on CDN"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11326"
+  , issueCreatedAt = 2016 (-04) (-27) 18 : 07 : 42 UTC
+  , issueBody = Just "was merged some time ago, thanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 151452414
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

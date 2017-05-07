@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-12) 16 : 41 : 00 UTC
+  , issueUpdatedAt = 2014 (-12) (-12) 16 : 41 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2709/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2709")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2709
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project webmail-linker to 0.1.25"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2709")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2709.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2709.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2709"
+  , issueCreatedAt = 2014 (-12) (-12) 16 : 40 : 46 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project webmail-linker to 0.1.25.\n\n@sebbo2002\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"webmail-linker\",\n    \"repo\": \"sebbo2002/webmail-linker.js\",\n    \"files\": {\n      \"basePath\": \"lib/browser/\",\n      \"include\": [\"webmail-linker.min.js\", \"webmail-linker.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/webmail-linker.js\",\n    \"localVersions\": [\"0.1.6\", \"0.1.7\", \"0.1.9\", \"0.1.19\", \"0.1.21\", \"0.1.23\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.6\", \"0.1.7\", \"0.1.9\", \"0.1.18\", \"0.1.19\", \"0.1.21\", \"0.1.23\", \"0.1.25\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.1.25\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/webmail-linker.js/0.1.25\",\n  \"branch\": \"webmail-linker/0.1.25\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 51825984
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-12) 18 : 46 : 47 UTC
+  , issueUpdatedAt = 2017 (-04) (-12) 19 : 02 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17524/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17524")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17524
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project edgemesh to 1.4.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17524")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17524.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17524.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17524"
+  , issueCreatedAt = 2017 (-04) (-11) 19 : 03 : 29 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project edgemesh to 1.4.2.\n\n@edgemesh\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"edgemesh\",\n    \"repo\": \"edgemesh/edgemesh\",\n    \"files\": {\n      \"basePath\": \"dist\",\n      \"include\": [\"edgemesh.client.min.js\", \"edgemesh.hub.min.js\", \"edgemesh.worker.min.js\", \"edgemesh.sw.min.js\", \"edgemesh.track.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/edgemesh\",\n    \"localVersions\": [\"1.4.0\", \"1.4.1\"],\n    \"remoteVersions\": [\"0.0.0\", \"0.1.3\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.3.4\", \"1.4.0\", \"1.4.1\", \"1.4.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/edgemesh/update.json\",\n  \"versions\": [\"1.4.2\"],\n  \"updateRemote\": true,\n  \"version\": \"1.4.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/edgemesh/1.4.2\",\n  \"branch\": \"edgemesh/1.4.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 221049370
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

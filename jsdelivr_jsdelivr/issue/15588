@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-04) 10 : 22 : 07 UTC
+  , issueUpdatedAt = 2017 (-01) (-04) 10 : 22 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15588/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15588")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15588
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15933
+        , simpleUserLogin = N "fabricionaweb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/15933?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/fabricionaweb"
+        }
+  , issueTitle = "Update fetch js to 2.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15588")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15588.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15588.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15588"
+  , issueCreatedAt = 2017 (-01) (-01) 21 : 55 : 27 UTC
+  , issueBody =
+      Just
+        "They do not have dist files... so we can not create an update rules..."
+  , issueState = StateClosed
+  , issueId = Id 198283271
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

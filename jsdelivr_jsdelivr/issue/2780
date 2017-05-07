@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-19) 21 : 32 : 27 UTC
+  , issueUpdatedAt = 2014 (-12) (-19) 21 : 32 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2780/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2780")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2780
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 139212
+        , simpleUserLogin = N "arturparkhisenko"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/139212?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/arturparkhisenko"
+        }
+  , issueTitle = "Add webcomponentsjs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2780"
+  , issueCreatedAt = 2014 (-12) (-19) 08 : 59 : 46 UTC
+  , issueBody =
+      Just
+        "https://github.com/webcomponents/webcomponentsjs\nA suite of polyfills supporting the Web Components specs.\n"
+  , issueState = StateClosed
+  , issueId = Id 52460957
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

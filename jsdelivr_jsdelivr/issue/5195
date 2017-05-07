@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-28) 21 : 13 : 55 UTC
+  , issueUpdatedAt = 2015 (-07) (-28) 21 : 13 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5195/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5195")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5195
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9922067
+        , simpleUserLogin = N "korusdipl"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9922067?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/korusdipl"
+        }
+  , issueTitle = "korean-webfonts Update - Fixed"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5195")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5195.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5195.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5195"
+  , issueCreatedAt = 2015 (-06) (-06) 11 : 10 : 33 UTC
+  , issueBody =
+      Just
+        "Fixed pull req from https://github.com/jsdelivr/jsdelivr/pull/5191\n\nHope this resolves all issues\n"
+  , issueState = StateClosed
+  , issueId = Id 85737252
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-25) 14 : 17 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64405249"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2499#issuecomment-64405249"
+  , issueCommentCreatedAt = 2014 (-11) (-25) 14 : 17 : 14 UTC
+  , issueCommentBody =
+      "I believe this config is enough.\n\n```\n{\n  \"packageManager\": \"github\",\n  \"name\": \"angular-gantt\",\n  \"repo\": \"angular-gantt/angular-gantt\",\n  \"files\": {\n    \"basePath\": \"dist/\",\n    \"include\": [\"*.min.*\"]\n  }\n}\n\n```\n\nCan you also remove all files except from info.ini and update.json? The bot will then automatically add only the minified files\n"
+  , issueCommentId = 64405249
+  }

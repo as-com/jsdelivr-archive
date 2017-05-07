@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-15) 09 : 01 : 27 UTC
+  , issueUpdatedAt = 2016 (-04) (-15) 09 : 01 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11065/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11065")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11065
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project peity to v2.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11065")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11065.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11065.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11065"
+  , issueCreatedAt = 2016 (-04) (-15) 09 : 01 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project peity to v2.0.5.\n\n@benpickles\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"peity\",\n    \"repo\": \"benpickles/peity\",\n    \"files\": {\n      \"include\": [\"jquery.peity.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.peity\",\n    \"localVersions\": [\"2.0.3\", \"3.2.0\"],\n    \"remoteVersions\": [\"v0.2.0\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.3.4\", \"v0.3.5\", \"v0.4.0\", \"v0.4.1\", \"v0.5.0\", \"v0.6.0\", \"v0.6.1\", \"v1.0.0\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.2.0\", \"v1.2.1\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v3.0.0\", \"v3.0.1\", \"v3.0.2\", \"v3.0.3\", \"v3.1.0\", \"v3.1.1\", \"v3.1.2\", \"v3.2.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.peity/update.json\",\n  \"versions\": [\"v1.2.1\", \"v2.0.5\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.0.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.peity/2.0.5\",\n  \"branch\": \"peity/v2.0.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 148601827
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

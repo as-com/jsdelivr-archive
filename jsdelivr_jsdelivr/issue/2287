@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-09) 17 : 05 : 39 UTC
+  , issueUpdatedAt = 2014 (-11) (-09) 17 : 05 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2287/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2287")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2287
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "Version 3.8.2"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2287"
+  , issueCreatedAt = 2014 (-11) (-09) 16 : 12 : 56 UTC
+  , issueBody =
+      Just
+        "Hi guys, it's your favorite pain in the neck :) What am I doing wrong with version 3.8.2?\n"
+  , issueState = StateClosed
+  , issueId = Id 48205308
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

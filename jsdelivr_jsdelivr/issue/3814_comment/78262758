@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-11) 13 : 31 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5840798
+        , simpleUserLogin = N "angoras"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5840798?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/angoras"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/78262758"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/3814#issuecomment-78262758"
+  , issueCommentCreatedAt = 2015 (-03) (-11) 13 : 31 : 36 UTC
+  , issueCommentBody =
+      "I'm not sure what's happening, but this is my code:\n`<script src=\"//cdn.jsdelivr.net/g/angularjs(angular.min.js+angular-route.min.js),foundation(js/foundation.min.js+js/foundation/foundation.reveal.js)\"></script>`\n\nAnd I get this back:\n404 Not Found http://cdn.jsdelivr.net/g/angularjs(angular.min.js+angular-route.min.js),foundation(js/foundation.min.js+js/foundation/angular-route.min.js.map\n\nWhere does angular-route.min.js.map come from? :-)\n"
+  , issueCommentId = 78262758
+  }

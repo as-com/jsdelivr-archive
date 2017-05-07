@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-04) (-23) 20 : 36 : 32 UTC
+  , issueUpdatedAt = 2013 (-08) (-18) 21 : 40 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 723723
+        , simpleUserLogin = N "mgonto"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/723723?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mgonto"
+        }
+  , issueTitle = "Updated Restangular files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10"
+  , issueCreatedAt = 2013 (-04) (-23) 20 : 28 : 21 UTC
+  , issueBody =
+      Just
+        "Added 0.5.3 version\nAdded latest folder for always linking to the latest version.\n"
+  , issueState = StateClosed
+  , issueId = Id 13555671
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

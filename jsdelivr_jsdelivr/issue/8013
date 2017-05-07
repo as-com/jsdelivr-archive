@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-20) 11 : 22 : 48 UTC
+  , issueUpdatedAt = 2015 (-11) (-20) 11 : 22 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8013/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8013")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8013
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 186837
+        , simpleUserLogin = N "rodneyrehm"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/186837?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rodneyrehm"
+        }
+  , issueTitle = "adding medialize/ally.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8013")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8013.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8013.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8013"
+  , issueCreatedAt = 2015 (-11) (-19) 15 : 36 : 06 UTC
+  , issueBody =
+      Just
+        "https://github.com/medialize/ally.js pulled in via npm (because the dist files are committed to the repo)\n"
+  , issueState = StateClosed
+  , issueId = Id 117839206
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

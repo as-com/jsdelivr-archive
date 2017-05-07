@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-13) 03 : 06 : 44 UTC
+  , issueUpdatedAt = 2017 (-03) (-13) 03 : 06 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16871/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16871")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16871
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bootstrap3-dialog to v1.35.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16871")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16871.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16871.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16871"
+  , issueCreatedAt = 2017 (-03) (-13) 03 : 06 : 35 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootstrap3-dialog to v1.35.3.\n\n@nakupanda\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bootstrap3-dialog\",\n    \"repo\": \"nakupanda/bootstrap3-dialog\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"js/*.js\", \"css/*.css\", \"less/*.less\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/bootstrap3-dialog\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.1\", \"v1.20\", \"v1.21\", \"v1.22\", \"v1.23\", \"v1.24\", \"v1.25\", \"v1.26\", \"v1.27\", \"v1.28\", \"v1.29\", \"v1.30\", \"v1.31\", \"v1.32\", \"v1.33\", \"v1.33.2\", \"v1.33.3\", \"v1.33.4\", \"v1.33.5\", \"v1.34.0\", \"v1.34.1\", \"v1.34.2\", \"v1.34.3\", \"v1.34.4\", \"v1.34.5\", \"v1.34.6\", \"v1.34.7\", \"v1.34.8\", \"v1.34.9\", \"v1.35.0\", \"v1.35.1\", \"v1.35.2\", \"v1.35.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/bootstrap3-dialog/update.json\",\n  \"versions\": [\"v1.35.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.35.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/bootstrap3-dialog/1.35.3\",\n  \"branch\": \"bootstrap3-dialog/v1.35.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 213662543
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

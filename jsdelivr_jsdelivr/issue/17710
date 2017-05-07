@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-20) 12 : 33 : 22 UTC
+  , issueUpdatedAt = 2017 (-04) (-20) 12 : 33 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17710/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17710")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17710
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project cignium-hypermedia-client to 1.31.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17710")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17710.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17710.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17710"
+  , issueCreatedAt = 2017 (-04) (-20) 12 : 33 : 16 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project cignium-hypermedia-client to 1.31.3.\n\n@cignium\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"cignium-hypermedia-client\",\n    \"repo\": \"cignium/hypermedia-client\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/cignium-hypermedia-client\",\n    \"localVersions\": [\"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.1.5\", \"1.1.6\", \"1.1.7\", \"1.1.8\", \"1.1.9\", \"1.1.10\", \"1.1.11\", \"1.1.12\", \"1.1.13\", \"1.2.0\", \"1.3.0\", \"1.3.1\", \"1.4.0\", \"1.4.1\", \"1.4.3\", \"1.4.4\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.4\", \"1.5.5\", \"1.5.6\", \"1.5.7\", \"1.5.8\", \"1.5.9\", \"1.5.10\", \"1.6.0\", \"1.7.1\", \"1.7.2\", \"1.7.3\", \"1.8.0\", \"1.9.0\", \"1.10.0\", \"1.11.0\", \"1.12.0\", \"1.12.1\", \"1.13.0\", \"1.14.0\", \"1.14.1\", \"1.14.2\", \"1.14.3\", \"1.14.4\", \"1.15.0\", \"1.16.1\", \"1.16.2\", \"1.16.3\", \"1.17.0\", \"1.18.0\", \"1.19.1\", \"1.20.0\", \"1.21.0\", \"1.21.1\", \"1.22.0\", \"1.23.0\", \"1.23.1\", \"1.23.2\", \"1.23.3\", \"1.24.0\", \"1.24.1\", \"1.25.0\", \"1.26.0\", \"1.26.1\", \"1.27.1\", \"1.27.2\", \"1.28.0\", \"1.28.1\", \"1.29.0\", \"1.29.1\", \"1.29.2\", \"1.29.3\", \"1.30.0\", \"1.30.1\", \"1.31.0\", \"1.31.1\", \"1.31.2\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.1.5\", \"1.1.6\", \"1.1.7\", \"1.1.8\", \"1.1.9\", \"1.1.10\", \"1.1.11\", \"1.1.12\", \"1.1.13\", \"1.2.0\", \"1.3.0\", \"1.3.1\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"1.4.4\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.4\", \"1.5.5\", \"1.5.6\", \"1.5.7\", \"1.5.8\", \"1.5.9\", \"1.5.10\", \"1.6.0\", \"1.7.1\", \"1.7.2\", \"1.7.3\", \"1.8.0\", \"1.9.0\", \"1.10.0\", \"1.11.0\", \"1.12.0\", \"1.12.1\", \"1.13.0\", \"1.13.1\", \"1.14.0\", \"1.14.1\", \"1.14.2\", \"1.14.3\", \"1.14.4\", \"1.15.0\", \"1.16.0\", \"1.16.1\", \"1.16.2\", \"1.16.3\", \"1.17.0\", \"1.18.0\", \"1.18.1\", \"1.19.0\", \"1.19.1\", \"1.20.0\", \"1.21.0\", \"1.21.1\", \"1.21.2\", \"1.22.0\", \"1.23.0\", \"1.23.1\", \"1.23.2\", \"1.23.3\", \"1.24.0\", \"1.24.1\", \"1.25.0\", \"1.26.0\", \"1.26.1\", \"1.27.0\", \"1.27.1\", \"1.27.2\", \"1.28.0\", \"1.28.1\", \"1.29.0\", \"1.29.1\", \"1.29.2\", \"1.29.3\", \"1.30.0\", \"1.30.1\", \"1.31.0\", \"1.31.1\", \"1.31.2\", \"1.31.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/cignium-hypermedia-client/update.json\",\n  \"versions\": [\"1.31.3\"],\n  \"updateRemote\": true,\n  \"version\": \"1.31.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/cignium-hypermedia-client/1.31.3\",\n  \"branch\": \"cignium-hypermedia-client/1.31.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 223052237
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

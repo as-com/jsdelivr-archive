@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 32 : 41 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 32 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16958/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16958")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16958
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17248926
+        , simpleUserLogin = N "howardmann"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/17248926?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/howardmann"
+        }
+  , issueTitle = "Create scmarketing"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16958")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16958.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16958.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16958"
+  , issueCreatedAt = 2017 (-03) (-16) 10 : 30 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 214658815
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-13) 11 : 51 : 16 UTC
+  , issueUpdatedAt = 2014 (-10) (-13) 11 : 51 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1990/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1990")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1990
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6397999
+        , simpleUserLogin = N "AlohafromHell"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6397999?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/AlohafromHell"
+        }
+  , issueTitle = "nanumbarungothic v2 add"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1990")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1990.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1990.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1990"
+  , issueCreatedAt = 2014 (-10) (-12) 15 : 56 : 26 UTC
+  , issueBody = Just "nanumbarungothic v2(Reduce size) add\n"
+  , issueState = StateClosed
+  , issueId = Id 45584199
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

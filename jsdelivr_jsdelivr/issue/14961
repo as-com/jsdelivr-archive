@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-26) 02 : 10 : 30 UTC
+  , issueUpdatedAt = 2016 (-11) (-26) 20 : 25 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14961/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14961")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14961
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4076224
+        , simpleUserLogin = N "bovidiu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/4076224?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bovidiu"
+        }
+  , issueTitle = "[request] SocialMedia.js dynamic link sharing"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14961")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14961.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14961.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14961"
+  , issueCreatedAt = 2016 (-11) (-25) 14 : 37 : 15 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 191714623
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-21) 16 : 38 : 46 UTC
+  , issueUpdatedAt = 2016 (-11) (-21) 16 : 38 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14882/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14882")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14882
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project numeral to 1.5.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14882")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14882.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14882.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14882"
+  , issueCreatedAt = 2016 (-11) (-21) 05 : 04 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project numeral to 1.5.4.\n\n@adamwdraper\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"numeral\",\n    \"repo\": \"adamwdraper/Numeral-js\",\n    \"files\": {\n      \"basePath\": \"min\",\n      \"include\": [\"numeral.min.js\", \"languages.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/numeraljs\",\n    \"localVersions\": [\"1.4.7\", \"1.4.9\", \"1.5.0\"],\n    \"remoteVersions\": [\"1.3.2\", \"1.4.0\", \"1.4.1\", \"1.4.5\", \"1.5.0\", \"1.5.2\", \"1.5.3\", \"1.5.4\"],\n    \"branchVersions\": [\"1.5.3\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/numeraljs/update.json\",\n  \"versions\": [\"1.5.4\"],\n  \"updateRemote\": true,\n  \"version\": \"1.5.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/numeraljs/1.5.4\",\n  \"branch\": \"numeral/1.5.4\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 190619950
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

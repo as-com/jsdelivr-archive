@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-16) 18 : 13 : 49 UTC
+  , issueUpdatedAt = 2014 (-06) (-30) 21 : 10 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/365/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/365")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 365
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueTitle = "Add missing Handlebars files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/365")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/365.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/365.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/365"
+  , issueCreatedAt = 2014 (-02) (-16) 18 : 13 : 20 UTC
+  , issueBody =
+      Just
+        "Add some Handlebars.runtime.min to old versions @1.0.9,1.0.10,1.0.12\n"
+  , issueState = StateClosed
+  , issueId = Id 27678117
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

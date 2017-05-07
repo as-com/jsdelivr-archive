@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-01) 04 : 24 : 47 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 06 : 00 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/733/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/733")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 733
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 262165
+        , simpleUserLogin = N "GeorgeErickson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/262165?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GeorgeErickson"
+        }
+  , issueTitle = "Backbonejs github url"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/733")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/733.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/733.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/733"
+  , issueCreatedAt = 2014 (-05) (-01) 03 : 58 : 15 UTC
+  , issueBody = Just "Backbone has a github url\n"
+  , issueState = StateClosed
+  , issueId = Id 32592999
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

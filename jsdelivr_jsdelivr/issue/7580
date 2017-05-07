@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-27) 16 : 51 : 41 UTC
+  , issueUpdatedAt = 2015 (-10) (-27) 16 : 55 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7580/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/7580")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7580
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1082083
+        , simpleUserLogin = N "finom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1082083?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/finom"
+        }
+  , issueTitle =
+      "Keep the order of scripts as described in update.json"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7580"
+  , issueCreatedAt = 2015 (-10) (-27) 15 : 10 : 16 UTC
+  , issueBody =
+      Just
+        "I expect\1077d to get the same order of files which are sorted by priority:\nhttps://github.com/jsdelivr/jsdelivr/blob/master/files/matreshka/update.json\n\nBut I've got very unclear list which is not usable:\nhttp://www.jsdelivr.com/?query=matreshka\n\nIn my case I expected to get 3 files from root and then get 3 files from /magic/. Does it make sense? If not I have to remove /magic/ files from update.json.\n"
+  , issueState = StateClosed
+  , issueId = Id 113607022
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

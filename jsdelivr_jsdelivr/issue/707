@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-27) 18 : 50 : 14 UTC
+  , issueUpdatedAt = 2014 (-04) (-27) 18 : 50 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/707/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/707")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 707
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7112345
+        , simpleUserLogin = N "codingfriend1"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7112345?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/codingfriend1"
+        }
+  , issueTitle = "Flexgrid 1.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/707")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/707.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/707.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/707"
+  , issueCreatedAt = 2014 (-04) (-27) 17 : 40 : 36 UTC
+  , issueBody =
+      Just
+        "Removed reset styles in css, now css only controls grid and\nresponsive-container and doesn't offer any additional styling\n"
+  , issueState = StateClosed
+  , issueId = Id 32316330
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

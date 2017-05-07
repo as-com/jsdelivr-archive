@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 26 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10817/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10817")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10817
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7330400
+        , simpleUserLogin = N "misterzik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7330400?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/misterzik"
+        }
+  , issueTitle = "UTPlay Prod"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10817")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10817.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10817.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10817"
+  , issueCreatedAt = 2016 (-04) (-04) 17 : 41 : 44 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 145753351
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

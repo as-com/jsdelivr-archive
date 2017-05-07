@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-13) 15 : 05 : 59 UTC
+  , issueUpdatedAt = 2016 (-09) (-13) 15 : 05 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13767/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13767")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13767
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project move.js to 0.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13767")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13767.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13767.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13767"
+  , issueCreatedAt = 2016 (-09) (-13) 15 : 05 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project move.js to 0.5.0.\n\n@visionmedia\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"move.js\",\n    \"repo\": \"visionmedia/move.js\",\n    \"files\": {\n      \"include\": [\"move.js\", \"move.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/move.js\",\n    \"localVersions\": [\"0.1.1\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.1.0\", \"0.1.1\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.4.0\", \"0.5.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/move.js/update.json\",\n  \"versions\": [\"0.5.0\"],\n  \"updateRemote\": true,\n  \"version\": \"0.5.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/move.js/0.5.0\",\n  \"branch\": \"move.js/0.5.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 176666452
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

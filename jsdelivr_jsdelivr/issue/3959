@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-23) 15 : 26 : 05 UTC
+  , issueUpdatedAt = 2015 (-03) (-23) 18 : 45 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3959/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3959")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3959
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1690697
+        , simpleUserLogin = N "kirbyfan64"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1690697?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kirbyfan64"
+        }
+  , issueTitle = "Add OpenDyslexic"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3959")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3959.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3959.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3959"
+  , issueCreatedAt = 2015 (-03) (-22) 22 : 27 : 29 UTC
+  , issueBody =
+      Just
+        "This is my first addition to jsdelivr, so please tell me if I did something wrong. :)\n"
+  , issueState = StateClosed
+  , issueId = Id 63583021
+  , issueComments = 17
+  , issueMilestone = Nothing
+  }

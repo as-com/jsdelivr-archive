@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-25) 10 : 35 : 07 UTC
+  , issueUpdatedAt = 2016 (-02) (-25) 10 : 35 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10116/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10116")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10116
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project medialize to v1.17.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10116")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10116.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10116.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10116"
+  , issueCreatedAt = 2016 (-02) (-25) 10 : 34 : 58 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project medialize to v1.17.1.\n\n@medialize\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"medialize\",\n    \"repo\": \"medialize/URI.js\",\n    \"files\": {\n      \"basePath\": \"src/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/uri.js\",\n    \"localVersions\": [\"1.9.1\", \"1.10.2\", \"1.11.2\", \"1.15.1\", \"1.15.2\", \"1.16.0\", \"1.16.1\", \"1.17.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.1.0\", \"v1.2.0\", \"v1.3.0\", \"v1.3.1\", \"v1.3.2\", \"v1.4.0\", \"v1.4.1\", \"v1.4.2\", \"v1.4.3\", \"v1.5.0\", \"v1.5.1\", \"v1.6.0\", \"v1.6.1\", \"v1.6.2\", \"v1.6.3\", \"v1.7.0\", \"v1.7.1\", \"v1.7.2\", \"v1.7.3\", \"v1.7.4\", \"v1.8.0\", \"v1.8.1\", \"v1.8.2\", \"v1.8.3\", \"v1.9.0\", \"v1.9.1\", \"v1.10.0\", \"v1.10.1\", \"v1.10.2\", \"v1.11.0\", \"v1.11.1\", \"v1.11.2\", \"v1.12.0\", \"v1.12.1\", \"v1.13.0\", \"v1.13.1\", \"v1.13.2\", \"v1.14.0\", \"v1.14.1\", \"v1.14.2\", \"v1.15.0\", \"v1.15.1\", \"v.1.15.1\", \"v1.15.2\", \"v1.16.0\", \"v1.16.1\", \"v1.17.0\", \"v1.17.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/uri.js/update.json\",\n  \"versions\": [\"v1.17.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.17.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/uri.js/1.17.1\",\n  \"branch\": \"medialize/v1.17.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 136345935
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

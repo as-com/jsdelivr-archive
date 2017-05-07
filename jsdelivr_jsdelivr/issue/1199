@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-13) 15 : 54 : 07 UTC
+  , issueUpdatedAt = 2014 (-07) (-13) 15 : 54 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1199/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1199")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1199
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 550353
+        , simpleUserLogin = N "tenbits"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/550353?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tenbits"
+        }
+  , issueTitle = "add MaskJS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1199")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1199.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1199.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1199"
+  , issueCreatedAt = 2014 (-07) (-13) 14 : 39 : 20 UTC
+  , issueBody =
+      Just
+        "Hallo Team, thanks for the excellent CDN. I'm adding here [MaskJS](https://github.com/atmajs/maskjs) library. \nIs everything well formatted? \nI was a bit confused with:\n\n> If you are adding a project for the first time please add only the minified version\n\nShould I exclude the not minified file from this pr? How then it could be added to the package again? With new release only?\n\nCheers, Alex\n"
+  , issueState = StateClosed
+  , issueId = Id 37742445
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

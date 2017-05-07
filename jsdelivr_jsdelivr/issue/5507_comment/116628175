@@ -1,0 +1,22 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-29) 11 : 56 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 835857
+        , simpleUserLogin = N "FagnerMartinsBrack"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/835857?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/FagnerMartinsBrack"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/116628175"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5507#issuecomment-116628175"
+  , issueCommentCreatedAt = 2015 (-06) (-29) 11 : 56 : 32 UTC
+  , issueCommentBody =
+      "I don't think we will have a release script very soon.\n\nIs there any chances that jsDelivr implements a way to run the build script in the autoupdate process or a way to minify unminified files?\n"
+  , issueCommentId = 116628175
+  }

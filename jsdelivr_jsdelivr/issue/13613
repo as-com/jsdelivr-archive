@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-09) 19 : 11 : 28 UTC
+  , issueUpdatedAt = 2016 (-09) (-09) 19 : 11 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13613/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13613")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13613
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4998725
+        , simpleUserLogin = N "mattonit"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4998725?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mattonit"
+        }
+  , issueTitle = "Add mdbootstrap"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13613")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13613.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13613.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13613"
+  , issueCreatedAt = 2016 (-09) (-05) 12 : 15 : 46 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 175059230
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

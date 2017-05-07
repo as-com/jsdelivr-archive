@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-25) 11 : 04 : 18 UTC
+  , issueUpdatedAt = 2016 (-11) (-25) 11 : 04 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14960/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14960")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14960
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project open-location-code to 1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14960")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14960.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14960.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14960"
+  , issueCreatedAt = 2016 (-11) (-25) 11 : 04 : 15 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project open-location-code to 1.0.1.\n\n@google\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"open-location-code\",\n    \"repo\": \"google/open-location-code\",\n    \"files\": {\n      \"basePath\": \"js/src\",\n      \"include\": [\"openlocationcode.js\", \"openlocationcode.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/openlocationcode\",\n    \"localVersions\": [\"1.0.0\"],\n    \"remoteVersions\": [\"v1.0\", \"1.0.0\", \"1.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/openlocationcode/update.json\",\n  \"versions\": [\"1.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/openlocationcode/1.0.1\",\n  \"branch\": \"open-location-code/1.0.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 191677370
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

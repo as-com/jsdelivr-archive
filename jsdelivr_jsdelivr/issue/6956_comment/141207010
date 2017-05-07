@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-17) 19 : 53 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/141207010"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6956#issuecomment-141207010"
+  , issueCommentCreatedAt = 2015 (-09) (-17) 19 : 53 : 45 UTC
+  , issueCommentBody =
+      "The files in lib/ dont look like production ready.\nI think thats why we didnt enable auto-updates, there are no compiled files available \n"
+  , issueCommentId = 141207010
+  }

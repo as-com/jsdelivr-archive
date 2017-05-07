@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-27) 17 : 59 : 26 UTC
+  , issueUpdatedAt = 2017 (-02) (-27) 17 : 59 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16586/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16586")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16586
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19142554
+        , simpleUserLogin = N "kygn1998"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/19142554?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kygn1998"
+        }
+  , issueTitle =
+      "[font-spoqa-han-sans]Fixed problem where font file was not updated"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16586")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16586.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16586.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16586"
+  , issueCreatedAt = 2017 (-02) (-27) 05 : 17 : 03 UTC
+  , issueBody =
+      Just
+        "In the currently uploaded version (2.0.0, 2.0.1), only css exists and the font file does not exist. Do I need to add it manually?"
+  , issueState = StateClosed
+  , issueId = Id 210390080
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

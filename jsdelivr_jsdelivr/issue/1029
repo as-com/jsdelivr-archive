@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 11 : 04 : 33 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 17 : 06 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1029/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1029")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1029
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 161476
+        , simpleUserLogin = N "Eugeny"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/161476?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Eugeny"
+        }
+  , issueTitle = "Grouped output is cut"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1029"
+  , issueCreatedAt = 2014 (-06) (-27) 10 : 47 : 02 UTC
+  , issueBody =
+      Just
+        "URL: http://cdn.jsdelivr.net/g/jquery,bootstrap@3.0.3,ekko-lightbox,jquery.slick,angularjs,angularui\n\nOutput is cut, ends with `return a.instantiate(b)}])}),value:a(function(a,b){return d(a`\nContent-length: 156912\n\nDebug output:\n\nhttp://rawgit.com/jsdelivr/martin-design/master/debug-tool.html#!{\"now\":\"Fri, 27 Jun 2014 10:44:29 GMT\",\"ipInfo\":{\"ip\":\"46.53.176.57\",\"hostname\":\"No Hostname\",\"city\":null,\"region\":null,\"country\":\"BY\",\"loc\":\"53.0000,28.0000\",\"org\":\"AS12358 FE ALTERNATIVNAYA ZIFROVAYA SET.\"},\"cedexis\":{\"network\":{\"market\":\"EU\",\"country\":\"BY\",\"asn\":20852},\"providers\":{\"cloudflare\":{\"rtt\":66.6,\"kbps\":2042.5,\"avail\":75,\"sonar\":100},\"prome-it\":{\"sonar\":100},\"exvm-sg\":{\"sonar\":100},\"leap-pt\":{\"sonar\":100},\"leap-ua\":{\"sonar\":100},\"maxcdn\":{\"rtt\":74.7143,\"kbps\":2019.2,\"avail\":100,\"sonar\":100}}},\"server\":\"NetDNA-cache/2.2\",\"list\":[\"Ok\",\"Ok\",\"Ok\",\"Ok\",\"Ok\",\"Ok\",\"Ok\",\"Ok\",\"Ok\"]}\n"
+  , issueState = StateClosed
+  , issueId = Id 36653475
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

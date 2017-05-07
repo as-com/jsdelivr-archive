@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-29) 13 : 48 : 58 UTC
+  , issueUpdatedAt = 2015 (-12) (-29) 13 : 48 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8631/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/8631")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8631
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1676054
+        , simpleUserLogin = N "danialfarid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1676054?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/danialfarid"
+        }
+  , issueTitle = "jsdelivrbot pull request for ng-file-upload"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8631"
+  , issueCreatedAt = 2015 (-12) (-23) 06 : 07 : 35 UTC
+  , issueBody =
+      Just
+        "I see these pull request whenever I release a new version of [ng-file-upload](http://github.com/danialfarid/ng-file-upload):\n\nhttps://github.com/jsdelivr/jsdelivr/pull/8628\n\nWhat are all the warnings and is it trying to update the CDN?  It doesn't seem to be available: https://cdn.jsdelivr.net/danialfarid/10.1.14/ng-file-upload.min.js\n"
+  , issueState = StateClosed
+  , issueId = Id 123607283
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

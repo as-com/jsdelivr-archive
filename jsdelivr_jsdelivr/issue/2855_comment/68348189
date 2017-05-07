@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-30) 11 : 07 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/68348189"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2855#issuecomment-68348189"
+  , issueCommentCreatedAt = 2014 (-12) (-30) 11 : 07 : 28 UTC
+  , issueCommentBody =
+      "Yep, to do it with git you would do an interactive rebase to squash to two commits, create a new branch, cherry pick one of the project commits, remove that commit from the other branch and f push :)\n"
+  , issueCommentId = 68348189
+  }

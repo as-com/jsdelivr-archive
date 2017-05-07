@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-10) 17 : 48 : 19 UTC
+  , issueUpdatedAt = 2015 (-01) (-10) 17 : 48 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3015/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3015")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3015
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7634596
+        , simpleUserLogin = N "MidnightWonderer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7634596?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/MidnightWonderer"
+        }
+  , issueTitle = "add update.json for webfontloader"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3015")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3015.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3015.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3015"
+  , issueCreatedAt = 2015 (-01) (-10) 17 : 41 : 40 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 53965350
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

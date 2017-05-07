@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-22) 20 : 52 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1008705
+        , simpleUserLogin = N "hgoebl"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1008705?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hgoebl"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/84703057"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3958#issuecomment-84703057"
+  , issueCommentCreatedAt = 2015 (-03) (-22) 20 : 52 : 22 UTC
+  , issueCommentBody =
+      "Hi @jimaek, must the info.ini file be placed in my jsdelivr fork or in my github project?\nI've placed update.json as well in the fork, I hope this is correct.\nThanks for all your work, BTW! :-)\n"
+  , issueCommentId = 84703057
+  }

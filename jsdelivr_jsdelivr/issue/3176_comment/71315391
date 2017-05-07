@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-24) 12 : 54 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/71315391"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/3176#issuecomment-71315391"
+  , issueCommentCreatedAt = 2015 (-01) (-24) 12 : 54 : 32 UTC
+  , issueCommentBody =
+      "Thank you for the detailed explanation but I dont think this is a good idea. It complicates the process for the user, plus we will have to keep the asset-fix updated which will take a lot of time.\n\nWe need something that can be automated as much as possible without creating any problems.\n\nI fixed the example https://github.com/jsdelivr/jsdelivr/commit/0958fb2e146134db3e8baca5b279f349c545b4f4\n"
+  , issueCommentId = 71315391
+  }

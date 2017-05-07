@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-07) 15 : 04 : 17 UTC
+  , issueUpdatedAt = 2015 (-09) (-07) 15 : 04 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6752/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6752")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6752
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jCider to 3.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6752")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6752.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6752.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6752"
+  , issueCreatedAt = 2015 (-09) (-07) 15 : 04 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jCider to 3.0.1.\n\n@Pratinav\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jCider\",\n    \"repo\": \"Pratinav/jCider\",\n    \"files\": {\n      \"include\": [\"jcider.min.js\", \"jcider.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.jcider\",\n    \"localVersions\": [\"1.1.2\", \"3.0.0\"],\n    \"remoteVersions\": [\"v0.1.0\", \"0.1.0\", \"1.0.0\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"3.0.0\", \"3.0.1\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/jquery.jcider/update.json\",\n  \"version\": \"3.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.jcider/3.0.1\",\n  \"branch\": \"jCider/3.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 105231846
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

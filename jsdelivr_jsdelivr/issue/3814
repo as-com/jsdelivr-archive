@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-22) 18 : 30 : 36 UTC
+  , issueUpdatedAt = 2016 (-06) (-29) 10 : 05 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3814/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/3814")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3814
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5840798
+        , simpleUserLogin = N "angoras"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5840798?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/angoras"
+        }
+  , issueTitle = "404 bug?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3814"
+  , issueCreatedAt = 2015 (-03) (-11) 13 : 12 : 58 UTC
+  , issueBody =
+      Just
+        "When trying to get:\nhttp://cdn.jsdelivr.net/g/angularjs(angular.min.js+angular-route.min.js),foundation(js/foundation.min.js+js/foundation/foundation.reveal.js)\ndirectly I get the correct reply just fine.\n\nBut when including it in a page like:\n`<script src=\"//cdn.jsdelivr.net/g/angularjs(angular.min.js+angular-route.min.js),foundation(js/foundation.min.js+js/foundation/foundation.reveal.js)\"></script>`\nI get 404 Not Found http://cdn.jsdelivr.net/g/angularjs(angular.min.js+angular-route.min.js),foundation(js/foundation.min.js+js/foundation/angular-route.min.js.map\ninstead.\n\nTried in latest Chrome. Note that the end is wrong, foundation-reveal has been replaced by angular-route. Is my syntax wrong, or is this a bug?\n"
+  , issueState = StateClosed
+  , issueId = Id 60655989
+  , issueComments = 17
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-20) 21 : 49 : 18 UTC
+  , issueUpdatedAt = 2016 (-07) (-20) 21 : 49 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12840/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12840")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12840
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 882005
+        , simpleUserLogin = N "goldfire"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/882005?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/goldfire"
+        }
+  , issueTitle = "Add new basePath for howler.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12840")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12840.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12840.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12840"
+  , issueCreatedAt = 2016 (-07) (-20) 21 : 48 : 22 UTC
+  , issueBody =
+      Just
+        "The distribution files in howler.js v2.0.0 have been moved from root to `dist/`. This adds `dist/` to the `basePath` in the updates.json file.\n"
+  , issueState = StateClosed
+  , issueId = Id 166690295
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

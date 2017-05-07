@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-15) 15 : 34 : 39 UTC
+  , issueUpdatedAt = 2016 (-02) (-15) 15 : 34 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9774/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9774")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9774
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project sharer.js to 0.2.11"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9774")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9774.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9774.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9774"
+  , issueCreatedAt = 2016 (-02) (-15) 15 : 34 : 36 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project sharer.js to 0.2.11.\n\n@ellisonleao\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"sharer.js\",\n    \"repo\": \"ellisonleao/sharer.js\",\n    \"files\": {\n      \"include\": [\"sharer.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/sharer.js\",\n    \"localVersions\": [\"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.2.8\", \"0.2.9\", \"0.2.10\"],\n    \"remoteVersions\": [\"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.2.8\", \"0.2.9\", \"0.2.10\", \"0.2.11\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/sharer.js/update.json\",\n  \"versions\": [\"0.2.11\"],\n  \"updateRemote\": true,\n  \"version\": \"0.2.11\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/sharer.js/0.2.11\",\n  \"branch\": \"sharer.js/0.2.11\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 133742334
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

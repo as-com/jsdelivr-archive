@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-04) 10 : 19 : 51 UTC
+  , issueUpdatedAt = 2017 (-01) (-04) 10 : 19 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15607/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15607")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15607
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7461316
+        , simpleUserLogin = N "ganniv"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7461316?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ganniv"
+        }
+  , issueTitle = "Create update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15607")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15607.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15607.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15607"
+  , issueCreatedAt = 2017 (-01) (-03) 20 : 44 : 22 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 198564446
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

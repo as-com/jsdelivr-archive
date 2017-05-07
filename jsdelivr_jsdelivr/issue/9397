@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-27) 19 : 37 : 23 UTC
+  , issueUpdatedAt = 2016 (-01) (-27) 19 : 37 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9397/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9397")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9397
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1501013
+        , simpleUserLogin = N "andersonba"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1501013?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/andersonba"
+        }
+  , issueTitle = "Add whoami.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9397")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9397.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9397.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9397"
+  , issueCreatedAt = 2016 (-01) (-27) 18 : 53 : 53 UTC
+  , issueBody = Just "https://github.com/andersonba/whoami.js\n"
+  , issueState = StateClosed
+  , issueId = Id 129233953
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

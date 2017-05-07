@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-17) 14 : 34 : 35 UTC
+  , issueUpdatedAt = 2016 (-01) (-17) 14 : 34 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9066/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9066")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9066
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project faker.js to v2.2.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9066")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9066.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9066.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9066"
+  , issueCreatedAt = 2016 (-01) (-17) 14 : 27 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project faker.js to v2.2.4.\n\n@Marak\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"faker.js\",\n    \"repo\": \"Marak/faker.js\",\n    \"files\": {\n      \"basePath\": \"build/build/\",\n      \"include\": [\"*.min.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/faker.js\",\n    \"localVersions\": [\"0.7.0\", \"2.1.5\", \"3.0.0\", \"3.0.1\"],\n    \"remoteVersions\": [\"0.5.5\", \"0.5.7\", \"0.5.9\", \"0.5.11\", \"0.5.12\", \"0.6.0\", \"0.6.1\", \"0.7.0\", \"0.7.2\", \"1.0.0\", \"1.0.1\", \"v1.1.0\", \"v2.0.0\", \"v2.0.2\", \"v2.0.3\", \"v2.1.0\", \"v2.1.1\", \"v2.1.2\", \"v2.1.3\", \"v2.1.4\", \"v2.1.5\", \"v2.2.0\", \"v2.2.1\", \"v2.2.2\", \"v2.2.3\", \"v2.2.4\", \"v3.0.0\", \"v3.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/faker.js/update.json\",\n  \"versions\": [\"v1.1.0\", \"v2.2.4\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.2.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/faker.js/2.2.4\",\n  \"branch\": \"faker.js/v2.2.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127098054
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

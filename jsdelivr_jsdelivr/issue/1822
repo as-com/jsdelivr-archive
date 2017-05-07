@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-25) 12 : 02 : 56 UTC
+  , issueUpdatedAt = 2014 (-09) (-25) 12 : 02 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1822/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1822")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1822
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project load.js to v1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1822")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1822.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1822.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1822"
+  , issueCreatedAt = 2014 (-09) (-25) 08 : 36 : 16 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project load.js to v1.1.0.\n\n@coderaiser\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"load.js\",\n    \"repo\": \"coderaiser/load.js\",\n    \"files\": {\n      \"include\": [\"load.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/load.js\",\n    \"localVersions\": [\"1.0.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.1.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/load.js/1.1.0\",\n  \"branch\": \"load.js/v1.1.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 43887928
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

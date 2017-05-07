@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 14 : 16 : 08 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 14 : 16 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/983/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/983")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 983
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle =
+      "'contribute Performance Data js' code should be inline javascript?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/983"
+  , issueCreatedAt = 2014 (-06) (-19) 18 : 25 : 37 UTC
+  , issueBody =
+      Just
+        "hi, i want to contribute to Performance Data.\nbut i have a question about 'contribute Performance Data js code' with external file.\n\nis it okay to add \"Contribute Performance Data JS code\" in to external file?\nex) &#x3C;script async src=&#x22;./myserver_or_somewhere_CDN /name.js&#x22; type=&#x22;text/javascript&#x22;&#x3E; &#x3C;/script&#x3E;\n"
+  , issueState = StateClosed
+  , issueId = Id 36104475
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

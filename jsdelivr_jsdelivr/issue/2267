@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-07) 15 : 13 : 10 UTC
+  , issueUpdatedAt = 2014 (-11) (-07) 15 : 13 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2267/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2267")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2267
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1519888
+        , simpleUserLogin = N "hufyhang"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1519888?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hufyhang"
+        }
+  , issueTitle = "chopjs-layout 0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2267")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2267.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2267.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2267"
+  , issueCreatedAt = 2014 (-11) (-07) 15 : 12 : 13 UTC
+  , issueBody =
+      Just
+        "ChopJS Layout 0.3\n- added `!important` to ensure `display:none` could not be overridden by other styles.\n"
+  , issueState = StateClosed
+  , issueId = Id 48091587
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

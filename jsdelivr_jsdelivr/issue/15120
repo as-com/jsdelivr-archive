@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 20 : 14 : 25 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 20 : 14 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15120/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15120")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15120
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project rakam to v1.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15120")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15120.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15120.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15120"
+  , issueCreatedAt = 2016 (-11) (-29) 20 : 14 : 21 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project rakam to v1.0.3.\n\n@buremba\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"rakam\",\n    \"repo\": \"buremba/rakam-javascript\",\n    \"files\": {\n      \"include\": [\"rakam.min.js\", \"rakam.js\", \"rakam-snippet.min.js\", \"rakam-segment-snippet.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/rakam\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/rakam/update.json\",\n  \"versions\": [\"v1.0.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/rakam/1.0.3\",\n  \"branch\": \"rakam/v1.0.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 192387398
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

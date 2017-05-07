@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-08) 06 : 44 : 12 UTC
+  , issueUpdatedAt = 2016 (-06) (-08) 06 : 44 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11983/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11983")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11983
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 917005
+        , simpleUserLogin = N "eisbehr-"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/917005?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/eisbehr-"
+        }
+  , issueTitle = "Update package.json for jquery.lazy"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11983")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11983.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11983.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11983"
+  , issueCreatedAt = 2016 (-06) (-04) 16 : 44 : 30 UTC
+  , issueBody = Just "Add plugin files.\n"
+  , issueState = StateClosed
+  , issueId = Id 158512832
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

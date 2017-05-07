@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-11) 21 : 06 : 07 UTC
+  , issueUpdatedAt = 2014 (-04) (-11) 21 : 06 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/631/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/631")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 631
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 384997
+        , simpleUserLogin = N "niutech"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/384997?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/niutech"
+        }
+  , issueTitle = "Add Comic Sans Replacer with Comic Neue"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/631")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/631.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/631.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/631"
+  , issueCreatedAt = 2014 (-04) (-11) 20 : 51 : 46 UTC
+  , issueBody =
+      Just
+        "[Comic Sans Replacer](https://github.com/niutech/comic-sans-replacer) is a user style sheet which replaces Comic Sans MS font on all websites with much better [Comic Neue](http://comicneue.com/) font by Craig Rozynski released in the [public domain](http://creativecommons.org/publicdomain/zero/1.0/). This web font should be put on a CDN, so it could be quickly downloaded on demand. Could you please add it?\n\nThanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 31361303
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

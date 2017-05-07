@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-26) 15 : 40 : 04 UTC
+  , issueUpdatedAt = 2017 (-04) (-26) 15 : 40 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17817/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17817")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17817
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project scrollMonitor to v1.2.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17817")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17817.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17817.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17817"
+  , issueCreatedAt = 2017 (-04) (-26) 15 : 39 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project scrollMonitor to v1.2.3.\n\n@stutrek\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"scrollMonitor\",\n    \"repo\": \"stutrek/scrollMonitor\",\n    \"files\": {\n      \"include\": [\"scrollMonitor.js\", \"scrollMonitor.js.map\", \"angular-moment.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/scrollmonitor\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"v1.0.8\", \"v1.0.9\", \"v1.0.10\", \"v1.0.11\", \"v1.0.12\", \"v1.0.13\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/scrollmonitor/update.json\",\n  \"versions\": [\"v1.2.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.2.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/scrollmonitor/1.2.3\",\n  \"branch\": \"scrollMonitor/v1.2.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 224512297
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

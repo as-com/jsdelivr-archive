@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-11) 10 : 03 : 08 UTC
+  , issueUpdatedAt = 2015 (-06) (-11) 10 : 03 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5267/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5267")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5267
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angucomplete-alt to v0.0.44"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5267")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5267.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5267.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5267"
+  , issueCreatedAt = 2015 (-06) (-11) 10 : 03 : 03 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angucomplete-alt to v0.0.44.\n\n@ghiden\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angucomplete-alt\",\n    \"repo\": \"ghiden/angucomplete-alt\",\n    \"files\": {\n      \"include\": [\"dist/angucomplete-alt.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular.angucomplete-alt\",\n    \"localVersions\": [\"0.0.42\", \"0.0.43\"],\n    \"remoteVersions\": [\"v0.0.1\", \"v0.0.2\", \"v0.0.3\", \"v0.0.4\", \"v0.0.5\", \"v0.0.6\", \"v0.0.7\", \"v0.0.8\", \"v0.0.9\", \"v0.0.10\", \"v0.0.11\", \"v0.0.12\", \"v0.0.13\", \"v0.0.14\", \"v0.0.15\", \"v0.0.16\", \"v0.0.17\", \"v0.0.18\", \"v0.0.19\", \"v0.0.20\", \"v0.0.21\", \"v0.0.22\", \"v0.0.23\", \"v0.0.24\", \"v0.0.25\", \"v0.0.26\", \"v0.0.27\", \"v0.0.28\", \"v0.0.29\", \"v0.0.30\", \"v0.0.31\", \"v0.0.32\", \"v0.0.33\", \"v0.0.34\", \"v0.0.35\", \"v0.0.36\", \"v0.0.37\", \"v0.0.38\", \"v0.0.39\", \"v0.0.40\", \"v0.0.41\", \"v0.0.42\", \"v0.0.43\", \"v0.0.44\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.0.44\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.angucomplete-alt/0.0.44\",\n  \"branch\": \"angucomplete-alt/v0.0.44\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 87288783
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

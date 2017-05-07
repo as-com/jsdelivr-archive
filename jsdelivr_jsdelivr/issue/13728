@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-11) 10 : 24 : 45 UTC
+  , issueUpdatedAt = 2016 (-09) (-11) 10 : 24 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13728/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13728")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13728
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7079471
+        , simpleUserLogin = N "camelaissani"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7079471?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/camelaissani"
+        }
+  , issueTitle = "Create info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13728")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13728.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13728.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13728"
+  , issueCreatedAt = 2016 (-09) (-11) 10 : 18 : 25 UTC
+  , issueBody = Just "CDN for frontexpress\n"
+  , issueState = StateClosed
+  , issueId = Id 176236779
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

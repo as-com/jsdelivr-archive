@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-30) 22 : 08 : 31 UTC
+  , issueUpdatedAt = 2016 (-09) (-30) 22 : 08 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13899/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13899")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13899
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1222666
+        , simpleUserLogin = N "grevory"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1222666?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/grevory"
+        }
+  , issueTitle = "Add Angular Local Storage"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13899")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13899.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13899.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13899"
+  , issueCreatedAt = 2016 (-09) (-20) 16 : 21 : 03 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 178108022
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

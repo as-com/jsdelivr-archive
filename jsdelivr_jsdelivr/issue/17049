@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 40 : 09 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 40 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17049/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17049")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17049
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project stats.js to 1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17049")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17049.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17049.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17049"
+  , issueCreatedAt = 2017 (-03) (-21) 16 : 37 : 24 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project stats.js to 1.0.0.\n\n@mrdoob\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"stats.js\",\n    \"repo\": \"mrdoob/stats.js\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"stats.min.js\", \"../src/Stats.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/stats.js\",\n    \"localVersions\": [\"r11\", \"r17\"],\n    \"remoteVersions\": [\"0.0.14-master\", \"0.0.14\", \"0.0.16\", \"0.16.0\", \"0.17.0\", \"1.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/stats.js/update.json\",\n  \"versions\": [\"1.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/stats.js/1.0.0\",\n  \"branch\": \"stats.js/1.0.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215802679
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

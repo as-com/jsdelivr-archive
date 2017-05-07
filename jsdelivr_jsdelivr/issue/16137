@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-05) 01 : 43 : 43 UTC
+  , issueUpdatedAt = 2017 (-02) (-05) 01 : 43 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16137/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16137")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16137
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 126239
+        , simpleUserLogin = N "mfitzp"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/126239?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mfitzp"
+        }
+  , issueTitle =
+      "Add corejs-typeahead (maintained fork of Twitter typeahead)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16137")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16137.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16137.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16137"
+  , issueCreatedAt = 2017 (-02) (-03) 20 : 02 : 04 UTC
+  , issueBody =
+      Just
+        "The version of typeahead.js autocomplete library currently hosted ([v0.11.1](https://github.com/twitter/typeahead.js/)) on jsdelivr is no longer maintained. A maintained fork is available ([v1.1.1](https://github.com/corejavascript/typeahead.js)) from the CoreJS organisation on github.\r\n"
+  , issueState = StateClosed
+  , issueId = Id 205255372
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-21) 20 : 34 : 21 UTC
+  , issueUpdatedAt = 2015 (-03) (-21) 20 : 34 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1767/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1767")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1767
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6029412
+        , simpleUserLogin = N "jacek-dargiel"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6029412?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jacek-dargiel"
+        }
+  , issueTitle = "Added Wrapp's validate.js library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1767")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1767.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1767.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1767"
+  , issueCreatedAt = 2014 (-09) (-18) 15 : 00 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 43142669
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

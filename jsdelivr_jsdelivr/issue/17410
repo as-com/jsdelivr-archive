@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-11) 15 : 02 : 49 UTC
+  , issueUpdatedAt = 2017 (-04) (-11) 15 : 03 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17410/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17410")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17410
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project smc-webfonts to v0.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17410")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17410.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17410.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17410"
+  , issueCreatedAt = 2017 (-04) (-04) 21 : 06 : 22 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project smc-webfonts to v0.1.0.\n\n@kollavarsham\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"smc-webfonts\",\n    \"repo\": \"kollavarsham/smc-webfonts\",\n    \"files\": {\n      \"include\": [\"smc-webfonts.css\", \"smc-webfonts.min.css\", \"fonts/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/smc-webfonts\",\n    \"localVersions\": [\"0.0.1\"],\n    \"remoteVersions\": [\"v0.0.1\", \"v0.0.2\", \"v0.0.3\", \"v0.0.4\", \"v0.0.5\", \"v0.1.0\"],\n    \"branchVersions\": [\"v0.0.5\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/smc-webfonts/update.json\",\n  \"versions\": [\"v0.1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/smc-webfonts/0.1.0\",\n  \"branch\": \"smc-webfonts/v0.1.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 219383601
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

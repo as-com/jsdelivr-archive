@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-05) 18 : 57 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/73104427"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3333#issuecomment-73104427"
+  , issueCommentCreatedAt = 2015 (-02) (-05) 18 : 57 : 31 UTC
+  , issueCommentBody =
+      "1. 1 pull request per project. And each pull request should have 1 commit\n2. I think we can ignore the lang files, as I understand the library wont break without them\n"
+  , issueCommentId = 73104427
+  }

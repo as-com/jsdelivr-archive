@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-30) 15 : 00 : 00 UTC
+  , issueUpdatedAt = 2016 (-04) (-30) 15 : 00 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11369/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11369")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11369
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3697836
+        , simpleUserLogin = N "jackbowman"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3697836?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jackbowman"
+        }
+  , issueTitle = "Add .min.js version to email-addresses"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11369")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11369.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11369.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11369"
+  , issueCreatedAt = 2016 (-04) (-30) 14 : 50 : 54 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 152034856
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

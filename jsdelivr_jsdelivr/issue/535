@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-04) 21 : 33 : 43 UTC
+  , issueUpdatedAt = 2014 (-04) (-04) 22 : 00 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/535/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/535")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 535
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1495669
+        , simpleUserLogin = N "leonardo403"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1495669?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/leonardo403"
+        }
+  , issueTitle = "Add input.css library correct."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/535")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/535.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/535.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/535"
+  , issueCreatedAt = 2014 (-03) (-30) 19 : 40 : 29 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 30472868
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

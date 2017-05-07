@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-03) 18 : 42 : 21 UTC
+  , issueUpdatedAt = 2017 (-03) (-03) 18 : 43 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16660/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16660")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16660
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8355878
+        , simpleUserLogin = N "Aranjedeath"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8355878?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Aranjedeath"
+        }
+  , issueTitle = "update classList.js to 1.1.20170112"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16660")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16660.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16660.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16660"
+  , issueCreatedAt = 2017 (-03) (-01) 18 : 48 : 53 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 211172949
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

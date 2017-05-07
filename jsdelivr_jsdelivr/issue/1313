@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-27) 15 : 50 : 32 UTC
+  , issueUpdatedAt = 2014 (-07) (-27) 15 : 50 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1313/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1313")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1313
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2488009
+        , simpleUserLogin = N "puscas"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2488009?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/puscas"
+        }
+  , issueTitle =
+      "Added the last Hammer.js files. Version 2.0.2 from 2014-07-26"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1313")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1313.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1313.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1313"
+  , issueCreatedAt = 2014 (-07) (-27) 13 : 50 : 06 UTC
+  , issueBody =
+      Just
+        "Added the last Hammer.js files. Version 2.0.2 from 2014-07-26\n"
+  , issueState = StateClosed
+  , issueId = Id 38839231
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

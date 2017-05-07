@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-07) 14 : 18 : 49 UTC
+  , issueUpdatedAt = 2014 (-06) (-13) 21 : 03 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/346/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/346")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 346
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 291060
+        , simpleUserLogin = N "Stolz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/291060?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Stolz"
+        }
+  , issueTitle = "Updated Zurb Foundation to 5.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/346")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/346.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/346.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/346"
+  , issueCreatedAt = 2014 (-02) (-07) 10 : 51 : 17 UTC
+  , issueBody = Just "Updated Zurb Foundation to 5.1.1\n"
+  , issueState = StateClosed
+  , issueId = Id 27126790
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

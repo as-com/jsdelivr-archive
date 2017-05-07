@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-06) 22 : 45 : 41 UTC
+  , issueUpdatedAt = 2014 (-07) (-06) 22 : 46 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1127/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1127")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1127
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 164058
+        , simpleUserLogin = N "kijin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/164058?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kijin"
+        }
+  , issueTitle =
+      "Update jquery.postcodify to 1.8 and re-enable auto-updater [author]"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1127")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1127.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1127.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1127"
+  , issueCreatedAt = 2014 (-07) (-06) 05 : 02 : 04 UTC
+  , issueBody =
+      Just
+        "Sorry for crashing your updater last time. The upstream repo now has version tags, so please try re-enabling the auto-updater on this library. I hope I'm doing this correctly now :)\n"
+  , issueState = StateClosed
+  , issueId = Id 37211840
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

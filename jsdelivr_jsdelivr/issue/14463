@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-27) 12 : 06 : 17 UTC
+  , issueUpdatedAt = 2016 (-10) (-27) 14 : 23 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14463/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14463")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14463
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5848848
+        , simpleUserLogin = N "estebanrfp"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5848848?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/estebanrfp"
+        }
+  , issueTitle = "Add dinamical.rcms to jsdelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14463")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14463.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14463.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14463"
+  , issueCreatedAt = 2016 (-10) (-26) 10 : 45 : 24 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 185358134
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

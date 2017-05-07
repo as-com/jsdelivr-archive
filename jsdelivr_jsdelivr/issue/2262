@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-07) 12 : 39 : 25 UTC
+  , issueUpdatedAt = 2014 (-11) (-07) 12 : 39 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2262/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2262")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2262
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 988347
+        , simpleUserLogin = N "LaurensRietveld"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/988347?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/LaurensRietveld"
+        }
+  , issueTitle = "Add YASQE and YASR libraries"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2262")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2262.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2262.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2262"
+  , issueCreatedAt = 2014 (-11) (-07) 10 : 32 : 29 UTC
+  , issueBody = Just "Adding YASQE and YASR library\n\nps. thanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 48068379
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

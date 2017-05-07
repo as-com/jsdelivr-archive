@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-29) 15 : 36 : 36 UTC
+  , issueUpdatedAt = 2014 (-10) (-29) 15 : 41 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2151/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2151")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2151
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1836017
+        , simpleUserLogin = N "owenversteeg"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1836017?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/owenversteeg"
+        }
+  , issueTitle = "Min doesn't show up on the page"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2151"
+  , issueCreatedAt = 2014 (-10) (-29) 14 : 50 : 27 UTC
+  , issueBody =
+      Just
+        "My CSS framework Min, which has been hosted at jsdelivr for forever, has disappeared from the website although it is still actually hosted at jsdelivr.\n\nhttp://www.jsdelivr.com/#!min\n\nhttp://cdn.jsdelivr.net/min/1.5/min.min.css\n"
+  , issueState = StateClosed
+  , issueId = Id 47157105
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-28) 21 : 33 : 15 UTC
+  , issueUpdatedAt = 2016 (-06) (-28) 21 : 33 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12447/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12447")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12447
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project dash-shaka-playback to 2.0.13-beta"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12447")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12447.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12447.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12447"
+  , issueCreatedAt = 2016 (-06) (-28) 21 : 33 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project dash-shaka-playback to 2.0.13-beta.\n\n@clappr\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"dash-shaka-playback\",\n    \"repo\": \"clappr/dash-shaka-playback\",\n    \"files\": {\n      \"include\": [\"dash-shaka-playback.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/clappr.dash-shaka-playback\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.0.8\", \"1.0.9\", \"1.0.10\", \"1.0.12\", \"1.0.13\", \"1.0.14\", \"1.0.16\", \"1.0.17\", \"2.0.0-beta\", \"2.0.1-beta\", \"2.0.2-beta\", \"2.0.3-beta\", \"2.0.4-beta\", \"2.0.6-beta\", \"2.0.8-beta\", \"2.0.9-beta\", \"2.0.11-beta\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.0.8\", \"1.0.9\", \"1.0.10\", \"1.0.11\", \"1.0.12\", \"1.0.13\", \"1.0.14\", \"1.0.15\", \"1.0.16\", \"1.0.17\", \"1.0.18\", \"2.0.0-beta\", \"2.0.1-beta\", \"2.0.2-beta\", \"2.0.3-beta\", \"2.0.4-beta\", \"2.0.5-beta\", \"2.0.6-beta\", \"2.0.8-beta\", \"2.0.9-beta\", \"2.0.10-beta\", \"2.0.11-beta\", \"2.0.12-beta\", \"2.0.13-beta\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/clappr.dash-shaka-playback/update.json\",\n  \"versions\": [\"1.0.18\", \"2.0.13-beta\"],\n  \"updateRemote\": true,\n  \"version\": \"2.0.13-beta\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/clappr.dash-shaka-playback/2.0.13-beta\",\n  \"branch\": \"dash-shaka-playback/2.0.13-beta\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 162792806
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

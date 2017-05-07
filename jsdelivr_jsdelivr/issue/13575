@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-03) 03 : 52 : 38 UTC
+  , issueUpdatedAt = 2016 (-09) (-03) 03 : 52 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13575/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13575")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13575
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 293355
+        , simpleUserLogin = N "mhulet"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/293355?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mhulet"
+        }
+  , issueTitle =
+      "Add JS and HTML required for Helpman.io customer tracking"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13575")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13575.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13575.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13575"
+  , issueCreatedAt = 2016 (-09) (-03) 03 : 48 : 42 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 174877140
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-16) 09 : 38 : 01 UTC
+  , issueUpdatedAt = 2015 (-11) (-16) 09 : 38 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7945/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7945")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7945
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 770982
+        , simpleUserLogin = N "coreybutler"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/770982?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coreybutler"
+        }
+  , issueTitle = "Update update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7945")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7945.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7945.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7945"
+  , issueCreatedAt = 2015 (-11) (-16) 00 : 29 : 29 UTC
+  , issueBody = Just "Minification has been fixed in new releases.\n"
+  , issueState = StateClosed
+  , issueId = Id 117030899
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

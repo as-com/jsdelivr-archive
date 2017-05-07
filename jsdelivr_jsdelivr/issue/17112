@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 22 : 34 : 42 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 22 : 34 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17112/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17112")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17112
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project latency-monitor to 0.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17112")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17112.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17112.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17112"
+  , issueCreatedAt = 2017 (-03) (-21) 22 : 34 : 38 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project latency-monitor to 0.2.1.\n\n@mlucool\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"latency-monitor\",\n    \"repo\": \"mlucool/latency-monitor\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"EventLoopPrinterWebpacked.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/latency-monitor\",\n    \"localVersions\": [\"0.2.0\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.1.0\", \"0.2.0\", \"0.2.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/latency-monitor/update.json\",\n  \"versions\": [\"0.2.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/latency-monitor/0.2.1\",\n  \"branch\": \"latency-monitor/0.2.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215899208
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

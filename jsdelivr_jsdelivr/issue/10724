@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-31) 10 : 05 : 28 UTC
+  , issueUpdatedAt = 2016 (-03) (-31) 10 : 05 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10724/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10724")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10724
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project places.js to 0.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10724")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10724.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10724.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10724"
+  , issueCreatedAt = 2016 (-03) (-31) 10 : 05 : 14 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project places.js to 0.0.3.\n\n@algolia\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"places.js\",\n    \"repo\": \"algolia/places.js\",\n    \"files\": {\n      \"basePath\": \"dist/cdn/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/places.js\",\n    \"localVersions\": [\"0.0.1\", \"0.0.2\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/places.js/update.json\",\n  \"versions\": [\"0.0.3\"],\n  \"updateRemote\": true,\n  \"version\": \"0.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/places.js/0.0.3\",\n  \"branch\": \"places.js/0.0.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 144850570
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

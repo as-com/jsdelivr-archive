@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-27) 04 : 45 : 40 UTC
+  , issueUpdatedAt = 2017 (-02) (-27) 04 : 45 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16584/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16584")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16584
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19142554
+        , simpleUserLogin = N "kygn1998"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/19142554?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kygn1998"
+        }
+  , issueTitle = "Spoqa Han Sans  update"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16584")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16584.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16584.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16584"
+  , issueCreatedAt = 2017 (-02) (-27) 04 : 43 : 04 UTC
+  , issueBody =
+      Just
+        "Fixed an issue where font files could not be uploaded and added the latest version of the file. (If it updates automatically, please close PR and let me know)"
+  , issueState = StateClosed
+  , issueId = Id 210386686
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

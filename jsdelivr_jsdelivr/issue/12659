@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-11) 06 : 34 : 16 UTC
+  , issueUpdatedAt = 2016 (-07) (-11) 06 : 34 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12659/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12659")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12659
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project natsort to 1.0.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12659")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12659.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12659.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12659"
+  , issueCreatedAt = 2016 (-07) (-11) 06 : 34 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project natsort to 1.0.6.\n\n@bubkoo\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"natsort\",\n    \"repo\": \"bubkoo/natsort\",\n    \"files\": {\n      \"include\": [\"dist/*.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/natsort\",\n    \"localVersions\": [\"1.0.5\"],\n    \"remoteVersions\": [\"1.0.5\", \"1.0.6\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/natsort/update.json\",\n  \"versions\": [\"1.0.6\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/natsort/1.0.6\",\n  \"branch\": \"natsort/1.0.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 164769081
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

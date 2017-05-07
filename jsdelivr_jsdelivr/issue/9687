@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 37 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9687/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9687")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9687
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15990810
+        , simpleUserLogin = N "jstnbr"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/15990810?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jstnbr"
+        }
+  , issueTitle = "Add Brass.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9687")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9687.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9687.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9687"
+  , issueCreatedAt = 2016 (-02) (-10) 06 : 03 : 13 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 132614574
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-03) 20 : 26 : 07 UTC
+  , issueUpdatedAt = 2015 (-12) (-03) 20 : 26 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8251/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8251")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8251
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5023909
+        , simpleUserLogin = N "nickpolet"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5023909?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nickpolet"
+        }
+  , issueTitle = "Add webdev-font"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8251")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8251.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8251.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8251"
+  , issueCreatedAt = 2015 (-12) (-03) 00 : 44 : 32 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 120069016
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

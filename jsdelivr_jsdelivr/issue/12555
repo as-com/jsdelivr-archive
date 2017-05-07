@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-04) 23 : 34 : 02 UTC
+  , issueUpdatedAt = 2016 (-07) (-04) 23 : 34 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12555/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12555")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12555
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ouibounce to 0.0.12"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12555")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12555.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12555.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12555"
+  , issueCreatedAt = 2016 (-07) (-04) 23 : 33 : 57 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ouibounce to 0.0.12.\n\n@carlsednaoui\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"ouibounce\",\n    \"repo\": \"carlsednaoui/ouibounce\",\n    \"files\": {\n      \"basePath\": \"build\",\n      \"include\": [\"ouibounce.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/ouibounce\",\n    \"localVersions\": [\"0.0.11\"],\n    \"remoteVersions\": [\"0.0.9\", \"0.0.10\", \"0.0.11\", \"0.0.12\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/ouibounce/update.json\",\n  \"versions\": [\"0.0.12\"],\n  \"updateRemote\": true,\n  \"version\": \"0.0.12\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/ouibounce/0.0.12\",\n  \"branch\": \"ouibounce/0.0.12\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 163751390
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

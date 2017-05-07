@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-13) 21 : 57 : 20 UTC
+  , issueUpdatedAt = 2014 (-11) (-13) 21 : 57 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2359/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2359")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2359
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 656083
+        , simpleUserLogin = N "wsmckenz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/656083?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wsmckenz"
+        }
+  , issueTitle = "cloned on github"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2359")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2359.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2359.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2359"
+  , issueCreatedAt = 2014 (-11) (-13) 20 : 55 : 45 UTC
+  , issueBody =
+      Just "Create a copy of repo on git hub to satisfy bot.\n"
+  , issueState = StateClosed
+  , issueId = Id 48690637
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

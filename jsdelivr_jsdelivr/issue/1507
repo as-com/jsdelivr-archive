@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-23) 14 : 29 : 59 UTC
+  , issueUpdatedAt = 2014 (-08) (-23) 14 : 30 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1507/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1507")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1507
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project steno.js to v1.3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1507")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1507.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1507.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1507"
+  , issueCreatedAt = 2014 (-08) (-23) 14 : 28 : 21 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project steno.js to v1.3.1.\n\n@kenshinthebattosai\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"steno.js\",\n    \"repo\": \"kenshinthebattosai/steno.js\",\n    \"files\": {\n      \"include\": [\"steno.crushed.js\", \"steno.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/steno.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.0\", \"v1.0.0\", \"v1.1.0\", \"v1.1.1\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.3\", \"v1.3.0\", \"v1.3.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.3.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/steno.js/1.3.1\",\n  \"branch\": \"steno.js/v1.3.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 40976732
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-11) 23 : 41 : 56 UTC
+  , issueUpdatedAt = 2014 (-06) (-13) 00 : 56 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/935/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/935")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 935
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project signet to v0.4.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/935")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/935.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/935.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/935"
+  , issueCreatedAt = 2014 (-06) (-11) 23 : 41 : 26 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project signet to v0.4.7.\n\n@HubSpot\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"signet\",\n    \"repo\": \"HubSpot/signet\",\n    \"files\": {\n      \"include\": [\"signet.js\", \"signet.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/signet\",\n    \"localVersions\": [\"0.4.4\"],\n    \"remoteVersions\": [\"v0.3.0\", \"v0.3.1\", \"v0.4.0\", \"v0.4.1\", \"v0.4.4\", \"v0.4.5\", \"v0.4.6\", \"v0.4.7\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.4.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/signet/0.4.7\",\n  \"branch\": \"signet/v0.4.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 35538688
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

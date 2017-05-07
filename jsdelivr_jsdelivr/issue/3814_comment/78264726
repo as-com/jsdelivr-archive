@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-11) 13 : 43 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/78264726"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/3814#issuecomment-78264726"
+  , issueCommentCreatedAt = 2015 (-03) (-11) 13 : 43 : 22 UTC
+  , issueCommentBody =
+      "I know what is happening. Angularjs has the following code inside:\n`//# sourceMappingURL=angular-route.min.js.map`\n\nIt tries to load the map file and breaks the url while doing so. You can ignore for it now. The original URL loads just fine, this is an additional GET that the browser tries to do and fails. It doesnt impact your website in any way.\n\nI will try to make sure that it doesn't return a 404 in these cases and the error will disappear. \n\nP.S. I can only see the error in Chrome. Firefox doesnt show any errors.\n\nThanks for reporting\n"
+  , issueCommentId = 78264726
+  }

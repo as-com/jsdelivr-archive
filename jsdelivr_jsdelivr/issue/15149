@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-01) 13 : 04 : 19 UTC
+  , issueUpdatedAt = 2016 (-12) (-01) 13 : 04 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15149/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15149")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15149
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project nvd3 to v1.8.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15149")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15149.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15149.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15149"
+  , issueCreatedAt = 2016 (-12) (-01) 13 : 04 : 13 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project nvd3 to v1.8.5.\n\n@novus\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"nvd3\",\n    \"repo\": \"novus/nvd3\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"exclude\": [\"nv.d3.css\", \"nv.d3.js\", \"nv.d3.js.map\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/nvd3\",\n    \"localVersions\": [\"1.1.15-beta\", \"1.8.4\"],\n    \"remoteVersions\": [\"v0.9\", \"v1.0.0-beta\", \"v1.1.10-beta\", \"v1.1.12-beta\", \"v1.1.13-beta\", \"v1.1.14-beta\", \"v1.1.15b\", \"v1.1.15-beta\", \"v1.2.0\", \"v1.2.1\", \"v1.7.1\", \"v1.8.0-alpha\", \"v1.8.1-alpha\", \"v1.8.1\", \"v1.8.2\", \"v1.8.3\", \"v1.8.4\", \"v1.8.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/nvd3/update.json\",\n  \"versions\": [\"v1.8.5\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.8.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/nvd3/1.8.5\",\n  \"branch\": \"nvd3/v1.8.5\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 192841193
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

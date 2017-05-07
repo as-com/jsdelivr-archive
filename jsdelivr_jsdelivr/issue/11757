@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-26) 15 : 35 : 18 UTC
+  , issueUpdatedAt = 2016 (-05) (-26) 15 : 35 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11757/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11757")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11757
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1402524
+        , simpleUserLogin = N "AlessandroMenti"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1402524?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/AlessandroMenti"
+        }
+  , issueTitle = "Add markitup"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11757")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11757.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11757.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11757"
+  , issueCreatedAt = 2016 (-05) (-21) 20 : 07 : 11 UTC
+  , issueBody =
+      Just
+        "This pull request adds MarkItUp, a markup editor based on jQuery.\n"
+  , issueState = StateClosed
+  , issueId = Id 156119287
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

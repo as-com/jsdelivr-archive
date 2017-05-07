@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-17) 18 : 36 : 57 UTC
+  , issueUpdatedAt = 2014 (-01) (-17) 18 : 36 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/261/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/261")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 261
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 482853
+        , simpleUserLogin = N "ismailfazal"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/482853?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ismailfazal"
+        }
+  , issueTitle = "Added videojs plugins folder, with youtube plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/261")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/261.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/261.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/261"
+  , issueCreatedAt = 2014 (-01) (-11) 16 : 24 : 16 UTC
+  , issueBody =
+      Just
+        "Allows you to use a YouTube video within Video.js and control it the\nsame way as a regular video (the same methods and events are availables\nwithin the tech). It also add the video quality and let you change it as\nif you were on YouTube.\n"
+  , issueState = StateClosed
+  , issueId = Id 25446039
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

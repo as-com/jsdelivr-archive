@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-19) 14 : 58 : 53 UTC
+  , issueUpdatedAt = 2017 (-04) (-19) 14 : 58 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17351/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17351")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17351
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1754676
+        , simpleUserLogin = N "lokesh-coder"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1754676?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lokesh-coder"
+        }
+  , issueTitle = "Pretty-checkbox"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17351")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17351.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17351.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17351"
+  , issueCreatedAt = 2017 (-04) (-01) 15 : 29 : 07 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 218702918
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

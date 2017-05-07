@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-16) 15 : 04 : 42 UTC
+  , issueUpdatedAt = 2017 (-02) (-16) 15 : 04 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16397/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16397")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16397
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project labcoat to 0.3.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16397")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16397.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16397.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16397"
+  , issueCreatedAt = 2017 (-02) (-16) 15 : 04 : 37 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project labcoat to 0.3.5.\n\n@weathergard\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"labcoat\",\n    \"repo\": \"weathergard/labcoat\",\n    \"files\": {\n      \"include\": [\"dist/labcoat.js\", \"dist/labcoat.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/labcoat\",\n    \"localVersions\": [\"0.3.4\"],\n    \"remoteVersions\": [\"0.3.4\", \"0.3.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/labcoat/update.json\",\n  \"versions\": [\"0.3.5\"],\n  \"updateRemote\": true,\n  \"version\": \"0.3.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/labcoat/0.3.5\",\n  \"branch\": \"labcoat/0.3.5\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 208146676
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

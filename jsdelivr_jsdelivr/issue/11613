@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-14) 12 : 44 : 07 UTC
+  , issueUpdatedAt = 2016 (-05) (-14) 12 : 44 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11613/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11613")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11613
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5045577
+        , simpleUserLogin = N "sucom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5045577?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sucom"
+        }
+  , issueTitle = "SPA.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11613")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11613.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11613.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11613"
+  , issueCreatedAt = 2016 (-05) (-14) 12 : 14 : 51 UTC
+  , issueBody =
+      Just
+        "[spa-src.zip](https://github.com/jsdelivr/jsdelivr/files/264507/spa-src.zip)\nSingle Page Application (SPA) Javascript Framework/Library\n"
+  , issueState = StateClosed
+  , issueId = Id 154850497
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

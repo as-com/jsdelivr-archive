@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-24) 13 : 09 : 07 UTC
+  , issueUpdatedAt = 2014 (-07) (-04) 12 : 05 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/380/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/380")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 380
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 483865
+        , simpleUserLogin = N "azproduction"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/483865?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/azproduction"
+        }
+  , issueTitle = "jquery.notification 1.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/380")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/380.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/380.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/380"
+  , issueCreatedAt = 2014 (-02) (-24) 09 : 06 : 52 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 28146479
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

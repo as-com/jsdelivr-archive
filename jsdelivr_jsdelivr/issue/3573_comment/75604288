@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-23) 18 : 43 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 26739
+        , simpleUserLogin = N "peterbe"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/26739?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/peterbe"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/75604288"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3573#issuecomment-75604288"
+  , issueCommentCreatedAt = 2015 (-02) (-23) 18 : 43 : 21 UTC
+  , issueCommentBody =
+      "@jimaek it's not a version number. It's part of the name. The server is a REST interface that puts a general version number on it. See the endpoints being mentioned in [the documentation](http://autocompeter.readthedocs.org/en/latest/api/). \n"
+  , issueCommentId = 75604288
+  }

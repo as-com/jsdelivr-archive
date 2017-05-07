@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-03) 14 : 49 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/251126524"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14142#issuecomment-251126524"
+  , issueCommentCreatedAt = 2016 (-10) (-03) 14 : 49 : 01 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _highlightjs.loader_ between _5.0_ and _4.0_ there was a change in file structure  \n  \n  ``` diff\n  - src/JStyles/arta.js\n  - src/JStyles/ascetic.js\n  - src/JStyles/atelier-dune.dark.js\n  - src/JStyles/atelier-dune.light.js\n  - src/JStyles/atelier-forest.dark.js\n  - src/JStyles/atelier-forest.light.js\n  - src/JStyles/atelier-heath.dark.js\n  - src/JStyles/atelier-heath.light.js\n  - src/JStyles/atelier-lakeside.dark.js\n  - src/JStyles/atelier-lakeside.light.js\n  - src/JStyles/atelier-seaside.dark.js\n  - src/JStyles/atelier-seaside.light.js\n  - src/JStyles/brown_paper.js\n  - src/JStyles/codepen-embed.js\n  - src/JStyles/color-brewer.js\n  - src/JStyles/dark.js\n  - src/JStyles/default.js\n  - src/JStyles/docco.js\n  - src/JStyles/far.js\n  - src/JStyles/foundation.js\n  - src/JStyles/github.js\n  - src/JStyles/googlecode.js\n  - src/JStyles/hybrid.js\n  - src/JStyles/idea.js\n  - src/JStyles/ir_black.js\n  - src/JStyles/kimbie.dark.js\n  - src/JStyles/kimbie.light.js\n  - src/JStyles/magula.js\n  - src/JStyles/mono-blue.js\n  - src/JStyles/monokai.js\n  - src/JStyles/monokai_sublime.js\n  - src/JStyles/obsidian.js\n  - src/JStyles/paraiso.dark.js\n  - src/JStyles/paraiso.light.js\n  - src/JStyles/pojoaque.js\n  - src/JStyles/railscasts.js\n  - src/JStyles/rainbow.js\n  - src/JStyles/school_book.js\n  - src/JStyles/solarized_dark.js\n  - src/JStyles/solarized_light.js\n  - src/JStyles/sunburst.js\n  - src/JStyles/tomorrow-night-blue.js\n  - src/JStyles/tomorrow-night-bright.js\n  - src/JStyles/tomorrow-night-eighties.js\n  - src/JStyles/tomorrow-night.js\n  - src/JStyles/tomorrow.js\n  - src/JStyles/vs.js\n  - src/JStyles/xcode.js\n  - src/JStyles/zenburn.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Half measures are as bad as nothing at all._\n"
+  , issueCommentId = 251126524
+  }

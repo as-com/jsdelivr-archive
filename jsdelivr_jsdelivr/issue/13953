@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-23) 17 : 33 : 23 UTC
+  , issueUpdatedAt = 2016 (-09) (-23) 17 : 33 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13953/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13953")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13953
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project farsigradjs to v1.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13953")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13953.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13953.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13953"
+  , issueCreatedAt = 2016 (-09) (-23) 17 : 33 : 19 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project farsigradjs to v1.0.5.\n\n@mjza\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"farsigradjs\",\n    \"repo\": \"mjza/FarsiGradJS\",\n    \"files\": {\n      \"include\": [\"farsigrad-min.js\", \"farsigrad.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/farsigradjs\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/farsigradjs/update.json\",\n  \"versions\": [\"v1.0.5\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/farsigradjs/1.0.5\",\n  \"branch\": \"farsigradjs/v1.0.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 178932330
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

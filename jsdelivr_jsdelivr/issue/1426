@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-18) 03 : 26 : 26 UTC
+  , issueUpdatedAt = 2014 (-08) (-18) 12 : 44 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1426/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1426")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1426
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle = "Add js-emoji"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1426")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1426.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1426.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1426"
+  , issueCreatedAt = 2014 (-08) (-13) 09 : 26 : 33 UTC
+  , issueBody =
+      Just
+        "The source repo iamcal/js-emoji uses submodules and does not have a structure that is cdn-friendly. I've forked it to generate a version that is, imho, more deployable on a cdn (minified, submodule files compiled, tagged, etc). The forked repo is at ping/js-emoji. \n\nupdate.json points to my forked repo that has releases tagged from a non-master branch (ping/js-emoji/tree/deploy-cdn/). Is this okay?\n"
+  , issueState = StateClosed
+  , issueId = Id 40137104
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

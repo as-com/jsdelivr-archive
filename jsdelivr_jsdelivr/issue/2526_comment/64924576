@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-28) 19 : 53 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64924576"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2526#issuecomment-64924576"
+  , issueCommentCreatedAt = 2014 (-11) (-28) 19 : 53 : 13 UTC
+  , issueCommentBody =
+      "They dont do any HTTPS tests that we use at jsDelivr. We might fix that in the future with private data. \n"
+  , issueCommentId = 64924576
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-23) 17 : 51 : 00 UTC
+  , issueUpdatedAt = 2015 (-02) (-23) 17 : 59 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3571/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3571")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3571
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 336433
+        , simpleUserLogin = N "kevinoid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/336433?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kevinoid"
+        }
+  , issueTitle = "Update project angular.bootstrap to 0.12.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3571")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3571.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3571.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3571"
+  , issueCreatedAt = 2015 (-02) (-23) 15 : 37 : 55 UTC
+  , issueBody =
+      Just
+        "This pull request adds the 0.12.1 release of UI Bootstrap from AngularUI. The files are the versions downloaded from https://angular-ui.github.io/bootstrap/ as the project does not keep built files in their repository.\n\nAs with the update to 0.12.0 in #2476, jsdeliverbot may complain about unescaped \"\171\" and \"\187\" characters, which I could replace if that would be preferable.\n\nI hope you find it useful,\nKevin\n"
+  , issueState = StateClosed
+  , issueId = Id 58602549
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

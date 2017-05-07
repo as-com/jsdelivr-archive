@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-28) 18 : 27 : 14 UTC
+  , issueUpdatedAt = 2014 (-05) (-28) 18 : 27 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/859/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/859")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 859
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 248811
+        , simpleUserLogin = N "mariussoutier"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/248811?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mariussoutier"
+        }
+  , issueTitle = "Last Modified / ETag for WebJars"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/859"
+  , issueCreatedAt = 2014 (-05) (-28) 08 : 37 : 33 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nfirst off, thanks for hosting WebJars!\n\nI'm currently optimizing the last bits of my app according to PageSpeed, and apparently WebJars served from jsdelivr don't specify the `Last Modified` or `ETag` header.\n\n``` bash\ncurl -I http://cdn.jsdelivr.net/webjars/angularjs/1.2.16-2/angular-cookies.min.js\n\nHTTP/1.1 200 OK\nDate: Wed, 28 May 2014 08:30:49 GMT\nContent-Type: application/javascript; charset=utf-8\nConnection: keep-alive\nCache-Control: max-age=290304000, public\nServer: NetDNA-cache/2.2\nX-Cache: MISS\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 34446259
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

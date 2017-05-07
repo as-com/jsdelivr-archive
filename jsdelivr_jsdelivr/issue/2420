@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-19) 15 : 24 : 59 UTC
+  , issueUpdatedAt = 2014 (-11) (-19) 15 : 24 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2420/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2420")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2420
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9609925
+        , simpleUserLogin = N "juergenweb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9609925?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/juergenweb"
+        }
+  , issueTitle = "Adding socialshareprivacy (extended version)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2420")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2420.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2420.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2420"
+  , issueCreatedAt = 2014 (-11) (-19) 09 : 09 : 19 UTC
+  , issueBody =
+      Just
+        "This is the extended version of socialshareprivacy of Heise to take care of the users privacy. It contains more social networks than the original version.\n"
+  , issueState = StateClosed
+  , issueId = Id 49352131
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

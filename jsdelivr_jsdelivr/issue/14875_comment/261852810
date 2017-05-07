@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-11) (-21) 06 : 14 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/261852810"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14875#issuecomment-261852810"
+  , issueCommentCreatedAt = 2016 (-11) (-21) 06 : 14 : 22 UTC
+  , issueCommentBody =
+      "You need to place them under a version. E.g. `files/jquery-mosaic/v1/<file>`"
+  , issueCommentId = 261852810
+  }

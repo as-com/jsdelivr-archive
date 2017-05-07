@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-27) 13 : 08 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6295761
+        , simpleUserLogin = N "vousk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6295761?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vousk"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/105900252"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4915#issuecomment-105900252"
+  , issueCommentCreatedAt = 2015 (-05) (-27) 13 : 08 : 07 UTC
+  , issueCommentBody =
+      "We do not create new branch in the main repo, branches are only local to devs and there're merged in master. \nTo solve the problem we have exported a new beta version valid for production with webworkers deactivated. I'll do a new PR.\n"
+  , issueCommentId = 105900252
+  }

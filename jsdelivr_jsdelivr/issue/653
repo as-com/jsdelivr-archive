@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-14) 22 : 09 : 38 UTC
+  , issueUpdatedAt = 2014 (-04) (-14) 22 : 09 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/653/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/653")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 653
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1612250
+        , simpleUserLogin = N "edgardleal"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1612250?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/edgardleal"
+        }
+  , issueTitle = "Correct nomenclature"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/653")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/653.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/653.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/653"
+  , issueCreatedAt = 2014 (-04) (-14) 21 : 31 : 56 UTC
+  , issueBody =
+      Just
+        "Correct nomenclature. \nafter : simpleTable.min.js\nnow : jquery.simpletable.min.js \n"
+  , issueState = StateClosed
+  , issueId = Id 31506935
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

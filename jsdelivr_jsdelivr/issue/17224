@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 17 : 32 : 26 UTC
+  , issueUpdatedAt = 2017 (-03) (-29) 17 : 32 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17224/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17224")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17224
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 25131852
+        , simpleUserLogin = N "JeKaCompaS"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/25131852?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/JeKaCompaS"
+        }
+  , issueTitle = "First Version Simplecpa"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17224")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17224.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17224.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17224"
+  , issueCreatedAt = 2017 (-03) (-27) 06 : 19 : 08 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 217146847
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

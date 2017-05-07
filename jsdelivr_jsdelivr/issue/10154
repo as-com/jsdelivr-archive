@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-27) 20 : 40 : 27 UTC
+  , issueUpdatedAt = 2016 (-02) (-28) 05 : 46 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10154/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10154")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10154
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15632950
+        , simpleUserLogin = N "WRONGWAY4YOU"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/15632950?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/WRONGWAY4YOU"
+        }
+  , issueTitle = "cryptolist"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10154")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10154.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10154.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10154"
+  , issueCreatedAt = 2016 (-02) (-27) 18 : 29 : 09 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 136952065
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-15) 04 : 23 : 24 UTC
+  , issueUpdatedAt = 2017 (-02) (-15) 04 : 23 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15555/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15555")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15555
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9245537
+        , simpleUserLogin = N "baiduinc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9245537?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/baiduinc"
+        }
+  , issueTitle = "Add project Opensug via PR."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15555")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15555.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15555.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15555"
+  , issueCreatedAt = 2016 (-12) (-30) 02 : 15 : 39 UTC
+  , issueBody =
+      Just
+        "Submitted file contains:\r\n```\r\ninfo.ini\r\nopensug.js\r\nreadme.md\r\nupdate.json\r\n```"
+  , issueState = StateClosed
+  , issueId = Id 198095868
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

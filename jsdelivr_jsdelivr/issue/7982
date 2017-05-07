@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-17) 20 : 35 : 10 UTC
+  , issueUpdatedAt = 2015 (-11) (-17) 20 : 35 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7982/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7982")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7982
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project instantsearch.js to 0.14.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7982")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7982.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7982.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7982"
+  , issueCreatedAt = 2015 (-11) (-17) 20 : 35 : 00 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project instantsearch.js to 0.14.4.\n\n@algolia\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"instantsearch.js\",\n    \"repo\": \"algolia/instantsearch.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/instantsearch.js\",\n    \"localVersions\": [\"0.2.2\", \"0.3.0\", \"0.4.0\", \"0.4.1\", \"0.5.0\", \"0.5.1\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.6.4\", \"0.6.5\", \"0.7.0\", \"0.8.0\", \"0.8.1\", \"0.8.2\", \"0.9.0\", \"0.10.0\", \"0.11.0\", \"0.11.1\", \"0.12.0\", \"0.12.1\", \"0.12.2\", \"0.12.3\", \"0.13.0\", \"0.14.0\", \"0.14.1\", \"0.14.2\", \"0.14.3\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.2.2\", \"0.3.0\", \"0.4.0\", \"0.4.1\", \"0.5.0\", \"0.5.1\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.6.3\", \"0.6.4\", \"0.6.5\", \"0.7.0\", \"0.8.0\", \"0.8.1\", \"0.8.2\", \"0.9.0\", \"0.10.0\", \"0.11.0\", \"0.11.1\", \"0.12.0\", \"0.12.1\", \"0.12.2\", \"0.12.3\", \"0.13.0\", \"0.14.0\", \"0.14.1\", \"0.14.2\", \"0.14.3\", \"0.14.4\"],\n    \"branchVersions\": [\"0.8.0\", \"0.11.0\"]\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/instantsearch.js/update.json\",\n  \"version\": \"0.14.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/instantsearch.js/0.14.4\",\n  \"branch\": \"instantsearch.js/0.14.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 117444315
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

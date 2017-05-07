@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-15) 08 : 56 : 14 UTC
+  , issueUpdatedAt = 2014 (-12) (-15) 08 : 56 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2725/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2725")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2725
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8355878
+        , simpleUserLogin = N "Aranjedeath"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8355878?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Aranjedeath"
+        }
+  , issueTitle = "update webfontloader with 1.5.6, 1.5.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2725")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2725.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2725.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2725"
+  , issueCreatedAt = 2014 (-12) (-14) 23 : 13 : 55 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 51935842
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

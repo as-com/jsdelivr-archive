@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-28) 11 : 18 : 14 UTC
+  , issueUpdatedAt = 2016 (-01) (-28) 11 : 18 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9404/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9404")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9404
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1700322
+        , simpleUserLogin = N "joseluisq"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1700322?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/joseluisq"
+        }
+  , issueTitle = "Add Sortboard v1.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9404")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9404.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9404.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9404"
+  , issueCreatedAt = 2016 (-01) (-27) 22 : 59 : 40 UTC
+  , issueBody = Just "Thanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 129296825
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

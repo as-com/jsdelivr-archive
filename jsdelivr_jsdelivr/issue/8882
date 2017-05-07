@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-12) 15 : 16 : 03 UTC
+  , issueUpdatedAt = 2016 (-01) (-12) 15 : 16 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8882/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8882")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8882
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3531898
+        , simpleUserLogin = N "ionutvmi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3531898?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ionutvmi"
+        }
+  , issueTitle = "Adds JSVerbalExpressions"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8882")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8882.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8882.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8882"
+  , issueCreatedAt = 2016 (-01) (-11) 20 : 02 : 14 UTC
+  , issueBody =
+      Just "https://github.com/VerbalExpressions/JSVerbalExpressions\n"
+  , issueState = StateClosed
+  , issueId = Id 126024592
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

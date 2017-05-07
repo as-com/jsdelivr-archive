@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2017 (-01) (-07) 07 : 11 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15669/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/15669")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15669
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2918481
+        , simpleUserLogin = N "helantao"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2918481?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/helantao"
+        }
+  , issueTitle = "add jquery-sparkle"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15669"
+  , issueCreatedAt = 2017 (-01) (-07) 07 : 11 : 23 UTC
+  , issueBody =
+      Just
+        "Library name: jquery-sparkle\r\nGit repository url: https://github.com/maxspeicher/jquery-sparkle\r\nnpm package url(optional): https://github.com/maxspeicher/jquery-sparkle\r\nLicense(s): MIT\r\nOfficial homepage: https://github.com/maxspeicher/jquery-sparkle\r\nWanna say something? Leave message here:"
+  , issueState = StateOpen
+  , issueId = Id 199347040
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

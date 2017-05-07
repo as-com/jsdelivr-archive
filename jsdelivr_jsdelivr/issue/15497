@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-25) 20 : 32 : 18 UTC
+  , issueUpdatedAt = 2016 (-12) (-25) 20 : 32 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15497/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15497")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15497
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project free-jqgrid to v4.13.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15497")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15497.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15497.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15497"
+  , issueCreatedAt = 2016 (-12) (-24) 22 : 03 : 26 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project free-jqgrid to v4.13.6.\n\n@free-jqgrid\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"free-jqgrid\",\n    \"repo\": \"free-jqgrid/jqGrid\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"./css/*\", \"./js/*\", \"./js/i18n/*\", \"./js/min/*\", \"./plugins/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/free-jqgrid\",\n    \"localVersions\": [\"4.8.0\", \"4.9.0-rc1\", \"4.9.0\", \"4.9.1\", \"4.9.2\", \"4.10.0\", \"4.11.0\", \"4.11.1\", \"4.12.0\", \"4.12.1\", \"4.13.0\", \"4.13.1\", \"4.13.2\", \"4.13.3\", \"4.13.4\", \"4.13.5\", \"5.1.1\"],\n    \"remoteVersions\": [\"v4.0.0\", \"v4.1.0\", \"v4.1.1\", \"v4.1.2\", \"v4.2.0\", \"v4.3.0\", \"v4.3.1\", \"v4.3.2\", \"v4.3.3\", \"v4.4.0\", \"v4.4.1\", \"4.4.2\", \"v4.4.2\", \"v4.4.3\", \"v4.4.4\", \"v4.4.5\", \"v4.5.0\", \"v4.5.1\", \"v4.5.1.0\", \"v4.5.2\", \"v4.5.3\", \"v4.5.4\", \"v4.6.0\", \"v4.7.0\", \"v4.8.0-beta.1\", \"v4.8.0-beta.2\", \"v4.8.0\", \"v4.9.0-rc1\", \"v4.9.0\", \"v4.9.1\", \"v4.9.2\", \"v4.10.0\", \"v4.11.0\", \"v4.11.1\", \"v4.12.0\", \"v4.12.1\", \"v4.13.0\", \"v4.13.1\", \"v4.13.2\", \"v4.13.3\", \"v4.13.4\", \"v4.13.5\", \"v4.13.6\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/free-jqgrid/update.json\",\n  \"versions\": [\"v4.13.6\"],\n  \"updateRemote\": true,\n  \"version\": \"v4.13.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/free-jqgrid/4.13.6\",\n  \"branch\": \"free-jqgrid/v4.13.6\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 197478916
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

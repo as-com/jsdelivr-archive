@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-26) 19 : 33 : 48 UTC
+  , issueUpdatedAt = 2016 (-09) (-26) 19 : 33 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13998/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13998")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13998
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ImageSliderRibbonJS to v1.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13998")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13998.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13998.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13998"
+  , issueCreatedAt = 2016 (-09) (-26) 19 : 33 : 44 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ImageSliderRibbonJS to v1.0.5.\n\n@mjza\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ImageSliderRibbonJS\",\n    \"repo\": \"mjza/ImageSliderRibbonJS\",\n    \"files\": {\n      \"include\": [\"ImageSliderRibbon.js\", \"ImageSliderRibbon-min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/imagesliderribbonjs\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/imagesliderribbonjs/update.json\",\n  \"versions\": [\"v1.0.5\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/imagesliderribbonjs/1.0.5\",\n  \"branch\": \"ImageSliderRibbonJS/v1.0.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 179317315
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

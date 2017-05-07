@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-10) 23 : 42 : 58 UTC
+  , issueUpdatedAt = 2014 (-10) (-13) 21 : 09 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1938/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1938")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1938
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6333719
+        , simpleUserLogin = N "lineardevon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6333719?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lineardevon"
+        }
+  , issueTitle = "Create update.json for nouislider"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1938")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1938.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1938.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1938"
+  , issueCreatedAt = 2014 (-10) (-07) 02 : 59 : 19 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 45062246
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

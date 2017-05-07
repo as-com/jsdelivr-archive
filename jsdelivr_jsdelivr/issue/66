@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-08) (-03) 07 : 59 : 11 UTC
+  , issueUpdatedAt = 2013 (-10) (-10) 01 : 39 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/66/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/66")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 66
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1470383
+        , simpleUserLogin = N "dinotermini"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1470383?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dinotermini"
+        }
+  , issueTitle = "Version 3.2.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/66")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/66.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/66.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/66"
+  , issueCreatedAt = 2013 (-08) (-03) 02 : 45 : 32 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 17590043
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

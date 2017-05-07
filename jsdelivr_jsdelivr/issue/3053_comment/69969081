@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-14) 18 : 51 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/69969081"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3053#issuecomment-69969081"
+  , issueCommentCreatedAt = 2015 (-01) (-14) 18 : 51 : 14 UTC
+  , issueCommentBody =
+      "You are correct, I thought it was a new submission, sorry about that. \nUnfortunately you will  have to remove update.json because the repo does not include the min file that is currently the mainfile https://github.com/markusslima/bootstrap-filestyle/tree/v1.1.2/src\n"
+  , issueCommentId = 69969081
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-09) (-22) 13 : 28 : 23 UTC
+  , issueUpdatedAt = 2013 (-09) (-22) 13 : 28 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/105/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/105")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 105
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49051
+        , simpleUserLogin = N "mattpodwysocki"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/49051?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mattpodwysocki"
+        }
+  , issueTitle = "Updating rxjs-dom to 2.0.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/105")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/105.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/105.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/105"
+  , issueCreatedAt = 2013 (-09) (-21) 12 : 04 : 51 UTC
+  , issueBody =
+      Just
+        "Updating rxjs-dom to 2.0.6 as per: https://github.com/Reactive-Extensions/rxjs-dom/releases\n"
+  , issueState = StateClosed
+  , issueId = Id 19855699
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

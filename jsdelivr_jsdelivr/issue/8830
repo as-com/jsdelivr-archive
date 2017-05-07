@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-12) 15 : 15 : 13 UTC
+  , issueUpdatedAt = 2016 (-01) (-14) 12 : 54 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8830/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8830")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8830
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 506447
+        , simpleUserLogin = N "ecoslado"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/506447?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ecoslado"
+        }
+  , issueTitle = "First PR"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8830")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8830.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8830.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8830"
+  , issueCreatedAt = 2016 (-01) (-07) 15 : 09 : 52 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 125411616
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

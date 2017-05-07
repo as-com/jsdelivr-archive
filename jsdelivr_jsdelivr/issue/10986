@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-11) 22 : 05 : 26 UTC
+  , issueUpdatedAt = 2016 (-04) (-11) 22 : 05 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10986/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10986")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10986
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project whitestormjs to r8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10986")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10986.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10986.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10986"
+  , issueCreatedAt = 2016 (-04) (-11) 22 : 05 : 21 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project whitestormjs to r8.\n\n@WhitestormJS\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"whitestormjs\",\n    \"repo\": \"WhitestormJS/whitestorm.js\",\n    \"files\": {\n      \"include\": [\"build/whitestorm.min.js\", \"build/whitestorm.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/whitestormjs\",\n    \"localVersions\": [\"0.0.6-alpha\", \"0.0.6\", \"0.0.7\"],\n    \"remoteVersions\": [\"r8\", \"v0.0.4\", \"v0.0.5\", \"v0.0.6-alpha\", \"v0.0.6\", \"v0.0.7\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/whitestormjs/update.json\",\n  \"versions\": [\"r8\"],\n  \"updateRemote\": true,\n  \"version\": \"r8\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/whitestormjs/r8\",\n  \"branch\": \"whitestormjs/r8\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 147568747
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

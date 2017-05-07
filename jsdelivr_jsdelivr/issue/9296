@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-23) 15 : 04 : 19 UTC
+  , issueUpdatedAt = 2016 (-01) (-23) 15 : 04 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9296/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9296")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9296
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project umbrella to 1.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9296")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9296.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9296.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9296"
+  , issueCreatedAt = 2016 (-01) (-23) 15 : 04 : 13 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project umbrella to 1.1.3.\n\n@umbrellajs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"umbrella\",\n    \"repo\": \"umbrellajs/umbrella\",\n    \"files\": {\n      \"include\": [\"umbrella.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/umbrella\",\n    \"localVersions\": [\"1.0.3\", \"1.1.0\", \"1.1.1\", \"1.1.2\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\"],\n    \"branchVersions\": [\"1.1.1\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/umbrella/update.json\",\n  \"versions\": [\"1.1.3\"],\n  \"updateRemote\": true,\n  \"version\": \"1.1.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/umbrella/1.1.3\",\n  \"branch\": \"umbrella/1.1.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 128332882
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

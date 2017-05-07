@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-24) 03 : 11 : 54 UTC
+  , issueUpdatedAt = 2016 (-10) (-24) 03 : 11 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14449/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14449")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14449
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6059356
+        , simpleUserLogin = N "limonte"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6059356?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/limonte"
+        }
+  , issueTitle = "Update es6-promise/info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14449")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14449.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14449.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14449"
+  , issueCreatedAt = 2016 (-10) (-21) 15 : 12 : 22 UTC
+  , issueBody =
+      Just
+        "Updated info is taken from https://github.com/stefanpenner/es6-promise/blob/master/package.json\n"
+  , issueState = StateClosed
+  , issueId = Id 184510260
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

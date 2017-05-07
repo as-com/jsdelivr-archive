@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-14) 14 : 08 : 54 UTC
+  , issueUpdatedAt = 2015 (-08) (-14) 14 : 08 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6372/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6372")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6372
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1639302
+        , simpleUserLogin = N "abishekrsrikaanth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1639302?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/abishekrsrikaanth"
+        }
+  , issueTitle = "Adding Auto Update for tinycolor library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6372")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6372.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6372.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6372"
+  , issueCreatedAt = 2015 (-08) (-12) 13 : 40 : 15 UTC
+  , issueBody =
+      Just
+        "URL: http://bgrins.github.com/TinyColor/\nRepo: https://github.com/bgrins/TinyColor\n"
+  , issueState = StateClosed
+  , issueId = Id 100546371
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

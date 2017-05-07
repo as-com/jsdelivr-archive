@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-05) 12 : 26 : 57 UTC
+  , issueUpdatedAt = 2014 (-04) (-05) 12 : 26 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/581/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/581")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 581
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 482853
+        , simpleUserLogin = N "ismailfazal"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/482853?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ismailfazal"
+        }
+  , issueTitle = "Create vjs.youtube.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/581")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/581.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/581.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/581"
+  , issueCreatedAt = 2014 (-04) (-05) 10 : 07 : 04 UTC
+  , issueBody =
+      Just
+        "Youtube plugin for Videojs 4.4.3 - https://github.com/eXon/videojs-youtube\n"
+  , issueState = StateClosed
+  , issueId = Id 30912506
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

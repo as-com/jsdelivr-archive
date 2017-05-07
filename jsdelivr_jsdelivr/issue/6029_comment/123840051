@@ -1,0 +1,22 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-22) 19 : 41 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 338988
+        , simpleUserLogin = N "jonathanKingston"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/338988?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/jonathanKingston"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123840051"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123840051"
+  , issueCommentCreatedAt = 2015 (-07) (-22) 19 : 41 : 40 UTC
+  , issueCommentBody =
+      "@jimaek regarding the UI does the new site no longer have the 'integration' button that has the modal open with the code textarea?\n\nThe code that is always static would be better just having integrity by default to promote it's usage. Perhaps the code could look like this:\n\n```\n<script src=\"https://jsdelivr.com/path/path/file.js\" ... />\n```\n\nClicking on this could copy with the integrity.\n\nWhat is group links for out of interest?\n"
+  , issueCommentId = 123840051
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-21) 22 : 05 : 29 UTC
+  , issueUpdatedAt = 2015 (-07) (-21) 22 : 05 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6037/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6037")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6037
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project leipzig to 0.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6037")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6037.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6037.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6037"
+  , issueCreatedAt = 2015 (-07) (-21) 22 : 05 : 24 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project leipzig to 0.5.0.\n\n@bdchauvette\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"leipzig\",\n    \"repo\": \"bdchauvette/leipzig.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"leipzig.min.js\", \"leipzig.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/leipzig\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.1.0\", \"0.2.0\", \"0.3.0\", \"0.3.1\", \"0.4.0\", \"0.4.1\", \"0.5.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/leipzig/update.json\",\n  \"version\": \"0.5.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/leipzig/0.5.0\",\n  \"branch\": \"leipzig/0.5.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 96426721
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

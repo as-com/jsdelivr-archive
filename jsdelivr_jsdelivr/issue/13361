@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-03) 14 : 25 : 54 UTC
+  , issueUpdatedAt = 2016 (-10) (-03) 14 : 25 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13361/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13361")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13361
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project lory.js to 2.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13361")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13361.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13361.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13361"
+  , issueCreatedAt = 2016 (-08) (-21) 15 : 33 : 55 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project lory.js to 2.1.3.\n\n@meandmax\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"lory.js\",\n    \"repo\": \"meandmax/lory\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/lory-js\",\n    \"localVersions\": [\"1.6.8\", \"2.1.0\"],\n    \"remoteVersions\": [\"0.0.0\", \"0.1.0\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.3.0\", \"0.3.1\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.4.3\", \"0.4.4\", \"0.4.5\", \"0.4.6\", \"0.5.0\", \"0.6.0\", \"0.6.1\", \"0.6.2\", \"0.7.0\", \"1.0.0\", \"1.1.0\", \"1.1.1\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.2.4\", \"1.2.5\", \"1.2.6\", \"1.3.0\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.6.0\", \"1.6.1\", \"1.6.2\", \"1.6.3\", \"1.6.4\", \"1.6.5\", \"1.6.6\", \"1.6.7\", \"1.6.8\", \"2.0.0\", \"2.0.1\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.1.3\"],\n    \"branchVersions\": [\"2.1.1\", \"2.1.2\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/lory-js/update.json\",\n  \"versions\": [\"2.1.3\"],\n  \"updateRemote\": true,\n  \"version\": \"2.1.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/lory-js/2.1.3\",\n  \"branch\": \"lory.js/2.1.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 172326320
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

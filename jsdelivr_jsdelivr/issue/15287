@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-11) 18 : 56 : 27 UTC
+  , issueUpdatedAt = 2016 (-12) (-11) 18 : 56 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15287/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15287")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15287
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 13390457
+        , simpleUserLogin = N "labsvisual"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/13390457?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/labsvisual"
+        }
+  , issueTitle = "Dummy.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15287")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15287.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15287.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15287"
+  , issueCreatedAt = 2016 (-12) (-11) 08 : 16 : 35 UTC
+  , issueBody = Just "Added files to create a CDN fork for Dummy.js"
+  , issueState = StateClosed
+  , issueId = Id 194819553
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

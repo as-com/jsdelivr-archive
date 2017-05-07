@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-19) 17 : 28 : 47 UTC
+  , issueUpdatedAt = 2014 (-03) (-19) 17 : 28 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/476/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/476")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 476
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 189265
+        , simpleUserLogin = N "jensenbox"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/189265?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jensenbox"
+        }
+  , issueTitle = "Please update gmaps"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/476"
+  , issueCreatedAt = 2014 (-03) (-19) 15 : 57 : 49 UTC
+  , issueBody =
+      Just
+        "I would do it but not sure about the min processing.\n\nhttps://github.com/HPNeo/gmaps/tree/0.4.11\n"
+  , issueState = StateClosed
+  , issueId = Id 29745050
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

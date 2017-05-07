@@ -1,0 +1,22 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-19) 20 : 09 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 139212
+        , simpleUserLogin = N "arturparkhisenko"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/139212?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/arturparkhisenko"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/67689442"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2788#issuecomment-67689442"
+  , issueCommentCreatedAt = 2014 (-12) (-19) 20 : 01 : 23 UTC
+  , issueCommentBody =
+      "Maybe u add to contributing guide a words about a pull files must be in utf-8(w/o BOM)?\nSo i dont need make new commit with reencoded? i'm not sure if this triple convertation helps (i want try phpstorm now). But it takes so many time to fetch.\n\nre encoded by np++ can squash and pull again)\n"
+  , issueCommentId = 67689442
+  }

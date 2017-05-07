@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-02) 02 : 15 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 316840
+        , simpleUserLogin = N "jcockhren"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/316840?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jcockhren"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/88697792"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4095#issuecomment-88697792"
+  , issueCommentCreatedAt = 2015 (-04) (-02) 02 : 15 : 28 UTC
+  , issueCommentBody =
+      "> What is your source for these files?\n\n@jimaek I got these files from [Google Hosted Libraries CDN](https://developers.google.com/speed/libraries/devguide#angularmaterial). Their repo doesn't contain the releases.\n"
+  , issueCommentId = 88697792
+  }

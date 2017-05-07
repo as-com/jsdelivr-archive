@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-12) 15 : 22 : 41 UTC
+  , issueUpdatedAt = 2014 (-03) (-12) 15 : 22 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/336/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/336")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 336
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 831389
+        , simpleUserLogin = N "lewisgoddard"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/831389?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lewisgoddard"
+        }
+  , issueTitle = "Allow Loading of Helpers in file-combiner"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/336"
+  , issueCreatedAt = 2014 (-02) (-05) 22 : 44 : 26 UTC
+  , issueBody =
+      Just
+        "I would like to load fancybox and it's media helper in one file, but the current system does not seem to allow this.\n\nDesired:\n\n```\n//cdn.jsdelivr.net/g/fancybox+media@2.1.5\n```\n\nCurrent:\n\n```\n//cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.pack.js\n//cdn.jsdelivr.net/fancybox/2.1.5/helpers/jquery.fancybox-media.js\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 27010346
+  , issueComments = 49
+  , issueMilestone = Nothing
+  }

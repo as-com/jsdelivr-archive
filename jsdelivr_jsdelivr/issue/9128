@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-17) 15 : 32 : 36 UTC
+  , issueUpdatedAt = 2016 (-01) (-17) 15 : 32 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9128/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9128")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9128
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project cborjs-typedarray-decoder to 0.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9128")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9128.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9128.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9128"
+  , issueCreatedAt = 2016 (-01) (-17) 15 : 32 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project cborjs-typedarray-decoder to 0.1.1.\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"cborjs-typedarray-decoder\",\n    \"repo\": \"Reading-eScience-Centre/cborjs-typedarray-decoder\",\n    \"files\": {\n      \"include\": [\"cborjs-typedarray-decoder.min.js\", \"cborjs-typedarray-decoder.src.js\", \"cborjs-typedarray-decoder.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/cborjs-typedarray-decoder\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\"],\n    \"branchVersions\": [\"0.1.0\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/cborjs-typedarray-decoder/update.json\",\n  \"versions\": [\"0.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/cborjs-typedarray-decoder/0.1.1\",\n  \"branch\": \"cborjs-typedarray-decoder/0.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127102692
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

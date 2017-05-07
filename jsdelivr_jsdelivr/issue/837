@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-11) 00 : 39 : 45 UTC
+  , issueUpdatedAt = 2014 (-06) (-11) 00 : 39 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/837/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/837")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 837
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "mainfileS"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/837"
+  , issueCreatedAt = 2014 (-05) (-21) 19 : 50 : 25 UTC
+  , issueBody =
+      Just
+        "`mainfile` discussion number 5: What about libs that [require more](https://github.com/jsbin/jsbin/issues/1106#issuecomment-43530722) than just the mainfile?  Eg need CSS, images, fonts to really 'work'.  Allow a [browserify](http://browserify.org/) output file to be uploaded?  Have a script to load all resources?\n"
+  , issueState = StateClosed
+  , issueId = Id 34017702
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-30) 18 : 03 : 12 UTC
+  , issueUpdatedAt = 2015 (-06) (-30) 18 : 03 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5558/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5558")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5558
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 659492
+        , simpleUserLogin = N "ToX82"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/659492?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ToX82"
+        }
+  , issueTitle = "Exclude demo files not necessary to the CDN"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5558")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5558.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5558.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5558"
+  , issueCreatedAt = 2015 (-06) (-30) 17 : 58 : 00 UTC
+  , issueBody =
+      Just
+        "New version of cookieBAR has a demo file which should not added to the CDN, I've added it to the excludes\n"
+  , issueState = StateClosed
+  , issueId = Id 92158731
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-03) 12 : 33 : 33 UTC
+  , issueUpdatedAt = 2014 (-04) (-03) 12 : 33 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/563/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/563")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 563
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3757971
+        , simpleUserLogin = N "ymatuhin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3757971?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ymatuhin"
+        }
+  , issueTitle = "[add] pixtopix javascript library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/563")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/563.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/563.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/563"
+  , issueCreatedAt = 2014 (-04) (-03) 12 : 31 : 37 UTC
+  , issueBody = Just "Library for pixel perfect development.\n"
+  , issueState = StateClosed
+  , issueId = Id 30770751
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

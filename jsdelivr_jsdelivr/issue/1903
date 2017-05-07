@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-03) 10 : 24 : 19 UTC
+  , issueUpdatedAt = 2014 (-10) (-13) 11 : 30 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1903/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1903")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1903
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project textAngular to v1.3.0-pre3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1903")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1903.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1903.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1903"
+  , issueCreatedAt = 2014 (-10) (-03) 05 : 01 : 55 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project textAngular to v1.3.0-pre3.\n\n@fraywing\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"textAngular\",\n    \"repo\": \"fraywing/textAngular\",\n    \"files\": {\n      \"include\": [\"src/textAngular-sanitize.js\", \"src/textAngular.js\", \"dist/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular.textangular\",\n    \"localVersions\": [\"1.2.0\", \"1.2.1\", \"1.2.2\"],\n    \"remoteVersions\": [\"1.1.0\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2-alpha\", \"v1.1.2-pre2\", \"v1.1.2-pre3\", \"v1.1.2\", \"v1.2.0-pre1\", \"v1.2.0-pre2\", \"v1.2.0\", \"v1.2.1-pre1\", \"v1.2.1-pre2\", \"v1.2.1-pre3\", \"v1.2.1-pre4\", \"v1.2.1-pre5\", \"v1.2.1-pre6\", \"v1.2.1\", \"v1.2.2\", \"v1.3.0-pre1\", \"v1.3.0-pre2\", \"v1.3.0-pre3\"],\n    \"branchVersions\": [\"v1.3.0-pre1\", \"v1.3.0-pre2\"]\n  },\n  \"version\": \"v1.3.0-pre3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.textangular/1.3.0-pre3\",\n  \"branch\": \"textAngular/v1.3.0-pre3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 44767525
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

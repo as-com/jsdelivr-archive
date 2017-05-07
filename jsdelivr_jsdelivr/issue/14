@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-06) (-21) 02 : 00 : 29 UTC
+  , issueUpdatedAt = 2014 (-06) (-16) 19 : 04 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1591221
+        , simpleUserLogin = N "Francklin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1591221?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Francklin"
+        }
+  , issueTitle = "add JSDK3 v1.8.9.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14"
+  , issueCreatedAt = 2013 (-05) (-07) 13 : 23 : 50 UTC
+  , issueBody = Just "I have deleted files no need.\n"
+  , issueState = StateClosed
+  , issueId = Id 14048447
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

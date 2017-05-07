@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-28) 12 : 56 : 39 UTC
+  , issueUpdatedAt = 2016 (-04) (-28) 12 : 56 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11304/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11304")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11304
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4924614
+        , simpleUserLogin = N "ArunMichaelDsouza"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4924614?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/ArunMichaelDsouza"
+        }
+  , issueTitle = "Adding ng-image-appear to jsdelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11304")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11304.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11304.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11304"
+  , issueCreatedAt = 2016 (-04) (-26) 19 : 26 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 151218738
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-06) 13 : 51 : 11 UTC
+  , issueUpdatedAt = 2014 (-03) (-06) 13 : 53 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/420/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/420")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 420
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 98921
+        , simpleUserLogin = N "bmaeser"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/98921?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bmaeser"
+        }
+  , issueTitle = "added slabtext version 2.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/420")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/420.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/420.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/420"
+  , issueCreatedAt = 2014 (-03) (-06) 13 : 50 : 25 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 28879783
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

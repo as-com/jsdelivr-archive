@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-01) 19 : 26 : 55 UTC
+  , issueUpdatedAt = 2016 (-12) (-01) 19 : 26 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15144/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15144")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15144
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7565963
+        , simpleUserLogin = N "Joungkyun"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/7565963?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Joungkyun"
+        }
+  , issueTitle = "add svg files in update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15144")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15144.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15144.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15144"
+  , issueCreatedAt = 2016 (-12) (-01) 08 : 52 : 39 UTC
+  , issueBody = Just "add d2codoing.svg and d2codingbold.svg files"
+  , issueState = StateClosed
+  , issueId = Id 192786679
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

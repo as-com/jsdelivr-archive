@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 36 : 30 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 36 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16947/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16947")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16947
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 26270933
+        , simpleUserLogin = N "geodatasource"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/26270933?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/geodatasource"
+        }
+  , issueTitle = "PR to merge project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16947")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16947.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16947.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16947"
+  , issueCreatedAt = 2017 (-03) (-16) 02 : 36 : 04 UTC
+  , issueBody = Just "A PR to merge country-region-dropdown-menu."
+  , issueState = StateClosed
+  , issueId = Id 214582394
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

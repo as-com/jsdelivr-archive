@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-18) 19 : 59 : 58 UTC
+  , issueUpdatedAt = 2015 (-10) (-18) 19 : 59 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6149/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6149")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6149
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 580492
+        , simpleUserLogin = N "Swatinem"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/580492?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Swatinem"
+        }
+  , issueTitle = "enable auto-update for gl-matrix"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6149")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6149.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6149.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6149"
+  , issueCreatedAt = 2015 (-07) (-28) 13 : 55 : 28 UTC
+  , issueBody =
+      Just
+        "The version they have on npm only includes the .min js file :-(\n"
+  , issueState = StateClosed
+  , issueId = Id 97713499
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-24) 02 : 18 : 42 UTC
+  , issueUpdatedAt = 2015 (-03) (-24) 02 : 18 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3773/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3773")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3773
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1653507
+        , simpleUserLogin = N "d4Mn3d"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1653507?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/d4Mn3d"
+        }
+  , issueTitle = "slidebars"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3773")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3773.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3773.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3773"
+  , issueCreatedAt = 2015 (-03) (-07) 22 : 20 : 22 UTC
+  , issueBody = Just "added the slidebars project\n"
+  , issueState = StateClosed
+  , issueId = Id 60227508
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

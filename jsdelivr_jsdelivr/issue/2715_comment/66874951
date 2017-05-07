@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-13) 12 : 30 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66874951"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2715#issuecomment-66874951"
+  , issueCommentCreatedAt = 2014 (-12) (-13) 12 : 30 : 50 UTC
+  , issueCommentBody =
+      "You can use 3.9 without problem thanks to the version aliasing feature we have.\n//cdn.jsdelivr.net/wp-slimstat/3.9.0/wp-slimstat.js\n//cdn.jsdelivr.net/wp-slimstat/3.9/wp-slimstat.js\n"
+  , issueCommentId = 66874951
+  }

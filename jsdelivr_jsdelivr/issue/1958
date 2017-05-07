@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-13) 11 : 17 : 41 UTC
+  , issueUpdatedAt = 2014 (-11) (-07) 12 : 34 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1958/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1958")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1958
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle = "Update hogan.js to 3.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1958")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1958.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1958.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1958"
+  , issueCreatedAt = 2014 (-10) (-09) 09 : 41 : 31 UTC
+  , issueBody =
+      Just
+        "Updated from https://github.com/twitter/hogan.js/tree/v3.0.2/web/builds/3.0.2.\n\nNote: It does look like there were changes in the file list. I couldn't find a build for 3.0.0 (current latest version) but 3.0.1 looked like this https://github.com/twitter/hogan.js/tree/v3.0.2/web/builds/3.0.1 \n"
+  , issueState = StateClosed
+  , issueId = Id 45346210
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

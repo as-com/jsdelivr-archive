@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-24) 14 : 23 : 35 UTC
+  , issueUpdatedAt = 2014 (-08) (-24) 14 : 23 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1513/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1513")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1513
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 394493
+        , simpleUserLogin = N "samwyse"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/394493?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/samwyse"
+        }
+  , issueTitle = "adding jsquery.sortchildren"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1513")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1513.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1513.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1513"
+  , issueCreatedAt = 2014 (-08) (-24) 13 : 36 : 59 UTC
+  , issueBody =
+      Just
+        "This is a very good jsquery sorting plugin written by Rodney Rehm.  The code currently resides in a [gist](https://gist.github.com/978520), which isn't a CDN.  By providing it via jsdelivr, I hope to make it more popular.\n\nBy default, this plugin uses locale.compare for text comparisons, but provides a way to specify other ways to specify keys.  It uses the Schwartzian Transform to reduce the work it does when comparing items to a bare minimum.  For details, see the author's [blog](http://blog.rodneyrehm.de/archives/14-Sorting-Were-Doing-It-Wrong.html).\n"
+  , issueState = StateClosed
+  , issueId = Id 41009131
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

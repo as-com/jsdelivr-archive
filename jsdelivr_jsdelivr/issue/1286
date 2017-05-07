@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-24) 13 : 58 : 16 UTC
+  , issueUpdatedAt = 2014 (-07) (-24) 13 : 58 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1286/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1286")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1286
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 735279
+        , simpleUserLogin = N "amitabhaghosh197"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/735279?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/amitabhaghosh197"
+        }
+  , issueTitle = "Can I create a directory in the jsdelivr/files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1286")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1286.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1286.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1286"
+  , issueCreatedAt = 2014 (-07) (-24) 09 : 48 : 31 UTC
+  , issueBody =
+      Just
+        "I am trying to add a directory inside the jsdelivr/files but I am unable to do it. Can anyone please help me how to do that. I know this question is not to be asked as because it is simple, but I don't know the exact process.I have installed git in my local drive and forked the jsdelivr also, but still I am unable to add.\nThanks in advance\n"
+  , issueState = StateClosed
+  , issueId = Id 38613127
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

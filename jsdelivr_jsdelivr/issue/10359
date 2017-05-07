@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-09) 12 : 30 : 25 UTC
+  , issueUpdatedAt = 2016 (-03) (-09) 12 : 30 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10359/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10359")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10359
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3150233
+        , simpleUserLogin = N "devinivy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3150233?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/devinivy"
+        }
+  , issueTitle = "Update refluxjs repo to reflux org"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10359")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10359.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10359.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10359"
+  , issueCreatedAt = 2016 (-03) (-09) 03 : 09 : 10 UTC
+  , issueBody =
+      Just
+        "The refluxjs repo has been moved from a personal github account (https://github.com/spoike/refluxjs) to an organization (https://github.com/reflux/refluxjs).\n"
+  , issueState = StateClosed
+  , issueId = Id 139462824
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

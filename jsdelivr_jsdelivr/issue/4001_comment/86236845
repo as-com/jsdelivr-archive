@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-25) 22 : 26 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/86236845"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4001#issuecomment-86236845"
+  , issueCommentCreatedAt = 2015 (-03) (-25) 22 : 26 : 41 UTC
+  , issueCommentBody =
+      "It should be ok now.\nThe permament fix will affect only newly cached files.\n"
+  , issueCommentId = 86236845
+  }

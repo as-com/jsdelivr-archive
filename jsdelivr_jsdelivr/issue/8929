@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-13) 20 : 07 : 33 UTC
+  , issueUpdatedAt = 2016 (-01) (-13) 20 : 08 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8929/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8929")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8929
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2044842
+        , simpleUserLogin = N "jlmakes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2044842?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jlmakes"
+        }
+  , issueTitle = "update(update.json)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8929")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8929.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8929.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8929"
+  , issueCreatedAt = 2016 (-01) (-13) 16 : 49 : 53 UTC
+  , issueBody =
+      Just
+        "Attempting to fix jsdelivr\8217s mad problems with my automatic PR merges\8230 I don\8217t see a reason to include the non-minified version, since it seems to just be causing problems.\n"
+  , issueState = StateClosed
+  , issueId = Id 126463029
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

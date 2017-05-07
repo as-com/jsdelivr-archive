@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-09) 11 : 04 : 24 UTC
+  , issueUpdatedAt = 2016 (-12) (-09) 11 : 04 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15265/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15265")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15265
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11537232
+        , simpleUserLogin = N "shreyasminocha"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/11537232?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/shreyasminocha"
+        }
+  , issueTitle = "Dummy.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15265")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15265.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15265.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15265"
+  , issueCreatedAt = 2016 (-12) (-09) 11 : 02 : 15 UTC
+  , issueBody =
+      Just
+        "Added Dummy.js folder with dummy.min.js and info.ini:\r\n```\r\nfiles/Dummy.js/1.0/dummy.min.js\r\nfiles/Dummy.js/1.0/info.ini\r\n```"
+  , issueState = StateClosed
+  , issueId = Id 194568986
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

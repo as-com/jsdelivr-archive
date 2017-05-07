@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-07) 11 : 12 : 05 UTC
+  , issueUpdatedAt = 2014 (-06) (-22) 03 : 23 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/907/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/907")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 907
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1244792
+        , simpleUserLogin = N "wlsc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1244792?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wlsc"
+        }
+  , issueTitle = "Added Physics.js 0.6.0 full min"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/907")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/907.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/907.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/907"
+  , issueCreatedAt = 2014 (-06) (-07) 07 : 45 : 24 UTC
+  , issueBody = Just "Added Physics.js 0.6.0 full min\n"
+  , issueState = StateClosed
+  , issueId = Id 35203270
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

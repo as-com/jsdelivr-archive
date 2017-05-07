@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-24) 15 : 54 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 123822
+        , simpleUserLogin = N "vvo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/123822?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vvo"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/85572270"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3981#issuecomment-85572270"
+  , issueCommentCreatedAt = 2015 (-03) (-24) 15 : 54 : 54 UTC
+  , issueCommentBody =
+      "@pnommensen Hi, I cannot see the non-minified versions in @bobylito commits?\n"
+  , issueCommentId = 85572270
+  }

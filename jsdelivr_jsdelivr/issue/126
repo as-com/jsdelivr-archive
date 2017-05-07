@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-29) 13 : 46 : 10 UTC
+  , issueUpdatedAt = 2013 (-10) (-29) 13 : 49 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/126/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/126")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 126
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1915268
+        , simpleUserLogin = N "irazasyed"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1915268?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/irazasyed"
+        }
+  , issueTitle = "Added momentjs v2.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/126")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/126.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/126.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/126"
+  , issueCreatedAt = 2013 (-10) (-29) 13 : 43 : 40 UTC
+  , issueBody =
+      Just
+        "Added new version of momentjs v2.4.0 - https://github.com/moment/moment/\n"
+  , issueState = StateClosed
+  , issueId = Id 21757215
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-09) 20 : 48 : 52 UTC
+  , issueUpdatedAt = 2017 (-02) (-09) 20 : 48 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16243/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/16243")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16243
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6761246
+        , simpleUserLogin = N "thednp"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6761246?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thednp"
+        }
+  , issueTitle =
+      "[advice request]: Publishing a parallel version of bootstrap.native"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16243"
+  , issueCreatedAt = 2017 (-02) (-08) 12 : 48 : 54 UTC
+  , issueBody =
+      Just
+        "A lot of users requested a V4 version of [bootstrap.native](https://github.com/thednp/bootstrap.native) and I delivered, but I need your advice on how to publish it to CDN/npm:\r\n\r\n* should I make a new repository `bootstrap.native.v4` to make a PR for a new script\r\n* should I rename files to `bootstrap-native-v4.js` and publish them in the same `/dist` folder?\r\n* is there anything better to do in this case?\r\n\r\nThanks."
+  , issueState = StateClosed
+  , issueId = Id 206189037
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

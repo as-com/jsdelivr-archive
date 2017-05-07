@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-31) 18 : 32 : 47 UTC
+  , issueUpdatedAt = 2017 (-01) (-31) 18 : 32 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16087/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16087")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16087
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ally.js to 1.4.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16087")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16087.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16087.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16087"
+  , issueCreatedAt = 2017 (-01) (-31) 18 : 32 : 42 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ally.js to 1.4.1.\n\n@medialize\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"ally.js\",\n    \"repo\": \"medialize/ally.js\",\n    \"files\": {\n      \"include\": [\"ally.min.js\", \"ally.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/ally.js\",\n    \"localVersions\": [\"1.0.1\", \"1.1.0-beta.1\", \"1.1.0-beta.2\", \"1.1.0-beta.3\", \"1.1.0-beta.4\", \"1.1.0-beta.5\", \"1.1.0\", \"1.1.1\", \"1.2.0\", \"1.3.0\", \"1.3.2\", \"1.4.0\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.7\", \"1.0.0-beta.6\", \"1.0.0-beta.7\", \"1.0.0-beta.8\", \"1.0.0-beta.9\", \"1.0.0-beta.10\", \"1.0.0\", \"1.0.1\", \"1.1.0-beta.1\", \"1.1.0-beta.2\", \"1.1.0-beta.3\", \"1.1.0-beta.4\", \"1.1.0-beta.5\", \"1.1.0\", \"1.1.1\", \"1.2.0\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.4.0\", \"1.4.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/ally.js/update.json\",\n  \"versions\": [\"1.4.1\"],\n  \"updateRemote\": true,\n  \"version\": \"1.4.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/ally.js/1.4.1\",\n  \"branch\": \"ally.js/1.4.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 204383853
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

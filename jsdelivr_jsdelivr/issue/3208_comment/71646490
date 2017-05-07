@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-27) 13 : 22 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1504938
+        , simpleUserLogin = N "idleberg"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1504938?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/idleberg"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/71646490"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3208#issuecomment-71646490"
+  , issueCommentCreatedAt = 2015 (-01) (-27) 13 : 22 : 27 UTC
+  , issueCommentBody =
+      "Any specific reason why I should rename this? It's using the same name on Bower and npm, so I think it makes sense to keep it consistent.\n"
+  , issueCommentId = 71646490
+  }

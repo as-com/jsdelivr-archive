@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-26) 09 : 43 : 04 UTC
+  , issueUpdatedAt = 2014 (-12) (-26) 09 : 43 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2841/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2841")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2841
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 14110
+        , simpleUserLogin = N "apeckham"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/14110?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/apeckham"
+        }
+  , issueTitle = "Update snowplow js to 2.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2841")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2841.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2841.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2841"
+  , issueCreatedAt = 2014 (-12) (-25) 22 : 47 : 27 UTC
+  , issueBody =
+      Just
+        "Fetched update with 'curl -O --compressed http://d1fc8wv8zag5ca.cloudfront.net/2.2.0/sp.js'\n\nRelease announcement: http://snowplowanalytics.com/blog/2014/12/15/snowplow-javascript-tracker-2.2.0-released/\n"
+  , issueState = StateClosed
+  , issueId = Id 52873918
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-10) 07 : 34 : 48 UTC
+  , issueUpdatedAt = 2016 (-09) (-10) 07 : 34 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13712/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13712")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13712
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project similar to 1.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13712")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13712.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13712.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13712"
+  , issueCreatedAt = 2016 (-09) (-10) 07 : 34 : 43 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project similar to 1.1.3.\n\n@InputSimilar\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"similar\",\n    \"repo\": \"InputSimilar/similar\",\n    \"files\": {\n      \"include\": [\"similar.eva.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/similar\",\n    \"localVersions\": [\"1.1.0\", \"1.1.1\", \"1.1.2\"],\n    \"remoteVersions\": [\"1.1.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/similar/update.json\",\n  \"versions\": [\"1.1.3\"],\n  \"updateRemote\": true,\n  \"version\": \"1.1.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/similar/1.1.3\",\n  \"branch\": \"similar/1.1.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 176165529
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

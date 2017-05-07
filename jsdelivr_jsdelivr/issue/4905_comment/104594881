@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-22) 09 : 36 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/104594881"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4905#issuecomment-104594881"
+  , issueCommentCreatedAt = 2015 (-05) (-22) 09 : 36 : 40 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _bootstrap.table_ between _1.7.0_ and _1.8.0_ there was a change in file structure  \n  \n  ``` diff\n  + bootstrap-table-all.min.js\n  + bootstrap-table-locale-all.min.js\n  - extensions/editable/bootstrap-table-editable.min.js\n  - extensions/export/bootstrap-table-export.min.js\n  - extensions/filter/bootstrap-table-filter.min.js\n  - extensions/flatJSON/bootstrap-table-flatJSON.min.js\n  - extensions/sorting/bootstrap-table_natural-sorting.min.js\n  - locale/bootstrap-table-ar-SA.min.js\n  - locale/bootstrap-table-cs-CZ.min.js\n  - locale/bootstrap-table-da-DK.min.js\n  - locale/bootstrap-table-de-DE.min.js\n  - locale/bootstrap-table-el-GR.min.js\n  - locale/bootstrap-table-en-US.min.js\n  - locale/bootstrap-table-es-AR.min.js\n  - locale/bootstrap-table-es-CR.min.js\n  - locale/bootstrap-table-es-MX.min.js\n  - locale/bootstrap-table-es-NI.min.js\n  - locale/bootstrap-table-fr-BE.min.js\n  - locale/bootstrap-table-fr-FR.min.js\n  - locale/bootstrap-table-hu-HU.min.js\n  - locale/bootstrap-table-it-IT.min.js\n  - locale/bootstrap-table-ja-JP.min.js\n  - locale/bootstrap-table-ka-GE.min.js\n  - locale/bootstrap-table-ko-KR.min.js\n  - locale/bootstrap-table-ms-MY.min.js\n  - locale/bootstrap-table-nb-NO.min.js\n  - locale/bootstrap-table-nl-NL.min.js\n  - locale/bootstrap-table-pl-PL.min.js\n  - locale/bootstrap-table-pt-BR.min.js\n  - locale/bootstrap-table-pt-PT.min.js\n  - locale/bootstrap-table-ru-RU.min.js\n  - locale/bootstrap-table-sk-SK.min.js\n  - locale/bootstrap-table-sv-SE.min.js\n  - locale/bootstrap-table-th-TH.min.js\n  - locale/bootstrap-table-tr-TR.min.js\n  - locale/bootstrap-table-uk-UA.min.js\n  - locale/bootstrap-table-ur-PK.min.js\n  - locale/bootstrap-table-vi-VN.min.js\n  - locale/bootstrap-table-zh-CN.min.js\n  - locale/bootstrap-table-zh-TW.min.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Encourage flow._\n"
+  , issueCommentId = 104594881
+  }

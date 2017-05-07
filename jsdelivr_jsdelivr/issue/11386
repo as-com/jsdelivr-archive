@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-06) 15 : 14 : 45 UTC
+  , issueUpdatedAt = 2016 (-05) (-06) 15 : 14 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11386/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11386")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11386
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 611185
+        , simpleUserLogin = N "CEikermann"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/611185?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/CEikermann"
+        }
+  , issueTitle = "Angular2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11386")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11386.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11386.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11386"
+  , issueCreatedAt = 2016 (-05) (-01) 14 : 19 : 14 UTC
+  , issueBody = Just "Added info.ini and update.json for angular2\n"
+  , issueState = StateClosed
+  , issueId = Id 152201465
+  , issueComments = 11
+  , issueMilestone = Nothing
+  }

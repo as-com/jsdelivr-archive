@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-26) 16 : 32 : 47 UTC
+  , issueUpdatedAt = 2016 (-08) (-26) 16 : 32 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13440/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13440")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13440
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project appenlight to 0.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13440")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13440.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13440.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13440"
+  , issueCreatedAt = 2016 (-08) (-25) 18 : 02 : 44 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project appenlight to 0.5.0.\n\n@AppEnlight\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"appenlight\",\n    \"repo\": \"AppEnlight/appenlight-client-js\",\n    \"files\": {\n      \"include\": [\"appenlight-client.js\", \"appenlight-client.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/appenlight\",\n    \"localVersions\": [\"0.2.0\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.4.0\", \"0.4.1\", \"0.4.2\"],\n    \"remoteVersions\": [\"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.5.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/appenlight/update.json\",\n  \"versions\": [\"0.5.0\"],\n  \"updateRemote\": true,\n  \"version\": \"0.5.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/appenlight/0.5.0\",\n  \"branch\": \"appenlight/0.5.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 173271010
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

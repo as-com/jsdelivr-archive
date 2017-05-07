@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-13) 10 : 16 : 15 UTC
+  , issueUpdatedAt = 2014 (-11) (-13) 10 : 16 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2340/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2340")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2340
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project bootstrap.daterangepicker to v1.3.16"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2340")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2340.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2340.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2340"
+  , issueCreatedAt = 2014 (-11) (-13) 00 : 32 : 39 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootstrap.daterangepicker to v1.3.16.\n\n@dangrossman\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bootstrap.daterangepicker\",\n    \"repo\": \"dangrossman/bootstrap-daterangepicker\",\n    \"files\": {\n      \"include\": [\"daterangepicker-bs2.css\", \"daterangepicker-bs3.css\", \"daterangepicker.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/bootstrap.daterangepicker\",\n    \"localVersions\": [\"1.2.0\", \"1.3.5\", \"1.3.13\", \"1.3.14\", \"1.3.15\"],\n    \"remoteVersions\": [\"v1.2\", \"v1.3\", \"1.3.1\", \"v1.3.2\", \"v1.3.3\", \"v1.3.4\", \"v1.3.5\", \"v1.3.6\", \"v1.3.7\", \"v1.3.8\", \"v1.3.9\", \"v1.3.10\", \"v1.3.11\", \"v1.3.12\", \"v1.3.13\", \"v1.3.14\", \"v1.3.15\", \"v1.3.16\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.3.16\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/bootstrap.daterangepicker/1.3.16\",\n  \"branch\": \"bootstrap.daterangepicker/v1.3.16\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 48582795
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

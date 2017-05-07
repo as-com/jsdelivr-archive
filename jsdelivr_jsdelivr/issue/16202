@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-06) 22 : 04 : 15 UTC
+  , issueUpdatedAt = 2017 (-02) (-06) 22 : 04 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16202/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16202")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16202
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 321013
+        , simpleUserLogin = N "steffans"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/321013?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/steffans"
+        }
+  , issueTitle = "Update vue.resource project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16202")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16202.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16202.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16202"
+  , issueCreatedAt = 2017 (-02) (-06) 16 : 57 : 21 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 205645820
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

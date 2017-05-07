@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-13) 20 : 35 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/130831875"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6396#issuecomment-130831875"
+  , issueCommentCreatedAt = 2015 (-08) (-13) 20 : 35 : 05 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` or `update.json` has some problems\n  - No mainfile property provided\n  - Where is the bootswatch's mainfile (*_) in v-_3.3.5*\n  - Where is the bootswatch's mainfile (*_) in v-_3.0.0*\n  - Where is the bootswatch's mainfile (*_) in v-_3.0.3b*\n  - Where is the bootswatch's mainfile (*_) in v-_3.1.0*\n  - Where is the bootswatch's mainfile (*_) in v-_3.1.1.1*\n  - Where is the bootswatch's mainfile (*_) in v-_3.1.1*\n  - Where is the bootswatch's mainfile (*_) in v-_3.2.0.1*\n  - Where is the bootswatch's mainfile (*_) in v-_3.3.1.2*\n  - Where is the bootswatch's mainfile (*_) in v-_3.3.2*\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _bootswatch_ between _3.3.2_ and _3.3.5_ there was a change in file structure  \n  \n  ``` diff\n  + custom/bootstrap.css\n  + custom/bootstrap.min.css\n  - amelia/bootstrap.css\n  - amelia/bootstrap.min.css\n  - fonts/glyphicons-halflings-regular.eot\n  - fonts/glyphicons-halflings-regular.svg\n  - fonts/glyphicons-halflings-regular.ttf\n  - fonts/glyphicons-halflings-regular.woff\n  - fonts/glyphicons-halflings-regular.woff2\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Non-blocking is better than blocking._\n"
+  , issueCommentId = 130831875
+  }

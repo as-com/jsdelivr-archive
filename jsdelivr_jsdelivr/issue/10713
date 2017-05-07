@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-30) 20 : 45 : 14 UTC
+  , issueUpdatedAt = 2016 (-03) (-30) 20 : 45 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10713/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10713")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10713
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 184284
+        , simpleUserLogin = N "thasmo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/184284?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thasmo"
+        }
+  , issueTitle = "Change gridable mainfile for release 0.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10713")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10713.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10713.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10713"
+  , issueCreatedAt = 2016 (-03) (-30) 20 : 41 : 15 UTC
+  , issueBody = Just "Changed the mainfile, again. :+1:\n"
+  , issueState = StateClosed
+  , issueId = Id 144713691
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

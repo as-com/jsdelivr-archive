@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-07) 13 : 50 : 03 UTC
+  , issueUpdatedAt = 2014 (-04) (-07) 14 : 01 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/588/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/588")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 588
+  , issueAssignees =
+      [ SimpleUser
+          { simpleUserId = Id 1834071
+          , simpleUserLogin = N "jimaek"
+          , simpleUserAvatarUrl =
+              URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+          , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+          }
+      ]
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3027536
+        , simpleUserLogin = N "bradberger"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3027536?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bradberger"
+        }
+  , issueTitle = "Support query strings in files"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/588"
+  , issueCreatedAt = 2014 (-04) (-07) 09 : 11 : 56 UTC
+  , issueBody =
+      Just
+        "A couple of places where I've tried to add jsdelivr resources have failed because query strings don't seem to be supported. A few examples:\n\n`Okay` [https://cdn.jsdelivr.net/jquery/1/jquery.js](https://cdn.jsdelivr.net/jquery/1/jquery.js)\n`Fails` [https://cdn.jsdelivr.net/jquery/1/jquery.js?v=1](https://cdn.jsdelivr.net/jquery/1/jquery.js?v=1)\n\n`Okay` [https://cdn.jsdelivr.net/g/jquery@1](https://cdn.jsdelivr.net/g/jquery@1)\n`Fails` [https://cdn.jsdelivr.net/g/jquery@1?v=1](https://cdn.jsdelivr.net/g/jquery@1?v=1)\n\nFor wider compatibility, is it possible to support query strings, even if they are ignored? Thanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 30968265
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

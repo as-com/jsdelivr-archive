@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 21 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11336/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11336")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11336
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1562562
+        , simpleUserLogin = N "witnessmenow"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1562562?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/witnessmenow"
+        }
+  , issueTitle = "Adding configuration for chat-template"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11336")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11336.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11336.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11336"
+  , issueCreatedAt = 2016 (-04) (-28) 12 : 51 : 43 UTC
+  , issueBody = Just "Thanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 151633609
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

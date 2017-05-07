@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-25) 12 : 01 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5516214
+        , simpleUserLogin = N "robman87"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5516214?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/robman87"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64389860"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2491#issuecomment-64389860"
+  , issueCommentCreatedAt = 2014 (-11) (-25) 12 : 01 : 45 UTC
+  , issueCommentBody =
+      "Just did but I get an error\n\"Can't create pull request 422: Unprocessable Entity - Validation Failed [PullRequest; null]custom: A pull request already exists for robman87:master.\"\n"
+  , issueCommentId = 64389860
+  }

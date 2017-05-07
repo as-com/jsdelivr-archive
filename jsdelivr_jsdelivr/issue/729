@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-25) 16 : 03 : 35 UTC
+  , issueUpdatedAt = 2015 (-07) (-25) 16 : 03 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/729/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/729")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 729
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5452111
+        , simpleUserLogin = N "watermelonjuice"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/5452111?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/watermelonjuice"
+        }
+  , issueTitle = "POP in China"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/729"
+  , issueCreatedAt = 2014 (-04) (-30) 18 : 00 : 38 UTC
+  , issueBody =
+      Just
+        "Most CDNs would have trouble getting a node inside China due to censorship laws. It would be a great benefit if a provider could donate a server in China.\n\nAlso a POP in china using jsdelivr's technology would avoid issues like cdnjs/cdnjs#1922.\n"
+  , issueState = StateClosed
+  , issueId = Id 32558785
+  , issueComments = 127
+  , issueMilestone = Nothing
+  }

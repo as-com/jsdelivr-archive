@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-22) 11 : 39 : 15 UTC
+  , issueUpdatedAt = 2017 (-02) (-22) 11 : 39 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16481/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/16481")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16481
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 910829
+        , simpleUserLogin = N "rafa8626"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/910829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rafa8626"
+        }
+  , issueTitle = "`mediaelement-plugins` not showing latest version"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16481"
+  , issueCreatedAt = 2017 (-02) (-22) 04 : 46 : 25 UTC
+  , issueBody =
+      Just
+        "I upgraded the `mediaelement-plugins` repo to the next version, but I don't see it reflected here."
+  , issueState = StateClosed
+  , issueId = Id 209351547
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

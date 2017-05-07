@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-20) 22 : 17 : 53 UTC
+  , issueUpdatedAt = 2014 (-07) (-22) 11 : 06 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1250/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1250")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1250
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17435
+        , simpleUserLogin = N "tomalec"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/17435?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomalec"
+        }
+  , issueTitle = "Add juicy-tile-list"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1250")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1250.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1250.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1250"
+  , issueCreatedAt = 2014 (-07) (-20) 22 : 06 : 30 UTC
+  , issueBody =
+      Just
+        "https://github.com/Juicy/juicy-tile-list\nMasonry-like Polymer Element with sortable tiles that packs efficiently without changing HTML structure (changes CSS only).\n"
+  , issueState = StateClosed
+  , issueId = Id 38267790
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

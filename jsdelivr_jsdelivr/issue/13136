@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-09) (-06) 11 : 02 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13136/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13136")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/Discussion"
+          , labelName = N "Discussion"
+          }
+      ]
+  , issueNumber = 13136
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Future of jsDelivr"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13136"
+  , issueCreatedAt = 2016 (-08) (-08) 12 : 26 : 40 UTC
+  , issueBody =
+      Just
+        "I think its obvious that its not possible to scale in any way if we continue to use the current \"Github merge\" system. We need make some changes.\n\nThere are CDNs that act as github and npm proxy and serve files. While this system would be perfect since its completely automated I believe it has lots of big problems.\n1. Abuse. Both github and npm are completely un-moderated. Anyone can upload anything! Example https://npmcdn.com/goodjsproject@0.0.3\n2. Github links that support /master/ will generate a lot of requests for purge and complains of broken sites and code\n3. Not all js libraries are hosted on npm.\n4. Not all projects hosted on npm can/should be accessible via the browser.\n\nIdeally we want to freeze the repo and redesign the website with the current homepage moved to a \"legacy\" tab. \n\nAny ideas?\n\n@megawac @MartinKolarik @vvo @as-com \n"
+  , issueState = StateOpen
+  , issueId = Id 169910783
+  , issueComments = 25
+  , issueMilestone = Nothing
+  }

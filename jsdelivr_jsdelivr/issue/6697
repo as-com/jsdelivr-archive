@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-03) 16 : 04 : 22 UTC
+  , issueUpdatedAt = 2015 (-09) (-03) 16 : 04 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6697/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6697")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6697
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project backbone to 1.2.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6697")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6697.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6697.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6697"
+  , issueCreatedAt = 2015 (-09) (-03) 16 : 04 : 15 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project backbone to 1.2.3.\n\n@jashkenas\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"backbone\",\n    \"repo\": \"jashkenas/backbone\",\n    \"files\": {\n      \"include\": [\"backbone.js\", \"backbone-min.map\", \"backbone-min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/backbonejs\",\n    \"localVersions\": [\"0.9.10\", \"1.0.0\", \"1.1.0\", \"1.1.2\", \"1.2.0\", \"1.2.1\", \"1.2.2\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.2.0\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.5.0\", \"0.5.1\", \"0.5.2\", \"0.5.3\", \"0.9.0\", \"0.9.1\", \"0.9.2\", \"0.9.9\", \"0.9.10\", \"1.0.0\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/backbonejs/update.json\",\n  \"version\": \"1.2.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/backbonejs/1.2.3\",\n  \"branch\": \"backbone/1.2.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 104729523
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

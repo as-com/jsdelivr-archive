@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-09) (-22) 13 : 28 : 35 UTC
+  , issueUpdatedAt = 2013 (-09) (-22) 13 : 28 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/103/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/103")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 103
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49051
+        , simpleUserLogin = N "mattpodwysocki"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/49051?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mattpodwysocki"
+        }
+  , issueTitle = "Updating jquery.rxjs to 1.1.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/103")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/103.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/103.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/103"
+  , issueCreatedAt = 2013 (-09) (-21) 12 : 03 : 21 UTC
+  , issueBody =
+      Just
+        "Updating jquery.rxjs to 1.1.14\n\nFrom https://github.com/Reactive-Extensions/rxjs-jquery/releases\n"
+  , issueState = StateClosed
+  , issueId = Id 19855682
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

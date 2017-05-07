@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-07) 11 : 39 : 27 UTC
+  , issueUpdatedAt = 2014 (-07) (-07) 11 : 39 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1141/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1141")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1141
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8087812
+        , simpleUserLogin = N "hakpersson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8087812?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hakpersson"
+        }
+  , issueTitle = "jquery.smartmenus.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1141")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1141.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1141.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1141"
+  , issueCreatedAt = 2014 (-07) (-07) 08 : 45 : 25 UTC
+  , issueBody =
+      Just
+        "Untouched - SmartMenus jQuery Plugin - v0.9.6 - March 27, 2014, http://www.smartmenus.org/\nCopyright 2014 Vasil Dinkov, Vadikom Web Ltd. http://vadikom.com; Licensed MIT\n"
+  , issueState = StateClosed
+  , issueId = Id 37249420
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

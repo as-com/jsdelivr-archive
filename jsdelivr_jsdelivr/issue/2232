@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-05) 19 : 34 : 53 UTC
+  , issueUpdatedAt = 2014 (-11) (-05) 19 : 34 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2232/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2232")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2232
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 50300
+        , simpleUserLogin = N "scyclops"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/50300?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/scyclops"
+        }
+  , issueTitle =
+      "fix jquery.mobile 1.4.5 source mapping url reference"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2232")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2232.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2232.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2232"
+  , issueCreatedAt = 2014 (-11) (-05) 19 : 23 : 36 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 47876588
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

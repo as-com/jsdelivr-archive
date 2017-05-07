@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-02) 22 : 47 : 30 UTC
+  , issueUpdatedAt = 2014 (-04) (-02) 22 : 48 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/558/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/558")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 558
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 145648
+        , simpleUserLogin = N "m242"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/145648?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/m242"
+        }
+  , issueTitle =
+      "Change flash files to be the cross-origin-allowed versions."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/558")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/558.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/558.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/558"
+  , issueCreatedAt = 2014 (-04) (-02) 22 : 40 : 27 UTC
+  , issueBody =
+      Just
+        "The original flash files included were the non-CORS versions, so serving these via the CDN causes CORS issues. The updated files are the files included with the original distribution in the soundmanager2_flash_xdomain.zip archive.\n"
+  , issueState = StateClosed
+  , issueId = Id 30732318
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-20) 20 : 22 : 37 UTC
+  , issueUpdatedAt = 2016 (-01) (-20) 20 : 22 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9241/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9241")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9241
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11406433
+        , simpleUserLogin = N "Glennmen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/11406433?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Glennmen"
+        }
+  , issueTitle = "Added project website files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9241")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9241.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9241.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9241"
+  , issueCreatedAt = 2016 (-01) (-20) 19 : 52 : 38 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 127769547
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

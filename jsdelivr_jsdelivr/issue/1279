@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-23) 16 : 20 : 10 UTC
+  , issueUpdatedAt = 2014 (-07) (-23) 16 : 21 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1279/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1279")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1279
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3048916
+        , simpleUserLogin = N "marcoslin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3048916?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/marcoslin"
+        }
+  , issueTitle = "Added verion 0.2.0 of angularAMD"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1279")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1279.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1279.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1279"
+  , issueCreatedAt = 2014 (-07) (-23) 16 : 12 : 43 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 38544876
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

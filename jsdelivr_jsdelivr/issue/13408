@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-24) 14 : 45 : 59 UTC
+  , issueUpdatedAt = 2016 (-08) (-24) 14 : 45 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13408/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13408")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13408
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10901035
+        , simpleUserLogin = N "soumak77"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/10901035?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/soumak77"
+        }
+  , issueTitle = "Create foundation-apps-templates.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13408")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13408.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13408.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13408"
+  , issueCreatedAt = 2016 (-08) (-24) 01 : 37 : 18 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 172845692
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

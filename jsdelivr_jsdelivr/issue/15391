@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-17) 22 : 31 : 17 UTC
+  , issueUpdatedAt = 2016 (-12) (-17) 22 : 31 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15391/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15391")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15391
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 24488920
+        , simpleUserLogin = N "dvs11"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/24488920?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dvs11"
+        }
+  , issueTitle = "Add files via upload"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15391")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15391.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15391.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15391"
+  , issueCreatedAt = 2016 (-12) (-17) 06 : 10 : 38 UTC
+  , issueBody = Just "modified sharre script FB count enabled"
+  , issueState = StateClosed
+  , issueId = Id 196202199
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

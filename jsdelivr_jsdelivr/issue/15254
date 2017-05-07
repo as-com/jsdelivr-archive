@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-08) 12 : 05 : 50 UTC
+  , issueUpdatedAt = 2016 (-12) (-08) 12 : 05 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15254/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15254")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15254
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project Sortable to 1.5.0-rc1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15254")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15254.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15254.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15254"
+  , issueCreatedAt = 2016 (-12) (-08) 12 : 05 : 46 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project Sortable to 1.5.0-rc1.\n\n@rubaxa\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"Sortable\",\n    \"repo\": \"rubaxa/sortable\",\n    \"files\": {\n      \"include\": [\"Sortable.js\", \"Sortable.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/sortable\",\n    \"localVersions\": [\"1.0.1\", \"1.1.0\", \"1.1.1\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.4.0\", \"1.4.1\", \"1.4.2\"],\n    \"remoteVersions\": [\"0.1.5\", \"0.1.8\", \"0.3.0\", \"0.4.1\", \"0.5.0\", \"0.5.1\", \"0.5.2\", \"0.7.0\", \"0.7.1\", \"1.0.0\", \"1.0.1\", \"1.1.0\", \"1.1.1\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.5.0-rc1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/sortable/update.json\",\n  \"versions\": [\"1.5.0-rc1\"],\n  \"updateRemote\": true,\n  \"version\": \"1.5.0-rc1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/sortable/1.5.0-rc1\",\n  \"branch\": \"Sortable/1.5.0-rc1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 194319282
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

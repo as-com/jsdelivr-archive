@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-17) 09 : 16 : 47 UTC
+  , issueUpdatedAt = 2014 (-11) (-17) 09 : 16 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2395/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2395")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2395
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.ajaxify to 5.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2395")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2395.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2395.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2395"
+  , issueCreatedAt = 2014 (-11) (-17) 07 : 34 : 27 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.ajaxify to 5.2.1.\n\n@arvgta\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.ajaxify\",\n    \"repo\": \"arvgta/ajaxify\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"ajaxify.js\", \"ajaxify.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.ajaxify\",\n    \"localVersions\": [\"4.2.8\", \"4.3.0\", \"4.4.2\", \"4.7.4\", \"4.7.5\", \"4.8.0\", \"4.9.0\", \"5.0.0\", \"5.0.1\", \"5.0.2\", \"5.1.0\", \"5.2.0\"],\n    \"remoteVersions\": [\"4.4.9\", \"4.5.0\", \"4.5.1\", \"4.5.2\", \"4.5.3\", \"4.5.4\", \"4.6.0\", \"4.6.1\", \"4.6.2\", \"4.6.3\", \"4.6.4\", \"4.6.5\", \"4.6.6\", \"4.6.7\", \"4.6.8\", \"4.6.9\", \"4.7.0\", \"4.7.1\", \"4.7.2\", \"4.7.3\", \"4.7.4\", \"4.7.5\", \"4.8.0\", \"4.9.0\", \"5.0.0\", \"5.0.1\", \"5.0.2\", \"5.1.0\", \"5.2.0\", \"5.2.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"5.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.ajaxify/5.2.1\",\n  \"branch\": \"jquery.ajaxify/5.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 49053274
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-02) 10 : 57 : 42 UTC
+  , issueUpdatedAt = 2014 (-12) (-02) 11 : 24 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2573/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2573")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2573
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 566463
+        , simpleUserLogin = N "warpech"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/566463?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/warpech"
+        }
+  , issueTitle = "update urls to Fast-JSON-Patch"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2573")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2573.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2573.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2573"
+  , issueCreatedAt = 2014 (-12) (-02) 10 : 27 : 48 UTC
+  , issueBody =
+      Just
+        "Fast-JSON-Patch was not autoupdated recently to the current version 0.5.0\n\nPerhaps this is because info.ini and update.json are using outdated URLs. This pull request changes URLs to the current ones.\n"
+  , issueState = StateClosed
+  , issueId = Id 50634386
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

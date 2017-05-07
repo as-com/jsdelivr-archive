@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-11) (-19) 18 : 26 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/261730739"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14865#issuecomment-261730739"
+  , issueCommentCreatedAt = 2016 (-11) (-19) 18 : 26 : 43 UTC
+  , issueCommentBody =
+      "The reason is is because the latest tag jsdelivr recognizes is `0.52`. This is treated as `0.52.0` which is greater than `0.9.0` (is.js latest release) causing libgrabber not to pull it. I think this will require a manual upload of 0.9\n\nhttp://www.jsdelivr.com/projects/is.js\n"
+  , issueCommentId = 261730739
+  }

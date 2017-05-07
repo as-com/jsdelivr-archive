@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-12) 11 : 48 : 49 UTC
+  , issueUpdatedAt = 2016 (-02) (-12) 11 : 48 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9711/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9711")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9711
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8398220
+        , simpleUserLogin = N "alexmacarthur"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8398220?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/alexmacarthur"
+        }
+  , issueTitle = "Add TypeIt, Version 3.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9711")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9711.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9711.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9711"
+  , issueCreatedAt = 2016 (-02) (-11) 14 : 47 : 24 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 132992142
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-12) 20 : 32 : 49 UTC
+  , issueUpdatedAt = 2017 (-04) (-12) 20 : 32 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17543/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17543")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17543
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project alertifyjs to 1.10.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17543")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17543.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17543.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17543"
+  , issueCreatedAt = 2017 (-04) (-12) 20 : 32 : 39 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project alertifyjs to 1.10.0.\n\n@mohammadyounes\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"alertifyjs\",\n    \"repo\": \"mohammadyounes/alertifyjs\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"*.min.js\", \"./css/**/*.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/alertifyjs\",\n    \"localVersions\": [\"1.4.0\", \"1.4.1\", \"1.5.0\", \"1.6.0\", \"1.6.1\", \"1.7.0\", \"1.7.1\", \"1.8.0\", \"1.9.0\"],\n    \"remoteVersions\": [\"0.0.0\", \"0.1.0\", \"0.1.1\", \"0.2.0\", \"0.3.0\", \"0.3.1\", \"0.4.0\", \"0.5.0\", \"0.6.0\", \"0.6.1\", \"0.7.0\", \"0.8.0\", \"0.9.0\", \"0.10.0\", \"0.10.1\", \"0.10.2\", \"1.0.0\", \"1.0.1\", \"1.1.0\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.4.0\", \"1.4.1\", \"1.5.0\", \"1.6.0\", \"1.6.1\", \"1.7.0\", \"1.7.1\", \"1.8.0\", \"1.9.0\", \"1.10.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/alertifyjs/update.json\",\n  \"versions\": [\"1.10.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.10.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/alertifyjs/1.10.0\",\n  \"branch\": \"alertifyjs/1.10.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 221382168
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

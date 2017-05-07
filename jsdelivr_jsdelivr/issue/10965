@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-11) 10 : 43 : 35 UTC
+  , issueUpdatedAt = 2016 (-04) (-11) 10 : 43 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10965/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/10965")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10965
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4413176
+        , simpleUserLogin = N "sgoblin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4413176?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sgoblin"
+        }
+  , issueTitle =
+      "When using automatic bundling, font-awesome does not work"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10965"
+  , issueCreatedAt = 2016 (-04) (-11) 01 : 05 : 01 UTC
+  , issueBody =
+      Just
+        "When I use [this](https://cdn.jsdelivr.net/g/fontawesome@4.5.0,normalize@3.0.3,ink@3.1.10%28css/ink-flex.min.css%29) bundled URL, the font-awesome font files do not load, due to the use of relative links: `src:url('../fonts/fontawesome-webfont.eot?v=4.5.0');`. Is there a way around this?\n"
+  , issueState = StateClosed
+  , issueId = Id 147286445
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

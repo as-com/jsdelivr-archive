@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-06) 19 : 03 : 24 UTC
+  , issueUpdatedAt = 2016 (-10) (-06) 19 : 03 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14251/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14251")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14251
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project filesaver.js to 1.3.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14251")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14251.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14251.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14251"
+  , issueCreatedAt = 2016 (-10) (-06) 19 : 03 : 21 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project filesaver.js to 1.3.3.\n\n@eligrey\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"filesaver.js\",\n    \"repo\": \"eligrey/FileSaver.js\",\n    \"files\": {\n      \"include\": [\"FileSaver.js\", \"FileSaver.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/filesaver.js\",\n    \"localVersions\": [\"0.1\", \"0.2\"],\n    \"remoteVersions\": [\"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/filesaver.js/update.json\",\n  \"versions\": [\"1.3.3\"],\n  \"updateRemote\": true,\n  \"version\": \"1.3.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/filesaver.js/1.3.3\",\n  \"branch\": \"filesaver.js/1.3.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 181498859
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

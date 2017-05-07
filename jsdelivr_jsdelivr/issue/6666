@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-02) 01 : 08 : 29 UTC
+  , issueUpdatedAt = 2015 (-09) (-03) 01 : 09 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6666/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6666")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6666
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 50130
+        , simpleUserLogin = N "leebyron"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/50130?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/leebyron"
+        }
+  , issueTitle = "Add GraphiQL"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6666")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6666.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6666.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6666"
+  , issueCreatedAt = 2015 (-09) (-02) 01 : 04 : 46 UTC
+  , issueBody =
+      Just
+        "GraphiQL is an in-browser IDE for GraphQL servers\n\nThis adds the pre-bundled files to jsdeliver from npm\n"
+  , issueState = StateClosed
+  , issueId = Id 104383965
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

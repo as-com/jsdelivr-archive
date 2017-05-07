@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-02) 22 : 33 : 21 UTC
+  , issueUpdatedAt = 2016 (-11) (-02) 22 : 33 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14616/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14616")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14616
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project espeakng.js to 1.49.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14616")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14616.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14616.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14616"
+  , issueCreatedAt = 2016 (-11) (-02) 22 : 33 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project espeakng.js to 1.49.0.\n\n@pettarin\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"espeakng.js\",\n    \"repo\": \"pettarin/espeakng.js-cdn\",\n    \"files\": {\n      \"include\": [\"js/espeakng.js\", \"js/espeakng.min.js\", \"js/espeakng.min.js.map\", \"js/espeakng.worker.data\", \"js/espeakng.worker.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/espeakng.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.49.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/espeakng.js/update.json\",\n  \"versions\": [\"1.49.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.49.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/espeakng.js/1.49.0\",\n  \"branch\": \"espeakng.js/1.49.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 186938121
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

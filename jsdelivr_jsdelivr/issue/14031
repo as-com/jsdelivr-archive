@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-28) 14 : 34 : 23 UTC
+  , issueUpdatedAt = 2016 (-09) (-28) 14 : 34 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14031/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14031")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14031
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project lovely-icons to 0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14031")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14031.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14031.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14031"
+  , issueCreatedAt = 2016 (-09) (-28) 14 : 34 : 20 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project lovely-icons to 0.1.\n\n@douglasdeodato\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"lovely-icons\",\n    \"repo\": \"douglasdeodato/lovely-icons\",\n    \"files\": {\n      \"basePath\": \"css/\",\n      \"include\": [\"*.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/lovely-icons\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/lovely-icons/update.json\",\n  \"versions\": [\"0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/lovely-icons/0.1\",\n  \"branch\": \"lovely-icons/0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 179790879
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-13) 17 : 30 : 44 UTC
+  , issueUpdatedAt = 2017 (-01) (-13) 17 : 30 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15764/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15764")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15764
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19267400
+        , simpleUserLogin = N "grenouille220"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/19267400?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/grenouille220"
+        }
+  , issueTitle = "Add barba.js to the CDN"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15764")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15764.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15764.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15764"
+  , issueCreatedAt = 2017 (-01) (-12) 15 : 38 : 20 UTC
+  , issueBody =
+      Just
+        "Good day the jsdelivr team,\r\n\r\nHere is the pull request to add the trendy barba.js to the CDN.\r\nI'm submitting this request on the behalf of Luigi.\r\nI got his permission here: https://github.com/luruke/barba.js/issues/105\r\n\r\nCheers"
+  , issueState = StateClosed
+  , issueId = Id 200399364
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

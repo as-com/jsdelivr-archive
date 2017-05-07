@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-29) 06 : 38 : 25 UTC
+  , issueUpdatedAt = 2017 (-01) (-29) 06 : 38 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16054/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16054")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16054
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 25410647
+        , simpleUserLogin = N "Alecgcast"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/25410647?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Alecgcast"
+        }
+  , issueTitle = "AnimeDescarga (CDN)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16054")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16054.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16054.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16054"
+  , issueCreatedAt = 2017 (-01) (-29) 06 : 32 : 56 UTC
+  , issueBody = Just "Upload archives for animedescarga"
+  , issueState = StateClosed
+  , issueId = Id 203854190
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

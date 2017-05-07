@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-05) 20 : 31 : 44 UTC
+  , issueUpdatedAt = 2015 (-02) (-05) 20 : 55 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3342/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3342")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3342
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1639302
+        , simpleUserLogin = N "abishekrsrikaanth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1639302?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/abishekrsrikaanth"
+        }
+  , issueTitle = "Adding 3 Libraries from AmCharts"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3342")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3342.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3342.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3342"
+  , issueCreatedAt = 2015 (-02) (-05) 20 : 29 : 13 UTC
+  , issueBody =
+      Just
+        "Adding 3 Libraries from AmCharts\n- [AmCharts](http://www.amcharts.com/javascript-charts/)\n- [AmMaps](http://www.amcharts.com/javascript-maps/)\n- [AmStockCharts](http://www.amcharts.com/stock-chart/)\n\nAll the above libraries are free to use. Please check the section \"Free\neven for commercial use\" on all the above Library's URL's\n\nSince they are not hosted out of github, auto update has not been\nconfigured.\n\nThe author for all the Library has been set to \"AmCharts\"\n"
+  , issueState = StateClosed
+  , issueId = Id 56724802
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

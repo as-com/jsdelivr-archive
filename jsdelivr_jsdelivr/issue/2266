@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-07) 18 : 50 : 11 UTC
+  , issueUpdatedAt = 2014 (-12) (-09) 05 : 35 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2266/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2266")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2266
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle = "Add twemoji from Twitter"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2266")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2266.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2266.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2266"
+  , issueCreatedAt = 2014 (-11) (-07) 13 : 15 : 16 UTC
+  , issueBody =
+      Just
+        "Source: https://github.com/twitter/twemoji/releases/tag/v1.0.0\n\nRef: jsdelivr/jsdelivr/issues/2260\n"
+  , issueState = StateClosed
+  , issueId = Id 48080358
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

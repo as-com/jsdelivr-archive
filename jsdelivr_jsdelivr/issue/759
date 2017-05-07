@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-07) 23 : 27 : 46 UTC
+  , issueUpdatedAt = 2014 (-07) (-03) 17 : 24 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/759/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/759")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 759
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 151454
+        , simpleUserLogin = N "somerandomdude"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/151454?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/somerandomdude"
+        }
+  , issueTitle = "Added Open Iconic 1.1.0 to repo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/759")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/759.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/759.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/759"
+  , issueCreatedAt = 2014 (-05) (-07) 20 : 31 : 39 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 33021802
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

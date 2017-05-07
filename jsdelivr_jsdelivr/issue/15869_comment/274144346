@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-01) (-20) 18 : 30 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/274144346"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15869#issuecomment-274144346"
+  , issueCommentCreatedAt = 2017 (-01) (-20) 18 : 30 : 05 UTC
+  , issueCommentBody =
+      "@Henry263 it looks like you did touch that file (appears that you added a new line) see https://github.com/jsdelivr/jsdelivr/pull/15869/files. Can you remove that change and I'll merge the rest"
+  , issueCommentId = 274144346
+  }

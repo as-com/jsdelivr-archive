@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-06) (-12) 21 : 22 : 11 UTC
+  , issueUpdatedAt = 2013 (-06) (-18) 17 : 45 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/33/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/33")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 33
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 44679
+        , simpleUserLogin = N "seanthegeek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/44679?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/seanthegeek"
+        }
+  , issueTitle = "jPlayer now under MIT license to match jQuery"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/33")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/33.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/33.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/33"
+  , issueCreatedAt = 2013 (-06) (-12) 21 : 20 : 22 UTC
+  , issueBody =
+      Just
+        "Source: https://groups.google.com/forum/#!topic/jplayer/Wp6o3Lowh60\n"
+  , issueState = StateClosed
+  , issueId = Id 15474837
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-25) 16 : 58 : 46 UTC
+  , issueUpdatedAt = 2014 (-08) (-25) 16 : 59 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1524/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1524")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1524
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3911912
+        , simpleUserLogin = N "naegelyd"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3911912?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/naegelyd"
+        }
+  , issueTitle = "Cilantro 2.2.35"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1524")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1524.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1524.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1524"
+  , issueCreatedAt = 2014 (-08) (-25) 16 : 55 : 07 UTC
+  , issueBody =
+      Just "Signed-off-by: Don Naegely naegelyd@email.chop.edu\n"
+  , issueState = StateClosed
+  , issueId = Id 41080942
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

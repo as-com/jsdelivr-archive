@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-29) 14 : 56 : 53 UTC
+  , issueUpdatedAt = 2016 (-03) (-29) 14 : 56 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10428/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/10428")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10428
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 249117
+        , simpleUserLogin = N "OlegKi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/249117?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/OlegKi"
+        }
+  , issueTitle = "Update project free-jqgrid to v4.13.1"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10428"
+  , issueCreatedAt = 2016 (-03) (-14) 08 : 35 : 08 UTC
+  , issueBody =
+      Just
+        "Sorry, but why the pull request https://github.com/jsdelivr/jsdelivr/pull/10383 will be not committed? Which additional information should I provide? It's just the standard build using the latest google closure compiler and cssmin, like all previous versions. All files will be minimized with source map.\n\nI have no idea how to fix the warning \"Might be nothing but I have some concerns about the files in your submission\" with the list of all files and \"Expected {filename} to be static content; found binary\".\n\nCould one commit the Update project free-jqgrid to v4.13.1 or I should provide some additional information?\n\nThank you in advance.\n"
+  , issueState = StateClosed
+  , issueId = Id 140608811
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

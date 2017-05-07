@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-24) 20 : 42 : 37 UTC
+  , issueUpdatedAt = 2016 (-10) (-24) 20 : 42 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14204/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/14204")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14204
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3000936
+        , simpleUserLogin = N "Kcchouette"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3000936?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Kcchouette"
+        }
+  , issueTitle = "Wing 0.1.7 is not the correct version in JSDelivr"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14204"
+  , issueCreatedAt = 2016 (-10) (-04) 12 : 11 : 07 UTC
+  , issueBody =
+      Just
+        "See #14194 \n\nhttps://cdn.jsdelivr.net/wing/0.1.7/wing.min.css give you the 0.1.5 version of wing instead of the last one 0.1.7.\nCan you fix it?\n\nThank you very much.\n"
+  , issueState = StateClosed
+  , issueId = Id 180875835
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

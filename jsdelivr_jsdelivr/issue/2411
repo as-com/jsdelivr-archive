@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-18) 14 : 10 : 54 UTC
+  , issueUpdatedAt = 2014 (-11) (-18) 14 : 10 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2411/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2411")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2411
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project yasgui-yasqe to 2.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2411")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2411.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2411.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2411"
+  , issueCreatedAt = 2014 (-11) (-18) 14 : 10 : 22 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project yasgui-yasqe to 2.2.1.\n\n@YASGUI\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"yasgui-yasqe\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\", \"*.min.js.map\", \"*.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/yasqe\",\n    \"localVersions\": [\"2.0.1\", \"2.1.0\", \"2.2.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\", \"1.2.1\", \"1.2.2\", \"1.2.4\", \"1.2.5\", \"1.2.7\", \"1.3.0\", \"1.3.2\", \"1.4.0\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.4\", \"2.0.0\", \"2.0.1\", \"2.1.0\", \"2.2.0\", \"2.2.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/yasqe/2.2.1\",\n  \"branch\": \"yasgui-yasqe/2.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 49234348
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

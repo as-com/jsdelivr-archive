@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-23) 11 : 07 : 15 UTC
+  , issueUpdatedAt = 2014 (-12) (-23) 11 : 07 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2821/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2821")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2821
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project drawer to v2.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2821")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2821.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2821.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2821"
+  , issueCreatedAt = 2014 (-12) (-23) 10 : 44 : 27 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project drawer to v2.1.0.\n\n@blivesta\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"drawer\",\n    \"repo\": \"blivesta/drawer\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"css/drawer.min.css\", \"css/drawer.css.map\", \"js/jquery.drawer.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/drawer\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.1.0\", \"v1.2.0\", \"v1.3.0\", \"v1.4.1\", \"v1.5.0\", \"v1.5.1\", \"v2.0.0\", \"v2.1.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v2.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/drawer/2.1.0\",\n  \"branch\": \"drawer/v2.1.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 52730585
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

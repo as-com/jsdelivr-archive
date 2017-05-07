@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-26) 19 : 27 : 19 UTC
+  , issueUpdatedAt = 2016 (-09) (-27) 11 : 28 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13990/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13990")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13990
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9658016
+        , simpleUserLogin = N "qrac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9658016?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/qrac"
+        }
+  , issueTitle = "\"YakuHanJP\" I want in addition to jsdelivr."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13990")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13990.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13990.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13990"
+  , issueCreatedAt = 2016 (-09) (-26) 16 : 05 : 50 UTC
+  , issueBody =
+      Just
+        "\"YakuHanJP\" is a library to optimize the display of the Japanese. By all means, if you can, in addition to jsdelivr.\n"
+  , issueState = StateClosed
+  , issueId = Id 179270456
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

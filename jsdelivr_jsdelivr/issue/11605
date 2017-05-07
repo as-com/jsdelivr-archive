@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-14) 07 : 52 : 51 UTC
+  , issueUpdatedAt = 2016 (-05) (-14) 07 : 52 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11605/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11605")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11605
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8475219
+        , simpleUserLogin = N "sandywalker"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8475219?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sandywalker"
+        }
+  , issueTitle = "Patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11605")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11605.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11605.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11605"
+  , issueCreatedAt = 2016 (-05) (-14) 07 : 10 : 30 UTC
+  , issueBody = Just "add loading gif file.\n"
+  , issueState = StateClosed
+  , issueId = Id 154838916
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

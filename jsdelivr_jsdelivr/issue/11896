@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-06) 13 : 51 : 46 UTC
+  , issueUpdatedAt = 2016 (-06) (-06) 13 : 51 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11896/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11896")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11896
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6147968
+        , simpleUserLogin = N "hootlex"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/6147968?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hootlex"
+        }
+  , issueTitle = "Add vuejs paginator lib"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11896")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11896.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11896.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11896"
+  , issueCreatedAt = 2016 (-05) (-30) 00 : 03 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 157413155
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

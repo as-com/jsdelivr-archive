@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-20) 14 : 27 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/75245714"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/3537#issuecomment-75245714"
+  , issueCommentCreatedAt = 2015 (-02) (-20) 14 : 27 : 54 UTC
+  , issueCommentBody =
+      "I found the problem. We were sending 2 vary headers, while browsers will ignore the second and will simply accept it, tools.pingdom couldn't parse them and thought there were none.\n\nI fixed the issue and once the cache invalidates tools.pingdom will start showing the correct value. In the meantime real users always had the vary header and will continue to have it\n"
+  , issueCommentId = 75245714
+  }

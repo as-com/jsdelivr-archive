@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-11) 21 : 28 : 27 UTC
+  , issueUpdatedAt = 2014 (-08) (-11) 21 : 28 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1373/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1373")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1373
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17435
+        , simpleUserLogin = N "tomalec"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/17435?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomalec"
+        }
+  , issueTitle = "Add skype-button"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1373")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1373.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1373.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1373"
+  , issueCreatedAt = 2014 (-08) (-07) 10 : 50 : 53 UTC
+  , issueBody =
+      Just
+        "https://github.com/tomalec/skype-button\nWeb Component wrapper for Skype URI buttons\n"
+  , issueState = StateClosed
+  , issueId = Id 39713798
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

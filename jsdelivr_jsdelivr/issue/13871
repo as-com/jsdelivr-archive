@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-03) 14 : 25 : 49 UTC
+  , issueUpdatedAt = 2016 (-10) (-03) 14 : 25 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13871/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13871")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13871
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project riot to v3.0.0-alpha.10"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13871")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13871.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13871.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13871"
+  , issueCreatedAt = 2016 (-09) (-18) 20 : 04 : 52 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project riot to v3.0.0-alpha.10.\n\n@riot\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"riot\",\n    \"repo\": \"riot/riot\",\n    \"files\": {\n      \"include\": [\"riot.js\", \"riot.min.js\", \"riot+compiler.js\", \"riot+compiler.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/riot\",\n    \"localVersions\": [\"1.0.4\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.0.5\", \"2.0.7\", \"2.0.8\", \"2.0.9\", \"2.0.10\", \"2.0.11\", \"2.0.12\", \"2.0.13\", \"2.0.14\", \"2.0.15\", \"2.1.0\", \"2.2.1\", \"2.2.2\", \"2.2.3\", \"2.2.4\", \"2.3.0-beta\", \"2.3.0\", \"2.3.1\", \"2.3.11\", \"2.3.12\", \"2.3.13\", \"2.3.15\", \"2.3.16\", \"2.3.17\", \"2.3.18\", \"2.4.0\", \"2.4.1\", \"2.5.0\", \"2.6.1\", \"3.0.0-alpha.2\", \"3.0.0-alpha.4\", \"3.0.0-alpha.5\", \"3.0.0-alpha.7\", \"3.0.0-alpha.8\"],\n    \"remoteVersions\": [\"v0.9.2\", \"v0.9.3\", \"v0.9.4\", \"v0.9.5\", \"v0.9.6\", \"v0.9.7\", \"v0.9.8\", \"v0.9.9\", \"v0.9.10\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v2.0.6\", \"v2.0.7a\", \"v2.0.7\", \"v2.0.8\", \"v2.0.9\", \"v2.0.10\", \"v2.0.11\", \"v2.0.12\", \"v2.0.13\", \"v2.0.14\", \"v2.0.15\", \"v2.1.0\", \"v2.2.0\", \"v2.2.1\", \"v2.2.2-beta\", \"v2.2.2\", \"v2.2.3\", \"v2.2.4\", \"v2.3.0-beta\", \"v2.3.0\", \"v2.3.1\", \"v2.3.11\", \"v2.3.12\", \"v2.3.13\", \"v2.3.15\", \"v2.3.16\", \"v2.3.17\", \"v2.3.18\", \"v2.4.0\", \"v2.4.1\", \"v2.5.0\", \"v2.6.0\", \"v2.6.1\", \"v3.0.0-alpha.1\", \"v3.0.0-alpha.2\", \"v3.0.0-alpha.3\", \"v3.0.0-alpha.4\", \"v3.0.0-alpha.5\", \"v3.0.0-alpha.7\", \"v3.0.0-alpha.8\", \"v3.0.0-alpha.9\", \"v3.0.0-alpha.10\"],\n    \"branchVersions\": [\"v3.0.0-alpha.1\", \"v3.0.0-alpha.3\", \"v3.0.0-alpha.4\", \"v3.0.0-alpha.9\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/riot/update.json\",\n  \"versions\": [\"v3.0.0-alpha.10\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.0.0-alpha.10\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/riot/3.0.0-alpha.10\",\n  \"branch\": \"riot/v3.0.0-alpha.10\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 177673364
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

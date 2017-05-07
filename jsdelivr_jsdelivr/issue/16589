@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-27) 15 : 33 : 21 UTC
+  , issueUpdatedAt = 2017 (-02) (-27) 15 : 33 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16589/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16589")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16589
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 22114845
+        , simpleUserLogin = N "dimitrigq"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/22114845?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dimitrigq"
+        }
+  , issueTitle = "HYPE-552.full.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16589")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16589.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16589.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16589"
+  , issueCreatedAt = 2017 (-02) (-27) 10 : 23 : 59 UTC
+  , issueBody =
+      Just "Tumult Hype 3.5 JS file for web-banners and CDN"
+  , issueState = StateClosed
+  , issueId = Id 210442655
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

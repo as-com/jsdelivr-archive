@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-28) 14 : 37 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 580492
+        , simpleUserLogin = N "Swatinem"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/580492?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Swatinem"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/125630271"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6149#issuecomment-125630271"
+  , issueCommentCreatedAt = 2015 (-07) (-28) 14 : 37 : 36 UTC
+  , issueCommentBody =
+      "src/gl-matrix.js is a cjs module so that won\8217t work on a cdn.\n\nI think I will have to bug the maintainers to just push a version bump to npm/github\8230\n"
+  , issueCommentId = 125630271
+  }

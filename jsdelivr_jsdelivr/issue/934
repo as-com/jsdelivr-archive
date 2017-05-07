@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-13) 00 : 40 : 22 UTC
+  , issueUpdatedAt = 2014 (-06) (-30) 19 : 26 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/934/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/934")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 934
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5065163
+        , simpleUserLogin = N "Dennis14e"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5065163?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Dennis14e"
+        }
+  , issueTitle = "codemirror update"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/934")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/934.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/934.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/934"
+  , issueCreatedAt = 2014 (-06) (-11) 15 : 15 : 19 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 35493936
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

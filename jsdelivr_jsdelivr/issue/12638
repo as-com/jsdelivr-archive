@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-09) 11 : 12 : 01 UTC
+  , issueUpdatedAt = 2016 (-07) (-09) 11 : 12 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12638/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12638")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12638
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2203813
+        , simpleUserLogin = N "Brugman"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2203813?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Brugman"
+        }
+  , issueTitle = "Reconfigured for v2.x releases"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12638")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12638.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12638.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12638"
+  , issueCreatedAt = 2016 (-07) (-08) 23 : 07 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 164632774
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

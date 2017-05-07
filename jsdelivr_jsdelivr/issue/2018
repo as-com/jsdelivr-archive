@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-14) 21 : 33 : 12 UTC
+  , issueUpdatedAt = 2014 (-10) (-14) 21 : 33 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2018/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2018")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2018
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 354181
+        , simpleUserLogin = N "smiley"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/354181?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/smiley"
+        }
+  , issueTitle =
+      "Bug: Combined requests are broken for font stylesheets"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2018"
+  , issueCreatedAt = 2014 (-10) (-14) 20 : 34 : 09 UTC
+  , issueBody =
+      Just
+        "Hey,\n\nI tried to [use combined requests](//cdn.jsdelivr.net/g/bootstrap@3.2.0%28css/bootstrap.min.css%29,fontawesome@4.2.0,octicons@2.1.2) (the `/g/...` feature) with [font-awesome](/FortAwesome/Font-Awesome) & [Octicons](//octicons.github.com), and I encountered a bug: the internal font-fetching causes a URL aliasing issue: (that the browser wrongly brings up as a CORS issue)\n\n``` css\n@font-face {\n    font-family: 'FontAwesome';\n    src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');\n    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');\n    font-weight: normal;\n    font-style: normal;\n}\n```\n\nSince the request (obviously) doesn't return some form of redirect, when any browser (tested on Chrome 38/39, Firefox 32 & IE 11) tries to fetch `../fonts/fontawesome-webfont.woff?v=4.2.0`, it **actually** fetches [`http://cdn.jsdelivr.net/fonts/fontawesome-webfont.woff?v=4.2.0`](//cdn.jsdelivr.net/fonts/fontawesome-webfont.woff?v=4.2.0).\n\nI'm not sure how this can be fixed without manual fixes to files or somehow smartly-replacing these relative URLs for `/g/` requests (which potentially cancels out any CDN benefit). Maybe for now, grouping-requests could automatically fail when encountering a file that includes fonts? (By pre-sorting them)\n"
+  , issueState = StateClosed
+  , issueId = Id 45796693
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-11) 09 : 28 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66592902"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2693#issuecomment-66592902"
+  , issueCommentCreatedAt = 2014 (-12) (-11) 09 : 27 : 59 UTC
+  , issueCommentBody =
+      "what i saw was https://github.com/jsdelivr/jsdelivr/blob/master/network.geojson.\ni thought official site map would be synced with github JSON file. but seems it's not.\n\nand could you update MaxCDN singapore too?\n"
+  , issueCommentId = 66592902
+  }

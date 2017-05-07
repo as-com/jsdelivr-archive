@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-09) 08 : 27 : 33 UTC
+  , issueUpdatedAt = 2015 (-08) (-09) 10 : 03 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6320/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6320")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6320
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6938640
+        , simpleUserLogin = N "taijiweb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6938640?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/taijiweb"
+        }
+  , issueTitle = "Patch 1 for domcom"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6320")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6320.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6320.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6320"
+  , issueCreatedAt = 2015 (-08) (-09) 01 : 03 : 33 UTC
+  , issueBody =
+      Just
+        "# domcom\n\ndomcom is a web framework to provide dom component\n## Features\n- the value of any property and other stuffs can be a function\n  The stuffs, like dom property, the test condition of If, Case component, the items of Repeat component, can be functions. Different from the usage of function as property value in jQuery, the functions are used to declares the computating method for every rendering.\n- update only the difference between the dom and the cache\n- skip the inative component when updating dom\n- decouple with model and controller\n- composable component\n- the root of the component may be multiple dom elements\n"
+  , issueState = StateClosed
+  , issueId = Id 99849188
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

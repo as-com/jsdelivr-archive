@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 17 : 51 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 17 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14106/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14106")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14106
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project chosen-js to 1.6.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14106")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14106.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14106.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14106"
+  , issueCreatedAt = 2016 (-10) (-03) 14 : 34 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project chosen-js to 1.6.2.\n\n@harvesthq\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"chosen-js\",\n    \"repo\": \"chosen-js\",\n    \"files\": {\n      \"include\": [\"*chosen*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/chosen\",\n    \"localVersions\": [\"0.9.08\", \"0.9.10\", \"0.9.11\", \"0.9.12\", \"0.10.0\", \"1.0.0\", \"1.1.0\"],\n    \"remoteVersions\": [\"1.5.1\", \"1.6.1\", \"1.6.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/chosen/update.json\",\n  \"versions\": [\"1.6.2\"],\n  \"updateRemote\": true,\n  \"version\": \"1.6.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/chosen/1.6.2\",\n  \"branch\": \"chosen-js/1.6.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 180656350
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

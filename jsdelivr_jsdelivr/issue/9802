@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-11) 17 : 43 : 05 UTC
+  , issueUpdatedAt = 2016 (-06) (-11) 17 : 43 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9802/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9802")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9802
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16865795
+        , simpleUserLogin = N "InputSimilar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/16865795?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/InputSimilar"
+        }
+  , issueTitle = "Added project : similarInput."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9802")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9802.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9802.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9802"
+  , issueCreatedAt = 2016 (-02) (-16) 17 : 37 : 46 UTC
+  , issueBody =
+      Just
+        "Added project : Similar Input(similar).\nversion: 1.1.0\neffect: Chinese search box to achieve the recommended search keywords related to accessibility.\n"
+  , issueState = StateClosed
+  , issueId = Id 134046717
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

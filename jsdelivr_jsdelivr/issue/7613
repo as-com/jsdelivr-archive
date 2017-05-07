@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-28) 22 : 43 : 04 UTC
+  , issueUpdatedAt = 2015 (-10) (-28) 22 : 43 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7613/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7613")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7613
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4943837
+        , simpleUserLogin = N "admiralsmaster"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/4943837?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/admiralsmaster"
+        }
+  , issueTitle = "Add Shariff"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7613")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7613.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7613.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7613"
+  , issueCreatedAt = 2015 (-10) (-28) 20 : 18 : 08 UTC
+  , issueBody =
+      Just
+        "Please add Shariff library.\nURL: https://github.com/heiseonline/shariff\n\nThanks\n"
+  , issueState = StateClosed
+  , issueId = Id 113913178
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

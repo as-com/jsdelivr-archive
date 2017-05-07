@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-21) 21 : 02 : 36 UTC
+  , issueUpdatedAt = 2016 (-03) (-21) 21 : 02 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10562/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10562")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10562
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7629986
+        , simpleUserLogin = N "rluncasu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/7629986?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rluncasu"
+        }
+  , issueTitle = "Adding chessboardjs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10562")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10562.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10562.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10562"
+  , issueCreatedAt = 2016 (-03) (-20) 18 : 10 : 10 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 142187452
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

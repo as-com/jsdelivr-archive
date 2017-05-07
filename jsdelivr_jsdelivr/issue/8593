@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-29) 13 : 49 : 46 UTC
+  , issueUpdatedAt = 2015 (-12) (-29) 13 : 49 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8593/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8593")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8593
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16361837
+        , simpleUserLogin = N "kathir88tech"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/16361837?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kathir88tech"
+        }
+  , issueTitle = "info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8593")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8593.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8593.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8593"
+  , issueCreatedAt = 2015 (-12) (-21) 05 : 36 : 19 UTC
+  , issueBody =
+      Just
+        "author = \"Kathir Esan\"\ngithub = \"https://github.com/kathir88tech/academy\"\nhomepage = \"http://academy.pillaicenter.com/\"\ndescription = \"Academy pillaicenter is a Revolutionary Tools And Techniques For Life Solutions And Human Evolution\"\nmainfile = \"fonticons.min.js\"\n"
+  , issueState = StateClosed
+  , issueId = Id 123214315
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

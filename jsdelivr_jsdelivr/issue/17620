@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-17) 13 : 36 : 59 UTC
+  , issueUpdatedAt = 2017 (-04) (-17) 13 : 37 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17620/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17620")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17620
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project rrose to v0.2.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17620")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17620.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17620.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17620"
+  , issueCreatedAt = 2017 (-04) (-17) 13 : 36 : 54 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project rrose to v0.2.2.\n\n@GPavlovic\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"rrose\",\n    \"repo\": \"GPavlovic/rrose\",\n    \"files\": {\n      \"include\": [\"dist/leaflet.rrose-src.js\", \"dist/leaflet.rrose.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/rrose\",\n    \"localVersions\": [\"0.2.0\", \"0.2.1\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/rrose/update.json\",\n  \"versions\": [\"v0.2.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.2.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/rrose/0.2.2\",\n  \"branch\": \"rrose/v0.2.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 222133927
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

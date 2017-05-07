@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-24) 15 : 38 : 16 UTC
+  , issueUpdatedAt = 2016 (-08) (-24) 15 : 38 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13400/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13400")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13400
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 131341
+        , simpleUserLogin = N "strathausen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/131341?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/strathausen"
+        }
+  , issueTitle = "include dracula.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13400")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13400.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13400.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13400"
+  , issueCreatedAt = 2016 (-08) (-23) 18 : 51 : 11 UTC
+  , issueBody = Just "Thanks a lot!\n"
+  , issueState = StateClosed
+  , issueId = Id 172777491
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

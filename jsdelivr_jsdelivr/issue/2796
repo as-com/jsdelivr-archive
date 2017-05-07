@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-20) 09 : 32 : 35 UTC
+  , issueUpdatedAt = 2014 (-12) (-20) 09 : 32 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2796/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2796")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2796
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 319465
+        , simpleUserLogin = N "puzrin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/319465?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/puzrin"
+        }
+  , issueTitle = "Added markdown-it"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2796")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2796.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2796.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2796"
+  , issueCreatedAt = 2014 (-12) (-20) 07 : 40 : 21 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 52556100
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

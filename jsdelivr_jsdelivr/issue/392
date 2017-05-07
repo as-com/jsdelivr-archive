@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-26) 16 : 06 : 18 UTC
+  , issueUpdatedAt = 2014 (-02) (-26) 16 : 06 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/392/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/392")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 392
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 305721
+        , simpleUserLogin = N "rdeavila"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/305721?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rdeavila"
+        }
+  , issueTitle = "Added Pines Notify 1.2.0."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/392")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/392.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/392.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/392"
+  , issueCreatedAt = 2014 (-02) (-26) 13 : 30 : 10 UTC
+  , issueBody =
+      Just
+        "I don't made `js` and `css` separation, because the original project don't have this separation too.\n"
+  , issueState = StateClosed
+  , issueId = Id 28333026
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

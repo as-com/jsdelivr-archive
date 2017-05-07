@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-14) 13 : 35 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/131107891"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6409#issuecomment-131107891"
+  , issueCommentCreatedAt = 2015 (-08) (-14) 13 : 35 : 25 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _qoopido.js_ between _3.7.3_ and _3.7.4_ there was a change in file structure  \n  \n  ``` diff\n  + packages/base.js\n  + packages/base.legacy.js\n  + packages/component.remux.js\n  + packages/component.remux.legacy.js\n  + packages/component.sense.js\n  + packages/component.sense.legacy.js\n  + packages/dom.collection.js\n  + packages/dom.collection.legacy.js\n  + packages/dom.element.emerge.js\n  + packages/dom.element.emerge.legacy.js\n  + packages/dom.element.js\n  + packages/dom.element.lazyimage.js\n  + packages/dom.element.lazyimage.legacy.js\n  + packages/dom.element.legacy.js\n  + packages/dom.element.shrinkimage.js\n  + packages/dom.element.shrinkimage.legacy.js\n  + packages/emitter.js\n  + packages/emitter.legacy.js\n  - packages/qoopido.base.js\n  - packages/qoopido.base.legacy.js\n  - packages/qoopido.emerge.js\n  - packages/qoopido.emerge.legacy.js\n  - packages/qoopido.emitter.js\n  - packages/qoopido.emitter.legacy.js\n  - packages/qoopido.lazyimage.js\n  - packages/qoopido.lazyimage.legacy.js\n  - packages/qoopido.remux.js\n  - packages/qoopido.remux.legacy.js\n  - packages/qoopido.sense.js\n  - packages/qoopido.sense.legacy.js\n  - packages/qoopido.shrinkimage.js\n  - packages/qoopido.shrinkimage.legacy.js\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Keep it logically awesome._\n"
+  , issueCommentId = 131107891
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-09) 20 : 42 : 23 UTC
+  , issueUpdatedAt = 2017 (-02) (-09) 20 : 42 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16226/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16226")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16226
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1222666
+        , simpleUserLogin = N "grevory"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1222666?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/grevory"
+        }
+  , issueTitle = "Angular Local Storage"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16226")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16226.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16226.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16226"
+  , issueCreatedAt = 2017 (-02) (-07) 16 : 36 : 01 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 205944160
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

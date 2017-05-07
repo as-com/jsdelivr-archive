@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2017 (-03) (-19) 16 : 17 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17010/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/17010")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17010
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8336811
+        , simpleUserLogin = N "Chiru13"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8336811?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Chiru13"
+        }
+  , issueTitle = "Zepto JS unminified "
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17010"
+  , issueCreatedAt = 2017 (-03) (-19) 16 : 17 : 36 UTC
+  , issueBody =
+      Just
+        "Hello,\r\n\r\nCan you provide a minified version of the addons? https://cdn.jsdelivr.net/zepto/1.2.0/fx.js and others? as currently I use this: https://cdn.jsdelivr.net/g/zepto@1.2.0(zepto.min.js+fx.js) and Zepto is minified but the FX module isn't.\r\n\r\nThanks!"
+  , issueState = StateOpen
+  , issueId = Id 215274827
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

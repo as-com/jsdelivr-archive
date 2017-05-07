@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-14) 22 : 03 : 31 UTC
+  , issueUpdatedAt = 2014 (-10) (-14) 22 : 03 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2019/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2019")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2019
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.hammer.js to 2.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2019")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2019.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2019.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2019"
+  , issueCreatedAt = 2014 (-10) (-14) 22 : 03 : 13 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.hammer.js to 2.0.0.\n\n@hammerjs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.hammer.js\",\n    \"repo\": \"hammerjs/jquery.hammer.js\",\n    \"files\": {\n      \"include\": [\"jquery.hammer.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.hammerjs\",\n    \"localVersions\": [\"1.0.2\", \"1.1.2\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.11\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"2.0.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.hammerjs/2.0.0\",\n  \"branch\": \"jquery.hammer.js/2.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 45806208
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

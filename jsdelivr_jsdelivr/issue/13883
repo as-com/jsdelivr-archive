@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-19) 21 : 04 : 33 UTC
+  , issueUpdatedAt = 2016 (-09) (-19) 21 : 04 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13883/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13883")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13883
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project night-mode-js to v1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13883")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13883.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13883.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13883"
+  , issueCreatedAt = 2016 (-09) (-19) 21 : 04 : 30 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project night-mode-js to v1.0.0.\n\n@cuddlecheek\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"night-mode-js\",\n    \"repo\": \"cuddlecheek/night-mode-js\",\n    \"files\": {\n      \"include\": [\"night-mode.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/night-mode-js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/night-mode-js/update.json\",\n  \"versions\": [\"v1.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/night-mode-js/1.0.0\",\n  \"branch\": \"night-mode-js/v1.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 177897637
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

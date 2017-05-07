@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-09) (-17) 16 : 53 : 15 UTC
+  , issueUpdatedAt = 2014 (-07) (-22) 14 : 33 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/102/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/102")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 102
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1812855
+        , simpleUserLogin = N "martinsuly"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1812855?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/martinsuly"
+        }
+  , issueTitle = "added initial version of bitmonet"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/102")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/102.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/102.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/102"
+  , issueCreatedAt = 2013 (-09) (-17) 16 : 51 : 41 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 19626758
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

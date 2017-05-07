@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-19) 09 : 00 : 01 UTC
+  , issueUpdatedAt = 2015 (-03) (-19) 09 : 00 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3918/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3918")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3918
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6210864
+        , simpleUserLogin = N "rinno83"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/6210864?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rinno83"
+        }
+  , issueTitle = "xps_html_guide"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3918")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3918.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3918.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3918"
+  , issueCreatedAt = 2015 (-03) (-19) 06 : 52 : 36 UTC
+  , issueBody = Just ".\n"
+  , issueState = StateClosed
+  , issueId = Id 62896914
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

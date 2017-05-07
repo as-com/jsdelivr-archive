@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-27) 19 : 35 : 38 UTC
+  , issueUpdatedAt = 2016 (-03) (-27) 20 : 36 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10656/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10656")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10656
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5294595
+        , simpleUserLogin = N "motapc97"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5294595?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/motapc97"
+        }
+  , issueTitle = "Update"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10656")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10656.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10656.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10656"
+  , issueCreatedAt = 2016 (-03) (-27) 14 : 15 : 59 UTC
+  , issueBody =
+      Just
+        "I've moved MotaJS to another account.\n\nTell me if this is fine for you. Thanks\n"
+  , issueState = StateClosed
+  , issueId = Id 143812787
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

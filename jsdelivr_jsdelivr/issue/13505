@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-29) 19 : 56 : 18 UTC
+  , issueUpdatedAt = 2016 (-08) (-29) 19 : 56 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13505/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13505")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13505
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 131341
+        , simpleUserLogin = N "strathausen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/131341?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/strathausen"
+        }
+  , issueTitle = "rename dracula to match npm package name"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13505")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13505.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13505.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13505"
+  , issueCreatedAt = 2016 (-08) (-29) 18 : 11 : 48 UTC
+  , issueBody =
+      Just
+        "Apparently, the auto updater failed due to the name mismatch with npm. This commit should fix that!\n"
+  , issueState = StateClosed
+  , issueId = Id 173836055
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

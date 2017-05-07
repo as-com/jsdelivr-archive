@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-22) 15 : 23 : 28 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 14 : 07 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/995/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/995")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 995
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-ie7-support to 1.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/995")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/995.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/995.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/995"
+  , issueCreatedAt = 2014 (-06) (-22) 15 : 03 : 27 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-ie7-support to 1.0.3.\n\n@johngeorgewright\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"angular-ie7-support\",\n    \"repo\": \"johngeorgewright/angular-ie7-support\",\n    \"files\": {\n      \"include\": [\"angular-ie7-support.js\", \"angular-ie7-support.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular-ie7-support\",\n    \"localVersions\": [\"1.0.2\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.0.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular-ie7-support/1.0.3\",\n  \"branch\": \"angular-ie7-support/1.0.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 36245361
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

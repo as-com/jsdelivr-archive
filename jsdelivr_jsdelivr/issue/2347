@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-13) 11 : 09 : 39 UTC
+  , issueUpdatedAt = 2014 (-11) (-13) 11 : 09 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2347/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2347")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2347
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2437183
+        , simpleUserLogin = N "SeungYeonYou"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2437183?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/SeungYeonYou"
+        }
+  , issueTitle = "Korean Cufon Font Library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2347")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2347.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2347.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2347"
+  , issueCreatedAt = 2014 (-11) (-13) 11 : 06 : 33 UTC
+  , issueBody = Just "Korean cufon javascript font library\n"
+  , issueState = StateClosed
+  , issueId = Id 48623800
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

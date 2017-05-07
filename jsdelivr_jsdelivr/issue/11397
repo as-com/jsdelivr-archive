@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-04) 16 : 09 : 10 UTC
+  , issueUpdatedAt = 2016 (-05) (-04) 16 : 09 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11397/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11397")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11397
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project mojs-player to 0.40.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11397")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11397.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11397.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11397"
+  , issueCreatedAt = 2016 (-05) (-02) 16 : 03 : 43 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project mojs-player to 0.40.3.\n\n@legomushroom\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"mojs-player\",\n    \"repo\": \"legomushroom/mojs-player\",\n    \"files\": {\n      \"include\": [\"build/mojs-player.min.js\", \"build/mojs-player.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/mojs-player\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.40.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/mojs-player/update.json\",\n  \"versions\": [\"0.40.3\"],\n  \"updateRemote\": true,\n  \"version\": \"0.40.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/mojs-player/0.40.3\",\n  \"branch\": \"mojs-player/0.40.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 152584776
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

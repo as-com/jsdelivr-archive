@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-28) 19 : 53 : 13 UTC
+  , issueUpdatedAt = 2014 (-11) (-28) 19 : 53 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2526/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2526")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2526
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "weird RUM test in https"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2526"
+  , issueCreatedAt = 2014 (-11) (-27) 17 : 06 : 17 UTC
+  , issueBody =
+      Just
+        "![image](https://cloud.githubusercontent.com/assets/7894760/5219941/85335788-76a1-11e4-8bcd-c723cb78082d.png)\n![image](https://cloud.githubusercontent.com/assets/7894760/5219944/92d3bc20-76a1-11e4-8555-a6ca90a109d4.png)\n![image](https://cloud.githubusercontent.com/assets/7894760/5219952/9dc1fbd8-76a1-11e4-9003-d89987803e8a.png)\n![image](https://cloud.githubusercontent.com/assets/7894760/5219960/ab0ae1a6-76a1-11e4-84da-57e90c72b95b.png)\n\nin http connection, it seems to be cedexis do the job well. they are testing cloudflare, maxcdn + (keycdn+jsdelivr?, wavecdn+jsdelivr?,  sometimes akamai, ms, cloudfront,  tripadvisor? ... etc) \n\nbut in httpS conneciton, it seems like they are doing something weird... they are just test tumblr and licdn(Linkedin) + cdn.jsdelivr.net without cloudflare or maxcdn\n\ncould you check this problem?\n"
+  , issueState = StateClosed
+  , issueId = Id 50310834
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

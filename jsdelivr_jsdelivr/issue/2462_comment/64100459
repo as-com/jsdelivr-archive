@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-23) 00 : 04 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64100459"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2462#issuecomment-64100459"
+  , issueCommentCreatedAt = 2014 (-11) (-23) 00 : 04 : 56 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @Dennis14e, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help ammending your PR...\n- Might be nothing but I have some concerns about the files in your submission...  \n  - Unescaped unicode characters in _js/jquery.dataTables.js_ (at pos 25)\n  - Is js/jquery.dataTables.min.js (1.10.4) properly minimized?\n  - Unescaped unicode characters in _js/jquery.dataTables.min.js_ (at pos 25)\n  - Unescaped unicode characters in _plugins/colreorder/js/dataTables.colReorder.js_ (at pos 24)\n  - Is plugins/colreorder/js/dataTables.colReorder.min.js (1.10.4) properly minimized?\n  - Unescaped unicode characters in _plugins/colreorder/js/dataTables.colReorder.min.js_ (at pos 23)\n  - Unescaped unicode characters in _plugins/colvis/js/dataTables.colVis.js_ (at pos 20)\n  - Is plugins/colvis/js/dataTables.colVis.min.js (1.10.4) properly minimized?\n  - Unescaped unicode characters in _plugins/colvis/js/dataTables.colVis.min.js_ (at pos 19)\n  - Unescaped unicode characters in _plugins/fixedcolumns/js/dataTables.fixedColumns.js_ (at pos 26)\n  - Is plugins/fixedcolumns/js/dataTables.fixedColumns.min.js (1.10.4) properly minimized?\n  - Unescaped unicode characters in _plugins/fixedcolumns/js/dataTables.fixedColumns.min.js_ (at pos 25)\n  - Unescaped unicode characters in _plugins/fixedheader/js/dataTables.fixedHeader.js_ (at pos 25)\n  - Is plugins/fixedheader/js/dataTables.fixedHeader.min.js (1.10.4) properly minimized?\n  - Unescaped unicode characters in _plugins/fixedheader/js/dataTables.fixedHeader.min.js_ (at pos 24)\n  - Unescaped unicode characters in _plugins/keytable/js/dataTables.keyTable.js_ (at pos 22)\n  - Unescaped unicode characters in _plugins/keytable/js/dataTables.keyTable.min.js_ (at pos 21)\n  - Is plugins/scroller/js/dataTables.scroller.min.js (1.10.4) properly minimized?\n  - Is plugins/tabletools/js/dataTables.tableTools.min.js (1.10.4) properly minimized?\n  - Unescaped unicode characters in _plugins/tabletools/js/dataTables.tableTools.min.js_ (at pos 8054)\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Practicality beats purity._\n"
+  , issueCommentId = 64100459
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-28) 09 : 47 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64874677"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2526#issuecomment-64874677"
+  , issueCommentCreatedAt = 2014 (-11) (-28) 09 : 47 : 58 UTC
+  , issueCommentBody =
+      "Cedexis does not monitor HTTPS for any of the community data we use. So when the website is loaded in HTTPS it tests other stuff. Thats why you dont see CF and max.\nI am talking with them to solve this \n"
+  , issueCommentId = 64874677
+  }

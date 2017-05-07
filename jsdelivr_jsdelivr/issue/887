@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-11) 00 : 33 : 57 UTC
+  , issueUpdatedAt = 2014 (-06) (-22) 03 : 24 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/887/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/887")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 887
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1029425
+        , simpleUserLogin = N "trante"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1029425?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/trante"
+        }
+  , issueTitle = "Added twp project to jsdelivr.."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/887")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/887.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/887.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/887"
+  , issueCreatedAt = 2014 (-06) (-03) 17 : 18 : 00 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 34884523
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

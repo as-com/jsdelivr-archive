@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-18) 17 : 59 : 20 UTC
+  , issueUpdatedAt = 2014 (-07) (-21) 03 : 43 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/371/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/371")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 371
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add ink 2.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/371")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/371.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/371.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/371"
+  , issueCreatedAt = 2014 (-02) (-18) 17 : 42 : 49 UTC
+  , issueBody =
+      Just
+        "I've already remove this file which has min version, hope I don't need to do something more, thanks!\n\n> css/ink-ie7.css\n> css/ink.css\n> js/ink-all.js\n> js/ink-ui.js\n> js/ink.js\n"
+  , issueState = StateClosed
+  , issueId = Id 27812736
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-24) 18 : 11 : 21 UTC
+  , issueUpdatedAt = 2016 (-05) (-24) 20 : 30 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11781/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11781")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11781
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1105767
+        , simpleUserLogin = N "jeffmcmahan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1105767?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jeffmcmahan"
+        }
+  , issueTitle = "Add labcoat.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11781")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11781.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11781.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11781"
+  , issueCreatedAt = 2016 (-05) (-23) 17 : 03 : 21 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 156317337
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

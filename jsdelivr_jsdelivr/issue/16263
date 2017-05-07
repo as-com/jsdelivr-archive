@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-09) 12 : 36 : 15 UTC
+  , issueUpdatedAt = 2017 (-02) (-09) 12 : 36 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16263/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16263")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16263
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project vaadin-split-layout to v1.1.0-alpha1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16263")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16263.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16263.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16263"
+  , issueCreatedAt = 2017 (-02) (-09) 12 : 36 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vaadin-split-layout to v1.1.0-alpha1.\n\n@vaadin\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vaadin-split-layout\",\n    \"repo\": \"vaadin/vaadin-split-layout\",\n    \"files\": {\n      \"include\": [\"vaadin-split-layout.html\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/vaadin-split-layout\",\n    \"localVersions\": [\"1.0.0-beta1\", \"1.0.0\"],\n    \"remoteVersions\": [\"0.1.0\", \"v1.0.0-alpha1\", \"v1.0.0-beta1\", \"v1.0.0\", \"v1.1.0-alpha1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/vaadin-split-layout/update.json\",\n  \"versions\": [\"v1.1.0-alpha1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.1.0-alpha1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/vaadin-split-layout/1.1.0-alpha1\",\n  \"branch\": \"vaadin-split-layout/v1.1.0-alpha1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 206491349
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

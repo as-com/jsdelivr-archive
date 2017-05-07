@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-05) 16 : 50 : 54 UTC
+  , issueUpdatedAt = 2016 (-12) (-05) 16 : 51 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15193/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15193")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15193
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1440134
+        , simpleUserLogin = N "ashlinallen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1440134?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ashlinallen"
+        }
+  , issueTitle = "Update angular.ui-router to v0.3.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15193")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15193.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15193.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15193"
+  , issueCreatedAt = 2016 (-12) (-04) 02 : 13 : 02 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 193326754
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

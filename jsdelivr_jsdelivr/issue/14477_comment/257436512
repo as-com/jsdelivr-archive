@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-31) 22 : 14 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 4303
+        , simpleUserLogin = N "jdalton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4303?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jdalton"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/257436512"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/14477#issuecomment-257436512"
+  , issueCommentCreatedAt = 2016 (-10) (-31) 22 : 14 : 20 UTC
+  , issueCommentBody =
+      "@MartinKolarik \nIt looks like an issue [here](https://github.com/jsdelivr/libgrabber/blob/a91f7fdecc6aa6b084a2fbad0ca18b014f62d5fe/lib/project.js#L140-L146) with [compareVersions](https://github.com/jsdelivr/libgrabber/blob/master/lib/compare-versions.js) erroring because `ax` is nullish and hitting the [ax.length](https://github.com/jsdelivr/libgrabber/blob/master/lib/compare-versions.js#L33) check.\n"
+  , issueCommentId = 257436512
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-16) 20 : 34 : 45 UTC
+  , issueUpdatedAt = 2014 (-12) (-16) 20 : 35 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2745/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2745")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2745
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tauCharts to 0.2.12"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2745")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2745.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2745.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2745"
+  , issueCreatedAt = 2014 (-12) (-16) 16 : 09 : 42 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tauCharts to 0.2.12.\n\n@TargetProcess\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"tauCharts\",\n    \"repo\": \"TargetProcess/tauCharts\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"*.min.*\", \"./css/*.min.*\", \"./plugins/*.min.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/taucharts\",\n    \"localVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.9\", \"0.1.11\", \"0.1.12\", \"0.1.13\", \"0.1.14\", \"0.1.15\", \"0.1.16\", \"0.1.17\", \"0.1.18\", \"0.1.19\", \"0.2.0\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.2.8\", \"0.2.9\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.9\", \"0.1.10\", \"0.1.11\", \"0.1.12\", \"0.1.13\", \"0.1.14\", \"0.1.15\", \"0.1.16\", \"0.1.17\", \"0.1.18\", \"0.1.19\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.2.8\", \"0.2.9\", \"0.2.10\", \"0.2.11\", \"0.2.12\"],\n    \"branchVersions\": [\"0.2.10\", \"0.2.11\"]\n  },\n  \"version\": \"0.2.12\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/taucharts/0.2.12\",\n  \"branch\": \"tauCharts/0.2.12\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 52131716
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

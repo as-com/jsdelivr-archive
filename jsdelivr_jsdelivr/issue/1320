@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-06) 13 : 30 : 01 UTC
+  , issueUpdatedAt = 2014 (-08) (-11) 20 : 52 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1320/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1320")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1320
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1055782
+        , simpleUserLogin = N "ppavlov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1055782?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ppavlov"
+        }
+  , issueTitle = "Adding the latest version of globalize"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1320")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1320.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1320.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1320"
+  , issueCreatedAt = 2014 (-07) (-28) 21 : 01 : 31 UTC
+  , issueBody =
+      Just
+        "https://github.com/jquery/globalize/releases/tag/1.0.0-alpha.4\n"
+  , issueState = StateClosed
+  , issueId = Id 38932871
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

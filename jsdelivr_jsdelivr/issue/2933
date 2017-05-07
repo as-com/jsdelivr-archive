@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-05) 17 : 11 : 15 UTC
+  , issueUpdatedAt = 2015 (-01) (-05) 17 : 11 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2933/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2933")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2933
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project pixi.js to v2.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2933")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2933.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2933.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2933"
+  , issueCreatedAt = 2015 (-01) (-05) 17 : 09 : 03 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project pixi.js to v2.2.1.\n\n@GoodBoyDigital\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"pixi.js\",\n    \"repo\": \"GoodBoyDigital/pixi.js\",\n    \"files\": {\n      \"basePath\": \"bin/\",\n      \"include\": [\"pixi.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/pixi.js\",\n    \"localVersions\": [\"1.5.2\", \"1.5.3\", \"2.0.0\", \"2.1.0\", \"2.1.1\", \"2.2.0\"],\n    \"remoteVersions\": [\"v1.1.0\", \"v1.2.0\", \"v1.3.0\", \"v1.4.0\", \"v1.4.1\", \"1.4.2\", \"v1.4.2\", \"v1.4.3\", \"v1.5.0\", \"v1.5.1\", \"v1.5.2\", \"v1.5.3\", \"v1.6.0\", \"v1.6.1\", \"v2.0.0\", \"v2.1.0\", \"v2.1.1\", \"v2.2.0\", \"v2.2.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v2.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/pixi.js/2.2.1\",\n  \"branch\": \"pixi.js/v2.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 53418703
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

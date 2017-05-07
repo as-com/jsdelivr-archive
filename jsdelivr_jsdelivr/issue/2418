@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-30) 03 : 22 : 59 UTC
+  , issueUpdatedAt = 2014 (-11) (-30) 03 : 22 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2418/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2418")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2418
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 394141
+        , simpleUserLogin = N "medius"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/394141?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/medius"
+        }
+  , issueTitle = "Add UTMCookie script"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2418")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2418.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2418.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2418"
+  , issueCreatedAt = 2014 (-11) (-19) 03 : 00 : 05 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 49322893
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

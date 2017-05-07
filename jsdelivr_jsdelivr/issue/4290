@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-13) 18 : 13 : 11 UTC
+  , issueUpdatedAt = 2015 (-04) (-13) 18 : 13 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4290/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4290")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4290
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project theaterjs to 1.4.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4290")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4290.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4290.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4290"
+  , issueCreatedAt = 2015 (-04) (-13) 18 : 13 : 07 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project theaterjs to 1.4.2.\n\n@Zhouzi\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"theaterjs\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"theater.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/theaterjs\",\n    \"localVersions\": [\"1.3.1\", \"1.3.2\", \"1.4.0\", \"1.4.1\"],\n    \"remoteVersions\": [\"1.2.1\", \"1.2.2\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.4.0\", \"1.4.1\", \"1.4.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.4.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/theaterjs/1.4.2\",\n  \"branch\": \"theaterjs/1.4.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 68159628
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

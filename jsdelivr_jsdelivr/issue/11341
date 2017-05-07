@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-01) 09 : 55 : 51 UTC
+  , issueUpdatedAt = 2016 (-05) (-01) 09 : 55 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11341/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11341")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11341
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4730431
+        , simpleUserLogin = N "aaroniker"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4730431?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aaroniker"
+        }
+  , issueTitle = "PR"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11341")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11341.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11341.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11341"
+  , issueCreatedAt = 2016 (-04) (-28) 14 : 12 : 58 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 151651768
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-18) 14 : 08 : 56 UTC
+  , issueUpdatedAt = 2014 (-01) (-18) 14 : 09 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/271/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/271")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 271
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1068978
+        , simpleUserLogin = N "hnrch02"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1068978?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hnrch02"
+        }
+  , issueTitle = "Add bacon.js and args.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/271")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/271.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/271.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/271"
+  , issueCreatedAt = 2014 (-01) (-18) 10 : 12 : 18 UTC
+  , issueBody =
+      Just
+        "- FRP (functional reactive programming) library for Javascript by @raimohanska (includes version 0.7.1)\n- Create javascript functions with optional, default, grouped and named parameters. Args.js by @joebain (includes version 0.8.0)\n"
+  , issueState = StateClosed
+  , issueId = Id 25857713
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

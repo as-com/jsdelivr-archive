@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-04) 03 : 44 : 05 UTC
+  , issueUpdatedAt = 2017 (-04) (-04) 03 : 44 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17345/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17345")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17345
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1786963
+        , simpleUserLogin = N "jloiola"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1786963?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jloiola"
+        }
+  , issueTitle = "CDN config files for WeUI.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17345")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17345.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17345.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17345"
+  , issueCreatedAt = 2017 (-04) (-01) 05 : 12 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 218670552
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

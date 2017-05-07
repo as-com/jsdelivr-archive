@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-11) 15 : 06 : 39 UTC
+  , issueUpdatedAt = 2017 (-04) (-11) 15 : 06 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17494/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17494")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17494
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10847009
+        , simpleUserLogin = N "SayamK"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10847009?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/SayamK"
+        }
+  , issueTitle = "Uploaded files for using as CDN"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17494")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17494.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17494.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17494"
+  , issueCreatedAt = 2017 (-04) (-09) 23 : 09 : 36 UTC
+  , issueBody = Just "Please merge my PR soon! :)"
+  , issueState = StateClosed
+  , issueId = Id 220507051
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

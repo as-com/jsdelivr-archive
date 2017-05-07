@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-21) 22 : 33 : 10 UTC
+  , issueUpdatedAt = 2017 (-02) (-21) 22 : 33 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16478/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16478")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16478
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ng-youtube-embed to v1.7.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16478")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16478.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16478.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16478"
+  , issueCreatedAt = 2017 (-02) (-21) 22 : 33 : 06 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ng-youtube-embed to v1.7.7.\n\n@ArunMichaelDsouza\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ng-youtube-embed\",\n    \"repo\": \"ArunMichaelDsouza/ng-youtube-embed\",\n    \"files\": {\n      \"include\": [\"build/ng-youtube-embed.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.youtube-embed\",\n    \"localVersions\": [\"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.4.1\", \"0.4.2\", \"0.4.3\", \"1.7.5\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.2.2\", \"v0.2.3\", \"v0.2.4\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v1.7.4\", \"v1.7.5\", \"v1.7.6\", \"v1.7.7\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.youtube-embed/update.json\",\n  \"versions\": [\"v1.7.7\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.7.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.youtube-embed/1.7.7\",\n  \"branch\": \"ng-youtube-embed/v1.7.7\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 209294008
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

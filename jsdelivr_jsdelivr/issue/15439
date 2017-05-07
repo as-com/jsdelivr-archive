@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-21) 12 : 38 : 02 UTC
+  , issueUpdatedAt = 2016 (-12) (-21) 12 : 38 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15439/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15439")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15439
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 24697422
+        , simpleUserLogin = N "bitbytebot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/24697422?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bitbytebot"
+        }
+  , issueTitle =
+      "Rename files/info.ini to files/paymentinfo/info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15439")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15439.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15439.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15439"
+  , issueCreatedAt = 2016 (-12) (-21) 12 : 37 : 02 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 196922821
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

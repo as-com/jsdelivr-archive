@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-01) 17 : 35 : 38 UTC
+  , issueUpdatedAt = 2017 (-03) (-01) 17 : 35 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16659/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16659")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16659
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project xss to 0.3.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16659")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16659.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16659.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16659"
+  , issueCreatedAt = 2017 (-03) (-01) 17 : 35 : 31 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project xss to 0.3.3.\n\n@leizongmin\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"xss\",\n    \"repo\": \"leizongmin/js-xss\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"xss.min.js\", \"xss.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/js-xss\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"0.0.8\", \"0.0.9\", \"0.1.1\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.8\", \"0.1.9\", \"0.1.10\", \"0.1.11\", \"0.1.12\", \"0.1.14\", \"0.1.15\", \"0.1.16\", \"0.1.17\", \"0.1.18\", \"0.1.19\", \"0.1.20\", \"0.1.21\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.2.8\", \"0.2.9\", \"0.2.10\", \"0.2.11\", \"0.2.12\", \"0.2.13\", \"0.2.14\", \"0.2.15\", \"0.2.16\", \"0.2.17\", \"0.2.18\", \"0.3.1\", \"0.3.2\", \"0.3.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/js-xss/update.json\",\n  \"versions\": [\"0.3.3\"],\n  \"updateRemote\": true,\n  \"version\": \"0.3.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/js-xss/0.3.3\",\n  \"branch\": \"xss/0.3.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 211154267
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

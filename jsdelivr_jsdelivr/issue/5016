@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-28) 22 : 37 : 52 UTC
+  , issueUpdatedAt = 2015 (-05) (-28) 22 : 37 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5016/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5016")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5016
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.add-input-area to 4.7.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5016")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5016.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5016.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5016"
+  , issueCreatedAt = 2015 (-05) (-28) 22 : 37 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.add-input-area to 4.7.2.\n\n@sutara79\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.add-input-area\",\n    \"repo\": \"sutara79/jquery.add-input-area\",\n    \"files\": {\n      \"include\": [\"jquery.add-input-area.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.add-input-area\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"4.7.0\", \"4.7.1\", \"4.7.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"4.7.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.add-input-area/4.7.2\",\n  \"branch\": \"jquery.add-input-area/4.7.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 82154863
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

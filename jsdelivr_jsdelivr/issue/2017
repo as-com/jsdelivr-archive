@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-14) 22 : 03 : 47 UTC
+  , issueUpdatedAt = 2014 (-10) (-14) 22 : 03 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2017/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2017")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2017
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 838758
+        , simpleUserLogin = N "pattyland"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/838758?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pattyland"
+        }
+  , issueTitle = "jquery.hammerjs outdated"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2017"
+  , issueCreatedAt = 2014 (-10) (-14) 20 : 30 : 44 UTC
+  , issueBody =
+      Just
+        "https://github.com/hammerjs/jquery.hammer.js needs an Update, version 2.0.0 is out\nHammer.js main seems already to be updated\n\nWould make a pull request but don't have a computer right now :/\n"
+  , issueState = StateClosed
+  , issueId = Id 45796353
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

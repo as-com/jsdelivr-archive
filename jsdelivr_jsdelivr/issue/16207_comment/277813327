@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-02) (-06) 21 : 06 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/277813327"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16207#issuecomment-277813327"
+  , issueCommentCreatedAt = 2017 (-02) (-06) 21 : 06 : 27 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- There are some fundamental issues with your PR :no_good:  \n    - *files/videojs/6.0.0-RC.2* should be lowercase\n    - *files/videojs/6.0.0-RC.2* should be lowercase\n    - *files/videojs/6.0.0-RC.2* should be lowercase\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *videojs* between *5.9.2* and *6.0.0-RC.2* there was a change in file structure  \n    ```diff\n    - video.js\n    - video.min.js\n    - font/VideoJS.eot\n    - font/VideoJS.svg\n    - font/VideoJS.ttf\n    - font/VideoJS.woff\n    - lang/ar.js\n    - lang/ba.js\n    - lang/bg.js\n    - lang/ca.js\n    - lang/cs.js\n    - lang/da.js\n    - lang/de.js\n    - lang/el.js\n    - lang/en.js\n    - lang/es.js\n    - lang/fa.js\n    - lang/fi.js\n    - lang/fr.js\n    - lang/hr.js\n    - lang/hu.js\n    - lang/it.js\n    - lang/ja.js\n    - lang/ko.js\n    - lang/nb.js\n    - lang/nl.js\n    - lang/nn.js\n    - lang/pl.js\n    - lang/pt-BR.js\n    - lang/ru.js\n    - lang/sr.js\n    - lang/sv.js\n    - lang/tr.js\n    - lang/uk.js\n    - lang/vi.js\n    - lang/zh-CN.js\n    - lang/zh-TW.js\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*It's not fully shipped until it's fast.*\n"
+  , issueCommentId = 277813327
+  }

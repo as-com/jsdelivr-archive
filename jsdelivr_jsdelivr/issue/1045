@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-28) 12 : 47 : 09 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 12 : 47 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1045/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1045")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1045
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6192491
+        , simpleUserLogin = N "MartinKolarik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6192491?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MartinKolarik"
+        }
+  , issueTitle = "Add ractive-route"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1045")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1045.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1045.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1045"
+  , issueCreatedAt = 2014 (-06) (-28) 11 : 00 : 06 UTC
+  , issueBody =
+      Just
+        "Nonminified file included because it's needed for source map to work. \n"
+  , issueState = StateClosed
+  , issueId = Id 36723059
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

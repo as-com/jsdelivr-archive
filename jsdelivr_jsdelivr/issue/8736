@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-02) 13 : 53 : 19 UTC
+  , issueUpdatedAt = 2016 (-01) (-02) 14 : 00 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8736/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8736")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8736
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49480
+        , simpleUserLogin = N "joemcelroy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/49480?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/joemcelroy"
+        }
+  , issueTitle = "Add Searchkit library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8736")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8736.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8736.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8736"
+  , issueCreatedAt = 2016 (-01) (-02) 13 : 32 : 29 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 124591009
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

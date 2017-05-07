@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-26) 12 : 05 : 44 UTC
+  , issueUpdatedAt = 2014 (-04) (-26) 15 : 41 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/703/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/703")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 703
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3965
+        , simpleUserLogin = N "simo2409"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3965?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/simo2409"
+        }
+  , issueTitle = "handlebars problem"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/703"
+  , issueCreatedAt = 2014 (-04) (-26) 08 : 04 : 25 UTC
+  , issueBody =
+      Just
+        "Hi everyone,\na friend noticed me a thing.\njsDelivr is hosting handlebars but actually there are 2 different \"kind\" of handlebars, a full code js and a \"only-runtime-js\". The hosted file seems to be the \"only-runtime\" one.\nI don't know much of this project but probably the \"amd\" in filename indicates the \"only-runtime\" nature of the file?\n\nLooking at the handlebars' website filenames are called: \"handlebars-v1.3.0.js\" and \"handlebars.runtime-v1.3.0.js\" so no \"amd\" specification are present.\n\nIn a case like this, how can I fix the hosted filenames? Mantaining the \"amd\" file or replacing it with correct filename like the \"official\" ones?\n\nThank you,\nSimone\n"
+  , issueState = StateClosed
+  , issueId = Id 32284409
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

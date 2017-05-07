@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-02) 11 : 35 : 51 UTC
+  , issueUpdatedAt = 2017 (-02) (-02) 11 : 35 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16109/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16109")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16109
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project text-formatjs to 0.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16109")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16109.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16109.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16109"
+  , issueCreatedAt = 2017 (-02) (-02) 11 : 35 : 44 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project text-formatjs to 0.2.1.\n\n@yannickebongue\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"text-formatjs\",\n    \"repo\": \"yannickebongue/text-formatjs\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/text-formatjs\",\n    \"localVersions\": [\"0.1.7\", \"0.1.8\", \"0.1.9\", \"0.2.0\"],\n    \"remoteVersions\": [\"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.8\", \"0.1.9\", \"0.2.0\", \"0.2.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/text-formatjs/update.json\",\n  \"versions\": [\"0.2.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/text-formatjs/0.2.1\",\n  \"branch\": \"text-formatjs/0.2.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 204849078
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

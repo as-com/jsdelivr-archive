@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-27) 15 : 47 : 14 UTC
+  , issueUpdatedAt = 2014 (-03) (-27) 16 : 09 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/517/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/517")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 517
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "added lowercase files to v0.3.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/517")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/517.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/517.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/517"
+  , issueCreatedAt = 2014 (-03) (-27) 14 : 56 : 29 UTC
+  , issueBody =
+      Just
+        "- [lowercase all the things](https://groups.google.com/forum/#!topic/ractive-js/lR7_Gz1zwJw) agreed upon.\n- added reactive.min.js to 0.3.6 since I changed `mainfile`.\n- Updated GitHub repo\n\nBTW, think in the future I could just upload only just the minified files for repos that aren't (yet) commonly pulled from jsDelivr?  IMHO only min files should be served, if people NEED a non-minifed file on a CDN, they can PR themselves or toss an issue.  I think I wore out the C & V keys from copy/pasting so much... ;)\n"
+  , issueState = StateClosed
+  , issueId = Id 30307701
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

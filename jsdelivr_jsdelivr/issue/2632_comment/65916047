@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-06) 22 : 08 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65916047"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-65916047"
+  , issueCommentCreatedAt = 2014 (-12) (-06) 22 : 07 : 12 UTC
+  , issueCommentBody =
+      "Timing-Allow-Origin: \\* header is missing. Also, add public to cache-control header for consistency. \n"
+  , issueCommentId = 65916047
+  }

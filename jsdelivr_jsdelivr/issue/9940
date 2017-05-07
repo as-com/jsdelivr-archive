@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-23) 12 : 06 : 44 UTC
+  , issueUpdatedAt = 2016 (-02) (-23) 12 : 07 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9940/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9940")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9940
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project binaryjs to list"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9940")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9940.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9940.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9940"
+  , issueCreatedAt = 2016 (-02) (-23) 12 : 06 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project binaryjs to list.\n\n@binaryjs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"binaryjs\",\n    \"repo\": \"binaryjs/binaryjs\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/binaryjs\",\n    \"localVersions\": [\"0.2.1\"],\n    \"remoteVersions\": [\"list\", \"0.0.0\", \"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\", \"0.1.6\", \"0.1.7\", \"0.1.8\", \"0.2.0\", \"0.2.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/binaryjs/update.json\",\n  \"versions\": [\"list\"],\n  \"updateRemote\": true,\n  \"version\": \"list\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/binaryjs/list\",\n  \"branch\": \"binaryjs/list\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 135719259
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

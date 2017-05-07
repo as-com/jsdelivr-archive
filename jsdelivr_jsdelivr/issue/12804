@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-19) 17 : 06 : 42 UTC
+  , issueUpdatedAt = 2016 (-07) (-19) 17 : 06 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12804/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12804")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12804
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1608813
+        , simpleUserLogin = N "Syone"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1608813?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Syone"
+        }
+  , issueTitle = "Add new project selectize-bootswatch"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12804")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12804.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12804.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12804"
+  , issueCreatedAt = 2016 (-07) (-19) 12 : 40 : 18 UTC
+  , issueBody =
+      Just
+        "This project provides a set of css files ready to use for creating Selectize component with a Bootswatch theme.\n"
+  , issueState = StateClosed
+  , issueId = Id 166321137
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

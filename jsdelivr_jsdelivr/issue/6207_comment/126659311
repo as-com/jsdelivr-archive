@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-31) 11 : 28 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 33569
+        , simpleUserLogin = N "dandv"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/33569?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dandv"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/126659311"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6207#issuecomment-126659311"
+  , issueCommentCreatedAt = 2015 (-07) (-31) 11 : 27 : 33 UTC
+  , issueCommentBody =
+      "How can I create two files in the same PR, as the [web interface instructions](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md#web-interface-recommended) recommends?\n\n(Of course I can fork the project and commit both files at once, but the point is that the web interface instructions lead to this situation)\n"
+  , issueCommentId = 126659311
+  }

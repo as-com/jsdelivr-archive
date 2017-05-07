@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-18) 20 : 59 : 53 UTC
+  , issueUpdatedAt = 2016 (-11) (-18) 22 : 54 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14825/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14825")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14825
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7253922
+        , simpleUserLogin = N "freearhey"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7253922?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/freearhey"
+        }
+  , issueTitle = "Add vue2-filters"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14825")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14825.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14825.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14825"
+  , issueCreatedAt = 2016 (-11) (-17) 09 : 37 : 51 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 189991003
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

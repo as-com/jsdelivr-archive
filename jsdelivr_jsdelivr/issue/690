@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-23) 16 : 40 : 44 UTC
+  , issueUpdatedAt = 2014 (-04) (-23) 16 : 40 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/690/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/690")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 690
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4458721
+        , simpleUserLogin = N "pyramids"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4458721?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pyramids"
+        }
+  , issueTitle = "added bitcoinjs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/690")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/690.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/690.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/690"
+  , issueCreatedAt = 2014 (-04) (-23) 16 : 04 : 01 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 32074746
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

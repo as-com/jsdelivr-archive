@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-15) 08 : 56 : 21 UTC
+  , issueUpdatedAt = 2014 (-12) (-15) 08 : 56 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2724/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2724")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2724
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8355878
+        , simpleUserLogin = N "Aranjedeath"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8355878?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Aranjedeath"
+        }
+  , issueTitle = "add conditionizr with autoupdate"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2724")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2724.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2724.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2724"
+  , issueCreatedAt = 2014 (-12) (-14) 23 : 08 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 51935684
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

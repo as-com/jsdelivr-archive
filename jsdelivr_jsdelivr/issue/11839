@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-03) 19 : 28 : 33 UTC
+  , issueUpdatedAt = 2016 (-06) (-03) 19 : 28 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11839/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11839")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11839
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8475219
+        , simpleUserLogin = N "sandywalker"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8475219?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sandywalker"
+        }
+  , issueTitle = "Update update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11839")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11839.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11839.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11839"
+  , issueCreatedAt = 2016 (-05) (-26) 05 : 48 : 01 UTC
+  , issueBody =
+      Just "Added the loading.gif which the plugin needed.\n"
+  , issueState = StateClosed
+  , issueId = Id 156908418
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

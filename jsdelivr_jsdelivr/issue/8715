@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-30) 21 : 12 : 18 UTC
+  , issueUpdatedAt = 2015 (-12) (-30) 21 : 12 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8715/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8715")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8715
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project blaze to 1.0.0-beta.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8715")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8715.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8715.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8715"
+  , issueCreatedAt = 2015 (-12) (-30) 21 : 01 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project blaze to 1.0.0-beta.2.\n\n@BlazeCSS\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"blaze\",\n    \"repo\": \"BlazeCSS/blaze\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/blazecss\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0-alpha\", \"1.0.0-alpha.1\", \"1.0.0-beta\", \"1.0.0-beta.1\", \"1.0.0-beta.2\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/blazecss/update.json\",\n  \"version\": \"1.0.0-beta.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/blazecss/1.0.0-beta.2\",\n  \"branch\": \"blaze/1.0.0-beta.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 124399485
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

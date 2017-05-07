@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-17) 17 : 50 : 59 UTC
+  , issueUpdatedAt = 2016 (-06) (-17) 17 : 50 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12244/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12244")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12244
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8969849
+        , simpleUserLogin = N "drinckes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8969849?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/drinckes"
+        }
+  , issueTitle = "Add project openlocationcode"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12244")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12244.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12244.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12244"
+  , issueCreatedAt = 2016 (-06) (-17) 16 : 51 : 54 UTC
+  , issueBody =
+      Just "Add openlocationcode JS and minified JS to CDN.\n"
+  , issueState = StateClosed
+  , issueId = Id 160930586
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

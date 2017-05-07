@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-30) 03 : 05 : 45 UTC
+  , issueUpdatedAt = 2015 (-11) (-30) 03 : 05 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8163/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8163")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8163
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project d3js to v3.5.10"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8163")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8163.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8163.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8163"
+  , issueCreatedAt = 2015 (-11) (-30) 03 : 05 : 40 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project d3js to v3.5.10.\n\n@mbostock\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"d3js\",\n    \"repo\": \"mbostock/d3\",\n    \"files\": {\n      \"include\": [\"d3.js\", \"d3.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/d3js\",\n    \"localVersions\": [\"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.1.6\", \"3.2.2\", \"3.2.8\", \"3.3.2\", \"3.3.3\", \"3.3.9\", \"3.4.1\", \"3.4.3\", \"3.4.6\", \"3.4.10\", \"3.4.11\", \"3.4.12\", \"3.4.13\", \"3.5.0\", \"3.5.1\", \"3.5.2\", \"3.5.3\", \"3.5.4\", \"3.5.5\", \"3.5.6\", \"3.5.7\", \"3.5.8\", \"3.5.9\"],\n    \"remoteVersions\": [\"v2.3.4\", \"v2.4.0\", \"v2.4.1\", \"v2.4.2\", \"v2.4.3\", \"v2.4.4\", \"v2.4.5\", \"v2.4.6\", \"v2.5.0\", \"v2.5.1\", \"v2.5.2\", \"v2.6.0\", \"v2.6.1\", \"v2.7.0\", \"v2.7.1\", \"v2.7.2\", \"v2.7.3\", \"v2.7.4\", \"v2.7.5\", \"v2.8.0\", \"v2.8.1\", \"v2.9.0\", \"v2.9.1\", \"v2.9.2\", \"v2.9.3\", \"v2.9.4\", \"v2.9.5\", \"v2.9.6\", \"v2.9.7\", \"v2.10.0\", \"v2.10.1\", \"v2.10.2\", \"v2.10.3\", \"v3.0.0\", \"v3.0.1\", \"v3.0.2\", \"v3.0.3\", \"v3.0.4\", \"v3.0.5\", \"v3.0.6\", \"v3.0.7\", \"v3.0.8\", \"v3.1.0\", \"v3.1.1\", \"v3.1.2\", \"v3.1.3\", \"v3.1.4\", \"v3.1.5\", \"v3.1.6\", \"v3.1.7\", \"v3.1.8\", \"v3.1.9\", \"v3.1.10\", \"v3.2.0\", \"v3.2.1\", \"v3.2.2\", \"v3.2.3\", \"v3.2.4\", \"v3.2.5\", \"v3.2.6\", \"v3.2.7\", \"v3.2.8\", \"v3.3.0\", \"v3.3.1\", \"v3.3.2\", \"v3.3.3\", \"v3.3.4\", \"v3.3.5\", \"v3.3.6\", \"v3.3.7\", \"v3.3.8\", \"v3.3.9\", \"v3.3.10\", \"v3.3.11\", \"v3.3.12\", \"v3.3.13\", \"v3.4.0\", \"v3.4.1\", \"v3.4.2\", \"v3.4.3\", \"v3.4.4\", \"v3.4.5\", \"v3.4.6\", \"v3.4.8\", \"v3.4.9\", \"v3.4.10\", \"v3.4.11\", \"v3.4.12\", \"v3.4.13\", \"v3.5.0\", \"v3.5.1\", \"v3.5.2\", \"v3.5.3\", \"v3.5.4\", \"v3.5.5\", \"v3.5.6\", \"v3.5.7\", \"v3.5.8\", \"v3.5.9\", \"v3.5.10\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/d3js/update.json\",\n  \"versions\": [\"v3.5.10\"],\n  \"version\": \"v3.5.10\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/d3js/3.5.10\",\n  \"branch\": \"d3js/v3.5.10\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 119411025
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

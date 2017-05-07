@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-31) 04 : 08 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/87839979"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4057#issuecomment-87839979"
+  , issueCommentCreatedAt = 2015 (-03) (-30) 21 : 40 : 05 UTC
+  , issueCommentBody =
+      "> most min.js files include a .map file in their source code \n\nMost?\nA few popular JS do have .map files, but most of the ones I've been finding don't.  Half don't even include all the files minified.\n\nThe .map reference _may_ be built, but IIRC must minifers don't automatically build the map.\nWorst that happens without a map that is expected is 404s when browser dev tools are opened & a get complaints on SO.  No one noticed the were missing from jQuerry when I made that PR; I did it because I had a moment of perfection.  Not so worried any more.\n\n> On Mar 29, 2015, at 5:08 AM, Dmitriy Akulov notifications@github.com wrote:\n> \n> most min.js files include a .map file in their source code that results in the browser sending that request anyway. So unless we have a way to remove the .map URL from .min.js then I believe we need to keep uploading the map files.\n> \n> \8212\n> Reply to this email directly or view it on GitHub.\n"
+  , issueCommentId = 87839979
+  }

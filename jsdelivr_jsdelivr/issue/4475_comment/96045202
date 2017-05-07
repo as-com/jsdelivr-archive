@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 19 : 49 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/96045202"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4475#issuecomment-96045202"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 19 : 49 : 41 UTC
+  , issueCommentBody =
+      "@patrickarlt any reason your calling it `leaflet.esri` instead of `esri-leaflet`? (thats all the issue is)\nhttps://github.com/jsdelivr/bot/blob/7d2171527224582a466d0695ae902a3dbc08f1ce/util/validate_update_json.py\n"
+  , issueCommentId = 96045202
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-06) 18 : 24 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65908299"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2629#issuecomment-65908299"
+  , issueCommentCreatedAt = 2014 (-12) (-06) 18 : 24 : 48 UTC
+  , issueCommentBody =
+      "True, LESS can, but should never for deployed sites since LESS to CSS\ntransforms will hold up rendering a good bit. Their directions say to use\nCSS for instalation, LESS & SCSS seem to be only for editing.\nOn Dec 6, 2014 7:28 AM, \"Dmitriy Akulov\" notifications@github.com wrote:\n\n> I believe .less can be used from the browser with js\n> \n> \8212\n> Reply to this email directly or view it on GitHub\n> https://github.com/jsdelivr/jsdelivr/pull/2629#issuecomment-65898659.\n"
+  , issueCommentId = 65908299
+  }

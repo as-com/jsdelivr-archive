@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-12) (-15) 17 : 04 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 136959
+        , simpleUserLogin = N "Mottie"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/136959?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Mottie"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/267382592"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/15319#issuecomment-267382592"
+  , issueCommentCreatedAt = 2016 (-12) (-15) 17 : 04 : 24 UTC
+  , issueCommentBody =
+      "Interestingly, if you look at the API: https://api.jsdelivr.com/v1/jsdelivr/libraries?name=tablesorter\r\n\r\nYou'll see that all the available version `\"mainfile\"` entries are using the most current `info.ini` setting."
+  , issueCommentId = 267382592
+  }

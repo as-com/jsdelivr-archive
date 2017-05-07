@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-06) 14 : 38 : 37 UTC
+  , issueUpdatedAt = 2014 (-07) (-16) 15 : 33 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/753/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/753")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 753
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1935696
+        , simpleUserLogin = N "karlhorky"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1935696?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/karlhorky"
+        }
+  , issueTitle = "add jquery.gray"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/753")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/753.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/753.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/753"
+  , issueCreatedAt = 2014 (-05) (-06) 14 : 21 : 23 UTC
+  , issueBody = Nothing
+  , issueState = StateClosed
+  , issueId = Id 32896738
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

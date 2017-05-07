@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-18) 15 : 33 : 39 UTC
+  , issueUpdatedAt = 2016 (-10) (-18) 15 : 33 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14413/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14413")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14413
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jotted to 1.4.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14413")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14413.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14413.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14413"
+  , issueCreatedAt = 2016 (-10) (-18) 15 : 33 : 34 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jotted to 1.4.5.\n\n@ghinda\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jotted\",\n    \"repo\": \"ghinda/jotted\",\n    \"files\": {\n      \"include\": [\"jotted.min.css\", \"jotted.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jotted\",\n    \"localVersions\": [\"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.3.1\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"1.4.4\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.2.0\", \"1.2.1\", \"1.3.0\", \"1.3.1\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"1.4.4\", \"1.4.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jotted/update.json\",\n  \"versions\": [\"1.4.5\"],\n  \"updateRemote\": true,\n  \"version\": \"1.4.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jotted/1.4.5\",\n  \"branch\": \"jotted/1.4.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 183722339
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

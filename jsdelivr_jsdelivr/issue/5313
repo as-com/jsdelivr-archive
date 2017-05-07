@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-16) 16 : 01 : 23 UTC
+  , issueUpdatedAt = 2015 (-06) (-22) 15 : 53 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5313/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5313")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5313
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 661958
+        , simpleUserLogin = N "lgaticaq"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/661958?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lgaticaq"
+        }
+  , issueTitle = "Add startbootstrap-agency"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5313")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5313.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5313.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5313"
+  , issueCreatedAt = 2015 (-06) (-15) 15 : 49 : 17 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 88465379
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

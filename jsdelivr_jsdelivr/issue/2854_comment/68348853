@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-30) 11 : 17 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/68348853"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2854#issuecomment-68348853"
+  , issueCommentCreatedAt = 2014 (-12) (-30) 11 : 17 : 44 UTC
+  , issueCommentBody =
+      "@feross Here you go https://github.com/jsdelivr/jsdelivr/pull/2866\nSorry it took so long, for some reason Docker got stuck so I had to debug it. It should be fine now. The bot will check your project every 30 minutes for new updates.\n"
+  , issueCommentId = 68348853
+  }

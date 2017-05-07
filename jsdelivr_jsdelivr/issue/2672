@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-09) 15 : 40 : 01 UTC
+  , issueUpdatedAt = 2014 (-12) (-09) 15 : 40 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2672/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2672")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2672
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.autosize to 1.18.16"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2672")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2672.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2672.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2672"
+  , issueCreatedAt = 2014 (-12) (-09) 15 : 35 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.autosize to 1.18.16.\n\n@jackmoore\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.autosize\",\n    \"repo\": \"jackmoore/autosize\",\n    \"files\": {\n      \"include\": [\"jquery.autosize.js\", \"jquery.autosize.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.autosize\",\n    \"localVersions\": [\"1.18.4\", \"1.18.6\", \"1.18.7\", \"1.18.8\", \"1.18.9\", \"1.18.15\"],\n    \"remoteVersions\": [\"1.8.1\", \"1.15.0\", \"1.15.3\", \"1.15.4\", \"1.16.0\", \"1.16.1\", \"1.16.2\", \"1.16.3\", \"1.16.4\", \"1.16.5\", \"1.16.6\", \"1.16.7\", \"1.16.9\", \"1.16.10\", \"1.16.11\", \"1.16.12\", \"1.16.13\", \"1.16.14\", \"1.16.15\", \"1.16.16\", \"1.16.17\", \"1.16.18\", \"1.16.19\", \"1.16.20\", \"1.17.0\", \"1.17.1\", \"1.17.2\", \"1.17.3\", \"1.17.4\", \"1.17.5\", \"1.17.6\", \"1.17.7\", \"1.17.8\", \"1.18.0\", \"1.18.1\", \"1.18.2\", \"1.18.3\", \"1.18.4\", \"1.18.5\", \"1.18.6\", \"1.18.7\", \"1.18.8\", \"1.18.9\", \"1.18.10\", \"1.18.11\", \"1.18.12\", \"1.18.13\", \"1.18.14\", \"1.18.15\", \"1.18.16\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.18.16\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.autosize/1.18.16\",\n  \"branch\": \"jquery.autosize/1.18.16\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 51441374
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

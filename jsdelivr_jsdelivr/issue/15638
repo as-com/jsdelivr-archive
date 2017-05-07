@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-05) 18 : 06 : 23 UTC
+  , issueUpdatedAt = 2017 (-01) (-05) 18 : 06 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15638/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15638")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15638
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 914122
+        , simpleUserLogin = N "martinheidegger"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/914122?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/martinheidegger"
+        }
+  , issueTitle = "Added egraphql-fetch"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15638")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15638.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15638.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15638"
+  , issueCreatedAt = 2017 (-01) (-05) 16 : 48 : 53 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 199003262
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

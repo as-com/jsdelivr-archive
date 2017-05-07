@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-23) 12 : 57 : 38 UTC
+  , issueUpdatedAt = 2014 (-04) (-23) 12 : 57 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/687/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/687")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 687
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 29529
+        , simpleUserLogin = N "redox"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/29529?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/redox"
+        }
+  , issueTitle = "Add algoliasearch 2.4.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/687")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/687.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/687.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/687"
+  , issueCreatedAt = 2014 (-04) (-23) 12 : 48 : 45 UTC
+  , issueBody =
+      Just
+        "source: https://github.com/algolia/algoliasearch-client-js/blob/2.4.7/dist/algoliasearch.min.js\n\nthank you guys!\n"
+  , issueState = StateClosed
+  , issueId = Id 32057395
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

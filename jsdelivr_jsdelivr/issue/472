@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-19) 13 : 55 : 58 UTC
+  , issueUpdatedAt = 2014 (-03) (-19) 13 : 55 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/472/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/472")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 472
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 161476
+        , simpleUserLogin = N "Eugeny"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/161476?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Eugeny"
+        }
+  , issueTitle = "Socket.IO client"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/472"
+  , issueCreatedAt = 2014 (-03) (-19) 07 : 41 : 58 UTC
+  , issueBody =
+      Just
+        "jsDelivr includes socket.io server-side libraries, but not browser-side JS: https://github.com/LearnBoost/socket.io-client\n"
+  , issueState = StateClosed
+  , issueId = Id 29712184
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

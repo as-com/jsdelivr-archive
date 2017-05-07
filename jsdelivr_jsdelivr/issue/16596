@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-27) 15 : 31 : 40 UTC
+  , issueUpdatedAt = 2017 (-02) (-27) 15 : 31 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16596/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16596")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16596
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 22114845
+        , simpleUserLogin = N "dimitrigq"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/22114845?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dimitrigq"
+        }
+  , issueTitle = "Added Tumult Hype3 JS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16596")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16596.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16596.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16596"
+  , issueCreatedAt = 2017 (-02) (-27) 14 : 03 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 210492427
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

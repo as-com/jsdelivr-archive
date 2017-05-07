@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-05) 00 : 32 : 51 UTC
+  , issueUpdatedAt = 2014 (-04) (-05) 00 : 37 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/580/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/580")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 580
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 248153
+        , simpleUserLogin = N "samuelmaudo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/248153?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/samuelmaudo"
+        }
+  , issueTitle = "Add jQuery Carousel v1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/580")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/580.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/580.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/580"
+  , issueCreatedAt = 2014 (-04) (-05) 00 : 07 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 30903949
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

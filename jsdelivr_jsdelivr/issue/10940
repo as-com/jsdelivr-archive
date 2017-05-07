@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-10) 08 : 14 : 56 UTC
+  , issueUpdatedAt = 2016 (-04) (-10) 08 : 14 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10940/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10940")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10940
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3259993
+        , simpleUserLogin = N "tjenkinson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3259993?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tjenkinson"
+        }
+  , issueTitle = "Adding clappr-thumbnails-plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10940")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10940.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10940.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10940"
+  , issueCreatedAt = 2016 (-04) (-09) 19 : 33 : 53 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 147156871
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

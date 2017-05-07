@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-02) 01 : 11 : 42 UTC
+  , issueUpdatedAt = 2017 (-03) (-02) 01 : 11 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16461/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/16461")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16461
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3468013
+        , simpleUserLogin = N "kevindb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3468013?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kevindb"
+        }
+  , issueTitle = "Moved lib jquery-form"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16461"
+  , issueCreatedAt = 2017 (-02) (-21) 16 : 02 : 02 UTC
+  , issueBody =
+      Just
+        "http://www.jsdelivr.com/projects/jquery.form\r\nThe [jquery-form/form](https://github.com/jquery-form/form) project has changed ownership from [malsup/form](https://github.com/malsup/form).\r\n\r\nI'm not sure what the best practice is to update the library. The canonical URL should probably change to `http://www.jsdelivr.com/projects/jquery-form`, but I don't want to break existing links that are pointing to `jquery.form`. Is there anything cleaner than \"list the library twice\"? Maybe a redirect from the old URL to the new?\r\n\r\nThank you for your help. I'm trying to breathe new life into this project and make its transition as smooth as possible."
+  , issueState = StateClosed
+  , issueId = Id 209189751
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

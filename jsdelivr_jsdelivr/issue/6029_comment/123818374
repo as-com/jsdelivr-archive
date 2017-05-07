@@ -1,0 +1,22 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-22) 18 : 30 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 338988
+        , simpleUserLogin = N "jonathanKingston"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/338988?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/jonathanKingston"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123818374"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123818374"
+  , issueCommentCreatedAt = 2015 (-07) (-22) 18 : 30 : 30 UTC
+  , issueCommentBody =
+      "It doesn't solve every single problem as:\n- SRI needs to be a super low bar to entry so that developers don't need to:\n  - Check that your files change ever\n  - Check that you have calculated them correctly\n  - Learn at their own pace what SRI actually is\n\nIf those were not a problem then all developers would be adding SRI in right now as it is simple enough when you know about it.\n\nAsking a developer to check the files integrity after they download defeats the point, SRI is here to teach us that we should not trust the code from a CDN at any point in time so to rely on it when we generate the code. The only safe way is to calculate at upload time, or rely on a third party who you trust to provide that proof upon developers uploading to them.\n\n---\n\nIf you want something out the door for this and out of sight then sure dynamic calculation of the CDN content will work, don't expect people to trust it at all however.\n\nI personally would suggest changing your upload or indexing so that new content gets the hashes, that way 90k of files wouldn't need to be checked just new ones when they are added.\n"
+  , issueCommentId = 123818374
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-01) 19 : 34 : 29 UTC
+  , issueUpdatedAt = 2017 (-01) (-01) 19 : 34 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15586/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15586")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15586
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery-smooth-scroll to 2.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15586")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15586.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15586.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15586"
+  , issueCreatedAt = 2017 (-01) (-01) 19 : 34 : 24 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery-smooth-scroll to 2.1.1.\n\n@kswedberg\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery-smooth-scroll\",\n    \"repo\": \"kswedberg/jquery-smooth-scroll\",\n    \"files\": {\n      \"include\": [\"*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.smooth-scroll\",\n    \"localVersions\": [\"1.5.4\", \"1.5.5\", \"1.5.6\", \"1.5.7\", \"1.6.0\", \"1.6.1\", \"1.6.2\", \"1.7.0\", \"1.7.1\", \"1.7.2\", \"2.0\", \"2.0.1\", \"2.1.0\"],\n    \"remoteVersions\": [\"1.4\", \"1.4.2\", \"1.4.3\", \"1.4.4\", \"1.4.5\", \"1.4.6\", \"1.4.7\", \"1.4.8\", \"1.4.9\", \"1.4.10\", \"1.4.11\", \"1.4.12\", \"1.4.13\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.4\", \"1.5.5\", \"1.5.6\", \"1.5.7\", \"1.6.0\", \"1.6.1\", \"1.6.2\", \"1.7.0\", \"1.7.1\", \"1.7.2\", \"2.0\", \"2.0.1\", \"2.1.0\", \"2.1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.smooth-scroll/update.json\",\n  \"versions\": [\"2.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"2.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.smooth-scroll/2.1.1\",\n  \"branch\": \"jquery-smooth-scroll/2.1.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 198278773
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

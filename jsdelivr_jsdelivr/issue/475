@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-20) 16 : 02 : 53 UTC
+  , issueUpdatedAt = 2014 (-03) (-20) 16 : 02 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/475/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/475")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 475
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11438
+        , simpleUserLogin = N "ziodave"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/11438?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ziodave"
+        }
+  , issueTitle = "add wordlift 3.0.0-SNAPSHOT"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/475")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/475.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/475.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/475"
+  , issueCreatedAt = 2014 (-03) (-19) 15 : 39 : 27 UTC
+  , issueBody = Just "Latest WordLift 3.0.0 SNAPSHOT.\n"
+  , issueState = StateClosed
+  , issueId = Id 29743211
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

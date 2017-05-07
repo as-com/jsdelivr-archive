@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-08) 20 : 09 : 03 UTC
+  , issueUpdatedAt = 2014 (-04) (-08) 20 : 09 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/607/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/607")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 607
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 942287
+        , simpleUserLogin = N "mstolley"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/942287?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mstolley"
+        }
+  , issueTitle = "Add jquery.truncate"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/607")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/607.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/607.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/607"
+  , issueCreatedAt = 2014 (-04) (-08) 19 : 37 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 31101734
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

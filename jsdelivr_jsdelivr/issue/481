@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-19) 21 : 52 : 21 UTC
+  , issueUpdatedAt = 2014 (-03) (-19) 21 : 52 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/481/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/481")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 481
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 51308
+        , simpleUserLogin = N "stoyan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/51308?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/stoyan"
+        }
+  , issueTitle = "Adding React v0.9.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/481")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/481.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/481.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/481"
+  , issueCreatedAt = 2014 (-03) (-19) 21 : 42 : 41 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 29775172
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-16) 22 : 14 : 25 UTC
+  , issueUpdatedAt = 2014 (-09) (-16) 22 : 14 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1744/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1744")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1744
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 146930
+        , simpleUserLogin = N "zippy1981"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/146930?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zippy1981"
+        }
+  , issueTitle = "added angular.ng-grid 2.0.13"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1744")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1744.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1744.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1744"
+  , issueCreatedAt = 2014 (-09) (-16) 20 : 46 : 00 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 42930964
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

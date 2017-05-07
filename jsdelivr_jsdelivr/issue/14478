@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-31) 19 : 45 : 43 UTC
+  , issueUpdatedAt = 2016 (-10) (-31) 19 : 46 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14478/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14478")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14478
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6549433
+        , simpleUserLogin = N "nofuel"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6549433?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nofuel"
+        }
+  , issueTitle = "Blocksovetnik"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14478")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14478.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14478.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14478"
+  , issueCreatedAt = 2016 (-10) (-31) 19 : 30 : 52 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 186375353
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

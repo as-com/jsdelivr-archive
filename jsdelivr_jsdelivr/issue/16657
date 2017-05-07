@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-03) 18 : 43 : 00 UTC
+  , issueUpdatedAt = 2017 (-03) (-03) 18 : 43 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16657/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16657")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16657
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 24833011
+        , simpleUserLogin = N "arbati6"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/24833011?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/arbati6"
+        }
+  , issueTitle = "Delete frino.woff2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16657")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16657.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16657.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16657"
+  , issueCreatedAt = 2017 (-03) (-01) 17 : 27 : 49 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 211152095
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

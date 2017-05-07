@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-06) 15 : 57 : 48 UTC
+  , issueUpdatedAt = 2016 (-03) (-07) 12 : 40 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10310/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10310")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10310
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 128298
+        , simpleUserLogin = N "arronmabrey"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/128298?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/arronmabrey"
+        }
+  , issueTitle = "add redux-thunk"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10310")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10310.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10310.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10310"
+  , issueCreatedAt = 2016 (-03) (-06) 15 : 03 : 19 UTC
+  , issueBody = Just "add redux-thunk\n"
+  , issueState = StateClosed
+  , issueId = Id 138798876
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

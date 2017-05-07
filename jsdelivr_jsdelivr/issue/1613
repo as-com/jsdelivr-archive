@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-04) 21 : 43 : 35 UTC
+  , issueUpdatedAt = 2014 (-09) (-04) 21 : 43 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1613/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1613")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1613
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1959167
+        , simpleUserLogin = N "emitstop"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1959167?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/emitstop"
+        }
+  , issueTitle = "Add Emoji One 1.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1613")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1613.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1613.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1613"
+  , issueCreatedAt = 2014 (-09) (-04) 20 : 19 : 54 UTC
+  , issueBody =
+      Just
+        "Adding Emoji One v1.0.2. fairly certain we followed the correct formatting, please let us know if anything doesn't look right.\n\nThanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 41980572
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

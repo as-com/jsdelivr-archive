@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-04) 12 : 56 : 11 UTC
+  , issueUpdatedAt = 2015 (-08) (-04) 12 : 56 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6258/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6258")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6258
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6885864
+        , simpleUserLogin = N "alexbagirov"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6885864?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/alexbagirov"
+        }
+  , issueTitle = "Updated keymaster.js up to 1.6.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6258")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6258.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6258.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6258"
+  , issueCreatedAt = 2015 (-08) (-04) 11 : 34 : 33 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 98947008
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-14) 21 : 36 : 09 UTC
+  , issueUpdatedAt = 2017 (-02) (-14) 21 : 36 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16368/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16368")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16368
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tagrhead to v1.0.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16368")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16368.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16368.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16368"
+  , issueCreatedAt = 2017 (-02) (-14) 21 : 36 : 02 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tagrhead to v1.0.4.\n\n@kevguy\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"tagrhead\",\n    \"repo\": \"kevguy/TagrHead\",\n    \"files\": {\n      \"include\": [\"lib/Tagrhead.min.js\", \"lib/Tagrhead.min.js.map\", \"css/style.css\", \"css/style.css.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/tagrhead\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v1.0.2\", \"v1.0.3\", \"v1.0.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/tagrhead/update.json\",\n  \"versions\": [\"v1.0.4\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/tagrhead/1.0.4\",\n  \"branch\": \"tagrhead/v1.0.4\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 207643510
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

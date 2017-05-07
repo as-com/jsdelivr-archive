@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 23 : 28 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 23 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16975/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16975")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16975
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9315
+        , simpleUserLogin = N "azuwis"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9315?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/azuwis"
+        }
+  , issueTitle = "mui: Switch to npm"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16975")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16975.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16975.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16975"
+  , issueCreatedAt = 2017 (-03) (-17) 03 : 13 : 31 UTC
+  , issueBody =
+      Just
+        "The `dist/` directory no longer exists in github source tree.\r\n\r\nSwitching to npm should fix the update."
+  , issueState = StateClosed
+  , issueId = Id 214896614
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

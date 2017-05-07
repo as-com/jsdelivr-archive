@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-14) 16 : 11 : 49 UTC
+  , issueUpdatedAt = 2015 (-10) (-14) 16 : 11 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7381/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7381")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7381
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1373940
+        , simpleUserLogin = N "kokarn"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1373940?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kokarn"
+        }
+  , issueTitle = "Add bootstrap-fileinput"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7381")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7381.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7381.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7381"
+  , issueCreatedAt = 2015 (-10) (-14) 11 : 32 : 38 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 111379453
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

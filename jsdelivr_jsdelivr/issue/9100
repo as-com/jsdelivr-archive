@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-17) 14 : 33 : 12 UTC
+  , issueUpdatedAt = 2016 (-01) (-17) 14 : 33 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9100/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9100")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9100
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project flexslider to 2.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9100")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9100.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9100.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9100"
+  , issueCreatedAt = 2016 (-01) (-17) 14 : 33 : 09 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project flexslider to 2.6.0.\n\n@woothemes\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"flexslider\",\n    \"repo\": \"woothemes/FlexSlider\",\n    \"files\": {\n      \"include\": [\"jquery.flexslider.js\", \"jquery.flexslider-min.js\", \"flexslider.css\", \"./fonts/*\", \"./images/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/flexslider\",\n    \"localVersions\": [\"1.8.0\", \"2.0.0\", \"2.1.0\", \"2.2.0\", \"2.2.2\", \"2.3.0\", \"2.4.0\"],\n    \"remoteVersions\": [\"2.5.0\", \"2.6.0\"],\n    \"branchVersions\": [\"2.5.0\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/flexslider/update.json\",\n  \"versions\": [\"2.6.0\"],\n  \"updateRemote\": true,\n  \"version\": \"2.6.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/flexslider/2.6.0\",\n  \"branch\": \"flexslider/2.6.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127098304
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

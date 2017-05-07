@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-19) 17 : 34 : 19 UTC
+  , issueUpdatedAt = 2016 (-09) (-19) 17 : 34 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13879/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13879")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13879
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project kute.js to 1.5.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13879")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13879.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13879.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13879"
+  , issueCreatedAt = 2016 (-09) (-19) 17 : 34 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project kute.js to 1.5.4.\n\n@thednp\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"kute.js\",\n    \"repo\": \"thednp/kute.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/kute.js\",\n    \"localVersions\": [\"0.9.0\", \"0.9.1\", \"0.9.2\", \"0.9.3\", \"0.9.4\", \"0.9.5\", \"1.0.0\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.3\"],\n    \"remoteVersions\": [\"0.9.0\", \"0.9.1\", \"0.9.2\", \"0.9.3\", \"0.9.4\", \"0.9.5\", \"1.0.0\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.5.3\", \"1.5.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/kute.js/update.json\",\n  \"versions\": [\"1.5.4\"],\n  \"updateRemote\": true,\n  \"version\": \"1.5.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/kute.js/1.5.4\",\n  \"branch\": \"kute.js/1.5.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 177847594
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

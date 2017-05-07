@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-21) 13 : 57 : 06 UTC
+  , issueUpdatedAt = 2013 (-11) (-21) 13 : 57 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/157/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/157")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 157
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 204259
+        , simpleUserLogin = N "willdady"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/204259?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/willdady"
+        }
+  , issueTitle = "Adding Highcharts 3.0.7 and Highstock 1.3.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/157")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/157.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/157.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/157"
+  , issueCreatedAt = 2013 (-11) (-21) 06 : 24 : 45 UTC
+  , issueBody = Just "Adding Highcharts 3.0.7 and Highstock 1.3.7\n"
+  , issueState = StateClosed
+  , issueId = Id 23047140
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

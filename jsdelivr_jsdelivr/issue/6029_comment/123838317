@@ -1,0 +1,22 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-22) 19 : 34 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 338988
+        , simpleUserLogin = N "jonathanKingston"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/338988?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/jonathanKingston"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123838317"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123838317"
+  , issueCommentCreatedAt = 2015 (-07) (-22) 19 : 34 : 46 UTC
+  , issueCommentBody =
+      "@jimaek perhaps this should be coined \"Schroedinger's attack\"...\n\nUnobserved the developer does not know if CDN is:\na) malicious\nb) not malicious\n\n---\n\nLoading the code for jQuery onto the site the developer is unsure if they were the unlucky one to download the code in a period of attack.\nUntil the sites code gets fixed the developer is not sure the attack.\n"
+  , issueCommentId = 123838317
+  }

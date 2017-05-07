@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-01) 13 : 33 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/107471011"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5065#issuecomment-107471011"
+  , issueCommentCreatedAt = 2015 (-06) (-01) 13 : 33 : 21 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @kahwee, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` has a few problems\n  - The <img width property should be wrapped in double quotes (e.g. `<img width = \"\"32\" height\"`) and contain no other double quotes\n  - <img width isn't a valid _info.ini_ property...\n  - The <p id property should be wrapped in double quotes (e.g. `<p id = \"\"parallax_error_text\" class\"`) and contain no other double quotes\n  - <p id isn't a valid _info.ini_ property...\n  - The <div id property should be wrapped in double quotes (e.g. `<div id = \"\"suggestions\">\"`) and contain no other double quotes\n  - <div id isn't a valid _info.ini_ property...\n  - The <img alt property should be wrapped in double quotes (e.g. `<img alt = \"\"500 Error\" class\"`) and contain no other double quotes\n  - <img alt isn't a valid _info.ini_ property...\n  - The <style type property should be wrapped in double quotes (e.g. `<style type = \"\"text/css\" media\"`) and contain no other double quotes\n  - <style type isn't a valid _info.ini_ property...\n  - The <span id property should be wrapped in double quotes (e.g. `<span id = \"\"error_500\"></span>\"`) and contain no other double quotes\n  - <span id isn't a valid _info.ini_ property...\n  - The height property should be wrapped in double quotes (e.g. `height = \"\"204\" id\"`) and contain no other double quotes\n  - height isn't a valid _info.ini_ property...\n  - The <meta http-equiv property should be wrapped in double quotes (e.g. `<meta http-equiv = \"\"Content-Security-Policy\" content\"`) and contain no other double quotes\n  - <meta http-equiv isn't a valid _info.ini_ property...\n  - The <a href property should be wrapped in double quotes (e.g. `<a href = \"\"/\" class\"`) and contain no other double quotes\n  - <a href isn't a valid _info.ini_ property...\n  - The <script type property should be wrapped in double quotes (e.g. `<script type = \"\"text/javascript\" src\"`) and contain no other double quotes\n  - <script type isn't a valid _info.ini_ property...\n  - The <div class property should be wrapped in double quotes (e.g. `<div class = \"\"container\">\"`) and contain no other double quotes\n  - <div class isn't a valid _info.ini_ property...\n  - No author property provided\n  - No description property provided\n  - No mainfile property provided\n  - Expected a `homepage` (this can be the source repo with docs)\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Approachable is better than simple._\n"
+  , issueCommentId = 107471011
+  }

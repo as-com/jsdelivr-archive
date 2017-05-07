@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-31) 01 : 19 : 04 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 22 : 43 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/257/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/257")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 257
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3273306
+        , simpleUserLogin = N "developexaccount"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3273306?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/developexaccount"
+        }
+  , issueTitle = "Create jscolor.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/257")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/257.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/257.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/257"
+  , issueCreatedAt = 2014 (-01) (-10) 16 : 03 : 16 UTC
+  , issueBody = Just "from http://jscolor.com/\n"
+  , issueState = StateClosed
+  , issueId = Id 25403845
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

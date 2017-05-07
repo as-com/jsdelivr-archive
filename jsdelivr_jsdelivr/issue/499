@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-23) 12 : 27 : 36 UTC
+  , issueUpdatedAt = 2014 (-03) (-23) 12 : 33 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/499/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/499")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 499
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 644927
+        , simpleUserLogin = N "mkurz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/644927?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mkurz"
+        }
+  , issueTitle = "Please update select2 to new version"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/499"
+  , issueCreatedAt = 2014 (-03) (-23) 12 : 23 : 22 UTC
+  , issueBody =
+      Just
+        "A new version of select2 (3.4.6) was released a few hours ago:\nhttps://github.com/ivaynberg/select2/releases/\n\nThanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 29986250
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

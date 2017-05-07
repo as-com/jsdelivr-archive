@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-08) (-24) 19 : 21 : 44 UTC
+  , issueUpdatedAt = 2013 (-09) (-21) 12 : 00 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/83/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/83")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 83
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49051
+        , simpleUserLogin = N "mattpodwysocki"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/49051?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mattpodwysocki"
+        }
+  , issueTitle = "Adding RxJS-jQuery 1.0.1 to jsdelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/83")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/83.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/83.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/83"
+  , issueCreatedAt = 2013 (-08) (-23) 22 : 39 : 18 UTC
+  , issueBody =
+      Just
+        "Adding the jQuery bindings for the Reactive Extensions for JavaScript.  These files are found from here: https://github.com/Reactive-Extensions/rxjs-jquery/releases\n"
+  , issueState = StateClosed
+  , issueId = Id 18496224
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

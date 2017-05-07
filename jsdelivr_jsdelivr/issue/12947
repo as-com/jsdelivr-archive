@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-28) 12 : 24 : 17 UTC
+  , issueUpdatedAt = 2016 (-07) (-28) 12 : 24 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12947/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/12947")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12947
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8336811
+        , simpleUserLogin = N "Chiru13"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8336811?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Chiru13"
+        }
+  , issueTitle = "Ionic Icons Fonts 404"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12947"
+  , issueCreatedAt = 2016 (-07) (-27) 19 : 18 : 52 UTC
+  , issueBody =
+      Just
+        "The following font files cannot be found:\n\nFailed to load resource: the server responded with a status of 404 (Not Found) http://cdn.jsdelivr.net/fonts/ionicons.woff?v=2.0.1 \n\nFailed to load resource: the server responded with a status of 404 (Not Found)\nhttp://cdn.jsdelivr.net/fonts/ionicons.ttf?v=2.0.1\n"
+  , issueState = StateClosed
+  , issueId = Id 167933840
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

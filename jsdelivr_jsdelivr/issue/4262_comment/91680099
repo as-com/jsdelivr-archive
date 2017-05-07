@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-10) 20 : 42 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/91680099"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4262#issuecomment-91680099"
+  , issueCommentCreatedAt = 2015 (-04) (-10) 20 : 42 : 02 UTC
+  , issueCommentBody =
+      "Looks good but we allow a max of 2 commits per PR. Please either squash your commits or create a new PR\n"
+  , issueCommentId = 91680099
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-09) 23 : 08 : 28 UTC
+  , issueUpdatedAt = 2014 (-06) (-09) 23 : 08 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/899/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/899")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 899
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 88677
+        , simpleUserLogin = N "pocketninja"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/88677?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pocketninja"
+        }
+  , issueTitle = "File join delimiter for multi-file requests"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/899"
+  , issueCreatedAt = 2014 (-06) (-06) 06 : 59 : 25 UTC
+  , issueBody =
+      Just
+        "Came across an issue today where a multi-javascript request would throw an error: `\"undefined is not a function\"`.\n\nWe were using a URL similar to: `//cdn.jsdelivr.net/g/modernizr,jquery,history.js(history.js+history.adapter.jquery.js)`\n\nThe problem lies with the project files being requested rather than jsdelivr itself.\n\nHistory.js' files have been minimised in such a way that the scoped functions are not terminated.\n\nThat is, History.js' files are similar to:\n`(function() {\n /* snip */\n})()`\n\nConcatenating two files like this results in code which will cause an error:\n`(function() { /* snip */ })()(function() { /* snip 2 */})()`\n\nI realise it's up to the project maintainer to minify their files responsibly (and probably haven't considered this method of inclusion before), but it would be fantastic if we could specify whether the content of files in `/g/` requests are delimited somehow.\n\nPerhaps something like: \n`//cdn.jsdelivr.net/g/history.js(history.js+history.adapter.jquery.js)?delim=;`\nor\n`//cdn.jsdelivr.net/g;/history.js(history.js+history.adapter.jquery.js)`\nor any other variation that suits the URL conventions used by jsdelivr.\n\nThat could perhaps return:\n`(function() { /* snip */ })() ; (function() { /* snip 2 */})()`\n\nThanks!\nDan\n\n---\n\nFWIW, we managed to get around it in the meantime by leveraging the order of the files.\n\nThis works:\n`cdn.jsdelivr.net/g/history.js,modernizr,picturefill,jquery,colorbox,videojs@4.6.0,history.js(history.adapter.jquery.js)`\n\nmodernizr has a `;` at the start of the file which effectively terminates history.js, and then history.adapter being last needs no terminator. \n"
+  , issueState = StateClosed
+  , issueId = Id 35123120
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

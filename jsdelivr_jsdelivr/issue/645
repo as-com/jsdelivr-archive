@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-18) 12 : 11 : 38 UTC
+  , issueUpdatedAt = 2014 (-04) (-20) 23 : 54 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/645/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/645")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 645
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "mainfile issues"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/645"
+  , issueCreatedAt = 2014 (-04) (-14) 04 : 06 : 22 UTC
+  , issueBody =
+      Just
+        "On rare occasion, the `mainfile` is not a JS file, but another file type.\nGood example:\n[normalize](https://github.com/jsdelivr/jsdelivr/blob/master/files/normalize/info.ini#L5) `normalize.min.css` (CSS reset)\n\nMisconfigured example:\n[Bootstrap](https://github.com/jsdelivr/jsdelivr/blob/master/files/bootstrap/info.ini#L5) `js/bootstrap.min.js`\n  This file exists, but is an extra add-on; Bootstrap's main use, CSS formatting, is done via [`css/bootstrap.min.css`](http://getbootstrap.com/getting-started/#download-cdn).  The [JS is just extra plugins](http://getbootstrap.com/javascript/) for modals, sliders, etc.\n\nMissing example:\n[font-brandico](https://github.com/jsdelivr/jsdelivr/blob/master/files/font-brandico/info.ini#L5) (empty)\nFonts are strange, because the main attraction are 1-4 font files, the most compatible being TrueType `.ttf`.  But they can be loaded in a webpage by either a JS script or [CSS @font-face](http://www.font-face.com/#lime_content) rule.\n\nHow should we go about fixing misconfigured & missing mainfiles?  Not a big deal, but when [the website](http://www.jsdelivr.com/#!font-brandico) & other scripts assign improperly the file.\nIIRC, the mainfile was to be sorted at the top of a listing or be highlighted, to help 'idiot-proof' grabbing the [correct default file](https://github.com/jsdelivr/jsdelivr/issues/52).\n"
+  , issueState = StateClosed
+  , issueId = Id 31433510
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-06) 15 : 28 : 57 UTC
+  , issueUpdatedAt = 2014 (-04) (-06) 15 : 28 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/583/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/583")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 583
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "new parsley.js rc5 from @guillaumepotier"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/583")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/583.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/583.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/583"
+  , issueCreatedAt = 2014 (-04) (-06) 14 : 33 : 11 UTC
+  , issueBody =
+      Just
+        "add 2.0.0-rc5\n\nhttps://github.com/guillaumepotier/Parsley.js/\n"
+  , issueState = StateClosed
+  , issueId = Id 30938584
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

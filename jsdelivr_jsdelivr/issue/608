@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-09) 14 : 36 : 30 UTC
+  , issueUpdatedAt = 2014 (-04) (-09) 23 : 34 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/608/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/608")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 608
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7213075
+        , simpleUserLogin = N "hlinkpt"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7213075?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hlinkpt"
+        }
+  , issueTitle = "Ads Jquery json plugin "
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/608")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/608.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/608.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/608"
+  , issueCreatedAt = 2014 (-04) (-08) 23 : 13 : 06 UTC
+  , issueBody = Just "Hope the commit is ok. Thanks for your time\n"
+  , issueState = StateClosed
+  , issueId = Id 31117612
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

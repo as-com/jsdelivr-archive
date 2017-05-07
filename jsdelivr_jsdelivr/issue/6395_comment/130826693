@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-13) 20 : 15 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 351902
+        , simpleUserLogin = N "markcarver"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/351902?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/markcarver"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/130826693"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6395#issuecomment-130826693"
+  , issueCommentCreatedAt = 2015 (-08) (-13) 20 : 14 : 34 UTC
+  , issueCommentBody =
+      "Heh, I just realized I accidentally excluded the fonts. I'll submit a new PR (edit: after we see how this goes ;)\n"
+  , issueCommentId = 130826693
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-20) 19 : 06 : 08 UTC
+  , issueUpdatedAt = 2016 (-07) (-20) 19 : 06 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12838/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12838")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12838
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project wing to v0.1.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12838")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12838.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12838.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12838"
+  , issueCreatedAt = 2016 (-07) (-20) 19 : 06 : 01 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project wing to v0.1.5.\n\n@KingPixil\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"wing\",\n    \"repo\": \"KingPixil/wing\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"wing.css\", \"wing.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/wing\",\n    \"localVersions\": [\"0.1.4\"],\n    \"remoteVersions\": [\"v0.0.2\", \"v0.0.3\", \"v0.1.1\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/wing/update.json\",\n  \"versions\": [\"v0.1.5\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/wing/0.1.5\",\n  \"branch\": \"wing/v0.1.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 166657621
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

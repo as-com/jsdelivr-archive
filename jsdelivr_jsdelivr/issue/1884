@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-01) 12 : 28 : 36 UTC
+  , issueUpdatedAt = 2014 (-10) (-01) 12 : 29 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1884/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1884")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1884
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 286616
+        , simpleUserLogin = N "kenwheeler"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/286616?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kenwheeler"
+        }
+  , issueTitle = "Adding slick 1.3.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1884")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1884.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1884.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1884"
+  , issueCreatedAt = 2014 (-10) (-01) 03 : 15 : 30 UTC
+  , issueBody = Just "Added slick , vesion 1.3.8\n"
+  , issueState = StateClosed
+  , issueId = Id 44524253
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

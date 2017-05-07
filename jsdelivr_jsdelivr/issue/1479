@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-03) 22 : 23 : 40 UTC
+  , issueUpdatedAt = 2014 (-09) (-11) 23 : 35 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1479/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1479")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1479
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "auto updates and releases"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1479"
+  , issueCreatedAt = 2014 (-08) (-21) 00 : 56 : 02 UTC
+  , issueBody =
+      Just
+        "I must be doing something wrong. Tonight I released version 3.7 of my software\n\nhttps://github.com/getusedtoit/wp-slimstat/releases\n\nBut the corresponding Jsdelivr directory hasn't been updated accordingly:\n\nhttps://github.com/jsdelivr/jsdelivr/tree/master/files/wp-slimstat\n\nWould you be able to take a look at what I did wrong? :) Much appreciated.\n"
+  , issueState = StateClosed
+  , issueId = Id 40762937
+  , issueComments = 24
+  , issueMilestone = Nothing
+  }

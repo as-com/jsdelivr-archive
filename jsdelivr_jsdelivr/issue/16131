@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-05) 01 : 43 : 00 UTC
+  , issueUpdatedAt = 2017 (-02) (-05) 01 : 43 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16131/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16131")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16131
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9658016
+        , simpleUserLogin = N "qrac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9658016?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/qrac"
+        }
+  , issueTitle = "Create musubii.css"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16131")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16131.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16131.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16131"
+  , issueCreatedAt = 2017 (-02) (-03) 15 : 32 : 08 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 205188662
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

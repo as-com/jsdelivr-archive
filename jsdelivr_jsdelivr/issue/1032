@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 14 : 16 : 56 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 17 : 19 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1032/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1032")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1032
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project Backbone.ModelBinder to v1.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1032")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1032.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1032.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1032"
+  , issueCreatedAt = 2014 (-06) (-27) 14 : 16 : 03 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project Backbone.ModelBinder to v1.0.5.\n\n@theironcook\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"Backbone.ModelBinder\",\n    \"repo\": \"theironcook/Backbone.ModelBinder\",\n    \"files\": {\n      \"include\": [\"Backbone.ModelBinder.min.js\", \"Backbone.CollectionBinder.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/backbone.modelbinder\",\n    \"localVersions\": [\"1.0.4\"],\n    \"remoteVersions\": [\"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\", \"v0.1.6\", \"v1.0.0\", \"v1.0.2\", \"v1.0.4\", \"v1.0.5\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.0.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/backbone.modelbinder/1.0.5\",\n  \"branch\": \"Backbone.ModelBinder/v1.0.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 36667542
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-08) 18 : 09 : 06 UTC
+  , issueUpdatedAt = 2016 (-09) (-08) 18 : 09 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13676/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13676")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13676
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1658876
+        , simpleUserLogin = N "nmihajlovski"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1658876?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/nmihajlovski"
+        }
+  , issueTitle = "Extracted the basePath out of the file names."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13676")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13676.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13676.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13676"
+  , issueCreatedAt = 2016 (-09) (-08) 17 : 38 : 36 UTC
+  , issueBody =
+      Just
+        "I hope this will fix the update of the Rapidoid files, which currently isn't working for the latest releases (5.2.0, 5.2.1, 5.2.2).\n"
+  , issueState = StateClosed
+  , issueId = Id 175815842
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

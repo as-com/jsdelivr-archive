@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-19) 16 : 36 : 22 UTC
+  , issueUpdatedAt = 2014 (-09) (-19) 16 : 36 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1778/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1778")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1778
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project localStorage to v2.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1778")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1778.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1778.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1778"
+  , issueCreatedAt = 2014 (-09) (-19) 16 : 35 : 56 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project localStorage to v2.0.1.\n\n@mortzdk\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"localStorage\",\n    \"repo\": \"mortzdk/localStorage\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\", \"*.swf\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/localstorage\",\n    \"localVersions\": [\"2.0.0\"],\n    \"remoteVersions\": [\"v2.0.0\", \"v2.0.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v2.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/localstorage/2.0.1\",\n  \"branch\": \"localStorage/v2.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 43257474
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

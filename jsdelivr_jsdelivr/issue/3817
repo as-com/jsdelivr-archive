@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-11) 16 : 59 : 08 UTC
+  , issueUpdatedAt = 2015 (-03) (-11) 16 : 59 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3817/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3817")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3817
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jqm-editable-listview to 0.3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3817")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3817.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3817.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3817"
+  , issueCreatedAt = 2015 (-03) (-11) 14 : 36 : 55 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jqm-editable-listview to 0.3.1.\n\n@baig\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"jqm-editable-listview\",\n    \"repo\": \"baig/jquerymobile-editablelistview\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"jqm.editable.listview.min.js\", \"jqm.editable.listview.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.editable-listview\",\n    \"localVersions\": [\"0.2.6\", \"0.2.7\", \"0.2.8\", \"0.2.9\", \"0.2.10\", \"0.2.11\", \"0.2.12\", \"0.2.13\", \"0.2.14\", \"0.2.15\", \"0.2.16\", \"0.2.17\", \"0.2.18\", \"0.3.0\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.2.5\", \"0.2.6\", \"0.2.7\", \"0.2.8\", \"0.2.9\", \"0.2.10\", \"0.2.11\", \"0.2.12\", \"0.2.13\", \"0.2.14\", \"0.2.15\", \"0.2.16\", \"0.2.17\", \"0.2.18\", \"0.3.0\", \"0.3.1\"],\n    \"branchVersions\": [\"0.2.18\", \"0.3.0\"]\n  },\n  \"version\": \"0.3.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.editable-listview/0.3.1\",\n  \"branch\": \"jqm-editable-listview/0.3.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 60667939
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-25) 22 : 18 : 35 UTC
+  , issueUpdatedAt = 2016 (-11) (-26) 01 : 05 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14958/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14958")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14958
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15857795
+        , simpleUserLogin = N "perfectacle"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/15857795?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/perfectacle"
+        }
+  , issueTitle = "[request] add check-browsers"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14958")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14958.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14958.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14958"
+  , issueCreatedAt = 2016 (-11) (-25) 04 : 30 : 01 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 191623395
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

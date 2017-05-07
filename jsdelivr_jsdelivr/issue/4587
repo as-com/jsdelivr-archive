@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-01) 20 : 09 : 03 UTC
+  , issueUpdatedAt = 2015 (-05) (-01) 20 : 09 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4587/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4587")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4587
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project leaflet.esri to v1.0.0-rc.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4587")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4587.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4587.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4587"
+  , issueCreatedAt = 2015 (-05) (-01) 20 : 05 : 56 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project leaflet.esri to v1.0.0-rc.7.\n\n@esri\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"leaflet.esri\",\n    \"repo\": \"esri/esri-leaflet\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/leaflet.esri\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.0.1-beta.1\", \"v0.0.1-beta.2\", \"v0.0.1-beta.3\", \"v0.0.1-beta.4\", \"v0.0.1-beta.4-patch-1\", \"v0.0.1-beta.5\", \"v0.0.1-beta.6\", \"v0.0.1-rc1\", \"v0.0.1-rc.2\", \"v1.0.0-rc.1\", \"v1.0.0-rc.2\", \"v1.0.0-rc.3\", \"v1.0.0-rc.4\", \"v1.0.0-rc.5\", \"v1.0.0-rc.6\", \"v1.0.0-rc.7\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.0.0-rc.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/leaflet.esri/1.0.0-rc.7\",\n  \"branch\": \"leaflet.esri/v1.0.0-rc.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 72510565
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

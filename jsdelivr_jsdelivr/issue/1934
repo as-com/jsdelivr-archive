@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-06) 21 : 42 : 30 UTC
+  , issueUpdatedAt = 2014 (-10) (-13) 11 : 30 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1934/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1934")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1934
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project emojione to v1.2.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1934")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1934.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1934.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1934"
+  , issueCreatedAt = 2014 (-10) (-06) 21 : 34 : 34 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project emojione to v1.2.4.\n\n@Ranks\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"emojione\",\n    \"repo\": \"Ranks/emojione\",\n    \"files\": {\n      \"include\": [\"assets/css/emojione.min.css\", \"lib/js/emojione.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/emojione\",\n    \"localVersions\": [\"1.0.1\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.1.0\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\"],\n    \"remoteVersions\": [\"v1.0.0\", \"1.0.1\", \"v1.0.1\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.1.0\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.3\", \"v1.2.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.2.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/emojione/1.2.4\",\n  \"branch\": \"emojione/v1.2.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 45040163
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

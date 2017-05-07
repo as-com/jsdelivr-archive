@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-08) 23 : 20 : 33 UTC
+  , issueUpdatedAt = 2014 (-01) (-08) 23 : 20 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/250/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/250")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 250
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueTitle = "Add jquery.transition"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/250")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/250.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/250.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/250"
+  , issueCreatedAt = 2014 (-01) (-08) 23 : 02 : 31 UTC
+  , issueBody =
+      Just
+        "Relax, I'm just playing with jQuery CSS3 animations!\n\nOooh, 250th pull request!\n"
+  , issueState = StateClosed
+  , issueId = Id 25277425
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

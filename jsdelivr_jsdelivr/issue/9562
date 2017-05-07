@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-03) 22 : 33 : 36 UTC
+  , issueUpdatedAt = 2016 (-02) (-03) 22 : 33 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9562/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9562")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9562
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project geniuslink to 0.3.0-beta.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9562")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9562.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9562.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9562"
+  , issueCreatedAt = 2016 (-02) (-03) 22 : 33 : 32 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project geniuslink to 0.3.0-beta.1.\n\n@MindTouch\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"geniuslink\",\n    \"repo\": \"MindTouch/geniuslink\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"geniuslink.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/mindtouch-geniuslink\",\n    \"localVersions\": [\"0.1.0\", \"0.1.1\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.3.0-beta.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/mindtouch-geniuslink/update.json\",\n  \"versions\": [\"0.3.0-beta.1\"],\n  \"updateRemote\": true,\n  \"version\": \"0.3.0-beta.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/mindtouch-geniuslink/0.3.0-beta.1\",\n  \"branch\": \"geniuslink/0.3.0-beta.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 131175516
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

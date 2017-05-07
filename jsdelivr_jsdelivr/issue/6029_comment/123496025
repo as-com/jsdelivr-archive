@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-21) 22 : 17 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123496025"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123496025"
+  , issueCommentCreatedAt = 2015 (-07) (-21) 22 : 17 : 24 UTC
+  , issueCommentBody =
+      "Do you know any websites that show SRI? I want to take a look.\n\nNow regarding the backend, not sure that its that easy. Algolia is fed our API, and the API gets the info from scanning our Github repo. We host A LOT of files, to add SRI that way it would require to download and hash each file. \n\n@megawac @unboundev Any ideas how to add SRI without breaking everything?\n"
+  , issueCommentId = 123496025
+  }

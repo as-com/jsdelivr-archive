@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-05) 20 : 53 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/73125562"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3311#issuecomment-73125562"
+  , issueCommentCreatedAt = 2015 (-02) (-05) 20 : 53 : 49 UTC
+  , issueCommentBody =
+      "Looks like you reset a couple too many commits there,\n\nTry this\n\n```\ngit remote add u https://github.com/jsdelivr/jsdelivr.git\ngit fetch u\ngit reset --soft u/master\ngit commit -am \"Added radiant-medialyzer project + updated info.ini for existing magneticmediajs project\"\ngit push -f origin master\n```\n"
+  , issueCommentId = 73125562
+  }

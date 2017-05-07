@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-30) 14 : 05 : 32 UTC
+  , issueUpdatedAt = 2014 (-07) (-04) 05 : 55 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/728/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/728")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 728
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 515142
+        , simpleUserLogin = N "bruth"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/515142?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bruth"
+        }
+  , issueTitle = "Cilantro 2.2.27"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/728")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/728.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/728.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/728"
+  , issueCreatedAt = 2014 (-04) (-30) 12 : 22 : 18 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 32529753
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

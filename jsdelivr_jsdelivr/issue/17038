@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 25 : 56 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 25 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17038/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17038")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17038
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 26375114
+        , simpleUserLogin = N "elixirads"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/26375114?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/elixirads"
+        }
+  , issueTitle = "Add elixirjs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17038")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17038.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17038.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17038"
+  , issueCreatedAt = 2017 (-03) (-21) 13 : 13 : 55 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 215735201
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-29) 16 : 10 : 33 UTC
+  , issueUpdatedAt = 2014 (-10) (-29) 16 : 10 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2152/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2152")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2152
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project menu-io to v0.7.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2152")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2152.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2152.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2152"
+  , issueCreatedAt = 2014 (-10) (-29) 15 : 33 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project menu-io to v0.7.3.\n\n@coderaiser\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"menu-io\",\n    \"repo\": \"coderaiser/menu-io\",\n    \"files\": {\n      \"include\": [\"menu-io.min.js\", \"menu-io.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/menu-io\",\n    \"localVersions\": [\"0.6.5\", \"0.7.0\", \"0.7.2\"],\n    \"remoteVersions\": [\"v0.2.0\", \"v0.2.1\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.3.4\", \"v0.3.5\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\", \"v0.4.5\", \"v0.5.0\", \"v0.6.0\", \"v0.6.1\", \"v0.6.4\", \"v0.6.5\", \"v0.7.0\", \"v0.7.1\", \"v0.7.2\", \"v0.7.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.7.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/menu-io/0.7.3\",\n  \"branch\": \"menu-io/v0.7.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 47162867
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

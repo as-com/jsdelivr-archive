@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-13) 13 : 15 : 16 UTC
+  , issueUpdatedAt = 2017 (-02) (-13) 13 : 15 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16311/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16311")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16311
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 772855
+        , simpleUserLogin = N "shobhitsharma"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/772855?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/shobhitsharma"
+        }
+  , issueTitle = "Added embedo files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16311")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16311.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16311.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16311"
+  , issueCreatedAt = 2017 (-02) (-11) 23 : 12 : 24 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 207015140
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

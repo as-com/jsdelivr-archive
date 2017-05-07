@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-06) 14 : 34 : 43 UTC
+  , issueUpdatedAt = 2016 (-07) (-06) 14 : 34 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12582/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12582")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12582
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project monkberry-standalone to 4.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12582")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12582.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12582.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12582"
+  , issueCreatedAt = 2016 (-07) (-06) 14 : 34 : 38 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project monkberry-standalone to 4.0.5.\n\n@monkberry\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"monkberry-standalone\",\n    \"repo\": \"monkberry/standalone\",\n    \"files\": {\n      \"include\": [\"monkberry.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/monkberry-standalone\",\n    \"localVersions\": [\"4.0.0-beta.4\", \"4.0.0-beta.5\", \"4.0.0-beta.6\", \"4.0.1\", \"4.0.2\", \"4.0.3\", \"4.0.4\"],\n    \"remoteVersions\": [\"0.0.1\", \"4.0.0-beta.3\", \"4.0.0-beta.4\", \"4.0.0-beta.5\", \"4.0.0-beta.6\", \"4.0.1\", \"4.0.2\", \"4.0.3\", \"4.0.4\", \"4.0.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/monkberry-standalone/update.json\",\n  \"versions\": [\"4.0.5\"],\n  \"updateRemote\": true,\n  \"version\": \"4.0.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/monkberry-standalone/4.0.5\",\n  \"branch\": \"monkberry-standalone/4.0.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 164090766
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

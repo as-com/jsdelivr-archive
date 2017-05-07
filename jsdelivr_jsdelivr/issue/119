@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-24) 13 : 09 : 40 UTC
+  , issueUpdatedAt = 2013 (-10) (-24) 13 : 35 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/119/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/119")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 119
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1733915
+        , simpleUserLogin = N "cmaurer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1733915?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/cmaurer"
+        }
+  , issueTitle = "inital commit"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/119")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/119.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/119.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/119"
+  , issueCreatedAt = 2013 (-10) (-24) 04 : 52 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 21500969
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

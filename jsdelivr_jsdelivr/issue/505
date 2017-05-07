@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-24) 22 : 08 : 01 UTC
+  , issueUpdatedAt = 2014 (-03) (-24) 22 : 12 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/505/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/505")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 505
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueTitle = "Add zepto.bootstrapcompat"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/505")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/505.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/505.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/505"
+  , issueCreatedAt = 2014 (-03) (-24) 22 : 03 : 37 UTC
+  , issueBody =
+      Just
+        "...for the sake of performance! :rocket: \n\n(See https://github.com/madrobby/zepto/commit/1d5daef9f8abd9b92340c135bfbb11a7ce1a83a6 if you are wondering why)\n"
+  , issueState = StateClosed
+  , issueId = Id 30079781
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

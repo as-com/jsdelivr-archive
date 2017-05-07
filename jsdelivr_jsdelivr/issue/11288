@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-26) 11 : 28 : 20 UTC
+  , issueUpdatedAt = 2016 (-04) (-26) 11 : 28 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11288/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11288")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11288
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 297650
+        , simpleUserLogin = N "krzyko"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/297650?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/krzyko"
+        }
+  , issueTitle = "Create jquery-migrate.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11288")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11288.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11288.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11288"
+  , issueCreatedAt = 2016 (-04) (-25) 23 : 13 : 57 UTC
+  , issueBody = Just "add 1.4.0 minified version\n"
+  , issueState = StateClosed
+  , issueId = Id 151004112
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

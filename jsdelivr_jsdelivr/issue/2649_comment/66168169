@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-08) 19 : 09 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66168169"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2649#issuecomment-66168169"
+  , issueCommentCreatedAt = 2014 (-12) (-08) 19 : 09 : 28 UTC
+  , issueCommentBody =
+      "Good find, this is now fixed. It might take a while to get updated to all already cached files.\nI manually purged the following file for you to test \nhttp://jsdelivr3.dak.netdna-cdn.com/font-nanum/latest/nanumbarungothic/nanumbarungothic.css\n"
+  , issueCommentId = 66168169
+  }

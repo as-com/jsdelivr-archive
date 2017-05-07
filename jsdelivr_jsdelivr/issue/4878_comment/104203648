@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-21) 09 : 40 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 236843
+        , simpleUserLogin = N "anantshri"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/236843?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/anantshri"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/104203648"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4878#issuecomment-104203648"
+  , issueCommentCreatedAt = 2015 (-05) (-21) 09 : 40 : 14 UTC
+  , issueCommentBody =
+      "So It boils down to what we can do to inform people that there is a security issue. We still provide users with an option to use older version's. At this point we do not even suggest that the user should use latest version. we have a list of options and a user can pick what they want.\n\nI would suggest following\n1) We either remove listing for specific vulnerable version's from the website but keep them on the CDN so that old users still keep getting the file but no new user is able to pick it even in the drop down list. (I am personally not in favour of keeping them in CDN also but as per previous discussion this is one of your core values so we need to stick to it.)\n2) we add a notice on vulnerable versions that these are not to be used. \n\n-Anant\n"
+  , issueCommentId = 104203648
+  }

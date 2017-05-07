@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 32 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10228/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10228")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10228
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8069243
+        , simpleUserLogin = N "amoyeh"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/8069243?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/amoyeh"
+        }
+  , issueTitle = "add library request"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10228")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10228.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10228.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10228"
+  , issueCreatedAt = 2016 (-03) (-02) 08 : 35 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 137807927
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

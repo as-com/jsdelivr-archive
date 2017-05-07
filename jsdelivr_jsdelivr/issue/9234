@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-20) 16 : 03 : 47 UTC
+  , issueUpdatedAt = 2016 (-01) (-20) 16 : 03 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9234/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9234")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9234
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project leaflet.esri.renderers to v2.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9234")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9234.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9234.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9234"
+  , issueCreatedAt = 2016 (-01) (-20) 16 : 03 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project leaflet.esri.renderers to v2.0.1.\n\n@Esri\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"leaflet.esri.renderers\",\n    \"repo\": \"Esri/esri-leaflet-renderers\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"esri-leaflet-renderers.js\", \"esri-leaflet-renderers.js.map\"],\n      \"exclude\": [\"README.md\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/leaflet.esri.renderers\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\", \"2.0.0\"],\n    \"remoteVersions\": [\"v0.0.1-beta.1\", \"0.0.1-beta.1\", \"v0.0.1-beta.2\", \"v0.0.1-beta.3\", \"v1.0.0\", \"v1.0.1\", \"v2.0.0\", \"v2.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/leaflet.esri.renderers/update.json\",\n  \"versions\": [\"v2.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/leaflet.esri.renderers/2.0.1\",\n  \"branch\": \"leaflet.esri.renderers/v2.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127715304
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

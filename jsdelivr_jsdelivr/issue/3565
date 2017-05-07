@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-22) 17 : 46 : 57 UTC
+  , issueUpdatedAt = 2015 (-02) (-22) 17 : 46 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3565/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3565")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3565
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bootstrap.tagsinput to 0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3565")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3565.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3565.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3565"
+  , issueCreatedAt = 2015 (-02) (-22) 17 : 44 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootstrap.tagsinput to 0.5.\n\n@TimSchlechter\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bootstrap.tagsinput\",\n    \"repo\": \"TimSchlechter/bootstrap-tagsinput\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"bootstrap-tagsinput.min.js\", \"bootstrap-tagsinput.min.js.map\", \"bootstrap-tagsinput.less\", \"bootstrap-tagsinput.js\", \"bootstrap-tagsinput.css\", \"bootstrap-tagsinput-angular.min.js\", \"bootstrap-tagsinput-angular.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/bootstrap.tagsinput\",\n    \"localVersions\": [\"0.3.9\", \"0.4.2\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.3.5\", \"0.3.6\", \"0.3.7\", \"0.3.8\", \"0.3.9\", \"0.3.10\", \"0.3.11\", \"0.3.12\", \"0.3.13\", \"0.3.14\", \"0.4\", \"0.4.1\", \"0.4.2\", \"0.5\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/bootstrap.tagsinput/0.5.0\",\n  \"branch\": \"bootstrap.tagsinput/0.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 58510967
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

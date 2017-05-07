@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 08 : 43 : 32 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 08 : 43 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13509/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13509")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13509
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project Readmore.js to v2.2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13509")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13509.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13509.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13509"
+  , issueCreatedAt = 2016 (-08) (-29) 20 : 07 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project Readmore.js to v2.2.0.\n\n@jedfoster\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"Readmore.js\",\n    \"repo\": \"jedfoster/Readmore.js\",\n    \"files\": {\n      \"include\": [\"readmore.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/readmore.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v2.1.0\", \"v2.2.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/readmore.js/update.json\",\n  \"versions\": [\"1.0.0\", \"v2.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/readmore.js/2.2.0\",\n  \"branch\": \"Readmore.js/v2.2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 173860415
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-29) 19 : 38 : 32 UTC
+  , issueUpdatedAt = 2016 (-08) (-29) 19 : 38 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13506/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13506")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13506
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 57606
+        , simpleUserLogin = N "anirvan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/57606?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/anirvan"
+        }
+  , issueTitle = "Add Readmore.js library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13506")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13506.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13506.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13506"
+  , issueCreatedAt = 2016 (-08) (-29) 18 : 32 : 21 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 173840474
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

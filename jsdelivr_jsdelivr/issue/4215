@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-07) 15 : 46 : 25 UTC
+  , issueUpdatedAt = 2015 (-07) (-19) 11 : 42 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4215/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4215")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4215
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 146930
+        , simpleUserLogin = N "zippy1981"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/146930?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zippy1981"
+        }
+  , issueTitle = "removed ion.rangeSlider, fixed old one"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4215")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4215.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4215.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4215"
+  , issueCreatedAt = 2015 (-04) (-07) 15 : 22 : 12 UTC
+  , issueBody =
+      Just
+        "The rules would seem to indicate the images should have been pulled. However, they weren't. So, I don't know whats happening.\n"
+  , issueState = StateClosed
+  , issueId = Id 66914527
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

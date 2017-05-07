@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-04) (-04) 04 : 04 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/291387777"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17388#issuecomment-291387777"
+  , issueCommentCreatedAt = 2017 (-04) (-04) 04 : 04 : 48 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *jaxon* between *1.0.0* and *1.0.1* there was a change in file structure  \n    ```diff\n    + jaxon.bg.min.js\n    + jaxon.de.min.js\n    + jaxon.en.min.js\n    + jaxon.es.min.js\n    + jaxon.fr.min.js\n    + jaxon.nl.min.js\n    + jaxon.tr.min.js\n    - lang/jaxon.bg.min.js\n    - lang/jaxon.de.min.js\n    - lang/jaxon.en.min.js\n    - lang/jaxon.es.min.js\n    - lang/jaxon.fr.min.js\n    - lang/jaxon.nl.min.js\n    - lang/jaxon.tr.min.js\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Mind your words, they are important.*\n"
+  , issueCommentId = 291387777
+  }

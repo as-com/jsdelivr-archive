@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-01) 16 : 16 : 41 UTC
+  , issueUpdatedAt = 2014 (-11) (-01) 16 : 16 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2184/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2184")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2184
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1519888
+        , simpleUserLogin = N "hufyhang"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1519888?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hufyhang"
+        }
+  , issueTitle = "ChopJS 0.1.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2184")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2184.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2184.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2184"
+  , issueCreatedAt = 2014 (-11) (-01) 16 : 02 : 59 UTC
+  , issueBody =
+      Just
+        "ChopJS 0.1.7\n- Minor bug fixes.\n- More handy APIs.\n- Show everything until ChopJS is completely loaded.\n"
+  , issueState = StateClosed
+  , issueId = Id 47509266
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

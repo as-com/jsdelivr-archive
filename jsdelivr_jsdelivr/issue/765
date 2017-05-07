@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-24) 13 : 09 : 40 UTC
+  , issueUpdatedAt = 2015 (-06) (-24) 13 : 09 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/765/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/765")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/Needs%20attention/help"
+          , labelName = N "Needs attention/help"
+          }
+      ]
+  , issueNumber = 765
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Looking for sponsors and contributors"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/765"
+  , issueCreatedAt = 2014 (-05) (-08) 18 : 17 : 54 UTC
+  , issueBody =
+      Just
+        "**jsDelivr** is a non-profit project that heavily relies on sponsors and the community for help. Here are some stuff that we need. If someone can help or knows people that can help please let me know.\n### What we are looking for:\n- CDN Companies that can sponsor their services.\n  - Custom CNAME and SSL for that custom CNAME are required\n- VPS and Dedicated servers in \"exotic\" locations. Currently Russia, Brazil, South Africa are top priority.\n- Big dedicated servers to crunch access logs\n- Big websites to add our RUM testing code. The more tests we get the better the performance we provide!\n- Partnerships. Companies and projects that are interested to use jsDelivr as their official CDN.\n- Promotion. Includes bloggers and authors to write blog posts and articles about our services or even IT stuff for our blog.\n- Coders/Designers to help with the website and our other projects\n- Active people to get involved in various ways in the project\n- Ideas! New features, ideas for promotion...\n\nIf you can help with something else that is not listed then feel free to contact me.\nAll help is appreciated.\n"
+  , issueState = StateClosed
+  , issueId = Id 33108947
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

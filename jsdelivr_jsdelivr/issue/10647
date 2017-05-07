@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-27) 19 : 37 : 56 UTC
+  , issueUpdatedAt = 2016 (-03) (-27) 19 : 37 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10647/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10647")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10647
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1183816
+        , simpleUserLogin = N "frncesc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1183816?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/frncesc"
+        }
+  , issueTitle = "New project proposal: jclic.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10647")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10647.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10647.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10647"
+  , issueCreatedAt = 2016 (-03) (-26) 18 : 20 : 27 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 143737461
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

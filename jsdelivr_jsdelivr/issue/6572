@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-26) 19 : 34 : 11 UTC
+  , issueUpdatedAt = 2015 (-08) (-27) 00 : 17 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6572/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6572")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6572
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 13820872
+        , simpleUserLogin = N "sty1iss"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/13820872?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sty1iss"
+        }
+  , issueTitle = "Add js.js framework"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6572")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6572.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6572.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6572"
+  , issueCreatedAt = 2015 (-08) (-25) 22 : 02 : 48 UTC
+  , issueBody =
+      Just
+        "js.js is work like other javascript framework.\nincluded default features like multi drop down navigation and slide content, ...\n\nthanks for made this.\n"
+  , issueState = StateClosed
+  , issueId = Id 103127279
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

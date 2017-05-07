@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-26) 21 : 36 : 26 UTC
+  , issueUpdatedAt = 2017 (-02) (-26) 21 : 36 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15498/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/15498")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15498
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 249117
+        , simpleUserLogin = N "OlegKi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/249117?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/OlegKi"
+        }
+  , issueTitle = "Update project free-jqgrid to v4.13.6"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15498"
+  , issueCreatedAt = 2016 (-12) (-24) 23 : 04 : 35 UTC
+  , issueBody =
+      Just
+        "It seems that old bug of jsdelivrbot is back. I described the problem in the issue https://github.com/jsdelivr/jsdelivr/issues/10428. It was a problem with merging of old versions (see https://github.com/jsdelivr/jsdelivr/pull/10383, https://github.com/jsdelivr/jsdelivr/pull/9208, https://github.com/jsdelivr/jsdelivr/pull/8703 and so on), but the problem was fixed later (the following pull requests were applied without any problems: https://github.com/jsdelivr/jsdelivr/pull/14634, https://github.com/jsdelivr/jsdelivr/pull/12884, https://github.com/jsdelivr/jsdelivr/pull/11545, https://github.com/jsdelivr/jsdelivr/pull/10963). Now there are wrong warnings in https://github.com/jsdelivr/jsdelivr/pull/15497.\r\n\r\nCould you commit the Update project free-jqgrid to v4.13.6 (see https://github.com/jsdelivr/jsdelivr/pull/15497) manually?\r\n\r\nThank you in advance."
+  , issueState = StateClosed
+  , issueId = Id 197480444
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

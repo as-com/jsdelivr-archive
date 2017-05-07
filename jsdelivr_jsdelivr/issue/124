@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-28) 12 : 59 : 18 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 07 : 25 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/124/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/124")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 124
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 820748
+        , simpleUserLogin = N "mfidemraizer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/820748?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mfidemraizer"
+        }
+  , issueTitle = "Publish jOOPL 2.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/124")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/124.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/124.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/124"
+  , issueCreatedAt = 2013 (-10) (-28) 10 : 04 : 05 UTC
+  , issueBody =
+      Just
+        "New improvements:\n- Now both classes and enums are declared inside namespaces using\n  \"declareClass\" and \"declareEnum\" namespace methods.\n- Interfaces have been deprecated.\n- Now all classes and enums have type metadata (their name, full name\n  including namespace path, namespace path...).\n- Better event system. Now events are raised invoking \"raise(...)\"\n  method and event handlers are added or removed with \"addEventListener\"\n  and \"removeEventListener\" respectively.\n- A lot of improvements in the internal code. Now all properties are\n  declared using Object.defineProperty with configurable and/or writable\n  attributes in order to avoid human errors.\n"
+  , issueState = StateClosed
+  , issueId = Id 21679375
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

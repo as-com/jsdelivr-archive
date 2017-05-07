@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-29) 15 : 50 : 31 UTC
+  , issueUpdatedAt = 2014 (-12) (-31) 09 : 44 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2853/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2853")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2853
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4747021
+        , simpleUserLogin = N "mjau-mjau"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4747021?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mjau-mjau"
+        }
+  , issueTitle = "Imagevue X3 Gallery Application"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2853")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2853.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2853.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2853"
+  , issueCreatedAt = 2014 (-12) (-29) 09 : 42 : 41 UTC
+  , issueBody =
+      Just
+        "Imagevue X3 gallery application for websites. Includes main application javascript minified, CSS skins and icon fonts.\n\n**Demo**\n[flamepix.com/x3](http://flamepix.com/x3/)\n\n**Documentation**\n[imagevuex.com/x3docs](http://imagevuex.com/x3docs/)\n"
+  , issueState = StateClosed
+  , issueId = Id 53029845
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

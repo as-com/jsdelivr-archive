@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-01) 18 : 35 : 16 UTC
+  , issueUpdatedAt = 2016 (-12) (-01) 18 : 35 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15153/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15153")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15153
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project shiva to 0.5.12"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15153")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15153.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15153.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15153"
+  , issueCreatedAt = 2016 (-12) (-01) 18 : 35 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project shiva to 0.5.12.\n\n@gabrielmccallin\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"shiva\",\n    \"repo\": \"gabrielmccallin/shiva\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/shiva\",\n    \"localVersions\": [\"0.5.5\", \"0.5.6\", \"0.5.7\", \"0.5.8\", \"0.5.9\", \"0.5.10\", \"0.5.11\"],\n    \"remoteVersions\": [\"0.5.0\", \"0.5.1\", \"0.5.2\", \"0.5.3\", \"0.5.4\", \"0.5.5\", \"0.5.6\", \"0.5.7\", \"0.5.8\", \"0.5.9\", \"0.5.10\", \"0.5.11\", \"0.5.12\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/shiva/update.json\",\n  \"versions\": [\"0.5.12\"],\n  \"updateRemote\": true,\n  \"version\": \"0.5.12\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/shiva/0.5.12\",\n  \"branch\": \"shiva/0.5.12\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 192926888
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

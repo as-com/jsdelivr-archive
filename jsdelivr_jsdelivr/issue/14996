@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-28) 06 : 04 : 26 UTC
+  , issueUpdatedAt = 2016 (-11) (-28) 06 : 04 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14996/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14996")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14996
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project prelodr to 1.0.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14996")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14996.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14996.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14996"
+  , issueCreatedAt = 2016 (-11) (-28) 06 : 04 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project prelodr to 1.0.9.\n\n@joseluisq\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"prelodr\",\n    \"repo\": \"joseluisq/prelodr\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"prelodr.min.js\", \"prelodr.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/prelodr\",\n    \"localVersions\": [\"1.0.6\", \"1.0.7\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.0.8\", \"1.0.9\", \"2.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/prelodr/update.json\",\n  \"versions\": [\"1.0.9\", \"2.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/prelodr/1.0.9\",\n  \"branch\": \"prelodr/1.0.9\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 191925989
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

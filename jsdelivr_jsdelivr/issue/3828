@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-12) 02 : 39 : 13 UTC
+  , issueUpdatedAt = 2015 (-03) (-16) 19 : 27 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3828/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3828")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3828
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jszip to v2.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3828")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3828.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3828.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3828"
+  , issueCreatedAt = 2015 (-03) (-12) 02 : 39 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jszip to v2.5.0.\n\n@Stuk\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jszip\",\n    \"repo\": \"Stuk/jszip\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"jszip.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jszip\",\n    \"localVersions\": [\"2.2.1\", \"2.2.2\", \"2.4.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v2.0.0\", \"v2.1.0\", \"v2.1.1\", \"v2.2.0\", \"v2.2.1\", \"v2.2.2\", \"v2.3.0\", \"v2.4.0\", \"v2.5.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v2.5.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jszip/2.5.0\",\n  \"branch\": \"jszip/v2.5.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 60762490
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

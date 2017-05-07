@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-21) 06 : 13 : 18 UTC
+  , issueUpdatedAt = 2016 (-11) (-21) 06 : 13 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14883/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14883")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14883
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16032
+        , simpleUserLogin = N "cognitom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/16032?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/cognitom"
+        }
+  , issueTitle = "Add riot-route"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14883")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14883.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14883.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14883"
+  , issueCreatedAt = 2016 (-11) (-21) 06 : 07 : 33 UTC
+  , issueBody =
+      Just
+        "This PR adds `riot-route` library:\r\nhttps://github.com/riot/route\r\n\r\nThank you!"
+  , issueState = StateClosed
+  , issueId = Id 190627441
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

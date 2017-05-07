@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-28) 22 : 56 : 48 UTC
+  , issueUpdatedAt = 2014 (-07) (-28) 22 : 56 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1322/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1322")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1322
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 550353
+        , simpleUserLogin = N "tenbits"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/550353?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tenbits"
+        }
+  , issueTitle = "add ClassJS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1322")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1322.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1322.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1322"
+  , issueCreatedAt = 2014 (-07) (-28) 21 : 58 : 53 UTC
+  , issueBody =
+      Just
+        "Hello Team,\nadding here browser version of the [ClassJS library](https://github.com/atmajs/ClassJS).\nAppreciate your work, thanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 38938276
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

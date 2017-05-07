@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-28) 04 : 35 : 22 UTC
+  , issueUpdatedAt = 2016 (-03) (-28) 04 : 35 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10663/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10663")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10663
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project scrollreveal to v3.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10663")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10663.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10663.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10663"
+  , issueCreatedAt = 2016 (-03) (-28) 04 : 35 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project scrollreveal to v3.1.3.\n\n@jlmakes\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"scrollreveal\",\n    \"repo\": \"jlmakes/scrollreveal.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/scrollreveal.js\",\n    \"localVersions\": [\"0.1.2\", \"2.3.2\", \"3.0.0\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.0.7\", \"3.0.8\", \"3.0.9\", \"3.1.0\", \"3.1.1\", \"3.1.2\"],\n    \"remoteVersions\": [\"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v2.1.0\", \"v2.2.0\", \"v2.3.0\", \"v2.3.1\", \"v2.3.2\", \"v3.0.0\", \"v3.0.1\", \"v3.0.2\", \"v3.0.3\", \"v3.0.4\", \"v3.0.5\", \"v3.0.6\", \"v3.0.7\", \"v3.0.8\", \"v3.0.9\", \"v3.1.0\", \"v3.1.1\", \"v3.1.2\", \"v3.1.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/scrollreveal.js/update.json\",\n  \"versions\": [\"v3.1.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.1.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/scrollreveal.js/3.1.3\",\n  \"branch\": \"scrollreveal/v3.1.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 143889765
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

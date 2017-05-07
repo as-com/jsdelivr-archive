@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-16) 10 : 03 : 59 UTC
+  , issueUpdatedAt = 2015 (-08) (-16) 10 : 04 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6434/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6434")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6434
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project vue.validator to v1.4.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6434")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6434.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6434.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6434"
+  , issueCreatedAt = 2015 (-08) (-16) 10 : 03 : 53 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vue.validator to v1.4.2.\n\n@vuejs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vue.validator\",\n    \"repo\": \"vuejs/vue-validator\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"vue-validator.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/vue.validator\",\n    \"localVersions\": [\"1.0.7\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.4.0\", \"1.4.1\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.10.0\", \"v0.11.0\", \"v0.11.1\", \"v0.11.2\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.3.0\", \"v1.3.1\", \"v1.3.2\", \"v1.3.3\", \"v1.4.0\", \"v1.4.1\", \"v1.4.2\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/vue.validator/update.json\",\n  \"version\": \"v1.4.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/vue.validator/1.4.2\",\n  \"branch\": \"vue.validator/v1.4.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 101249269
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

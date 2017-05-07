@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-15) 23 : 41 : 15 UTC
+  , issueUpdatedAt = 2014 (-06) (-15) 17 : 14 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/805/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/805")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 805
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "Plupload"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/805")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/805.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/805.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/805"
+  , issueCreatedAt = 2014 (-05) (-14) 18 : 23 : 29 UTC
+  , issueBody =
+      Just
+        "reference : https://github.com/moxiecode/plupload/blob/master/package.json\nsource     : http://www.plupload.com/download/\n"
+  , issueState = StateClosed
+  , issueId = Id 33518843
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

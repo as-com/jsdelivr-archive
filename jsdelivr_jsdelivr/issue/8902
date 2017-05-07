@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-12) 16 : 58 : 51 UTC
+  , issueUpdatedAt = 2016 (-01) (-12) 16 : 58 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8902/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8902")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8902
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 770982
+        , simpleUserLogin = N "coreybutler"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/770982?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/coreybutler"
+        }
+  , issueTitle = "Fixed repo typo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8902")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8902.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8902.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8902"
+  , issueCreatedAt = 2016 (-01) (-12) 15 : 31 : 04 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 126204631
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

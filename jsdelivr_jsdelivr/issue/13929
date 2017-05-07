@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-23) 17 : 27 : 16 UTC
+  , issueUpdatedAt = 2016 (-09) (-23) 17 : 27 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13929/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13929")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13929
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4083080
+        , simpleUserLogin = N "mjza"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4083080?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mjza"
+        }
+  , issueTitle =
+      "Rename files/info.ini to files/farsigradjs/info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13929")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13929.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13929.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13929"
+  , issueCreatedAt = 2016 (-09) (-22) 10 : 41 : 49 UTC
+  , issueBody = Just "The Configuration file added.\n"
+  , issueState = StateClosed
+  , issueId = Id 178575643
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

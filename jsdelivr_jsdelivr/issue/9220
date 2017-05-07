@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-20) 11 : 32 : 49 UTC
+  , issueUpdatedAt = 2016 (-01) (-20) 11 : 32 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9220/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9220")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9220
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5345836
+        , simpleUserLogin = N "YoungCatChen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5345836?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/YoungCatChen"
+        }
+  , issueTitle = "Adds angular.recaptcha library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9220")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9220.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9220.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9220"
+  , issueCreatedAt = 2016 (-01) (-20) 06 : 56 : 19 UTC
+  , issueBody =
+      Just
+        "This PR adds a js library \"angular-recaptcha\" following the document of CONTRIBUTING.md.\n"
+  , issueState = StateClosed
+  , issueId = Id 127618251
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-02) 16 : 38 : 01 UTC
+  , issueUpdatedAt = 2016 (-02) (-02) 16 : 38 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9525/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9525")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9525
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project svg4everybody to v2.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9525")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9525.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9525.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9525"
+  , issueCreatedAt = 2016 (-02) (-02) 16 : 34 : 55 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project svg4everybody to v2.0.2.\n\n@jonathantneal\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"svg4everybody\",\n    \"repo\": \"jonathantneal/svg4everybody\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/svg4everybody\",\n    \"localVersions\": [\"1.0.0\", \"2.0.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"v2.0.0\", \"v2.0.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/svg4everybody/update.json\",\n  \"versions\": [\"v2.0.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/svg4everybody/2.0.2\",\n  \"branch\": \"svg4everybody/v2.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 130738333
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

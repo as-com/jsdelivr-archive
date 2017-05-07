@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-09) 19 : 16 : 52 UTC
+  , issueUpdatedAt = 2016 (-09) (-09) 21 : 19 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13579/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13579")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13579
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2801252
+        , simpleUserLogin = N "franciscop"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2801252?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/franciscop"
+        }
+  , issueTitle = "cookies package"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13579")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13579.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13579.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13579"
+  , issueCreatedAt = 2016 (-09) (-03) 08 : 07 : 55 UTC
+  , issueBody = Just "Added project cookies.js\n"
+  , issueState = StateClosed
+  , issueId = Id 174885492
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

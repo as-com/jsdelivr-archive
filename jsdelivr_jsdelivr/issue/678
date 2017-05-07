@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-21) 23 : 36 : 55 UTC
+  , issueUpdatedAt = 2014 (-06) (-25) 21 : 21 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/678/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/678")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 678
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 412747
+        , simpleUserLogin = N "wagerfield"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/412747?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wagerfield"
+        }
+  , issueTitle = "Added parallax"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/678")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/678.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/678.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/678"
+  , issueCreatedAt = 2014 (-04) (-20) 22 : 49 : 59 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 31873911
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

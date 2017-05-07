@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-14) 00 : 27 : 18 UTC
+  , issueUpdatedAt = 2016 (-10) (-14) 00 : 27 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14278/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14278")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14278
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 22614574
+        , simpleUserLogin = N "sharad-iise"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/22614574?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sharad-iise"
+        }
+  , issueTitle = "pull"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14278")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14278.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14278.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14278"
+  , issueCreatedAt = 2016 (-10) (-07) 17 : 34 : 25 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 181726404
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-19) 17 : 44 : 52 UTC
+  , issueUpdatedAt = 2016 (-05) (-19) 17 : 44 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11713/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11713")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11713
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 903193
+        , simpleUserLogin = N "lai32290"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/903193?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lai32290"
+        }
+  , issueTitle = "add files/tableheadfixer/info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11713")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11713.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11713.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11713"
+  , issueCreatedAt = 2016 (-05) (-19) 15 : 06 : 35 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 155760399
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-26) 01 : 07 : 25 UTC
+  , issueUpdatedAt = 2014 (-08) (-26) 01 : 07 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1528/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1528")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1528
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1068978
+        , simpleUserLogin = N "hnrch02"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1068978?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hnrch02"
+        }
+  , issueTitle = "Add YuzuJS' setImmediate"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1528")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1528.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1528.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1528"
+  , issueCreatedAt = 2014 (-08) (-26) 00 : 23 : 58 UTC
+  , issueBody =
+      Just
+        "A cross-browser implementation of the new setImmediate API.\n\nSee https://github.com/YuzuJS/setImmediate for more details.\n"
+  , issueState = StateClosed
+  , issueId = Id 41124570
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

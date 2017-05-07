@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-09) 00 : 03 : 54 UTC
+  , issueUpdatedAt = 2017 (-03) (-09) 00 : 03 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16805/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16805")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16805
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project fs-traversal to v4.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16805")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16805.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16805.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16805"
+  , issueCreatedAt = 2017 (-03) (-09) 00 : 03 : 50 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project fs-traversal to v4.1.0.\n\n@genealogysystems\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"fs-traversal\",\n    \"repo\": \"genealogysystems/fs-traversal\",\n    \"files\": {\n      \"include\": [\"fs-traversal.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/fs-traversal\",\n    \"localVersions\": [\"2.0.3\", \"3.1.0\", \"4.0.0\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.2.0\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.4.0\", \"v1.0.0\", \"v1.1.0\", \"v1.2.0\", \"v1.2.1\", \"v1.3.0\", \"v1.3.2\", \"v1.3.3\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v3.0.0\", \"v3.1.0\", \"v4.0.0\", \"v4.1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/fs-traversal/update.json\",\n  \"versions\": [\"v1.3.3\", \"v4.1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v4.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/fs-traversal/4.1.0\",\n  \"branch\": \"fs-traversal/v4.1.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 212895735
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

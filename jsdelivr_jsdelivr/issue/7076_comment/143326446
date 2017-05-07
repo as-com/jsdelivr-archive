@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-25) 19 : 14 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/143326446"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/7076#issuecomment-143326446"
+  , issueCommentCreatedAt = 2015 (-09) (-25) 19 : 14 : 45 UTC
+  , issueCommentBody =
+      "What I recommend:\n1. Use static files with full versions or use version aliasing for only minor versions (1.x)\n2. Don't use /latest/ unless you know what you are doing.\n3. Use /g/ only for combining files and not for a single file.\n\nTechnically you can do everything that works, but I recommend doing the above.\n\n> In the sense of this URL //cdn.jsdelivr.net/{projectName}/latest/{file} and this //cdn.jsdelivr.net/g/{projectName} \8212 the same thing? Only difference in cache time?\n\nYes. They load the same thing using different functions\n"
+  , issueCommentId = 143326446
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-09) 13 : 03 : 54 UTC
+  , issueUpdatedAt = 2014 (-07) (-09) 13 : 03 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1150/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1150")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1150
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5982829
+        , simpleUserLogin = N "Todd-Werelius"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5982829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Todd-Werelius"
+        }
+  , issueTitle =
+      "Added new versions manually ( beta and stable), fixed folder names, and fixed sourcemaps"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1150")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1150.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1150.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1150"
+  , issueCreatedAt = 2014 (-07) (-09) 00 : 41 : 52 UTC
+  , issueBody =
+      Just
+        "Google does a beta and stable angular release, the jsDelivr bot only picks up the latest beta though.\n\nAlso fixed a folder naming problem, and there were sourcemap errors that were fixed in all versions.  \n"
+  , issueState = StateClosed
+  , issueId = Id 37424937
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

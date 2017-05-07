@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-02) 17 : 10 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10674240
+        , simpleUserLogin = N "TheTannerRyan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/10674240?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/TheTannerRyan"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/88977161"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4082#issuecomment-88977161"
+  , issueCommentCreatedAt = 2015 (-04) (-02) 17 : 10 : 25 UTC
+  , issueCommentBody =
+      "I was still experiencing the issue. \n\nI had to remove the woff2 in the CSS files as it was causing my website not to load. For now, woff2 isn't a big deal, but in the future, it will be (it is the newest and fastest font format). \n\nIf you would like to debug the issue you can call the v3.0.0 CSS file in an HTML file using the CSS `font-name: cyber-font` attribute.\n\nThe woff2 files will take over 12 seconds to load but all the other formats will load correctly. \n\nI won't be able to do anything right now as I am at school and have no access to my computer. \n"
+  , issueCommentId = 88977161
+  }

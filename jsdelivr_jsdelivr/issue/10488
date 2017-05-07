@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-17) 11 : 38 : 23 UTC
+  , issueUpdatedAt = 2016 (-03) (-17) 11 : 38 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10488/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/10488")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10488
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1833185
+        , simpleUserLogin = N "miyurusankalpa"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1833185?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/miyurusankalpa"
+        }
+  , issueTitle = "jquery slim listed in jquery 2.2.1"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10488"
+  , issueCreatedAt = 2016 (-03) (-17) 10 : 48 : 16 UTC
+  , issueBody =
+      Just
+        "jquery slim which is 3.0.0-beta1 file is listed in 2.2.1\n\nhttps://cdn.jsdelivr.net/jquery/2.2.1/jquery.slim.min.js\nhttps://cdn.jsdelivr.net/jquery/2.2.1/jquery.slim.js\n"
+  , issueState = StateClosed
+  , issueId = Id 141546075
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

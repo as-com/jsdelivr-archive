@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-03) 14 : 53 : 29 UTC
+  , issueUpdatedAt = 2014 (-09) (-03) 14 : 53 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1599/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1599")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1599
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2232981
+        , simpleUserLogin = N "meddle0x53"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2232981?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/meddle0x53"
+        }
+  , issueTitle = "Adding transportapi.js to jsdelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1599")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1599.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1599.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1599"
+  , issueCreatedAt = 2014 (-09) (-03) 07 : 01 : 56 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 41787280
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-17) 14 : 47 : 57 UTC
+  , issueUpdatedAt = 2014 (-06) (-29) 18 : 06 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/965/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/965")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 965
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "Gzip Support for .ttf, .less Files"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/965"
+  , issueCreatedAt = 2014 (-06) (-17) 13 : 13 : 13 UTC
+  , issueBody =
+      Just
+        "i think that if server send .ttf file via gzip, we could save more bandwidth.\n\ngoogle already gzip the .ttf file.\n"
+  , issueState = StateClosed
+  , issueId = Id 35887053
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

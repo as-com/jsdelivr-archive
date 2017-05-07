@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-13) 18 : 58 : 17 UTC
+  , issueUpdatedAt = 2014 (-07) (-13) 18 : 58 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1203/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1203")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1203
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "Add Lato Font"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1203")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1203.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1203.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1203"
+  , issueCreatedAt = 2014 (-07) (-13) 18 : 30 : 55 UTC
+  , issueBody =
+      Just
+        "Add Lato Font, a very popular font. \n\nhttp://www.latofonts.com/lato-free-fonts/\n"
+  , issueState = StateClosed
+  , issueId = Id 37746875
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

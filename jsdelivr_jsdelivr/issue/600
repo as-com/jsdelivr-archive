@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-08) 15 : 17 : 27 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 15 : 27 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/600/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/600")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 600
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 796194
+        , simpleUserLogin = N "Marsup"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/796194?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Marsup"
+        }
+  , issueTitle = "Add nvd3 library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/600")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/600.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/600.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/600"
+  , issueCreatedAt = 2014 (-04) (-08) 12 : 48 : 33 UTC
+  , issueBody =
+      Just
+        "Adding nvd3 1.1.15-beta already needed by angularjs-nvd3-directives, initial version with only the minified files as requested.\n"
+  , issueState = StateClosed
+  , issueId = Id 31067173
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

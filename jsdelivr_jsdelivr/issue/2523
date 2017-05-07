@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-27) 14 : 15 : 14 UTC
+  , issueUpdatedAt = 2015 (-03) (-12) 14 : 09 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2523/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2523")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2523
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "to newer version(?)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2523")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2523.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2523.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2523"
+  , issueCreatedAt = 2014 (-11) (-27) 13 : 26 : 38 UTC
+  , issueBody =
+      Just
+        "this code seems to be legacy RUM code which use amazon s3 for https connection.\n"
+  , issueState = StateClosed
+  , issueId = Id 50291188
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

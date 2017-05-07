@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-02) 14 : 02 : 06 UTC
+  , issueUpdatedAt = 2015 (-12) (-02) 14 : 02 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8239/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8239")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8239
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular.initial-value to 0.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8239")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8239.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8239.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8239"
+  , issueCreatedAt = 2015 (-12) (-02) 14 : 02 : 02 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.initial-value to 0.0.5.\n\n@glaucocustodio\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.initial-value\",\n    \"repo\": \"glaucocustodio/angular-initial-value\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"angular-initial-value.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.initial-value\",\n    \"localVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.4\"],\n    \"remoteVersions\": [\"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.4\", \"0.0.5\"],\n    \"branchVersions\": [\"0.0.3\"]\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.initial-value/update.json\",\n  \"versions\": [\"0.0.5\"],\n  \"version\": \"0.0.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.initial-value/0.0.5\",\n  \"branch\": \"angular.initial-value/0.0.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 119947435
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

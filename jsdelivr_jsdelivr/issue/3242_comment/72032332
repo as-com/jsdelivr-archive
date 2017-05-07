@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-29) 14 : 24 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 80772
+        , simpleUserLogin = N "aurri"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/80772?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aurri"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/72032332"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3242#issuecomment-72032332"
+  , issueCommentCreatedAt = 2015 (-01) (-29) 14 : 23 : 46 UTC
+  , issueCommentBody =
+      "Yea, it's a bit unconventional, but I'm not aware of any evidence against using `+` in urls at least. Or do you mean it can break stuff on jsDelivr? Maybe that's a good chance to find out then? :)\n"
+  , issueCommentId = 72032332
+  }

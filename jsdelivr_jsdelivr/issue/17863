@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-03) 18 : 14 : 07 UTC
+  , issueUpdatedAt = 2017 (-05) (-03) 18 : 14 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17863/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17863")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17863
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 24283829
+        , simpleUserLogin = N "RMSD"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/24283829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/RMSD"
+        }
+  , issueTitle = "Adding Trakerr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17863")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17863.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17863.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17863"
+  , issueCreatedAt = 2017 (-04) (-28) 21 : 56 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 225202797
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

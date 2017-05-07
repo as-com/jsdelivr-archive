@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-17) 21 : 07 : 13 UTC
+  , issueUpdatedAt = 2014 (-07) (-17) 21 : 25 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1230/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1230")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1230
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8445
+        , simpleUserLogin = N "zpao"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8445?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zpao"
+        }
+  , issueTitle = "React v0.11.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1230")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1230.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1230.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1230"
+  , issueCreatedAt = 2014 (-07) (-17) 21 : 05 : 45 UTC
+  , issueBody = Just "Hot off the presses!\n"
+  , issueState = StateClosed
+  , issueId = Id 38125763
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

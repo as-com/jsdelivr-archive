@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 19 : 33 : 15 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 19 : 33 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17092/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17092")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17092
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery-mosaic to 0.131"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17092")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17092.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17092.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17092"
+  , issueCreatedAt = 2017 (-03) (-21) 17 : 43 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery-mosaic to 0.131.\n\n@tin-cat\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery-mosaic\",\n    \"repo\": \"tin-cat/jquery-mosaic\",\n    \"files\": {\n      \"include\": [\"jquery.mosaic.js\", \"jquery.mosaic..min.js\", \"jquery.mosaic.css\", \"jquery.mosaic..min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery-mosaic\",\n    \"localVersions\": [\"0.12\"],\n    \"remoteVersions\": [\"0.1\", \"v0.1\", \"0.11\", \"0.12\", \"0.13\", \"0.131\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery-mosaic/update.json\",\n  \"versions\": [\"0.131\"],\n  \"updateRemote\": true,\n  \"version\": \"0.131\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery-mosaic/0.131\",\n  \"branch\": \"jquery-mosaic/0.131\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215823141
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

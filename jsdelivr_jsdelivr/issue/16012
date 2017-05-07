@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-27) 21 : 21 : 21 UTC
+  , issueUpdatedAt = 2017 (-01) (-27) 21 : 21 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16012/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16012")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16012
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6765260
+        , simpleUserLogin = N "NurdTurd"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6765260?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/NurdTurd"
+        }
+  , issueTitle = "Megawac patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16012")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16012.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16012.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16012"
+  , issueCreatedAt = 2017 (-01) (-26) 17 : 41 : 11 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 203438739
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-09) 04 : 10 : 27 UTC
+  , issueUpdatedAt = 2017 (-01) (-09) 04 : 10 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15652/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15652")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15652
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 24946497
+        , simpleUserLogin = N "webfirethemes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/24946497?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/webfirethemes"
+        }
+  , issueTitle = "universal HTML widgets"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15652")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15652.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15652.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15652"
+  , issueCreatedAt = 2017 (-01) (-06) 08 : 57 : 00 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 199151749
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-15) 17 : 30 : 06 UTC
+  , issueUpdatedAt = 2017 (-03) (-15) 17 : 30 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16904/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16904")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16904
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 12643380
+        , simpleUserLogin = N "kkotelczuk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/12643380?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kkotelczuk"
+        }
+  , issueTitle = "Update syncano-client"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16904")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16904.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16904.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16904"
+  , issueCreatedAt = 2017 (-03) (-14) 12 : 50 : 28 UTC
+  , issueBody =
+      Just "Updated `info.ini` file\r\nChanged `packageManager` to `npm`"
+  , issueState = StateClosed
+  , issueId = Id 214061635
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-25) 14 : 12 : 22 UTC
+  , issueUpdatedAt = 2016 (-07) (-25) 14 : 12 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12883/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12883")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12883
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project pushbullet-tasker-js to 1.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12883")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12883.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12883.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12883"
+  , issueCreatedAt = 2016 (-07) (-23) 15 : 04 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project pushbullet-tasker-js to 1.0.2.\n\n@crimoniv\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"pushbullet-tasker-js\",\n    \"repo\": \"crimoniv/pushbullet-tasker-js\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"pushbullet-tasker.js\", \"pushbullet-tasker.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/pushbullet-tasker-js\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.0.1\", \"1.0.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/pushbullet-tasker-js/update.json\",\n  \"versions\": [\"1.0.2\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/pushbullet-tasker-js/1.0.2\",\n  \"branch\": \"pushbullet-tasker-js/1.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 167187961
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

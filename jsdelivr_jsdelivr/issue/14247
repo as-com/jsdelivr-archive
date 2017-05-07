@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-06) 18 : 41 : 30 UTC
+  , issueUpdatedAt = 2016 (-10) (-06) 18 : 41 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14247/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14247")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14247
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 59507
+        , simpleUserLogin = N "bdukes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/59507?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bdukes"
+        }
+  , issueTitle = "Add auto-update for FileSaver.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14247")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14247.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14247.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14247"
+  , issueCreatedAt = 2016 (-10) (-06) 15 : 58 : 00 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 181456059
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

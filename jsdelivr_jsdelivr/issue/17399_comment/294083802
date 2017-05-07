@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-04) (-14) 04 : 22 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 15174329
+        , simpleUserLogin = N "feuzeu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/15174329?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/feuzeu"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/294083802"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17399#issuecomment-294083802"
+  , issueCommentCreatedAt = 2017 (-04) (-14) 04 : 22 : 42 UTC
+  , issueCommentBody =
+      "Hi,\r\nI'm sorry but this PR was erroneous (file struture changes) and was not supposed to be merged anymore.\r\nI fixed the error, released a new version of the library, and submitted another PR with number #17519.\r\nThis new PR now cannot be merged, but only because this one has changed the file structure.\r\n\r\nHow can this issue be fixed?"
+  , issueCommentId = 294083802
+  }

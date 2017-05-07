@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-19) 19 : 35 : 18 UTC
+  , issueUpdatedAt = 2016 (-12) (-19) 19 : 35 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15418/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15418")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15418
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project replayTable to v0.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15418")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15418.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15418.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15418"
+  , issueCreatedAt = 2016 (-12) (-19) 19 : 35 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project replayTable to v0.1.1.\n\n@targetprocess\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"replayTable\",\n    \"repo\": \"targetprocess/replayTable\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/replay-table\",\n    \"localVersions\": [\"0.1.0\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/replay-table/update.json\",\n  \"versions\": [\"v0.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/replay-table/0.1.1\",\n  \"branch\": \"replayTable/v0.1.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 196501473
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

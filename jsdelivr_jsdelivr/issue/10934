@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-09) 15 : 01 : 22 UTC
+  , issueUpdatedAt = 2016 (-04) (-09) 15 : 01 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10934/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10934")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10934
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2342142
+        , simpleUserLogin = N "dkoes"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2342142?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dkoes"
+        }
+  , issueTitle = "remove 1.02"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10934")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10934.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10934.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10934"
+  , issueCreatedAt = 2016 (-04) (-09) 14 : 33 : 50 UTC
+  , issueBody = Just "It was a typo\n"
+  , issueState = StateClosed
+  , issueId = Id 147133246
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

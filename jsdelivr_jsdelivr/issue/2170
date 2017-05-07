@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-30) 18 : 38 : 14 UTC
+  , issueUpdatedAt = 2015 (-06) (-23) 13 : 17 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2170/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2170")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2170
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project picturefill to 2.2.0-beta"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2170")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2170.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2170.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2170"
+  , issueCreatedAt = 2014 (-10) (-30) 18 : 34 : 58 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project picturefill to 2.2.0-beta.\n\n@scottjehl\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"picturefill\",\n    \"repo\": \"scottjehl/picturefill\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/picturefill\",\n    \"localVersions\": [\"1.2.1\", \"2.0.0\", \"2.1.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.1.0\", \"v1.2.0\", \"1.2.1\", \"2.0.0-alpha\", \"2.0.0-beta\", \"2.0.0\", \"2.1.0-beta\", \"2.1.0-beta2\", \"2.1.0\", \"2.2.0-beta\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.2.0-beta\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/picturefill/2.2.0-beta\",\n  \"branch\": \"picturefill/2.2.0-beta\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 47310117
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

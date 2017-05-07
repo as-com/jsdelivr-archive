@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-26) 15 : 21 : 01 UTC
+  , issueUpdatedAt = 2017 (-04) (-26) 15 : 21 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17761/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17761")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17761
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3141338
+        , simpleUserLogin = N "misner"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3141338?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/misner"
+        }
+  , issueTitle = "Patch 2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17761")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17761.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17761.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17761"
+  , issueCreatedAt = 2017 (-04) (-23) 20 : 24 : 24 UTC
+  , issueBody = Just "Add scrollmonitor to jsdelivr"
+  , issueState = StateClosed
+  , issueId = Id 223664664
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

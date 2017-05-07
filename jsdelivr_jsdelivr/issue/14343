@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-14) 12 : 24 : 31 UTC
+  , issueUpdatedAt = 2016 (-10) (-14) 12 : 24 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14343/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14343")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14343
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1240104
+        , simpleUserLogin = N "kukac7"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1240104?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kukac7"
+        }
+  , issueTitle = "fixing angular.ui-router repo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14343")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14343.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14343.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14343"
+  , issueCreatedAt = 2016 (-10) (-13) 15 : 47 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 182827467
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

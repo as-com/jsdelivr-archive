@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-04) 05 : 01 : 44 UTC
+  , issueUpdatedAt = 2016 (-01) (-04) 05 : 01 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8774/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8774")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8774
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project benchmark to 2.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8774")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8774.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8774.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8774"
+  , issueCreatedAt = 2016 (-01) (-04) 05 : 01 : 40 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project benchmark to 2.0.0.\n\n@bestiejs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"benchmark\",\n    \"files\": {\n      \"include\": [\"benchmark.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/benchmarkjs\",\n    \"localVersions\": [\"1.0.0\"],\n    \"remoteVersions\": [\"0.1.337\", \"0.1.338\", \"0.1.339\", \"0.1.340\", \"0.1.341\", \"0.1.342\", \"0.1.343\", \"0.1.344\", \"0.1.345\", \"0.1.346\", \"0.1.347\", \"0.1.348\", \"0.1.349\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.3.0\", \"1.0.0\", \"2.0.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/benchmarkjs/update.json\",\n  \"version\": \"2.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/benchmarkjs/2.0.0\",\n  \"branch\": \"benchmark/2.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 124697045
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

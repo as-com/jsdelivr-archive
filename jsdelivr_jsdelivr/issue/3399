@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-11) 12 : 08 : 25 UTC
+  , issueUpdatedAt = 2015 (-02) (-11) 12 : 08 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3399/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3399")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3399
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3403295
+        , simpleUserLogin = N "akiran"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3403295?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/akiran"
+        }
+  , issueTitle = "Added react-foundation-apps"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3399")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3399.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3399.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3399"
+  , issueCreatedAt = 2015 (-02) (-11) 12 : 03 : 56 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 57307561
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

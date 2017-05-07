@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-17) 03 : 54 : 21 UTC
+  , issueUpdatedAt = 2017 (-02) (-17) 03 : 54 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16382/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16382")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16382
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9245537
+        , simpleUserLogin = N "baiduinc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9245537?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/baiduinc"
+        }
+  , issueTitle = "Update opensug dir."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16382")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16382.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16382.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16382"
+  , issueCreatedAt = 2017 (-02) (-15) 15 : 13 : 17 UTC
+  , issueBody = Just "Update opensug dir."
+  , issueState = StateClosed
+  , issueId = Id 207831521
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

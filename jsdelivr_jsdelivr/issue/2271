@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-07) 17 : 35 : 26 UTC
+  , issueUpdatedAt = 2014 (-11) (-07) 17 : 35 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2271/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2271")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2271
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project framewreck to 1.4.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2271")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2271.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2271.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2271"
+  , issueCreatedAt = 2014 (-11) (-07) 17 : 34 : 38 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project framewreck to 1.4.2.\n\n@misantronic\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"framewreck\",\n    \"repo\": \"misantronic/framewreck\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"framewreck.min.js\", \"framewreck.all.js\", \"./modules/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/framewreck\",\n    \"localVersions\": [\"1.2.5\", \"1.2.6-a\", \"1.2.6-b\", \"1.2.7\", \"1.3.0\", \"1.4.0\", \"1.4.1\"],\n    \"remoteVersions\": [\"v.1.2.5\", \"v.1.2.6a\", \"v.1.2.6b\", \"v.1.2.6\", \"v.1.2.7\", \"1.3.0\", \"1.4.1\", \"1.4.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.4.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/framewreck/1.4.2\",\n  \"branch\": \"framewreck/1.4.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 48109374
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

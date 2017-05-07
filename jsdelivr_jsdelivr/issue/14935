@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-23) 11 : 05 : 22 UTC
+  , issueUpdatedAt = 2016 (-11) (-23) 11 : 05 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14935/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14935")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14935
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tiny-animate to v0.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14935")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14935.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14935.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14935"
+  , issueCreatedAt = 2016 (-11) (-23) 11 : 05 : 18 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tiny-animate to v0.4.0.\n\n@branneman\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"tiny-animate\",\n    \"repo\": \"branneman/TinyAnimate\",\n    \"files\": {\n      \"basePath\": \"bin/\",\n      \"include\": [\"TinyAnimate.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/tiny-animate\",\n    \"localVersions\": [\"0.3.0\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.2.0\", \"v0.3.0\", \"v0.4.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/tiny-animate/update.json\",\n  \"versions\": [\"v0.4.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.4.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/tiny-animate/0.4.0\",\n  \"branch\": \"tiny-animate/v0.4.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 191242035
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

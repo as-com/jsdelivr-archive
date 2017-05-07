@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-08) 05 : 12 : 43 UTC
+  , issueUpdatedAt = 2016 (-06) (-08) 05 : 12 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12059/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12059")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12059
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8541602
+        , simpleUserLogin = N "itseasy21"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/8541602?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/itseasy21"
+        }
+  , issueTitle = "Added Latest LiveFyre JS Library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12059")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12059.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12059.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12059"
+  , issueCreatedAt = 2016 (-06) (-08) 04 : 34 : 16 UTC
+  , issueBody =
+      Just
+        "From Community to Enterprise, the **Livefyre Apps Plugin** infuses your website with real-time social content to increase engagement and drive traffic.\n"
+  , issueState = StateClosed
+  , issueId = Id 159076946
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

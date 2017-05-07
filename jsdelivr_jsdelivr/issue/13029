@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-02) 14 : 33 : 28 UTC
+  , issueUpdatedAt = 2016 (-08) (-02) 14 : 33 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13029/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13029")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13029
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 393114
+        , simpleUserLogin = N "brandomeniconi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/393114?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/brandomeniconi"
+        }
+  , issueTitle = "Add jquery easyzoom"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13029")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13029.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13029.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13029"
+  , issueCreatedAt = 2016 (-08) (-02) 12 : 58 : 15 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 168878631
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

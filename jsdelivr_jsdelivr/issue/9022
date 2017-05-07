@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-17) 13 : 58 : 38 UTC
+  , issueUpdatedAt = 2016 (-01) (-17) 13 : 58 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9022/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9022")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9022
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 763805
+        , simpleUserLogin = N "victoriafrench"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/763805?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/victoriafrench"
+        }
+  , issueTitle = "[new] [owner] Request for add - Defuncr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9022")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9022.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9022.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9022"
+  , issueCreatedAt = 2016 (-01) (-17) 06 : 10 : 36 UTC
+  , issueBody =
+      Just
+        "Project: Defunctr\nDescription: Web browser detection javascript module utilizing feature detection instead of user agents.\nFiles: dist/defunctr.js\n          dist/defunctr.map\n          dist/defunctr.min.js\n"
+  , issueState = StateClosed
+  , issueId = Id 127076865
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

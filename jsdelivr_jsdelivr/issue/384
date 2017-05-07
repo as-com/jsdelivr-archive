@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-27) 00 : 33 : 24 UTC
+  , issueUpdatedAt = 2014 (-02) (-27) 00 : 33 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/384/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/384")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 384
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5071164
+        , simpleUserLogin = N "Yustie"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5071164?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Yustie"
+        }
+  , issueTitle = "searching for file gives 'no result'"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/384"
+  , issueCreatedAt = 2014 (-02) (-25) 13 : 20 : 16 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nWhen I search for jquery-ui or jquery.ui (notice the dash and dot) or jquery.validate or jquery-validate (tried lots of combo's, hope you got the idea), it says 'no result'.\n\nBut how come I can just go to: http://cdn.jsdelivr.net/jquery.ui/1.10.4/jquery-ui.min.js,\nand see the content of it?\n\nI'm sure that I did find the files in the past using the search field.\nI was trying to load jquery 2.0.3, jquery-ui.min.js, jquery-validate.min.js in one http request.\n\nHow can I do this?\n\nThanks in advance!\n\nBy the way, I saw knockout 3.0.0beta (in the dropdown button), and I think it should be 3.1.0beta. Because 3.0.0 is officially out for a while now.\n\nEDIT: it seems that moment, knockout, knockout.mappings, mustache and a few more can't be found either.\n"
+  , issueState = StateClosed
+  , issueId = Id 28246273
+  , issueComments = 21
+  , issueMilestone = Nothing
+  }

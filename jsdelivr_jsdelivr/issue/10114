@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-08) 18 : 28 : 48 UTC
+  , issueUpdatedAt = 2016 (-04) (-08) 18 : 28 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10114/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10114")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10114
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1383952
+        , simpleUserLogin = N "sculove"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1383952?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sculove"
+        }
+  , issueTitle = "register egjs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10114")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10114.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10114.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10114"
+  , issueCreatedAt = 2016 (-02) (-25) 05 : 51 : 02 UTC
+  , issueBody = Just "I'd like to add egjs to jsdelivr CDN\n"
+  , issueState = StateClosed
+  , issueId = Id 136288809
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

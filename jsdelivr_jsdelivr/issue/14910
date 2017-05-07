@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-22) 18 : 58 : 09 UTC
+  , issueUpdatedAt = 2016 (-11) (-22) 18 : 58 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14910/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14910")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14910
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 393114
+        , simpleUserLogin = N "brandomeniconi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/393114?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/brandomeniconi"
+        }
+  , issueTitle = "Add object-fit-images library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14910")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14910.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14910.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14910"
+  , issueCreatedAt = 2016 (-11) (-22) 13 : 17 : 11 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 191000297
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

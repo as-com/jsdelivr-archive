@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-25) 20 : 04 : 52 UTC
+  , issueUpdatedAt = 2016 (-04) (-25) 20 : 04 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11252/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11252")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11252
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 495709
+        , simpleUserLogin = N "wa0x6e"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/495709?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wa0x6e"
+        }
+  , issueTitle = "Update project cal-heatmap to 3.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11252")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11252.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11252.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11252"
+  , issueCreatedAt = 2016 (-04) (-24) 15 : 40 : 55 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 150674060
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-03) 19 : 03 : 28 UTC
+  , issueUpdatedAt = 2014 (-06) (-16) 19 : 19 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/748/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/748")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 748
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 132863
+        , simpleUserLogin = N "godDLL"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/132863?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/godDLL"
+        }
+  , issueTitle =
+      "Add Minified.js beta5 with optional legacy IE support."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/748")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/748.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/748.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/748"
+  , issueCreatedAt = 2014 (-05) (-03) 15 : 13 : 01 UTC
+  , issueBody =
+      Just
+        "Taken from http://minifiedjs.com/download/ by using curl properly.\n"
+  , issueState = StateClosed
+  , issueId = Id 32748629
+  , issueComments = 14
+  , issueMilestone = Nothing
+  }

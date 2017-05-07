@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-19) 06 : 34 : 49 UTC
+  , issueUpdatedAt = 2016 (-08) (-19) 06 : 34 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13324/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13324")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13324
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project StopSovetnik.ru to v2.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13324")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13324.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13324.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13324"
+  , issueCreatedAt = 2016 (-08) (-19) 06 : 34 : 45 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project StopSovetnik.ru to v2.2.1.\n\n@teplov\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"StopSovetnik.ru\",\n    \"repo\": \"teplov/stopsovetnik\",\n    \"files\": {\n      \"include\": [\"lib/ss.min.js\", \"lib/ss.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/stopsovetnik\",\n    \"localVersions\": [\"0.1\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.5\", \"1.0.6\", \"1.1.0\", \"1.1.1\", \"2.1.2\"],\n    \"remoteVersions\": [\"v1.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.5\", \"1.0.6\", \"v1.1.0\", \"v1.1.1\", \"v2.1.2\", \"v2.2.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/stopsovetnik/update.json\",\n  \"versions\": [\"v2.2.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/stopsovetnik/2.2.1\",\n  \"branch\": \"StopSovetnik.ru/v2.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 172064107
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

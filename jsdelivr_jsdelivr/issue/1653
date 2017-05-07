@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-07) 23 : 58 : 21 UTC
+  , issueUpdatedAt = 2014 (-09) (-07) 23 : 58 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1653/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1653")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1653
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 516484
+        , simpleUserLogin = N "superlukas"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/516484?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/superlukas"
+        }
+  , issueTitle = "Update socket.io-client from URL"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1653"
+  , issueCreatedAt = 2014 (-09) (-07) 17 : 08 : 43 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nyou mentioned the bot can update files from arbitrary sources (rather than just npm, Bower, etc.).\nThey use semver tags and publish their minified client releases at `https://cdn.socket.io/socket.io-{version_number}.js`. I'd love to send a PR with the `update.json` but I don't know how to tell the bot to grab the file from an URL.\n"
+  , issueState = StateClosed
+  , issueId = Id 42146652
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-07) 17 : 13 : 54 UTC
+  , issueUpdatedAt = 2014 (-08) (-07) 17 : 24 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1377/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1377")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1377
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project insightjs to 0.1.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1377")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1377.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1377.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1377"
+  , issueCreatedAt = 2014 (-08) (-07) 17 : 05 : 05 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project insightjs to 0.1.4.\n\n@scottlogic\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"insightjs\",\n    \"repo\": \"scottlogic/insight\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"insight.min.js\", \"insight.js\", \"insight.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/insightjs\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.0.1\", \"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.1.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/insightjs/0.1.4\",\n  \"branch\": \"insightjs/0.1.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 39746427
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

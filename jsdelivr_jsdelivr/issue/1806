@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-22) 18 : 31 : 35 UTC
+  , issueUpdatedAt = 2015 (-04) (-22) 18 : 31 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1806/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1806")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1806
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 146930
+        , simpleUserLogin = N "zippy1981"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/146930?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zippy1981"
+        }
+  , issueTitle = "NG-Grid plugins must be added to the repo"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1806"
+  , issueCreatedAt = 2014 (-09) (-23) 18 : 42 : 10 UTC
+  , issueBody =
+      Just
+        "The files in this directory (and each subsequent release tag) https://github.com/angular-ui/ng-grid/tree/v2.0.13/plugins.\n\nI'll try my hand at editing the config file.\n"
+  , issueState = StateClosed
+  , issueId = Id 43667168
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

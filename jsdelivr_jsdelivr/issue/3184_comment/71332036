@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-24) 18 : 54 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 80772
+        , simpleUserLogin = N "aurri"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/80772?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aurri"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/71332036"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/3184#issuecomment-71332036"
+  , issueCommentCreatedAt = 2015 (-01) (-24) 18 : 54 : 20 UTC
+  , issueCommentBody =
+      "Ideally, I would love to keep the unminified file as it can provide better feedback during the development (e.g. more meaningful errors) than the minified one. But if that's a requirement, no problem at all.\n\nLet me know.\n\nThanks!\n"
+  , issueCommentId = 71332036
+  }

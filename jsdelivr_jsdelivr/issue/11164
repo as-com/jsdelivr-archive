@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-20) 16 : 03 : 22 UTC
+  , issueUpdatedAt = 2016 (-04) (-20) 16 : 03 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11164/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11164")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11164
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8679834
+        , simpleUserLogin = N "joesmith100"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/8679834?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/joesmith100"
+        }
+  , issueTitle = "Add timrjs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11164")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11164.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11164.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11164"
+  , issueCreatedAt = 2016 (-04) (-20) 11 : 58 : 49 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 149747555
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

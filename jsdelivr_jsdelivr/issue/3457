@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-14) 22 : 04 : 48 UTC
+  , issueUpdatedAt = 2015 (-02) (-15) 14 : 06 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3457/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3457")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3457
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project cutjs to v0.3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3457")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3457.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3457.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3457"
+  , issueCreatedAt = 2015 (-02) (-14) 22 : 04 : 46 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project cutjs to v0.3.1.\n\n@piqnt\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"cutjs\",\n    \"repo\": \"piqnt/cutjs\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/cutjs\",\n    \"localVersions\": [\"0.1.48\", \"0.2.1\", \"0.3.0\"],\n    \"remoteVersions\": [\"v0.1.49\", \"v0.2.1\", \"v0.3.0\", \"v0.3.1\"],\n    \"branchVersions\": [\"v0.3.0\"]\n  },\n  \"version\": \"v0.3.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/cutjs/0.3.1\",\n  \"branch\": \"cutjs/v0.3.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 57708243
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

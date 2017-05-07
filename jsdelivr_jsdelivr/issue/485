@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-20) 18 : 52 : 34 UTC
+  , issueUpdatedAt = 2014 (-03) (-20) 18 : 55 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/485/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/485")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 485
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1637573
+        , simpleUserLogin = N "lhorie"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1637573?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lhorie"
+        }
+  , issueTitle = "mithril 0.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/485")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/485.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/485.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/485"
+  , issueCreatedAt = 2014 (-03) (-20) 18 : 36 : 41 UTC
+  , issueBody =
+      Just
+        "Author: Leo Horie (leohorie@hotmail.com)\n\nSource: http://lhorie.github.io/mithril/archive/v0.1/mithril.min.zip\n\nPopularity: 488 stars on Github as of now (not sure if you care, but cdnjs does, so I'm adding it here too)\n"
+  , issueState = StateClosed
+  , issueId = Id 29845401
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

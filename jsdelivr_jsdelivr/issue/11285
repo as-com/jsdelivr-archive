@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-26) 11 : 20 : 11 UTC
+  , issueUpdatedAt = 2016 (-04) (-26) 12 : 23 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11285/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11285")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11285
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4249591
+        , simpleUserLogin = N "chrissimpkins"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4249591?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/chrissimpkins"
+        }
+  , issueTitle = "Updated Hack web fonts to v2.020"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11285")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11285.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11285.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11285"
+  , issueCreatedAt = 2016 (-04) (-25) 21 : 45 : 25 UTC
+  , issueBody =
+      Just
+        "PR includes:\n- [X] CSS files\n- [X] minified CSS files\n- [X] new web font files (ttf, eot, woff, woff2)\n"
+  , issueState = StateClosed
+  , issueId = Id 150989845
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

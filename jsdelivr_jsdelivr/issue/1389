@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-08) 23 : 35 : 22 UTC
+  , issueUpdatedAt = 2014 (-08) (-08) 23 : 35 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1389/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1389")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1389
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jstat to 0.0.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1389")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1389.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1389.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1389"
+  , issueCreatedAt = 2014 (-08) (-08) 23 : 35 : 05 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jstat to 0.0.6.\n\n@jstat\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jstat\",\n    \"repo\": \"jstat/jstat\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"jstat.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jstat\",\n    \"localVersions\": [\"0.0.3\", \"0.0.4\", \"0.0.5\"],\n    \"remoteVersions\": [\"0.0.3\", \"0.0.4\", \"0.0.5\", \"0.0.6\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.0.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jstat/0.0.6\",\n  \"branch\": \"jstat/0.0.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 39871823
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-30) 20 : 05 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10674240
+        , simpleUserLogin = N "TheTannerRyan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/10674240?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/TheTannerRyan"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/87809934"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4082#issuecomment-87809934"
+  , issueCommentCreatedAt = 2015 (-03) (-30) 19 : 59 : 33 UTC
+  , issueCommentBody =
+      "It looks like the problem is gone but it is still serving as octet-stream\n\nUPDATE: Cleared my cache and checked again. I am still experiencing the same issue. \n"
+  , issueCommentId = 87809934
+  }

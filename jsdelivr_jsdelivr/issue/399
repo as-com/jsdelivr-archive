@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-01) 14 : 06 : 29 UTC
+  , issueUpdatedAt = 2014 (-07) (-10) 08 : 21 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/399/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/399")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 399
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueTitle = "Add RSVP.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/399")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/399.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/399.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/399"
+  , issueCreatedAt = 2014 (-03) (-01) 01 : 45 : 45 UTC
+  , issueBody =
+      Just
+        "https://github.com/tildeio/rsvp.js\n\nAs requested in https://github.com/tildeio/rsvp.js/issues/206\n"
+  , issueState = StateClosed
+  , issueId = Id 28547291
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

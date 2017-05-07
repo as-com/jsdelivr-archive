@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-15) 19 : 34 : 16 UTC
+  , issueUpdatedAt = 2016 (-09) (-15) 19 : 34 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13819/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13819")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13819
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project xGallerify to v0.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13819")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13819.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13819.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13819"
+  , issueCreatedAt = 2016 (-09) (-15) 19 : 34 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project xGallerify to v0.1.1.\n\n@xremix\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"xGallerify\",\n    \"repo\": \"xremix/xGallerify\",\n    \"files\": {\n      \"include\": [\"dist/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.xgallerify\",\n    \"localVersions\": [\"0.0.13\", \"0.0.14\", \"0.1.0\"],\n    \"remoteVersions\": [\"v0.0.1\", \"v0.0.2\", \"v0.0.4\", \"v0.0.5\", \"v0.0.6\", \"v0.0.7\", \"v0.0.8\", \"v0.0.9\", \"v0.0.10\", \"v0.0.11\", \"v0.0.12\", \"v0.0.13\", \"v0.0.14\", \"v0.1.0\", \"v0.1.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.xgallerify/update.json\",\n  \"versions\": [\"v0.1.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.xgallerify/0.1.1\",\n  \"branch\": \"xGallerify/v0.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 177267824
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

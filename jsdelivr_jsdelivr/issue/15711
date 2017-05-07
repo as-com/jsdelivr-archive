@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-12) 14 : 20 : 21 UTC
+  , issueUpdatedAt = 2017 (-01) (-12) 14 : 20 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15711/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15711")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15711
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 914122
+        , simpleUserLogin = N "martinheidegger"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/914122?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/martinheidegger"
+        }
+  , issueTitle = "Added index.pack.js to egraphql-fetch"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15711")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15711.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15711.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15711"
+  , issueCreatedAt = 2017 (-01) (-10) 01 : 37 : 31 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 199710620
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

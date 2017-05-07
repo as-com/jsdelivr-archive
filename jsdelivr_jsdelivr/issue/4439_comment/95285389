@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-22) 17 : 59 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/95285389"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4439#issuecomment-95285389"
+  , issueCommentCreatedAt = 2015 (-04) (-22) 17 : 59 : 58 UTC
+  , issueCommentBody =
+      "What I did here is put all of the code that would have been in those individual modules into one combined file. Zepto does not provide individually minified versions of the modules, so I used their build tool to create a minified version of Zepto that contains all of those modules.\n\nOn Wed, Apr 22, 2015 at 1:58 PM, Dmitriy Akulov notifications@github.com\nwrote:\n\n> ## But their code wont work anyway no matter 404 or 200 since he files are empty\n> \n> Reply to this email directly or view it on GitHub:\n> https://github.com/jsdelivr/jsdelivr/pull/4439#issuecomment-95284664\n"
+  , issueCommentId = 95285389
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-27) 21 : 14 : 54 UTC
+  , issueUpdatedAt = 2014 (-06) (-25) 21 : 45 : 50 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/518/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/518")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 518
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "fix ractive from rEactive.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/518")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/518.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/518.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/518"
+  , issueCreatedAt = 2014 (-03) (-27) 16 : 09 : 06 UTC
+  , issueBody =
+      Just
+        "fix #517\nShould have asked to only include the `.min.js` files also.  :)\n"
+  , issueState = StateClosed
+  , issueId = Id 30315402
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-09) 03 : 02 : 56 UTC
+  , issueUpdatedAt = 2017 (-01) (-09) 03 : 02 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15686/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15686")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15686
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project autocompeter to 1.2.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15686")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15686.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15686.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15686"
+  , issueCreatedAt = 2017 (-01) (-09) 03 : 02 : 53 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project autocompeter to 1.2.3.\n\n@peterbe\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"autocompeter\",\n    \"repo\": \"peterbe/autocompeter\",\n    \"files\": {\n      \"basePath\": \"public/dist\",\n      \"include\": [\"autocompeter.min.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/autocompeter\",\n    \"localVersions\": [\"1.0.0\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.1.5\", \"1.1.7\", \"1.1.8\", \"1.1.9\", \"1.1.10\", \"1.1.11\", \"1.1.12\", \"1.2.1\", \"1.2.2\"],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.1.5\", \"1.1.6\", \"1.1.7\", \"1.1.8\", \"1.1.9\", \"1.1.10\", \"1.1.11\", \"1.1.12\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/autocompeter/update.json\",\n  \"versions\": [\"1.2.3\"],\n  \"updateRemote\": true,\n  \"version\": \"1.2.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/autocompeter/1.2.3\",\n  \"branch\": \"autocompeter/1.2.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 199469244
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-10) 23 : 17 : 32 UTC
+  , issueUpdatedAt = 2014 (-06) (-13) 03 : 42 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/929/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/929")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 929
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 744538
+        , simpleUserLogin = N "gavinhungry"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/744538?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gavinhungry"
+        }
+  , issueTitle = "Add polymer.platform 0.3.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/929")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/929.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/929.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/929"
+  , issueCreatedAt = 2014 (-06) (-10) 23 : 15 : 18 UTC
+  , issueBody =
+      Just "Tagged: https://github.com/Polymer/platform/tree/0.3.2\n"
+  , issueState = StateClosed
+  , issueId = Id 35435744
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-15) 19 : 07 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/140504238"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6899#issuecomment-140504238"
+  , issueCommentCreatedAt = 2015 (-09) (-15) 19 : 07 : 25 UTC
+  , issueCommentBody =
+      "Not sure honestly. Will merge to see what happens. If it fails we can add 0.2.x manually and when you release 0.3 officially it will pick it up\n"
+  , issueCommentId = 140504238
+  }

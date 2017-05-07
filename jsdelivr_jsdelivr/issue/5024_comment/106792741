@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-29) 12 : 41 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/106792741"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5024#issuecomment-106792741"
+  , issueCommentCreatedAt = 2015 (-05) (-29) 12 : 41 : 48 UTC
+  , issueCommentBody =
+      "Both files need to be in the same PR. Dont do a new pr for each file\nhttps://github.com/jsdelivr/jsdelivr/pull/5025\n"
+  , issueCommentId = 106792741
+  }

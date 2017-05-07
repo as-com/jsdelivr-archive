@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-31) 03 : 48 : 36 UTC
+  , issueUpdatedAt = 2014 (-10) (-31) 03 : 48 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2173/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2173")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2173
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5818982
+        , simpleUserLogin = N "mikewgd"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5818982?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mikewgd"
+        }
+  , issueTitle = "v2.1 "
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2173")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2173.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2173.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2173"
+  , issueCreatedAt = 2014 (-10) (-31) 02 : 47 : 07 UTC
+  , issueBody =
+      Just
+        "-changed function names to unique names to prevent problems\n-fix passing object \n-various bug fixes\n-fixed logic of height manipulation \n-query params\n"
+  , issueState = StateClosed
+  , issueId = Id 47355648
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

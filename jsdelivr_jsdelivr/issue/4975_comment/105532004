@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-26) 13 : 51 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1373940
+        , simpleUserLogin = N "kokarn"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1373940?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kokarn"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/105532004"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4975#issuecomment-105532004"
+  , issueCommentCreatedAt = 2015 (-05) (-26) 13 : 51 : 46 UTC
+  , issueCommentBody =
+      "Don't you mean that the `mainfile` file should contain `handlebars.min.js` or is this some other cool voodoo?\n\nI've done another \"fix\" for this, copying the `handlebars.js` file in each folder to `handlebars.min.js` since i was unable to minify `handlebars.js`. \n\nLet me know how you want this fixed and I'll happily do it.\n"
+  , issueCommentId = 105532004
+  }

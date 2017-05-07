@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-26) 11 : 27 : 16 UTC
+  , issueUpdatedAt = 2016 (-04) (-26) 11 : 27 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11293/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11293")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11293
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6045824
+        , simpleUserLogin = N "bubkoo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/6045824?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bubkoo"
+        }
+  , issueTitle = "add natsort v1.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11293")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11293.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11293.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11293"
+  , issueCreatedAt = 2016 (-04) (-26) 10 : 20 : 14 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 151096599
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

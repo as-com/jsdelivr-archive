@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-05) 20 : 04 : 21 UTC
+  , issueUpdatedAt = 2016 (-03) (-05) 22 : 13 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10301/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10301")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10301
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4147513
+        , simpleUserLogin = N "runestro"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4147513?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/runestro"
+        }
+  , issueTitle = "Update info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10301")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10301.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10301.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10301"
+  , issueCreatedAt = 2016 (-03) (-05) 09 : 40 : 56 UTC
+  , issueBody =
+      Just
+        "from mainfile = \"fonts/525icons.min.css\" to mainfile = \"525icons.min.css\" \n(Issue with pull request: Where is the 525icons's mainfile (fonts/525icons.min.css) in v-1.8.0)\n'pictographic icons' to 'pictographic icons and logos'.\n"
+  , issueState = StateClosed
+  , issueId = Id 138664881
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

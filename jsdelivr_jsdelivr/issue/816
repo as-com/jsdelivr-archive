@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-15) 22 : 34 : 51 UTC
+  , issueUpdatedAt = 2014 (-07) (-13) 17 : 40 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/816/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/816")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 816
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 744538
+        , simpleUserLogin = N "gavinhungry"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/744538?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gavinhungry"
+        }
+  , issueTitle = "Add nanoscrollerjs 0.8.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/816")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/816.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/816.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/816"
+  , issueCreatedAt = 2014 (-05) (-15) 22 : 19 : 44 UTC
+  , issueBody =
+      Just
+        "From https://github.com/jamesflorentino/nanoScrollerJS/tree/0.8.0\n\nI minified the CSS with [uglifycss](https://www.npmjs.org/package/uglifycss) 0.0.8. Original CSS also included.\n\nI kept the same structure as the previous version (JS in `javascripts`, CSS in `css`), even though it seems a little silly.  That's the structure in the source repo, but it looks to be more laid out there to support its website (https://jamesflorentino.github.io/nanoScrollerJS/).\n"
+  , issueState = StateClosed
+  , issueId = Id 33630564
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

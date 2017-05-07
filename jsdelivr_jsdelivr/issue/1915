@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-03) 23 : 09 : 48 UTC
+  , issueUpdatedAt = 2014 (-10) (-03) 23 : 09 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1915/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1915")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1915
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project cutjs to v0.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1915")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1915.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1915.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1915"
+  , issueCreatedAt = 2014 (-10) (-03) 23 : 09 : 35 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project cutjs to v0.2.1.\n\n@piqnt\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"cutjs\",\n    \"repo\": \"piqnt/cutjs\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/cutjs\",\n    \"localVersions\": [\"0.1.48\"],\n    \"remoteVersions\": [\"v0.1.49\", \"v0.2.0-2\", \"v0.2.0\", \"v0.2.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/cutjs/0.2.1\",\n  \"branch\": \"cutjs/v0.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 44859463
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

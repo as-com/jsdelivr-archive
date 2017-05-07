@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-06) 20 : 43 : 03 UTC
+  , issueUpdatedAt = 2016 (-06) (-06) 20 : 43 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12019/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12019")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12019
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6059356
+        , simpleUserLogin = N "limonte"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6059356?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/limonte"
+        }
+  , issueTitle =
+      "Add project matthew-andrews/Promise.prototype.finally"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12019")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12019.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12019.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12019"
+  , issueCreatedAt = 2016 (-06) (-06) 20 : 39 : 37 UTC
+  , issueBody =
+      Just
+        "https://github.com/matthew-andrews/Promise.prototype.finally\n"
+  , issueState = StateClosed
+  , issueId = Id 158769496
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-14) 13 : 42 : 17 UTC
+  , issueUpdatedAt = 2016 (-01) (-14) 13 : 42 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8958/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8958")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8958
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project apiNG-plugin-dailymotion to v0.7.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8958")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8958.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8958.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8958"
+  , issueCreatedAt = 2016 (-01) (-14) 13 : 39 : 37 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project apiNG-plugin-dailymotion to v0.7.6.\n\n@JohnnyTheTank\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"apiNG-plugin-dailymotion\",\n    \"repo\": \"JohnnyTheTank/apiNG-plugin-dailymotion\",\n    \"files\": {\n      \"include\": [\"dist/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/aping.plugin-dailymotion\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.6.0\", \"v0.7.0\", \"v0.7.1\", \"v0.7.5\", \"v0.7.6\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/aping.plugin-dailymotion/update.json\",\n  \"version\": \"v0.7.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/aping.plugin-dailymotion/0.7.6\",\n  \"branch\": \"apiNG-plugin-dailymotion/v0.7.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 126656590
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

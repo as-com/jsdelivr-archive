@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-04) 18 : 14 : 53 UTC
+  , issueUpdatedAt = 2014 (-02) (-04) 18 : 14 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/331/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/331")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 331
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 305721
+        , simpleUserLogin = N "rdeavila"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/305721?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rdeavila"
+        }
+  , issueTitle = "Updated mustache.js to 0.8.0 and 0.8.1;"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/331")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/331.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/331.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/331"
+  , issueCreatedAt = 2014 (-02) (-04) 17 : 16 : 46 UTC
+  , issueBody = Just "Updated mustache.js to 0.8.0 and 0.8.1;\n"
+  , issueState = StateClosed
+  , issueId = Id 26898750
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-02) 19 : 41 : 02 UTC
+  , issueUpdatedAt = 2016 (-05) (-02) 19 : 41 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11404/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11404")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11404
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 664294
+        , simpleUserLogin = N "matt-h"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/664294?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/matt-h"
+        }
+  , issueTitle = "add versions 2.0.0, 2.0.1, and 2.0.2 of Chart.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11404")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11404.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11404.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11404"
+  , issueCreatedAt = 2016 (-05) (-02) 19 : 28 : 52 UTC
+  , issueBody =
+      Just
+        "Adding these new versions manually, not sure why the bot didn't catch them.\n"
+  , issueState = StateClosed
+  , issueId = Id 152625622
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

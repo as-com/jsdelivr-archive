@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-08) 11 : 49 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 530988
+        , simpleUserLogin = N "letmaik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/530988?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/letmaik"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/146514600"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/7074#issuecomment-146514600"
+  , issueCommentCreatedAt = 2015 (-10) (-08) 11 : 49 : 59 UTC
+  , issueCommentBody =
+      "I just did a fake release on npm to try to trigger the bot. But I can't see any activity. Something is wrong here.\n"
+  , issueCommentId = 146514600
+  }

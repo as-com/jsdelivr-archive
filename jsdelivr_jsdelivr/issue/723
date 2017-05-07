@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-06) 13 : 50 : 17 UTC
+  , issueUpdatedAt = 2014 (-06) (-20) 02 : 07 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/723/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/723")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 723
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 953140
+        , simpleUserLogin = N "eruizdechavez"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/953140?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/eruizdechavez"
+        }
+  , issueTitle = "Add messageformat.js 0.1.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/723")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/723.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/723.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/723"
+  , issueCreatedAt = 2014 (-04) (-29) 15 : 33 : 40 UTC
+  , issueBody =
+      Just
+        "Add @SlexAxton's messageformat.js library and translation files.\n"
+  , issueState = StateClosed
+  , issueId = Id 32456417
+  , issueComments = 13
+  , issueMilestone = Nothing
+  }

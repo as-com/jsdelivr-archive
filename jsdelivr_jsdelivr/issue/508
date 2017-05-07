@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-25) 15 : 00 : 15 UTC
+  , issueUpdatedAt = 2014 (-03) (-25) 15 : 02 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/508/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/508")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 508
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 62333
+        , simpleUserLogin = N "j0k3r"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/62333?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/j0k3r"
+        }
+  , issueTitle = "Add Lawnchair"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/508")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/508.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/508.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/508"
+  , issueCreatedAt = 2014 (-03) (-25) 14 : 15 : 42 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 30126513
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

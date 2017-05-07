@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-15) 17 : 53 : 06 UTC
+  , issueUpdatedAt = 2014 (-09) (-15) 21 : 16 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1726/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1726")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1726
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project immutable.js to 2.0.17"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1726")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1726.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1726.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1726"
+  , issueCreatedAt = 2014 (-09) (-15) 17 : 52 : 36 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project immutable.js to 2.0.17.\n\n@facebook\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"immutable.js\",\n    \"repo\": \"facebook/immutable-js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"Immutable.min.js\", \"Immutable.d.ts\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/immutable.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"2.0.4\", \"2.0.5\", \"2.0.6\", \"2.0.7\", \"2.0.8\", \"2.0.9\", \"2.0.10\", \"2.0.11\", \"2.0.12\", \"2.0.13\", \"2.0.14\", \"2.0.15\", \"2.0.16\", \"2.0.17\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.0.17\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/immutable.js/2.0.17\",\n  \"branch\": \"immutable.js/2.0.17\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 42799783
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

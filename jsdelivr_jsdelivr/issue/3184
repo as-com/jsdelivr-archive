@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-24) 19 : 07 : 25 UTC
+  , issueUpdatedAt = 2015 (-01) (-24) 19 : 17 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3184/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3184")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3184
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 80772
+        , simpleUserLogin = N "aurri"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/80772?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/aurri"
+        }
+  , issueTitle = "Add Riot"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3184")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3184.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3184.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3184"
+  , issueCreatedAt = 2015 (-01) (-24) 13 : 15 : 02 UTC
+  , issueBody = Just "Thanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 55370462
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-03) 19 : 03 : 30 UTC
+  , issueUpdatedAt = 2017 (-03) (-03) 19 : 03 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16697/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16697")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16697
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project cheval to 1.0.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16697")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16697.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16697.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16697"
+  , issueCreatedAt = 2017 (-03) (-03) 19 : 03 : 26 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project cheval to 1.0.5.\n\n@ryanpcmcquen\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"cheval\",\n    \"repo\": \"ryanpcmcquen/cheval\",\n    \"files\": {\n      \"include\": [\"cheval.js\", \"cheval.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/cheval\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.3.0\", \"0.3.1\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/cheval/update.json\",\n  \"versions\": [\"1.0.5\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/cheval/1.0.5\",\n  \"branch\": \"cheval/1.0.5\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 211774221
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

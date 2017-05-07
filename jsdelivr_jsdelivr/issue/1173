@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-10) 14 : 51 : 36 UTC
+  , issueUpdatedAt = 2014 (-07) (-10) 14 : 51 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1173/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1173")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1173
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 274044
+        , simpleUserLogin = N "chemerisuk"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/274044?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/chemerisuk"
+        }
+  , issueTitle = "Adding better-dom library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1173")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1173.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1173.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1173"
+  , issueCreatedAt = 2014 (-07) (-10) 14 : 37 : 50 UTC
+  , issueBody =
+      Just
+        "Hi guys.\n\nRespect for the excellent CDN. I'd like to serve better-dom library from it. Let me know if there is any issues with the PR.\n\n---\n\nThanks,\nMaksim Chemerisuk\n"
+  , issueState = StateClosed
+  , issueId = Id 37568595
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

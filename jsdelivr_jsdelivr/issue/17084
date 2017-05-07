@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-19) 14 : 58 : 59 UTC
+  , issueUpdatedAt = 2017 (-04) (-19) 14 : 59 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17084/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17084")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17084
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project dustjs to v1.2.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17084")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17084.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17084.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17084"
+  , issueCreatedAt = 2017 (-03) (-21) 17 : 40 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project dustjs to v1.2.6.\n\n@linkedin\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"dustjs\",\n    \"repo\": \"linkedin/dustjs\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"exclude\": [\"LICENSE\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/dustjs\",\n    \"localVersions\": [\"list\", \"1.2.2\", \"1.2.3\", \"1.2.5\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.3.4\", \"2.4.0\", \"2.5.1\", \"2.6.0\", \"2.6.1\", \"2.6.2\", \"2.7.0\", \"2.7.1\", \"2.7.2\", \"2.7.3\", \"2.7.4\", \"2.7.5\"],\n    \"remoteVersions\": [\"list\", \"v1.0.0\", \"v1.1.0\", \"v1.1.1\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.3\", \"v1.2.4\", \"v1.2.5\", \"v1.2.6\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.1.0\", \"v2.1.1\", \"v2.1.2\", \"v2.1.3\", \"v2.1.4\", \"v2.1.5\", \"v2.2.0\", \"v2.2.2\", \"v2.2.3\", \"v2.2.4\", \"v2.2.5\", \"v2.2.6\", \"v2.2.7\", \"v2.2.8\", \"v2.2.9\", \"v2.2.10\", \"v2.3.0\", \"v2.3.1\", \"v2.3.2\", \"v2.3.3\", \"v2.3.4\", \"v2.3.5\", \"v2.3.6\", \"v2.4.0\", \"v2.4.1\", \"v2.4.2\", \"v2.5.0\", \"v2.5.1\", \"v2.6.0\", \"v2.6.1\", \"v2.6.2\", \"v2.6.3\", \"v2.7.0\", \"v2.7.1\", \"v2.7.2\", \"v2.7.3\", \"v2.7.4\", \"v2.7.5\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/dustjs/update.json\",\n  \"versions\": [\"v1.2.6\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.2.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/dustjs/1.2.6\",\n  \"branch\": \"dustjs/v1.2.6\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215822238
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

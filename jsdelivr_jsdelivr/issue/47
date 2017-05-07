@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2013 (-07) (-04) 23 : 32 : 26 UTC
+  , issueUpdatedAt = 2013 (-07) (-04) 23 : 32 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/47/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/47")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 47
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2921418
+        , simpleUserLogin = N "tobeportable"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/2921418?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tobeportable"
+        }
+  , issueTitle = "error in minified version of \"sorttable\""
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/47"
+  , issueCreatedAt = 2013 (-07) (-04) 14 : 44 : 12 UTC
+  , issueBody =
+      Just
+        "`//cdn.jsdelivr.net/sorttable/2/sorttable.min.js`  is returning this atm : \n\n```\n[ERROR] in /home/mintymike/public_html/refresh-sf.com/public/yui/files/9d5c694fb712b2af7140d5607462e4f5f234d63c.txt\n  19:31:missing ; before statement\n[ERROR] in /home/mintymike/public_html/refresh-sf.com/public/yui/files/9d5c694fb712b2af7140d5607462e4f5f234d63c.txt\n  1:0:Compilation produced 1 syntax errors.\norg.mozilla.javascript.EvaluatorException: Compilation produced 1 syntax errors.\n    at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:172)\n    at org.mozilla.javascript.Parser.parse(Parser.java:396)\n    at org.mozilla.javascript.Parser.parse(Parser.java:340)\n    at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:315)\n    at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:536)\n    at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:147)\n    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)\n    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)\n    at java.lang.reflect.Method.invoke(Method.java:585)\n    at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 16370974
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 20 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11351/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11351")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11351
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9215359
+        , simpleUserLogin = N "eunikolsky"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/9215359?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/eunikolsky"
+        }
+  , issueTitle = "Add monet.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11351")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11351.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11351.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11351"
+  , issueCreatedAt = 2016 (-04) (-28) 23 : 34 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 151766189
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

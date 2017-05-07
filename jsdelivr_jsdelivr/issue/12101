@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-10) 11 : 53 : 56 UTC
+  , issueUpdatedAt = 2016 (-06) (-10) 11 : 53 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12101/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12101")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12101
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 141232
+        , simpleUserLogin = N "antonmedv"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/141232?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/antonmedv"
+        }
+  , issueTitle = "Monkberry Standalone"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12101")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12101.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12101.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12101"
+  , issueCreatedAt = 2016 (-06) (-10) 06 : 45 : 48 UTC
+  , issueBody = Just "Standalone version of Monkberry.\n"
+  , issueState = StateClosed
+  , issueId = Id 159570128
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

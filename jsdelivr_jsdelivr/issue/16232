@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-09) 20 : 45 : 36 UTC
+  , issueUpdatedAt = 2017 (-02) (-09) 20 : 45 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16232/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16232")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16232
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11300323
+        , simpleUserLogin = N "TheLegendaryMarc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11300323?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/TheLegendaryMarc"
+        }
+  , issueTitle = "Create AutoUpdate for Simple-Line-Icons"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16232")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16232.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16232.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16232"
+  , issueCreatedAt = 2017 (-02) (-07) 21 : 57 : 13 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 206028680
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

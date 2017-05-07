@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-25) 23 : 49 : 25 UTC
+  , issueUpdatedAt = 2014 (-06) (-24) 22 : 12 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/386/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/386")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 386
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "+ jQuery *.min.map"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/386")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/386.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/386.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/386"
+  , issueCreatedAt = 2014 (-02) (-25) 23 : 27 : 28 UTC
+  , issueBody =
+      Just
+        "I used the  `//@ sourceMappingURL=` filename.\nFor v1.11+ & v2.1+ where will be [no sourceMappingURL](http://bugs.jquery.com/ticket/14415), so\n\n> renaming jquery-1.10.2.min.js to jquery.min.js would be fine as long as the corresponding map was renamed to jquery.min.map\n"
+  , issueState = StateClosed
+  , issueId = Id 28295087
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

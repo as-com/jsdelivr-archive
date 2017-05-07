@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-07) 13 : 33 : 22 UTC
+  , issueUpdatedAt = 2014 (-12) (-07) 13 : 33 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2636/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2636")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2636
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular.bindonce to 0.3.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2636")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2636.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2636.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2636"
+  , issueCreatedAt = 2014 (-12) (-07) 13 : 31 : 45 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular.bindonce to 0.3.3.\n\n@Pasvaz\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular.bindonce\",\n    \"repo\": \"Pasvaz/bindonce\",\n    \"files\": {\n      \"include\": [\"bindonce.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular.bindonce\",\n    \"localVersions\": [\"0.3.1\", \"0.3.2\"],\n    \"remoteVersions\": [\"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.3.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.bindonce/0.3.3\",\n  \"branch\": \"angular.bindonce/0.3.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 51217968
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

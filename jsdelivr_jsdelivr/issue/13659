@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-07) 19 : 37 : 06 UTC
+  , issueUpdatedAt = 2016 (-09) (-07) 19 : 37 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13659/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13659")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13659
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project vuefire to v1.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13659")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13659.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13659.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13659"
+  , issueCreatedAt = 2016 (-09) (-07) 19 : 36 : 58 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project vuefire to v1.2.1.\n\n@vuejs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"vuefire\",\n    \"repo\": \"vuejs/vuefire\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"vuefire.js\", \"vuefire.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/vuefire\",\n    \"localVersions\": [\"1.0.0\", \"1.0.1\", \"1.1.0\", \"1.1.1\", \"1.2.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.1.0\", \"v1.1.1\", \"v1.2.0\", \"v1.2.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/vuefire/update.json\",\n  \"versions\": [\"v1.2.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/vuefire/1.2.1\",\n  \"branch\": \"vuefire/v1.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 175586964
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

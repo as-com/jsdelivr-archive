@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-04) 03 : 40 : 32 UTC
+  , issueUpdatedAt = 2017 (-04) (-04) 03 : 43 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17383/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17383")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17383
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7248877
+        , simpleUserLogin = N "AlexandreBonneau"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7248877?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/AlexandreBonneau"
+        }
+  , issueTitle = "Update autoNumeric with the new organization url"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17383")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17383.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17383.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17383"
+  , issueCreatedAt = 2017 (-04) (-03) 20 : 39 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 219054941
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

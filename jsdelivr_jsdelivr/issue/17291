@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-30) 03 : 12 : 25 UTC
+  , issueUpdatedAt = 2017 (-03) (-30) 03 : 12 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17291/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/17291")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17291
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 910829
+        , simpleUserLogin = N "rafa8626"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/910829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rafa8626"
+        }
+  , issueTitle = "Mediaelement repos not reflecting latest version"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17291"
+  , issueCreatedAt = 2017 (-03) (-29) 20 : 23 : 33 UTC
+  , issueBody =
+      Just
+        "After the new repos and other minor adjustments for both MediaElement and MediaElement Plugins repos were merged today, I'm still unable to see the latest version of each one of them (4.0.2 and 2.0.0, respectively)"
+  , issueState = StateClosed
+  , issueId = Id 217998024
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

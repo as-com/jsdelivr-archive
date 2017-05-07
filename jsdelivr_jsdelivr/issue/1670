@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-08) 14 : 35 : 39 UTC
+  , issueUpdatedAt = 2014 (-09) (-08) 14 : 35 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1670/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1670")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1670
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.formstyler to v1.5.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1670")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1670.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1670.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1670"
+  , issueCreatedAt = 2014 (-09) (-08) 13 : 05 : 45 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.formstyler to v1.5.6.\n\n@Dimox\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.formstyler\",\n    \"repo\": \"Dimox/jQueryFormStyler\",\n    \"files\": {\n      \"include\": [\"jquery.formstyler.min.js\", \"jquery.formstyler.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.formstyler\",\n    \"localVersions\": [\"1.5.4\", \"1.5.5\"],\n    \"remoteVersions\": [\"v1.5.5\", \"v1.5.6\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.5.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.formstyler/1.5.6\",\n  \"branch\": \"jquery.formstyler/v1.5.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 42193734
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-03) (-28) 20 : 00 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/289886724"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17255#issuecomment-289886724"
+  , issueCommentCreatedAt = 2017 (-03) (-28) 20 : 00 : 19 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @mboosh, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- Looks like the `info.ini` or `update.json` has some problems\n    - Invalid URL '': No schema supplied. Perhaps you meant http://?\n    - The repository appears to have no tagged versions (https://github.com/mboosh/emailservice/tags).\nSee [Github Creating Releases](https://help.github.com/articles/creating-releases/) or [Git tagging basics](https://git-scm.com/book/en/v2/Git-Basics-Tagging). Auto updating of the library will only take place when `tags` are created.\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Design for failure.*\n"
+  , issueCommentId = 289886724
+  }

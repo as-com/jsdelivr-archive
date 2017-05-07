@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-19) 11 : 17 : 46 UTC
+  , issueUpdatedAt = 2015 (-05) (-19) 11 : 17 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4839/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4839")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4839
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tooltip.js to v1.0.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4839")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4839.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4839.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4839"
+  , issueCreatedAt = 2015 (-05) (-19) 11 : 17 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tooltip.js to v1.0.4.\n\n@HubSpot\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"tooltip.js\",\n    \"repo\": \"HubSpot/tooltip\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"js/tooltip.min.js\", \"css/tooltip-theme-arrows.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/tooltip\",\n    \"localVersions\": [\"0.2.6\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.2.3\", \"v0.2.4\", \"v0.2.5\", \"v0.2.6\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.0.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/tooltip/1.0.4\",\n  \"branch\": \"tooltip.js/v1.0.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 78044846
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

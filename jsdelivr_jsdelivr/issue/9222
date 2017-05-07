@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-20) 19 : 05 : 22 UTC
+  , issueUpdatedAt = 2016 (-01) (-20) 19 : 05 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9222/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9222")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9222
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5345836
+        , simpleUserLogin = N "YoungCatChen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5345836?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/YoungCatChen"
+        }
+  , issueTitle =
+      "Enables auto-update for the angular.material library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9222")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9222.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9222.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9222"
+  , issueCreatedAt = 2016 (-01) (-20) 07 : 15 : 52 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 127620697
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

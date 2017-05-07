@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-18) 13 : 49 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/82981184"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2569#issuecomment-82981184"
+  , issueCommentCreatedAt = 2015 (-03) (-18) 13 : 49 : 38 UTC
+  , issueCommentBody =
+      "That is correct, we cache /latest/ for 7 days to ensure there is a performance benefit.\nI purged the file and it should be showing the latest version now.\n\nBut we also allow project owners to purge their own cache if they want to. This feature is not public to avoid abuse. If you email me I can give you the instructions if you want.\n"
+  , issueCommentId = 82981184
+  }

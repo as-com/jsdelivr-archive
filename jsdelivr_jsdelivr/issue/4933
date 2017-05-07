@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-23) 10 : 30 : 06 UTC
+  , issueUpdatedAt = 2015 (-05) (-23) 10 : 30 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4933/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4933")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4933
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.zoom to 1.7.14"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4933")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4933.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4933.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4933"
+  , issueCreatedAt = 2015 (-05) (-23) 10 : 09 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.zoom to 1.7.14.\n\n@jackmoore\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.zoom\",\n    \"repo\": \"jackmoore/zoom\",\n    \"files\": {\n      \"include\": [\"jquery.zoom.js\", \"jquery.zoom.min.js\", \"grab.cur\", \"grabbed.cur\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.zoom\",\n    \"localVersions\": [\"1.7.10\"],\n    \"remoteVersions\": [\"1.4.0\", \"1.5.0\", \"1.6.0\", \"1.6.1\", \"1.7.0\", \"1.7.1\", \"1.7.3\", \"1.7.4\", \"1.7.5\", \"1.7.6\", \"1.7.7\", \"1.7.8\", \"1.7.9\", \"1.7.10\", \"1.7.11\", \"1.7.12\", \"1.7.13\", \"1.7.14\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.7.14\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.zoom/1.7.14\",\n  \"branch\": \"jquery.zoom/1.7.14\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 79802555
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

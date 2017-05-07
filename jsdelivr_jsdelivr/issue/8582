@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-20) 12 : 25 : 55 UTC
+  , issueUpdatedAt = 2015 (-12) (-20) 12 : 25 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8582/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8582")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8582
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2768497
+        , simpleUserLogin = N "diegoddox"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/2768497?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/diegoddox"
+        }
+  , issueTitle = "[new] redux-toastr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8582")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8582.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8582.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8582"
+  , issueCreatedAt = 2015 (-12) (-19) 21 : 48 : 59 UTC
+  , issueBody =
+      Just
+        "The full project you can find it here https://github.com/diegoddox/redux-toastr \n"
+  , issueState = StateClosed
+  , issueId = Id 123112953
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

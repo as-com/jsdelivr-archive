@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-10) 09 : 39 : 57 UTC
+  , issueUpdatedAt = 2015 (-05) (-10) 09 : 40 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4704/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4704")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4704
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6999360
+        , simpleUserLogin = N "xavierfaucon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6999360?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/xavierfaucon"
+        }
+  , issueTitle = "Update to 0.1.1 and add auto update"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4704")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4704.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4704.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4704"
+  , issueCreatedAt = 2015 (-05) (-10) 09 : 37 : 00 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 74880434
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

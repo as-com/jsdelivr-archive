@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-05) 12 : 20 : 08 UTC
+  , issueUpdatedAt = 2015 (-12) (-05) 12 : 20 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8281/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8281")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8281
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 803388
+        , simpleUserLogin = N "rosendi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/803388?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rosendi"
+        }
+  , issueTitle = "add farel lib"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8281")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8281.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8281.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8281"
+  , issueCreatedAt = 2015 (-12) (-03) 14 : 50 : 03 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 120187703
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

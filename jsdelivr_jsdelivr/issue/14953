@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-25) 14 : 37 : 23 UTC
+  , issueUpdatedAt = 2016 (-11) (-25) 14 : 37 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14953/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14953")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14953
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4076224
+        , simpleUserLogin = N "bovidiu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/4076224?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bovidiu"
+        }
+  , issueTitle = "Sharing icons"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14953")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14953.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14953.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14953"
+  , issueCreatedAt = 2016 (-11) (-24) 22 : 18 : 58 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 191597096
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

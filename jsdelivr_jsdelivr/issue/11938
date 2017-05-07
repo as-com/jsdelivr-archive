@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 16 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11938/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11938")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11938
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467351
+        , simpleUserLogin = N "BobKnothe"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/467351?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/BobKnothe"
+        }
+  , issueTitle = "adding jquery autoNumeric plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11938")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11938.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11938.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11938"
+  , issueCreatedAt = 2016 (-06) (-01) 17 : 31 : 44 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 157963884
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-20) 18 : 37 : 38 UTC
+  , issueUpdatedAt = 2017 (-04) (-20) 18 : 37 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17718/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17718")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17718
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4519609
+        , simpleUserLogin = N "caseyahenson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4519609?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/caseyahenson"
+        }
+  , issueTitle =
+      "Update css file path and include missing 3.0.0 release files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17718")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17718.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17718.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17718"
+  , issueCreatedAt = 2017 (-04) (-20) 16 : 35 : 30 UTC
+  , issueBody =
+      Just
+        "The css path in our main emojione repo changed, which appears to have caused an issue with deployment. 3.0.0 files (with updates css path) are also added in this PR to resolve that."
+  , issueState = StateClosed
+  , issueId = Id 223127578
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

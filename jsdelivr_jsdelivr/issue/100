@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-09) (-16) 14 : 46 : 19 UTC
+  , issueUpdatedAt = 2013 (-09) (-16) 14 : 46 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/100/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/100")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 100
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 657831
+        , simpleUserLogin = N "asimihsan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/657831?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/asimihsan"
+        }
+  , issueTitle = "jquery.tablequeryjs - v0.1.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/100")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/100.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/100.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/100"
+  , issueCreatedAt = 2013 (-09) (-16) 14 : 36 : 49 UTC
+  , issueBody =
+      Just
+        "Bug fix release. Please see the release notes here:\n\nhttps://github.com/asimihsan/tablequeryjs/releases/tag/v0.1.5\n"
+  , issueState = StateClosed
+  , issueId = Id 19554092
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-04) 21 : 53 : 48 UTC
+  , issueUpdatedAt = 2015 (-11) (-04) 21 : 53 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7753/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7753")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7753
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2291025
+        , simpleUserLogin = N "Zhouzi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2291025?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Zhouzi"
+        }
+  , issueTitle =
+      "Update theaterjs update.json according to new structure"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7753")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7753.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7753.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7753"
+  , issueCreatedAt = 2015 (-11) (-04) 19 : 38 : 51 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 115130934
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

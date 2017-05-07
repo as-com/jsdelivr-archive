@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-15) 16 : 29 : 38 UTC
+  , issueUpdatedAt = 2014 (-07) (-15) 16 : 35 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1217/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1217")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1217
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add d3js v3.4.10"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1217")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1217.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1217.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1217"
+  , issueCreatedAt = 2014 (-07) (-15) 16 : 29 : 03 UTC
+  , issueBody =
+      Just
+        "source : https://github.com/mbostock/d3/releases/download/v3.4.10/d3.zip\n"
+  , issueState = StateClosed
+  , issueId = Id 37901212
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

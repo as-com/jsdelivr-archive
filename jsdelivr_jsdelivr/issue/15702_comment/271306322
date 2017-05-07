@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-01) (-09) 15 : 03 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/271306322"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15702#issuecomment-271306322"
+  , issueCommentCreatedAt = 2017 (-01) (-09) 15 : 03 : 07 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *angular.ui-router* between *1.0.0-beta.3* and *1.0.0-rc.1* there was a change in file structure  \n    ```diff\n    + resolveService.js\n    + resolveService.js.map\n    + resolveService.min.js\n    + resolveService.min.js.map\n    - core.d.ts\n    - globals.d.ts\n    - ng1.d.ts\n    - router.d.ts\n    - common/common.d.ts\n    - common/coreservices.d.ts\n    - common/glob.d.ts\n    - common/hof.d.ts\n    - common/interface.d.ts\n    - common/module.d.ts\n    - common/predicates.d.ts\n    - common/queue.d.ts\n    - common/strings.d.ts\n    - common/trace.d.ts\n    - hooks/lazyLoadStates.d.ts\n    - hooks/onEnterExitRetain.d.ts\n    - hooks/redirectTo.d.ts\n    - hooks/resolve.d.ts\n    - hooks/url.d.ts\n    - hooks/views.d.ts\n    - params/interface.d.ts\n    - params/module.d.ts\n    - params/param.d.ts\n    - params/paramTypes.d.ts\n    - params/stateParams.d.ts\n    - params/type.d.ts\n    - path/module.d.ts\n    - path/node.d.ts\n    - path/pathFactory.d.ts\n    - resolve/interface.d.ts\n    - resolve/module.d.ts\n    - resolve/resolvable.d.ts\n    - resolve/resolveContext.d.ts\n    - state/interface.d.ts\n    - state/module.d.ts\n    - state/stateBuilder.d.ts\n    - state/stateMatcher.d.ts\n    - state/stateObject.d.ts\n    - state/stateQueueManager.d.ts\n    - state/stateRegistry.d.ts\n    - state/stateService.d.ts\n    - state/targetState.d.ts\n    - transition/hookBuilder.d.ts\n    - transition/hookRegistry.d.ts\n    - transition/interface.d.ts\n    - transition/module.d.ts\n    - transition/rejectFactory.d.ts\n    - transition/transition.d.ts\n    - transition/transitionHook.d.ts\n    - transition/transitionService.d.ts\n    - url/module.d.ts\n    - url/urlMatcher.d.ts\n    - url/urlMatcherConfig.d.ts\n    - url/urlMatcherFactory.d.ts\n    - url/urlRouter.d.ts\n    - view/interface.d.ts\n    - view/module.d.ts\n    - view/view.d.ts\n    - ng1/interface.d.ts\n    - ng1/services.d.ts\n    - ng1/stateFilters.d.ts\n    - ng1/stateProvider.d.ts\n    - ng1/templateFactory.d.ts\n    - ng1/viewScroll.d.ts\n    - ng1/directives/stateDirectives.d.ts\n    - ng1/directives/viewDirective.d.ts\n    - ng1/legacy/resolveService.d.ts\n    - ng1/legacy/stateEvents.d.ts\n    - ng1/statebuilders/onEnterExitRetain.d.ts\n    - ng1/statebuilders/views.d.ts\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Practicality beats purity.*\n"
+  , issueCommentId = 271306322
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-24) 13 : 07 : 15 UTC
+  , issueUpdatedAt = 2015 (-06) (-24) 13 : 07 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/590/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/590")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/Needs%20attention/help"
+          , labelName = N "Needs attention/help"
+          }
+      ]
+  , issueNumber = 590
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Orphan projects"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/590"
+  , issueCreatedAt = 2014 (-04) (-07) 19 : 45 : 09 UTC
+  , issueBody =
+      Just
+        "- Our WordPress plugin is outdated and a bit broken https://github.com/jsdelivr/jsdelivr-wordpress/issues/1\n- The CloudFlare app was never published https://github.com/jsdelivr/cf_jsdelivr/issues/1\n\nIt would be great if someone would take them over\n"
+  , issueState = StateClosed
+  , issueId = Id 31015676
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

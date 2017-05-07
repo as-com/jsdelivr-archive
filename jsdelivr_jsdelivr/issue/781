@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-09) 17 : 43 : 32 UTC
+  , issueUpdatedAt = 2014 (-05) (-09) 17 : 45 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/781/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/781")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 781
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 744538
+        , simpleUserLogin = N "gavinhungry"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/744538?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gavinhungry"
+        }
+  , issueTitle =
+      "Move clientside-haml 5.4 to existing clientside-haml-js directory"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/781")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/781.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/781.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/781"
+  , issueCreatedAt = 2014 (-05) (-09) 17 : 35 : 56 UTC
+  , issueBody =
+      Just
+        "Whoops, I should have put the new version in the existing directory.\n\nMore info here:\nhttps://github.com/jsdelivr/jsdelivr/pull/767\n"
+  , issueState = StateClosed
+  , issueId = Id 33192283
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-18) 05 : 39 : 36 UTC
+  , issueUpdatedAt = 2016 (-08) (-18) 05 : 39 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13305/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13305")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13305
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 20928941
+        , simpleUserLogin = N "RiNsCS"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/20928941?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/RiNsCS"
+        }
+  , issueTitle = "Edit some files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13305")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13305.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13305.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13305"
+  , issueCreatedAt = 2016 (-08) (-18) 05 : 39 : 09 UTC
+  , issueBody = Just "Edit some files\n"
+  , issueState = StateClosed
+  , issueId = Id 171821910
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

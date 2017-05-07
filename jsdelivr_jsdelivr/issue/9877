@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 36 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9877/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9877")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9877
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1285326
+        , simpleUserLogin = N "leyanlo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1285326?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/leyanlo"
+        }
+  , issueTitle = "Add StackBlur"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9877")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9877.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9877.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9877"
+  , issueCreatedAt = 2016 (-02) (-20) 07 : 19 : 05 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 135044687
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

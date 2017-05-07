@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 36 : 52 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 36 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16929/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16929")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16929
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1612250
+        , simpleUserLogin = N "edgardleal"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1612250?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/edgardleal"
+        }
+  , issueTitle = "Include require-vuejs project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16929")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16929.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16929.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16929"
+  , issueCreatedAt = 2017 (-03) (-15) 17 : 31 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 214468164
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

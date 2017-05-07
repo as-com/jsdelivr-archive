@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-27) 17 : 03 : 27 UTC
+  , issueUpdatedAt = 2015 (-11) (-13) 22 : 50 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/857/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/857")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 857
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3188613
+        , simpleUserLogin = N "magnusburton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3188613?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/magnusburton"
+        }
+  , issueTitle = "Added Bootrstrap Growl"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/857")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/857.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/857.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/857"
+  , issueCreatedAt = 2014 (-05) (-27) 10 : 07 : 05 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 34357547
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-01) 09 : 48 : 10 UTC
+  , issueUpdatedAt = 2016 (-03) (-01) 09 : 48 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10152/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10152")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10152
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4147513
+        , simpleUserLogin = N "runestro"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/4147513?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/runestro"
+        }
+  , issueTitle = "Update info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10152")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10152.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10152.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10152"
+  , issueCreatedAt = 2016 (-02) (-27) 11 : 02 : 07 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 136907000
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

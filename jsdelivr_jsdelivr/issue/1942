@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-09) 10 : 38 : 49 UTC
+  , issueUpdatedAt = 2014 (-10) (-12) 22 : 11 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1942/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1942")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1942
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 365596
+        , simpleUserLogin = N "sourrust"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/365596?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sourrust"
+        }
+  , issueTitle = "Fix highlight.js files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1942")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1942.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1942.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1942"
+  , issueCreatedAt = 2014 (-10) (-07) 11 : 38 : 49 UTC
+  , issueBody =
+      Just
+        "This is quite a large change but it is mainly for consistency of the file structure of highlight.js.\n\nSome key points to the changes:\n- Fixed the update file [after I noticed it was missing commas](https://github.com/jsdelivr/jsdelivr/pull/1940#issuecomment-58135308)\n- All of the files are now only the compressed version\n- Remove 7.3b\n- Add versions 7.4 and 8.1\n"
+  , issueState = StateClosed
+  , issueId = Id 45097151
+  , issueComments = 15
+  , issueMilestone = Nothing
+  }

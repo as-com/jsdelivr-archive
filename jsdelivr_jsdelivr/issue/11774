@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-23) 10 : 34 : 03 UTC
+  , issueUpdatedAt = 2016 (-05) (-23) 10 : 38 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11774/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11774")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11774
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16922883
+        , simpleUserLogin = N "smartclash"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16922883?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/smartclash"
+        }
+  , issueTitle = "Added SmartUIKit"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11774")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11774.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11774.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11774"
+  , issueCreatedAt = 2016 (-05) (-23) 08 : 55 : 42 UTC
+  , issueBody = Just "Request to add smartuikit\n"
+  , issueState = StateClosed
+  , issueId = Id 156230531
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

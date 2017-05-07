@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-27) 22 : 49 : 34 UTC
+  , issueUpdatedAt = 2015 (-07) (-27) 22 : 49 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6139/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6139")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6139
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project jquery.dirtyforms to 2.0.0-beta00001"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6139")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6139.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6139.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6139"
+  , issueCreatedAt = 2015 (-07) (-27) 22 : 34 : 22 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.dirtyforms to 2.0.0-beta00001.\n\n@NightOwl888\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.dirtyforms\",\n    \"repo\": \"NightOwl888/jquery.dirtyforms.dist\",\n    \"files\": {\n      \"include\": [\"jquery.dirtyforms.min.*\", \"plugins/*.min.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.dirtyforms\",\n    \"localVersions\": [\"1.0.0\", \"1.1.0\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"2.0.0-beta00001\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/jquery.dirtyforms/update.json\",\n  \"version\": \"2.0.0-beta00001\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.dirtyforms/2.0.0-beta00001\",\n  \"branch\": \"jquery.dirtyforms/2.0.0-beta00001\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 97570911
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

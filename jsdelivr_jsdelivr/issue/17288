@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 18 : 07 : 27 UTC
+  , issueUpdatedAt = 2017 (-03) (-29) 18 : 07 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17288/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17288")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17288
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project select2-bootstrap-theme to 0.1.0-beta.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17288")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17288.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17288.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17288"
+  , issueCreatedAt = 2017 (-03) (-29) 18 : 07 : 22 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project select2-bootstrap-theme to 0.1.0-beta.9.\n\n@select2\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"select2-bootstrap-theme\",\n    \"repo\": \"select2/select2-bootstrap-theme\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/select2-bootstrap-theme\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.1.0-beta.1\", \"0.1.0-beta.2\", \"0.1.0-beta.3\", \"0.1.0-beta.4\", \"0.1.0-beta.5\", \"0.1.0-beta.6\", \"0.1.0-beta.7\", \"0.1.0-beta.8\", \"0.1.0-beta.9\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/select2-bootstrap-theme/update.json\",\n  \"versions\": [\"0.1.0-beta.9\"],\n  \"updateRemote\": true,\n  \"version\": \"0.1.0-beta.9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/select2-bootstrap-theme/0.1.0-beta.9\",\n  \"branch\": \"select2-bootstrap-theme/0.1.0-beta.9\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 217960928
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

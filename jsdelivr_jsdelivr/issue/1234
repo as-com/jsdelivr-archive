@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-18) 14 : 00 : 39 UTC
+  , issueUpdatedAt = 2015 (-03) (-12) 14 : 11 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1234/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1234")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1234
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "added angular.js i18n folder"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1234")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1234.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1234.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1234"
+  , issueCreatedAt = 2014 (-07) (-18) 13 : 23 : 36 UTC
+  , issueBody =
+      Just
+        "added angular.js i18n folder\n#1232\n\ni18n folder https://docs.angularjs.org/misc/downloading\nhttps://docs.angularjs.org/guide/i18n\n"
+  , issueState = StateClosed
+  , issueId = Id 38175529
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

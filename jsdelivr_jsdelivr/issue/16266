@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-09) 20 : 35 : 08 UTC
+  , issueUpdatedAt = 2017 (-02) (-09) 20 : 35 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16266/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16266")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16266
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9252829
+        , simpleUserLogin = N "0ctobat"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/9252829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/0ctobat"
+        }
+  , issueTitle = "Add octobat-checkout.js lib to jsdeliver"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16266")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16266.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16266.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16266"
+  , issueCreatedAt = 2017 (-02) (-09) 17 : 57 : 20 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 206581740
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

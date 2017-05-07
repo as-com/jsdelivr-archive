@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-21) 22 : 32 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123498815"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/6029#issuecomment-123498815"
+  , issueCommentCreatedAt = 2015 (-07) (-21) 22 : 31 : 22 UTC
+  , issueCommentBody =
+      "@jimaek I thought `api-sync` did a git clone of the repo for jsdelivr? If thats the case it should already have all the files local, allowing us to enable the SRI hashing in one step; if its not the case I don't know why it isn't\n"
+  , issueCommentId = 123498815
+  }

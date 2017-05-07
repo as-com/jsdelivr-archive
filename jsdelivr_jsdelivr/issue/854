@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-26) 20 : 27 : 07 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 01 : 39 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/854/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/854")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 854
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3048916
+        , simpleUserLogin = N "marcoslin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3048916?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/marcoslin"
+        }
+  , issueTitle = "Added initial release of angularAMD v0.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/854")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/854.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/854.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/854"
+  , issueCreatedAt = 2014 (-05) (-26) 10 : 57 : 35 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nI am the author of angularAMD and would like to make it available to my users via `jsdelivr`.\n\nThanks,\n\nMarcos\n"
+  , issueState = StateClosed
+  , issueId = Id 34299464
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

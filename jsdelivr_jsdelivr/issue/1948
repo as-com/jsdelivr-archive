@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-08) 12 : 27 : 14 UTC
+  , issueUpdatedAt = 2014 (-10) (-08) 12 : 27 : 14 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1948/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1948")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1948
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8820836
+        , simpleUserLogin = N "DaehyeonLee"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8820836?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DaehyeonLee"
+        }
+  , issueTitle =
+      "Add new light weight 'NanumBarunGothic' font families."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1948")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1948.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1948.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1948"
+  , issueCreatedAt = 2014 (-10) (-08) 05 : 31 : 35 UTC
+  , issueBody =
+      Just
+        "Naver corp. release new light weight 'NanumBarunGothic' font families.\nThese font families has OFL license.\n\nI add some webfont and css files of these fonts.\n"
+  , issueState = StateClosed
+  , issueId = Id 45205515
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-18) 16 : 03 : 46 UTC
+  , issueUpdatedAt = 2016 (-10) (-18) 16 : 03 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14414/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14414")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14414
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery-message-box to v2.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14414")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14414.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14414.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14414"
+  , issueCreatedAt = 2016 (-10) (-18) 16 : 03 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery-message-box to v2.0.1.\n\n@gasparesganga\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery-message-box\",\n    \"repo\": \"gasparesganga/jquery-message-box\",\n    \"files\": {\n      \"basePath\": \"/\",\n      \"include\": [\"src/*.js\", \"src/*.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.messagebox\",\n    \"localVersions\": [\"1.1\", \"2.0.0\"],\n    \"remoteVersions\": [\"v1.0\", \"v1.1\", \"v2.0.0\", \"v2.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.messagebox/update.json\",\n  \"versions\": [\"v2.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.messagebox/2.0.1\",\n  \"branch\": \"jquery-message-box/v2.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 183731234
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

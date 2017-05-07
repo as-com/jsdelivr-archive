@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-05) 21 : 12 : 33 UTC
+  , issueUpdatedAt = 2015 (-02) (-05) 21 : 12 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3311/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3311")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3311
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6594069
+        , simpleUserLogin = N "arnaudleyder"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6594069?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/arnaudleyder"
+        }
+  , issueTitle =
+      "Added radiant-medialyzer project + updated info.ini for existing magneticmediajs project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3311")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3311.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3311.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3311"
+  , issueCreatedAt = 2015 (-02) (-03) 18 : 20 : 55 UTC
+  , issueBody =
+      Just
+        "Radiant MediaLyzer is an open source MIT licensed JavaScript API to detect media related features => http://www.radiantmedialyzer.net \nVersion 1.1.0 I would like in jsDelivr (info.ini + update.json)\n\nMagneticmediajs is an existing project (1.4.0 in its current version). With 1.4.0 I changed the file structure and as so I have updated info.ini to reflect this change (see #3271 and #3273).\n\nThanks\nArnaud\n"
+  , issueState = StateClosed
+  , issueId = Id 56416080
+  , issueComments = 12
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-28) 00 : 35 : 59 UTC
+  , issueUpdatedAt = 2014 (-09) (-28) 00 : 36 : 04 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1854/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1854")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1854
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1840854
+        , simpleUserLogin = N "rileyjshaw"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1840854?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rileyjshaw"
+        }
+  , issueTitle = "Add sweep"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1854")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1854.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1854.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1854"
+  , issueCreatedAt = 2014 (-09) (-28) 00 : 35 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 44199043
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

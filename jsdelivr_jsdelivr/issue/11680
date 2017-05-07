@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-18) 13 : 35 : 55 UTC
+  , issueUpdatedAt = 2016 (-05) (-18) 13 : 35 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11680/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11680")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11680
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9428111
+        , simpleUserLogin = N "julianfrank"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9428111?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/julianfrank"
+        }
+  , issueTitle = "Patch 2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11680")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11680.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11680.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11680"
+  , issueCreatedAt = 2016 (-05) (-18) 13 : 35 : 36 UTC
+  , issueBody = Just "Requesting PR\n"
+  , issueState = StateClosed
+  , issueId = Id 155502798
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

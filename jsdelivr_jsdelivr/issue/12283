@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-23) 20 : 01 : 45 UTC
+  , issueUpdatedAt = 2016 (-06) (-23) 20 : 01 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12283/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12283")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12283
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 703113
+        , simpleUserLogin = N "ahirmayur"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/703113?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ahirmayur"
+        }
+  , issueTitle = "Add map-icons.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12283")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12283.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12283.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12283"
+  , issueCreatedAt = 2016 (-06) (-20) 13 : 58 : 06 UTC
+  , issueBody =
+      Just
+        "Map Icons is an icon font for use with Google Maps API and Google Places API using SVG markers and icon labels.\n\nMap Icons makes Google Maps Markers dynamic with control over shape, color, size, and icon easily changed using options in the marker object as well as simple SVG Notation and CSS.\n"
+  , issueState = StateClosed
+  , issueId = Id 161201238
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

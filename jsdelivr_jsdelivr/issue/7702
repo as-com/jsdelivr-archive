@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-02) 17 : 27 : 59 UTC
+  , issueUpdatedAt = 2015 (-11) (-02) 17 : 27 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7702/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/7702")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7702
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "preparing brotli compression."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7702"
+  , issueCreatedAt = 2015 (-11) (-02) 09 : 17 : 37 UTC
+  , issueBody =
+      Just
+        "Mozilla's issue tracker shows that Firefox 45 with brotli support is planed to release on 2016-03-03.\n\nGoogle Chrome also have a plan for Chrome48 with brotli support.\n\nmaybe we could prepare for brotli compression, at least on some cdn?\n\nhttps://www.chromestatus.com/features/5420797577396224\nhttps://code.google.com/p/chromium/issues/detail?id=452335\nhttps://bugzilla.mozilla.org/show_bug.cgi?id=366559\nhttps://quixdb.github.io/squash-benchmark/\nhttps://github.com/google/ngx_brotli\n"
+  , issueState = StateClosed
+  , issueId = Id 114554919
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

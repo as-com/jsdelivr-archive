@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-09) 15 : 02 : 08 UTC
+  , issueUpdatedAt = 2016 (-02) (-09) 15 : 02 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9649/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/9649")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9649
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 184284
+        , simpleUserLogin = N "thasmo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/184284?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/thasmo"
+        }
+  , issueTitle = "Order of CDN files"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9649"
+  , issueCreatedAt = 2016 (-02) (-08) 21 : 22 : 54 UTC
+  , issueBody =
+      Just
+        "The order of files in the project-details view seems odd, kinda random - e.g.:\nhttps://www.jsdelivr.com/projects/gridable\n\nIs there any logic in sorting the files?\nIn the case of gridable, alphabetical order would help a lot to select files.\n"
+  , issueState = StateClosed
+  , issueId = Id 132259915
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

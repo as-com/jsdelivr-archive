@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 17 : 35 : 44 UTC
+  , issueUpdatedAt = 2017 (-03) (-29) 18 : 44 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17261/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17261")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17261
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6551569
+        , simpleUserLogin = N "GoToLoop"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6551569?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GoToLoop"
+        }
+  , issueTitle = "NPM isn't auto-updating. Moving to GitHub."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17261")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17261.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17261.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17261"
+  , issueCreatedAt = 2017 (-03) (-29) 08 : 02 : 46 UTC
+  , issueBody =
+      Just
+        "* Latest 0.58 has failed to auto-update -> https://github.com/processing/p5.js/releases/tag/0.5.8\r\n* Changing it to get from GitHub now.\r\n* Bonus: \"p5.dom.min.js\" & \"p5.sound.min.js\" minified versions are available there.\r\n* Expecting JSDelivr can grab files directly from basePath: \"releases/download/**/\" though."
+  , issueState = StateClosed
+  , issueId = Id 217795054
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

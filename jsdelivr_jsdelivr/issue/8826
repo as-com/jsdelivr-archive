@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-07) 00 : 02 : 07 UTC
+  , issueUpdatedAt = 2016 (-01) (-07) 00 : 02 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8826/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8826")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8826
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project markdown-it to 5.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8826")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8826.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8826.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8826"
+  , issueCreatedAt = 2016 (-01) (-07) 00 : 02 : 03 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project markdown-it to 5.1.0.\n\n@markdown-it\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"markdown-it\",\n    \"repo\": \"markdown-it/markdown-it\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"markdown-it.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/markdown-it\",\n    \"localVersions\": [\"2.0.0\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.1.3\", \"2.2.1\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.0.7\", \"3.1.0\", \"4.0.0\", \"4.0.1\", \"4.0.2\", \"4.0.3\", \"4.1.0\", \"4.1.1\", \"4.1.2\", \"4.2.0\", \"4.2.1\", \"4.2.2\", \"4.3.0\", \"4.3.1\", \"4.4.0\", \"5.0.0\", \"5.0.1\", \"5.0.2\", \"5.0.3\"],\n    \"remoteVersions\": [\"2.0.0\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.1.3\", \"2.2.0\", \"2.2.1\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.0.6\", \"3.0.7\", \"3.1.0\", \"4.0.0\", \"4.0.1\", \"4.0.2\", \"4.0.3\", \"4.1.0\", \"4.1.1\", \"4.1.2\", \"4.2.0\", \"4.2.1\", \"4.2.2\", \"4.3.0\", \"4.3.1\", \"4.4.0\", \"5.0.0\", \"5.0.1\", \"5.0.2\", \"5.0.3\", \"5.1.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/markdown-it/update.json\",\n  \"version\": \"5.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/markdown-it/5.1.0\",\n  \"branch\": \"markdown-it/5.1.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 125292161
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

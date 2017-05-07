@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-29) 15 : 48 : 16 UTC
+  , issueUpdatedAt = 2014 (-12) (-29) 15 : 48 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2852/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2852")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2852
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2644563
+        , simpleUserLogin = N "ythecombinator"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2644563?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ythecombinator"
+        }
+  , issueTitle = "Release v 1.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2852")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2852.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2852.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2852"
+  , issueCreatedAt = 2014 (-12) (-28) 23 : 39 : 23 UTC
+  , issueBody = Just "Add CodeIcons' Font Files and CSS.\n"
+  , issueState = StateClosed
+  , issueId = Id 53012761
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

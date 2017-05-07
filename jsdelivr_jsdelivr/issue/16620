@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-01) 17 : 16 : 33 UTC
+  , issueUpdatedAt = 2017 (-03) (-01) 17 : 16 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16620/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16620")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16620
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1094306
+        , simpleUserLogin = N "inc2734"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1094306?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/inc2734"
+        }
+  , issueTitle = "Update info.ini and update.json of sass-basis"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16620")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16620.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16620.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16620"
+  , issueCreatedAt = 2017 (-02) (-28) 01 : 09 : 55 UTC
+  , issueBody =
+      Just
+        "There was mistakes path in info.ini and update.json. I corrected it."
+  , issueState = StateClosed
+  , issueId = Id 210657121
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

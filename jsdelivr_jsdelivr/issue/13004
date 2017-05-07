@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-16) 00 : 27 : 29 UTC
+  , issueUpdatedAt = 2016 (-08) (-16) 00 : 27 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13004/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13004")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13004
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10901035
+        , simpleUserLogin = N "soumak77"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/10901035?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/soumak77"
+        }
+  , issueTitle = "PR not being merged"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13004"
+  , issueCreatedAt = 2016 (-07) (-31) 20 : 37 : 14 UTC
+  , issueBody =
+      Just
+        "Anything I can do to get this PR merged? https://github.com/jsdelivr/jsdelivr/pull/12754\n"
+  , issueState = StateClosed
+  , issueId = Id 168536968
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

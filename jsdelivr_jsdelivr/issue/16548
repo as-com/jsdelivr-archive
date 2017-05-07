@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-27) 18 : 04 : 08 UTC
+  , issueUpdatedAt = 2017 (-02) (-27) 18 : 04 : 08 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16548/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16548")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16548
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 13850802
+        , simpleUserLogin = N "Mobius1"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/13850802?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Mobius1"
+        }
+  , issueTitle = "Add Selectr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16548")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16548.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16548.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16548"
+  , issueCreatedAt = 2017 (-02) (-24) 20 : 06 : 24 UTC
+  , issueBody =
+      Just
+        "Add Selectr. A lightweight dependency-free select box replacement written in vanilla javascript. Similar to Select2 and Chosen without the dependencies."
+  , issueState = StateClosed
+  , issueId = Id 210145374
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

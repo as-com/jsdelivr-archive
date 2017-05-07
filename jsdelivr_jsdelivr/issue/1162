@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-09) 12 : 37 : 28 UTC
+  , issueUpdatedAt = 2014 (-07) (-09) 17 : 32 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1162/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1162")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1162
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ractive-events-hover to v0.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1162")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1162.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1162.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1162"
+  , issueCreatedAt = 2014 (-07) (-09) 12 : 36 : 04 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ractive-events-hover to v0.1.1.\n\n@ractivejs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ractive-events-hover\",\n    \"repo\": \"ractivejs/ractive-events-hover\",\n    \"files\": {\n      \"include\": [\"ractive-events-hover.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/ractive.events-hover\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.1.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/ractive.events-hover/0.1.1\",\n  \"branch\": \"ractive-events-hover/v0.1.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 37459938
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

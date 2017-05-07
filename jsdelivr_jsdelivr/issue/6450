@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-17) 14 : 34 : 06 UTC
+  , issueUpdatedAt = 2015 (-08) (-17) 14 : 34 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6450/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6450")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6450
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project appenlight to 0.3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6450")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6450.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6450.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6450"
+  , issueCreatedAt = 2015 (-08) (-17) 14 : 34 : 01 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project appenlight to 0.3.0.\n\n@AppEnlight\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"appenlight\",\n    \"repo\": \"AppEnlight/appenlight-client-js\",\n    \"files\": {\n      \"include\": [\"appenlight-client.js\", \"appenlight-client.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/appenlight\",\n    \"localVersions\": [\"0.2.0\"],\n    \"remoteVersions\": [\"0.3.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/appenlight/update.json\",\n  \"version\": \"0.3.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/appenlight/0.3.0\",\n  \"branch\": \"appenlight/0.3.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 101434694
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

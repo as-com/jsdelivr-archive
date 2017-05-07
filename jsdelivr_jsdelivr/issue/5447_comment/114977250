@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-24) 18 : 45 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/114977250"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5447#issuecomment-114977250"
+  , issueCommentCreatedAt = 2015 (-06) (-24) 18 : 45 : 45 UTC
+  , issueCommentBody =
+      "dont open multiple PRs for multiple files. All files must be in 1 PR https://github.com/jsdelivr/jsdelivr/pull/5448\n"
+  , issueCommentId = 114977250
+  }

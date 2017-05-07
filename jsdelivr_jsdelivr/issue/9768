@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-15) 10 : 30 : 26 UTC
+  , issueUpdatedAt = 2016 (-02) (-15) 10 : 42 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9768/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9768")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9768
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 829526
+        , simpleUserLogin = N "pra85"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/829526?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pra85"
+        }
+  , issueTitle = "Fix a typo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9768")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9768.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9768.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9768"
+  , issueCreatedAt = 2016 (-02) (-15) 06 : 22 : 56 UTC
+  , issueBody = Just "`repport` \8594 `report`\n"
+  , issueState = StateClosed
+  , issueId = Id 133632002
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

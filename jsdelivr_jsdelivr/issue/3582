@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-25) 07 : 43 : 58 UTC
+  , issueUpdatedAt = 2015 (-02) (-25) 07 : 43 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3582/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3582")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3582
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9047556
+        , simpleUserLogin = N "HosseinRashno"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/9047556?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/HosseinRashno"
+        }
+  , issueTitle = "Create IranAddressJS.js folder"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3582")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3582.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3582.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3582"
+  , issueCreatedAt = 2015 (-02) (-24) 13 : 29 : 35 UTC
+  , issueBody =
+      Just
+        "Hi\nI add to js file for IranAddressJS jquery plugin.\nIranAddressJS is a jQuery plugin that provides selection for city and province fields (of Iran) in a form.\nBest regards.\nH.Rashno\n"
+  , issueState = StateClosed
+  , issueId = Id 58738050
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

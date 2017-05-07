@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-12) 20 : 07 : 52 UTC
+  , issueUpdatedAt = 2014 (-11) (-16) 11 : 01 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2336/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2336")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2336
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project particles.js to 1.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2336")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2336.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2336.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2336"
+  , issueCreatedAt = 2014 (-11) (-12) 20 : 06 : 55 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project particles.js to 1.0.0.\n\n@VincentGarreau\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"particles.js\",\n    \"repo\": \"VincentGarreau/particles.js\",\n    \"files\": {\n      \"include\": [\"particles.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/particles.js\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.0.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/particles.js/1.0.0\",\n  \"branch\": \"particles.js/1.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 48556104
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

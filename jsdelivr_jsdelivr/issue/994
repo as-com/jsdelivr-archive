@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-22) 01 : 07 : 46 UTC
+  , issueUpdatedAt = 2014 (-06) (-22) 01 : 07 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/994/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/994")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 994
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7953259
+        , simpleUserLogin = N "mikelambert"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7953259?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mikelambert"
+        }
+  , issueTitle =
+      "Add fullcalendar 2.0.0 and 2.0.1 with i18n support files."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/994")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/994.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/994.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/994"
+  , issueCreatedAt = 2014 (-06) (-21) 23 : 15 : 08 UTC
+  , issueBody =
+      Just
+        "fullcalendar 2.x adds support for i18n, which explains the addition of all the lang\\* files. It also includes a gcal.js support library now. Otherwise I kept the files included the same as with the 1.6.x series.\n"
+  , issueState = StateClosed
+  , issueId = Id 36233983
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

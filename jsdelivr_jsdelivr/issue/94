@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-09) (-02) 09 : 04 : 44 UTC
+  , issueUpdatedAt = 2013 (-09) (-02) 09 : 04 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/94/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/94")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 94
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2075506
+        , simpleUserLogin = N "dhruvaray"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2075506?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dhruvaray"
+        }
+  , issueTitle = "Backbone Associations v0.5.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/94")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/94.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/94.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/94"
+  , issueCreatedAt = 2013 (-09) (-02) 06 : 09 : 52 UTC
+  , issueBody =
+      Just
+        "Updated version for Backbone Associations - v0.5.2\n\nKindly Accept!\n\nThanks,\nDhruva Ray\n"
+  , issueState = StateClosed
+  , issueId = Id 18849995
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

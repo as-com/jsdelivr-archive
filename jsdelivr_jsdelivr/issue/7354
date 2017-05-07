@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-13) 08 : 13 : 20 UTC
+  , issueUpdatedAt = 2015 (-10) (-13) 08 : 13 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7354/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7354")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7354
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.ion.rangeslider to 2.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7354")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7354.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7354.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7354"
+  , issueCreatedAt = 2015 (-10) (-13) 06 : 35 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.ion.rangeslider to 2.1.2.\n\n@IonDen\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.ion.rangeslider\",\n    \"repo\": \"IonDen/ion.rangeSlider\",\n    \"files\": {\n      \"include\": [\"./js/*.js\", \"./css/*.css\", \"./img/*.png\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.ion.rangeslider\",\n    \"localVersions\": [\"1.6.3\", \"1.9.3\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.0.4\", \"2.0.5\", \"2.0.6\", \"2.0.7\", \"2.0.8\", \"2.0.9\", \"2.0.10\", \"2.0.11\", \"2.0.12\", \"2.0.13\", \"2.1.0\", \"2.1.1\"],\n    \"remoteVersions\": [\"1.5.97\", \"1.5.98\", \"1.5.99\", \"1.6.3\", \"1.6.107\", \"1.6.115\", \"1.7.0\", \"1.7.2\", \"1.8.0\", \"1.8.1\", \"1.8.2\", \"1.8.5\", \"1.9.0\", \"1.9.1\", \"1.9.2\", \"1.9.3\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.0.4\", \"2.0.5\", \"2.0.6\", \"2.0.7\", \"2.0.8\", \"2.0.9\", \"2.0.10\", \"2.0.11\", \"2.0.12\", \"2.0.13\", \"2.1.0\", \"2.1.1\", \"2.1.2\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/jquery.ion.rangeslider/update.json\",\n  \"version\": \"2.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.ion.rangeslider/2.1.2\",\n  \"branch\": \"jquery.ion.rangeslider/2.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 111115000
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

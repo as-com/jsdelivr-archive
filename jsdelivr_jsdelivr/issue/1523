@@ -1,0 +1,31 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-25) 16 : 10 : 29 UTC
+  , issueUpdatedAt = 2014 (-08) (-25) 16 : 11 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1523/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1523")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1523
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5569934
+        , simpleUserLogin = N "NithoAlif"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5569934?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/NithoAlif"
+        }
+  , issueTitle = "Wrong post"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1523"
+  , issueCreatedAt = 2014 (-08) (-25) 16 : 09 : 56 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 41076942
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

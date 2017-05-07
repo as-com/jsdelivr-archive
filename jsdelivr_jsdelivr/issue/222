@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-17) 20 : 25 : 38 UTC
+  , issueUpdatedAt = 2014 (-07) (-11) 23 : 19 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/222/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/222")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 222
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 187963
+        , simpleUserLogin = N "Craga89"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/187963?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Craga89"
+        }
+  , issueTitle = "Add missing 2.1.0 release"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/222")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/222.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/222.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/222"
+  , issueCreatedAt = 2013 (-12) (-17) 20 : 13 : 14 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 24447416
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

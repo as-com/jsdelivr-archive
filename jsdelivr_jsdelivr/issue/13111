@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-08) 11 : 15 : 59 UTC
+  , issueUpdatedAt = 2016 (-08) (-08) 11 : 15 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13111/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13111")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13111
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9824768
+        , simpleUserLogin = N "poryagrand"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/9824768?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/poryagrand"
+        }
+  , issueTitle = "tedjs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13111")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13111.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13111.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13111"
+  , issueCreatedAt = 2016 (-08) (-06) 08 : 59 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 169737620
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

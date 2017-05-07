@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-17) 15 : 17 : 36 UTC
+  , issueUpdatedAt = 2017 (-04) (-17) 15 : 17 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17572/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17572")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17572
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 22031866
+        , simpleUserLogin = N "Thlb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/22031866?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Thlb"
+        }
+  , issueTitle = "Add browser-support-embed"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17572")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17572.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17572.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17572"
+  , issueCreatedAt = 2017 (-04) (-13) 23 : 11 : 05 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 221705387
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

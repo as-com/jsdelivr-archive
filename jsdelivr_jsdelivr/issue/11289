@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-27) 09 : 25 : 58 UTC
+  , issueUpdatedAt = 2016 (-04) (-27) 09 : 25 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11289/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11289")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11289
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3697836
+        , simpleUserLogin = N "jackbowman"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3697836?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jackbowman"
+        }
+  , issueTitle = "Add email-addresses library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11289")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11289.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11289.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11289"
+  , issueCreatedAt = 2016 (-04) (-26) 02 : 20 : 40 UTC
+  , issueBody =
+      Just "https://github.com/jackbowman/email-addresses\n"
+  , issueState = StateClosed
+  , issueId = Id 151023966
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

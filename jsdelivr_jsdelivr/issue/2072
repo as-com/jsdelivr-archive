@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-20) 19 : 00 : 39 UTC
+  , issueUpdatedAt = 2014 (-10) (-20) 19 : 00 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2072/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2072")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2072
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1907408
+        , simpleUserLogin = N "glaucocustodio"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1907408?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/glaucocustodio"
+        }
+  , issueTitle = "angular-initial-value inclusion"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2072")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2072.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2072.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2072"
+  , issueCreatedAt = 2014 (-10) (-20) 17 : 48 : 54 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 46304798
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

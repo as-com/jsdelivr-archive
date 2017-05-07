@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-15) 18 : 07 : 23 UTC
+  , issueUpdatedAt = 2016 (-09) (-15) 18 : 07 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13816/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13816")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13816
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project typeboost.css to v0.1.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13816")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13816.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13816.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13816"
+  , issueCreatedAt = 2016 (-09) (-15) 18 : 07 : 19 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project typeboost.css to v0.1.6.\n\n@englishextra\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"typeboost.css\",\n    \"repo\": \"englishextra/typeboost.css\",\n    \"files\": {\n      \"basePath\": \"css/\",\n      \"include\": [\"typeboost.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/typeboost.css\",\n    \"localVersions\": [\"0.1\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.1.5\"],\n    \"remoteVersions\": [\"v0.1.1\", \"v0.1.2\", \"0.1.3\", \"v0.1.3\", \"0.1.4\", \"v0.1.4\", \"v0.1.5\", \"v0.1.6\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/typeboost.css/update.json\",\n  \"versions\": [\"v0.1.6\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/typeboost.css/0.1.6\",\n  \"branch\": \"typeboost.css/v0.1.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 177247227
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

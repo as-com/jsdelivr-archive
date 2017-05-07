@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-02) 21 : 38 : 28 UTC
+  , issueUpdatedAt = 2017 (-05) (-02) 21 : 38 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17914/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17914")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17914
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project tubular to 1.4.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17914")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17914.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17914.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17914"
+  , issueCreatedAt = 2017 (-05) (-02) 21 : 38 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project tubular to 1.4.2.\n\n@unosquare\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"tubular\",\n    \"repo\": \"unosquare/tubular\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\", \"tubular-bundle.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/tubular\",\n    \"localVersions\": [\"0.9.2\", \"0.9.3\", \"0.9.4\", \"0.9.5\", \"0.9.6\", \"0.9.7\", \"0.9.8\", \"0.9.9\", \"0.9.10\", \"0.9.11\", \"0.9.12\", \"0.9.13\", \"0.9.14\", \"0.9.15\", \"0.9.16\", \"0.9.17\", \"0.9.18\", \"0.9.19\", \"0.9.20\", \"0.9.21\", \"0.9.22\", \"0.9.23\", \"0.9.24\", \"0.9.25\", \"0.9.26\", \"0.9.27\", \"0.9.28\", \"0.9.29\", \"0.9.30\", \"0.9.31\", \"0.9.32\", \"0.9.33\", \"0.9.34\", \"0.9.35\", \"0.9.36\", \"0.9.37\", \"0.9.40\", \"0.9.41\", \"0.9.42\", \"0.9.43\", \"0.9.45\", \"0.9.46\", \"0.9.48\", \"1.0.0-rc.1\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.9\", \"1.0.10\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.2.4\", \"1.2.5\", \"1.2.6\", \"1.2.7\", \"1.2.8\", \"1.2.9\", \"1.2.10\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.3.4\", \"1.4.0\", \"1.4.1\"],\n    \"remoteVersions\": [\"0.9.2\", \"0.9.3b\", \"0.9.3\", \"0.9.4\", \"0.9.5\", \"0.9.6\", \"0.9.7\", \"0.9.8\", \"0.9.9\", \"0.9.10\", \"0.9.11\", \"0.9.12\", \"0.9.13\", \"0.9.14\", \"0.9.15\", \"0.9.16\", \"0.9.17\", \"0.9.18\", \"0.9.19\", \"0.9.20\", \"0.9.21\", \"0.9.22\", \"0.9.23\", \"0.9.24\", \"0.9.25\", \"0.9.26\", \"0.9.27\", \"0.9.28\", \"0.9.29\", \"0.9.30\", \"0.9.31\", \"0.9.32\", \"0.9.33\", \"0.9.34\", \"0.9.35\", \"0.9.36\", \"0.9.37\", \"0.9.38\", \"0.9.40\", \"0.9.41\", \"0.9.42\", \"0.9.43\", \"0.9.44\", \"0.9.45\", \"0.9.46\", \"0.9.48\", \"1.0.0-rc.1\", \"1.0.0-rc.4\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.9\", \"1.0.10\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.1.3\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.2.4\", \"1.2.5\", \"1.2.6\", \"1.2.7\", \"1.2.8\", \"1.2.9\", \"1.2.10\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.3.4\", \"1.4.0\", \"1.4.1\", \"1.4.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/tubular/update.json\",\n  \"versions\": [\"1.4.2\"],\n  \"updateRemote\": true,\n  \"version\": \"1.4.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/tubular/1.4.2\",\n  \"branch\": \"tubular/1.4.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 225829382
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

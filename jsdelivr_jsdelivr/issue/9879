@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-20) 10 : 03 : 24 UTC
+  , issueUpdatedAt = 2016 (-02) (-20) 10 : 03 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9879/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9879")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9879
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project matreshka to v1.7.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9879")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9879.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9879.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9879"
+  , issueCreatedAt = 2016 (-02) (-20) 10 : 03 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project matreshka to v1.7.1.\n\n@matreshkajs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"matreshka\",\n    \"repo\": \"matreshkajs/matreshka\",\n    \"files\": {\n      \"include\": [\"matreshka.min.js\", \"matreshka.js\", \"matreshka.min.map\", \"./magic/matreshka-magic.min.js\", \"./magic/matreshka-magic.js\", \"./magic/matreshka-magic.min.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/matreshka\",\n    \"localVersions\": [\"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.4.1\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.1.0-rc\", \"1.1.0-rc2\", \"1.1.0-rc3\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.2.0\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.4.0\", \"1.4.1\", \"1.5.0\", \"1.5.1\", \"1.5.2\", \"1.6.0\", \"1.7.0\"],\n    \"remoteVersions\": [\"v0.0\", \"0.0.1\", \"0.0.2\", \"0.0.3\", \"v0.0.4\", \"v0.1.0\", \"v0.2.0\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.4.0\", \"v0.4.1\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.1.0-rc\", \"v1.1.0-rc2\", \"v1.1.0-rc3\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.2.0\", \"v1.3.0\", \"v1.3.1\", \"v1.3.2\", \"v1.3.3\", \"v1.4.0\", \"v1.4.1\", \"v1.5.0\", \"v1.5.1\", \"v1.5.2\", \"v1.6.0\", \"v1.7.0\", \"v1.7.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/matreshka/update.json\",\n  \"versions\": [\"v1.7.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.7.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/matreshka/1.7.1\",\n  \"branch\": \"matreshka/v1.7.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 135056937
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

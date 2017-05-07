@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-27) 11 : 21 : 38 UTC
+  , issueUpdatedAt = 2017 (-02) (-27) 11 : 21 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16590/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16590")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16590
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 22114845
+        , simpleUserLogin = N "dimitrigq"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/22114845?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dimitrigq"
+        }
+  , issueTitle = "Hype 3 JS Files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16590")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16590.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16590.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16590"
+  , issueCreatedAt = 2017 (-02) (-27) 10 : 51 : 30 UTC
+  , issueBody =
+      Just
+        "Hype Professional is the most advanced app for creating stunning animated and interactive web content."
+  , issueState = StateClosed
+  , issueId = Id 210449609
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-17) 16 : 49 : 37 UTC
+  , issueUpdatedAt = 2014 (-09) (-17) 16 : 50 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1755/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1755")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1755
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project odometer to v0.4.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1755")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1755.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1755.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1755"
+  , issueCreatedAt = 2014 (-09) (-17) 16 : 49 : 23 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project odometer to v0.4.7.\n\n@HubSpot\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"odometer\",\n    \"repo\": \"HubSpot/odometer\",\n    \"files\": {\n      \"include\": [\"odometer.min.js\", \"odometer.js\", \"./themes/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/odometer\",\n    \"localVersions\": [\"0.3.6\"],\n    \"remoteVersions\": [\"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.3.4\", \"v0.3.5\", \"v0.3.6\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\", \"v0.4.5\", \"v0.4.6\", \"v0.4.7\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.4.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/odometer/0.4.7\",\n  \"branch\": \"odometer/v0.4.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 43035971
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

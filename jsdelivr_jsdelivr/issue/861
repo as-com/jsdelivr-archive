@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-29) 15 : 17 : 51 UTC
+  , issueUpdatedAt = 2014 (-06) (-29) 15 : 17 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/861/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/861")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 861
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3034213
+        , simpleUserLogin = N "pikilon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3034213?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pikilon"
+        }
+  , issueTitle = "colorbox css"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/861"
+  , issueCreatedAt = 2014 (-05) (-28) 15 : 01 : 02 UTC
+  , issueBody =
+      Just
+        "Hey,  @nomaspatanes here\n\nColorbox has css included but I don't know why the developer put the css inside every css of each example.\n\nWithout styles and its images the colorbox.js is a little bit useless.\n\nThanks for the great work!\n"
+  , issueState = StateClosed
+  , issueId = Id 34474604
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

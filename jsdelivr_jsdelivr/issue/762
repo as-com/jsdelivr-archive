@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-10) 12 : 34 : 42 UTC
+  , issueUpdatedAt = 2014 (-05) (-11) 19 : 24 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/762/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/762")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 762
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3190176
+        , simpleUserLogin = N "pdeva"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3190176?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pdeva"
+        }
+  , issueTitle = "blocked in russia"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/762"
+  , issueCreatedAt = 2014 (-05) (-08) 05 : 44 : 09 UTC
+  , issueBody =
+      Just
+        "we were using jsdeliver and users from russia (utc+4) reported it as blocked.\n"
+  , issueState = StateClosed
+  , issueId = Id 33056115
+  , issueComments = 13
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-09) 15 : 39 : 50 UTC
+  , issueUpdatedAt = 2016 (-04) (-09) 15 : 39 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10925/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10925")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10925
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1770198
+        , simpleUserLogin = N "wski"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1770198?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wski"
+        }
+  , issueTitle = "CatsnakeJS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10925")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10925.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10925.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10925"
+  , issueCreatedAt = 2016 (-04) (-09) 03 : 41 : 10 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 147084915
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

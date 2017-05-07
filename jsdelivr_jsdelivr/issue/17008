@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 16 : 28 : 45 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 16 : 28 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17008/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17008")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17008
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2123689
+        , simpleUserLogin = N "dolphin4ik"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/2123689?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dolphin4ik"
+        }
+  , issueTitle = "synthes-0.3.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17008")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17008.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17008.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17008"
+  , issueCreatedAt = 2017 (-03) (-19) 07 : 35 : 43 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 215247390
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

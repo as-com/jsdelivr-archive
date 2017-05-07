@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-13) 12 : 34 : 18 UTC
+  , issueUpdatedAt = 2016 (-09) (-13) 12 : 34 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13760/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13760")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13760
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project metadata.js to v0.11.220"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13760")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13760.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13760.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13760"
+  , issueCreatedAt = 2016 (-09) (-13) 12 : 34 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project metadata.js to v0.11.220.\n\n@oknosoft\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"metadata.js\",\n    \"repo\": \"oknosoft/metadata.js\",\n    \"files\": {\n      \"include\": [\"dist/metadata.min.js\", \"dist/metadata.js\", \"dist/metadata.css\", \"dist/metadata.core.min.js\", \"dist/dhx_web.css\", \"dist/dhx_terrace.css\", \"dist/dhtmlx.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/metadata\",\n    \"localVersions\": [\"0.9.199\", \"0.9.200\", \"0.9.202\", \"0.9.203\", \"0.9.204\", \"0.9.205\", \"0.9.206\", \"0.10.208\", \"0.10.209\", \"0.10.210\", \"0.10.211\", \"0.10.212\", \"0.10.213\", \"0.10.214\", \"0.11.215\", \"0.11.216\", \"0.11.217\", \"0.11.218\", \"0.11.219\"],\n    \"remoteVersions\": [\"v0.9.194\", \"v0.9.195\", \"v0.9.196\", \"v0.9.197\", \"v0.9.198\", \"v0.9.199\", \"v0.9.200\", \"v0.9.201\", \"v0.9.202\", \"v0.9.203\", \"v0.9.204\", \"v0.9.205\", \"v0.9.206\", \"v0.10.208\", \"v0.10.209\", \"v0.10.210\", \"v0.10.211\", \"v0.10.212\", \"v0.10.213\", \"v0.10.214\", \"v0.11.215\", \"v0.11.216\", \"v0.11.217\", \"v0.11.218\", \"v0.11.219\", \"v0.11.220\"],\n    \"branchVersions\": [\"v0.9.201\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/metadata/update.json\",\n  \"versions\": [\"v0.11.220\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.11.220\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/metadata/0.11.220\",\n  \"branch\": \"metadata.js/v0.11.220\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 176628490
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

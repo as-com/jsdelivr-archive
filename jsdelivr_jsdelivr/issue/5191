@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-06) 10 : 55 : 40 UTC
+  , issueUpdatedAt = 2015 (-06) (-06) 10 : 55 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5191/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5191")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5191
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9922067
+        , simpleUserLogin = N "korusdipl"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9922067?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/korusdipl"
+        }
+  , issueTitle = "Pull Request for Korean-Webfonts"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5191")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5191.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5191.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5191"
+  , issueCreatedAt = 2015 (-06) (-06) 05 : 44 : 42 UTC
+  , issueBody =
+      Just
+        "Hi\n\nIt's been a while since I last posted the pull request.\n\nAs two months have passed and there was no specific claims from the foundries or bug reports from the users, I believe it is the time for an update.\n\nThere won't be any kind of this update in a year or so.\n\nThanks\n"
+  , issueState = StateClosed
+  , issueId = Id 85704633
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

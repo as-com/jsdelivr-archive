@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-05) 16 : 01 : 41 UTC
+  , issueUpdatedAt = 2014 (-11) (-05) 16 : 01 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2219/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2219")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2219
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4758362
+        , simpleUserLogin = N "barinbritva"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4758362?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/barinbritva"
+        }
+  , issueTitle = "Added new library \"Coordinates Picker\""
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2219")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2219.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2219.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2219"
+  , issueCreatedAt = 2014 (-11) (-05) 09 : 29 : 49 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 47815711
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

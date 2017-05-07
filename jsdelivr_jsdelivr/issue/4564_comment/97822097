@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-30) 14 : 36 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/97822097"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4564#issuecomment-97822097"
+  , issueCommentCreatedAt = 2015 (-04) (-30) 14 : 36 : 52 UTC
+  , issueCommentBody =
+      "The correct link is:\n`https://cdn.jsdelivr.net/g/foundation@5.5.1(js/foundation/foundation.accordion.js+js/foundation/foundation.alert.js)`\n\nIt combines both files and works just fine for me. Can you give me more information if you see errors with that link?\n"
+  , issueCommentId = 97822097
+  }

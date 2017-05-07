@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-14) 00 : 26 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/253677593"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14272#issuecomment-253677593"
+  , issueCommentCreatedAt = 2016 (-10) (-14) 00 : 26 : 40 UTC
+  , issueCommentBody =
+      "You'll need to create a git tag or github release before auto updating will work\n"
+  , issueCommentId = 253677593
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-08) 17 : 08 : 00 UTC
+  , issueUpdatedAt = 2016 (-02) (-08) 17 : 08 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9610/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9610")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9610
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7776174
+        , simpleUserLogin = N "MarkPflug"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7776174?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MarkPflug"
+        }
+  , issueTitle = "Jquery svg plugin"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9610")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9610.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9610.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9610"
+  , issueCreatedAt = 2016 (-02) (-06) 00 : 59 : 42 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 131800552
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-14) 15 : 52 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/131157991"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6409#issuecomment-131157991"
+  , issueCommentCreatedAt = 2015 (-08) (-14) 15 : 52 : 10 UTC
+  , issueCommentBody =
+      "If you are 100% sure that no websites will break then I can merge. But in the future breaking changes like that should equal to a major version change 3x->4.x\n"
+  , issueCommentId = 131157991
+  }

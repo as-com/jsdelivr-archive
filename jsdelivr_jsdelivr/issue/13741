@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-12) 13 : 03 : 53 UTC
+  , issueUpdatedAt = 2016 (-09) (-12) 13 : 03 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13741/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13741")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13741
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project js-sha256 to v0.3.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13741")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13741.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13741.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13741"
+  , issueCreatedAt = 2016 (-09) (-12) 13 : 03 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project js-sha256 to v0.3.2.\n\n@emn178\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"js-sha256\",\n    \"repo\": \"emn178/js-sha256\",\n    \"files\": {\n      \"basePath\": \"build/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/js-sha256\",\n    \"localVersions\": [\"0.2.3\", \"0.3.0\", \"0.3.1\"],\n    \"remoteVersions\": [\"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.2.1\", \"v0.2.2\", \"v0.2.3\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/js-sha256/update.json\",\n  \"versions\": [\"v0.3.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.3.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/js-sha256/0.3.2\",\n  \"branch\": \"js-sha256/v0.3.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 176370074
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

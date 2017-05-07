@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-29) 16 : 04 : 59 UTC
+  , issueUpdatedAt = 2014 (-05) (-07) 19 : 51 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/724/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/724")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 724
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 953140
+        , simpleUserLogin = N "eruizdechavez"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/953140?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/eruizdechavez"
+        }
+  , issueTitle = "Add angular-translate 2.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/724")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/724.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/724.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/724"
+  , issueCreatedAt = 2014 (-04) (-29) 15 : 42 : 43 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 32457348
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

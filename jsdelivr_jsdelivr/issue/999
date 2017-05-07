@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-01) 16 : 33 : 55 UTC
+  , issueUpdatedAt = 2014 (-07) (-01) 16 : 33 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/999/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/999")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 999
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 643911
+        , simpleUserLogin = N "xiamx"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/643911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/xiamx"
+        }
+  , issueTitle = "Added lapi"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/999")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/999.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/999.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/999"
+  , issueCreatedAt = 2014 (-06) (-23) 02 : 55 : 37 UTC
+  , issueBody =
+      Just
+        "I hope I've done everything right here. Please let me know if something was wrong. \n"
+  , issueState = StateClosed
+  , issueId = Id 36259119
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-31) 10 : 19 : 20 UTC
+  , issueUpdatedAt = 2016 (-03) (-31) 10 : 19 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10714/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10714")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10714
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6309638
+        , simpleUserLogin = N "meandmax"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/6309638?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/meandmax"
+        }
+  , issueTitle = "add lory.js to jsDelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10714")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10714.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10714.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10714"
+  , issueCreatedAt = 2016 (-03) (-30) 21 : 28 : 33 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 144724589
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

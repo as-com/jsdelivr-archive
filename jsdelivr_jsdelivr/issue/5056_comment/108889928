@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-04) 13 : 03 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 659492
+        , simpleUserLogin = N "ToX82"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/659492?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ToX82"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/108889928"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/5056#issuecomment-108889928"
+  , issueCommentCreatedAt = 2015 (-06) (-04) 13 : 03 : 05 UTC
+  , issueCommentBody =
+      "Ok, sounds fair... but today I'm noticing the opposite behaviour:\n\nthis points to an older release (1.3.0)\n\n```\nhttp://cdn.jsdelivr.net/cookie-bar/1/cookiebar-latest.js\n```\n\nand this is the actual latest release (1.4.0)\n\n```\nhttp://cdn.jsdelivr.net/cookie-bar/latest/cookiebar-latest.js\n```\n"
+  , issueCommentId = 108889928
+  }

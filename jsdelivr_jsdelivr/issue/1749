@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-16) 23 : 37 : 46 UTC
+  , issueUpdatedAt = 2014 (-09) (-16) 23 : 47 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1749/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1749")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1749
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1039863
+        , simpleUserLogin = N "keithblaha"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1039863?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/keithblaha"
+        }
+  , issueTitle = "adding jquery.scrollto 1.4.13"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1749")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1749.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1749.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1749"
+  , issueCreatedAt = 2014 (-09) (-16) 23 : 36 : 17 UTC
+  , issueBody =
+      Just
+        "this adds the newest version (1.4.13) of the jquery.scrollTo plugin\n"
+  , issueState = StateClosed
+  , issueId = Id 42946509
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

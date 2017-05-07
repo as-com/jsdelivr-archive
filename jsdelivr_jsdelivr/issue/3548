@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-21) 09 : 34 : 26 UTC
+  , issueUpdatedAt = 2015 (-02) (-21) 09 : 34 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3548/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3548")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3548
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 657831
+        , simpleUserLogin = N "asimihsan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/657831?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/asimihsan"
+        }
+  , issueTitle = "jquery.tablequeryjs - 0.1.8 (bug fix)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3548")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3548.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3548.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3548"
+  , issueCreatedAt = 2015 (-02) (-21) 03 : 06 : 01 UTC
+  , issueBody = Just "Sorry for the repeated pull requests.\n"
+  , issueState = StateClosed
+  , issueId = Id 58438665
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

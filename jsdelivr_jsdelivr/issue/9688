@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-10) 21 : 21 : 22 UTC
+  , issueUpdatedAt = 2016 (-02) (-10) 21 : 21 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9688/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9688")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9688
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1518007
+        , simpleUserLogin = N "YarmoM"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1518007?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/YarmoM"
+        }
+  , issueTitle = "Added welderjs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9688")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9688.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9688.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9688"
+  , issueCreatedAt = 2016 (-02) (-10) 07 : 26 : 51 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 132626512
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

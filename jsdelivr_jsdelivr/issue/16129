@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-05) 01 : 40 : 52 UTC
+  , issueUpdatedAt = 2017 (-02) (-05) 01 : 40 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16129/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16129")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16129
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 147451
+        , simpleUserLogin = N "humancopy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/147451?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/humancopy"
+        }
+  , issueTitle = "Add peace.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16129")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16129.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16129.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16129"
+  , issueCreatedAt = 2017 (-02) (-03) 13 : 41 : 57 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 205159924
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-02) 02 : 49 : 47 UTC
+  , issueUpdatedAt = 2013 (-11) (-03) 14 : 50 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/134/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/134")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 134
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 174626
+        , simpleUserLogin = N "DMarby"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/174626?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DMarby"
+        }
+  , issueTitle = "JSON api not showing data for all versions."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/134"
+  , issueCreatedAt = 2013 (-11) (-02) 02 : 39 : 55 UTC
+  , issueBody =
+      Just
+        "Hello, I noticed that http://api.jsdelivr.com/packages.php does only show data for the current version of a plugin, would much be preferred if it could list info about every version of each plugin.\n"
+  , issueState = StateClosed
+  , issueId = Id 21994416
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

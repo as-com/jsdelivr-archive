@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2015 (-10) (-16) 15 : 50 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7426/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/7426")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7426
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "jsDelivr Big Data - Analytics"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7426"
+  , issueCreatedAt = 2015 (-10) (-16) 11 : 35 : 58 UTC
+  , issueBody =
+      Just
+        "The current analytics system that I run is very basic and not very good.\n- A bunch of scripts pull the raw logs from all the CDNs\n- They parse the data and then compile an array. The array contains $projectName,$hits,$date\n- This data then gets merged into the DB\n\nThis way we can create basic charts with the number of hits each project had over the course of days/weeks/months.\n\nIt also eats very little space.\n\nBut except from the number of hits we have lots of interesting data like user-agents, HTTP version, HTTPS vs HTTP, exact project version, referral url, user's location....\nAll this data could be used to create amazing charts and graphs mapping the usage of HTTP2, HTTPS, popular countries and much more.\n\nOne way to do it is to use Elasticsearch:\n- A bunch of scripts pull the raw logs from all the CDNs\n- They parse the data and format it into JSON. The JSON contains ALL the information\n- We then batch insert the json document into Elasticsearch\n- Once we have the data in Elasticsearch we can do pretty much anything we want\n\nAwesome right? The problem here is the amount of data we have.\nMore than 6 billion HTTP requests per month. Each HTTP request contains data ranging from 200bytes to 500bytes.\nThats more than 1TB of information per month that needs to be processed and stored. Which is not going to expire as we need this historical data.\nAnd then of course Elasticsearch would need to process our analytics queries in a timely fashion to build all the cool stuff we want.\nWhile its possible, its too expensive for me to build such a powerful server cluster.\n\nAny ideas or suggestion what to do? Any alternative methods to achieve that? Or a company that would be interested to sponsor the project?\nWe can do nothing and just live with number of hits per project. Thats already more than any other public CDN offers. \n"
+  , issueState = StateOpen
+  , issueId = Id 111813626
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

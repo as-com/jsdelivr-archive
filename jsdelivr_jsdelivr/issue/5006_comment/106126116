@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-28) 00 : 43 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/106126116"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5006#issuecomment-106126116"
+  , issueCommentCreatedAt = 2015 (-05) (-28) 00 : 43 : 54 UTC
+  , issueCommentBody =
+      "@tivie Hey, non min files won't be necessary for production (CDN) use. Could you remove them?\n"
+  , issueCommentId = 106126116
+  }

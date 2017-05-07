@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-02) 11 : 05 : 08 UTC
+  , issueUpdatedAt = 2014 (-07) (-02) 15 : 12 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1095/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1095")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1095
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ractive-route to v0.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1095")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1095.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1095.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1095"
+  , issueCreatedAt = 2014 (-07) (-02) 11 : 04 : 53 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ractive-route to v0.1.2.\n\n@MartinKolarik\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ractive-route\",\n    \"repo\": \"MartinKolarik/ractive-route\",\n    \"files\": {\n      \"include\": [\"ractive-route.js\", \"ractive-route.min.js\", \"ractive-route.min.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/ractive.route\",\n    \"localVersions\": [\"0.1.0\", \"0.1.1\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.1.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/ractive.route/0.1.2\",\n  \"branch\": \"ractive-route/v0.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 36971761
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-06) 00 : 17 : 41 UTC
+  , issueUpdatedAt = 2016 (-12) (-06) 00 : 17 : 41 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14459/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/14459")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14459
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4303
+        , simpleUserLogin = N "jdalton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4303?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jdalton"
+        }
+  , issueTitle =
+      "non-gzipped/non-deflated responses is trimming trailing newlines."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14459"
+  , issueCreatedAt = 2016 (-10) (-24) 05 : 29 : 27 UTC
+  , issueBody =
+      Just
+        "While adding [SRI integrity attributes](https://www.srihash.org/) I noticed that the response for \n\n> https://cdn.jsdelivr.net/g/fuse@2.5.0,immutable.js@3.8.1,react@15.3.2(react.min.js+react-dom.min.js)\n\n was incorrect.\n\nIt looks like jsdelivr is truncating the last `\\n` for non-gzipped/non-deflated responses.\nThe trimming, different responses for non-gzipped and gzipped, will cause SRI checks to fail for non-gzipped client responses.\n\nRelated to https://github.com/request/request/issues/2434 and https://github.com/mozilla/srihash.org/issues/152.\n"
+  , issueState = StateClosed
+  , issueId = Id 184751854
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

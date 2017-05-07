@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-13) 15 : 03 : 27 UTC
+  , issueUpdatedAt = 2016 (-09) (-13) 15 : 03 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12999/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12999")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12999
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bootswatch to v3.3.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12999")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12999.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12999.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12999"
+  , issueCreatedAt = 2016 (-07) (-30) 22 : 02 : 53 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootswatch to v3.3.7.\n\n@thomaspark\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bootswatch\",\n    \"repo\": \"thomaspark/bootswatch\",\n    \"files\": {\n      \"exclude\": [\"2/**\", \"api/**\", \"assets/**\", \"bower_components/**\", \"custom/**\", \"default/**\", \"global/**\", \"help/**\", \"tests/**\", \"**/*.less\", \"**/*.scss\", \"**/*.html\", \"**/*.yml\", \"**/*.md\", \"**/*.txt\", \"**/*.ico\", \"**/*.png\", \"**/*.jpg\", \".gitignore\", \"CNAME\", \"Gemfile\", \"Gruntfile.js\", \"LICENSE\", \"bower.json\", \"composer.json\", \"package.json\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/bootswatch\",\n    \"localVersions\": [\"2.3.2\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3b\", \"3.0.3\", \"3.1.0\", \"3.1.1\", \"3.1.1.1\", \"3.2.0\", \"3.2.0.1\", \"3.3.0\", \"3.3.1\", \"3.3.1.2\", \"3.3.2\", \"3.3.4\", \"3.3.5\", \"3.3.6\", \"3.3.6+2\"],\n    \"remoteVersions\": [\"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.1.0\", \"v2.1.1\", \"v2.1.1+1\", \"v2.2.2\", \"v2.2.2+1\", \"v2.2.2+2\", \"v2.3.0\", \"v2.3.0+1\", \"v2.3.0+2\", \"v2.3.1\", \"v2.3.1+1\", \"v2.3.2\", \"v3.0.0-rc1\", \"v3.0.0-rc2\", \"v3.0.0\", \"v3.0.1\", \"v3.0.2\", \"v3.0.2+1\", \"v3.0.2+2\", \"v3.0.3\", \"v3.0.3+1\", \"v3.1.0\", \"v3.1.0+1\", \"v3.1.1\", \"v3.1.1+1\", \"v3.2.0\", \"v3.2.0+1\", \"v3.2.0+2\", \"v3.2.0+3\", \"v3.2.0+4\", \"v3.3.0\", \"v3.3.1\", \"v3.3.1+1\", \"v3.3.1+2\", \"v3.3.1+3\", \"v3.3.2\", \"v3.3.4\", \"v3.3.4+1\", \"v3.3.5\", \"v3.3.5+1\", \"v3.3.5+2\", \"v3.3.5+3\", \"v3.3.5+4\", \"v3.3.6\", \"v3.3.6+1\", \"v3.3.6+2\", \"v3.3.7\"],\n    \"branchVersions\": [\"v2.3.2\", \"v3.3.6+1\", \"v3.3.6+2\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/bootswatch/update.json\",\n  \"versions\": [\"v3.3.7\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.3.7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/bootswatch/3.3.7\",\n  \"branch\": \"bootswatch/v3.3.7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 168489208
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

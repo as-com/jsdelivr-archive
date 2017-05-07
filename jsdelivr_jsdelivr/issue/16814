@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-13) 02 : 50 : 02 UTC
+  , issueUpdatedAt = 2017 (-03) (-13) 02 : 50 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16814/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16814")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16814
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2006839
+        , simpleUserLogin = N "DiegoRBaquero"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2006839?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DiegoRBaquero"
+        }
+  , issueTitle = "V: Add non minified"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16814")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16814.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16814.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16814"
+  , issueCreatedAt = 2017 (-03) (-09) 14 : 28 : 10 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 213052892
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

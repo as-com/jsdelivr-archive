@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-31) 19 : 18 : 36 UTC
+  , issueUpdatedAt = 2016 (-07) (-31) 19 : 18 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12262/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12262")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12262
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-chart.js to 1.0.0-alpha7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12262")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12262.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12262.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12262"
+  , issueCreatedAt = 2016 (-06) (-18) 12 : 02 : 25 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-chart.js to 1.0.0-alpha7.\n\n@jtblin\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"angular-chart.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"exclude\": [\"angular-chart.js.tar.gz\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.chartjs\",\n    \"localVersions\": [\"0.7.3\", \"0.7.4\", \"0.7.6\", \"0.8.0\", \"0.8.1\", \"0.8.2\", \"0.8.3\", \"0.8.4\", \"0.8.5\", \"0.8.6\", \"0.8.7\", \"0.8.8\"],\n    \"remoteVersions\": [\"0.4.2\", \"0.5.0\", \"0.5.1\", \"0.5.2\", \"0.5.3\", \"0.6.0\", \"0.7.0\", \"0.7.1\", \"0.7.2\", \"0.7.3\", \"0.7.4\", \"0.7.5\", \"0.7.6\", \"0.8.0\", \"0.8.1\", \"0.8.2\", \"0.8.3\", \"0.8.4\", \"0.8.5\", \"0.8.6\", \"0.8.7\", \"0.8.8\", \"0.8.9\", \"0.9.0\", \"0.10.0\", \"0.10.1\", \"0.10.2\", \"1.0.0-alpha1\", \"1.0.0-alpha2\", \"1.0.0-alpha3\", \"1.0.0-alpha4\", \"1.0.0-alpha5\", \"1.0.0-alpha6\", \"1.0.0-alpha7\"],\n    \"branchVersions\": [\"1.0.0-alpha1\", \"1.0.0-alpha3\", \"1.0.0-alpha4\", \"1.0.0-alpha5\", \"1.0.0-alpha6\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.chartjs/update.json\",\n  \"versions\": [\"1.0.0-alpha7\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.0-alpha7\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.chartjs/1.0.0-alpha7\",\n  \"branch\": \"angular-chart.js/1.0.0-alpha7\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 161020863
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

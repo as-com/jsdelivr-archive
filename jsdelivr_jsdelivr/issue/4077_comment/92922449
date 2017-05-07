@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-14) 15 : 49 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/92922449"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4077#issuecomment-92922449"
+  , issueCommentCreatedAt = 2015 (-04) (-14) 15 : 49 : 58 UTC
+  , issueCommentBody =
+      "@UnbounDev When a project changes the name of the \"mainfile\" we change it in info.ini, but to make sure all previous links dont break we create a file callled `mainfile` containing the name of the mainfile for that particular version. /g/ prioritizes the separate `mainfile` per version.\n\nFor example https://github.com/jsdelivr/jsdelivr/blob/master/files/imagesloaded/2.1.0/mainfile\n\nWe should include this in our API so bot could read and stop complaining about missing mainfiles, they are not missing but overwritten by a local version mainfile\n"
+  , issueCommentId = 92922449
+  }

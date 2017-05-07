@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-25) 19 : 03 : 29 UTC
+  , issueUpdatedAt = 2016 (-01) (-25) 19 : 03 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9341/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9341")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9341
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project layzr.js to v2.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9341")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9341.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9341.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9341"
+  , issueCreatedAt = 2016 (-01) (-25) 19 : 03 : 25 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project layzr.js to v2.0.2.\n\n@callmecavs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"layzr.js\",\n    \"repo\": \"callmecavs/layzr.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/layzr.js\",\n    \"localVersions\": [\"1.2.2\", \"1.2.3\", \"1.3.0\", \"1.4.0\", \"1.4.1\", \"1.4.2\", \"1.4.3\", \"2.0.0\", \"2.0.1\"],\n    \"remoteVersions\": [\"v1.1.4\", \"v1.1.5\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.3\", \"v1.3.0\", \"v1.4.0\", \"v1.4.1\", \"v1.4.2\", \"v1.4.3\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/layzr.js/update.json\",\n  \"versions\": [\"v2.0.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/layzr.js/2.0.2\",\n  \"branch\": \"layzr.js/v2.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 128612366
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

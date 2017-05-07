@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-24) 18 : 38 : 01 UTC
+  , issueUpdatedAt = 2014 (-04) (-24) 18 : 38 : 01 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/696/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/696")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 696
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "add jquery.collapse v 1.1.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/696")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/696.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/696.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/696"
+  , issueCreatedAt = 2014 (-04) (-24) 18 : 28 : 47 UTC
+  , issueBody =
+      Just
+        "add query.collapse v 1.1.1 from @danielstocks\n\nhttps://github.com/danielstocks/jQuery-Collapse\n"
+  , issueState = StateClosed
+  , issueId = Id 32173361
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-29) 01 : 43 : 00 UTC
+  , issueUpdatedAt = 2016 (-12) (-29) 01 : 43 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15534/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15534")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15534
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project syncfusion-ej-global to 14.4.20"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15534")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15534.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15534.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15534"
+  , issueCreatedAt = 2016 (-12) (-28) 13 : 05 : 20 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project syncfusion-ej-global to 14.4.20.\n\n@syncfusion\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"syncfusion-ej-global\",\n    \"repo\": \"syncfusion/ej-global\",\n    \"files\": {\n      \"include\": [\"./i18n/**/*\", \"./l10n/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/syncfusion-ej-global\",\n    \"localVersions\": [\"14.4.15\", \"14.4.16\"],\n    \"remoteVersions\": [\"14.2.26\", \"14.3.49\", \"14.4.15\", \"14.4.16\", \"14.4.20\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/syncfusion-ej-global/update.json\",\n  \"versions\": [\"14.4.20\"],\n  \"updateRemote\": true,\n  \"version\": \"14.4.20\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/syncfusion-ej-global/14.4.20\",\n  \"branch\": \"syncfusion-ej-global/14.4.20\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 197850395
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

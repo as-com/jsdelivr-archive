@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-06) 23 : 35 : 46 UTC
+  , issueUpdatedAt = 2016 (-07) (-07) 22 : 47 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12574/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12574")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12574
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9922067
+        , simpleUserLogin = N "korusdipl"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9922067?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/korusdipl"
+        }
+  , issueTitle =
+      "Patched Noto Sans KR Webfonts & Main file path in info.ini"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12574")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12574.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12574.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12574"
+  , issueCreatedAt = 2016 (-07) (-06) 00 : 33 : 01 UTC
+  , issueBody =
+      Just
+        "1. Due to the rendering error (baseline floating) on some browsers, it gave different experience/errors across browsers. Patched.\n2. The main css file at the dist folder doesn't show up properly previously, changed info.ini pathinfo to resolve the issue.\n- Due to the nature of this resource, I'd rather replace the files than incrementing versions and copy contents 'as always'\n\nThanks for your attention!\n"
+  , issueState = StateClosed
+  , issueId = Id 163975400
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-29) 17 : 40 : 29 UTC
+  , issueUpdatedAt = 2017 (-03) (-29) 17 : 40 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17173/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17173")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17173
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11850047
+        , simpleUserLogin = N "gwsetra"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11850047?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/gwsetra"
+        }
+  , issueTitle = "Patch 3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17173")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17173.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17173.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17173"
+  , issueCreatedAt = 2017 (-03) (-23) 22 : 22 : 25 UTC
+  , issueBody = Just "already updated info.ini and update.json"
+  , issueState = StateClosed
+  , issueId = Id 216590316
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

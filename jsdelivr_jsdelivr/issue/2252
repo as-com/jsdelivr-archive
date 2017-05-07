@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-06) 21 : 27 : 04 UTC
+  , issueUpdatedAt = 2014 (-11) (-06) 21 : 27 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2252/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2252")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2252
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project clappr to 0.0.59"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2252")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2252.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2252.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2252"
+  , issueCreatedAt = 2014 (-11) (-06) 21 : 04 : 36 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project clappr to 0.0.59.\n\n@globocom\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"clappr\",\n    \"repo\": \"globocom/clappr\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"clappr.min.js\", \"./assets/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/clappr\",\n    \"localVersions\": [\"0.0.57\", \"0.0.58\"],\n    \"remoteVersions\": [\"0.0.30\", \"0.0.31\", \"0.0.32\", \"0.0.33\", \"0.0.34\", \"0.0.35\", \"0.0.36\", \"0.0.37\", \"0.0.38\", \"0.0.39\", \"0.0.40\", \"0.0.41\", \"0.0.42\", \"0.0.43\", \"0.0.44\", \"0.0.45\", \"0.0.46\", \"0.0.47\", \"0.0.48\", \"0.0.49\", \"0.0.50\", \"0.0.51\", \"0.0.52\", \"0.0.53\", \"0.0.54\", \"0.0.55\", \"0.0.56\", \"0.0.57\", \"0.0.58\", \"0.0.59\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.0.59\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/clappr/0.0.59\",\n  \"branch\": \"clappr/0.0.59\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 48014393
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

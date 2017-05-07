@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-23) 10 : 38 : 34 UTC
+  , issueUpdatedAt = 2014 (-11) (-23) 10 : 38 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2461/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2461")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2461
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5065163
+        , simpleUserLogin = N "Dennis14e"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5065163?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Dennis14e"
+        }
+  , issueTitle = "Added update.json for jquery.autosize"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2461")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2461.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2461.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2461"
+  , issueCreatedAt = 2014 (-11) (-22) 23 : 49 : 34 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 49808744
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-27) 18 : 13 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/125292719"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6134#issuecomment-125292719"
+  , issueCommentCreatedAt = 2015 (-07) (-27) 18 : 13 : 39 UTC
+  , issueCommentBody =
+      "The instruction for that is here https://github.com/jsdelivr/libgrabber#add-updatejson-schema\n\n> dist/_.js - copies javascript files from dist dir. Directory structure will not be retained (e.g. dist dir will be stripped when copied). To retain directory structure prepend glob with ./ e.g. ./vendors/_.js \n\nI doubt Habr will be interested to learn how to add projects here, it would basically a documentation.\n"
+  , issueCommentId = 125292719
+  }

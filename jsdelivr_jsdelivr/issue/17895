@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2017 (-05) (-01) 23 : 02 : 34 UTC
+  , issueUpdatedAt = 2017 (-05) (-01) 23 : 02 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17895/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17895")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17895
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 22839320
+        , simpleUserLogin = N "futurecodesmith"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/22839320?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/futurecodesmith"
+        }
+  , issueTitle = "Add StreamLineD3 folder and line.js file"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17895")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17895.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17895.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17895"
+  , issueCreatedAt = 2017 (-05) (-01) 22 : 44 : 50 UTC
+  , issueBody =
+      Just
+        "The single line.js file outside the StreamLineD3 folder does not need to be merged.  "
+  , issueState = StateClosed
+  , issueId = Id 225546684
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

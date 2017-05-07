@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-20) 12 : 16 : 38 UTC
+  , issueUpdatedAt = 2016 (-04) (-20) 12 : 16 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11137/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11137")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11137
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 72989
+        , simpleUserLogin = N "kazupon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/72989?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kazupon"
+        }
+  , issueTitle = "Add vue-i18n library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11137")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11137.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11137.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11137"
+  , issueCreatedAt = 2016 (-04) (-19) 14 : 37 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 149480136
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

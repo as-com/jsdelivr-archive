@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-13) 14 : 18 : 09 UTC
+  , issueUpdatedAt = 2014 (-03) (-14) 20 : 22 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/451/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/451")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 451
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1920405
+        , simpleUserLogin = N "moderndeveloperllc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1920405?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/moderndeveloperllc"
+        }
+  , issueTitle = "Security Question: package validation"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/451"
+  , issueCreatedAt = 2014 (-03) (-13) 13 : 30 : 32 UTC
+  , issueBody =
+      Just
+        "@jimaek I love your service and appreciate the diversity of software you make available. I especially like being able to submit updates to packages I use on a daily basis. One thing does concern me though.\n\nIs there any kind of validation occurring that compares the user-submitted files in a pull request with an authoritative copy of the submitted library? I'm thinking about the potential for malicious code to be inserted to the latest version of a popular package. Could be really bad if, say, a new version of jQuery comes out and the copy that is submitted has malicious code inserted into the .min version.\n"
+  , issueState = StateClosed
+  , issueId = Id 29350046
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

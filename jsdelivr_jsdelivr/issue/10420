@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-19) 21 : 54 : 52 UTC
+  , issueUpdatedAt = 2016 (-03) (-19) 21 : 54 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10420/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10420")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10420
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 145155
+        , simpleUserLogin = N "DBJDBJ"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/145155?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DBJDBJ"
+        }
+  , issueTitle = "added"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10420")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10420.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10420.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10420"
+  , issueCreatedAt = 2016 (-03) (-13) 09 : 47 : 58 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 140470165
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

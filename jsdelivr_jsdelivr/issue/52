@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-14) 22 : 45 : 14 UTC
+  , issueUpdatedAt = 2014 (-04) (-14) 04 : 10 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/52/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/52")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/enhancement"
+          , labelName = N "enhancement"
+          }
+      ]
+  , issueNumber = 52
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "multi-build problem (lodash)"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/52"
+  , issueCreatedAt = 2013 (-07) (-15) 08 : 46 : 36 UTC
+  , issueBody =
+      Just
+        "I noticed that your lodash page lists the `lodash.backbone.js` build as default:\nhttp://www.jsdelivr.com/#!lodash\nbut seems the `lodash.js` is the default: https://github.com/bestiejs/lodash/blob/master/README.md\n\nLooks like an alphabetical sorting issue.  Is there a way to flag a sub-version as 'default' please?\nThanks for your service & hosting the rainbow of lodash flavors!\n"
+  , issueState = StateClosed
+  , issueId = Id 16744169
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

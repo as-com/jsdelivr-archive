@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-07) 13 : 56 : 47 UTC
+  , issueUpdatedAt = 2014 (-09) (-07) 13 : 56 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1522/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1522")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1522
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5569934
+        , simpleUserLogin = N "NithoAlif"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5569934?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/NithoAlif"
+        }
+  , issueTitle = "jqBar and FFForm added"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1522")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1522.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1522.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1522"
+  , issueCreatedAt = 2014 (-08) (-25) 15 : 55 : 03 UTC
+  , issueBody =
+      Just
+        "Adding jqBar and FFForm  jQuery plugin by Muhammad Shahbaz Saleem\n"
+  , issueState = StateClosed
+  , issueId = Id 41075447
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

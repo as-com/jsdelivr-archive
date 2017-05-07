@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-19) 18 : 34 : 05 UTC
+  , issueUpdatedAt = 2017 (-02) (-19) 18 : 34 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16433/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16433")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16433
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project matchheight to 0.7.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16433")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16433.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16433.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16433"
+  , issueCreatedAt = 2017 (-02) (-19) 18 : 34 : 01 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project matchheight to 0.7.2.\n\n@liabru\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"bower\",\n    \"name\": \"matchheight\",\n    \"repo\": \"liabru/jquery-match-height\",\n    \"files\": {\n      \"basePath\": \"dist\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.matchheight\",\n    \"localVersions\": [\"0.7.0\"],\n    \"remoteVersions\": [\"0.5.0\", \"0.5.1\", \"0.5.2\", \"0.6.0\", \"0.7.0\", \"0.7.1\", \"0.7.2\"],\n    \"branchVersions\": [\"0.7.0\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.matchheight/update.json\",\n  \"versions\": [\"0.7.2\"],\n  \"updateRemote\": true,\n  \"version\": \"0.7.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.matchheight/0.7.2\",\n  \"branch\": \"matchheight/0.7.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 208736243
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

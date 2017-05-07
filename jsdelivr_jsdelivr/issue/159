@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-23) 15 : 45 : 42 UTC
+  , issueUpdatedAt = 2014 (-06) (-20) 00 : 01 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/159/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/159")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 159
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 744360
+        , simpleUserLogin = N "mrkindy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/744360?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mrkindy"
+        }
+  , issueTitle = "Add darfonts project"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/159")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/159.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/159.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/159"
+  , issueCreatedAt = 2013 (-11) (-23) 14 : 37 : 18 UTC
+  , issueBody = Just "Add darfonts project to the CDN\n"
+  , issueState = StateClosed
+  , issueId = Id 23187915
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

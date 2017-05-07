@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-04) 07 : 49 : 22 UTC
+  , issueUpdatedAt = 2016 (-09) (-04) 07 : 49 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13592/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13592")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13592
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1005813
+        , simpleUserLogin = N "isaackwan"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1005813?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isaackwan"
+        }
+  , issueTitle = "Flexibility.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13592")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13592.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13592.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13592"
+  , issueCreatedAt = 2016 (-09) (-04) 07 : 48 : 43 UTC
+  , issueBody =
+      Just
+        "Polyfill for flexbox in older browsers.\n\n(Sorry for two separate commits - I don't have access to my main computer right now)\n"
+  , issueState = StateClosed
+  , issueId = Id 174936513
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

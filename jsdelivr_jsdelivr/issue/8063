@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-23) 12 : 46 : 29 UTC
+  , issueUpdatedAt = 2016 (-01) (-01) 03 : 26 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8063/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8063")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8063
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 14367322
+        , simpleUserLogin = N "ssenbud"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/14367322?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ssenbud"
+        }
+  , issueTitle =
+      "[author] Update stacktrace.js and add error-stack-parser"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8063")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8063.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8063.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8063"
+  , issueCreatedAt = 2015 (-11) (-23) 05 : 54 : 13 UTC
+  , issueBody =
+      Just
+        "This PR adds versions 0.6.4 and 1.0.1 of stacktrace.js. \n\nVersion 1.0.1 of stacktrace.js split out Error parsing into a separate module, error-stack-parser, so we are adding that.\n\nThank you for hosting!\n"
+  , issueState = StateClosed
+  , issueId = Id 118324039
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

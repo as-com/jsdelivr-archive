@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-16) 19 : 58 : 14 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 06 : 11 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/955/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/955")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 955
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "added xe-core"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/955")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/955.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/955.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/955"
+  , issueCreatedAt = 2014 (-06) (-15) 21 : 43 : 54 UTC
+  , issueBody =
+      Just
+        "this is common js, css, of xe-core(Xpressengine).\n\nAll js and CSS file is minifed.(but comment is left becasue of license issue)\n\ni set auto update for .js .css\nhttps://github.com/xpressengine/xe-core\nhttp://www.xpressengine.com (offcial site, Korea)\n\nLicense : LGPLv2\n\nP.S\nthis is new version of pull issue #954\n"
+  , issueState = StateClosed
+  , issueId = Id 35758799
+  , issueComments = 13
+  , issueMilestone = Nothing
+  }

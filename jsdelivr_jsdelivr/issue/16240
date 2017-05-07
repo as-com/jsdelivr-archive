@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-09) 20 : 39 : 56 UTC
+  , issueUpdatedAt = 2017 (-02) (-09) 20 : 39 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16240/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16240")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16240
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9476006
+        , simpleUserLogin = N "dgilling"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9476006?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/dgilling"
+        }
+  , issueTitle = "Add moesif-browser-js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16240")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16240.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16240.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16240"
+  , issueCreatedAt = 2017 (-02) (-08) 09 : 45 : 58 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 206144408
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

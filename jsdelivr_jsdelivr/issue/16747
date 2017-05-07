@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2017 (-03) (-06) 17 : 51 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16747/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/16747")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16747
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1803819
+        , simpleUserLogin = N "pierrocknroll"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1803819?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pierrocknroll"
+        }
+  , issueTitle = "Bootstrap-theme disapear ?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16747"
+  , issueCreatedAt = 2017 (-03) (-06) 17 : 51 : 32 UTC
+  , issueBody =
+      Just
+        "Hi,\r\nIt seems that\r\nhttp://cdn.jsdelivr.net/g/bootstrap(css/bootstrap-theme.min.css)\r\ndoesn't work anymore. It was working :(\r\n\r\nThanks"
+  , issueState = StateOpen
+  , issueId = Id 212199438
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

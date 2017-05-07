@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 16 : 52 : 53 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 16 : 52 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14810/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14810")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14810
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4730969
+        , simpleUserLogin = N "oliversturm"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4730969?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/oliversturm"
+        }
+  , issueTitle = "Fix update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14810")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14810.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14810.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14810"
+  , issueCreatedAt = 2016 (-11) (-16) 15 : 48 : 18 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 189744794
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

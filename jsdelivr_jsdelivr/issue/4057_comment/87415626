@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-29) 13 : 43 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/87415626"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4057#issuecomment-87415626"
+  , issueCommentCreatedAt = 2015 (-03) (-29) 13 : 43 : 06 UTC
+  , issueCommentBody =
+      "Yeah completely disagree. .min.map is a good fallback in case something\ngoes wrong\nOn Mar 29, 2015 7:08 AM, \"Dmitriy Akulov\" notifications@github.com wrote:\n\n> most min.js files include a .map file in their source code that results in\n> the browser sending that request anyway. So unless we have a way to remove\n> the .map URL from .min.js then I believe we need to keep uploading the map\n> files.\n> \n> \8212\n> Reply to this email directly or view it on GitHub\n> https://github.com/jsdelivr/jsdelivr/pull/4057#issuecomment-87395107.\n"
+  , issueCommentId = 87415626
+  }

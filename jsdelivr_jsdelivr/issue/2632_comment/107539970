@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-01) 14 : 44 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/107539970"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-107539970"
+  , issueCommentCreatedAt = 2015 (-06) (-01) 14 : 44 : 59 UTC
+  , issueCommentBody =
+      "@hubdotcom Good point. Major changes to the tracker are quite rare, I must say. Most of the time, we tweak the code to fix bugs in the JS code, which means that even people who don't update Slimstat, will get the new tracking script automatically. And of course, those who have their own rationale for not wanting to upgrade the plugin, can always turn the CDN setting off, and serve the script from their website ;)\n"
+  , issueCommentId = 107539970
+  }

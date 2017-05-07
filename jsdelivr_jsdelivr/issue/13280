@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-16) 23 : 56 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13280/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/13280")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13280
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 99931
+        , simpleUserLogin = N "isagalaev"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/99931?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/isagalaev"
+        }
+  , issueTitle = "highlight.js 9.6.0"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13280"
+  , issueCreatedAt = 2016 (-08) (-16) 23 : 56 : 57 UTC
+  , issueBody =
+      Just
+        "Hi! I noticed that highlight.js hasn't been automatically updated (like it used to) to version 9.6.0 from here: https://github.com/highlightjs/cdn-release. Did anything change on your side that we missed?\n"
+  , issueState = StateOpen
+  , issueId = Id 171545229
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

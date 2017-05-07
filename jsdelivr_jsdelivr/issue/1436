@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-15) 12 : 55 : 12 UTC
+  , issueUpdatedAt = 2014 (-08) (-15) 12 : 55 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1436/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1436")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1436
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1663993
+        , simpleUserLogin = N "AlexBeauchemin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1663993?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/AlexBeauchemin"
+        }
+  , issueTitle = "Added JSSavior"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1436")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1436.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1436.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1436"
+  , issueCreatedAt = 2014 (-08) (-14) 23 : 38 : 48 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 40310982
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

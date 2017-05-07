@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-20) 17 : 38 : 32 UTC
+  , issueUpdatedAt = 2014 (-03) (-20) 17 : 38 : 36 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/483/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/483")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 483
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7002542
+        , simpleUserLogin = N "SirTimmyTimbit"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/7002542?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/SirTimmyTimbit"
+        }
+  , issueTitle = "Added Labelauty jQuery Plugin and Pushy"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/483")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/483.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/483.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/483"
+  , issueCreatedAt = 2014 (-03) (-20) 05 : 06 : 45 UTC
+  , issueBody =
+      Just
+        "Added those two JavaScript libraries. My first time using Git and GitHub. I hope I did everything right. Love this project and can't wait to use jsdelivr on my site!\n"
+  , issueState = StateClosed
+  , issueId = Id 29794283
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

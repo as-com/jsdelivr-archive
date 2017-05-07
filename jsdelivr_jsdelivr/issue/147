@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-14) 22 : 07 : 30 UTC
+  , issueUpdatedAt = 2013 (-11) (-14) 22 : 07 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/147/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/147")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 147
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 46549
+        , simpleUserLogin = N "jrschumacher"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/46549?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jrschumacher"
+        }
+  , issueTitle = "Regarding workflow and durability of old versions"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/147"
+  , issueCreatedAt = 2013 (-11) (-14) 21 : 23 : 51 UTC
+  , issueBody =
+      Just
+        "I was using a library hosted on some other public CDN. The maintainer of the library accidentally updated an older version with new code and broke the library thus breaking our application. I didn't realize how devastating this was and am making efforts to avoid this.\n\nDoes jsdelivr have any mechanisms to avoid this? I am also looking at using a cdn and setting up jsdelivr as a pull zone origin so as to preserve the integrity of the library versions.\n\n_Names omitted for respect of respective parties._\n"
+  , issueState = StateClosed
+  , issueId = Id 22694229
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

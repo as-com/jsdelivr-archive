@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-08) 00 : 39 : 59 UTC
+  , issueUpdatedAt = 2014 (-08) (-08) 00 : 40 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1380/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1380")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1380
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project platform to 0.3.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1380")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1380.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1380.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1380"
+  , issueCreatedAt = 2014 (-08) (-08) 00 : 35 : 25 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project platform to 0.3.5.\n\n@polymer\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"platform\",\n    \"repo\": \"polymer/platform\",\n    \"files\": {\n      \"include\": [\"platform.js\", \"platform.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/polymer.platform\",\n    \"localVersions\": [\"0.3.2\", \"0.3.3\", \"0.3.4\"],\n    \"remoteVersions\": [\"v0.0.20130816\", \"v0.0.20130829\", \"v0.0.20130905\", \"v0.0.20130912\", \"v0.0.20131003\", \"v0.0.20131010\", \"v0.0.20131025\", \"v0.0.20131107\", \"0.1.0\", \"0.1.1\", \"0.1.2\", \"0.1.3\", \"0.1.4\", \"0.2.0\", \"0.2.1\", \"0.2.2\", \"0.2.3\", \"0.2.4\", \"0.3.0\", \"0.3.1\", \"0.3.2\", \"0.3.3\", \"0.3.4\", \"0.3.5\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"0.3.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/polymer.platform/0.3.5\",\n  \"branch\": \"platform/0.3.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 39782075
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

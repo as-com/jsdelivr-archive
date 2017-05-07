@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-12) 17 : 32 : 22 UTC
+  , issueUpdatedAt = 2016 (-01) (-12) 17 : 32 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8911/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8911")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8911
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jcanvas to 15.12.12"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8911")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8911.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8911.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8911"
+  , issueCreatedAt = 2016 (-01) (-12) 17 : 32 : 16 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jcanvas to 15.12.12.\n\n@caleb531\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jcanvas\",\n    \"repo\": \"caleb531/jcanvas\",\n    \"files\": {\n      \"include\": [\"jcanvas.js\", \"jcanvas.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.jcanvas\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"13.11.17\", \"13.11.19\", \"13.11.21\", \"14.10.16\", \"14.11.19\", \"14.11.24\", \"14.11.25\", \"15.12.12\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.jcanvas/update.json\",\n  \"version\": \"15.12.12\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.jcanvas/15.12.12\",\n  \"branch\": \"jcanvas/15.12.12\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 126230814
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

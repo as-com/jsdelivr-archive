@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-05) 15 : 05 : 12 UTC
+  , issueUpdatedAt = 2014 (-11) (-05) 15 : 05 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2222/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2222")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2222
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project bootstrapvalidator to v0.5.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2222")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2222.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2222.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2222"
+  , issueCreatedAt = 2014 (-11) (-05) 15 : 04 : 52 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project bootstrapvalidator to v0.5.3.\n\n@nghuuphuoc\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"bootstrapvalidator\",\n    \"repo\": \"nghuuphuoc/bootstrapvalidator\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"./css/bootstrapValidator.min.css\", \"./js/bootstrapValidator.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.bootstrapvalidator\",\n    \"localVersions\": [\"0.4.5\", \"0.5.0\", \"0.5.1\", \"0.5.2\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\", \"v0.4.5\", \"v0.5.0\", \"v0.5.1\", \"v0.5.2\", \"v0.5.3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.5.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.bootstrapvalidator/0.5.3\",\n  \"branch\": \"bootstrapvalidator/v0.5.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 47845384
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

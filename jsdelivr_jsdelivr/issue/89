@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-08) (-28) 19 : 55 : 42 UTC
+  , issueUpdatedAt = 2013 (-08) (-28) 20 : 42 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/89/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/89")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 89
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1676054
+        , simpleUserLogin = N "danialfarid"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1676054?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/danialfarid"
+        }
+  , issueTitle = "v0.1.3 updated minified js file"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/89")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/89.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/89.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/89"
+  , issueCreatedAt = 2013 (-08) (-28) 19 : 46 : 36 UTC
+  , issueBody =
+      Just
+        "The minified file were not updated properly with the last push.\n"
+  , issueState = StateClosed
+  , issueId = Id 18691014
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

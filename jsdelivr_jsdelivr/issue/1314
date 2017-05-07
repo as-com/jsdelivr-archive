@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-27) 15 : 46 : 31 UTC
+  , issueUpdatedAt = 2014 (-07) (-27) 15 : 46 : 31 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1314/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1314")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1314
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2232981
+        , simpleUserLogin = N "meddle0x53"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2232981?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/meddle0x53"
+        }
+  , issueTitle = "update.json added to ProAct.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1314")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1314.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1314.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1314"
+  , issueCreatedAt = 2014 (-07) (-27) 15 : 10 : 27 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 38840651
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

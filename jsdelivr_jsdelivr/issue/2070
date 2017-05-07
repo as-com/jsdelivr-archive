@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-20) 18 : 58 : 05 UTC
+  , issueUpdatedAt = 2014 (-10) (-20) 18 : 58 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2070/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2070")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2070
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7670798
+        , simpleUserLogin = N "mkj-git"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/7670798?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mkj-git"
+        }
+  , issueTitle = "Extract links from text"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2070")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2070.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2070.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2070"
+  , issueCreatedAt = 2014 (-10) (-20) 17 : 22 : 14 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 46302187
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

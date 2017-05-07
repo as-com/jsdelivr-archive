@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-06) 02 : 08 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2970624
+        , simpleUserLogin = N "ludens"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2970624?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ludens"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/138025333"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6602#issuecomment-138025333"
+  , issueCommentCreatedAt = 2015 (-09) (-06) 02 : 08 : 15 UTC
+  , issueCommentBody =
+      "NanumBarunGothic fonts have various font-weights.\nBut in the CSS files, there are just `font-weight:normal`. So I modified CSS files.\n"
+  , issueCommentId = 138025333
+  }

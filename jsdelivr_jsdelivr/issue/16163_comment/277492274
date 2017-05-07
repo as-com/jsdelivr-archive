@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-02) (-05) 02 : 09 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/277492274"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16163#issuecomment-277492274"
+  , issueCommentCreatedAt = 2017 (-02) (-05) 02 : 09 : 23 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @Laxenade, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *bootstrap* between *4.0.0-alpha.5* and *4.0.0-alpha.3* there was a change in file structure  \n    ```diff\n    - css/bootstrap-flex.css\n    - css/bootstrap-flex.css.map\n    - css/bootstrap-flex.min.css\n    - css/bootstrap-flex.min.css.map\n    - css/bootstrap-grid.css\n    - css/bootstrap-grid.css.map\n    - css/bootstrap-grid.min.css\n    - css/bootstrap-grid.min.css.map\n    - css/bootstrap-reboot.css\n    - css/bootstrap-reboot.css.map\n    - css/bootstrap-reboot.min.css\n    - css/bootstrap-reboot.min.css.map\n    ```\n    - In *bootstrap* between *4.0.0-alpha.5* and *4.0.0-alpha.4* there was a change in file structure  \n    ```diff\n    - css/bootstrap-flex.css\n    - css/bootstrap-flex.css.map\n    - css/bootstrap-flex.min.css\n    - css/bootstrap-flex.min.css.map\n    - css/bootstrap-grid.css\n    - css/bootstrap-grid.css.map\n    - css/bootstrap-grid.min.css\n    - css/bootstrap-grid.min.css.map\n    - css/bootstrap-reboot.css\n    - css/bootstrap-reboot.css.map\n    - css/bootstrap-reboot.min.css\n    - css/bootstrap-reboot.min.css.map\n    ```\n    - In *iview* between *0.9.17* and *0.9.16* there was a change in file structure  \n    ```diff\n    + iview.js\n    + iview.min.js\n    - js/iview.js\n    - js/iview.min.js\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*It's not fully shipped until it's fast.*\n"
+  , issueCommentId = 277492274
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-08) 04 : 48 : 40 UTC
+  , issueUpdatedAt = 2014 (-09) (-08) 04 : 48 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1647/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1647")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1647
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7481783
+        , simpleUserLogin = N "dejanstojanovic"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7481783?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/dejanstojanovic"
+        }
+  , issueTitle = "Added JQuery.GoogleMaps"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1647")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1647.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1647.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1647"
+  , issueCreatedAt = 2014 (-09) (-07) 07 : 24 : 23 UTC
+  , issueBody = Just "Added JQuery plugin JQuery.GoogleMaps\n"
+  , issueState = StateClosed
+  , issueId = Id 42136773
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

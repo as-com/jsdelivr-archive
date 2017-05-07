@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-09) 09 : 49 : 51 UTC
+  , issueUpdatedAt = 2014 (-12) (-09) 09 : 49 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2660/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2660")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2660
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "new tweene"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2660")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2660.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2660.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2660"
+  , issueCreatedAt = 2014 (-12) (-09) 00 : 50 : 50 UTC
+  , issueBody =
+      Just
+        "https://github.com/SkidX/tweene/issues/5\nMultiple js files = each wraps another specific lib\n"
+  , issueState = StateClosed
+  , issueId = Id 51374195
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

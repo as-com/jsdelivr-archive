@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-28) 18 : 01 : 53 UTC
+  , issueUpdatedAt = 2016 (-07) (-28) 18 : 01 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12961/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12961")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12961
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 628170
+        , simpleUserLogin = N "kj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/628170?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kj"
+        }
+  , issueTitle = "Add es6-micro-loader"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12961")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12961.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12961.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12961"
+  , issueCreatedAt = 2016 (-07) (-28) 13 : 27 : 47 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 168095355
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

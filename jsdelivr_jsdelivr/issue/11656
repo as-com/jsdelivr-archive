@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 12 : 18 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 12 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11656/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11656")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11656
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9994529
+        , simpleUserLogin = N "bigopon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/9994529?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bigopon"
+        }
+  , issueTitle =
+      "Hi, A request for dominic to be available on jsdelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11656")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11656.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11656.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11656"
+  , issueCreatedAt = 2016 (-05) (-17) 13 : 47 : 55 UTC
+  , issueBody =
+      Just
+        "Dominic is a library for developer to build up some layout and setup interaction quickly without writing heavy html and CSS to test ideas.\n"
+  , issueState = StateClosed
+  , issueId = Id 155263957
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

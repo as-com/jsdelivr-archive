@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-12) 09 : 56 : 08 UTC
+  , issueUpdatedAt = 2015 (-02) (-12) 09 : 56 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3411/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3411")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3411
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project react-slick to v0.3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3411")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3411.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3411.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3411"
+  , issueCreatedAt = 2015 (-02) (-12) 02 : 50 : 42 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project react-slick to v0.3.1.\n\n@akiran\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"react-slick\",\n    \"repo\": \"akiran/react-slick\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/react.slick\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.3.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.3.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/react.slick/0.3.1\",\n  \"branch\": \"react-slick/v0.3.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 57410361
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-28) 22 : 18 : 54 UTC
+  , issueUpdatedAt = 2017 (-02) (-28) 22 : 18 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16642/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16642")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16642
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16632552
+        , simpleUserLogin = N "tomsonpl"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16632552?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomsonpl"
+        }
+  , issueTitle = "update update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16642")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16642.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16642.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16642"
+  , issueCreatedAt = 2017 (-02) (-28) 17 : 32 : 54 UTC
+  , issueBody =
+      Just
+        "@megawac  thanks for letting me know what was wrong, hopefully this is the last time I am disturbing you ;p cheers"
+  , issueState = StateClosed
+  , issueId = Id 210856624
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

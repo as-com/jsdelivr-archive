@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-04) 10 : 17 : 59 UTC
+  , issueUpdatedAt = 2017 (-01) (-04) 10 : 17 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15569/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15569")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15569
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 821706
+        , simpleUserLogin = N "bradvogel"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/821706?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bradvogel"
+        }
+  , issueTitle = "Point D3js at the npm distribution"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15569")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15569.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15569.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15569"
+  , issueCreatedAt = 2016 (-12) (-30) 19 : 19 : 26 UTC
+  , issueBody =
+      Just
+        "Fixes https://github.com/jsdelivr/jsdelivr/issues/15568. The D3 repo was moved and broken up into several different repos, so build files no longer exist in the repo, but they are built when publishing to npm. Therefore it's easier to just point JSDelivr at the npm distribution where the build files exist."
+  , issueState = StateClosed
+  , issueId = Id 198184665
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-29) 18 : 26 : 48 UTC
+  , issueUpdatedAt = 2016 (-03) (-29) 18 : 26 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10658/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10658")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10658
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 12504377
+        , simpleUserLogin = N "MK2018"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/12504377?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/MK2018"
+        }
+  , issueTitle = "Add Quick.JS to jsdelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10658")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10658.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10658.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10658"
+  , issueCreatedAt = 2016 (-03) (-27) 17 : 55 : 04 UTC
+  , issueBody =
+      Just
+        "This is a pull request with both the info.ini & the update.json, as per the contribution guidlines, for adding Quick.JS to jsdelivr\n"
+  , issueState = StateClosed
+  , issueId = Id 143832689
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

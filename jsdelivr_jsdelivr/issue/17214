@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-26) 13 : 06 : 04 UTC
+  , issueUpdatedAt = 2017 (-03) (-26) 13 : 06 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17214/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17214")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17214
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project url-toolkit to v2.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17214")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17214.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17214.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17214"
+  , issueCreatedAt = 2017 (-03) (-26) 13 : 06 : 00 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project url-toolkit to v2.1.0.\n\n@tjenkinson\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"url-toolkit\",\n    \"repo\": \"tjenkinson/url-toolkit\",\n    \"files\": {\n      \"include\": [\"src/url-toolkit.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/url-toolkit\",\n    \"localVersions\": [\"1.0.4\", \"1.0.7\", \"1.0.8\", \"1.0.9\", \"1.0.10\", \"1.0.11\", \"2.0.0\", \"2.0.1\"],\n    \"remoteVersions\": [\"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.0.8\", \"v1.0.9\", \"v1.0.10\", \"v1.0.11\", \"v2.0.0\", \"v2.0.1\", \"v2.1.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/url-toolkit/update.json\",\n  \"versions\": [\"v2.1.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.1.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/url-toolkit/2.1.0\",\n  \"branch\": \"url-toolkit/v2.1.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 217050627
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

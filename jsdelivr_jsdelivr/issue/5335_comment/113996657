@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-22) 04 : 12 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/113996657"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5335#issuecomment-113996657"
+  , issueCommentCreatedAt = 2015 (-06) (-22) 04 : 12 : 16 UTC
+  , issueCommentBody =
+      "> Could be useful for jsfiddle like experiments\n\nThought it would be good at first, but changed my mind; they could directly link to `https://code.angularjs.org/1.4.1/angular-mocks.js`.  I'd like to keep jsDelivr production-only, but obviously I don't decide such things :)\n"
+  , issueCommentId = 113996657
+  }

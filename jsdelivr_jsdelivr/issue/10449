@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-15) 17 : 51 : 06 UTC
+  , issueUpdatedAt = 2016 (-03) (-15) 17 : 51 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10449/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10449")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10449
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project brutusin.json-forms to 1.3.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10449")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10449.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10449.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10449"
+  , issueCreatedAt = 2016 (-03) (-15) 14 : 32 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project brutusin.json-forms to 1.3.0.\n\n@brutusin\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"brutusin.json-forms\",\n    \"repo\": \"brutusin/json-forms\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/brutusin.json-forms\",\n    \"localVersions\": [\"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.2.4\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.3\", \"v1.2.4\", \"1.3.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/brutusin.json-forms/update.json\",\n  \"versions\": [\"1.3.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.3.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/brutusin.json-forms/1.3.0\",\n  \"branch\": \"brutusin.json-forms/1.3.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 140990172
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

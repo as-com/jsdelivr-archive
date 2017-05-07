@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-12) 17 : 47 : 54 UTC
+  , issueUpdatedAt = 2017 (-04) (-12) 17 : 47 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17528/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17528")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17528
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2553171
+        , simpleUserLogin = N "EvanBoyle"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2553171?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/EvanBoyle"
+        }
+  , issueTitle = "Adding AzSearchStore"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17528")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17528.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17528.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17528"
+  , issueCreatedAt = 2017 (-04) (-11) 21 : 32 : 01 UTC
+  , issueBody = Just "https://github.com/EvanBoyle/AzSearchStore"
+  , issueState = StateClosed
+  , issueId = Id 221086919
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

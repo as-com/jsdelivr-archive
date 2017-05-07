@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-01) 17 : 42 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3819625
+        , simpleUserLogin = N "as-com"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3819625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/as-com"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/72374653"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-72374653"
+  , issueCommentCreatedAt = 2015 (-02) (-01) 17 : 42 : 07 UTC
+  , issueCommentBody =
+      "There is an issue with caching, though. I believe the CDNs, origin, and browsers cache a copy of it for an indefinite amount of time. I think it is necessary to include the version number in the tag version for cache-busting.\n\nOn Sun, Feb 1, 2015 at 11:41 AM, Patrick Nommensen\nnotifications@github.com wrote:\n\n> ## Yeah, should work great :) \n> \n> Patrick Nommensen\n> http://nginx.com\n> \n> > On Feb 1, 2015, at 8:39 AM, Get Used to IT notifications@github.com wrote:\n> > \n> > Hi guys, I have a quick question about this functionality. I see that the following URL is working as expected:\n> > \n> > http://cdn.jsdelivr.net/wp/wp-slimstat/trunk/wp-slimstat.js http://cdn.jsdelivr.net/wp/wp-slimstat/trunk/wp-slimstat.js\n> > Is it safe to assume that it will be available in the foreseeable future just like the \"tags\" version? I usually push the latest stable both as a tag and in trunk (since I use github for development), and by using this trick, I wouldn't have to worry about including the version number in the URL anymore.\n> > \n> > \8212\n> > Reply to this email directly or view it on GitHub https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-72371949.\n> > \n> > ---\n> > \n> > Reply to this email directly or view it on GitHub:\n> > https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-72372017\n"
+  , issueCommentId = 72374653
+  }

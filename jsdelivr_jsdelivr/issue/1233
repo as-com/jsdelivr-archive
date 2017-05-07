@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-18) 13 : 59 : 08 UTC
+  , issueUpdatedAt = 2015 (-03) (-12) 14 : 11 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1233/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1233")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1233
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueTitle = "update xe-core 1.7.5.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1233")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1233.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1233.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1233"
+  , issueCreatedAt = 2014 (-07) (-18) 13 : 01 : 09 UTC
+  , issueBody =
+      Just
+        "updated xe-core 1.7.5.3.\n\nto retain same original format. i only extarct js and css and did'nt tounch it.\n\nif minified version is not exist, it means, combined minifeid version is exist.\n\nex) xe.min js = common.js +  js_app.js + xml_handler.js +xml_js_filter.js (in /commons/js folder).\n\nthis project is simular to wordpress jet pack.\n"
+  , issueState = StateClosed
+  , issueId = Id 38173950
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

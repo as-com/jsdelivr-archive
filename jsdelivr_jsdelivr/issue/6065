@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-23) 06 : 27 : 48 UTC
+  , issueUpdatedAt = 2015 (-07) (-23) 06 : 27 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6065/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6065")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6065
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jssor.slider to 19.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6065")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6065.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6065.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6065"
+  , issueCreatedAt = 2015 (-07) (-23) 04 : 34 : 31 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jssor.slider to 19.0.\n\n@jssor\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jssor.slider\",\n    \"repo\": \"jssor/slider\",\n    \"files\": {\n      \"basePath\": \"js/\",\n      \"include\": [\"jssor.slider.mini.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jssor.slider\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"16.0\", \"17.0\", \"18.0\", \"19.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/jssor.slider/update.json\",\n  \"version\": \"19.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jssor.slider/19.0.0\",\n  \"branch\": \"jssor.slider/19.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 96726337
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

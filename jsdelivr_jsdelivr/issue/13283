@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 25 : 57 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 25 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13283/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13283")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13283
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1324925
+        , simpleUserLogin = N "abhishekgoel137"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1324925?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/abhishekgoel137"
+        }
+  , issueTitle = "Create ui.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13283")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13283.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13283.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13283"
+  , issueCreatedAt = 2016 (-08) (-17) 08 : 31 : 20 UTC
+  , issueBody = Just "For sidebar in pure css framework\n"
+  , issueState = StateClosed
+  , issueId = Id 171602449
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

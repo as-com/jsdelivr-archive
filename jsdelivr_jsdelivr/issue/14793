@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-15) 20 : 49 : 47 UTC
+  , issueUpdatedAt = 2016 (-11) (-15) 20 : 49 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14793/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14793")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14793
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5941263
+        , simpleUserLogin = N "jefftham"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5941263?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jefftham"
+        }
+  , issueTitle = "create info.ini for wsm"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14793")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14793.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14793.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14793"
+  , issueCreatedAt = 2016 (-11) (-15) 18 : 55 : 41 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 189475888
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

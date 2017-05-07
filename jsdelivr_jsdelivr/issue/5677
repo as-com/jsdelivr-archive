@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-08) 14 : 26 : 10 UTC
+  , issueUpdatedAt = 2015 (-07) (-08) 14 : 26 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5677/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5677")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5677
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1037458
+        , simpleUserLogin = N "justincy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1037458?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/justincy"
+        }
+  , issueTitle = "Add FamilySearch JavaScript SDK"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5677")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5677.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5677.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5677"
+  , issueCreatedAt = 2015 (-07) (-07) 15 : 34 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 93559365
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

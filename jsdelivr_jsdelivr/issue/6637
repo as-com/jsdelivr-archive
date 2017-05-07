@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-31) 16 : 22 : 30 UTC
+  , issueUpdatedAt = 2015 (-08) (-31) 23 : 05 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6637/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/6637")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6637
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2974980
+        , simpleUserLogin = N "Nieralyte"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2974980?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Nieralyte"
+        }
+  , issueTitle = "[Request] Add library: lodash-fp"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6637"
+  , issueCreatedAt = 2015 (-08) (-31) 16 : 20 : 48 UTC
+  , issueBody =
+      Just
+        "**Library name:** lodash-fp\n**Git repository url:** http://github.com/lodash/lodash-fp\n**npm package url:** http://npmjs.com/package/lodash-fp\n**License(s):** MIT\n**Official homepage:** http://lodash.com/#formats\n"
+  , issueState = StateClosed
+  , issueId = Id 104084585
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

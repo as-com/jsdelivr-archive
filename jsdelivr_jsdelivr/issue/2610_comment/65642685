@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-04) 14 : 54 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 611185
+        , simpleUserLogin = N "CEikermann"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/611185?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/CEikermann"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65642685"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2610#issuecomment-65642685"
+  , issueCommentCreatedAt = 2014 (-12) (-04) 14 : 53 : 34 UTC
+  , issueCommentBody =
+      "Your given URL is faster: <75ms\n\nFull headers of a slow request (respone time: 1.06s):\nRemote Address:190.93.247.228:80\nRequest URL:http://cdn.jsdelivr.net/g/jquery@2.1,angularjs@1.2.16(angular.min.js+angular-resource.min.js+angular-sanitize.min.js+angular-touch.min.js),bootstrap@3.1.1,angular.bootstrap@0.10.0(ui-bootstrap-tpls.min.js),momentjs@2.8.3,angular.moment@0.8.2\nRequest Method:GET\nStatus Code:200 OK\nRequest Headersview source\nAccept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,_/_;q=0.8\nAccept-Encoding:gzip, deflate, sdch\nAccept-Language:de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2\nCache-Control:max-age=0\nConnection:keep-alive\nHost:cdn.jsdelivr.net\nUser-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36\nResponse Headersview source\nAccess-Control-Allow-Origin:*\nCache-Control:public, max-age=15724800\nCF-RAY:1938ccc98f40089f-FRA\nConnection:keep-alive\nContent-Encoding:gzip\nContent-Type:application/javascript; charset=utf-8\nDate:Thu, 04 Dec 2014 14:47:34 GMT\nLast-Modified:Mon, 13 Jan 2014 18:17:35 GMT\nServer:cloudflare-nginx\nTransfer-Encoding:chunked\n\nResponse Timing (my bandwidth: 50mbits): \n![image](https://cloud.githubusercontent.com/assets/611185/5300079/2eb9bc4a-7bcd-11e4-92d0-ed64f21b02ad.png)\nMaybe there are some issues with one cloudflare node.\n\nTraceroute:\ntraceroute to 190.93.247.228 (190.93.247.228), 64 hops max, 52 byte packets\n 1  ...... (192.168.178.1)  0.834 ms  0.489 ms  0.454 ms\n 2  217.0.119.37 (217.0.119.37)  19.546 ms  19.710 ms  19.206 ms\n 3  217.0.76.122 (217.0.76.122)  21.564 ms  20.558 ms  23.315 ms\n 4  f-ed4-i.f.de.net.dtag.de (62.154.14.126)  22.946 ms  23.558 ms  23.324 ms\n 5  80.157.128.230 (80.157.128.230)  23.468 ms  23.944 ms  23.823 ms\n 6  ae-21.r02.frnkge03.de.bb.gin.ntt.net (129.250.6.84)  23.406 ms  23.886 ms  23.981 ms\n 7  213.198.77.194 (213.198.77.194)  23.784 ms  23.340 ms  23.405 ms\n 8  \\* \\* *\n 9  cf-190-93-247-228.cloudflare.com (190.93.247.228)  24.483 ms  23.908 ms  23.589 ms\n\nBest regards,\nChristian\n"
+  , issueCommentId = 65642685
+  }

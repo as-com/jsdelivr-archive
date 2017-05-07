@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-07) 01 : 24 : 48 UTC
+  , issueUpdatedAt = 2014 (-06) (-15) 05 : 24 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/755/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/755")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 755
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 286616
+        , simpleUserLogin = N "kenwheeler"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/286616?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/kenwheeler"
+        }
+  , issueTitle = "Adding 1.3.6 version of slick"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/755")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/755.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/755.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/755"
+  , issueCreatedAt = 2014 (-05) (-07) 01 : 20 : 32 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 32947991
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

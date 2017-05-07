@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-21) 20 : 36 : 30 UTC
+  , issueUpdatedAt = 2016 (-07) (-21) 20 : 36 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12855/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12855")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12855
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1679967
+        , simpleUserLogin = N "vedmack"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1679967?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vedmack"
+        }
+  , issueTitle = "Patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12855")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12855.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12855.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12855"
+  , issueCreatedAt = 2016 (-07) (-21) 20 : 35 : 43 UTC
+  , issueBody = Just "add yadcf to cdn\n"
+  , issueState = StateClosed
+  , issueId = Id 166911641
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

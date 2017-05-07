@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-08) 23 : 32 : 53 UTC
+  , issueUpdatedAt = 2016 (-05) (-08) 23 : 32 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11512/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11512")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11512
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project defunctr to v1.2.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11512")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11512.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11512.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11512"
+  , issueCreatedAt = 2016 (-05) (-08) 23 : 32 : 48 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project defunctr to v1.2.3.\n\n@cinecove\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"defunctr\",\n    \"repo\": \"cinecove/defunctr\",\n    \"files\": {\n      \"include\": [\"dist/defunctr.js\", \"dist/defunctr.min.js\", \"dist/defunctr.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/defunctr\",\n    \"localVersions\": [\"1.2.1\", \"1.2.2\"],\n    \"remoteVersions\": [\"release/v1.0\", \"release/v1.1\", \"release/v1.1.1\", \"release/v1.1.2\", \"release/v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/defunctr/update.json\",\n  \"versions\": [\"v1.2.3\", \"release/v1.2.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.2.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/defunctr/1.2.3\",\n  \"branch\": \"defunctr/v1.2.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 153683620
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

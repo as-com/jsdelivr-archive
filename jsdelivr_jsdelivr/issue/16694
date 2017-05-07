@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-07) 09 : 07 : 15 UTC
+  , issueUpdatedAt = 2017 (-03) (-07) 09 : 07 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16694/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/16694")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16694
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 371814
+        , simpleUserLogin = N "louisameline"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/371814?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/louisameline"
+        }
+  , issueTitle = "Update Tooltipster"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16694"
+  , issueCreatedAt = 2017 (-03) (-03) 17 : 42 : 36 UTC
+  , issueBody =
+      Just
+        "Hello,\r\nthis project has voluntarily changed the path of two files for disambiguation. Can you please pull the PR?\r\nThank you.\r\n\r\nhttps://github.com/jsdelivr/jsdelivr/pull/16693"
+  , issueState = StateClosed
+  , issueId = Id 211755202
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

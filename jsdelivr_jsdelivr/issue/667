@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-18) 11 : 03 : 21 UTC
+  , issueUpdatedAt = 2014 (-04) (-18) 11 : 03 : 25 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/667/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/667")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 667
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 355874
+        , simpleUserLogin = N "sancospi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/355874?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sancospi"
+        }
+  , issueTitle = "Update bootstrap.timepicker to version 0.2.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/667")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/667.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/667.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/667"
+  , issueCreatedAt = 2014 (-04) (-18) 06 : 35 : 31 UTC
+  , issueBody = Just "Update bootstrap.timepicker to version 0.2.6\n"
+  , issueState = StateClosed
+  , issueId = Id 31784003
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

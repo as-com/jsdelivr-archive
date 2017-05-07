@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-22) 18 : 16 : 56 UTC
+  , issueUpdatedAt = 2015 (-07) (-22) 18 : 17 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6059/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6059")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6059
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project showdown to 1.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6059")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6059.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6059.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6059"
+  , issueCreatedAt = 2015 (-07) (-22) 18 : 04 : 48 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project showdown to 1.2.1.\n\n@showdownjs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"showdown\",\n    \"repo\": \"showdownjs/showdown\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"showdown.min.js\", \"showdown.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/showdown\",\n    \"localVersions\": [\"0.3.1\", \"1.2.0\"],\n    \"remoteVersions\": [\"v0.3.1\", \"0.3.3\", \"0.3.4\", \"0.4.0\", \"0.5.0\", \"0.5.1\", \"0.5.3\", \"0.5.4\", \"1.0.0-alpha1\", \"1.0.0-alpha.2\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.1.0\", \"1.2.0\", \"1.2.1\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/showdown/update.json\",\n  \"version\": \"1.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/showdown/1.2.1\",\n  \"branch\": \"showdown/1.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 96629468
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

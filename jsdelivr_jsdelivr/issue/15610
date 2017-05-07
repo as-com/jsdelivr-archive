@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-03) 23 : 33 : 30 UTC
+  , issueUpdatedAt = 2017 (-01) (-03) 23 : 33 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15610/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15610")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15610
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project FormKeeper to v1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15610")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15610.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15610.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15610"
+  , issueCreatedAt = 2017 (-01) (-03) 23 : 33 : 22 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project FormKeeper to v1.3.\n\n@EdGraVill\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"FormKeeper\",\n    \"repo\": \"EdGraVill/FormKeeper\",\n    \"files\": {\n      \"include\": [\"FormKeeper.js\", \"FormKeeper.min.js\", \"Lite/FormKeeperLite.js\", \"Lite/FormKeeperLite.min.js\", \"Attributable/FormKeeperAttributable.js\", \"Attributable/FormKeeperAttributable.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/formkeeper\",\n    \"localVersions\": [\"1.2\"],\n    \"remoteVersions\": [\"v1.2\", \"v1.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/formkeeper/update.json\",\n  \"versions\": [\"v1.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/formkeeper/1.3\",\n  \"branch\": \"FormKeeper/v1.3\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 198596435
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

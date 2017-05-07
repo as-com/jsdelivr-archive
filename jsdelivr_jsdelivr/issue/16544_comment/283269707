@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-03) (-01) 07 : 51 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/283269707"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16544#issuecomment-283269707"
+  , issueCommentCreatedAt = 2017 (-03) (-01) 07 : 51 : 41 UTC
+  , issueCommentBody =
+      "The site is cached by a CDN, thats why changing stuff takes a while to purge."
+  , issueCommentId = 283269707
+  }

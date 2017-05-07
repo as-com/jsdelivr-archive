@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-31) 22 : 39 : 39 UTC
+  , issueUpdatedAt = 2016 (-10) (-31) 22 : 39 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14529/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14529")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14529
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project svg-gauge to 1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14529")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14529.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14529.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14529"
+  , issueCreatedAt = 2016 (-10) (-31) 22 : 39 : 36 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project svg-gauge to 1.0.1.\n\n@naikus\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"svg-gauge\",\n    \"repo\": \"naikus/svg-gauge\",\n    \"files\": {\n      \"include\": [\"dist/gauge.js\", \"dist/gauge.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/svg-gauge\",\n    \"localVersions\": [\"1.0.0-beta3\"],\n    \"remoteVersions\": [\"1.0.0-beta1\", \"1.0.0-beta2\", \"1.0.0-beta3\", \"1.0.0\", \"1.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/svg-gauge/update.json\",\n  \"versions\": [\"1.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"1.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/svg-gauge/1.0.1\",\n  \"branch\": \"svg-gauge/1.0.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 186417937
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

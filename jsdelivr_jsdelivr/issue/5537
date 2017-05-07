@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-29) 16 : 30 : 03 UTC
+  , issueUpdatedAt = 2015 (-06) (-29) 16 : 30 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5537/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5537")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5537
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1938389
+        , simpleUserLogin = N "netravnen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1938389?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/netravnen"
+        }
+  , issueTitle = "[new] Added webcamjs@1.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5537")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5537.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5537.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5537"
+  , issueCreatedAt = 2015 (-06) (-29) 10 : 11 : 22 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 91764534
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-16) 01 : 33 : 52 UTC
+  , issueUpdatedAt = 2016 (-04) (-16) 01 : 33 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11094/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11094")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11094
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project katex to v0.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11094")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11094.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11094.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11094"
+  , issueCreatedAt = 2016 (-04) (-16) 01 : 33 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project katex to v0.6.0.\n\n@Khan\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"katex\",\n    \"repo\": \"Khan/KaTeX\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"exclude\": [\"README.md\"],\n      \"include\": [\"**/*\"]\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/katex\",\n    \"localVersions\": [\"0.1.0\", \"0.1.1\", \"0.3.0\", \"0.4.3\", \"0.5.0\", \"0.5.1\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.1.1\", \"v0.2.0\", \"v0.3.0\", \"v0.4.0\", \"v0.4.3\", \"v0.5.0\", \"v0.5.1\", \"v0.6.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/katex/update.json\",\n  \"versions\": [\"v0.6.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.6.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/katex/0.6.0\",\n  \"branch\": \"katex/v0.6.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 148803952
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

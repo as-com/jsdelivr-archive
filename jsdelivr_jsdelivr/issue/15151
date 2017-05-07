@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-01) 15 : 35 : 22 UTC
+  , issueUpdatedAt = 2016 (-12) (-01) 15 : 35 : 22 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15151/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15151")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15151
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project js-sharing-buttons to v1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15151")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15151.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15151.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15151"
+  , issueCreatedAt = 2016 (-12) (-01) 15 : 35 : 17 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project js-sharing-buttons to v1.2.\n\n@bovidiu\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"js-sharing-buttons\",\n    \"repo\": \"bovidiu/js-sharing-buttons\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"SocialMedia.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/socialmedia.js\",\n    \"localVersions\": [\"1.0\", \"1.1\"],\n    \"remoteVersions\": [\"1.0\", \"v1.1\", \"v1.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/socialmedia.js/update.json\",\n  \"versions\": [\"v1.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/socialmedia.js/1.2\",\n  \"branch\": \"js-sharing-buttons/v1.2\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 192879305
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

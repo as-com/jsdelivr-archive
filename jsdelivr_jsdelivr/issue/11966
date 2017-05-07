@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-04) 16 : 41 : 58 UTC
+  , issueUpdatedAt = 2016 (-06) (-04) 16 : 41 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11966/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11966")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11966
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 917005
+        , simpleUserLogin = N "eisbehr-"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/917005?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/eisbehr-"
+        }
+  , issueTitle = "Update package.json for jquery.lazy"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11966")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11966.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11966.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11966"
+  , issueCreatedAt = 2016 (-06) (-03) 09 : 13 : 25 UTC
+  , issueBody =
+      Just
+        "The Library is already available on jsdeliver, I'll just added the new plugin file to cdn too.\n"
+  , issueState = StateClosed
+  , issueId = Id 158324237
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-15) 13 : 54 : 21 UTC
+  , issueUpdatedAt = 2016 (-09) (-15) 13 : 54 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13787/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13787")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13787
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6261322
+        , simpleUserLogin = N "logaretm"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6261322?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/logaretm"
+        }
+  , issueTitle = "Updated homepage URL for vee-validate"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13787")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13787.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13787.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13787"
+  , issueCreatedAt = 2016 (-09) (-14) 19 : 50 : 15 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 177003043
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

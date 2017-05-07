@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-03) 10 : 14 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65384326"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2589#issuecomment-65384326"
+  , issueCommentCreatedAt = 2014 (-12) (-03) 10 : 14 : 04 UTC
+  , issueCommentBody =
+      "If you try again it should be fixed. I changed some settings in CloudFlare.\n\nCan you also write the use-case and how important this is so I could think of a future solution for this problem?\n"
+  , issueCommentId = 65384326
+  }

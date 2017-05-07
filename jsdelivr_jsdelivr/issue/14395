@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-10) (-17) 18 : 03 : 37 UTC
+  , issueUpdatedAt = 2016 (-10) (-17) 18 : 03 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14395/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14395")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14395
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.animatenumber to v0.0.13"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14395")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14395.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14395.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14395"
+  , issueCreatedAt = 2016 (-10) (-17) 18 : 03 : 33 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.animatenumber to v0.0.13.\n\n@aishek\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.animatenumber\",\n    \"repo\": \"aishek/jquery-animateNumber\",\n    \"files\": {\n      \"include\": [\"jquery.animateNumber.js\", \"jquery.animateNumber.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.animatenumber\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.0.1\", \"v0.0.2\", \"v0.0.3\", \"v0.0.4\", \"v0.0.5\", \"v0.0.6\", \"v0.0.7\", \"v0.0.8\", \"v0.0.9\", \"v0.0.10\", \"v0.0.11\", \"v0.0.12\", \"v0.0.13\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.animatenumber/update.json\",\n  \"versions\": [\"v0.0.13\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.0.13\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.animatenumber/0.0.13\",\n  \"branch\": \"jquery.animatenumber/v0.0.13\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 183485474
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

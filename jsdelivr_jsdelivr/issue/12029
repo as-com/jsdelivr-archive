@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-07) 10 : 48 : 39 UTC
+  , issueUpdatedAt = 2016 (-06) (-07) 10 : 48 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12029/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12029")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12029
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project iostash to v0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12029")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12029.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12029.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12029"
+  , issueCreatedAt = 2016 (-06) (-07) 05 : 03 : 36 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project iostash to v0.1.\n\n@iostashiot\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"iostash\",\n    \"repo\": \"iostashiot/Client-Libraries\",\n    \"files\": {\n      \"basePath\": \"Javascript - Web/\",\n      \"include\": [\"iostash.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/iostash\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/iostash/update.json\",\n  \"versions\": [\"v0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/iostash/0.1\",\n  \"branch\": \"iostash/v0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 158839129
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

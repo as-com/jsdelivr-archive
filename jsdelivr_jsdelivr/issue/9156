@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-19) 10 : 24 : 32 UTC
+  , issueUpdatedAt = 2016 (-01) (-19) 10 : 24 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9156/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9156")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9156
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7992002
+        , simpleUserLogin = N "simon-thorpe"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/7992002?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/simon-thorpe"
+        }
+  , issueTitle = "Add update.json for jquery.mixitup"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9156")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9156.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9156.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9156"
+  , issueCreatedAt = 2016 (-01) (-17) 23 : 00 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 127130666
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

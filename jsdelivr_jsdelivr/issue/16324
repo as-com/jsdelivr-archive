@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-13) 13 : 11 : 49 UTC
+  , issueUpdatedAt = 2017 (-02) (-13) 13 : 11 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16324/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16324")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16324
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project syncfusion-ej-global to 15.1.33"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16324")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16324.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16324.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16324"
+  , issueCreatedAt = 2017 (-02) (-13) 13 : 06 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project syncfusion-ej-global to 15.1.33.\n\n@syncfusion\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"syncfusion-ej-global\",\n    \"repo\": \"syncfusion/ej-global\",\n    \"files\": {\n      \"include\": [\"./i18n/**/*\", \"./l10n/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/syncfusion-ej-global\",\n    \"localVersions\": [\"14.4.15\", \"14.4.16\", \"14.4.20\"],\n    \"remoteVersions\": [\"14.2.26\", \"14.3.49\", \"14.4.15\", \"14.4.16\", \"14.4.20\", \"15.1.33\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/syncfusion-ej-global/update.json\",\n  \"versions\": [\"15.1.33\"],\n  \"updateRemote\": true,\n  \"version\": \"15.1.33\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/syncfusion-ej-global/15.1.33\",\n  \"branch\": \"syncfusion-ej-global/15.1.33\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 207213465
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

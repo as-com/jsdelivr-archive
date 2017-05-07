@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-13) 02 : 41 : 56 UTC
+  , issueUpdatedAt = 2014 (-07) (-13) 16 : 05 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1196/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1196")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1196
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project xe-core to 1.7.5"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1196")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1196.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1196.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1196"
+  , issueCreatedAt = 2014 (-07) (-12) 20 : 40 : 21 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project xe-core to 1.7.5.\n\n@xpressengine\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"xe-core\",\n    \"repo\": \"xpressengine/xe-core\",\n    \"files\": {\n      \"include\": [\"./common/**/*.js\", \"./common/**/*.css\", \"./addons/**/*.js\", \"./addons/**/*.css\", \"./classes/**/*.js\", \"./classes/**/*.css\", \"./modules/**/*.js\", \"./modules/**/*.css\", \"./widgets/**/*.js\", \"./widgets/**/*.css\", \"./widgetstyles/**/*.js\", \"./widgetstyles/**/*.css\"],\n      \"exclude\": [\"./common/js/unitest\"]\n    },\n    \"path\": \"/home/jsdelivr/files/xe-core\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"1.7.4\", \"1.7.5\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.7.5\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/xe-core/1.7.5\",\n  \"branch\": \"xe-core/1.7.5\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 37728184
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

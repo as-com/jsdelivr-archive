@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-21) 21 : 02 : 20 UTC
+  , issueUpdatedAt = 2015 (-09) (-21) 21 : 02 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6999/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6999")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6999
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11155743
+        , simpleUserLogin = N "koddr"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11155743?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/koddr"
+        }
+  , issueTitle = "Update mainfile"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6999")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6999.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6999.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6999"
+  , issueCreatedAt = 2015 (-09) (-21) 09 : 34 : 36 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 107475823
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

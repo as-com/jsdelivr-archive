@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-08) (-21) 18 : 31 : 21 UTC
+  , issueUpdatedAt = 2014 (-07) (-19) 20 : 20 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/78/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/78")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 78
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "+ reveal.js 2.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/78")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/78.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/78.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/78"
+  , issueCreatedAt = 2013 (-08) (-21) 18 : 19 : 15 UTC
+  , issueBody =
+      Just
+        "(also ensured all plugins are included that don't need Node.js https://github.com/hakimel/reveal.js/issues/568 )\n"
+  , issueState = StateClosed
+  , issueId = Id 18371306
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

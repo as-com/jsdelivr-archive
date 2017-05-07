@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-06) 17 : 54 : 07 UTC
+  , issueUpdatedAt = 2014 (-03) (-07) 01 : 51 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/421/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/421")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 421
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add Ink v2.3.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/421")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/421.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/421.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/421"
+  , issueCreatedAt = 2014 (-03) (-06) 17 : 26 : 58 UTC
+  , issueBody =
+      Just
+        "A new version of uikit just released, hope it can be added into this project, thanks.\nsource : https://github.com/sapo/Ink/archive/2.3.1.tar.gz\n"
+  , issueState = StateClosed
+  , issueId = Id 28897700
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

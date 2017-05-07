@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-11) 10 : 42 : 48 UTC
+  , issueUpdatedAt = 2016 (-04) (-11) 10 : 42 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10964/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10964")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10964
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jsface to 2.4.10"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10964")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10964.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10964.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10964"
+  , issueCreatedAt = 2016 (-04) (-11) 00 : 03 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jsface to 2.4.10.\n\n@tnhu\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jsface\",\n    \"repo\": \"tnhu/jsface\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jsface\",\n    \"localVersions\": [\"0.1\", \"2.2.0\", \"2.3.0\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"2.4.5\", \"2.4.6\", \"2.4.8\", \"2.4.9\"],\n    \"remoteVersions\": [\"2.1.1\", \"2.2.0\", \"2.3.0\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"2.4.5\", \"2.4.6\", \"2.4.7\", \"2.4.8\", \"2.4.9\", \"2.4.10\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jsface/update.json\",\n  \"versions\": [\"2.4.10\"],\n  \"updateRemote\": true,\n  \"version\": \"2.4.10\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jsface/2.4.10\",\n  \"branch\": \"jsface/2.4.10\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 147282008
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

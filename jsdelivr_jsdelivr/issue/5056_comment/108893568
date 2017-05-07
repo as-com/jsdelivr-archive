@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-04) 13 : 12 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 659492
+        , simpleUserLogin = N "ToX82"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/659492?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ToX82"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/108893568"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/5056#issuecomment-108893568"
+  , issueCommentCreatedAt = 2015 (-06) (-04) 13 : 12 : 17 UTC
+  , issueCommentBody =
+      "Sure! This is the full HTTP headers that Chrome reports:\n\nGeneral\n\n```\nRemote Address: 95.141.32.94:80\nRequest URL: http://cdn.jsdelivr.net/cookie-bar/1/cookiebar-latest.js\nRequest Method: GET\nStatus Code: 200 OK\n```\n\nRequest Headers\n\n```\nGET /cookie-bar/1/cookiebar-latest.js HTTP/1.1\nHost: cdn.jsdelivr.net\nConnection: keep-alive\nPragma: no-cache\nCache-Control: no-cache\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36\nDNT: 1\nAccept-Encoding: gzip, deflate, sdch\nAccept-Language: it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4\n```\n\nResponse Headers\n\n```\nHTTP/1.1 200 OK\nServer: keycdn-engine\nDate: Thu, 04 Jun 2015 13:08:46 GMT\nContent-Type: application/x-javascript; charset=utf-8\nTransfer-Encoding: chunked\nConnection: keep-alive\nVary: Accept-Encoding\nX-Version: 1.3.0\nCache-Control: public, max-age=604800\nLast-Modified: Wed, 27 May 2015 11:36:47 GMT\nAccess-Control-Allow-Origin: *\nX-Cache: HIT\nX-Edge-Location: itmi\nContent-Encoding: gzip\n```\n"
+  , issueCommentId = 108893568
+  }

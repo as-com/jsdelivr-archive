@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-16) 12 : 34 : 27 UTC
+  , issueUpdatedAt = 2016 (-02) (-16) 12 : 34 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9798/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9798")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9798
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4883379
+        , simpleUserLogin = N "detomon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4883379?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/detomon"
+        }
+  , issueTitle = "Add project Tetragon.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9798")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9798.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9798.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9798"
+  , issueCreatedAt = 2016 (-02) (-16) 07 : 56 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 133910366
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

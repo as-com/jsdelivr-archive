@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-29) 19 : 21 : 07 UTC
+  , issueUpdatedAt = 2016 (-11) (-29) 19 : 21 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13367/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13367")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13367
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 393114
+        , simpleUserLogin = N "brandomeniconi"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/393114?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/brandomeniconi"
+        }
+  , issueTitle = "Add intense-image library"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13367")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13367.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13367.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13367"
+  , issueCreatedAt = 2016 (-08) (-22) 13 : 14 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 172449291
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

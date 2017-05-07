@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-25) 22 : 24 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 32864
+        , simpleUserLogin = N "lucasmundim"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/32864?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lucasmundim"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/86236340"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/4001#issuecomment-86236340"
+  , issueCommentCreatedAt = 2015 (-03) (-25) 22 : 24 : 10 UTC
+  , issueCommentBody =
+      "The same problem is affecting clappr.level-selector too.\n\ncurl -I http://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js\nHTTP/1.1 200 OK\nDate: Wed, 25 Mar 2015 22:20:48 GMT\nContent-Type: application/x-javascript; charset=utf-8\nContent-Length: 14598\nConnection: keep-alive\nX-Version: 0.0.5\nCache-Control: public, max-age=604800\nLast-Modified: Mon, 13 Jan 2014 18:17:35 GMT\nAccess-Control-Allow-Origin: *\nVary: Accept-Encoding\nCF-Cache-Status: HIT\nServer: cloudflare-nginx\nCF-RAY: 1cce01517efe1018-GRU\n"
+  , issueCommentId = 86236340
+  }

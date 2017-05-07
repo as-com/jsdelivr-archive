@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-13) 13 : 06 : 44 UTC
+  , issueUpdatedAt = 2017 (-02) (-13) 13 : 06 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16295/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16295")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16295
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6999360
+        , simpleUserLogin = N "xavierfaucon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6999360?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/xavierfaucon"
+        }
+  , issueTitle = "Use of minified file"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16295")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16295.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16295.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16295"
+  , issueCreatedAt = 2017 (-02) (-10) 19 : 12 : 18 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 206881376
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

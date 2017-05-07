@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-07) 17 : 36 : 31 UTC
+  , issueUpdatedAt = 2015 (-10) (-07) 17 : 36 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7276/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7276")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7276
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project react to v0.14.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7276")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7276.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7276.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7276"
+  , issueCreatedAt = 2015 (-10) (-07) 17 : 36 : 21 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project react to v0.14.0.\n\n@reactjs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"react\",\n    \"repo\": \"reactjs/react-bower\",\n    \"files\": {\n      \"include\": [\"*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/react\",\n    \"localVersions\": [\"0.8.0\", \"0.9.0\", \"0.10.0\", \"0.11.0\", \"0.11.1\", \"0.11.2\", \"0.12.0-rc1\", \"0.12.0\", \"0.12.1\", \"0.12.2\", \"0.13.0-beta.2\", \"0.13.0-rc1\", \"0.13.0-rc2\", \"0.13.0\", \"0.13.1\", \"0.13.2\", \"0.13.3\", \"0.14.0-alpha1\", \"0.14.0-alpha2\", \"0.14.0-alpha3\", \"0.14.0-beta1\", \"0.14.0-beta2\", \"0.14.0-beta3\", \"0.14.0-rc1\"],\n    \"remoteVersions\": [\"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.5.0\", \"v0.5.1\", \"v0.5.2\", \"v0.8.0\", \"v0.9.0-rc1\", \"v0.9.0\", \"v0.10.0-rc1\", \"v0.10.0\", \"v0.11.0-rc1\", \"v0.11.0\", \"v0.11.1\", \"v0.11.2\", \"v0.12.0-rc1\", \"v0.12.0\", \"v0.12.1\", \"v0.12.2\", \"v0.13.0-rc1\", \"v0.13.0-rc2\", \"v0.13.0\", \"v0.13.1\", \"v0.13.2\", \"v0.13.3\", \"v0.14.0-rc1\", \"v0.14.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/react/update.json\",\n  \"version\": \"v0.14.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/react/0.14.0\",\n  \"branch\": \"react/v0.14.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 110277799
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

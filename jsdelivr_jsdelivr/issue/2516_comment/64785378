@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-27) 12 : 55 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7894760
+        , simpleUserLogin = N "ajkj"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7894760?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ajkj"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64785378"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2516#issuecomment-64785378"
+  , issueCommentCreatedAt = 2014 (-11) (-27) 12 : 38 : 43 UTC
+  , issueCommentBody =
+      "found reason.\ni have a page which has iframe pointing to another page.(both page have a RUM script)\nin that case, error occur in iframe page.\npage without iframe, works well.\n"
+  , issueCommentId = 64785378
+  }

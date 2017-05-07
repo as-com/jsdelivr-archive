@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-11) 15 : 51 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/120635442"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5801#issuecomment-120635442"
+  , issueCommentCreatedAt = 2015 (-07) (-11) 15 : 51 : 36 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @megawac, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` has a few problems\n  - Where is the angularjs's mainfile (_angular.min.js_) in v-_2.0.0-alpha.30_\n  - Where is the angularjs's mainfile (_angular.min.js_) in v-_1.0.1_\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n  - In _angularjs_ between _1.4.1_ and _2.0.0-alpha.30_ there was a change in file structure  \n  \n  ``` diff\n  + angular2.dev.js\n  + angular2.js\n  + angular2.min.js\n  + angular2.sfx.dev.js\n  + mock.dev.js\n  + mock.dev.js.map\n  + router.dev.js\n  + router.dev.js.map\n  - angular-animate.min.js\n  - angular-animate.min.js.map\n  - angular-aria.min.js\n  - angular-aria.min.js.map\n  - angular-cookies.min.js\n  - angular-cookies.min.js.map\n  - angular-csp.css\n  - angular-loader.min.js\n  - angular-loader.min.js.map\n  - angular-message-format.min.js\n  - angular-message-format.min.js.map\n  - angular-messages.min.js\n  - angular-messages.min.js.map\n  - angular-mocks.js\n  - angular-resource.min.js\n  - angular-resource.min.js.map\n  - angular-route.min.js\n  - angular-route.min.js.map\n  - angular-sanitize.min.js\n  - angular-sanitize.min.js.map\n  - angular-touch.min.js\n  - angular-touch.min.js.map\n  - angular.js\n  - angular.min.js\n  - angular.min.js.map\n  ```\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Practicality beats purity._\n"
+  , issueCommentId = 120635442
+  }

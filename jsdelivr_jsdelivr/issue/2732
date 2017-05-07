@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-16) 20 : 35 : 46 UTC
+  , issueUpdatedAt = 2014 (-12) (-16) 20 : 35 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2732/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2732")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2732
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3984421
+        , simpleUserLogin = N "ungki"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3984421?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ungki"
+        }
+  , issueTitle =
+      "A small CSS3 and jQuery plugin for app style drawer menu."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2732")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2732.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2732.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2732"
+  , issueCreatedAt = 2014 (-12) (-15) 11 : 06 : 43 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 51973569
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

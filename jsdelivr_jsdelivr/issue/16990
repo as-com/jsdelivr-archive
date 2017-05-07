@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-17) 20 : 46 : 16 UTC
+  , issueUpdatedAt = 2017 (-03) (-17) 20 : 46 : 16 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16990/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16990")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16990
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 26072661
+        , simpleUserLogin = N "rrurr"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/26072661?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rrurr"
+        }
+  , issueTitle = "iconlol"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16990")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16990.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16990.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16990"
+  , issueCreatedAt = 2017 (-03) (-17) 20 : 35 : 08 UTC
+  , issueBody =
+      Just
+        "create iconlol, A library of memes and twitch emotes optimized for use in Snapchat and on the web\r\n"
+  , issueState = StateClosed
+  , issueId = Id 215115352
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

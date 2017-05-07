@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-08) 01 : 03 : 54 UTC
+  , issueUpdatedAt = 2016 (-06) (-08) 01 : 03 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12056/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12056")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12056
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.typeit to v4.2.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12056")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12056.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12056.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12056"
+  , issueCreatedAt = 2016 (-06) (-08) 01 : 03 : 48 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.typeit to v4.2.3.\n\n@alexmacarthur\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.typeit\",\n    \"repo\": \"alexmacarthur/typeit\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"typeit.js\", \"typeit.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.typeit\",\n    \"localVersions\": [\"1.1.0\", \"2.0.2\", \"3.0.0\", \"3.0.1\", \"4.0.0\", \"4.1.0\", \"4.2.0\", \"4.2.1\"],\n    \"remoteVersions\": [\"v1.0.1\", \"v1.0.3\", \"v.1.0.4\", \"v1.1.0\", \"2.0.0\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v3.0.0\", \"v3.0.1\", \"v4.0.0\", \"v4.1.0\", \"v4.2.0\", \"v4.2.1\", \"v4.2.2\", \"v4.2.3\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.typeit/update.json\",\n  \"versions\": [\"v4.2.3\"],\n  \"updateRemote\": true,\n  \"version\": \"v4.2.3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.typeit/4.2.3\",\n  \"branch\": \"jquery.typeit/v4.2.3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 159058065
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

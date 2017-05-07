@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-22) 15 : 51 : 34 UTC
+  , issueUpdatedAt = 2014 (-08) (-22) 15 : 51 : 34 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1496/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1496")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1496
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1935696
+        , simpleUserLogin = N "karlhorky"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1935696?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/karlhorky"
+        }
+  , issueTitle = "Set up auto-update for jquery.gray"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1496")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1496.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1496.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1496"
+  , issueCreatedAt = 2014 (-08) (-22) 13 : 58 : 10 UTC
+  , issueBody = Just "Thanks to @jimaek in #1495\n"
+  , issueState = StateClosed
+  , issueId = Id 40910731
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

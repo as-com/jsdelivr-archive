@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-22) 19 : 37 : 37 UTC
+  , issueUpdatedAt = 2015 (-11) (-22) 19 : 37 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8057/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8057")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8057
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project quaggaJS to v0.8.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8057")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8057.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8057.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8057"
+  , issueCreatedAt = 2015 (-11) (-22) 19 : 37 : 33 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project quaggaJS to v0.8.2.\n\n@serratus\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"quaggaJS\",\n    \"repo\": \"serratus/quaggaJS\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/quaggajs\",\n    \"localVersions\": [\"0.8.0\"],\n    \"remoteVersions\": [\"v0.6.13\", \"v0.6.14\", \"v0.6.15\", \"v0.6.16\", \"v0.7.0\", \"v0.8.0\", \"v0.8.2\"],\n    \"branchVersions\": [\"v0.8.0\"]\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/quaggajs/update.json\",\n  \"version\": \"v0.8.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/quaggajs/0.8.2\",\n  \"branch\": \"quaggaJS/v0.8.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 118283756
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

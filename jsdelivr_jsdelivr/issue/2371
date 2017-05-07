@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-14) 20 : 34 : 52 UTC
+  , issueUpdatedAt = 2014 (-11) (-14) 20 : 34 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2371/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2371")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2371
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 656083
+        , simpleUserLogin = N "wsmckenz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/656083?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wsmckenz"
+        }
+  , issueTitle = "Added update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2371")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2371.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2371.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2371"
+  , issueCreatedAt = 2014 (-11) (-14) 18 : 53 : 28 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 48826219
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

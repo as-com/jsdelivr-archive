@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-12) 14 : 16 : 45 UTC
+  , issueUpdatedAt = 2017 (-01) (-12) 14 : 16 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15747/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15747")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15747
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15933
+        , simpleUserLogin = N "fabricionaweb"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/15933?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/fabricionaweb"
+        }
+  , issueTitle = "Added preact v7.1.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15747")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15747.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15747.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15747"
+  , issueCreatedAt = 2017 (-01) (-12) 01 : 26 : 52 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 200255100
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

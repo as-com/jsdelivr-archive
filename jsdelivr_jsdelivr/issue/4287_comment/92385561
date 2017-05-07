@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-13) 14 : 42 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/92385561"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4287#issuecomment-92385561"
+  , issueCommentCreatedAt = 2015 (-04) (-13) 14 : 42 : 11 UTC
+  , issueCommentBody =
+      "Thanks @seikan. Please squash your commits. It's also not necessary to include files/timezonedb/1.0.0/timezonedb.min.js -- a good way to make sure that the update.json is working as expected. \n"
+  , issueCommentId = 92385561
+  }

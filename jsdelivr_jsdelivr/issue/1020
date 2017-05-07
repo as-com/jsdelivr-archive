@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-26) 02 : 16 : 25 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 14 : 06 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1020/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1020")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1020
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project rxjs to v2.2.27"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1020")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1020.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1020.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1020"
+  , issueCreatedAt = 2014 (-06) (-26) 02 : 04 : 08 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project rxjs to v2.2.27.\n\n@Reactive-Extensions\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"rxjs\",\n    \"repo\": \"Reactive-Extensions/RxJS\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/rxjs\",\n    \"localVersions\": [\"2.1.10\", \"2.1.11\", \"2.1.15\", \"2.1.18\", \"2.1.20\", \"2.2.2\", \"2.2.3\", \"2.2.7\", \"2.2.10\", \"2.2.14\", \"2.2.15\", \"2.2.17\", \"2.2.20\", \"2.2.24\", \"2.2.25\", \"2.2.26\"],\n    \"remoteVersions\": [\"v2.1.20\", \"v2.1.21\", \"v2.2.0\", \"v2.2.1\", \"v2.2.2\", \"v2.2.3\", \"v2.2.4\", \"v2.2.5\", \"v2.2.6\", \"v2.2.7\", \"v2.2.8\", \"v2.2.9\", \"v2.2.10\", \"v2.2.12\", \"v2.2.13\", \"v2.2.14\", \"v2.2.15\", \"v2.2.16\", \"v2.2.18\", \"v2.2.19\", \"v2.2.20\", \"v2.2.21\", \"v2.2.22\", \"v2.2.23\", \"v2.2.24\", \"v2.2.25\", \"v2.2.26\", \"v2.2.27\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v2.2.27\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/rxjs/2.2.27\",\n  \"branch\": \"rxjs/v2.2.27\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 36538948
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

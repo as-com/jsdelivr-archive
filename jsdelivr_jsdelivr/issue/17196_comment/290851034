@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-03) (-31) 22 : 53 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 9063187
+        , simpleUserLogin = N "miglesiasEB"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/9063187?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/miglesiasEB"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/290851034"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/17196#issuecomment-290851034"
+  , issueCommentCreatedAt = 2017 (-03) (-31) 22 : 53 : 16 UTC
+  , issueCommentBody =
+      "Hi @megawac, \r\nI don't know if I did something wrong with my files, but I can't see the project listed on the CDN search of https://www.jsdelivr.com/ or in any combination of:\r\n\r\n* http://cdn.jsdelivr.net/britecharts/1.4.5/css/britecharts.min.css\r\n* http://cdn.jsdelivr.net/britecharts/1.4.5/bundled/britecharts.min.js\r\n* http://cdn.jsdelivr.net/britecharts/1.4.5/britecharts.min.js\r\n...\r\n\r\nHow can I debug this issue? Do I need to wait for something to trigger?\r\n\r\nThanks a lot for your time!"
+  , issueCommentId = 290851034
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-08) 18 : 59 : 26 UTC
+  , issueUpdatedAt = 2014 (-11) (-08) 18 : 59 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2283/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2283")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2283
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2278876
+        , simpleUserLogin = N "phahulin"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2278876?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/phahulin"
+        }
+  , issueTitle = "[new] - Probtn"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2283")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2283.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2283.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2283"
+  , issueCreatedAt = 2014 (-11) (-08) 18 : 45 : 59 UTC
+  , issueBody =
+      Just
+        "Hello,\nplease add our repository.\n\nProject name is \"Probtn\" - a floating element which allows easy integration into existing website/mobileapp. Include surveys, online shops, ads, anything else without redesigning your application.\n\nMain website: http://probtn.com\nMain repository: https://github.com/probtn/probtn-web\n"
+  , issueState = StateClosed
+  , issueId = Id 48175255
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

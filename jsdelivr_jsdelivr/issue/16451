@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-20) 23 : 04 : 51 UTC
+  , issueUpdatedAt = 2017 (-02) (-20) 23 : 04 : 52 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16451/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16451")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16451
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project leaflet.groupedlayercontrol to v0.6.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16451")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16451.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16451.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16451"
+  , issueCreatedAt = 2017 (-02) (-20) 23 : 04 : 46 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project leaflet.groupedlayercontrol to v0.6.0.\n\n@ismyrnow\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"leaflet.groupedlayercontrol\",\n    \"repo\": \"ismyrnow/Leaflet.groupedlayercontrol\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/leaflet.groupedlayercontrol\",\n    \"localVersions\": [\"0.1\", \"0.4.0\", \"0.5.0\"],\n    \"remoteVersions\": [\"v0.3.0\", \"v0.3.1\", \"v0.4.0\", \"0.5.0\", \"v0.6.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/leaflet.groupedlayercontrol/update.json\",\n  \"versions\": [\"v0.6.0\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.6.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/leaflet.groupedlayercontrol/0.6.0\",\n  \"branch\": \"leaflet.groupedlayercontrol/v0.6.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 209000910
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

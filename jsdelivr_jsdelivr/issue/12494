@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-01) 14 : 18 : 00 UTC
+  , issueUpdatedAt = 2016 (-07) (-05) 17 : 32 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12494/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12494")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12494
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2908209
+        , simpleUserLogin = N "delmicio"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2908209?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/delmicio"
+        }
+  , issueTitle =
+      "jquery.payment - Add all files from project to include minified version as well"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12494")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12494.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12494.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12494"
+  , issueCreatedAt = 2016 (-06) (-30) 21 : 26 : 35 UTC
+  , issueBody =
+      Just
+        "Get all files from project not just the main unminified version.\n"
+  , issueState = StateClosed
+  , issueId = Id 163270836
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

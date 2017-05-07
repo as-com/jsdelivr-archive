@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-11) (-07) 04 : 51 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/258746922"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14667#issuecomment-258746922"
+  , issueCommentCreatedAt = 2016 (-11) (-07) 04 : 51 : 18 UTC
+  , issueCommentBody =
+      "@lenovouser it's getting all the files its just not validating correctly because github only reports the first couple hundred files. I've been asking them for years to report all changed files in a diff over the API (dont care about diff view)\n\nhttps://github.com/jsdelivrbot/jsdelivr/tree/28f9d70c7b8a80b16ace6444f43a369babeb24b5/files/open-iconic/1.1.1\n"
+  , issueCommentId = 258746922
+  }

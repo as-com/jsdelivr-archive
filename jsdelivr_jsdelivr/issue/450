@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-12) 21 : 52 : 37 UTC
+  , issueUpdatedAt = 2014 (-03) (-12) 21 : 52 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/450/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/450")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 450
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1920405
+        , simpleUserLogin = N "moderndeveloperllc"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1920405?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/moderndeveloperllc"
+        }
+  , issueTitle = "Update jquery.flot to 0.8.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/450")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/450.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/450.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/450"
+  , issueCreatedAt = 2014 (-03) (-12) 21 : 40 : 45 UTC
+  , issueBody =
+      Just
+        "Note: There appear to be many more plugins than in 0.7. Downloaded from http://www.flotcharts.org/downloads/flot-0.8.2.zip\n"
+  , issueState = StateClosed
+  , issueId = Id 29306089
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

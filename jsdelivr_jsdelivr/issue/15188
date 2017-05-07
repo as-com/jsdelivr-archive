@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-05) 16 : 50 : 21 UTC
+  , issueUpdatedAt = 2016 (-12) (-05) 16 : 50 : 21 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15188/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15188")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15188
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1178249
+        , simpleUserLogin = N "TimNN"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1178249?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/TimNN"
+        }
+  , issueTitle = "Add ace v1.2.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15188")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15188.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15188.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15188"
+  , issueCreatedAt = 2016 (-12) (-03) 20 : 43 : 37 UTC
+  , issueBody =
+      Just
+        "The files were imported from https://github.com/ajaxorg/ace-builds."
+  , issueState = StateClosed
+  , issueId = Id 193312324
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

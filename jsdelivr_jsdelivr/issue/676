@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-19) 11 : 55 : 20 UTC
+  , issueUpdatedAt = 2014 (-06) (-25) 23 : 53 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/676/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/676")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 676
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add jquery.autosize v1.18.7"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/676")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/676.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/676.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/676"
+  , issueCreatedAt = 2014 (-04) (-19) 09 : 37 : 34 UTC
+  , issueBody =
+      Just
+        "source  :  https://github.com/jackmoore/autosize/archive/1.18.7.tar.gz\n"
+  , issueState = StateClosed
+  , issueId = Id 31841116
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

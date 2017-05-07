@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-08) 21 : 03 : 15 UTC
+  , issueUpdatedAt = 2016 (-09) (-08) 21 : 03 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13679/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13679")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13679
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project firebase-bower to v3.3.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13679")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13679.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13679.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13679"
+  , issueCreatedAt = 2016 (-09) (-08) 21 : 03 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project firebase-bower to v3.3.2.\n\n@firebase\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"firebase-bower\",\n    \"repo\": \"firebase/firebase-bower\",\n    \"files\": {\n      \"include\": [\"firebase.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/firebase\",\n    \"localVersions\": [\"1.2.0\", \"2.3.1\", \"2.3.2\", \"2.4.0\", \"2.4.1\", \"2.4.2\", \"3.0.0\", \"3.0.3\", \"3.0.4\", \"3.0.5\", \"3.1.0\", \"3.2.0\", \"3.2.1\", \"3.3.0\", \"3.3.1\"],\n    \"remoteVersions\": [\"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.5\", \"v1.0.6\", \"v1.0.8\", \"v1.0.9\", \"v1.0.10\", \"v1.0.11\", \"v1.0.12\", \"v1.0.13\", \"v1.0.14\", \"v1.0.15\", \"v1.0.17\", \"v1.0.18\", \"v1.0.19\", \"v1.0.20\", \"v1.0.21\", \"v1.0.22\", \"v1.0.23\", \"v1.0.24\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\", \"v1.2.0-beta.1\", \"v1.2.0-beta.2\", \"v1.2.0-beta.3\", \"v1.2.0\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v2.0.6\", \"v2.1.0\", \"v2.1.1\", \"v2.1.2\", \"v2.2.0\", \"v2.2.1\", \"v2.2.2\", \"v2.2.3\", \"v2.2.4\", \"v2.2.5\", \"v2.2.6\", \"v2.2.7\", \"v2.2.8\", \"v2.2.9\", \"v2.3.0\", \"v2.3.1\", \"v2.3.2\", \"v2.4.0\", \"v2.4.1\", \"v2.4.2\", \"v3.0.0\", \"v3.0.1\", \"v3.0.2\", \"v3.0.3\", \"v3.0.4\", \"v3.0.5\", \"v3.1.0\", \"v3.2.0\", \"v3.2.1\", \"v3.3.0\", \"v3.3.1\", \"v3.3.2\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/firebase/update.json\",\n  \"versions\": [\"v3.3.2\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.3.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/firebase/3.3.2\",\n  \"branch\": \"firebase-bower/v3.3.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 175863905
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

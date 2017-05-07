@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-02) 21 : 24 : 45 UTC
+  , issueUpdatedAt = 2014 (-10) (-03) 00 : 40 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1898/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1898")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1898
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "jquery.jstree broken version: pre1.0"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1898"
+  , issueCreatedAt = 2014 (-10) (-02) 20 : 57 : 25 UTC
+  , issueBody =
+      Just
+        "https://github.com/jsdelivr/jsdelivr/blob/master/files/jquery.jstree/pre1.0/jquery.jstree.min.js\nvs\nhttps://github.com/jsdelivr/jsdelivr/blob/master/files/jquery.jstree/3.0.0-beta10/jstree.min.js\nNot only is that an odd filepath (which messes with [jsDelivr.com](http://www.jsdelivr.com/)), it also has different filenames included.\nEither nuke or hide the folder please.\n"
+  , issueState = StateClosed
+  , issueId = Id 44738252
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

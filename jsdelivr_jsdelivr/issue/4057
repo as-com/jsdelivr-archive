@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 14 : 15 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 14 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4057/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4057")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 4057
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "time sequence steps, drop .map encouragement"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4057")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4057.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/4057.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/4057"
+  , issueCreatedAt = 2015 (-03) (-29) 05 : 44 : 30 UTC
+  , issueBody =
+      Just
+        "Great idea to have a CONTRIBUTING doc!\nSince you have to get files ready first before switching on the bot or uploading, I added those instructions first.\nAs per discussion with @as-com &/or @megawac (sorry forgot, few months ago), we decided that `.min.map` files don't belong on a public CDN.  They are used help live-edit code, which is not recommended to do on a production site.  They can host non-minified code if they need to edit their live site.\n"
+  , issueState = StateClosed
+  , issueId = Id 65027492
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

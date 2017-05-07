@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-13) 19 : 14 : 27 UTC
+  , issueUpdatedAt = 2014 (-12) (-13) 19 : 14 : 27 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2212/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2212")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2212
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 146930
+        , simpleUserLogin = N "zippy1981"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/146930?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zippy1981"
+        }
+  , issueTitle = "added lazy.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2212")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2212.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2212.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2212"
+  , issueCreatedAt = 2014 (-11) (-04) 20 : 42 : 11 UTC
+  , issueBody =
+      Just
+        "Lazy.js is similar to underscore, but faster due to extreme lazy evaluation.\n"
+  , issueState = StateClosed
+  , issueId = Id 47762539
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

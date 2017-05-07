@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-22) 13 : 33 : 56 UTC
+  , issueUpdatedAt = 2016 (-09) (-22) 13 : 33 : 56 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13934/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13934")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 13934
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project suggestions-jquery to 16.8.9"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13934")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13934.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/13934.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/13934"
+  , issueCreatedAt = 2016 (-09) (-22) 13 : 33 : 51 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project suggestions-jquery to 16.8.9.\n\n@hflabs\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"suggestions-jquery\",\n    \"repo\": \"hflabs/suggestions-jquery\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/jquery.suggestions\",\n    \"localVersions\": [\"16.2.2\", \"16.5.1\", \"16.5.2\", \"16.5.3\", \"16.6.1\", \"16.6.3\", \"16.8.8\"],\n    \"remoteVersions\": [\"16.2.1\", \"16.2.2\", \"16.5.1\", \"16.5.2\", \"16.5.3\", \"16.6.1\", \"16.6.3\", \"16.6.4\", \"16.8.8\", \"16.8.9\"],\n    \"branchVersions\": [\"16.6.1\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/jquery.suggestions/update.json\",\n  \"versions\": [\"16.8.9\"],\n  \"updateRemote\": true,\n  \"version\": \"16.8.9\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/jquery.suggestions/16.8.9\",\n  \"branch\": \"suggestions-jquery/16.8.9\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 178611082
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

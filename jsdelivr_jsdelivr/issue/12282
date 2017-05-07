@@ -1,0 +1,31 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-20) 14 : 17 : 41 UTC
+  , issueUpdatedAt = 2016 (-06) (-20) 14 : 17 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12282/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/12282")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12282
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 123822
+        , simpleUserLogin = N "vvo"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/123822?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/vvo"
+        }
+  , issueTitle = "places.js 1.1.0 never pulled"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12282"
+  , issueCreatedAt = 2016 (-06) (-20) 12 : 55 : 06 UTC
+  , issueBody = Just "Dunno why though.\n"
+  , issueState = StateClosed
+  , issueId = Id 161188438
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

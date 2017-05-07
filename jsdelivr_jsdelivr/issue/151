@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-16) 02 : 08 : 10 UTC
+  , issueUpdatedAt = 2014 (-07) (-29) 06 : 29 : 51 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/151/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/151")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 151
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "Request add pjax-standalone entry"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/151")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/151.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/151.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/151"
+  , issueCreatedAt = 2013 (-11) (-16) 02 : 06 : 17 UTC
+  , issueBody =
+      Just
+        "Sorry about that, I have cleaned my commit. It should only be pjax-standalone entry.\nThanks.\n"
+  , issueState = StateClosed
+  , issueId = Id 22770439
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-23) 20 : 32 : 18 UTC
+  , issueUpdatedAt = 2016 (-04) (-23) 20 : 32 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11239/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11239")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11239
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-bricklayer to v1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11239")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11239.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11239.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11239"
+  , issueCreatedAt = 2016 (-04) (-23) 20 : 32 : 13 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-bricklayer to v1.0.1.\n\n@JohnnyTheTank\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular-bricklayer\",\n    \"repo\": \"JohnnyTheTank/angular-bricklayer\",\n    \"files\": {\n      \"include\": [\"dist/*.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular.bricklayer\",\n    \"localVersions\": [\"1.0.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular.bricklayer/update.json\",\n  \"versions\": [\"v1.0.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular.bricklayer/1.0.1\",\n  \"branch\": \"angular-bricklayer/v1.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 150594115
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

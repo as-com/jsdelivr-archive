@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-03) (-01) 20 : 06 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/283454179"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/16663#issuecomment-283454179"
+  , issueCommentCreatedAt = 2017 (-03) (-01) 20 : 06 : 57 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *mediaelement-plugins* between *1.2.1* and *1.2.2* there was a change in file structure  \n    ```diff\n    + ads/ads-i18n.js\n    + context-menu/context-menu-i18n.js\n    + jump-forward/jump-forward-i18n.js\n    + loop/loop-i18n.js\n    + postroll/postroll-i18n.js\n    + skip-back/skip-back-i18n.js\n    + source-chooser/source-chooser-i18n.js\n    + speed/speed-i18n.js\n    + stop/stop-i18n.js\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Design for failure.*\n"
+  , issueCommentId = 283454179
+  }

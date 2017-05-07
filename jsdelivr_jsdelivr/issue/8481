@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-14) 21 : 05 : 37 UTC
+  , issueUpdatedAt = 2015 (-12) (-14) 21 : 05 : 38 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8481/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8481")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8481
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project renuo-cms-client to 0.0.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8481")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8481.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8481.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8481"
+  , issueCreatedAt = 2015 (-12) (-14) 21 : 02 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project renuo-cms-client to 0.0.8.\n\n@renuo\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"renuo-cms-client\",\n    \"repo\": \"renuo/renuo-cms-client\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/renuo-cms-client\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"0.0.0\", \"0.0.1\", \"0.0.2\", \"0.0.3\", \"0.0.5\", \"0.0.6\", \"0.0.7\", \"0.0.8\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/renuo-cms-client/update.json\",\n  \"version\": \"0.0.8\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/renuo-cms-client/0.0.8\",\n  \"branch\": \"renuo-cms-client/0.0.8\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 122130503
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

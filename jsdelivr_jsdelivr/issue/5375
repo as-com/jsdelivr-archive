@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-20) 17 : 06 : 18 UTC
+  , issueUpdatedAt = 2015 (-06) (-20) 17 : 06 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5375/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5375")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5375
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project classie to v1.0.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5375")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5375.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5375.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5375"
+  , issueCreatedAt = 2015 (-06) (-20) 17 : 06 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project classie to v1.0.1.\n\n@desandro\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"classie\",\n    \"repo\": \"desandro/classie\",\n    \"files\": {\n      \"include\": [\"classie.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/classie\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.0.1\", \"v0.0.2\", \"v0.0.3\", \"v0.0.4\", \"v1.0.0\", \"v1.0.1\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v1.0.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/classie/1.0.1\",\n  \"branch\": \"classie/v1.0.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 89791926
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-21) 10 : 00 : 05 UTC
+  , issueUpdatedAt = 2014 (-12) (-21) 10 : 18 : 12 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2802/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2802")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2802
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1308419
+        , simpleUserLogin = N "tomByrer"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1308419?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomByrer"
+        }
+  , issueTitle = "add new jQuery please"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2802"
+  , issueCreatedAt = 2014 (-12) (-20) 20 : 52 : 21 UTC
+  , issueBody =
+      Just
+        "sorry, too busy for PR\nhttps://github.com/jquery/codeorigin.jquery.com/tree/master/cdn\n"
+  , issueState = StateClosed
+  , issueId = Id 52576263
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

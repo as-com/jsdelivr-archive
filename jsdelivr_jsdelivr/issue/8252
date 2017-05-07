@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-29) 13 : 47 : 39 UTC
+  , issueUpdatedAt = 2015 (-12) (-29) 14 : 36 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8252/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8252")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8252
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 325171
+        , simpleUserLogin = N "ghinda"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/325171?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghinda"
+        }
+  , issueTitle = "Add css-toggle-switch"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8252")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8252.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8252.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8252"
+  , issueCreatedAt = 2015 (-12) (-03) 07 : 03 : 43 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 120107726
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

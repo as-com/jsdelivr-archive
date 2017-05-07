@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-03) 01 : 26 : 13 UTC
+  , issueUpdatedAt = 2016 (-11) (-03) 01 : 26 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14469/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/14469")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14469
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6059356
+        , simpleUserLogin = N "limonte"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6059356?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/limonte"
+        }
+  , issueTitle = "es6-promise package is not up to date"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14469"
+  , issueCreatedAt = 2016 (-10) (-27) 16 : 40 : 25 UTC
+  , issueBody =
+      Just
+        "According to #14448 there should be 4 files in [es6-promise](https://www.jsdelivr.com/projects/es6-promise) package: `es6-promise.js`, `es6-promise.min.js`, `es6-promise.auto.js`, `es6-promise.auto.min.js`\n\nActual state is outdated and there are only 2 files: `es6-promise.js`, `es6-promise.min.js`. Missed files: `es6-promise.auto.js`, `es6-promise.auto.min.js`.\n\nAlso, the latest version is [v4.0.5](https://github.com/stefanpenner/es6-promise/releases/tag/v4.0.5) and the latest jsdelivr version is v3.1.2\n"
+  , issueState = StateClosed
+  , issueId = Id 185721410
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

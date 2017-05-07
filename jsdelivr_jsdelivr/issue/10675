@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-28) 17 : 33 : 31 UTC
+  , issueUpdatedAt = 2016 (-03) (-28) 17 : 33 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10675/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10675")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 10675
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project gmap3 to 7.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10675")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10675.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/10675.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/10675"
+  , issueCreatedAt = 2016 (-03) (-28) 17 : 33 : 27 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project gmap3 to 7.0.0.\n\n@jbdemonte\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"gmap3\",\n    \"repo\": \"jbdemonte/gmap3\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"gmap3.min.js\", \"gmap3.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/gmap3\",\n    \"localVersions\": [\"4.1\", \"5.0b\", \"5.1.1\", \"6.0.0\", \"6.1.0\"],\n    \"remoteVersions\": [\"v3.4\", \"v4.0\", \"v4.1a\", \"v4.1\", \"v5.0b\", \"v5.0\", \"v5.1\", \"v5.1.1\", \"v6.0.0\", \"v6.1.0\", \"7.0.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/gmap3/update.json\",\n  \"versions\": [\"v3.4\", \"7.0.0\"],\n  \"updateRemote\": true,\n  \"version\": \"7.0.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/gmap3/7.0.0\",\n  \"branch\": \"gmap3/7.0.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 144033710
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

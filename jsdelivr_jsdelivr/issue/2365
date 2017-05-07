@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-14) 13 : 30 : 29 UTC
+  , issueUpdatedAt = 2014 (-11) (-14) 13 : 30 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2365/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2365")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2365
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project yasgui-yasr to 2.0.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2365")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2365.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2365.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2365"
+  , issueCreatedAt = 2014 (-11) (-14) 09 : 39 : 47 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project yasgui-yasr to 2.0.2.\n\n@YASGUI\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"npm\",\n    \"name\": \"yasgui-yasr\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\", \"*.min.js.map\", \"*.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/yasr\",\n    \"localVersions\": [\"2.0.0\", \"2.0.1\"],\n    \"remoteVersions\": [\"0.0.0\", \"1.1.2\", \"1.1.3\", \"1.1.4\", \"1.1.6\", \"1.1.7\", \"1.1.8\", \"1.1.9\", \"1.1.10\", \"1.2.1\", \"1.2.3\", \"2.0.0\", \"2.0.1\", \"2.0.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"2.0.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/yasr/2.0.2\",\n  \"branch\": \"yasgui-yasr/2.0.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 48762455
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

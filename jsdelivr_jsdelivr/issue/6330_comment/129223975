@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-09) 18 : 34 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/129223975"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6330#issuecomment-129223975"
+  , issueCommentCreatedAt = 2015 (-08) (-09) 18 : 34 : 51 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @onokumus, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` or `update.json` has some problems\n  - Failed to validate jquery.metismenu: 'NoneType' object has no attribute 'decode'\n  - Issues validating _update.json_ for jquery.metismenu: expected string or buffer\n- Might be nothing but I have some concerns about the files in your submission...  \n  - Expected _css/metismenu.css_ to be static content; found binary\n  - Expected _css/metismenu.min.css_ to be static content; found binary\n  - Expected _js/metismenu.js_ to be static content; found binary\n  - Expected _js/metismenu.min.js_ to be static content; found binary\n  - Expected _css/metismenu.css_ to be static content; found binary\n  - Expected _css/metismenu.min.css_ to be static content; found binary\n  - Expected _js/metismenu.js_ to be static content; found binary\n  - Expected _js/metismenu.min.js_ to be static content; found binary\n  - Expected _css/jquery.metisMenu.css_ to be static content; found binary\n  - Expected _css/metismenu.css_ to be static content; found binary\n  - Expected _css/metismenu.min.css_ to be static content; found binary\n  - Expected _js/jquery.metisMenu.min.js_ to be static content; found binary\n  - Expected _js/metismenu.js_ to be static content; found binary\n  - Expected _js/metismenu.min.js_ to be static content; found binary\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Keep it logically awesome._\n"
+  , issueCommentId = 129223975
+  }

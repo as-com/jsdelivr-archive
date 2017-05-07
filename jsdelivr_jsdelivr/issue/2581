@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-02) 16 : 53 : 43 UTC
+  , issueUpdatedAt = 2014 (-12) (-02) 16 : 53 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2581/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2581")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2581
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle =
+      "Update project jquery.eliminator-slajdow to v3.1.35"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2581")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2581.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2581.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2581"
+  , issueCreatedAt = 2014 (-12) (-02) 16 : 53 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.eliminator-slajdow to v3.1.35.\n\n@maestr0\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.eliminator-slajdow\",\n    \"repo\": \"maestr0/eliminator-slajdow-chrome\",\n    \"files\": {\n      \"basePath\": \"js/\",\n      \"include\": [\"eliminator-slajdow.jquery.widget.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.eliminator-slajdow\",\n    \"localVersions\": [\"3.1.15\", \"3.1.16\", \"3.1.20\", \"3.1.21\", \"3.1.22\", \"3.1.25\", \"3.1.26\", \"3.1.28\", \"3.1.29\", \"3.1.30\", \"3.1.31\", \"3.1.32\", \"3.1.33\", \"3.1.34\"],\n    \"remoteVersions\": [\"remove\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\", \"v2.0.5\", \"v2.0.6\", \"v2.0.7\", \"v2.0.8\", \"v2.0.9\", \"v2.0.10\", \"v2.0.11\", \"v2.0.12\", \"v2.1.0\", \"v2.1.1\", \"v2.1.2\", \"v2.1.3\", \"v2.1.4\", \"v2.1.5\", \"v2.1.6\", \"v2.1.7\", \"v2.1.8\", \"v2.1.9\", \"v2.2.1\", \"v2.2.2\", \"v2.2.3\", \"v2.2.4\", \"v2.2.5\", \"v2.2.6\", \"v2.2.7\", \"v2.2.8\", \"v2.2.9\", \"v2.2.10\", \"v2.2.11\", \"v2.2.12\", \"v2.2.13\", \"v3.0.0\", \"v3.0.1\", \"v3.0.2\", \"v3.0.3\", \"v3.0.4\", \"v3.0.5\", \"v3.0.6\", \"v3.0.7\", \"v3.0.8\", \"v3.0.9\", \"v3.0.10\", \"v3.0.11\", \"v3.0.12\", \"v3.0.13\", \"v3.1.1\", \"v3.1.2\", \"v3.1.3\", \"v3.1.4\", \"v3.1.5\", \"v3.1.6\", \"v3.1.7\", \"v3.1.8\", \"v3.1.9\", \"v3.1.10\", \"v3.1.11\", \"v3.1.12\", \"v3.1.13\", \"v3.1.14\", \"v3.1.15\", \"v3.1.16\", \"v3.1.20\", \"v3.1.21\", \"v3.1.22\", \"v3.1.23\", \"v3.1.25\", \"v3.1.26\", \"v3.1.27\", \"v3.1.28\", \"v3.1.29\", \"v3.1.30\", \"v3.1.31\", \"v3.1.32\", \"v3.1.33\", \"v3.1.34\", \"v3.1.35\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v3.1.35\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.eliminator-slajdow/3.1.35\",\n  \"branch\": \"jquery.eliminator-slajdow/v3.1.35\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 50680790
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

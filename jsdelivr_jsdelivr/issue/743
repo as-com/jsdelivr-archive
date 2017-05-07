@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-02) 21 : 23 : 26 UTC
+  , issueUpdatedAt = 2014 (-05) (-04) 18 : 09 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/743/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/743")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 743
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 262165
+        , simpleUserLogin = N "GeorgeErickson"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/262165?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/GeorgeErickson"
+        }
+  , issueTitle = "Homepage incorrect"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/743")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/743.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/743.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/743"
+  , issueCreatedAt = 2014 (-05) (-02) 21 : 20 : 31 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 32726948
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

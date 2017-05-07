@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-19) 12 : 32 : 32 UTC
+  , issueUpdatedAt = 2016 (-01) (-19) 12 : 32 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9207/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9207")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9207
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project doofinder to 0.17.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9207")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9207.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9207.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9207"
+  , issueCreatedAt = 2016 (-01) (-19) 12 : 32 : 28 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project doofinder to 0.17.6.\n\n@doofinder\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"doofinder\",\n    \"repo\": \"doofinder/js-doofinder\",\n    \"files\": {\n      \"include\": [\"dist/doofinder.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/doofinder\",\n    \"localVersions\": [\"0.11.0\", \"0.17.2\", \"0.17.3\", \"0.17.4\", \"0.17.5\"],\n    \"remoteVersions\": [\"v0.0.1-Beta\", \"v0.2.3\", \"v0.2.7\", \"v0.3.1\", \"v0.4.0\", \"v0.4.1\", \"v0.6.1\", \"0.7.0\", \"0.10.0\", \"0.11.0\", \"0.17.2\", \"0.17.3\", \"0.17.4\", \"0.17.5\", \"0.17.6\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/doofinder/update.json\",\n  \"versions\": [\"0.17.6\"],\n  \"updateRemote\": true,\n  \"version\": \"0.17.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/doofinder/0.17.6\",\n  \"branch\": \"doofinder/0.17.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 127435711
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

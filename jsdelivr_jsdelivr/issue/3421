@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-12) 18 : 13 : 39 UTC
+  , issueUpdatedAt = 2015 (-02) (-12) 18 : 13 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3421/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3421")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3421
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project uniformjs to v2.1.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3421")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3421.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3421.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3421"
+  , issueCreatedAt = 2015 (-02) (-12) 17 : 52 : 15 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project uniformjs to v2.1.2.\n\n@pixelmatrix\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"uniformjs\",\n    \"repo\": \"pixelmatrix/uniform\",\n    \"files\": {\n      \"include\": [\"jquery.uniform.js\", \"jquery.uniform.min.js\", \"./themes/**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/uniformjs\",\n    \"localVersions\": [\"1.7.5\", \"2.0.0\", \"2.1.1\"],\n    \"remoteVersions\": [\"v1.7.5\", \"v2.0.0\", \"v2.1.0\", \"v2.1.1\", \"v2.1.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v2.1.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/uniformjs/2.1.2\",\n  \"branch\": \"uniformjs/v2.1.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 57495014
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-26) 23 : 12 : 56 UTC
+  , issueUpdatedAt = 2013 (-11) (-26) 23 : 23 : 26 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/166/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/166")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 166
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4303
+        , simpleUserLogin = N "jdalton"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4303?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jdalton"
+        }
+  , issueTitle = "the repo location and user has changed for Lo-Dash"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/166"
+  , issueCreatedAt = 2013 (-11) (-26) 23 : 00 : 23 UTC
+  , issueBody =
+      Just
+        "Currently jsDelivr is showing our old address. The new user is `lodash` and the repo is https://github.com/lodash/lodash/.\n\nThanks :D\n"
+  , issueState = StateClosed
+  , issueId = Id 23354986
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-12) 16 : 57 : 02 UTC
+  , issueUpdatedAt = 2016 (-01) (-12) 16 : 57 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8898/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8898")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8898
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 191823
+        , simpleUserLogin = N "SerjoPepper"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/191823?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/SerjoPepper"
+        }
+  , issueTitle = "Add \"kick_sovetnik\""
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8898")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8898.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8898.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8898"
+  , issueCreatedAt = 2016 (-01) (-12) 11 : 57 : 03 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 126163683
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

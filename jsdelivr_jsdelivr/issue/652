@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-14) 19 : 54 : 53 UTC
+  , issueUpdatedAt = 2014 (-04) (-14) 19 : 54 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/652/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/652")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 652
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7112345
+        , simpleUserLogin = N "codingfriend1"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/7112345?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/codingfriend1"
+        }
+  , issueTitle = "Flexgrid 1.4.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/652")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/652.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/652.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/652"
+  , issueCreatedAt = 2014 (-04) (-14) 19 : 54 : 05 UTC
+  , issueBody =
+      Just
+        "Android browsers don't work with margin-right: -0.25em, so this update\nuses javascript to remove the white space after inline-blocks. This\nversion only works if javascript is enabled.\n"
+  , issueState = StateClosed
+  , issueId = Id 31497251
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

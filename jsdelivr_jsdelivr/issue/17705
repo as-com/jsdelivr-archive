@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-20) 06 : 33 : 36 UTC
+  , issueUpdatedAt = 2017 (-04) (-20) 06 : 33 : 37 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17705/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17705")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17705
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project egjs to 1.5.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17705")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17705.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17705.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17705"
+  , issueCreatedAt = 2017 (-04) (-20) 06 : 33 : 30 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project egjs to 1.5.0.\n\n@naver\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"egjs\",\n    \"repo\": \"naver/egjs\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/egjs\",\n    \"localVersions\": [\"1.1.0\", \"1.2.0\", \"1.3.0\", \"1.4.0\", \"1.4.1\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\", \"1.2.0\", \"1.3.0\", \"1.4.0\", \"1.4.1\", \"1.5.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/egjs/update.json\",\n  \"versions\": [\"1.5.0\"],\n  \"updateRemote\": true,\n  \"version\": \"1.5.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/egjs/1.5.0\",\n  \"branch\": \"egjs/1.5.0\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 222962881
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

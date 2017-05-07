@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-27) 17 : 39 : 26 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 00 : 14 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/706/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/706")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 706
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 832178
+        , simpleUserLogin = N "joushx"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/832178?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/joushx"
+        }
+  , issueTitle = "Added EAN13.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/706")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/706.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/706.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/706"
+  , issueCreatedAt = 2014 (-04) (-27) 17 : 22 : 31 UTC
+  , issueBody = Just "I added my EAN13.js library.\n"
+  , issueState = StateClosed
+  , issueId = Id 32315998
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

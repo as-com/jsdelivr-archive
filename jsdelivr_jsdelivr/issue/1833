@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-25) 20 : 37 : 29 UTC
+  , issueUpdatedAt = 2014 (-09) (-25) 20 : 37 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1833/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1833")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1833
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project ui-grid to v3.0.0-rc.2-gf598dc3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1833")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1833.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1833.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1833"
+  , issueCreatedAt = 2014 (-09) (-25) 20 : 35 : 38 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project ui-grid to v3.0.0-rc.2-gf598dc3.\n\n@angular-ui\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"ui-grid\",\n    \"repo\": \"angular-ui/ui-grid.info/\",\n    \"files\": {\n      \"basePath\": \"release/\",\n      \"include\": [\"ui-grid-unstable.min.js\", \"ui-grid-unstable.min.css\", \"ui-grid.min.css\", \"ui-grid.min.js\", \"ui-grid.eot\", \"ui-grid.woff\", \"ui-grid.svg\", \"ui-grid.ttf\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/angular.ui-grid\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v3.0.0-rc.8\", \"v3.0.0-rc.2-ge32fd8a\", \"v3.0.0-rc.2-gec2e962\", \"v3.0.0-rc.2-gf598dc3\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v3.0.0-rc.2-gf598dc3\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/angular.ui-grid/3.0.0-rc.2-gf598dc3\",\n  \"branch\": \"ui-grid/v3.0.0-rc.2-gf598dc3\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 43964240
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

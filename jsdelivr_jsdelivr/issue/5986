@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-20) 05 : 06 : 13 UTC
+  , issueUpdatedAt = 2015 (-07) (-20) 05 : 06 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5986/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5986")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5986
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 104607
+        , simpleUserLogin = N "ping"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/104607?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ping"
+        }
+  , issueTitle =
+      "Add back 4.12.x releases for videojs that was not updated"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5986")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5986.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5986.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5986"
+  , issueCreatedAt = 2015 (-07) (-20) 05 : 04 : 08 UTC
+  , issueBody =
+      Just "Because of #5909\n\nAdded releases 4.12.6 - 4.12.11\n"
+  , issueState = StateClosed
+  , issueId = Id 95987740
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

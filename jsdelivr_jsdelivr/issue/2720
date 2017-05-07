@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-14) 10 : 51 : 19 UTC
+  , issueUpdatedAt = 2014 (-12) (-14) 17 : 12 : 54 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2720/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/2720")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2720
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1840854
+        , simpleUserLogin = N "rileyjshaw"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1840854?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/rileyjshaw"
+        }
+  , issueTitle = "Terra not updating"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2720"
+  , issueCreatedAt = 2014 (-12) (-14) 09 : 35 : 40 UTC
+  , issueBody =
+      Just
+        "Since Terra is still in beta, tags so far have looked like: `v1.3.1-beta`\n\nI forgot the `-beta` postfix on my last git tag, leaving the project at `v1.4.0`.\n\nI've since renamed and fixed the tag to `v1.4.0-beta`, but jsdelivr doesn't seem to have caught it. I just updated the project to `v1.5.0-beta`, but it seems to be stuck on the old `v1.4.0` tag.\n\nIs there any way to purge (or rename) the erroneous tag and re-scan bower? It's a pretty important update...\n\nThanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 51914719
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

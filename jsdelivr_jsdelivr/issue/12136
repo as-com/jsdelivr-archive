@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-11) 16 : 05 : 07 UTC
+  , issueUpdatedAt = 2016 (-06) (-11) 16 : 05 : 07 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12136/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12136")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12136
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project sweetalert2 to v3.3.8"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12136")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12136.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12136.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12136"
+  , issueCreatedAt = 2016 (-06) (-11) 16 : 05 : 01 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project sweetalert2 to v3.3.8.\n\n@limonte\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"sweetalert2\",\n    \"repo\": \"limonte/sweetalert2\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"sweetalert2.min.js\", \"sweetalert2.css\", \"sweetalert2.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/sweetalert2\",\n    \"localVersions\": [\"0.4.0\", \"0.4.1\", \"0.4.2\", \"0.4.3\", \"0.4.4\", \"0.4.5\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.8\", \"1.0.9\", \"1.1.0\", \"1.1.1\", \"1.2.0\", \"1.2.1\", \"1.2.2\", \"1.2.3\", \"1.3.0\", \"1.3.1\", \"1.3.2\", \"1.3.3\", \"1.3.4\", \"1.4.0\", \"1.4.1\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.1.0\", \"2.1.1\", \"2.2.0\", \"2.2.1\", \"2.2.2\", \"2.2.3\", \"2.2.4\", \"2.2.5\", \"2.2.6\", \"2.2.7\", \"2.2.8\", \"2.2.9\", \"2.2.10\", \"2.2.11\", \"2.2.12\", \"2.2.13\", \"2.2.14\", \"3.0.0\", \"3.0.1\", \"3.0.2\", \"3.0.3\", \"3.1.0\", \"3.1.1\", \"3.2.1\", \"3.2.2\", \"3.2.3\", \"3.3.0\", \"3.3.1\", \"3.3.3\", \"3.3.4\", \"3.3.6\", \"3.3.7\"],\n    \"remoteVersions\": [\"v0.0.3\", \"v0.0.4\", \"v0.0.5\", \"v0.0.6\", \"v0.0.7\", \"v0.0.8\", \"v0.0.9\", \"v0.1.0\", \"v0.1.1\", \"v0.1.2\", \"v0.1.3\", \"v0.1.4\", \"v0.1.5\", \"v0.1.6\", \"v0.1.7\", \"v0.1.8\", \"v0.1.9\", \"v0.2.0\", \"v0.2.1\", \"v0.2.2\", \"v0.2.3\", \"v0.2.4\", \"v0.2.5\", \"v0.2.6\", \"v0.2.7\", \"v0.2.8\", \"v0.2.9\", \"v0.2.10\", \"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.3.4\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\", \"v0.4.5\", \"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.0.8\", \"v1.0.9\", \"v1.1.0\", \"v1.1.1\", \"v1.2.0\", \"v1.2.1\", \"v1.2.2\", \"v1.2.3\", \"v1.3.0\", \"v1.3.1\", \"v1.3.2\", \"v1.3.3\", \"v1.3.4\", \"v1.4.0\", \"v1.4.1\", \"v2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.1.0\", \"v2.1.1\", \"v2.2.0\", \"v2.2.1\", \"v2.2.2\", \"v2.2.3\", \"v2.2.4\", \"v2.2.5\", \"v2.2.6\", \"v2.2.7\", \"v2.2.8\", \"v2.2.9\", \"v2.2.10\", \"v2.2.11\", \"v2.2.12\", \"v2.2.13\", \"v2.2.14\", \"v3.0.0\", \"v3.0.1\", \"v3.0.2\", \"v3.0.3\", \"v3.1.0\", \"v3.1.1\", \"v3.2.0\", \"v3.2.1\", \"v3.2.2\", \"v3.2.3\", \"v3.3.0\", \"v3.3.1\", \"v3.3.3\", \"v3.3.4\", \"v3.3.6\", \"v3.3.7\", \"v3.3.8\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/sweetalert2/update.json\",\n  \"versions\": [\"v3.3.8\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.3.8\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/sweetalert2/3.3.8\",\n  \"branch\": \"sweetalert2/v3.3.8\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 159780223
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

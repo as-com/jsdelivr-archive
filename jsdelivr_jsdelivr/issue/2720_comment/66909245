@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-14) 10 : 51 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66909245"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2720#issuecomment-66909245"
+  , issueCommentCreatedAt = 2014 (-12) (-14) 10 : 51 : 19 UTC
+  , issueCommentBody =
+      "I fixed it by renaming the version, the bot should now update it normally. Thanks for reporting :)\n"
+  , issueCommentId = 66909245
+  }

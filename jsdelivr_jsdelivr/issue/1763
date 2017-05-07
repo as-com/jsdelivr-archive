@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-18) 11 : 53 : 42 UTC
+  , issueUpdatedAt = 2014 (-09) (-18) 11 : 53 : 42 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1763/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1763")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1763
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8807409
+        , simpleUserLogin = N "sajjad-shirazy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/8807409?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sajjad-shirazy"
+        }
+  , issueTitle = "Create bootjstrap.min.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1763")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1763.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1763.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1763"
+  , issueCreatedAt = 2014 (-09) (-18) 07 : 21 : 21 UTC
+  , issueBody =
+      Just "https://github.com/sajjad-shirazy/BootJStrap/\n"
+  , issueState = StateClosed
+  , issueId = Id 43102889
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

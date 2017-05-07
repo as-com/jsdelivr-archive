@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-19) 19 : 43 : 24 UTC
+  , issueUpdatedAt = 2014 (-06) (-18) 20 : 51 : 28 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/824/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/824")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 824
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1890480
+        , simpleUserLogin = N "jkosir"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1890480?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jkosir"
+        }
+  , issueTitle = "Tracking js script for insightful web analytics"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/824")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/824.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/824.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/824"
+  , issueCreatedAt = 2014 (-05) (-19) 19 : 37 : 35 UTC
+  , issueBody =
+      Just
+        "Tracking code for a personal and open source web anayltics platform\n"
+  , issueState = StateClosed
+  , issueId = Id 33829793
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

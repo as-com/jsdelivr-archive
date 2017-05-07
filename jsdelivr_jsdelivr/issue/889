@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-11) 00 : 32 : 52 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 19 : 03 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/889/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/889")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 889
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3435852
+        , simpleUserLogin = N "sunnykgupta"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3435852?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sunnykgupta"
+        }
+  , issueTitle = "Added History.js v 1.8.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/889")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/889.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/889.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/889"
+  , issueCreatedAt = 2014 (-06) (-04) 11 : 20 : 50 UTC
+  , issueBody =
+      Just "Adapters for various popular frameworks also included.\n"
+  , issueState = StateClosed
+  , issueId = Id 34949941
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

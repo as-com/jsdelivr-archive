@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-20) 18 : 18 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/255186027"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/14441#issuecomment-255186027"
+  , issueCommentCreatedAt = 2016 (-10) (-20) 18 : 18 : 20 UTC
+  , issueCommentBody =
+      "You will need to include an update.json or a version of the library in this pull request. See our contributing.md\n"
+  , issueCommentId = 255186027
+  }

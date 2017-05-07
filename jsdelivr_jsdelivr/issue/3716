@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-18) 19 : 52 : 43 UTC
+  , issueUpdatedAt = 2015 (-10) (-18) 19 : 52 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3716/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3716")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3716
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3518429
+        , simpleUserLogin = N "koko-ng"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/3518429?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/koko-ng"
+        }
+  , issueTitle = "MediaStreamRecorder"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3716")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3716.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3716.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3716"
+  , issueCreatedAt = 2015 (-03) (-03) 20 : 35 : 32 UTC
+  , issueBody =
+      Just
+        "I've add the library MediaStreamRecorder. It's a cross-browser implementation to record audio/video streams. I think it's useful because MediaRecorder is only supported by Gecko (cf. https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder)\n"
+  , issueState = StateClosed
+  , issueId = Id 59701450
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

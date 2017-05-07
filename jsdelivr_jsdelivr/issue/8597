@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-21) 20 : 30 : 58 UTC
+  , issueUpdatedAt = 2015 (-12) (-21) 20 : 30 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8597/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8597")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8597
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project intro.js to 2.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8597")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8597.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8597.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8597"
+  , issueCreatedAt = 2015 (-12) (-21) 14 : 31 : 41 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project intro.js to 2.0.\n\n@usablica\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"intro.js\",\n    \"repo\": \"usablica/intro.js\",\n    \"files\": {\n      \"basePath\": \"minified/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/intro.js\",\n    \"localVersions\": [\"0.5.0\", \"0.6.0\", \"0.9.0\", \"1.0.0\", \"1.1.0\", \"1.1.1\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v0.2.0\", \"v0.2.1\", \"v0.3.0\", \"v0.4.0\", \"v0.5.0\", \"v0.6.0\", \"v0.7.0\", \"v0.7.1\", \"v0.8.0\", \"v0.9.0\", \"v1.0.0\", \"1.1.0\", \"v1.1.1\", \"2.0\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/intro.js/update.json\",\n  \"version\": \"2.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/intro.js/2.0.0\",\n  \"branch\": \"intro.js/2.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 123289297
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

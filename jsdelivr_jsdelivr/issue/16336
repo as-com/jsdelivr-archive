@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-14) 21 : 27 : 57 UTC
+  , issueUpdatedAt = 2017 (-02) (-14) 21 : 27 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16336/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16336")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16336
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2261598
+        , simpleUserLogin = N "SupremeTechnopriest"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2261598?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/SupremeTechnopriest"
+        }
+  , issueTitle = "Patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16336")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16336.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16336.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16336"
+  , issueCreatedAt = 2017 (-02) (-13) 18 : 37 : 52 UTC
+  , issueBody = Just "add [edgemesh](https://edgemesh.com)"
+  , issueState = StateClosed
+  , issueId = Id 207302855
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

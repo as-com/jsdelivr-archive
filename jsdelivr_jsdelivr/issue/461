@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-16) 00 : 20 : 56 UTC
+  , issueUpdatedAt = 2014 (-03) (-16) 00 : 21 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/461/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/461")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 461
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6960243
+        , simpleUserLogin = N "djprmf"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/6960243?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/djprmf"
+        }
+  , issueTitle = "Add Bootflat v2.0.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/461")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/461.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/461.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/461"
+  , issueCreatedAt = 2014 (-03) (-15) 23 : 53 : 28 UTC
+  , issueBody =
+      Just "Hi,\n\nHope that i have done all right.\n\nThanks\n"
+  , issueState = StateClosed
+  , issueId = Id 29505230
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

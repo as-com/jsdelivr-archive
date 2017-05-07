@@ -1,0 +1,47 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-02) 01 : 06 : 30 UTC
+  , issueUpdatedAt = 2014 (-02) (-02) 01 : 06 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/168/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/168")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              URL "https://api.github.com/repos/jsdelivr/jsdelivr/labels/bug"
+          , labelName = N "bug"
+          }
+      , IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/enhancement"
+          , labelName = N "enhancement"
+          }
+      ]
+  , issueNumber = 168
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = " Improve search"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/168"
+  , issueCreatedAt = 2013 (-11) (-29) 16 : 28 : 18 UTC
+  , issueBody =
+      Just
+        "Reported bug:\ntry searching for \"jquery ui\" or \"jquery-ui\"\nyou wont find it, you will have to specify the word correctly as \"jquery.ui\"\nthis doesn't work if people don't know the exact name.\n"
+  , issueState = StateClosed
+  , issueId = Id 23500596
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

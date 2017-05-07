@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-22) 13 : 46 : 30 UTC
+  , issueUpdatedAt = 2014 (-08) (-22) 13 : 58 : 10 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1495/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1495")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1495
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1935696
+        , simpleUserLogin = N "karlhorky"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1935696?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/karlhorky"
+        }
+  , issueTitle = "Change owner of jquery.gray and update to v1.3.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1495")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1495.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1495.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1495"
+  , issueCreatedAt = 2014 (-08) (-22) 13 : 36 : 38 UTC
+  , issueBody = Nothing
+  , issueState = StateClosed
+  , issueId = Id 40908797
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

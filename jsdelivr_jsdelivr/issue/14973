@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-26) 11 : 31 : 02 UTC
+  , issueUpdatedAt = 2016 (-11) (-26) 11 : 31 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14973/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14973")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14973
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 15857795
+        , simpleUserLogin = N "perfectacle"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/15857795?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/perfectacle"
+        }
+  , issueTitle = "Revert \"[request] add check-browsers\""
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14973")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14973.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14973.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14973"
+  , issueCreatedAt = 2016 (-11) (-26) 11 : 09 : 54 UTC
+  , issueBody =
+      Just
+        "Reverts jsdelivr/jsdelivr#14958\r\n\r\nhey I add some tags for version.\r\nhttps://github.com/perfectacle/check-browsers\r\nwill i do more thing?"
+  , issueState = StateClosed
+  , issueId = Id 191800605
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

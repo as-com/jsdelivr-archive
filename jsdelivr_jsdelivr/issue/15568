@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-30) 19 : 19 : 39 UTC
+  , issueUpdatedAt = 2016 (-12) (-30) 19 : 19 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15568/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/15568")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15568
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 821706
+        , simpleUserLogin = N "bradvogel"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/821706?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bradvogel"
+        }
+  , issueTitle = "d3.js project not picking up new versions"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15568"
+  , issueCreatedAt = 2016 (-12) (-30) 18 : 41 : 35 UTC
+  , issueBody =
+      Just
+        "Hi, this is a question that I asked in Gitter but didn't get a response. So I'm asking here hoping someone can help.\r\n\r\nI'm confused why libgrabber stopped picking up D3.js updates at version v3.5.17, when the latest is v4.4.0 in D3's github repo: (https://github.com/jsdelivr/jsdelivr/tree/master/files/d3js). It has an auto-update file (https://github.com/jsdelivr/jsdelivr/blob/master/files/d3js/update.json) and the repo is properly tagged in git."
+  , issueState = StateClosed
+  , issueId = Id 198180974
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

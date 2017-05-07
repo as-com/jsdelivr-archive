@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-28) 17 : 51 : 02 UTC
+  , issueUpdatedAt = 2016 (-06) (-28) 17 : 51 : 02 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12432/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12432")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12432
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 757431
+        , simpleUserLogin = N "DanCollinz"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/757431?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DanCollinz"
+        }
+  , issueTitle = "Adding bootstrap.star rating"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12432")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12432.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12432.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12432"
+  , issueCreatedAt = 2016 (-06) (-28) 16 : 49 : 03 UTC
+  , issueBody =
+      Just
+        "First time trying to move files to your cdn. I followed the instructions about adding the files via the git web interface. As far as I can see there is no way to add a file to the patch form the web interface....\n"
+  , issueState = StateClosed
+  , issueId = Id 162733543
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

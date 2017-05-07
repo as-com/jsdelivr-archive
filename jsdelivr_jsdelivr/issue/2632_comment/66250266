@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-09) 08 : 41 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/66250266"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2632#issuecomment-66250266"
+  , issueCommentCreatedAt = 2014 (-12) (-09) 08 : 41 : 26 UTC
+  , issueCommentBody =
+      "@tomByrer Can you give an example? Basically this also means using a CDN for WordPress (like maxcdn, cloudfront) with common setup like wp-super-cache and w3tc hurts performance. \n"
+  , issueCommentId = 66250266
+  }

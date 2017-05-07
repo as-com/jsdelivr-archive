@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-07) 16 : 53 : 00 UTC
+  , issueUpdatedAt = 2014 (-02) (-07) 16 : 53 : 00 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/343/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/343")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 343
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4073002
+        , simpleUserLogin = N "josephschorr"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/4073002?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/josephschorr"
+        }
+  , issueTitle = "file-combiner fails with JS error"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/343"
+  , issueCreatedAt = 2014 (-02) (-07) 06 : 50 : 33 UTC
+  , issueBody =
+      Just
+        "Loading http://cdn.jsdelivr.net/g/underscorejs@1.5.2,restangular@1.2.0\n\nResults in the following JS error: \n\n```\nUncaught SyntaxError: Unexpected token * underscorejs@1.5.2,restangular@1.2.0:8\n```\n\nIt appears the comment is closed accidentally\n"
+  , issueState = StateClosed
+  , issueId = Id 27113805
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

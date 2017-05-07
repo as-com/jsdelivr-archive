@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-04) 11 : 42 : 49 UTC
+  , issueUpdatedAt = 2014 (-08) (-04) 11 : 42 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1352/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/1352")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1352
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 248811
+        , simpleUserLogin = N "mariussoutier"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/248811?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mariussoutier"
+        }
+  , issueTitle = "Gateway Timeout 504 on certain WebJars"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1352"
+  , issueCreatedAt = 2014 (-08) (-04) 08 : 39 : 14 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nI have a couple of WebJars that are failing with\n\n``` html\n<html>\n<head><title>504 Gateway Time-out</title></head>\n<body bgcolor=\"white\">\n<center><h1>504 Gateway Time-out</h1></center>\n<hr><center>MaxCDN/2.7.2</center>\n</body>\n</html>\n```\n\nFor example\n- http://cdn.jsdelivr.net/webjars/angularjs/1.2.20/angular-cookies.min.js\n- http://cdn.jsdelivr.net/webjars/angularjs/1.2.21/angular-cookies.min.js\n- http://cdn.jsdelivr.net/webjars/angularjs-nvd3-directives/0.0.7-1/angularjs-nvd3-directives.js\n"
+  , issueState = StateClosed
+  , issueId = Id 39400340
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

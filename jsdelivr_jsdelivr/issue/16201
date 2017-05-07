@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-06) 22 : 06 : 28 UTC
+  , issueUpdatedAt = 2017 (-02) (-06) 22 : 06 : 29 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16201/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16201")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16201
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9252829
+        , simpleUserLogin = N "0ctobat"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/9252829?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/0ctobat"
+        }
+  , issueTitle = "Add octobat.js library on jsdeliver"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16201")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16201.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16201.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16201"
+  , issueCreatedAt = 2017 (-02) (-06) 16 : 19 : 54 UTC
+  , issueBody = Just "Add octobat.js library on jsdeliver"
+  , issueState = StateClosed
+  , issueId = Id 205634600
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

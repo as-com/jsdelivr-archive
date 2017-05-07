@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-31) 16 : 58 : 24 UTC
+  , issueUpdatedAt = 2017 (-03) (-31) 16 : 58 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17325/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/17325")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17325
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16397136
+        , simpleUserLogin = N "Syncfusion-JavaScript"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16397136?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/Syncfusion-JavaScript"
+        }
+  , issueTitle = "New Version Syncfusion packages not updated"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17325"
+  , issueCreatedAt = 2017 (-03) (-31) 12 : 04 : 49 UTC
+  , issueBody =
+      Just
+        "We have released the new version (15.1.0.41) Syncfusion-ej-global (https://www.jsdelivr.com/projects/syncfusion-ej-global) and Syncfusion-JavaScript (https://www.jsdelivr.com/projects/syncfusion-javascript) packages. But these are still not yet updated in registry.\r\n\r\nPlease look into this and update the latest version (15.1.0.41) Syncfusion packages.\r\n\r\nRegards,\r\nGanesan R."
+  , issueState = StateClosed
+  , issueId = Id 218482609
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

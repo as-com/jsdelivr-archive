@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-02) (-09) 20 : 48 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/278768938"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/16243#issuecomment-278768938"
+  , issueCommentCreatedAt = 2017 (-02) (-09) 20 : 48 : 52 UTC
+  , issueCommentBody =
+      "Both those options work for us on our end. We try not to enforce too many opinions on our users.\r\n\r\nI think the `bootstrap-native-v4.js` may make more sense but feel free to take either approach."
+  , issueCommentId = 278768938
+  }

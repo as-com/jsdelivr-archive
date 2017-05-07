@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-21) 18 : 26 : 23 UTC
+  , issueUpdatedAt = 2016 (-11) (-21) 18 : 26 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14854/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14854")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14854
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 13684891
+        , simpleUserLogin = N "Dog2puppy"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/13684891?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Dog2puppy"
+        }
+  , issueTitle = "Fixed update.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14854")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14854.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14854.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14854"
+  , issueCreatedAt = 2016 (-11) (-18) 21 : 03 : 01 UTC
+  , issueBody = Just "* Lower-cased the file names"
+  , issueState = StateClosed
+  , issueId = Id 190421112
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

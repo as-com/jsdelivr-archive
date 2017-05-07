@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-01) 14 : 06 : 11 UTC
+  , issueUpdatedAt = 2016 (-11) (-01) 14 : 06 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14468/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/14468")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14468
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6059356
+        , simpleUserLogin = N "limonte"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/6059356?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/limonte"
+        }
+  , issueTitle = "SweetAlert2 package is not updated to the latest"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14468"
+  , issueCreatedAt = 2016 (-10) (-27) 16 : 25 : 49 UTC
+  , issueBody =
+      Just
+        "You can see here https://cdn.jsdelivr.net/sweetalert2/latest/sweetalert2.js that current jsdelivr version of sweetalert2 is `v5.3.5`, but the actual latest is [v5.3.8](https://github.com/limonte/sweetalert2/releases/tag/v5.3.8), which was released 6 days ago.\n\nAlso, there's no https://cdn.jsdelivr.net/sweetalert2/5.3.8/sweetalert2.js which makes me think that something is happened to the indexing process of jsdelivr.\n"
+  , issueState = StateClosed
+  , issueId = Id 185717829
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

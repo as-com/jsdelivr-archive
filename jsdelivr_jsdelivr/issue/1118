@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-05) 11 : 17 : 36 UTC
+  , issueUpdatedAt = 2014 (-07) (-05) 15 : 32 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1118/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1118")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1118
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3691490
+        , simpleUserLogin = N "PeterDaveHello"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/3691490?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/PeterDaveHello"
+        }
+  , issueTitle = "add highcharts v4.0.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1118")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1118.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1118.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1118"
+  , issueCreatedAt = 2014 (-07) (-05) 06 : 47 : 43 UTC
+  , issueBody =
+      Just
+        "source : http://code.highcharts.com/zips/Highcharts-4.0.3.zip\n"
+  , issueState = StateClosed
+  , issueId = Id 37193574
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

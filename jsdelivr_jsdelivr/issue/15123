@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-30) 14 : 46 : 43 UTC
+  , issueUpdatedAt = 2016 (-11) (-30) 14 : 46 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15123/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15123")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15123
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 711580
+        , simpleUserLogin = N "glesage"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/711580?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/glesage"
+        }
+  , issueTitle = "Update project tracker-js to v1.0.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15123")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15123.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15123.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15123"
+  , issueCreatedAt = 2016 (-11) (-30) 01 : 24 : 12 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 192450076
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

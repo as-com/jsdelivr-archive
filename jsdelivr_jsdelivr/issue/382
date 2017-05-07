@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-24) 13 : 07 : 06 UTC
+  , issueUpdatedAt = 2015 (-06) (-24) 13 : 07 : 06 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/382/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/382")
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              URL
+                "https://api.github.com/repos/jsdelivr/jsdelivr/labels/enhancement"
+          , labelName = N "enhancement"
+          }
+      ]
+  , issueNumber = 382
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueTitle = "Reporting for each project"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/382"
+  , issueCreatedAt = 2014 (-02) (-25) 01 : 01 : 58 UTC
+  , issueBody =
+      Just
+        "Try to get a reliable number of hits per project. \n- Number of hits per project. Combine the hits of all files under cdn.jsdelivr.net/$projectName/*\n- I think 30 days of data is enough\n- Add a hits parameter to jsDelivr API.\n- Show hits on the website?\n\nI don't think bandwidth is that important, authors want the hits to see the popularity of their projects.\n"
+  , issueState = StateClosed
+  , issueId = Id 28213981
+  , issueComments = 11
+  , issueMilestone = Nothing
+  }

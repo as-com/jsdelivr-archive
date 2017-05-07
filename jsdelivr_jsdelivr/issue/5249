@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-10) 13 : 51 : 42 UTC
+  , issueUpdatedAt = 2015 (-06) (-13) 15 : 03 : 46 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5249/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/5249")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5249
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6238446
+        , simpleUserLogin = N "soodaa"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/6238446?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/soodaa"
+        }
+  , issueTitle = "Remove query strings from static resources"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5249"
+  , issueCreatedAt = 2015 (-06) (-10) 13 : 38 : 36 UTC
+  , issueBody =
+      Just
+        "I run a test with http://gtmetrix.com to measure the load time of my website https://www.internetvergelijk.nl\nThey recommend to remove query strings from static resources:\n\n\"Resources with a \"?\" in the URL are not cached by some proxy caching servers. Remove the query string and encode the parameters into the URL for the following resources: https://cdn.jsdelivr.net/g/conditionizr@4.5.0,modernizr@2.6.2,jquery@2.1.4?ver=4.2.2\"\n\nI use the following code: https://cdn.jsdelivr.net/g/conditionizr@4.5.0,modernizr@2.6.2,jquery@2.1.4\nIs it possible to get a higher score when using the combining functionality?\n"
+  , issueState = StateClosed
+  , issueId = Id 86974561
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

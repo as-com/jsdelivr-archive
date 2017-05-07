@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-30) 08 : 32 : 54 UTC
+  , issueUpdatedAt = 2016 (-06) (-30) 08 : 32 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12473/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12473")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12473
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project countly-sdk-web to 16.06.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12473")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12473.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12473.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12473"
+  , issueCreatedAt = 2016 (-06) (-30) 08 : 32 : 49 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project countly-sdk-web to 16.06.0.\n\n@Countly\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"countly-sdk-web\",\n    \"repo\": \"Countly/countly-sdk-web\",\n    \"files\": {\n      \"basePath\": \"lib\",\n      \"include\": [\"countly.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/countly-sdk-web\",\n    \"localVersions\": [\"15.08.0\", \"16.02.0\"],\n    \"remoteVersions\": [\"15.08.0\", \"16.02.0\", \"16.06.0\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/countly-sdk-web/update.json\",\n  \"versions\": [\"16.06.0\"],\n  \"updateRemote\": true,\n  \"version\": \"16.06.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/countly-sdk-web/16.06.0\",\n  \"branch\": \"countly-sdk-web/16.06.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 163110208
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

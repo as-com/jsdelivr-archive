@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-22) 17 : 09 : 19 UTC
+  , issueUpdatedAt = 2016 (-02) (-22) 17 : 09 : 19 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9908/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9908")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9908
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1886834
+        , simpleUserLogin = N "zallek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/1886834?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/zallek"
+        }
+  , issueTitle = "Add Botify"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9908")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9908.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9908.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9908"
+  , issueCreatedAt = 2016 (-02) (-22) 16 : 47 : 44 UTC
+  , issueBody = Just "thank you guys!\n"
+  , issueState = StateClosed
+  , issueId = Id 135472643
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

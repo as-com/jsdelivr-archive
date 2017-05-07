@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-07) 21 : 44 : 04 UTC
+  , issueUpdatedAt = 2015 (-02) (-11) 14 : 27 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3366/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3366")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3366
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project basket.js to v0.5.2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3366")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3366.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/3366.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/3366"
+  , issueCreatedAt = 2015 (-02) (-07) 21 : 44 : 03 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project basket.js to v0.5.2.\n\n@addyosmani\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"basket.js\",\n    \"repo\": \"addyosmani/basket.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"basket.full.min.js\", \"basket.full.min.js.map\", \"basket.min.js\", \"basket.min.js.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/basket.js\",\n    \"localVersions\": [\"0.5.0\", \"0.5.1\"],\n    \"remoteVersions\": [\"v0.2\", \"v0.3.0\", \"v0.3.1-pre.1\", \"v0.4.0\", \"v0.5.0\", \"v0.5.1\", \"v0.5.2\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v0.5.2\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/basket.js/0.5.2\",\n  \"branch\": \"basket.js/v0.5.2\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 56927277
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

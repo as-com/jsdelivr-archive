@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-07) 21 : 27 : 48 UTC
+  , issueUpdatedAt = 2014 (-03) (-07) 21 : 27 : 48 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/416/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/416")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 416
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10137
+        , simpleUserLogin = N "ghost"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10137?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ghost"
+        }
+  , issueTitle = "Should I continue to send PRs ?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/416"
+  , issueCreatedAt = 2014 (-03) (-06) 02 : 23 : 57 UTC
+  , issueBody =
+      Just
+        "Hi there,\n\nI remember you mentioned a new feature that would automagically synch the CDN every time I push a new version of my plugin to github. Is this feature already in place? In other words, should I continue to send you Pull Requests for my javascript files?\n\nThanks\n"
+  , issueState = StateClosed
+  , issueId = Id 28845040
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

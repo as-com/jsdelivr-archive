@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-15) 21 : 28 : 43 UTC
+  , issueUpdatedAt = 2014 (-10) (-15) 21 : 28 : 47 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2031/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2031")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2031
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3706742
+        , simpleUserLogin = N "ZacWolf"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/3706742?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/ZacWolf"
+        }
+  , issueTitle =
+      "jquery.mcustomscrollbar Added the missing mCSB_buttons.png css sprite image"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2031")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2031.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2031.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2031"
+  , issueCreatedAt = 2014 (-10) (-15) 19 : 57 : 09 UTC
+  , issueBody =
+      Just
+        "Added the missing mCSB_button.png CSS sprite image necessary to display the various scrollbar arrows\n"
+  , issueState = StateClosed
+  , issueId = Id 45911321
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

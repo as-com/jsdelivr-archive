@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-17) 13 : 42 : 24 UTC
+  , issueUpdatedAt = 2016 (-05) (-17) 13 : 42 : 24 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11655/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11655")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 11655
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9994529
+        , simpleUserLogin = N "bigopon"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/9994529?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/bigopon"
+        }
+  , issueTitle = "Request for dominic to be available on jsdelivr"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11655")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11655.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/11655.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/11655"
+  , issueCreatedAt = 2016 (-05) (-17) 13 : 40 : 37 UTC
+  , issueBody =
+      Just
+        "H, I don't know what we should normally write here so I'm just following tutorial to request dominic library to be available on jsdelivr.\n\nThank you\n\nRegards\n"
+  , issueState = StateClosed
+  , issueId = Id 155262208
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

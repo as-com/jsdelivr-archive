@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-13) 15 : 04 : 17 UTC
+  , issueUpdatedAt = 2016 (-09) (-13) 15 : 04 : 17 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12816/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12816")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 12816
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project angular-motion to v0.4.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12816")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12816.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/12816.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/12816"
+  , issueCreatedAt = 2016 (-07) (-19) 17 : 33 : 11 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project angular-motion to v0.4.4.\n\n@mgcrea\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"angular-motion\",\n    \"repo\": \"mgcrea/angular-motion\",\n    \"files\": {\n      \"include\": [\"dist/*.css\", \"dist/*.map\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/angular-motion\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.3.0\", \"v0.3.1\", \"v0.3.2\", \"v0.3.3\", \"v0.3.4\", \"v0.4.0\", \"v0.4.1\", \"v0.4.2\", \"v0.4.3\", \"v0.4.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/angular-motion/update.json\",\n  \"versions\": [\"v0.4.4\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.4.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/angular-motion/0.4.4\",\n  \"branch\": \"angular-motion/v0.4.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 166389184
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

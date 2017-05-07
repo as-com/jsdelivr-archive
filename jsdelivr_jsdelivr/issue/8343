@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-06) 23 : 02 : 49 UTC
+  , issueUpdatedAt = 2015 (-12) (-06) 23 : 02 : 49 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8343/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8343")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8343
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project howlerjs to v1.1.6"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8343")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8343.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8343.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8343"
+  , issueCreatedAt = 2015 (-12) (-06) 23 : 02 : 45 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project howlerjs to v1.1.6.\n\n@goldfire\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"howlerjs\",\n    \"repo\": \"goldfire/howler.js\",\n    \"files\": {\n      \"include\": [\"howler.js\", \"howler.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/howler.js\",\n    \"localVersions\": [\"1.0.7\", \"1.1.7\", \"1.1.8\", \"1.1.18\", \"1.1.19\", \"1.1.20\", \"1.1.21\", \"1.1.22\", \"1.1.23\", \"1.1.24\", \"1.1.25\", \"1.1.26\", \"1.1.27\", \"2.0.0-beta4\"],\n    \"remoteVersions\": [\"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\", \"v1.1.4\", \"v1.1.5\", \"v1.1.6\", \"v1.1.7\", \"v1.1.8\", \"v1.1.9\", \"v1.1.10\", \"v1.1.11\", \"v1.1.12\", \"v1.1.13\", \"v1.1.14\", \"v1.1.15\", \"v1.1.16\", \"v1.1.17\", \"v1.1.18\", \"v1.1.19\", \"v1.1.20\", \"v1.1.21\", \"v1.1.22\", \"v1.1.23\", \"v1.1.24\", \"v1.1.25\", \"v1.1.26\", \"v1.1.27\", \"v1.1.28\", \"v2.0.0-beta1\", \"v2.0.0-beta2\", \"v2.0.0-beta3\", \"v2.0.0-beta4\", \"v2.0.0-beta5\"],\n    \"branchVersions\": [\"v2.0.0-beta2\", \"v2.0.0-beta3\", \"v2.0.0-beta4\"]\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/howler.js/update.json\",\n  \"versions\": [\"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.1.3\", \"v1.1.4\", \"v1.1.5\", \"v1.1.6\", \"v1.1.7\", \"v1.1.8\", \"v1.1.9\", \"v1.1.10\", \"v1.1.11\", \"v1.1.12\", \"v1.1.13\", \"v1.1.14\", \"v1.1.15\", \"v1.1.16\", \"v1.1.17\", \"v1.1.18\", \"v1.1.19\", \"v1.1.20\", \"v1.1.21\", \"v1.1.22\", \"v1.1.23\", \"v1.1.24\", \"v1.1.25\", \"v1.1.26\", \"v1.1.27\", \"v1.1.28\", \"v2.0.0-beta1\", \"v2.0.0-beta2\", \"v2.0.0-beta3\", \"v2.0.0-beta4\", \"v2.0.0-beta5\"],\n  \"version\": \"v1.1.6\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/howler.js/1.1.6\",\n  \"branch\": \"howlerjs/v1.1.6\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 120668209
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

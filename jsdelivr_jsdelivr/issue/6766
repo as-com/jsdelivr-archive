@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-08) 17 : 33 : 59 UTC
+  , issueUpdatedAt = 2015 (-09) (-08) 17 : 33 : 59 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6766/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6766")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 6766
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project Code-Highlighter to v1.2.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6766")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6766.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/6766.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/6766"
+  , issueCreatedAt = 2015 (-09) (-08) 17 : 33 : 55 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project Code-Highlighter to v1.2.1.\n\n@avielfedida\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"Code-Highlighter\",\n    \"repo\": \"avielfedida/Code-Highlighter\",\n    \"files\": {\n      \"include\": [\"code-highlighter.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/code-highlighter\",\n    \"localVersions\": [\"1.0.8\", \"1.0.9\", \"1.1.0\", \"1.1.1\", \"1.1.2\", \"1.2.0\"],\n    \"remoteVersions\": [\"v1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.0.8\", \"v1.0.9\", \"v1.1.0\", \"v1.1.1\", \"v1.1.2\", \"v1.2.0\", \"v1.2.1\"],\n    \"branchVersions\": []\n  },\n  \"updateRemote\": true,\n  \"metadataPath\": \"/home/jsdelivr/files/code-highlighter/update.json\",\n  \"version\": \"v1.2.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/code-highlighter/1.2.1\",\n  \"branch\": \"Code-Highlighter/v1.2.1\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 105432554
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

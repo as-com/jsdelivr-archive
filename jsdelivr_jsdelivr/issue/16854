@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-11) 15 : 32 : 42 UTC
+  , issueUpdatedAt = 2017 (-03) (-11) 15 : 32 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16854/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16854")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16854
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project algoliasearch.helper to 2.20.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16854")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16854.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16854.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16854"
+  , issueCreatedAt = 2017 (-03) (-11) 15 : 32 : 38 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project algoliasearch.helper to 2.20.1.\n\n@algolia\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"algoliasearch.helper\",\n    \"repo\": \"algolia/algoliasearch-helper-js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/algoliasearch.helper\",\n    \"localVersions\": [\"1.0.0\", \"1.1.0\", \"2.0.0-beta\", \"2.0.0-rc5\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.0.4\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.2.0\", \"2.3.0\", \"2.3.1\", \"2.3.2\", \"2.3.3\", \"2.3.4\", \"2.3.5\", \"2.3.6\", \"2.4.0\", \"2.5.0\", \"2.5.1\", \"2.6.0\", \"2.6.2\", \"2.6.3\", \"2.6.4\", \"2.6.5\", \"2.6.6\", \"2.6.7\", \"2.6.8\", \"2.6.9\", \"2.7.0\", \"2.8.0\", \"2.8.1\", \"2.9.0\", \"2.9.1\", \"2.10.0\", \"2.11.0\", \"2.11.1\", \"2.12.0\", \"2.13.0\", \"2.14.0\", \"2.15.0\", \"2.16.0\", \"2.17.0\", \"2.17.1\", \"2.18.0\", \"2.18.1\", \"2.19.0\"],\n    \"remoteVersions\": [\"1.0.0\", \"1.1.0\", \"2.0.0-beta\", \"2.0.0-rc5\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\", \"2.0.4\", \"2.1.0\", \"2.1.1\", \"2.1.2\", \"2.2.0\", \"2.3.0\", \"2.3.1\", \"2.3.2\", \"2.3.3\", \"2.3.4\", \"2.3.5\", \"2.3.6\", \"2.4.0\", \"2.5.0\", \"2.5.1\", \"2.6.0\", \"2.6.1\", \"2.6.2\", \"2.6.3\", \"2.6.4\", \"2.6.5\", \"2.6.6\", \"2.6.7\", \"2.6.8\", \"2.6.9\", \"2.7.0\", \"2.8.0\", \"2.8.1\", \"2.9.0\", \"2.9.1\", \"2.10.0\", \"2.11.0\", \"2.11.1\", \"2.12.0\", \"2.13.0\", \"2.14.0\", \"2.15.0\", \"2.16.0\", \"2.17.0\", \"2.17.1\", \"2.18.0\", \"2.18.1\", \"2.19.0\", \"2.20.0\", \"2.20.1\"],\n    \"branchVersions\": [\"2.20.0\"]\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/algoliasearch.helper/update.json\",\n  \"versions\": [\"2.20.1\"],\n  \"updateRemote\": true,\n  \"version\": \"2.20.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/algoliasearch.helper/2.20.1\",\n  \"branch\": \"algoliasearch.helper/2.20.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 213535940
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

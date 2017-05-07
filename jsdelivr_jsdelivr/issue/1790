@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-21) 11 : 42 : 57 UTC
+  , issueUpdatedAt = 2014 (-09) (-21) 11 : 42 : 58 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1790/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1790")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1790
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project jquery.fancytree to v2.4.0"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1790")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1790.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1790.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1790"
+  , issueCreatedAt = 2014 (-09) (-21) 11 : 35 : 43 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project jquery.fancytree to v2.4.0.\n\n@mar10\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"jquery.fancytree\",\n    \"repo\": \"mar10/fancytree\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"*.min.js\", \"**/*.min.css\", \"**/*.gif\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/jquery.fancytree\",\n    \"localVersions\": [\"2.3.0\"],\n    \"remoteVersions\": [\"v2.0.0-1\", \"v2.0.0-2\", \"v2.0.0-3\", \"v2.0.0-4\", \"v2.0.0-5\", \"v2.0.0-6\", \"v2.0.0-7\", \"v2.0.0-8\", \"v2.0.0-9\", \"v2.0.0-10\", \"v2.0.0-11\", \"v2.0.0-12\", \"v2.0.0\", \"v2.1.0\", \"v2.2.0\", \"v2.3.0\", \"v2.4.0\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"v2.4.0\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/jquery.fancytree/2.4.0\",\n  \"branch\": \"jquery.fancytree/v2.4.0\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 43332920
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

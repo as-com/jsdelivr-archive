@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-07) (-11) 12 : 15 : 13 UTC
+  , issueUpdatedAt = 2013 (-07) (-11) 12 : 15 : 13 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/50/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/50")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 50
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2473850
+        , simpleUserLogin = N "esdrasedu"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/2473850?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/esdrasedu"
+        }
+  , issueTitle = "Angular-Restful in repo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/50")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/50.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/50.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/50"
+  , issueCreatedAt = 2013 (-07) (-11) 12 : 03 : 06 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 16627248
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

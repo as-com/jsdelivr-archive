@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-23) 13 : 14 : 23 UTC
+  , issueUpdatedAt = 2015 (-06) (-23) 13 : 14 : 23 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2548/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2548")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2548
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10005265
+        , simpleUserLogin = N "islamicscreens"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/10005265?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/islamicscreens"
+        }
+  , issueTitle = "Adding js and css files for theme"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2548")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2548.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2548.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2548"
+  , issueCreatedAt = 2014 (-11) (-30) 03 : 08 : 00 UTC
+  , issueBody =
+      Just "Adding CSS files and JS files for Mila theme for website\n"
+  , issueState = StateClosed
+  , issueId = Id 50445175
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

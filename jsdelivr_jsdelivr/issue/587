@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-07) 12 : 31 : 32 UTC
+  , issueUpdatedAt = 2014 (-04) (-07) 12 : 31 : 32 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/587/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/587")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 587
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1695972
+        , simpleUserLogin = N "pnommensen"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1695972?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/pnommensen"
+        }
+  , issueTitle = "Add Fathom.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/587")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/587.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/587.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/587"
+  , issueCreatedAt = 2014 (-04) (-07) 03 : 54 : 34 UTC
+  , issueBody =
+      Just
+        "Adds the fathom presentation framework from @markdalgleish. \n\nhttps://github.com/markdalgleish/fathom\n"
+  , issueState = StateClosed
+  , issueId = Id 30956974
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

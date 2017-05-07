@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2017 (-01) (-03) 20 : 33 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/270216877"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/15606#issuecomment-270216877"
+  , issueCommentCreatedAt = 2017 (-01) (-03) 20 : 33 : 22 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @jsdelivrbot, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr/blob/master/CONTRIBUTING.md) for help amending your PR...\n\n- We try to keep the file structure as consistent as possible between versions; there were some changes in file structure from previous versions...  \n    - In *bootstrap-richarea* between *1.1.1* and *1.3.0* there was a change in file structure  \n    ```diff\n    + image-106.png\n    + image-107.png\n    + image-108.png\n    + image-109.png\n    + image-110.png\n    + image-111.png\n    + image-112.png\n    + image-113.png\n    + image-114.png\n    + image-115.png\n    + image-116.png\n    + image-117.png\n    + image-118.png\n    + image-127.png\n    + image-128.png\n    + image-129.png\n    + image-130.png\n    + image-131.png\n    + image-132.png\n    + image-133.png\n    + image-134.png\n    + image-135.png\n    + image-136.png\n    + image-137.png\n    + image-138.png\n    + image-139.png\n    + image-15.png\n    + image-19.png\n    + image-20.png\n    + image-21.png\n    + image-22.png\n    + image-23.png\n    + image-24.png\n    + image-25.png\n    + image-26.png\n    + image-265.png\n    + image-266.png\n    + image-267.png\n    + image-27.png\n    + image-28.png\n    + image-280.png\n    + image-281.png\n    + image-282.png\n    + image-283.png\n    + image-284.png\n    + image-285.png\n    + image-29.png\n    + image-294.png\n    + image-295.png\n    + image-296.png\n    + image-30.png\n    + image-31.png\n    + image-32.png\n    + image-33.png\n    + image-42.png\n    + image-43.png\n    + image-44.png\n    + image-45.png\n    + image-46.png\n    + image-47.png\n    + image-53.png\n    + image-54.png\n    + image-55.png\n    + image-59.png\n    + image-65.png\n    + image-66.png\n    + image-69.png\n    + image-74.png\n    + image-75.png\n    + image-77.png\n    + image-85.png\n    + image-86.png\n    + image-95.png\n    - edit.html\n    - form-layouts.html\n    - layouts.html\n    - richarea-50.png\n    - richarea-51.png\n    - richarea-52.png\n    - richarea-56.png\n    - richarea-57.png\n    - richarea-58.png\n    - richarea-6.png\n    - richarea-60.png\n    - richarea-61.png\n    - richarea-62.png\n    - richarea-63.png\n    - richarea-64.png\n    - richarea-67.png\n    - richarea-68.png\n    - richarea-7.png\n    - richarea-70.png\n    - richarea-71.png\n    - richarea-72.png\n    - richarea-73.png\n    - richarea-76.png\n    - richarea-78.png\n    - richarea-79.png\n    - richarea-8.png\n    - richarea-80.png\n    - richarea-81.png\n    - richarea-82.png\n    - richarea-83.png\n    - richarea-84.png\n    - richarea-87.png\n    - richarea-88.png\n    - richarea-89.png\n    - richarea-9.png\n    - richarea-90.png\n    - richarea-91.png\n    - richarea-92.png\n    - richarea-93.png\n    - richarea-94.png\n    - richarea-96.png\n    - richarea-97.png\n    - richarea-98.png\n    - richarea-99.png\n    - richarea.css\n    - richarea.js\n    - richarea.min.css\n    - richarea.min.js\n    - view.html\n    ```\n  \n----------\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n*Favor focus over features.*\n"
+  , issueCommentId = 270216877
+  }

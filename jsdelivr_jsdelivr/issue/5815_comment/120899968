@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-13) 11 : 48 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 684026
+        , simpleUserLogin = N "mike-feldmeier"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/684026?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mike-feldmeier"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/120899968"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/5815#issuecomment-120899968"
+  , issueCommentCreatedAt = 2015 (-07) (-13) 11 : 48 : 31 UTC
+  , issueCommentBody =
+      "All set with release tag and update file.  As a note, you may want to update the example to exclude the non-minified version if that is not desired.\n"
+  , issueCommentId = 120899968
+  }

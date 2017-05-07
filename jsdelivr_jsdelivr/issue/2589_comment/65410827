@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-03) 14 : 03 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1834071
+        , simpleUserLogin = N "jimaek"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/1834071?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jimaek"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/65410827"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/issues/2589#issuecomment-65410827"
+  , issueCommentCreatedAt = 2014 (-12) (-03) 14 : 03 : 33 UTC
+  , issueCommentBody =
+      "Purging is ready. I sent you an email with instructions how it works.\n\nNow regarding the file not expiring by themselves I am not sure where is the problem.\nThe config in CloudFlare is correct. I even pinged their support to confirm this.\nTheir servers will listen to our cache-control header and cache the file for that amount of time.\n\nSo since we have `max-age=604800` the file should be re-fetched 7 days after it was cached.\n"
+  , issueCommentId = 65410827
+  }

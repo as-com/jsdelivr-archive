@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-01) 15 : 27 : 34 UTC
+  , issueUpdatedAt = 2014 (-12) (-01) 15 : 27 : 40 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2563/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2563")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2563
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2361099
+        , simpleUserLogin = N "Nagriar"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/2361099?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Nagriar"
+        }
+  , issueTitle = "Added non-minified version of algoliasearch"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2563")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2563.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/2563.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/2563"
+  , issueCreatedAt = 2014 (-12) (-01) 15 : 26 : 09 UTC
+  , issueBody =
+      Just
+        "Hi @jimaek,\n\nWe want to add the non-minified version.\n\nThanks!\n"
+  , issueState = StateClosed
+  , issueId = Id 50535775
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

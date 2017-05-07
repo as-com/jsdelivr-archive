@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-21) 17 : 13 : 55 UTC
+  , issueUpdatedAt = 2017 (-03) (-21) 17 : 13 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9669/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9669")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 9669
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10283625
+        , simpleUserLogin = N "grcasanova"
+        , simpleUserAvatarUrl =
+            URL "https://avatars3.githubusercontent.com/u/10283625?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/grcasanova"
+        }
+  , issueTitle = "Adding Jquery Cookie and Jquery Lang libraries"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9669")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9669.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/9669.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/9669"
+  , issueCreatedAt = 2016 (-02) (-09) 21 : 02 : 30 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 132533634
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

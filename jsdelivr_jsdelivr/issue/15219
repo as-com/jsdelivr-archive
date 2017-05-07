@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-12) (-06) 05 : 34 : 33 UTC
+  , issueUpdatedAt = 2016 (-12) (-06) 05 : 34 : 33 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15219/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15219")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15219
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project prelodr to v2.0.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15219")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15219.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15219.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15219"
+  , issueCreatedAt = 2016 (-12) (-06) 05 : 34 : 30 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project prelodr to v2.0.4.\n\n@joseluisq\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"prelodr\",\n    \"repo\": \"joseluisq/prelodr\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"prelodr.min.js\", \"prelodr.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/prelodr\",\n    \"localVersions\": [\"latest\", \"1.0.6\", \"1.0.7\", \"1.0.9\", \"2.0.0\", \"2.0.1\", \"2.0.2\", \"2.0.3\"],\n    \"remoteVersions\": [\"latest\", \"1.0.0\", \"1.0.1\", \"1.0.2\", \"1.0.3\", \"1.0.4\", \"1.0.5\", \"1.0.6\", \"1.0.7\", \"1.0.8\", \"1.0.9\", \"2.0.0\", \"v2.0.1\", \"v2.0.2\", \"v2.0.3\", \"v2.0.4\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/prelodr/update.json\",\n  \"versions\": [\"v2.0.4\"],\n  \"updateRemote\": true,\n  \"version\": \"v2.0.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/prelodr/2.0.4\",\n  \"branch\": \"prelodr/v2.0.4\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 193687165
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

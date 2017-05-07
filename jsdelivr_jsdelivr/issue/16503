@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-02) (-22) 16 : 36 : 18 UTC
+  , issueUpdatedAt = 2017 (-02) (-22) 16 : 36 : 20 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16503/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16503")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16503
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project mddatatable to v0.10.10"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16503")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16503.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16503.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16503"
+  , issueCreatedAt = 2017 (-02) (-22) 16 : 36 : 10 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project mddatatable to v0.10.10.\n\n@daniel-nagy\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"mddatatable\",\n    \"repo\": \"daniel-nagy/md-data-table\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/mddatatable\",\n    \"localVersions\": [],\n    \"remoteVersions\": [\"v0.7.6\", \"v0.8.0\", \"v0.8.1\", \"v0.8.2\", \"v0.8.3\", \"v0.8.4\", \"v0.8.5\", \"v0.8.6\", \"v0.8.7\", \"v0.8.8\", \"v0.8.9\", \"v0.8.10\", \"v0.8.11\", \"v0.8.12\", \"v0.8.13\", \"v0.8.14\", \"v0.9.0\", \"v0.9.1\", \"v0.9.2\", \"v0.9.3\", \"v0.9.4\", \"v0.9.5\", \"v0.9.6\", \"v0.9.7\", \"v0.9.8\", \"v0.9.9\", \"v0.9.10\", \"v0.9.11\", \"v0.9.12\", \"v0.9.13\", \"v0.9.14\", \"v0.9.15\", \"v0.10.0\", \"v0.10.1\", \"v0.10.2\", \"v0.10.3\", \"v0.10.4\", \"v0.10.5\", \"v0.10.6\", \"v0.10.7\", \"v0.10.8\", \"v0.10.9\", \"v0.10.10\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/mddatatable/update.json\",\n  \"versions\": [\"v0.10.10\"],\n  \"updateRemote\": true,\n  \"version\": \"v0.10.10\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/mddatatable/0.10.10\",\n  \"branch\": \"mddatatable/v0.10.10\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 209508983
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-14) 21 : 52 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5274747
+        , simpleUserLogin = N "hubdotcom"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/5274747?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/hubdotcom"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/93078720"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/4296#issuecomment-93078720"
+  , issueCommentCreatedAt = 2015 (-04) (-14) 21 : 52 : 00 UTC
+  , issueCommentBody =
+      "See conversation with developer here https://github.com/desandro/imagesloaded/issues/187\n\nThe file imagesloaded.min.js has been removed as it is not useful on it's own (the packaged script is the essential lib). Can we can get this request approved to pull 3.1.8?\n"
+  , issueCommentId = 93078720
+  }

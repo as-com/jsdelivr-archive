@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-01) (-20) 15 : 52 : 05 UTC
+  , issueUpdatedAt = 2017 (-01) (-20) 15 : 52 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15871/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15871")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15871
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19267400
+        , simpleUserLogin = N "grenouille220"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/19267400?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/grenouille220"
+        }
+  , issueTitle = "Tsumegumi.js: Maintainer / Owner changed"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15871")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15871.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/15871.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15871"
+  , issueCreatedAt = 2017 (-01) (-20) 11 : 14 : 07 UTC
+  , issueBody =
+      Just
+        "Tsumegumi.js repository has been transferred from company's account to my personal account.\r\nMaintenance issue. Please reflect the change for the CDN too. No hurry.\r\n\r\nThank you in advance and sorry for the inconvenience"
+  , issueState = StateClosed
+  , issueId = Id 202115190
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

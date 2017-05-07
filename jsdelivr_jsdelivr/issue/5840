@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-13) 17 : 34 : 15 UTC
+  , issueUpdatedAt = 2015 (-07) (-13) 17 : 34 : 15 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5840/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5840")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 5840
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8698364
+        , simpleUserLogin = N "jacob-israel-turner"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/8698364?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/jacob-israel-turner"
+        }
+  , issueTitle = "Create widget.js"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5840")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5840.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/5840.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/5840"
+  , issueCreatedAt = 2015 (-07) (-13) 17 : 27 : 37 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 94770565
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

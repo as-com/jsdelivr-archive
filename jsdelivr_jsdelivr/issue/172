@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-03) 13 : 52 : 03 UTC
+  , issueUpdatedAt = 2014 (-07) (-01) 00 : 47 : 30 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/172/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/172")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 172
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 495709
+        , simpleUserLogin = N "wa0x6e"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/495709?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/wa0x6e"
+        }
+  , issueTitle = "Add new cal-heatmap versions"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/172")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/172.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/172.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/172"
+  , issueCreatedAt = 2013 (-12) (-03) 12 : 59 : 45 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 23640756
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

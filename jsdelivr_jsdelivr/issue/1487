@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-22) 12 : 52 : 45 UTC
+  , issueUpdatedAt = 2014 (-08) (-22) 14 : 52 : 09 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1487/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1487")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1487
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 544954
+        , simpleUserLogin = N "sahat"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/544954?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/sahat"
+        }
+  , issueTitle = "Added Satellizer 0.3.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1487")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1487.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1487.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1487"
+  , issueCreatedAt = 2014 (-08) (-22) 02 : 40 : 41 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 40872308
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

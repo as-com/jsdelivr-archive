@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-28) 09 : 59 : 36 UTC
+  , issueUpdatedAt = 2015 (-10) (-28) 11 : 38 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7593/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7593")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7593
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11852894
+        , simpleUserLogin = N "yumeixxx"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/11852894?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/yumeixxx"
+        }
+  , issueTitle = "Add update.json for prettyPhoto"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7593")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7593.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7593.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7593"
+  , issueCreatedAt = 2015 (-10) (-27) 23 : 23 : 38 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 113710512
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

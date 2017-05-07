@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-02) 19 : 39 : 44 UTC
+  , issueUpdatedAt = 2014 (-03) (-02) 19 : 39 : 44 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/403/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/403")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 403
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3475472
+        , simpleUserLogin = N "megawac"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/3475472?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/megawac"
+        }
+  , issueTitle = "Add tags to info.ini"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/403"
+  , issueCreatedAt = 2014 (-03) (-02) 05 : 26 : 48 UTC
+  , issueBody =
+      Just "Add filter keywords to tags to help searching repos.\n"
+  , issueState = StateClosed
+  , issueId = Id 28573648
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-20) 22 : 03 : 44 UTC
+  , issueUpdatedAt = 2017 (-03) (-20) 22 : 03 : 45 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17027/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17027")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17027
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project figuration to v3.0.0-alpha.1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17027")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17027.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17027.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17027"
+  , issueCreatedAt = 2017 (-03) (-20) 22 : 03 : 37 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project figuration to v3.0.0-alpha.1.\n\n@cast-org\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"figuration\",\n    \"repo\": \"cast-org/figuration\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"**/*\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/figuration\",\n    \"localVersions\": [\"0.1.0\", \"1.0.0\", \"1.1.0\", \"1.2.0\", \"1.3.0\", \"1.3.1\", \"2.0.0\"],\n    \"remoteVersions\": [\"v0.1.0\", \"v1.0.0\", \"v1.1.0\", \"v1.2.0\", \"v1.3.0\", \"v1.3.1\", \"v2.0.0\", \"v3.0.0-alpha.1\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/figuration/update.json\",\n  \"versions\": [\"v3.0.0-alpha.1\"],\n  \"updateRemote\": true,\n  \"version\": \"v3.0.0-alpha.1\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/figuration/3.0.0-alpha.1\",\n  \"branch\": \"figuration/v3.0.0-alpha.1\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 215569135
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

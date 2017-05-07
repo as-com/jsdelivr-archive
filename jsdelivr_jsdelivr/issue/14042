@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-29) 10 : 21 : 05 UTC
+  , issueUpdatedAt = 2016 (-09) (-29) 10 : 21 : 05 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14042/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14042")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14042
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16397136
+        , simpleUserLogin = N "Syncfusion-JavaScript"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16397136?v=3"
+        , simpleUserUrl =
+            URL "https://api.github.com/users/Syncfusion-JavaScript"
+        }
+  , issueTitle = "Add syncfusion 14.2.32 script and Css files"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14042")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14042.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14042.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14042"
+  , issueCreatedAt = 2016 (-09) (-29) 10 : 03 : 22 UTC
+  , issueBody =
+      Just "Hi Team,\nCan you Please merge this commits asap.\n"
+  , issueState = StateClosed
+  , issueId = Id 180005780
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

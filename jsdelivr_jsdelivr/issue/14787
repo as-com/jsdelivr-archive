@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-11) (-15) 19 : 50 : 18 UTC
+  , issueUpdatedAt = 2016 (-11) (-15) 19 : 50 : 18 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14787/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14787")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 14787
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4730969
+        , simpleUserLogin = N "oliversturm"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/4730969?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/oliversturm"
+        }
+  , issueTitle = "add data-transformer"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14787")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14787.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/14787.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/14787"
+  , issueCreatedAt = 2016 (-11) (-15) 15 : 02 : 36 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 189415088
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-11) 15 : 05 : 55 UTC
+  , issueUpdatedAt = 2017 (-04) (-11) 15 : 05 : 55 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17465/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17465")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17465
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5140254
+        , simpleUserLogin = N "mearns"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5140254?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/mearns"
+        }
+  , issueTitle = "Add 'text-scribe'"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17465")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17465.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17465.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17465"
+  , issueCreatedAt = 2017 (-04) (-07) 20 : 38 : 25 UTC
+  , issueBody =
+      Just
+        "I'd like to contribute a new javascript project, `text-scribe`."
+  , issueState = StateClosed
+  , issueId = Id 220322479
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2017 (-04) (-24) 05 : 36 : 52 UTC
+  , issueUpdatedAt = 2017 (-04) (-24) 05 : 36 : 53 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17766/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17766")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 17766
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project Print.js to v1.0.15"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17766")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17766.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/17766.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/17766"
+  , issueCreatedAt = 2017 (-04) (-24) 05 : 36 : 43 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project Print.js to v1.0.15.\n\n@crabbly\n\n### Metadata information\n\n```json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"Print.js\",\n    \"repo\": \"crabbly/Print.js\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"print.min.js\", \"print.min.css\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/libgrabber/jsdelivr/files/printjs\",\n    \"localVersions\": [\"1.0.3\", \"1.0.9\", \"1.0.10\", \"1.0.11\", \"1.0.12\", \"1.0.13\", \"1.0.14\"],\n    \"remoteVersions\": [\"v.1.0.0\", \"v1.0.1\", \"v1.0.2\", \"v1.0.3\", \"v1.0.4\", \"v1.0.5\", \"v1.0.6\", \"v1.0.7\", \"v1.0.8\", \"v1.0.9\", \"v1.0.10\", \"v1.0.11\", \"v1.0.12\", \"v1.0.13\", \"v1.0.14\", \"v1.0.15\"],\n    \"branchVersions\": []\n  },\n  \"metadataPath\": \"/home/libgrabber/jsdelivr/files/printjs/update.json\",\n  \"versions\": [\"v1.0.15\"],\n  \"updateRemote\": true,\n  \"version\": \"v1.0.15\",\n  \"updated\": true,\n  \"updatePath\": \"/home/libgrabber/jsdelivr/files/printjs/1.0.15\",\n  \"branch\": \"Print.js/v1.0.15\"\n}\n```"
+  , issueState = StateClosed
+  , issueId = Id 223708295
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

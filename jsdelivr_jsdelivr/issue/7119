@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-28) 16 : 22 : 59 UTC
+  , issueUpdatedAt = 2015 (-09) (-28) 16 : 23 : 03 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7119/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7119")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 7119
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5095856
+        , simpleUserLogin = N "Jerskouille"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/5095856?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/Jerskouille"
+        }
+  , issueTitle = "Add update.json to jquery.serializejson"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7119")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7119.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/7119.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/7119"
+  , issueCreatedAt = 2015 (-09) (-28) 15 : 12 : 41 UTC
+  , issueBody =
+      Just
+        "Hi,\n\nThe last version on jsdelivr is 1.2.3, and the project is now at version 2.6.1, so I'm just setting up the `update.json` file for this one.\n\nCheers!\n"
+  , issueState = StateClosed
+  , issueId = Id 108678612
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

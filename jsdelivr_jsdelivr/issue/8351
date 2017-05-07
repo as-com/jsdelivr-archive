@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-08) 10 : 37 : 45 UTC
+  , issueUpdatedAt = 2015 (-12) (-08) 13 : 27 : 43 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8351/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8351")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 8351
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2006839
+        , simpleUserLogin = N "DiegoRBaquero"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2006839?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/DiegoRBaquero"
+        }
+  , issueTitle = "angular.file-upload auto-update"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8351")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8351.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/8351.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/8351"
+  , issueCreatedAt = 2015 (-12) (-07) 16 : 26 : 18 UTC
+  , issueBody =
+      Just "Auto update angular.file-upload (ng-file-upload)\n"
+  , issueState = StateClosed
+  , issueId = Id 120811130
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

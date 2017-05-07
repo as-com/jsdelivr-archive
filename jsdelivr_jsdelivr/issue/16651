@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2017 (-03) (-01) 17 : 08 : 28 UTC
+  , issueUpdatedAt = 2017 (-03) (-06) 21 : 00 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16651/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16651")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 16651
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 16632552
+        , simpleUserLogin = N "tomsonpl"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/16632552?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/tomsonpl"
+        }
+  , issueTitle = "Tomsonpl patch 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16651")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16651.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/16651.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/16651"
+  , issueCreatedAt = 2017 (-03) (-01) 13 : 13 : 50 UTC
+  , issueBody =
+      Just "Hopefully last change,    from src to dist path"
+  , issueState = StateClosed
+  , issueId = Id 211077507
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-25) 11 : 51 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5516214
+        , simpleUserLogin = N "robman87"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/5516214?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/robman87"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/64388772"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/2491#issuecomment-64388772"
+  , issueCommentCreatedAt = 2014 (-11) (-25) 11 : 51 : 31 UTC
+  , issueCommentBody =
+      "Just noticed that the directory name is misspelled anglular.flow instead of angular.flow, guess it would break peoples links if it is changed. \nMaybe create the correct directory with an update.json file and leave the misspelled one as it was?\n"
+  , issueCommentId = 64388772
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-11) (-28) 21 : 13 : 35 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15009/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/issues/15009")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15009
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1068356
+        , simpleUserLogin = N "benallfree"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/1068356?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/benallfree"
+        }
+  , issueTitle =
+      "Can't find bootstrap-modal-fullscreen after successful merge"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/15009"
+  , issueCreatedAt = 2016 (-11) (-28) 21 : 13 : 35 UTC
+  , issueBody =
+      Just
+        "Does a merge of #14911 mean it should be live on jsdelivr.com? It's been about a week and it still doesn't come up in searching."
+  , issueState = StateOpen
+  , issueId = Id 192118614
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

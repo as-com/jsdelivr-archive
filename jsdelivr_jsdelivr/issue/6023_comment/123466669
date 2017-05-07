@@ -1,0 +1,21 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-21) 20 : 19 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueCommentUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/comments/123466669"
+  , issueCommentHtmlUrl =
+      URL
+        "https://github.com/jsdelivr/jsdelivr/pull/6023#issuecomment-123466669"
+  , issueCommentCreatedAt = 2015 (-07) (-21) 20 : 19 : 46 UTC
+  , issueCommentBody =
+      "It looks like you want to contribute to `jsdelivr/jsdelivr`, @megawac, however there seems to be some issues with your pull request. See [contributing](https://github.com/jsdelivr/jsdelivr#file-structure) for help amending your PR...\n- Looks like the `info.ini` or `update.json` has some problems\n  - The mainfile property should be wrapped in double quotes (e.g. `mainfile = \"backbone.wreqr.min.js\"`) and contain no other double quotes\n  - The github property should be wrapped in double quotes (e.g. `github = \"https://github.com/marionettejs/backbone.wreqr.git\"`) and contain no other double quotes\n  - The homepage property should be wrapped in double quotes (e.g. `homepage = \"https://github.com/marionettejs/backbone.wreqr\"`) and contain no other double quotes\n  - The description property should be wrapped in double quotes (e.g. `description = \"A Simple Service Bus For Backbone and Backbone.Marionette\"`) and contain no other double quotes\n  - The author property should be wrapped in double quotes (e.g. `author = \"Derick Bailey\"`) and contain no other double quotes\n\n---\n\n<sup>Thanks again for contributing.. If you think this review was wrong/unfair/etc. submit a bug on [the bot's repo](https://github.com/jsdelivr/bot)</sup>  \n_Non-blocking is better than blocking._\n"
+  , issueCommentId = 123466669
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-26) 15 : 12 : 11 UTC
+  , issueUpdatedAt = 2014 (-08) (-26) 15 : 12 : 11 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1375/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1375")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1375
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2700564
+        , simpleUserLogin = N "facundofarias"
+        , simpleUserAvatarUrl =
+            URL "https://avatars2.githubusercontent.com/u/2700564?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/facundofarias"
+        }
+  , issueTitle = "Added 0.5 version and update.json file"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1375")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1375.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1375.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1375"
+  , issueCreatedAt = 2014 (-08) (-07) 14 : 14 : 46 UTC
+  , issueBody = Just ""
+  , issueState = StateClosed
+  , issueId = Id 39729284
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

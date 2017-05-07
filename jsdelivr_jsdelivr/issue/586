@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-07) 12 : 30 : 51 UTC
+  , issueUpdatedAt = 2014 (-04) (-07) 12 : 30 : 57 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/586/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/586")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 586
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1637573
+        , simpleUserLogin = N "lhorie"
+        , simpleUserAvatarUrl =
+            URL "https://avatars0.githubusercontent.com/u/1637573?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/lhorie"
+        }
+  , issueTitle = "mithril v0.1.3"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/586")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/586.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/586.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/586"
+  , issueCreatedAt = 2014 (-04) (-07) 01 : 49 : 11 UTC
+  , issueBody =
+      Just
+        "Version upgrade\n\nSource: http://lhorie.github.io/mithril/mithril.min.zip\n"
+  , issueState = StateClosed
+  , issueId = Id 30953995
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

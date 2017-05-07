@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-11) 22 : 26 : 37 UTC
+  , issueUpdatedAt = 2014 (-08) (-11) 22 : 26 : 39 UTC
+  , issueEventsUrl =
+      URL
+        "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1408/events"
+  , issueHtmlUrl =
+      Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1408")
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1408
+  , issueAssignees = []
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7389911
+        , simpleUserLogin = N "jsdelivrbot"
+        , simpleUserAvatarUrl =
+            URL "https://avatars1.githubusercontent.com/u/7389911?v=3"
+        , simpleUserUrl = URL "https://api.github.com/users/jsdelivrbot"
+        }
+  , issueTitle = "Update project globalize to 1.0.0-alpha.4"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1408")
+          , pullRequestReferencePatchUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1408.patch")
+          , pullRequestReferenceDiffUrl =
+              Just (URL "https://github.com/jsdelivr/jsdelivr/pull/1408.diff")
+          }
+  , issueUrl =
+      URL "https://api.github.com/repos/jsdelivr/jsdelivr/issues/1408"
+  , issueCreatedAt = 2014 (-08) (-11) 22 : 26 : 12 UTC
+  , issueBody =
+      Just
+        "libgrabber updated project globalize to 1.0.0-alpha.4.\n\n@jquery\n### Metadata information\n\n``` json\n{\n  \"metadata\": {\n    \"packageManager\": \"github\",\n    \"name\": \"globalize\",\n    \"repo\": \"jquery/globalize\",\n    \"files\": {\n      \"basePath\": \"dist/\",\n      \"include\": [\"globalize.js\", \"globalize.min.js\", \"globalize/date.min.js\", \"globalize/message.min.js\", \"globalize/number.min.js\"],\n      \"exclude\": []\n    },\n    \"path\": \"/home/jsdelivr/files/globalize\",\n    \"localVersions\": [\"0.1.1\", \"1.0.0-alpha.3\"],\n    \"remoteVersions\": [\"v0.1.1\", \"1.0.0-alpha.1\", \"1.0.0-alpha.2\", \"1.0.0-alpha.3\", \"1.0.0-alpha.4\"],\n    \"branchVersions\": []\n  },\n  \"version\": \"1.0.0-alpha.4\",\n  \"updated\": true,\n  \"updatePath\": \"/home/jsdelivr/files/globalize/1.0.0-alpha.4\",\n  \"branch\": \"globalize/1.0.0-alpha.4\"\n}\n```\n"
+  , issueState = StateClosed
+  , issueId = Id 40007411
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }
